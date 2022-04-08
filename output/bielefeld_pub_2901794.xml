@@ -1,0 +1,109 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2901794">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Providing Intelligent Assistance for Product Configuration in Manufacturing. A Learning-to-Rank Approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Carsten</namePart>
+                        <namePart type="family">Poggemeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Hartung</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6549-066X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Yaxin</namePart>
+                        <namePart type="family">Bi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Supriya</namePart>
+                        <namePart type="family">Kapoor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Rahul</namePart>
+                        <namePart type="family">Bhatia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Configuring complex products can be a challenge due to the huge number of configuration possibilities. In this paper, our goal is to foster the development of intelligent configuration assistants that can support customers in configuring
+complex products. We formalize the task as a machine learning problem and in particular as a learning-to-rank problem. Given pairwise preferences elicited from experts, we show that we can train a model using support vector machines that ranks possible products according to their relevance to a given set of requirements specified by a user.</abstract>
+                    <subject>
+                        <topic>Product Configuration</topic>
+                        <topic>Ranking</topic>
+                        <topic>Information Retrieval</topic>
+                        <topic>Machine Learning</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the SAI Intelligent Systems Conference (IntelliSys) 2016. Vol. 1</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>866</start>
+                                <end>879</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29017949</identifier>
+                    <identifier type="doi">10.1007/978-3-319-56994-9_59</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2901794</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2901794">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2901794/2906469/preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2901794" DMDID="DMD2901794">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2901794"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

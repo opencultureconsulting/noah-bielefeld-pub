@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935619">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sherzod</namePart>
+                        <namePart type="family">Hakimov</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7421-6213</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-03-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The task of answering natural language questions over structured data has received wide
+interest in recent years. Structured data in the form of knowledge bases has been available
+for public usage with coverage on multiple domains. DBpedia and Freebase are such knowledge
+bases that include encyclopedic data about multiple domains. However, querying such
+knowledge bases requires an understanding of a query language and the underlying ontology,
+which requires domain expertise. Querying structured data via question answering systems
+that understand natural language has gained popularity to bridge the gap between the data
+and the end user.
+In order to understand a natural language question, a question answering system needs
+to map the question into query representation that can be evaluated given a knowledge base.
+An important aspect that we focus in this thesis is the multilinguality. While most research
+focused on building monolingual solutions, mainly English, this thesis focuses on building
+multilingual question answering systems. The main challenge for processing language input
+is interpreting the meaning of questions in multiple languages.
+In this thesis, we present three different semantic parsing approaches that learn models
+to map questions into meaning representations, into a query in particular, in a supervised
+fashion. Each approach differs in the way the model is learned, the features of the model, the
+way of representing the meaning and how the meaning of questions is composed. The first
+approach learns a joint probabilistic model for syntax and semantics simultaneously from the
+labeled data. The second method learns a factorized probabilistic graphical model that builds
+on a dependency parse of the input question and predicts the meaning representation that is
+converted into a query. The last approach presents a number of different neural architectures
+that tackle the task of question answering in end-to-end fashion. We evaluate each approach
+using publicly available datasets and compare them with state-of-the-art QA systems.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29356195</identifier>
+                    <identifier type="sys">HT020129151</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935619</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935619">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935619/2935620/Sherzod_Hakimov_PhD_Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935619" DMDID="DMD2935619">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935619"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

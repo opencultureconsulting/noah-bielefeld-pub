@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2704212">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Information Inference in Scholarly Communication Infrastructures: The OpenAIREplus Project Experience</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mateusz</namePart>
+                        <namePart type="family">Kobos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Łukasz</namePart>
+                        <namePart type="family">Bolikowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marek</namePart>
+                        <namePart type="family">Horst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Paolo</namePart>
+                        <namePart type="family">Manghi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Natalia</namePart>
+                        <namePart type="family">Manola</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Schirrwagen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0458-1004</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Information Inference Framework presented in this paper provides a general-purpose suite of tools enabling the definition and execution of flexible and reliable data processing workflows whose nodes offer application-specific processing capabilities. The IIF is designed for the purpose of processing big data, and it is implemented on top of Apache Hadoop-related technologies to cope with scalability and high-performance execution requirements. As a proof of concept we will describe how the framework is used to support linking and contextualization services in the context of the OpenAIRE infrastructure for scholarly communication.</abstract>
+                    <subject>
+                        <topic>big data</topic>
+                        <topic>data processing system</topic>
+                        <topic>OpenAIRE infrastructure</topic>
+                        <topic>data mining</topic>
+                        <topic>text mining</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Procedia Computer Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>38</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>92</start>
+                                <end>99</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1877-0509</identifier>
+                    <identifier type="ISI">000345438800015</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27042128</identifier>
+                    <identifier type="doi">10.1016/j.procs.2014.10.016</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2704212</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2704212">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2704212/2704220/1-s2.0-S1877050914013763-main.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2704212" DMDID="DMD2704212">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2704212"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

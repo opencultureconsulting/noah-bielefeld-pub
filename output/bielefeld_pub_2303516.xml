@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303516">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Herstellung von Nanostrukturen mit S-layer Maskentechnik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Panhorst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-12-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Ziel dieser Arbeit war die Strukturierung dünner Schichten aus ferromagnetischen Materialien mit einem S-layer-Protein als Maske. Dazu wurden zuerst S-layer Stücke des Bakteriums Deinococcus Radiodurans auf einen Si-Wafer aufgebracht, darauf eine 2,5 nm dünne Schicht eines ferromagnetischen Metalls aufgesputtert und die Oberfläche schließlich mit Argonionen geätzt. Die Probenoberflächen wurden mit einem Rasterelektronenmikroskop und einem Kraftmikroskop untersucht.
+Für die verwendeten Metalle Kobalt (Co), Eisen (Fe), Eisen-Kobalt (Fe 50 Co 50), Kobalt-Nickel (Co 43 Ni 57), Permalloy (Ni 81 Fe 19) und Titan (Ti) wurden bei geeigneten Ätzparametern Nanostrukturen gefunden. Die Metallschicht hat jeweils die hexagonale Struktur des darunterliegenden S-layers angenommen, d.h. es wurden 10 nm große Punkte hergestellt, die in einer hexagonalen Struktur mit einer Gitterkonstante von a = b = 18 nm angeordnet sind.</abstract>
+                    <subject>
+                        <topic>Nanostruktur</topic>
+                        <topic>Maske (Halbleitertechnologie)</topic>
+                        <topic>Nanostructures</topic>
+                        <topic>Crystalline bacterial cell surface layer</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-926</identifier>
+                    <identifier type="sys">HT014423305</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303516</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2303516">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303516/2303521/Diplom.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2303516">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303516/2303520/Diplom.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE2_bielefeld_pub_2303516">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303516/2303519/Diplom-HTML.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-tar" ID="FILE3_bielefeld_pub_2303516">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303516/2584082/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303516" DMDID="DMD2303516">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303516"/>
+            <mets:div TYPE="part" ID="PART1_2303516" LABEL="Diplom.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2303516"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2303516" LABEL="Diplom-HTML.zip">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2303516"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2303516" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2303516"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

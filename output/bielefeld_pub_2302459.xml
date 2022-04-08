@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302459">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Soummaya</namePart>
+                        <namePart type="family">Abdul-Hak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-03-07</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Abstrakte Shapes wurden 2004 bei der Analyse von RNA-Sekundärstrukturen eingeführt und haben seither viele Anwendungen gefunden. Abstrakte Shapes sind Abstraktionen von Strukturen, wobei eine einzelne Shape eine Klasse von ähnlichen Strukturen enthält. Weiterhin enthält eine Shape als repräsentative Struktur diejenige mit der kleinsten freien Energie.
+Das Werkzeug RNAshapes bietet 5 verschiedene Abstraktionslevel (Shape-Typen), die hierarchisch aufgebaut sind. Je niedriger das Shape-Level, desto mehr Strukturelemente - wie Bulge oder Internal-Loops - werden in die Shape-Repräsentation einbezogen. Die Anzahl der Shapes ist exponentiell in der Sequenzlänge, wächst aber langsamer als die Anzahl der Strukturen. Das Wachstumsverhalten ist aus zwei Gründen interessant: Erstens geht es in die asymptotische Laufzeit von Algorithmen zur Shape-Analyse ein. Zweitens gibt die Gesamtzahl der Shapes eine Obergrenze für die Größe von Shape-Indices an, zu denen RNA-Datenbanken für die Struktur-basierte Suche vorverarbeitet werden.
+Die offene Frage der asymptotischen Anzahl der Shapes hat einiges Interesse in der theoretischen Bioinformatik gefunden. Die Asymptotik der Anzahl der Shapes wurden durch Lorenz, Ponty und Clote (2008) für Sequenzen der Länge n (Shape Typ 3 und 5) bestimmt, während  Nebel und Scheid (2009) Shapes der Länge n untersuchten (Shape Typ 1-5).
+Das Anliegen der Arbeit war es, gewisse kombinatorische Aussagen über abstrakte Shapes zu gewinnen. Wieviel Shapes gibt es mit n Klammerpaaren? Wieviel Shapes gibt es zu Sequenzen der Länge n? Was ist die erwartete Anzahl der Shapes für eine Sequenz der Länge n? Zur letzten Frage erscheint ein theoretischer Zugang schwierig; daher wurden empirische Messungen ins Auge gefasst.
+In meinen Ergebnissen habe ich die Rekurrenzformel für die Anzahl der Shapes aller Sequenzen der Längen &lt;=n und ihrer asymptotischen Anzahl berechnet. Weiterhin habe ich die Rekurrenzformel für die Anzahl der Shapes mit n Klammerpaaren für Shape-Typ 1-5 durch Shape-Grammatik hergeleitet und die asymptotische Anzahl für Shape 3, 4 und 5 berechnet. Die Asymptotik für Shape Typen 3 und 4 ist gleich, weil die Shapes die gleichen Repräsentationen haben. Trotzdem hat eine konkrete Sequenz mehr Typ 4- als Typ 3-Shapes! Das liegt am Unterschied in den Shape-Abstraktionsabbildungen und ist auf der Ebene der Shapes-Notationen nicht mehr erkennbar. 
+Der asymptotische Wert für die Anzahl der Shapes aller Sequenzen der Länge n hat die allgemeine Formel a^n*b*n^(-3/2). Dies gilt für alle Shape-Typen. Ein solche Formel entspricht dem Erwartungswert für die Anzahl der Shapes. Mit Hilfe des Programms RNAshapes habe ich für eine große Menge Sequenzen bestimmter Länge die jeweiligen Anzahlen des Shapes-Typs 5 im Shape Raum bestimmt. Mit der statistischen Analyse habe ich die Parameter a und b der allgemeinen Formel bestimmt.</abstract>
+                    <subject>
+                        <topic>Sekundärstruktur</topic>
+                        <topic>RNS</topic>
+                        <topic>Asymptotik</topic>
+                        <topic>Erzeugende Funktion</topic>
+                        <topic>RNA Shapes</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18247</identifier>
+                    <identifier type="sys">HT016775681</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302459</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302459">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302459/2302462/Analytische_und_empirische_Untersuchungen_ueber_abstrakte_Shapes_von_RNA_Sekundaerstrukturen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302459" DMDID="DMD2302459">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302459"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

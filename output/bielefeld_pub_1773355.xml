@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773355">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Improving the divide-and-conquer approach to sum-of-pairs multiple sequence alignment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sören W.</namePart>
+                        <namePart type="family">Perrey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Dress</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1997</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider the problem of multiple sequence alignment: given k sequences of length at most n and a certain scoring function, find an alignment that minimizes the corresponding &quot;sum of pairs&quot; distance score. We generalize the divide-and-conquer technique described in [1,2], and present new ideas on how to use efficient search strategies for saving computer memory and accelerating the procedure for three or more sequences. Resulting running times and memory usage are shown for several test cases.</abstract>
+                    <subject>
+                        <topic>Dynamic programming</topic>
+                        <topic>Multiple sequence alignment</topic>
+                        <topic>Divide-and-conquer</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Applied mathematics letters</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>67</start>
+                                <end>73</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0893-9659</identifier>
+                    <identifier type="ISI">A1997WP35200013</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17733553</identifier>
+                    <identifier type="doi">10.1016/S0893-9659(97)00013-X</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773355</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773355">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773355/2311232/science3.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773355" DMDID="DMD1773355">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773355"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

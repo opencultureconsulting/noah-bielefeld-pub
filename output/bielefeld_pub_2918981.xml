@@ -1,0 +1,147 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918981">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">ter Horst</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3244-6595</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Hartung</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6549-066X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nicole</namePart>
+                        <namePart type="family">Brazda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hans Werner</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Max</namePart>
+                        <namePart type="family">Silberztein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Faten</namePart>
+                        <namePart type="family">Atigui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elena</namePart>
+                        <namePart type="family">Kornyshova</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabeth</namePart>
+                        <namePart type="family">Métais</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Farid</namePart>
+                        <namePart type="family">Meziane</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Template-based information extraction generalizes over standard token-level binary relation extraction in the sense that it attempts to fill a complex template comprising multiple slots on the basis of information given in a text. In the approach presented in this paper, templates and possible fillers are defined by a given ontology. The information extraction task consists in filling these slots within a template with previously recognized entities or literal values. We cast the task as a structure prediction problem and propose a joint probabilistic model based on factor graphs to account for the interdependence in slot assignments. Inference is implemented as a heuristic building on Markov chain Monte
+Carlo sampling. As our main contribution, we investigate the impact of soft constraints modeled as single slot factors which measure preferences of individual slots for ranges of fillers, as well as pairwise slot factors modeling the compatibility between fillers of two slots. Instead of relying on expert knowledge to acquire such soft constraints, in our approach they are directly captured in the model and learned from training data. We show that both types of factors are effective in improving information extraction on a real-world data set of full-text papers from the biomedical domain. Pairwise factors are shown to particularly improve the performance of our extraction model by up to +0.43 points in precision, leading to an F 1 score of 0.90 for individual templates.</abstract>
+                    <subject>
+                        <topic>Ontology-based Information Extraction</topic>
+                        <topic>Slot Filling</topic>
+                        <topic>Probabilistic Graphical Models</topic>
+                        <topic>Soft Constraints</topic>
+                        <topic>Database Population</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the 23rd International Conference on Natural Language &amp; Information Systems (NLDB)</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10859</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>179</start>
+                                <end>190</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-319-91946-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29189812</identifier>
+                    <identifier type="doi">10.1007/978-3-319-91947-8_18</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918981</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918981">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918981/2919103/obie.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918981" DMDID="DMD2918981">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918981"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

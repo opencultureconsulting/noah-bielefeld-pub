@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2670657">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using context for the combination of off-line and on-line learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Queißer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9725-6971</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Wersing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis proposes a classifier combination system in the context of traversability classification. The goal is to enable a system to utilize on-line training for a fast adaptation to new and changing environments. Moreover the on-line classifier is able to handle additional context information that is only available in the on-line environment. Therefore the learning system is based on two different classifiers: One off-line trained classifier is trained in a pre-processing step and one on-line classifier that adapts its internal representation according to the current task complexity. The off-line classifier allows to use general information that is available for the target application area and can be trained by a slow exhaustive off-line training process. The on-line classifier is accountable for a specialization during operation, therefore it is desirable to achieve fast and efficient learning due to the high costs of the acquisition of labeled training data. To achieve a system that is able to combine different types of classifiers that use different and dynamic input spaces an external probability estimation technique is used. The experimental results highlight the benefits of the proposed classifier combination system in comparison to a solution that is based on a single classifier. It was shown that the classifier combination leads to a fast system adaptation to a new environment that was used for on-line learning. Moreover a specialization of the classifiers in a divide-and-conquer manner to certain data set sub-spaces can be observed. The comparison between systems that used different combinations of input features shows that additional context information in combination with a feature weighting technique can be able to improve the system performance. The introduction of a probability threshold for sample rejection allows a considerably performance increase of the classified samples.</abstract>
+                    <subject>
+                        <topic>classifier combination</topic>
+                        <topic>machine learning</topic>
+                        <topic>feature selection</topic>
+                        <topic>on-line learning</topic>
+                        <topic>grmlvq</topic>
+                        <topic>honda</topic>
+                        <topic>hri</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26706579</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2670657</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2670657">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670657/2670658/jqueisse_master_pub.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2670657" DMDID="DMD2670657">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2670657"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

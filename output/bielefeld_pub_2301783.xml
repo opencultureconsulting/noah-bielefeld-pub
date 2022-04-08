@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301783">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Structures, processes, and clustering of complex networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Krueger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philippe</namePart>
+                        <namePart type="family">Blanchard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-02-05</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This dissertation combines different viewpoints on the emerging &quot;physics of networks&quot;. After a general introduction to the new physics of complex networks (scale-free degree distribution, small worlds, etc.), and ethical considerations about the protection of data about people, three different aspects of and on complex networks are presented, each of which formed the topic of a paper.
+
+In the first paper, the network of EU-funded collaborative R&amp;D projects is analyzed by measuring the &quot;small world&quot; effects of small diameter and high clustering. Scale-free degree distributions are found, and the exponents measured. The results are similiar to other collaboration networks. Three plausible models (random set, configuration model similiar to MolloyReed, and an additive version of the latter) are created and examined to understand the influence of the size distributions of projects and organisations. While many of the empirical findings are similiar to the &quot;synthetic Europes&quot;, the main found difference is higher edge multiplicities of the unimodal projections in the case of the empirical Europe, implying that previous collaborations are repeated more often than in the respective random models.
+
+The second paper uses the example of corruption to illustrate how one can extend classical epidemic processes to generalized epidemic processes (GEP) on complex networks. There is a strong nonlinear dependence of the transmission probability on the local density of corruption: To model the resistance of the individual against corruption, the main neighbour infection process is triggered only above a given threshold of infected neighbours. The model also includes a global mean-field influence that simulates the effect of e.g. mass media, and a similiarly global cleaning process that depends on the ratio of the still uncorrupted nodes. The local and global processes can exhibit a fatal resonance. In contrast to classical epidemics, a phase transition in the initial infection ratio is observed, and studied under variation of the process and the network parameters. A smart transition finder algorithm is used to avoid critical slowing down in the critical region. The networks are varied with respect to edge density, triangle density, exponent of the scale-free degree distribution, and degree correlation (additive, multiplicative). High clustering accelerates the infection in this model. Scale-free networks with exponent gamma approaching 2 (resulting in hubs with a very large degree) exhibit an interesting difference: Such model societies with a multiplicative degree correlation are easier to completely infect by our corruption process than networks with an additive degree correlation.
+
+The third paper describes a clustering approach that seems to be new to the physics networks community. Clustering results are often visualized as block-structured adjacency matrices. When the nodes are clustered and sorted by their cluster order, the adjacency matrix shows blocks of more-strongly connected subspaces along the matrix diagonal. The following idea inspired this new algorithm was: Why not directly sort the nodes into such a block-structure? An inductively developed deterministic algorithm is described that uses a parameterized heuristic of mutual distances of all nodes, reorders them by smallest distances in a linear chain, cuts between clusters at the highest distance jumps, and takes the one clustering with the best modularity as the end result. The three parameters influence the mixing of the direct connection weight A_ij, the two-step connections (A^2)_ij, the N1-neighbourhood similarity, and the N2-neighbourhood similarity (structural equivalence). A proof-of-concept-implementation suitable for small networks is described. The algorithmic time complexity is O(N^3) due to the matrix multiplication; a discussion of possible enhancements to the algorithm is given. The success of the algorithm is demonstrated through application to several networks: the Zachary Karate Club, where by this method a 3-clustering could be found that has a higher-modularity than the clusterings reported in the literature; a set of 96 tumors that are clustered by their gene-similarity; and clustered topics of 27000 EU-funded R&amp;D projects.</abstract>
+                    <subject>
+                        <topic>Netzwerk (Graphentheorie)</topic>
+                        <topic>Soziales Netzwerk</topic>
+                        <topic>Netzwerkanalyse (Soziologie)</topic>
+                        <topic>Korruption</topic>
+                        <topic>Netzwerk (Physik)</topic>
+                        <topic>Komplexe Netzwerke</topic>
+                        <topic>Clustering</topic>
+                        <topic>EU-Projekte</topic>
+                        <topic>Skalenfreie Degree-Verteilung</topic>
+                        <topic>Complex networks</topic>
+                        <topic>Scale-free degree distribution</topic>
+                        <topic>EU projects</topic>
+                        <topic>Corruption</topic>
+                        <topic>Clustering</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12478</identifier>
+                    <identifier type="sys">HT015530798</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301783</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301783/2301786/AndreasKrueger_PhD_Networks_v1.00_FINAL_%2820071031%29.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301783" DMDID="DMD2301783">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301783"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,117 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1773560</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:004</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Algorithmic complexity of protein identification: combinatorics of weighted strings</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Mark</namePart>
+  <namePart type="family">Cieliebak</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Erlebach</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Zsuzsanna</namePart>
+  <namePart type="family">Lipták</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Stoye</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">65864</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4656-7155</description></name>
+<name type="personal">
+  <namePart type="given">Emo</namePart>
+  <namePart type="family">Welzl</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">We investigate a problem which arises in computational biology: Given a constant-size alphabet [Mathematical script A] with a weight function µ : [Mathematical script A] --&gt; [Double-struck N], find an efficient data structure and query algorithm solving the following problem: For a string [sigma] over [Mathematical script A] and a weight [Mathematical italic M] [element of] [Double-struck N], decide whether [sigma] contains a substring with weight [Mathematical italic M], where the weight of a string is the sum of the weights of its letters (One-String Mass Finding Problem). If the answer is yes, then we may in addition require a witness, i.e., indices i [less-than or equal to] j such that the substring beginning at position i and ending at position j has weight [Mathematical italic M]. We allow preprocessing of the string and measure efficiency in two parameters: storage space required for the preprocessed data and running time of the query algorithm for given [Mathematical italic M]. We are interested in data structures and algorithms requiring subquadratic storage space and sublinear query time, where we measure the input size as the length n of the input string [sigma]. Among others, we present two non-trivial efficient algorithms: Lookup solves the problem with O(n) storage space and O(n/log n) time; Interval solves the problem for binary alphabets with O(n) storage space in O(log n) query time. We introduce other variants of the problem and sketch how our algorithms may be extended for these variants. Finally, we discuss combinatorial properties of weighted strings.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CIE_ERL_LIP_STO_WEL_2004.pdf">https://pub.uni-bielefeld.de/download/1773560/2311288/CIE_ERL_LIP_STO_WEL_2004.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Elsevier BV</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Computational biology</topic><topic>Weighted strings</topic><topic>Protein identification</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Discrete Applied Mathematics</title></titleInfo>
+  <identifier type="issn">0166-218X</identifier>
+  <identifier type="ISI">000188188900003</identifier><identifier type="urn">urn:nbn:de:0070-pub-17735609</identifier><identifier type="doi">10.1016/S0166-218X(03)00187-2</identifier>
+<part><detail type="volume"><number>137</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">27-46</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<wels>Cieliebak, M.; Erlebach, T.; Lipták, Z.; Stoye, J.; Welzl, E. (2004): Algorithmic complexity of protein identification: combinatorics of weighted strings &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;,137:(1): 27-46.</wels>
+<harvard1>Cieliebak, M., et al., 2004. Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;, 137(1), p 27-46.</harvard1>
+<bio1>Cieliebak M, Erlebach T, Lipták Z, Stoye J, Welzl E (2004) &lt;br /&gt;Algorithmic complexity of protein identification: combinatorics of weighted strings.&lt;br /&gt;Discrete Applied Mathematics 137(1): 27-46.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cieliebak, M., Erlebach, T., Lipták, Z., Stoye, J., &amp;amp; Welzl, E. (2004). Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;, &lt;em&gt;137&lt;/em&gt;(1), 27-46. &lt;a href="https://doi.org/10.1016/S0166-218X(03)00187-2" target="_blank"&gt;https://doi.org/10.1016/S0166-218X(03)00187-2&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<angewandte-chemie>M.  Cieliebak, T.  Erlebach, Z.  Lipták, J.  Stoye, and E.  Welzl, “Algorithmic complexity of protein identification: combinatorics of weighted strings”, &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;, &lt;strong&gt;2004&lt;/strong&gt;, &lt;em&gt;137&lt;/em&gt;, 27-46.</angewandte-chemie>
+<ama>Cieliebak M, Erlebach T, Lipták Z, Stoye J, Welzl E. Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;. 2004;137(1):27-46.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cieliebak, M., Erlebach, T., Lipták, Z., Stoye, J. &amp;amp; Welzl, E. (2004). Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;, &lt;em&gt;137&lt;/em&gt;(1), 27-46. Elsevier BV. doi:10.1016/S0166-218X(03)00187-2.&lt;/div&gt;</dgps>
+<frontiers>Cieliebak, M., Erlebach, T., Lipták, Z., Stoye, J., and Welzl, E. (2004). Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt; 137, 27-46.</frontiers>
+<apa>Cieliebak, M., Erlebach, T., Lipták, Z., Stoye, J., &amp;amp; Welzl, E. (2004). Algorithmic complexity of protein identification: combinatorics of weighted strings. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;, &lt;em&gt;137&lt;/em&gt;(1), 27-46. &lt;a href="https://doi.org/10.1016/S0166-218X(03)00187-2" target="_blank"&gt;https://doi.org/10.1016/S0166-218X(03)00187-2&lt;/a&gt;</apa>
+<ieee> M. Cieliebak, et al., “Algorithmic complexity of protein identification: combinatorics of weighted strings”, &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt;,  vol. 137, 2004,  pp. 27-46.</ieee>
+<lncs> Cieliebak, M., Erlebach, T., Lipták, Z., Stoye, J., Welzl, E.: Algorithmic complexity of protein identification: combinatorics of weighted strings. Discrete Applied Mathematics. 137, 27-46 (2004).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cieliebak, Mark, Erlebach, Thomas, Lipták, Zsuzsanna, Stoye, Jens, and Welzl, Emo. 2004. “Algorithmic complexity of protein identification: combinatorics of weighted strings”. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt; 137 (1): 27-46.&lt;/div&gt;</chicago>
+<mla>Cieliebak, Mark, Erlebach, Thomas, Lipták, Zsuzsanna, Stoye, Jens, and Welzl, Emo. “Algorithmic complexity of protein identification: combinatorics of weighted strings”. &lt;em&gt;Discrete Applied Mathematics&lt;/em&gt; 137.1 (2004): 27-46.</mla>
+<default>Cieliebak M, Erlebach T, Lipták Z, Stoye J, Welzl E (2004) &lt;br /&gt;&lt;em&gt;Discrete Applied Mathematics&lt;/em&gt; 137(1): 27-46.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1773560</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-01-18T09:11:15Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:59:15Z</recordChangeDate>
+</recordInfo>
+</mods>

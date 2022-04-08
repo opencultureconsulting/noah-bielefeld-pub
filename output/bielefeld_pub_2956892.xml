@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2956892">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Waste Collection Problem with Service Type Option</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sina</namePart>
+                        <namePart type="family">Gläser</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9523-0105</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Efficient solid waste management is one of the most relevant issues for urban communities.
+With regard to the service type of household waste collection, there are two approaches in
+practice: When collecting household waste via a door-to-door system, the collection vehicles
+drive down all the streets to empty the garbage cans on the curb. Using a bring system,
+waste is accumulated at central collection sites with a larger capacity. While residents do
+have to travel an additional distance to dispose of their waste at these central collection sites,
+a bring system can reduce the distance to be covered by collection vehicles because they
+no longer have to drive down all the streets. To combine the advantages of both systems,
+in this article the service type decision is introduced. The corresponding waste collection
+problem with service type option (WCPSTO) is modeled as a new variant of a periodic location
+routing problem and an adaptive large neighborhood search-based solution approach
+is proposed. This solution approach not only solves the newly presented problem, but also
+outperforms a solution algorithm for a related waste collection problem seen in the literature,
+which can be seen as a special case of the WCPSTO.</abstract>
+                    <subject>
+                        <topic>Combinatorial optimization</topic>
+                        <topic>Waste collection</topic>
+                        <topic>Vehicle routing</topic>
+                        <topic>ALNS</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>13-2021</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>41</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29568928</identifier>
+                    <identifier type="doi">10.4119/unibi/2956892</identifier>
+                    <identifier type="sys">HT021115216</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2956892</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2956892">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2956892/2956927/wpaper_13_2021.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2956892" DMDID="DMD2956892">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2956892"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

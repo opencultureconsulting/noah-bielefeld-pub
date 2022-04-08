@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2905890">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Neue Marktkonzentration? Eine Analyse der Open-Access-Kosten in Deutschland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Najko</namePart>
+                        <namePart type="family">Jahn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Tullney</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Forschung &amp; Lehre</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>23</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>10</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>886</start>
+                                <end>887</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0945-5604</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29058903</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2905890</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2905890">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905890/2906308/outreach_forschung_und_lehre_openapc-master-5862416ae3170ec23b2aa935703efec5b25d05a9.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2905890">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905890/2906309/authorsversion.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2905890" DMDID="DMD2905890">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2905890"/>
+            <mets:div TYPE="part" ID="PART1_2905890" LABEL="authorsversion.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2905890"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

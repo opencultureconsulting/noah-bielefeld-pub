@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2937637">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Model for the Optimal Management of Inflation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Salvatore</namePart>
+                        <namePart type="family">Federico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Schuhmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Consider a central bank that can adjust the inflation rate by increasing and decreasing
+the level of the key interest rate. Each intervention gives rise to proportional costs,
+and the central bank faces also a running penalty, e.g., due to misaligned levels of inflation
+and interest rate. We model the resulting minimization problem as a Markovian degenerate
+two-dimensional bounded-variation stochastic control problem. Its characteristic is that the
+mean-reversion level of the diffusive inflation rate is an affine function of the purely controlled
+interest rate&apos;s current value. By relying on a combination of techniques from viscosity theory
+and free-boundary analysis, we provide the structure of the value function and we show that
+it satisfies a second-order smooth-fit principle. Such a regularity is then exploited in order to
+determine a system of functional equations solved by the two monotone curves that split the
+control problem&apos;s state space in three connected regions.</abstract>
+                    <subject>
+                        <topic>singular stochastic control</topic>
+                        <topic>Dynkin game</topic>
+                        <topic>viscosity solution</topic>
+                        <topic>free boundary</topic>
+                        <topic>smooth-fit</topic>
+                        <topic>inflation rate</topic>
+                        <topic>interest rate</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>624</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29376370</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2937637</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2937637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2937637/2937743/IMW_working_paper_624_neu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2937637" DMDID="DMD2937637">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2937637"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

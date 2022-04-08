@@ -1,0 +1,139 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2902049</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Gene family-free genome comparison</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Daniel</namePart>
+  <namePart type="family">Dörr</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">22396833</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3720-6227</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">David</namePart>
+  
+  
+  <namePart type="family">Sankoff</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">17527752</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Computational comparative genomics offers valuable insights into the shared and individual evolutionary histories of living and extinct species and expands our understanding of cellular processes in living cells.  Comparing genomes means identifying differences that originated from mutational modifications in their evolutionary past. 
+
+In studying genome evolution, one differentiates between point mutations, genome rearrangements, and content modifications.  Point mutations affect one or few consecutive nucleotide bases in the DNA sequence, whereas genome rearrangements  operate on larger genomic regions, thereby altering the order and composition of genes in chromosomal sequences. Lastly, content modifications are a result of gene family evolution that causes gene duplications and losses. 
+
+Genome rearrangement studies commonly assume that evolutionary relationships between all pairs of genes are resolved. Based on the biological concept of homology, the set of genes can be partitioned into gene families. All genes in a gene family are homologous, i.e., they evolved from the same ancestral sequence.  Homology information is generally not given, hence gene families are commonly predicted computationally on the basis of sequence similarity or higher order features of their gene products. These predictions are often unreliable, leading to errors in subsequent genome rearrangement studies.  
+
+In an attempt to avoid errors resulting from incorrect or incomplete gene family assignments, we develop new methods for genome rearrangement studies that do not require prior knowledge of gene family assignments of genes. Our approach, called gene family-free genome comparison, is innovative in that we account for differences between genes caused by point mutations while studying their order and composition in chromosomes.  In lieu of gene family assignments, our proposed methods rely on pairwise similarities between genes.  In practice, we obtain gene similarities from the conservation of their protein sequences. 
+
+Two genes that are located next to each other on a chromosome are said to be adjacent, their adjoining extremities form an adjacency. The number of conserved adjacencies, i.e., those adjacencies that are common to two genomes, gives rise to a measure for gene~order-based genome similarity. If the gene content of both genomes is identical, the number of conserved adjacencies is the dual measure of the well-known breakpoint distance.  We study the problem of computing the number of conserved adjacencies in a family-free setting, which relies on pairwise similarities between genes.  We analyze its computational complexity and develop exact and heuristic algorithms for its solution in pairwise comparisons.
+
+We then advance to the problem of reconstructing ancestral sequences. Given three genomes, we study the problem of constructing a fourth genome, called the median, which maximizes a family-free, pairwise measure of conserved adjacencies between the median and each of the three given genomes. Our model is a family-free generalization of the well-studied mixed multichromosomal breakpoint median. We show that this problem is NP-hard and devise an exact algorithm for its solution.
+
+Gene orders become increasingly scrambled over longer evolutionary periods of time. In distant genomes, gene order analyses based on identifying pairs of conserved adjacencies might no longer be informative. Yet, relaxed constraints of gene order conservation are still able to capture weaker, but nonetheless existing remnants of common ancestral gene order, which leads to the problem of identifying syntenic blocks in two or more genomes. Knowing the evolutionary relationships between genes, one can assign a unique character to each gene family and represent a chromosome by a string drawn from the alphabet of gene family characters. Two intervals from two strings are called common intervals if the sets of characters within these intervals are identical. We extend this concept to indeterminate strings, which are a class of strings that have at every position a non-empty set of characters. We propose several models of common intervals in indeterminate strings and devise efficient algorithms for their corresponding discovery problems. Subsequently, we use the concept of common intervals in indeterminate strings to identify syntenic regions in a gene family-free setting. 
+
+We evaluate all our proposed models and algorithms on simulated or biological datasets and assess their performance and applicability in gene family-free genome analyses.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PhDThesis.pdf">https://pub.uni-bielefeld.de/download/2902049/2902050/PhDThesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-29020493</identifier>
+<part><extent unit="pages">127</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-04-17</dateOther>
+<extension>
+<bibliographicCitation>
+<frontiers>Dörr, D. (2016). Gene family-free genome comparison. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, D. (2016). &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<ama>Dörr D. &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2016.</ama>
+<ieee> D. Dörr, &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2016.</ieee>
+<apa>Dörr, D. (2016).  &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<wels>Dörr, D. (2016): Gene family-free genome comparison. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>D.  Dörr, &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, D. (2016).  &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<harvard1>Dörr, D., 2016. &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Dörr D (2016) &lt;br /&gt;&lt;em&gt;Gene family-free genome comparison&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, Daniel. 2016. &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Dörr, D.: Gene family-free genome comparison. Universität Bielefeld, Bielefeld (2016).</lncs>
+<aps> D.  Dörr, Gene family-free genome comparison, (Universität Bielefeld, Bielefeld, 2016).</aps>
+<default>Dörr D (2016) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Dörr, Daniel. &lt;em&gt;Gene family-free genome comparison&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2016.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2902049</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-03-31T08:25:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:30Z</recordChangeDate>
+</recordInfo>
+</mods>

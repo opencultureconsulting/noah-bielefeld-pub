@@ -1,0 +1,94 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301718</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Claudia Consuelo</namePart>
+  <namePart type="family">Rubiano Castellanos</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">3720065</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Thomas</namePart>
+  
+  
+  <namePart type="family">Merkle</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10017</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">It is well established that nucleo-cytoplasmic shuttling regulates not only the localization but also the activity of many proteins like transcription factors, cell cycle regulators and tumor suppressor proteins just to mention some. Also in plants the nucleo-cytoplasmic partitioning of proteins emerges as an important regulation mechanism for many plant-specific processes.
+One requirement for a protein to shuttle between nucleus and cytoplasm lies in its nuclear export activity. The widely used mechanism for export of proteins from the nucleus involves the receptor Exportin 1 and the presence of a nuclear export signal (NES) in the cargo protein. Given the big amount of sequence data available nowadays the possibility to use a computational tool to predict the proteins potentially containing an NES would help to facilitate the screening and experimental characterization of NES-containing proteins. However, the computational prediction of NESs is a challenging task. Currently there is only one NES prediction tool and that is unfortunately not accurate for predicting these signals in proteins of plants. In that direction, this study aimed mainly at developing a prediction method for identifying NESs in proteins from Arabidopsis and to validate its usefulness experimentally. It included also the definition of the influence of the NES protein context in the nuclear export activity of specific proteins of Arabidopsis.
+Three machine-learning algorithms (i.e. k-NN, SVM and Random Forests) were trained with experimentally validated NES sequences from proteins of Arabidopsis and other organisms. Two kinds of features were included, the sequence of the NESs expressed as the score obtained from an HMM profile constructed with the NES sequences of proteins from Arabidopsis, and physicochemical properties of the amino acid residues expressed as amino acid index values. The Random Forest classifier was selected among the three classifiers after evaluation of the performance by different methods. It showed to be highly accurate (accuracy values over 85 percent, classification error around 10 percent, MCC around 0.7 and area under the ROC curve around 0.90) and performed better than the other two trained classifiers.
+Using the Random Forest classifier around 5000 proteins from the total of protein sequences from Arabidopsis were predicted as containing NESs. A group of these proteins was selected by using Gene Ontologies (GO) and from this last group, 13 proteins were experimentally tested for nuclear export activity. 11 out of those 13 proteins showed positive interaction with the receptor Exportin 1 (XPO1a) from Arabidopsis in yeast two-hybrid assays. The proteins showing nuclear export activity include 9 transcription factors and 2 DNA metabolism-related proteins. Furthermore, it was established that the amino acid residues located between the hydrophobic residues in the NES as well as the protein structure of the regions around the NES could modify the nuclear export activity of some proteins.
+In conclusion, this work presents a new prediction tool for NESs in proteins of Arabidopsis based on a Random Forest classifier. The experimental validation of the nuclear export activity in a selected group of proteins is an indicative of the usefulness of the tool. From the biological point of view, the nuclear export activity observed in those proteins strongly suggest that nucleo-cytoplasmic partitioning could be involved in the regulation of their functions. For the follow up research the further characterization of the proteins showing positive nuclear export activity as well as the validation of additional predicted NES-containing proteins is envisioned. In the near future, the developed tool is going to be available as a web application to facilitate and promote its further usage.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="RubianoClaudia_disertation_e.pdf">https://pub.uni-bielefeld.de/download/2301718/2301721/RubianoClaudia_disertation_e.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-17235</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-06-23</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Rubiano Castellanos CC (2010) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Rubiano Castellanos, Claudia Consuelo. &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2010.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Rubiano Castellanos, Claudia Consuelo. 2010. &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Rubiano Castellanos, C.C.: Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool. Bielefeld University, Bielefeld (Germany) (2010).</lncs>
+<ieee> C.C. Rubiano Castellanos, &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2010.</ieee>
+<apa>Rubiano Castellanos, C. C. (2010).  &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Rubiano Castellanos, C. C. (2010). Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Rubiano Castellanos, C.C. (2010). &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Rubiano Castellanos CC. &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2010.</ama>
+<angewandte-chemie>C. C.  Rubiano Castellanos, &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Rubiano Castellanos, C.C., 2010. &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Rubiano Castellanos CC (2010) &lt;br /&gt;&lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Rubiano Castellanos, C. C. (2010).  &lt;em&gt;Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Rubiano Castellanos, C. C. (2010): Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool. Bielefeld (Germany): Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301718</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-07-16T12:56:42Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:13Z</recordChangeDate>
+</recordInfo>
+</mods>

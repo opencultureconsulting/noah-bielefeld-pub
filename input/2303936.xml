@@ -1,0 +1,97 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303936</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>3D scene reconstruction by integration of photometric and geometric methods</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Pablo</namePart>
+  <namePart type="family">d'Angelo</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Franz</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this thesis, we have developed a framework for image-based 3D reconstruction of sparse point clouds and dense depth maps. The framework is based on self-consistent integration of geometric and photometric constraints on the surface shape, such as triangulation, defocus and reflectance. The reconstruction of point clouds starts by tracking object features over a range of distances from the camera with a small depth of field, leading to a varying degree of defocus for each feature.
+Information on absolute depth is obtained based on a Depth from Defocus approach. The parameters of the point spread functions estimated by Depth from Defocus are used as a regularisation term for Structure from Motion. The reprojection error obtained from bundle adjustment and the absolute depth error obtained from Depth from Defocus are simultaneously minimised for all tracked object features. The proposed method yields absolutely scaled 3D coordinates of the scene points without any prior knowledge about either scene structure or the camera motion.
+Another part of the framework is the estimation of dense depth maps based on intensity and polarisation reflectance and absolute depth data from arbitrary sources, eg. the Structure from Motion and Defocus method.
+The proposed technique performs the analysis on any combination of single or multiple intensity and polarisation images. To compute the surface gradients, we present a global optimisation method based on a variational framework and a local optimisation method based on solving a set of nonlinear equations individually for each image pixel. These approaches are suitable for strongly non-Lambertian surfaces and those of diffuse reflectance behaviour and can also be adapted to surfaces of non-uniform albedo. We describe how independently measured absolute depth data is integrated into the Shape from Photopolarimetric Reflectance (SfPR) framework in order to increase the accuracy of the 3D reconstruction result.
+We evaluate the proposed framework on both synthetic and real-world data. The Structure from Motion and Defocus algorithm yields relative errors of absolute scale of usually less than 3 percent.
+In our real-world experiments with SfPR, we regard the scenarios of 3D reconstruction of raw forged iron surfaces in the domain of industrial quality inspection and the generation of a digital elevation model of a section of the lunar surface. The obtained depth accuracy is better than the lateral pixel resolution.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_dangelo.pdf">https://pub.uni-bielefeld.de/download/2303936/2303939/diss_dangelo.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Computer vision</topic><topic>Close range photogrammetry</topic><topic>3D reconstruction</topic><topic>Shape from shading</topic><topic>Polarisation</topic><topic>Bundle adjustment</topic><topic>Maschinelles Sehen</topic><topic>Dreidimensionale Rekonstruktion</topic><topic>Qualitätskontrolle</topic><topic>Polarisation</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-11458</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-07-12</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;d'Angelo, Pablo. 2007. &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> d'Angelo, P.: 3D scene reconstruction by integration of photometric and geometric methods. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<default>d'Angelo P (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>d'Angelo, Pablo. &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<wels>d'Angelo, P. (2007): 3D scene reconstruction by integration of photometric and geometric methods. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>P.  d'Angelo, &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<bio1>d'Angelo P (2007) &lt;br /&gt;&lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>d'Angelo, P., 2007. &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;d'Angelo, P. (2007).  &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;d'Angelo, P. (2007). &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>d'Angelo, P. (2007). 3D scene reconstruction by integration of photometric and geometric methods. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>d'Angelo P. &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<ieee> P. d'Angelo, &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<apa>d'Angelo, P. (2007).  &lt;em&gt;3D scene reconstruction by integration of photometric and geometric methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303936</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-08-13T08:05:11Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:35:38Z</recordChangeDate>
+</recordInfo>
+</mods>

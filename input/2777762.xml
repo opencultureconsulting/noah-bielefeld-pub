@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2777762</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Simon</namePart>
+  <namePart type="family">Strübbe</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">22188631</identifier></name>
+<name type="personal">
+  <namePart type="given">Wolfgang</namePart>
+  <namePart type="family">Stürzl</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7577309</identifier></name>
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Egelhaaf</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">156194</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-9336-4270</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2684834</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The control of self-motion is a basic, but complex task for both technical and biological systems. Various algorithms have been proposed that allow the estimation of self-motion from the optic flow on the eyes. We show that two apparently very different approaches to solve this task, one technically and one biologically inspired, can be transformed into each other under certain conditions. One estimator of self-motion is based on a matched filter approach; it has been developed to describe the function of motion sensitive cells in the fly brain. The other estimator, the Koenderink and van Doorn (KvD) algorithm, was derived analytically with a technical background. If the distances to the objects in the environment can be assumed to be known, the two estimators are linear and equivalent, but are expressed in different mathematical forms. However, for most situations it is unrealistic to assume that the distances are known. Therefore, the depth structure of the environment needs to be determined in parallel to the self-motion parameters and leads to a non-linear problem. It is shown that the standard least mean square approach that is used by the KvD algorithm leads to a biased estimator. We derive a modification of this algorithm in order to remove the bias and demonstrate its improved performance by means of numerical simulations. For self-motion estimation it is beneficial to have a spherical visual field, similar to many flying insects. We show that in this case the representation of the depth structure of the environment derived from the optic flow can be simplified. Based on this result, we develop an adaptive matched filter approach for systems with a nearly spherical visual field. Then only eight parameters about the environment have to be memorized and updated during self-motion.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="journal.pone.0128413.struebbe.pdf">https://pub.uni-bielefeld.de/download/2777762/2780767/journal.pone.0128413.struebbe.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Public Library Of Science</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>PLoS ONE</title></titleInfo>
+  <identifier type="issn">1932-6203</identifier>
+  <identifier type="eIssn">1932-6203</identifier>
+  <identifier type="MEDLINE">26308839</identifier>
+  <identifier type="ISI">000360069400001</identifier><identifier type="urn">urn:nbn:de:0070-pub-27777628</identifier><identifier type="doi">10.1371/journal.pone.0128413</identifier>
+<part><detail type="volume"><number>10</number></detail><detail type="issue"><number>8</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Strübbe, S., Stürzl, W., Egelhaaf, M.: Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. PLoS ONE. 10, : e0128413 (2015).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Strübbe, Simon, Stürzl, Wolfgang, and Egelhaaf, Martin. 2015. “Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach”. &lt;em&gt;PLoS ONE&lt;/em&gt; 10 (8): e0128413.&lt;/div&gt;</chicago>
+<mla>Strübbe, Simon, Stürzl, Wolfgang, and Egelhaaf, Martin. “Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach”. &lt;em&gt;PLoS ONE&lt;/em&gt; 10.8 (2015): e0128413.</mla>
+<default>Strübbe S, Stürzl W, Egelhaaf M (2015) &lt;br /&gt;&lt;em&gt;PLoS ONE&lt;/em&gt; 10(8): e0128413.</default>
+<wels>Strübbe, S.; Stürzl, W.; Egelhaaf, M. (2015): Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach &lt;em&gt;PLoS ONE&lt;/em&gt;,10:(8):e0128413</wels>
+<harvard1>Strübbe, S., Stürzl, W., &amp;amp; Egelhaaf, M., 2015. Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt;, 10(8): e0128413.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Strübbe, S., Stürzl, W., &amp;amp; Egelhaaf, M. (2015). Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(8), e0128413. doi:10.1371/journal.pone.0128413&lt;/div&gt;</apa_indent>
+<bio1>Strübbe S, Stürzl W, Egelhaaf M (2015) &lt;br /&gt;Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach.&lt;br /&gt;PLoS ONE 10(8): e0128413.</bio1>
+<angewandte-chemie>S.  Strübbe, W.  Stürzl, and M.  Egelhaaf, “Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach”, &lt;em&gt;PLoS ONE&lt;/em&gt;, &lt;strong&gt;2015&lt;/strong&gt;, &lt;em&gt;10&lt;/em&gt;, : e0128413.</angewandte-chemie>
+<ama>Strübbe S, Stürzl W, Egelhaaf M. Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt;. 2015;10(8): e0128413.</ama>
+<frontiers>Strübbe, S., Stürzl, W., and Egelhaaf, M. (2015). Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt; 10:e0128413.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Strübbe, S., Stürzl, W. &amp;amp; Egelhaaf, M. (2015). Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(8): e0128413. Public Library Of Science. doi:10.1371/journal.pone.0128413.&lt;/div&gt;</dgps>
+<apa>Strübbe, S., Stürzl, W., &amp;amp; Egelhaaf, M. (2015). Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach. &lt;em&gt;PLoS ONE&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(8), e0128413. doi:10.1371/journal.pone.0128413</apa>
+<ieee> S. Strübbe, W. Stürzl, and M. Egelhaaf, “Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach”, &lt;em&gt;PLoS ONE&lt;/em&gt;,  vol. 10, 2015, : e0128413.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2777762</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-09-30T07:35:01Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:45:49Z</recordChangeDate>
+</recordInfo>
+</mods>

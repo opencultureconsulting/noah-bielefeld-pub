@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943901">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Interactive Visualization for Feature Localization in Deep Neural Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Zurowietz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7122-2343</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Deep artificial neural networks have become the go-to method for many machine learning tasks. In the field of computer vision, deep convolutional neural networks achieve state-of-the-art performance for tasks such as classification, object detection or instance segmentation. As deep neural networks become more and more complex, their inner workings become more and more opaque, rendering them a &quot;black box&quot; whose decision making process is no longer comprehensible. In recent years, various methods have been presented that attempt to peek inside the black box and to visualize the inner workings of deep neural networks, with a focus on deep convolutional neural networks for computer vision. These methods can serve as a toolbox to facilitate the design and inspection of neural networks for computer vision and the interpretation of the decision making process of the network. Here, we present the new tool Interactive Feature Localization in Deep neural networks (IFeaLiD) which provides a novel visualization approach to convolutional neural network layers. The tool interprets neural network layers as multivariate feature maps and visualizes the similarity between the feature vectors of individual pixels of an input image in a heat map display. The similarity display can reveal how the input image is perceived by different layers of the network and how the perception of one particular image region compares to the perception of the remaining image. IFeaLiD runs interactively in a web browser and can process even high resolution feature maps in real time by using GPU acceleration with WebGL 2. We present examples from four computer vision datasets with feature maps from different layers of a pre-trained ResNet101. IFeaLiD is open source and available online at https://ifealid.cebitec.uni-bielefeld.de.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Artificial Intelligence - Machine Learning and Artificial Intelligence</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2624-8212</identifier>
+                    <identifier type="MEDLINE">33733166</identifier>
+                    <identifier type="ISI">000751673300048</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29439013</identifier>
+                    <identifier type="doi">10.3389/frai.2020.00049</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943901</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943901">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943901/2945079/frai-03-00049.zurowietz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943901" DMDID="DMD2943901">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943901"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

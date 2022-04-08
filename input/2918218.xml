@@ -1,0 +1,116 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2918218</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Georges</namePart>
+  <namePart type="family">Hattab</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">50871385</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4168-8254</description></name>
+<name type="personal">
+  <namePart type="given">Veit</namePart>
+  <namePart type="family">Wiesmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Anke</namePart>
+  <namePart type="family">Becker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tamara</namePart>
+  <namePart type="family">Munzner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">89815</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Time-lapse imaging of cell colonies in microfluidic chambers provides time series of bioimages, i.e., biomovies. They show the behavior of cells over time under controlled conditions. One of the main remaining bottlenecks in this area of research is the analysis of experimental data and the extraction of cell growth characteristics, such as lineage information. The extraction of the cell line by human observers is time-consuming and error-prone. Previously proposed methods often fail because of their reliance on the accurate detection of a single cell, which is not possible for high density, high diversity of cell shapes and numbers, and high-resolution images with high noise. Our task is to characterize subpopulations in biomovies. In order to shift the analysis of the data from individual cell level to cellular groups with similar fluorescence or even subpopulations, we propose to represent the cells by two new abstractions: the particle and the patch. We use a three-step framework: preprocessing, particle tracking, and construction of the patch lineage. First, preprocessing improves the signal-to-noise ratio and spatially aligns the biomovie frames. Second, cell sampling is performed by assuming particles, which represent a part of a cell, cell or group of contiguous cells in space. Particle analysis includes the following: particle tracking, trajectory linking, filtering, and color information, respectively. Particle tracking consists of following the spatiotemporal position of a particle and gives rise to coherent particle trajectories over time. Typical tracking problems may occur (e.g., appearance or disappearance of cells, spurious artifacts). They are effectively processed using trajectory linking and filtering. Third, the construction of the patch lineage consists in joining particle trajectories that share common attributes (i.e., proximity and fluorescence intensity) and feature common ancestry. This step is based on patch finding, patching trajectory propagation, patch splitting, and patch merging. The main idea is to group together the trajectories of particles in order to gain spatial coherence. The final result of CYCASP is the complete graph of the patch lineage. Finally, the graph encodes the temporal and spatial coherence of the development of cellular colonies. We present results showing a computation time of less than 5 min for biomovies and simulated films. The method, presented here, allowed for the separation of colonies into subpopulations and allowed us to interpret the growth of colonies in a timely manner.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fbioe-06-00017-1.hattab.pdf">https://pub.uni-bielefeld.de/download/2918218/2918219/fbioe-06-00017-1.hattab.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Media SA</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in Bioengineering and Biotechnology</title></titleInfo>
+  <identifier type="issn">2296-4185</identifier>
+  <identifier type="MEDLINE">29541635</identifier>
+  <identifier type="ISI">000440254300001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29182187</identifier><identifier type="doi">10.3389/fbioe.2018.00017</identifier>
+<part><detail type="volume"><number>6</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Hattab G, Wiesmann V, Becker A, Munzner T, Nattkemper TW (2018) &lt;br /&gt;&lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt; 6: 17.</default>
+<mla>Hattab, Georges, Wiesmann, Veit, Becker, Anke, Munzner, Tamara, and Nattkemper, Tim Wilhelm. “A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy”. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt; 6 (2018): 17.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, Georges, Wiesmann, Veit, Becker, Anke, Munzner, Tamara, and Nattkemper, Tim Wilhelm. 2018. “A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy”. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt; 6: 17.&lt;/div&gt;</chicago>
+<lncs> Hattab, G., Wiesmann, V., Becker, A., Munzner, T., Nattkemper, T.W.: A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. Frontiers in Bioengineering and Biotechnology. 6, : 17 (2018).</lncs>
+<angewandte-chemie>G.  Hattab, V.  Wiesmann, A.  Becker, T.  Munzner, and T. W.  Nattkemper, “A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy”, &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;, &lt;strong&gt;2018&lt;/strong&gt;, &lt;em&gt;6&lt;/em&gt;, : 17.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G., Wiesmann, V., Becker, A., Munzner, T., &amp;amp; Nattkemper, T. W. (2018). A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;, &lt;em&gt;6&lt;/em&gt;, 17. &lt;a href="https://doi.org/10.3389/fbioe.2018.00017" target="_blank"&gt;https://doi.org/10.3389/fbioe.2018.00017&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Hattab, G., et al., 2018. A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;, 6: 17.</harvard1>
+<bio1>Hattab G, Wiesmann V, Becker A, Munzner T, Nattkemper TW (2018) &lt;br /&gt;A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy.&lt;br /&gt;Frontiers in Bioengineering and Biotechnology 6: 17.</bio1>
+<wels>Hattab, G.; Wiesmann, V.; Becker, A.; Munzner, T.; Nattkemper, T. W. (2018): A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;,6:17</wels>
+<ieee> G. Hattab, et al., “A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy”, &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;,  vol. 6, 2018, : 17.</ieee>
+<apa>Hattab, G., Wiesmann, V., Becker, A., Munzner, T., &amp;amp; Nattkemper, T. W. (2018). A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;, &lt;em&gt;6&lt;/em&gt;, 17. &lt;a href="https://doi.org/10.3389/fbioe.2018.00017" target="_blank"&gt;https://doi.org/10.3389/fbioe.2018.00017&lt;/a&gt;</apa>
+<frontiers>Hattab, G., Wiesmann, V., Becker, A., Munzner, T., and Nattkemper, T. W. (2018). A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt; 6:17.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G., Wiesmann, V., Becker, A., Munzner, T. &amp;amp; Nattkemper, T.W. (2018). A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;, &lt;em&gt;6&lt;/em&gt;: 17. Frontiers Media SA. doi:10.3389/fbioe.2018.00017.&lt;/div&gt;</dgps>
+<ama>Hattab G, Wiesmann V, Becker A, Munzner T, Nattkemper TW. A Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy. &lt;em&gt;Frontiers in Bioengineering and Biotechnology&lt;/em&gt;. 2018;6: 17.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2918218</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-03-01T12:13:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-23T19:47:29Z</recordChangeDate>
+</recordInfo>
+</mods>

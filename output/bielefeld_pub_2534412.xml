@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2534412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Facial Communicative Signals: valence recognition in task-oriented human-robot Interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Lang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hanheide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Wersing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-10-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this dissertation, we investigate facial communicative signals (FCSs) in terms of valence recognition in task-oriented human-robot interaction. Facial communicative signals mainly comprise head gestures, eye gaze, and facial expressions. We review important psychological findings about the human display and perception of FCSs. Based on this discussion, several conclusions are drawn that motivate the presented work.
+
+We investigate a FCS recognition in terms of positive or negative valence in an object-teaching scenario where human subjects teach objects to a robot. The correct or wrong answer of the robot when queried for the object name is used to define the ground truth data for the FCSs the humans displayed in turn during their reaction to this answer. Thus, the facial display the human showed after the robot classified an object correctly is treated as an example of the positive or success class. Similarly, the FCSs shown after a wrong answer constitutes an example of the negative or failure class. We evaluated to which degree humans can infer whether the answer of the robot was correct or not from looking at these facial displays only.
+
+Furthermore, we present a simple static baseline approach for the automatic classification of these facial displays in terms of valence. It is based on feature extraction with active appearance models (AAMs) and a classification with support vector machines (SVMs). The method does not consider temporal dynamics, but uses a simple majority voting scheme over the classification results for the single frames.
+
+This simple static approach yielded baseline results for a more sophisticated dynamic approach. The dynamic approach is based on the selection of discriminative reference subsequences as prototypes in a nearest-neighbor-based classification scheme. The temporal dynamics are considered by means of dynamic time warping (DTW), which is used to compare sequences of AAM feature vectors.
+In the conducted evaluation, this dynamic FCS recognition approach outperformed the static baseline approach and achieved human level classification accuracies in a person-specific classification.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25344129</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2534412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2534412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2534412/2534461/Dissertation-Christian-Lang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2534412" DMDID="DMD2534412">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2534412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

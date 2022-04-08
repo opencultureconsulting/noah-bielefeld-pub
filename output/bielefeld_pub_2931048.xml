@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2931048">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>GeFaST: An improved method for OTU assignment by generalising Swarm’s fastidious clustering approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0909-3608</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Nebel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">**Background**: Massive genomic data sets from high-throughput sequencing allow for new insights into complex biological systems such as microbial communities. Analyses of their diversity and structure are typically preceded by clustering millions of 16S rRNA gene sequences into OTUs. Swarm introduced a new clustering strategy which addresses important conceptual and performance issues of the popular de novo clustering approach. However, some parts of the new strategy, e.g. the fastidious option for increased clustering quality, come with their own restrictions.
+
+**Results:** In this paper, we present the new exact, alignment-based de novo clustering tool GeFaST, which implements a generalisation of Swarm’s fastidious clustering. Our tool extends the fastidious option to arbitrary clustering thresholds and allows to adjust its greediness. GeFaST was evaluated on mock-community and natural data and achieved higher clustering quality and performance for small to medium clustering thresholds compared to Swarm and other de novo tools. Clustering with GeFaST was between 6 and 197 times as fast as with Swarm, while the latter required up to 38% less memory for non-fastidious clustering but at least three times as much memory for fastidious clustering.
+
+**Conclusions:** GeFaST extends the scope of Swarm’s clustering strategy by generalising its fastidious option, thereby allowing for gains in clustering quality, and by increasing its performance (especially in the fastidious case). Our evaluations showed that GeFaST has the potential to leverage the use of the (fastidious) clustering strategy for higher thresholds and on larger data sets.</abstract>
+                    <subject>
+                        <topic>Sequence clustering</topic>
+                        <topic>Operational taxonomic units</topic>
+                        <topic>Microbial community analysis</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>19</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">30208838</identifier>
+                    <identifier type="ISI">000444482200002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29310489</identifier>
+                    <identifier type="doi">10.1186/s12859-018-2349-1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2931048</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2931048">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2931048/2931049/s12859-018-2349-1.mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2931048" DMDID="DMD2931048">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2931048"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

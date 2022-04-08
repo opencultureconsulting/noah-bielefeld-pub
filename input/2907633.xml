@@ -1,0 +1,171 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2907633</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Markus</namePart>
+  <namePart type="family">Lux</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">51526921</identifier></name>
+<name type="personal">
+  <namePart type="given">Jan</namePart>
+  <namePart type="family">Krüger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">79326</identifier></name>
+<name type="personal">
+  <namePart type="given">Christian</namePart>
+  <namePart type="family">Rinke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Irena</namePart>
+  <namePart type="family">Maus</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">32999125</identifier></name>
+<name type="personal">
+  <namePart type="given">Andreas</namePart>
+  <namePart type="family">Schlüter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">55545</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4830-310X</description></name>
+<name type="personal">
+  <namePart type="given">Tanja</namePart>
+  <namePart type="family">Woyke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Sczyrba</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">17894</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4405-3847</description></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610095</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067478</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">17527752</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33070639</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+A major obstacle in single-cell sequencing is sample contamination with foreign DNA. To guarantee clean genome assemblies and to prevent the introduction of contamination into public databases, considerable quality control efforts are put into post-sequencing analysis. Contamination screening generally relies on reference-based methods such as database alignment or marker gene search, which limits the set of detectable contaminants to organisms with closely related reference species. As genomic coverage in the tree of life is highly fragmented, there is an urgent need for a reference-free methodology for contaminant identification in sequence data.
+Results
+
+We present acdc, a tool specifically developed to aid the quality control process of genomic sequence data. By combining supervised and unsupervised methods, it reliably detects both known and de novo contaminants. First, 16S rRNA gene prediction and the inclusion of ultrafast exact alignment techniques allow sequence classification using existing knowledge from databases. Second, reference-free inspection is enabled by the use of state-of-the-art machine learning techniques that include fast, non-linear dimensionality reduction of oligonucleotide signatures and subsequent clustering algorithms that automatically estimate the number of clusters. The latter also enables the removal of any contaminant, yielding a clean sample. Furthermore, given the data complexity and the ill-posedness of clustering, acdc employs bootstrapping techniques to provide statistically profound confidence values. Tested on a large number of samples from diverse sequencing projects, our software is able to quickly and accurately identify contamination. Results are displayed in an interactive user interface. Acdc can be run from the web as well as a dedicated command line application, which allows easy integration into large sequencing project analysis workflows.
+Conclusions
+
+Acdc can reliably detect contamination in single-cell genome data. In addition to database-driven detection, it complements existing tools by its unsupervised techniques, which allow for the detection of de novo contaminants. Our contribution has the potential to drastically reduce the amount of resources put into these processes, particularly in the context of limited availability of reference species. As single-cell genome data continues to grow rapidly, acdc adds to the toolkit of crucial quality assurance tools.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="bmc.bioinf.art%3A10.1186%2Fs12859-016-1397-7.lux.pdf">https://pub.uni-bielefeld.de/download/2907633/2907684/bmc.bioinf.art%3A10.1186%2Fs12859-016-1397-7.lux.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Nature</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Single-cell sequencing Contamination detection Machine learning Clustering Binning Quality control</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="eIssn">1471-2105</identifier>
+  <identifier type="MEDLINE">27998267</identifier>
+  <identifier type="ISI">000390908800002</identifier><identifier type="urn">urn:nbn:de:0070-pub-29076337</identifier><identifier type="doi">10.1186/s12859-016-1397-7</identifier>
+<part><detail type="volume"><number>17</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<ieee> M. Lux, et al., “acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 17, 2016, : 543.</ieee>
+<apa>Lux, M., Krüger, J., Rinke, C., Maus, I., Schlüter, A., Woyke, T., Sczyrba, A., et al. (2016). acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(1), 543. doi:10.1186/s12859-016-1397-7</apa>
+<frontiers>Lux, M., Krüger, J., Rinke, C., Maus, I., Schlüter, A., Woyke, T., Sczyrba, A., and Hammer, B. (2016). acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17:543.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lux, M., Krüger, J., Rinke, C., Maus, I., Schlüter, A., Woyke, T., Sczyrba, A. &amp;amp; Hammer, B. (2016). acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(1): 543. Springer Nature. doi:10.1186/s12859-016-1397-7.&lt;/div&gt;</dgps>
+<ama>Lux M, Krüger J, Rinke C, et al. acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2016;17(1): 543.</ama>
+<angewandte-chemie>M.  Lux, J.  Krüger, C.  Rinke, I.  Maus, A.  Schlüter, T.  Woyke, A.  Sczyrba, and B.  Hammer, “acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2016&lt;/strong&gt;, &lt;em&gt;17&lt;/em&gt;, : 543.</angewandte-chemie>
+<harvard1>Lux, M., et al., 2016. acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 17(1): 543.</harvard1>
+<bio1>Lux M, Krüger J, Rinke C, Maus I, Schlüter A, Woyke T, Sczyrba A, Hammer B (2016) &lt;br /&gt;acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data.&lt;br /&gt;BMC Bioinformatics 17(1): 543.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lux, M., Krüger, J., Rinke, C., Maus, I., Schlüter, A., Woyke, T., Sczyrba, A., et al. (2016). acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(1), 543. doi:10.1186/s12859-016-1397-7&lt;/div&gt;</apa_indent>
+<wels>Lux, M.; Krüger, J.; Rinke, C.; Maus, I.; Schlüter, A.; Woyke, T.; Sczyrba, A.; Hammer, B. (2016): acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,17:(1):543</wels>
+<default>Lux M, Krüger J, Rinke C, Maus I, Schlüter A, Woyke T, Sczyrba A, Hammer B (2016) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17(1): 543.</default>
+<mla>Lux, Markus, Krüger, Jan, Rinke, Christian, Maus, Irena, Schlüter, Andreas, Woyke, Tanja, Sczyrba, Alexander, and Hammer, Barbara. “acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17.1 (2016): 543.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lux, Markus, Krüger, Jan, Rinke, Christian, Maus, Irena, Schlüter, Andreas, Woyke, Tanja, Sczyrba, Alexander, and Hammer, Barbara. 2016. “acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17 (1): 543.&lt;/div&gt;</chicago>
+<lncs> Lux, M., Krüger, J., Rinke, C., Maus, I., Schlüter, A., Woyke, T., Sczyrba, A., Hammer, B.: acdc – Automated Contamination Detection and Confidence estimation for single-cell genome data. BMC Bioinformatics. 17, : 543 (2016).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2907633</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-12-20T15:41:05Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:46:07Z</recordChangeDate>
+</recordInfo>
+</mods>

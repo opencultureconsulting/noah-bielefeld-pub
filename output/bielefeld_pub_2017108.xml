@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017108">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using sonification to detect weak cross-correlations in coupled excitable systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Gerold</namePart>
+                        <namePart type="family">Baier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oscar Manuel</namePart>
+                        <namePart type="family">Lara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Eoin</namePart>
+                        <namePart type="family">Brazil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study cross-correlations in irregularly spiking systems. A single system displays spiking sequences that resemble a stochastic (Poisson) process. Linear coupling between two systems leaves the inter-spike interval distribution qualitatively unchanged but induces cross-correlations between the units. For strong coupling this leads to synchronization as expected but for weak coupling, both a good statistic and sonification reveal the presence of ``motifs&apos;&apos;, preferred short firing sequences which are due to the deterministic spiking mechanism. We argue that the use of sonification for time series analysis is superior in the case where intrinsic non-stationarity of an experiment cannot be ruled out.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">1-874653-81X</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20171083</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017108</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017108">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017108/2760919/BaierHermann2005.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017108" DMDID="DMD2017108">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017108"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

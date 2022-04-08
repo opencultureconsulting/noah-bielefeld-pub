@@ -1,0 +1,121 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2951757</id><setSpec>book_chapter</setSpec><setSpec>doc-type:bookPart</setSpec><setSpec>ddc:000</setSpec><setSpec>book_chapterFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>book chapter</genre>
+
+<titleInfo><title>Conquaire Infrastructure for Continuous Quality Control</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Fabian</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Christian</namePart>
+  <namePart type="family">Pietsch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7346775</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-8778-1273</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Philipp</namePart><namePart type="family">Cimiano</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Christian</namePart><namePart type="family">Pietsch</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Cord</namePart><namePart type="family">Wiljes</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10085</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Conquaire: Conquaire</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">In this chapter, we briefly describe the Git-based infrastructure that has been implemented as a result of the Conquaire project to support analytical reproducibility. The infrastructure implemented relies on principles of continuous integration as used in software engineering projects. Importantly, we rely on a distributed version control system (DVCS) to store computational artifacts that are key to reproducing the analytical results of an experiment. Using a
+DVCS has the benefit that artifacts can be versioned and each version can be uniquely addressed via a revision number. The DVCS implementation we rely on is Git, extended by GitLab as a web interface and collaboration platform.
+The heart of the infrastructure implemented in the Conquaire project is the so called Conquaire server. We assume that each research project deposits relevant data and code in a Git repository. In the background, a GitLab CI Runner
+on the Conquaire server is triggered by Git push events on the local GitLab server and executes a number of tests on the data and runs the code or script to reproduce a particular result. By this, we ensure that results can be reproduced
+independently of the original researchers on a separate machine. In this chapter, we briefly describe the infrastructure implemented and how tests are automatically executed when updates are committed to the Git repository.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="conquaire-book _chapter-2.pdf">https://pub.uni-bielefeld.de/download/2951757/2953785/conquaire-book _chapter-2.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Studies in Analytical Reproducibility: the Conquaire Project</title></titleInfo>
+  <identifier type="isbn">978-3-943363-06-7</identifier><identifier type="urn">urn:nbn:de:0070-pub-29517575</identifier>
+<part><extent unit="pages">17-27</extent>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2942780</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hermann, F.; Pietsch, C.; Cimiano, P. (2021): Conquaire Infrastructure for Continuous Quality Control. In: Philipp Cimiano; Christian Pietsch; Cord Wiljes; Bielefeld University (Hrsg.):  Studies in Analytical Reproducibility: the Conquaire Project. Bielefeld.  S. 17-27.</wels>
+<angewandte-chemie>F.  Hermann, C.  Pietsch, and P.  Cimiano, in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (Eds.: P. Cimiano, C. Pietsch, C. Wiljes, Bielefeld University), Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;, p. 17-27.</angewandte-chemie>
+<harvard1>Hermann, F., Pietsch, C., &amp;amp; Cimiano, P., 2021. Conquaire Infrastructure for Continuous Quality Control. In P.  Cimiano, et al., eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;.  Bielefeld, pp. 17-27.</harvard1>
+<bio1>Hermann F, Pietsch C, Cimiano P (2021) &lt;br /&gt;Conquaire Infrastructure for Continuous Quality Control. &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C, Bielefeld University (Eds); Bielefeld:  17-27.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, F., Pietsch, C., &amp;amp; Cimiano, P. (2021). Conquaire Infrastructure for Continuous Quality Control. In P.  Cimiano, C.  Pietsch, C.  Wiljes, &amp;amp; Bielefeld University (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 17-27). Bielefeld.&lt;/div&gt;</apa_indent>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, F., Pietsch, C. &amp;amp; Cimiano, P. (2021). Conquaire Infrastructure for Continuous Quality Control. In P. Cimiano, C. Pietsch, C. Wiljes &amp;amp; Bielefeld University (Hrsg.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (S. 17-27). Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Hermann, F., Pietsch, C., and Cimiano, P. (2021). “Conquaire Infrastructure for Continuous Quality Control” in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, Cimiano, P., Pietsch, C., Wiljes, C., and Bielefeld University eds. (Bielefeld), 17-27.</frontiers>
+<ama>Hermann F, Pietsch C, Cimiano P. Conquaire Infrastructure for Continuous Quality Control. In: Cimiano P, Pietsch C, Wiljes C, Bielefeld University, eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Bielefeld;  2021: 17-27.</ama>
+<ieee> F. Hermann, C. Pietsch, and P. Cimiano, “Conquaire Infrastructure for Continuous Quality Control”, &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, P. Cimiano, et al., eds.,  Bielefeld: 2021,  pp.17-27.</ieee>
+<apa>Hermann, F., Pietsch, C., &amp;amp; Cimiano, P. (2021). Conquaire Infrastructure for Continuous Quality Control. In P.  Cimiano, C.  Pietsch, C.  Wiljes, &amp;amp; Bielefeld University (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 17-27). Bielefeld.</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Fabian, Pietsch, Christian, and Cimiano, Philipp. 2021. “Conquaire Infrastructure for Continuous Quality Control”. In &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, ed. Philipp Cimiano, Christian Pietsch, Cord Wiljes, and Bielefeld University, 17-27. Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Hermann, F., Pietsch, C., Cimiano, P.: Conquaire Infrastructure for Continuous Quality Control. In: Cimiano, P., Pietsch, C., Wiljes, C., and Bielefeld University (eds.) Studies in Analytical Reproducibility: the Conquaire Project. p. 17-27. Bielefeld (2021).</lncs>
+<default>Hermann F, Pietsch C, Cimiano P (2021)  &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C, Bielefeld University (Eds);  Bielefeld:  17-27.</default>
+<mla>Hermann, Fabian, Pietsch, Christian, and Cimiano, Philipp. “Conquaire Infrastructure for Continuous Quality Control”. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Ed. Philipp Cimiano, Christian Pietsch, Cord Wiljes, and Bielefeld University. Bielefeld, 2021. 17-27.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2951757</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-02-25T20:15:51Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T13:06:39Z</recordChangeDate>
+</recordInfo>
+</mods>

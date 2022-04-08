@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933040">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Spatial Road Representation for Driving in Complex Scenes by Interpretation of Traffic Behavior</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Edoardo</namePart>
+                        <namePart type="family">Casapietra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-11-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The detection of road layout and semantics is an important issue in modern Advanced Driving Assistance Systems (ADAS) and autonomous driving systems. In particular, trajectory planning algorithms need a road representation to operate on: this representation has to be spatial, as the system needs to know exactly on which areas it is safe to drive, so that they can safely plan fine maneuvers. Since typical trajectories are computed for timespans in the order of seconds, the spatial detection range needed for the road representation to achieve a stable and smooth trajectory is in the tenths to hundreds of meters. Direct detection, i.e. the usage of sensors that detect road area by direct observation (e.g. cameras or lasers), is often not sufficient to achieve
+this range, especially in inner-city, due to occlusions caused by various obstacles (e.g. buildings and high traffic) as well as hardware limitations. State-of-the-art systems cope with this problem by employing annotated road maps to complement direct detection. However, maps are expensive to make and not available on every road. Furthermore, ego-localization is a key issue in their usage.
+This thesis presents a novel approach that creates a spatial road representation derived from both direct and indirect road detection, i.e. the detection and interpretation of other cues for the purpose of inferring the road area layout. Direct detection on monocular images is provided by RTDS, a feature-based detection system that provides road terrain confidence. Indirect detection is based on the interpretation of the other vehicles&apos; behavior. Since our main assumption is that vehicles move on road area, we estimate their past and future movements to infer the road layout where we cannot see it directly. The estimation is carried out using a function that models the probability for each vehicle to traverse each patch of the representation, taking into account position, direction and speed of the vehicle, as well as the possibility of small past and future maneuvers. The behavior of each vehicle is used not only to infer the area where road is, but also to infer where there is not. In fact, observing a vehicle steering away from an area it was predicted to go can be interpreted as evidence that said area is not road.
+The road confidences provided by RTDS and behavior interpretation are blended together by means of a visibility function that gives different weights to the two sources, according to the position of the patch in the field of view and possible occlusions that would prevent the camera to see the patch, thereby leading to unreliable results from RTDS.
+The addition of indirect detection improves the spatial range of the representation. It also exploits the scenarios of high traffic that are the most challenging ones for direct detection systems, and allows for the inclusion of additional semantics, such as lanes and driving directions. Geometrical considerations are applied to the road layout, obtaining a distributed measure of road width and orientation. These values are used to segment the road, and each segment is then divided into multiple lanes based on its width and the average width of a lane. Finally, a driving direction is assigned to each lane by observing the behavior of the other vehicles on it.
+The road representation is evaluated by comparison with a ground truth obtained from manually annotated real world images. As in most cases the entirety of road area cannot be seen in a single image (a problem that human users share with direct detection systems), every road is annotated in multiple different images, and the road portions observed are converted into BEV and fused together using GPS to form a comprehensive view of said road. This ground truth is then compared patch-wise to the representation obtained by our system, showing a clear improvement with respect to the representation obtained by RTDS alone.
+In order to demonstrate the advantages of our approach in concrete applications, we set up a system that couples our road representation with a basic trajectory planner. The system reads real-world data, recorded by a mobile platform. The representation is computed at each frame of the stream. The trajectory planner receives the current state of the ego-car (position, direction and speed) and the location of a target area (from a navigational map), and finds the path that leads to the target area with minimum cost.
+We show that indirect road detection complements direct detection in a way that leads to a substantial increase in spatial detection range and quality of the internal road representation, thereby improving the smoothness of trajectories that planners can compute, as well as their robustness over time, since the road layout in the representation does not dramatically change only when a new road is visible. This result can help autonomous driving systems to achieve a more human-like behavior, as their improved road awareness allows them to plan ahead, including areas they do not see yet, just as humans normally do.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29330403</identifier>
+                    <identifier type="doi">10.4119/unibi/2933040</identifier>
+                    <identifier type="sys">HT020002930</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933040</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933040">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933040/2933041/thesis_gedruckt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933040" DMDID="DMD2933040">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933040"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

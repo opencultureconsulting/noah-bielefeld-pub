@@ -1,0 +1,115 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2612571">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Synthesizing cognition in neuromorphic electronic systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">E.</namePart>
+                        <namePart type="family">Neftci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">J.</namePart>
+                        <namePart type="family">Binas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">U.</namePart>
+                        <namePart type="family">Rutishauser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">R. J.</namePart>
+                        <namePart type="family">Douglas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The quest to implement intelligent processing in electronic neuromorphic systems lacks methods for achieving reliable behavioral dynamics on substrates of inherently imprecise and noisy neurons. Here we report a solution to this problem that involves first mapping an unreliable hardware layer of spiking silicon neurons into an abstract computational layer composed of generic reliable subnetworks of model neurons and then composing the target behavioral dynamics as a “soft state machine” running on these reliable subnets. In the first step, the neural networks of the abstract layer are realized on the hardware substrate by mapping the neuron circuit bias voltages to the model parameters. This mapping is obtained by an automatic method in which the electronic circuit biases are calibrated against the model parameters by a series of population activity measurements. The abstract computational layer is formed by configuring neural networks as generic soft winner-take-all subnetworks that provide reliable processing by virtue of their active gain, signal restoration, and multistability. The necessary states and transitions of the desired high-level behavior are then easily embedded in the computational layer by introducing only sparse connections between some neurons of the various subnets. We demonstrate this synthesis method for a neuromorphic sensory agent that performs real-time context-dependent classification of motion patterns observed by a silicon retina.</abstract>
+                    <subject>
+                        <topic>very large-scale integration</topic>
+                        <topic>artificial neural systems</topic>
+                        <topic>working memory analog</topic>
+                        <topic>sensorimotor</topic>
+                        <topic>decision making</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the National Academy of Sciences of the United States of America</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>110</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>37</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>E3468</start>
+                                <end>E3476</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0027-8424</identifier>
+                    <identifier type="eIssn">1091-6490</identifier>
+                    <identifier type="MEDLINE">23878215</identifier>
+                    <identifier type="ISI">000324125100004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26125719</identifier>
+                    <identifier type="doi">10.1073/pnas.1212083110</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2612571</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2612571">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2612571/2654994/PNAS-2013-Neftci-1212083110.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2612571" DMDID="DMD2612571">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2612571"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

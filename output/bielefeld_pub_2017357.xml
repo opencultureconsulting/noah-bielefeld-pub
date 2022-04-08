@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017357">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Sonification for EEG Data Analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Meinicke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Bekel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Horst M.</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7790-3556</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sabine</namePart>
+                        <namePart type="family">Weiss</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4043-0115</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">R.</namePart>
+                        <namePart type="family">Nakatsu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">H.</namePart>
+                        <namePart type="family">Kawahara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents techniques to render acoustic representations for EEG data. In our case, data are obtained from psycholinguistic experiments where subjects are exposed to three different conditions based on different auditory stimuli. The goal of this research is to uncover elements of neural processing correlated with high-level cognitive activity. Three sonifications are presented within this paper: spectral mapping sonification which offers a quite direct inspection of the recorded data, distance matrix sonification which allows to detect nonlinear long range correlations at high time resolution, and differential sonification which summarizes the comparison of EEG measurements under different conditions for each subject. This paper describes the techniques and presents sonification examples for experimental data.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20173572</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017357</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017357">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017357/2760944/HermannMeinicke2002.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017357" DMDID="DMD2017357">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017357"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

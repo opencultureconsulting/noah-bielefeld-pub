@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2940379">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computational simulation of the reactive oxygen species and redox network in the regulation of chloroplast metabolism.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Melanie</namePart>
+                        <namePart type="family">Gerken</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sergej</namePart>
+                        <namePart type="family">Kakorin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kamel</namePart>
+                        <namePart type="family">Chibani</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karl-Josef</namePart>
+                        <namePart type="family">Dietz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Cells contain a thiol redox regulatory network to coordinate metabolic and developmental activities with exogenous and endogenous cues. This network controls the redox state and activity of many target proteins. Electrons are fed into the network from metabolism and reach the target proteins via redox transmitters such as thioredoxin (TRX) and NADPH-dependent thioredoxin reductases (NTR). Electrons are drained from the network by reactive oxygen species (ROS) through thiol peroxidases, e.g., peroxiredoxins (PRX). Mathematical modeling promises access to quantitative understanding of the network function and was implemented by using published kinetic parameters combined with fitting to known biochemical data. Two networks were assembled, namely the ferredoxin (FD), FD-dependent TRX reductase (FTR), TRX, fructose-1,6-bisphosphatase (FBPase) pathway with 2-cysteine PRX/ROS as oxidant, and separately the FD, FD-dependent NADP reductase (FNR), NADPH, NTRC-pathway for 2-CysPRX reduction. Combining both modules allowed drawing several important conclusions of network performance. The resting H2O2 concentration was estimated to be about 30 nM in the chloroplast stroma. The electron flow to metabolism exceeds that into thiol regulation of FBPase more than 7000-fold under physiological conditions. The electron flow from NTRC to 2-CysPRX is about 5.32-times more efficient than that from TRX-f1 to 2-CysPRX. Under severe stress (30 muM H2O2) the ratio of electron flow to the thiol network relative to metabolism sinks to 1:251 whereas the ratio of e- flow from NTRC to 2-CysPRX and TRX-f1 to 2-CysPRX rises up to 1:67. Thus, the simulation provides clues on experimentally inaccessible parameters and describes the functional state of the chloroplast thiol regulatory network.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS computational biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1553-734x</identifier>
+                    <identifier type="eIssn">1553-7358</identifier>
+                    <identifier type="MEDLINE">31951606</identifier>
+                    <identifier type="ISI">000510916500008</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29403792</identifier>
+                    <identifier type="doi">10.1371/journal.pcbi.1007102</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2940379</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2940379">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2940379/2941594/journal.pcbi.1007102.dietz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2940379" DMDID="DMD2940379">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2940379"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

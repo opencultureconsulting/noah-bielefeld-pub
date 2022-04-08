@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2664218">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>USAGE review corpus for fine-grained, multi-lingual opinion analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nicoletta</namePart>
+                        <namePart type="family">Calzolari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Opinion mining has received wide attention in recent years. Models for this task are typically trained or evaluated with a manually annotated dataset. However, fine-grained annotation of sentiments including information about aspects and their evaluation is very labour-intensive. The data available so far is limited. Contributing to this situation, this paper describes the Bielefeld University Sentiment Analysis Corpus for German and English (USAGE), which we offer freely to the community and which contains the annotation of product reviews from Amazon with both aspects and subjective phrases. It provides information on segments in the text which denote an aspect or a subjective evaluative phrase which refers to the aspect. Relations and coreferences are explicitly annotated. This dataset contains 622 English and 611 German reviews, allowing to investigate how to port sentiment analysis systems across languages and domains. We describe the methodology how the corpus was created and provide statistics including inter-annotator agreement. We further provide figures for a baseline system and results for German and English as well as in a cross-domain setting. The results are encouraging in that they show that aspects and phrases can be extracted robustly without the need of tuning to a particular type of products.</abstract>
+                    <subject>
+                        <topic>corpus</topic>
+                        <topic>product reviews</topic>
+                        <topic>sentiment analysis</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26642186</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2664218</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2664218">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2664218/2669583/cameraready.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2664218" DMDID="DMD2664218">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2664218"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

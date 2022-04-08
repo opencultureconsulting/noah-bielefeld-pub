@@ -1,0 +1,302 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908653">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Supplementary Material for &quot;Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jakob Nikolas</namePart>
+                        <namePart type="family">Kather</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Yannick</namePart>
+                        <namePart type="family">Bukschat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tilmann</namePart>
+                        <namePart type="family">Kramer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lothar R.</namePart>
+                        <namePart type="family">Schad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank Gerrit</namePart>
+                        <namePart type="family">Zöllner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">#### S1: Normal ECG sample 
+
+&lt;center&gt;&lt;img
+src=&quot;https://pub.uni-bielefeld.de/download/2908653/2908701&quot;
+width=&quot;40%&quot; height=&quot;40%&quot; style=&quot;float:right;&quot; &gt;&lt;/center&gt;
+
+Description: 
+This supplementary material contains ECG data sonification of a healthy control.
+
+* [s0306lrem.wav](https://pub.uni-bielefeld.de/download/2908653/2908702) contains sound data for a six-channel data set, 10 seconds
+* [s0306lrem.png](https://pub.uni-bielefeld.de/download/2908653/2908701) contains the corresponding visual data, 10 seconds, sampling rate of 1000 Hz
+
+
+
+#### S2: Incremental signal
+
+Description:
+This supplementary material contains an incremental number of channels from a pathological (STEMI) ECG data sonification 
+
+&lt;center&gt;&lt;img
+src=&quot;https://pub.uni-bielefeld.de/download/2908653/2908709&quot;
+width=&quot;40%&quot; height=&quot;40%&quot; style=&quot;float:right;&quot; &gt;&lt;/center&gt;
+
+- [incremental_01.wav](https://pub.uni-bielefeld.de/download/2908653/2908703) only channel III (lowest), 10 seconds
+- [incremental_02.wav](https://pub.uni-bielefeld.de/download/2908653/2908704) channel III and aVF, 10 seconds
+- [incremental_03.wav](https://pub.uni-bielefeld.de/download/2908653/2908705) channel III and aVF and II, 10 seconds
+- [incremental_04.wav](https://pub.uni-bielefeld.de/download/2908653/2908706) channel III and aVF and II and -aVR, 10 seconds
+- [incremental_05.wav](https://pub.uni-bielefeld.de/download/2908653/2908707) channels III through I, 10 seconds
+- [incremental_06.wav](https://pub.uni-bielefeld.de/download/2908653/2908708) all channels, 10 seconds
+- [incremental_signal.png](https://pub.uni-bielefeld.de/download/2908653/2908709) shows the corresponding visual data, 10 seconds, sampling rate of 257 Hz
+
+
+#### S3: Pathological ECG samples
+
+Description:
+This supplementary material contains sonified ECG data of four pathological samples, corresponding to Figure 2 in the main manuscript. All samples are 10 seconds in length (original sound file in sub-folder “original”, amplified sound file in sub-folder “amplified”).
+
+
+- [Sample_I04m_STEMI.wav](https://pub.uni-bielefeld.de/download/2908653/2908710) ST-elevation myocardial infarction
+- [Sample_I37m_PVC.wav](https://pub.uni-bielefeld.de/download/2908653/2908711) Premature ventricular contraction
+- [Sample_I50m_AF.wav](https://pub.uni-bielefeld.de/download/2908653/2908712) Atrial fibrillation
+- [Sample_I51m_Bigeminy.wav](https://pub.uni-bielefeld.de/download/2908653/2908713) Bigeminy
+
+
+
+#### S4: Flowchart of the algorithm 
+
+&lt;center&gt;&lt;img src=&quot;https://pub.uni-bielefeld.de/download/2908653/2908719&quot; width=&quot;100%&quot; height=&quot;100%&quot;/&gt;&lt;/center&gt;
+
+File: [S4_sonification_procedure_schematic.pdf](https://pub.uni-bielefeld.de/download/2908653/2908714) 
+
+Description:
+This PDF is a detailed flowchart of the algorithm including all relevant parameters. This can be used to implement our proposed method in any programming language.
+
+
+#### S5: Observer performance during data analysis
+
+File: [S5_performance_data.xls](https://pub.uni-bielefeld.de/download/2908653/2908715)
+
+Description:
+The spreadsheet contains all results of the data analysis by 22 blinded observers in three groups. S1 to S12 refer to the ECG samples, the number in each cell in these columns shows the classification by the observer. Correct classifications are shown in green, errors are shown in red. “Instrument” denotes whether the observer had been actively playing an instrument for three or more years at any time during their life.
+
+
+#### S6 Source code of Polyphonic ECG Sonification (in SuperCollider3)
+
+File: [S6_Polyphonic-ECG-Sonification.zip](https://pub.uni-bielefeld.de/download/2908653/2908761)
+
+Description: 
+The zipped folder contains the Supercollider3 source code, two data files in csv format and the resulting sonifications for Polyphonic ECG Sonification.  Instructions for how to render the sonifications are given in the source code header.
+
+
+#### S7 Source code of Polyphonic ECG Sonification (Matlab)
+
+File: [S7_Polyphonic-ECG-Sonification-matlab.zip](https://pub.uni-bielefeld.de/download/2908653/2908760)
+
+Description: 
+This file contains the source code in matlab which was also used for the rendering of sonifications in the study.</abstract>
+                    <subject>
+                        <topic>Sonification</topic>
+                        <topic>auditory displays</topic>
+                        <topic>electrocardiography</topic>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2908653</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/odbl/summary/index.html">ODbL</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908653</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE0_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908702/s0306lrem.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/png" ID="FILE1_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908701/s0306lrem.png" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE2_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908703/incremental_01.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE3_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908704/incremental_02.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE4_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908705/incremental_03.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE5_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908706/incremental_04.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE6_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908707/incremental_05.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE7_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908708/incremental_06.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/png" ID="FILE8_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908709/incremental_signal.png" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE9_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908710/Sample_I04m_STEMI.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE10_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908712/Sample_I50m_AF.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE11_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908713/Sample_I51m_Bigeminy.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE12_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908711/Sample_I37m_PVC.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE13_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908714/S4_sonification_procedure_schematic.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/png" ID="FILE14_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908719/S4_sonification_procedure_schematic.png" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.ms-excel" ID="FILE15_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908715/S5_performance_data.xls" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE16_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908761/S6_Polyphonic-ECG-Sonification.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE17_bielefeld_pub_2908653">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908653/2908760/S7_Polyphonic-ECG-Sonification-matlab.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908653" DMDID="DMD2908653">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908653"/>
+            <mets:div TYPE="part" ID="PART1_2908653" LABEL="s0306lrem.png">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2908653" LABEL="incremental_01.wav">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2908653" LABEL="incremental_02.wav">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2908653" LABEL="incremental_03.wav">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2908653" LABEL="incremental_04.wav">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2908653" LABEL="incremental_05.wav">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2908653" LABEL="incremental_06.wav">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2908653" LABEL="incremental_signal.png">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2908653" LABEL="Sample_I04m_STEMI.wav">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2908653" LABEL="Sample_I50m_AF.wav">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2908653" LABEL="Sample_I51m_Bigeminy.wav">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2908653" LABEL="Sample_I37m_PVC.wav">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART13_2908653" LABEL="S4_sonification_procedure_schematic.pdf">
+                <mets:fptr FILEID="FILE13_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART14_2908653" LABEL="S4_sonification_procedure_schematic.png">
+                <mets:fptr FILEID="FILE14_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART15_2908653" LABEL="S5_performance_data.xls">
+                <mets:fptr FILEID="FILE15_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART16_2908653" LABEL="S6_Polyphonic-ECG-Sonification.zip">
+                <mets:fptr FILEID="FILE16_bielefeld_pub_2908653"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART17_2908653" LABEL="S7_Polyphonic-ECG-Sonification-matlab.zip">
+                <mets:fptr FILEID="FILE17_bielefeld_pub_2908653"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

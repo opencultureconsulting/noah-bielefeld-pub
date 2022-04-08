@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2316471">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evolutionary stability of first price auctions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Fernando</namePart>
+                        <namePart type="family">Louge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Riedel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4291-6610</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper studies the evolutionary stability of the unique Nash equilibrium of a first price sealed bid auction. It is shown that the Nash equilibrium is not asymptotically stable under payoff monotonic dynamics for arbitrary initial populations. In contrast, when the initial population includes a continuum of strategies around the equilibrium, the replicator dynamic does converge to the Nash equilibrium. Simulations are presented for the replicator and Brown-von Neumann-Nash dynamics. They suggest that the convergence for the replicator dynamic is slow compared to the Brown-von Neumann-Nash dynamics.</abstract>
+                    <subject>
+                        <topic>Auction theory</topic>
+                        <topic>Evolutionary stability</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>435</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-47912</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2316471</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2316471">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2316471/2319877/435.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2316471" DMDID="DMD2316471">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2316471"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

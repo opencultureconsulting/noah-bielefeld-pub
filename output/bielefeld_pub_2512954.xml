@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2512954">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>computational model of cooperative spatial behaviour for virtual humans</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nhung</namePart>
+                        <namePart type="family">Nguyen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thora</namePart>
+                        <namePart type="family">Tenbrink</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan Malte</namePart>
+                        <namePart type="family">Wiener</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christophe</namePart>
+                        <namePart type="family">Claramunt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This chapter introduces a model which connects representations of the space surrounding a virtual humanoid&apos;s body with the space it shares with several interaction partners. This work intends to support virtual humans (or humanoid robots) in near space interaction and is inspired by studies from cognitive neurosciences on the one hand and social interaction studies on the other hand. We present our work on learning the body structure of an articulated virtual human by using data from virtual touch and proprioception sensors. The results are utilized for a representation of its reaching space, the so-called peripersonal space. In interpersonal interaction involving several partners, their peripersonal spaces may overlap and establish a shared reaching space. We define it as their interaction space, where cooperation takes place and where actions to claim or release spatial areas have to be adapted, to avoid obstructions of the other&apos;s movements. Our model of interaction space is developed as an extension of Kendon&apos;s F-formation system, a foundational theory of how humans orient themselves in space when communicating. Thus, interaction space allows for measuring not only the spatial arrangement (i.e., body posture and orientation) between multiple interaction partners, but also the extent of space they share. Peripersonal and interaction space are modeled as potential fields to control the virtual human&apos;s behaviour strategy. As an example we show how the virtual human can relocate object positions toward or away from locations reachable for all partners, and thus facilitating cooperation in an interaction task.</abstract>
+                    <subject>
+                        <topic>body schema</topic>
+                        <topic>interaction space</topic>
+                        <topic>multi-person interaction</topic>
+                        <topic>peripersonal space</topic>
+                        <topic>spatial arrangement</topic>
+                        <topic>virtual humans</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Representing Space in Cognition: Interrelations of behaviour, language, and formal models</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>147</start>
+                                <end>168</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-0-19-967991-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25129543</identifier>
+                    <identifier type="doi">10.1093/acprof:oso/9780199679911.003.0008</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2512954</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2512954">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2512954/2633271/C1_OUP_NguyenWachsmuth.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2512954" DMDID="DMD2512954">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2512954"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

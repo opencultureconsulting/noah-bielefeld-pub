@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2547517">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Kortkamp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-11-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis develops a system, based on Web images, for the detection of domestic objects in images of indoor home environments. Images from ten different domestic object categories (apple, bottle, bowl, cup, handbag, laptop, light switch, potted plant, shoe and toaster) are downloaded and annotated from the Web. This results in complex training sets for each category, which are divided unsupervised into sub-sets according to the extracted principal views. The principal views are also employed to learn class- and view-specific, data-tuned hierarchical tessellations of the 2D image plane. The 2D tessellations are used along with a class-independent data-tuned hierarchical tessellation of a high-dimensional descriptor space to realize a view-tuned approximate partial matching kernel. A view-tuned kernel implements a fine-to-coarse matching of Bag of Words-based object parts, while paying attention to the structure of the object and the relative positions of its parts. Both the tessellation of the image plane and the high-dimensional descriptor space are learned with a hierarchical Growing Neural Gas, the lbTreeGNG. View-tuned kernels are  used efficiently with Support Vector Machines in a sliding window approach to train view-tuned experts for the different sub-sets. Finally, the outputs of various experts are fused to determine a final detection result. The proposed system shows a state-of-the-art recognition performance on the image database created, and is able to detect unseen object instances in unknown environments.</abstract>
+                    <subject>
+                        <topic>domestic objects</topic>
+                        <topic>computer vision</topic>
+                        <topic>object detection</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25475179</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2547517</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2547517">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2547517/2547518/mk_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2547517" DMDID="DMD2547517">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2547517"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

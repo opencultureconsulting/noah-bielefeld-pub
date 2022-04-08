@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2937712">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Diego</namePart>
+                        <namePart type="family">Rubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fábio Henrique Viduani</namePart>
+                        <namePart type="family">Martinez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Dörr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3720-6227</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Computationally inferred ancestral genomes play an important role in many areas of genome research. We present an improved workflow for the reconstruction from highly diverged genomes such as those of plants.
+Results
+
+Our work relies on an established workflow in the reconstruction of ancestral plants, but improves several steps of this process. Instead of using gene annotations for inferring the genome content of the ancestral sequence, we identify genomic markers through a process called genome segmentation. This enables us to reconstruct the ancestral genome from hundreds of thousands of markers rather than the tens of thousands of annotated genes. We also introduce the concept of local genome rearrangement, through which we refine syntenic blocks before they are used in the reconstruction of contiguous ancestral regions. With the enhanced workflow at hand, we reconstruct the ancestral genome of eudicots, a major sub-clade of flowering plants, using whole genome sequences of five modern plants.
+Conclusions
+
+Our reconstructed genome is highly detailed, yet its layout agrees well with that reported in Badouin et al. (2017). Using local genome rearrangement, not only the marker-based, but also the gene-based reconstruction of the eudicot ancestor exhibited increased genome content, evidencing the power of this novel concept.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl. 2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1471-2164</identifier>
+                    <identifier type="MEDLINE">32299356</identifier>
+                    <identifier type="ISI">000618995800007</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29377126</identifier>
+                    <identifier type="doi">10.1186/s12864-020-6609-x</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2937712</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2937712">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2937712/2942837/s12864-020-6609-x.doerr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2937712" DMDID="DMD2937712">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2937712"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908201">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Feature Relevance Bounds for Linear Classification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christina</namePart>
+                        <namePart type="family">Göpfert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2517-4907</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Pfannschmidt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5521-0326</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michele</namePart>
+                        <namePart type="family">Verleysen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Biomedical applications often aim for an identification of relevant features for a given classification task, since these carry the promise of semantic insight into the underlying process.
+For correlated input dimensions, feature relevances are not unique, and the identification of meaningful subtle biomarkers remains a challenge.
+One approach is to identify intervals for the possible relevance of given features, a problem related to all relevant feature determination.
+In this contribution, we address the important case of linear classifiers and we transfer the problem how to infer feature relevance bounds to a convex optimization problem. 
+We demonstrate the superiority of the resulting technique in comparison to popular feature-relevance determination methods in several benchmarks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-287587039-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29082012</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908201</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2908201">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908201/2911812/goepfert_pfannschmidt_hammer_feature_selection_preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2908201">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908201/2913588/es2017-67.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908201" DMDID="DMD2908201">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908201"/>
+            <mets:div TYPE="part" ID="PART1_2908201" LABEL="es2017-67.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2908201"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

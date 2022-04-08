@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2685039">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Survey on Domain-Specific Languages in Robotics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Arne</namePart>
+                        <namePart type="family">Nordmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nico</namePart>
+                        <namePart type="family">Hochgeschwender</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The design, simulation and programming of robotics systems is challenging as expertise from multiple domains needs to be integrated conceptually and technically. Domain-specific modeling promises an efficient and flexible concept for developing robotics applications that copes with this challenge. It allows to raise the level of abstraction through the use of specific concepts that are closer to the respective domain concerns and easier to understand and validate. Furthermore, it focuses on increasing the level of automation, e.g. through code generation, to bridge the gap between the modeling and the implementation levels and to improve the efficiency and quality of the software development process. Within this contribution, we survey the literature available on domain-specific (modeling) languages in robotics required to realize a state-of-the-art real-world example from the RoboCup@Work competition. We classify 41 publications in the field as reference for potential DSL users. Furthermore, we analyze these contributions from a DSL-engineering viewpoint and discuss quantitative and qualitative aspects such as the methods and tools used for DSL implementation as well as their documentation status and platform integration. Finally, we conclude with some recommendations for discussion in the robotics programming and simulation community based on the insights gained with this survey.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26850399</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2685039</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2685039">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2685039/2697068/DSLSurvey-preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2685039" DMDID="DMD2685039">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2685039"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

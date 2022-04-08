@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773578">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>novel approach to remote homology detection: jumping alignments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Rainer</namePart>
+                        <namePart type="family">Spang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Rehmsmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We describe a new algorithm for protein classification and the detection of remote homologs. The rationale is to exploit both vertical and horizontal information of a multiple alignment in a well-balanced manner. This is in contrast to established methods such as profiles and profile hidden Markov models which focus on vertical information as they model the columns of the alignment independently and to family pairwise search which focuses on horizontal information as it treats given sequences separately. In our setting, we want to select from a given database of &quot;candidate sequences&quot; those proteins that belong to a given superfamily. In order to do so, each candidate sequence is separately tested against a multiple alignment of the known members of the superfamily by means of a new jumping alignment algorithm. This algorithm is an extension of the Smith-Waterman algorithm and computes a local alignment of a single sequence and a multiple alignment. In contrast to traditional methods, however, this alignment is not based on a summary of the individual columns of the multiple alignment. Rather, the candidate sequence is at each position aligned to one sequence of the multiple alignment, called the &quot;reference sequence&quot;. In addition, the reference sequence may change within the alignment, while each such jump is penalized. To evaluate the discriminative quality of the jumping alignment algorithm, we compare it to profiles, profile hidden Markov models, and family pairwise search on a subset of the SCOP database of protein domains. The discriminative quality is assessed by median false positive counts (med-FP-counts). For moderate med-FP-counts, the number of successful searches with our method is considerably higher than with the competing methods.</abstract>
+                    <subject>
+                        <topic>Homology detection</topic>
+                        <topic>Jumping alignments</topic>
+                        <topic>Protein classification</topic>
+                        <topic>Sequence analysis</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of Computational Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>5</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>747</start>
+                                <end>760</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1066-5277</identifier>
+                    <identifier type="eIssn">1557-8666</identifier>
+                    <identifier type="MEDLINE">12487762</identifier>
+                    <identifier type="ISI">000179401200005</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17735788</identifier>
+                    <identifier type="doi">10.1089/106652702761034172</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773578</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773578">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773578/2311291/SPA_REH_STO_2002.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773578" DMDID="DMD1773578">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773578"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

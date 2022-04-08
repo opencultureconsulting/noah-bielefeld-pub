@@ -1,0 +1,112 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2410526</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:660.6</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Stefan</namePart>
+  <namePart type="family">Janssen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10656617</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-0955-0589</description></name>
+<name type="personal">
+  <namePart type="given">Christian</namePart>
+  <namePart type="family">Schudoma</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Gerhard</namePart>
+  <namePart type="family">Steger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Giegerich</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">147565</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067120</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">BACKGROUND:Many bioinformatics tools for RNA secondary structure analysis are based on a thermodynamic model of RNA folding. They predict a single, "optimal" structure by free energy minimization, they enumerate near-optimal structures, they compute base pair probabilities and dot plots, representative structures of different abstract shapes, or Boltzmann probabilities of structures and shapes. Although all programs refer to the same physical model, they implement it with considerable variation for different tasks, and little is known about the effects of heuristic assumptions and model simplifications used by the programs on the outcome of the analysis.RESULTS:We extract four different models of the thermodynamic folding space which underlie the programs RNAfold, RNAshapes, and RNAsubopt. Their differences lie within the details of the energy model and the granularity of the folding space. We implement probabilistic shape analysis for all models, and introduce the shape probability shift as a robust measure of model similarity. Using four data sets derived from experimentally solved structures, we provide a quantitative evaluation of the model differences.CONCLUSIONS:We find that search space granularity affects the computed shape probabilities less than the over- or underapproximation of free energy by a simplified energy model. Still, the approximations perform similar enough to implementations of the full model to justify their continued use in settings where computational constraints call for simpler algorithms. On the side, we observe that the rarely used level 2 shapes, which predict the complete arrangement of helices, multiloops, internal loops and bulges, include the "true" shape in a rather small number of predicted high probability shapes. This calls for an investigation of new strategies to extract high probability members from the (very large) level 2 shape space of an RNA sequence. We provide implementations of all four models, written in a declarative style that makes them easy to be modified. Based on our study, future work on thermodynamic RNA folding may make a choice of model based on our empirical data. It can take our implementations as a starting point for further program development.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="janssen.1471-2105-12-429.pdf">https://pub.uni-bielefeld.de/download/2410526/2485463/janssen.1471-2105-12-429.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Science + Business Media</publisher><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">22051375</identifier>
+  <identifier type="ISI">000301379800001</identifier><identifier type="urn">urn:nbn:de:0070-pub-24105268</identifier><identifier type="doi">10.1186/1471-2105-12-429</identifier>
+<part><detail type="volume"><number>12</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<wels>Janssen, S.; Schudoma, C.; Steger, G.; Giegerich, R. (2011): Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,12:(1):429</wels>
+<angewandte-chemie>S.  Janssen, C.  Schudoma, G.  Steger, and R.  Giegerich, “Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2011&lt;/strong&gt;, &lt;em&gt;12&lt;/em&gt;, : 429.</angewandte-chemie>
+<harvard1>Janssen, S., et al., 2011. Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 12(1): 429.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, S., Schudoma, C., Steger, G., &amp;amp; Giegerich, R. (2011). Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;12&lt;/em&gt;(1), 429. &lt;a href="https://doi.org/10.1186/1471-2105-12-429" target="_blank"&gt;https://doi.org/10.1186/1471-2105-12-429&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Janssen S, Schudoma C, Steger G, Giegerich R (2011) &lt;br /&gt;Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction.&lt;br /&gt;BMC Bioinformatics 12(1): 429.</bio1>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, S., Schudoma, C., Steger, G. &amp;amp; Giegerich, R. (2011). Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;12&lt;/em&gt;(1): 429. Springer Science + Business Media. doi:10.1186/1471-2105-12-429.&lt;/div&gt;</dgps>
+<frontiers>Janssen, S., Schudoma, C., Steger, G., and Giegerich, R. (2011). Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 12:429.</frontiers>
+<ama>Janssen S, Schudoma C, Steger G, Giegerich R. Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2011;12(1): 429.</ama>
+<ieee> S. Janssen, et al., “Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 12, 2011, : 429.</ieee>
+<apa>Janssen, S., Schudoma, C., Steger, G., &amp;amp; Giegerich, R. (2011). Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;12&lt;/em&gt;(1), 429. &lt;a href="https://doi.org/10.1186/1471-2105-12-429" target="_blank"&gt;https://doi.org/10.1186/1471-2105-12-429&lt;/a&gt;</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, Stefan, Schudoma, Christian, Steger, Gerhard, and Giegerich, Robert. 2011. “Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 12 (1): 429.&lt;/div&gt;</chicago>
+<lncs> Janssen, S., Schudoma, C., Steger, G., Giegerich, R.: Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction. BMC Bioinformatics. 12, : 429 (2011).</lncs>
+<default>Janssen S, Schudoma C, Steger G, Giegerich R (2011) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 12(1): 429.</default>
+<mla>Janssen, Stefan, Schudoma, Christian, Steger, Gerhard, and Giegerich, Robert. “Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 12.1 (2011): 429.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2410526</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-11-03T22:02:19Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-01T13:44:53Z</recordChangeDate>
+</recordInfo>
+</mods>

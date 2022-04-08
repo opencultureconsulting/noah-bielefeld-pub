@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302013</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Active data selection in supervised and unsupervised learning</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Martina</namePart>
+  <namePart type="family">Hasenjäger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In the context of computer science, learning is applied in situations that are so complex that conventional programming techniques are either unavailable or not practical. But often empirical knowledge on the phenomenon/process under consideration is available in the form of data from repeated measurements. Learning then means extracting the basic regularities from these empirical data and thus can be seen as building an abstraction of the phenomenon that yields a complete and robust description of its interesting aspects.
+The success of the learning process depends on a number of factors such as the concrete form of the learning system, the procedure used for learning and, finally, the data that are at the learner's disposal. It is this last point of data selection that is the main focus of this thesis. In general, the data are selected at random in such a way that they capture the interesting aspects of the phenomenon. This is not necessarily the most efficient way of data acquisition, since the data selection procedure does not receive feedback from the learner. The data may therefore not be in tune with his current state of knowledge and the learning process is not as efficient as it could be.
+In this thesis, we discuss a new paradigm for learning that aims at improving the efficiency of neural network training procedures: active learning. Here, the learner is enabled to make use of the information that is already available to select those training data that he expects to be most informative. In this case, the learner is no longer a passive recipient of information, but takes an active role in the selection of the training data.
+After a review of the state of the art in active learning, we turn to active learning in binary classification tasks. Here, we study in detail an approach to the problem that is based on concepts from information theory. We then develop a new heuristic algorithm for data selection in local models, a class of learners that up to now has not been considered in this context. Finally, we extend the area of application of active learning techniques to unsupervised learning: we propose an algorithm for active data selection in topographic pairwise clustering that is founded on statistical decision theory.
+Our results show that active learning may be computationally expensive but that, in comparison to random data selection, these active strategies lead to a considerable reduction in the number of necessary training samples. This makes active data selection a viable alternative, especially when the cost of data acquisition is high.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.ps">https://pub.uni-bielefeld.de/download/2302013/2302016/diss.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2000</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Maschinelles Lernen</topic><topic>Wissenserwerb</topic><topic>Neuronales Netz</topic><topic>Stochastisches Modell</topic><topic>Neuronale Netze</topic><topic>Maschinelles Lernen</topic><topic>Aktive Datenauswahl</topic><topic>Fragenbasiertes Lernen</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-1381</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2000-06-13</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Hasenjäger, M.: Active data selection in supervised and unsupervised learning. Bielefeld University, Bielefeld (2000).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hasenjäger, Martina. 2000. &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hasenjäger, Martina. &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University, 2000.</mla>
+<default>Hasenjäger M (2000) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<wels>Hasenjäger, M. (2000): Active data selection in supervised and unsupervised learning. Bielefeld: Bielefeld University.</wels>
+<bio1>Hasenjäger M (2000) &lt;br /&gt;&lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<harvard1>Hasenjäger, M., 2000. &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hasenjäger, M. (2000).  &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>M.  Hasenjäger, &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2000&lt;/strong&gt;.</angewandte-chemie>
+<ama>Hasenjäger M. &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University; 2000.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hasenjäger, M. (2000). &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Hasenjäger, M. (2000). Active data selection in supervised and unsupervised learning. Bielefeld: Bielefeld University.</frontiers>
+<apa>Hasenjäger, M. (2000).  &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<ieee> M. Hasenjäger, &lt;em&gt;Active data selection in supervised and unsupervised learning&lt;/em&gt;,  Bielefeld: Bielefeld University, 2000.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302013</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-03-25T11:07:42Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T09:07:10Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2560353">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Stochastic errors vs. modeling errors in distance based phylogenetic reconstructions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Dörr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3720-6227</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ilan</namePart>
+                        <namePart type="family">Gronau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Shlomo</namePart>
+                        <namePart type="family">Moran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Irad</namePart>
+                        <namePart type="family">Yavneh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Distance-based phylogenetic reconstruction methods use evolutionary distances between species in order to reconstruct the phylogenetic tree spanning them. There are many different methods for estimating distances from sequence data. These methods assume different substitution models and have different statistical properties. Since the true substitution model is typically unknown, it is important to consider the effect of model misspecification on the performance of a distance estimation method. Results: This paper continues the line of research which attempts to adjust to each given set of input sequences a distance function which maximizes the expected topological accuracy of the reconstructed tree. We focus here on the effect of systematic error caused by assuming an inadequate model, but consider also the stochastic error caused by using short sequences. We introduce a theoretical framework for analyzing both sources of error based on the notion of deviation from additivity, which quantifies the contribution of model misspecification to the estimation error. We demonstrate this framework by studying the behavior of the Jukes-Cantor distance function when applied to data generated according to Kimura&apos;s two-parameter model with a transition-transversion bias. We provide both a theoretical derivation for this case, and a detailed simulation study on quartet trees. Conclusions: We demonstrate both analytically and experimentally that by deliberately assuming an oversimplified evolutionary model, it is possible to increase the topological accuracy of reconstruction. Our theoretical framework provides new insights into the mechanisms that enables statistically inconsistent reconstruction methods to outperform consistent methods.</abstract>
+                    <subject>
+                        <topic>rate functions</topic>
+                        <topic>Substitution models</topic>
+                        <topic>Phylogenetic reconstructions</topic>
+                        <topic>Additive substitution</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms for Molecular Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1748-7188</identifier>
+                    <identifier type="MEDLINE">22938153</identifier>
+                    <identifier type="ISI">000313336100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25603539</identifier>
+                    <identifier type="doi">10.1186/1748-7188-7-22</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2560353</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2560353">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2560353/2611555/1748-7188-7-22.doerr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2560353" DMDID="DMD2560353">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2560353"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

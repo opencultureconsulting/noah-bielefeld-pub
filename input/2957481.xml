@@ -1,0 +1,109 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2957481</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:600</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Florian</namePart>
+  <namePart type="family">Porrmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">96183421</identifier></name>
+<name type="personal">
+  <namePart type="given">Sarah</namePart>
+  <namePart type="family">Pilz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">96183218</identifier></name>
+<name type="personal">
+  <namePart type="given">Alessandra</namePart>
+  <namePart type="family">Stella</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Kleinjohann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Michael</namePart>
+  <namePart type="family">Denker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Hagemeyer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">30629226</identifier></name>
+<name type="personal">
+  <namePart type="given">Ulrich</namePart>
+  <namePart type="family">Rückert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15438821</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The &lt;em&gt;SPADE&lt;/em&gt; (spatio-temporal&lt;bold&gt; S&lt;/bold&gt;pike&lt;bold&gt; PA&lt;/bold&gt;ttern&lt;bold&gt; D&lt;/bold&gt;etection and&lt;bold&gt; E&lt;/bold&gt;valuation) method was developed to find reoccurring spatio-temporal patterns in neuronal spike activity (parallel spike trains). However, depending on the number of spike trains and the length of recording, this method can exhibit long runtimes. Based on a realistic benchmark data set, we identified that the combination of pattern mining (using the &lt;em&gt;FP-Growth&lt;/em&gt; algorithm) and the result filtering account for 85–90% of the method's total runtime. Therefore, in this paper, we propose a customized &lt;em&gt;FP-Growth&lt;/em&gt; implementation tailored to the requirements of &lt;em&gt;SPADE&lt;/em&gt;, which significantly accelerates pattern mining and result filtering. Our version allows for parallel and distributed execution, and due to the improvements made, an execution on heterogeneous and low-power embedded devices is now also possible. The implementation has been evaluated using a traditional workstation based on an Intel Broadwell Xeon E5-1650 v4 as a baseline. Furthermore, the heterogeneous microserver platform RECS|Box has been used for evaluating the implementation on two HiSilicon Hi1616 (Kunpeng 916), an Intel Coffee Lake-ER Xeon E-2276ME, an Intel Broadwell Xeon D-D1577, and three NVIDIA Tegra devices (Jetson AGX Xavier, Jetson Xavier NX, and Jetson TX2). Depending on the platform, our implementation is between 27 and 200 times faster than the original implementation. At the same time, the energy consumption was reduced by up to two orders of magnitude.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fninf-15-723406.pdf">https://pub.uni-bielefeld.de/download/2957481/2957849/fninf-15-723406.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Media SA</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>FP-growth</topic><topic>pattern mining</topic><topic>spike train analysis</topic><topic>embedded devices</topic><topic>performance optimization</topic><topic>low power</topic><topic>parallel and distributed computing</topic><topic>heterogeneous computing</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in Neuroinformatics</title></titleInfo>
+  <identifier type="eIssn">1662-5196</identifier>
+  <identifier type="MEDLINE">34603002</identifier>
+  <identifier type="ISI">000702048700001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29574815</identifier><identifier type="doi">10.3389/fninf.2021.723406</identifier>
+<part><detail type="volume"><number>15</number></detail><detail type="issue"><number>15</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Porrmann, F., Pilz, S., Stella, A., Kleinjohann, A., Denker, M., Hagemeyer, J. &amp;amp; Rückert, U. (2021). Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;(15): 723406. Frontiers Media SA. doi:10.3389/fninf.2021.723406.&lt;/div&gt;</dgps>
+<frontiers>Porrmann, F., Pilz, S., Stella, A., Kleinjohann, A., Denker, M., Hagemeyer, J., and Rückert, U. (2021). Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt; 15:723406.</frontiers>
+<ama>Porrmann F, Pilz S, Stella A, et al. Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;. 2021;15(15): 723406.</ama>
+<ieee> F. Porrmann, et al., “Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation”, &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;,  vol. 15, 2021, : 723406.</ieee>
+<apa>Porrmann, F., Pilz, S., Stella, A., Kleinjohann, A., Denker, M., Hagemeyer, J., &amp;amp; Rückert, U. (2021). Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;(15), 723406. &lt;a href="https://doi.org/10.3389/fninf.2021.723406" target="_blank"&gt;https://doi.org/10.3389/fninf.2021.723406&lt;/a&gt;</apa>
+<wels>Porrmann, F.; Pilz, S.; Stella, A.; Kleinjohann, A.; Denker, M.; Hagemeyer, J.; Rückert, U. (2021): Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;,15:(15):723406</wels>
+<angewandte-chemie>F.  Porrmann, S.  Pilz, A.  Stella, A.  Kleinjohann, M.  Denker, J.  Hagemeyer, and U.  Rückert, “Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation”, &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;, &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;15&lt;/em&gt;, : 723406.</angewandte-chemie>
+<bio1>Porrmann F, Pilz S, Stella A, Kleinjohann A, Denker M, Hagemeyer J, Rückert U (2021) &lt;br /&gt;Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation.&lt;br /&gt;Frontiers in Neuroinformatics 15(15): 723406.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Porrmann, F., Pilz, S., Stella, A., Kleinjohann, A., Denker, M., Hagemeyer, J., &amp;amp; Rückert, U. (2021). Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;(15), 723406. &lt;a href="https://doi.org/10.3389/fninf.2021.723406" target="_blank"&gt;https://doi.org/10.3389/fninf.2021.723406&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Porrmann, F., et al., 2021. Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt;, 15(15): 723406.</harvard1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Porrmann, Florian, Pilz, Sarah, Stella, Alessandra, Kleinjohann, Alexander, Denker, Michael, Hagemeyer, Jens, and Rückert, Ulrich. 2021. “Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation”. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt; 15 (15): 723406.&lt;/div&gt;</chicago>
+<lncs> Porrmann, F., Pilz, S., Stella, A., Kleinjohann, A., Denker, M., Hagemeyer, J., Rückert, U.: Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation. Frontiers in Neuroinformatics. 15, : 723406 (2021).</lncs>
+<default>Porrmann F, Pilz S, Stella A, Kleinjohann A, Denker M, Hagemeyer J, Rückert U (2021) &lt;br /&gt;&lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt; 15(15): 723406.</default>
+<mla>Porrmann, Florian, Pilz, Sarah, Stella, Alessandra, Kleinjohann, Alexander, Denker, Michael, Hagemeyer, Jens, and Rückert, Ulrich. “Acceleration of the SPADE Method Using a Custom-Tailored FP-Growth Implementation”. &lt;em&gt;Frontiers in Neuroinformatics&lt;/em&gt; 15.15 (2021): 723406.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2957481</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-09-17T09:18:06Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-10-12T07:37:05Z</recordChangeDate>
+</recordInfo>
+</mods>

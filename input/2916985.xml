@@ -1,0 +1,105 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2916985</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:000</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Soufian</namePart>
+  <namePart type="family">Jebbara</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">61955542</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4483-0933</description></name>
+<name type="personal">
+  <namePart type="given">Valerio</namePart>
+  <namePart type="family">Basile</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Elena</namePart>
+  <namePart type="family">Cabrio</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this paper we are concerned with developing information extraction models that support the extraction of common sense knowledge from a combination of unstructured and semi-structured datasets. Our motivation is to extract manipulation-relevant knowledge that can support robots' action planning. We frame the task as a relation extraction task and, as proof-ofconcept, validate our method on the task of extracting two types of relations: locative and instrumental relations. The locative relation relates objects to the prototypical places where the given object is found or stored. The second instrumental relation relates objects to their prototypical purpose of use. While we extract these relations from text, our goal is not to extract specific textual mentions, but rather, given an object as input, extract a ranked list of locations and uses ranked by `prototypicality'. We use distributional methods in embedding space, relying on the well-known skip-gram model to embed words into a low-dimensional distributional space, using cosine similarity to rank the various candidates. In addition, we also present experiments that rely on the vector space model NASARI, which compute embeddings for disambiguated concepts and are thus semantically aware. While this distributional approach has been published before, we extend our framework by additional methods relying on neural networks that learn a score to judge whether a given candidate pair actually expresses a desired relation. The network thus learns a scoring function using a supervised approach. While we use a ranking-based evaluation, the supervised model is trained using a binary classification task. The resulting score from the neural network and the cosine similarity in the case of the distributional approach are both used to compute a ranking.
+
+We compare the different approaches and parameterizations thereof on the task of extracting the above mentioned relations. We show that the distributional similarity approach performs very well on the task. The best performing parameterization achieves an NDCG of 0.913, a Precision@ 1 of 0.400 and a Precision@ 3 of 0.423. The performance of the supervised learning approach, in spite of having being trained on positive and negative examples of the relation in question, is not as good as expected and achieves an NCDG of 0.908, a Precision@ 1 of 0.454 and a Precision@3 of 0.387, respectively.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="swj2017.pdf">https://pub.uni-bielefeld.de/download/2916985/2916986/swj2017.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>IOS Press</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Semantic Web</title></titleInfo>
+  <identifier type="issn">1570-0844</identifier>
+  <identifier type="eIssn">2210-4968</identifier>
+  <identifier type="ISI">000463654000007</identifier><identifier type="urn">urn:nbn:de:0070-pub-29169857</identifier><identifier type="doi">10.3233/SW-180302</identifier>
+<part><detail type="volume"><number>10</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">139-158</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<ieee> S. Jebbara, et al., “Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models”, &lt;em&gt;Semantic Web&lt;/em&gt;,  vol. 10, 2019,  pp. 139-158.</ieee>
+<apa>Jebbara, S., Basile, V., Cabrio, E., &amp;amp; Cimiano, P. (2019). Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 139-158. doi:10.3233/SW-180302</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, S., Basile, V., Cabrio, E. &amp;amp; Cimiano, P. (2019). Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 139-158. IOS Press. doi:10.3233/SW-180302.&lt;/div&gt;</dgps>
+<frontiers>Jebbara, S., Basile, V., Cabrio, E., and Cimiano, P. (2019). Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt; 10, 139-158.</frontiers>
+<ama>Jebbara S, Basile V, Cabrio E, Cimiano P. Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt;. 2019;10(1):139-158.</ama>
+<angewandte-chemie>S.  Jebbara, V.  Basile, E.  Cabrio, and P.  Cimiano, “Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models”, &lt;em&gt;Semantic Web&lt;/em&gt;, &lt;strong&gt;2019&lt;/strong&gt;, &lt;em&gt;10&lt;/em&gt;, 139-158.</angewandte-chemie>
+<bio1>Jebbara S, Basile V, Cabrio E, Cimiano P (2019) &lt;br /&gt;Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models.&lt;br /&gt;Semantic Web 10(1): 139-158.</bio1>
+<harvard1>Jebbara, S., et al., 2019. Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt;, 10(1), p 139-158.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, S., Basile, V., Cabrio, E., &amp;amp; Cimiano, P. (2019). Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. &lt;em&gt;Semantic Web&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 139-158. doi:10.3233/SW-180302&lt;/div&gt;</apa_indent>
+<wels>Jebbara, S.; Basile, V.; Cabrio, E.; Cimiano, P. (2019): Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models &lt;em&gt;Semantic Web&lt;/em&gt;,10:(1): 139-158.</wels>
+<default>Jebbara S, Basile V, Cabrio E, Cimiano P (2019) &lt;br /&gt;&lt;em&gt;Semantic Web&lt;/em&gt; 10(1): 139-158.</default>
+<mla>Jebbara, Soufian, Basile, Valerio, Cabrio, Elena, and Cimiano, Philipp. “Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models”. &lt;em&gt;Semantic Web&lt;/em&gt; 10.1 (2019): 139-158.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, Soufian, Basile, Valerio, Cabrio, Elena, and Cimiano, Philipp. 2019. “Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models”. &lt;em&gt;Semantic Web&lt;/em&gt; 10 (1): 139-158.&lt;/div&gt;</chicago>
+<lncs> Jebbara, S., Basile, V., Cabrio, E., Cimiano, P.: Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models. Semantic Web. 10, 139-158 (2019).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2916985</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-01-25T16:58:41Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-11-18T15:47:11Z</recordChangeDate>
+</recordInfo>
+</mods>

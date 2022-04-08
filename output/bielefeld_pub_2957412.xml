@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2957412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Lateral attitude change: Displacement effects as a reaction to blatant social influence</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Linne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tina</namePart>
+                        <namePart type="family">Glaser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerd</namePart>
+                        <namePart type="family">Bohner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0564-3625</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2957412</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2957412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE0_bielefeld_pub_2957412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957412/2957413/LAC_Linne_et_al_data.sav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE1_bielefeld_pub_2957412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957412/2957414/LAC_Linne_et_al_data_Syntax.sps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE2_bielefeld_pub_2957412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957412/2957415/LAC_Linne_et_al_IAT_Inquisit_data.sav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE3_bielefeld_pub_2957412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957412/2957416/LAC_Linne_et_al_PC_Material.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE4_bielefeld_pub_2957412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957412/2957417/LAC_Linne_et_al_PP_Material.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2957412" DMDID="DMD2957412">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2957412"/>
+            <mets:div TYPE="part" ID="PART1_2957412" LABEL="LAC_Linne_et_al_data_Syntax.sps">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2957412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2957412" LABEL="LAC_Linne_et_al_IAT_Inquisit_data.sav">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2957412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2957412" LABEL="LAC_Linne_et_al_PC_Material.pdf">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2957412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2957412" LABEL="LAC_Linne_et_al_PP_Material.pdf">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2957412"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

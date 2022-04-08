@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305233">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>tree alignment model : algorithms, implementations and applications for the analysis of RNA secondary structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Höchsmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-01-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Phylogenetic analysis of nucleotide sequences and amino acid sequences has proven to be extremely powerful in the analysis of genomes. The comparative analysis of coding regions, i.e. regions where the order of nucleotides code for proteins, has been studied extensively. But what if the signal is not sequential? There are numerous examples of RNA genes and motifs where the structure instead of the sequence determines the function (and for sure, there are a lot of unknown ones today). In this case the selective pressure acts on the structure, which conserves structure instead of sequence. In spite of all its success, pure sequence based comparative analysis gets to its limit when structural conservation is of interest. In this thesis, I focus on strategies to align the structure of RNA molecules.</abstract>
+                    <subject>
+                        <topic>RNS</topic>
+                        <topic>Sekundärstruktur</topic>
+                        <topic>Mathematisches Modell</topic>
+                        <topic>Molekulare Bioinformatik</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7099</identifier>
+                    <identifier type="sys">HT014473632</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305233</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305233">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305233/2305236/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305233" DMDID="DMD2305233">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305233"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

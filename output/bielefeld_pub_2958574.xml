@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2958574">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Energy loss and equilibration of a highly energetic parton in QCD plasmas</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ismail</namePart>
+                        <namePart type="family">Soudi</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3575-1782</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sören</namePart>
+                        <namePart type="family">Schlichting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-10-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">While a hard parton (gluon or quark) traverses the medium, it loses its energy as a result of interactions with the medium. In this thesis, we describe the full in-medium kinetic and chemical equilibration of hard particles, using a linearized effective kinetic description of QCD at leading order. Since we include $2\leftrightarrow2$ elastic processes, collinear radiation, and the back-reaction of the jet constituents onto the medium, we are able to follow the energy from the hard scales $\sim E$ all the way to the medium scales $\sim T$. 
+
+In the first analysis, we consider the energy evolution only in the longitudinal direction and describe the elastic processes using the small angle approximation. After a direct energy deposition into the medium scales due to elastic and radiative interactions at early times, we find that the energy loss is mainly driven by successive splittings, which lead to an energy cascade from the hard sector to the medium scale akin to weak wave turbulence. The turbulent cascade is characterized by a stationary solution known as the Kolmogorov-Zakharov spectrum, which is recovered at intermediate energy scales. This Kolmogorov-Zakharov spectrum leads to a scale invariant energy flux that we investigate in detail. 
+Since the evolution is linear, the late time equilibration is studied using an eigen decomposition of the collision integral which is compared to the late time exponential decay.
+
+In the second analysis, we consider the evolution of the distribution in the longitudinal direction as well as in the polar angle with respect to the initial parton, which allows us to study the angular structure of the cascade. In order to account for large angle elastic scatterings, we extend the framework by using the full matrix element in Hard Thermal Loop approximation. Similarly to the first analysis, the energy loss is dominated by collinear radiation, which transport energy to the soft scales. However, the radiation does not transport energy to large angles, rather, the soft energy equilibrates due to elastic scatterings, which starts already at early times, and leads to the deposition of energy at large angles.
+
+Recent studies, using the dimensionally reduced theory of QCD on a lattice (EQCD) valid at high temperature, have obtained non-perturbative contributions to the collisional broadening kernel \cite{Moore:2019lua,Moore:2019lgw}.
+The last part of this work is dedicated to computing the medium splitting rates using these results. First, since EQCD is an infrared effective theory of QCD, we employ a matching to supply the correct ultraviolet behavior to the computed kernel. Second, the non-perturbative kernel being in impact parameter space is Fourier transformed back to momentum space. We then compute medium-induced radiation rates in infinite and finite medium lengths and compare with leading order and next-to-leading order kernels that are usually used in the literature. We also compare several traditional and novel approximations to the radiation rates that are commonly used and discuss their range of validity.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29585744</identifier>
+                    <identifier type="doi">10.4119/unibi/2958574</identifier>
+                    <identifier type="sys">HT021174897</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2958574</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2958574">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2958574/2958575/Thesis-IsmailSoudi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2958574" DMDID="DMD2958574">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2958574"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302535">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Die </nonSort>
+                        <title>Rückkehr der Mayordomo : Akzentuierung indigener Lebensweise durch ökonomische und soziale Veränderungen im mexikanischen Chol-Dorf Río Grande</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">J. Werner</namePart>
+                        <namePart type="family">Link</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hans-Dieter</namePart>
+                        <namePart type="family">Evers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1995</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">1995-05-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Untersuchung stellt einen empirischen Beitrag zur Diskussion über das zunehmende indigene Selbstbewusstsein in Lateinamerika dar. In dem Dorf Río Grande im Norden des südmexikanischen Bundesstaats Chiapas wurde nach Prozessen geforscht, die auf ein gestiegenes Selbstbewusstsein der Chol hindeuten. Die These der Arbeit ist, dass Kräfte, die in der gesamten mexikanischen Gesellschaft agieren, das Anwachsen des Selbstbewusstseins der Autochthonen anregen und auch fördern.</abstract>
+                    <subject>
+                        <topic>Chol</topic>
+                        <topic>Dorfgemeinschaft</topic>
+                        <topic>Sozioökonomischer Wandel</topic>
+                        <topic>Lebensbedingungen</topic>
+                        <topic>Indigene Dorfgemeinschaft</topic>
+                        <topic>Chol</topic>
+                        <topic>Subsistenzproduktion</topic>
+                        <topic>Theologie der Befreiung</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1636</identifier>
+                    <identifier type="sys">HT014238548</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302535</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302535">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302535/2302539/1linkdiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2302535">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302535/2302538/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2302535">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302535/2302540/abstract.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302535" DMDID="DMD2302535">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302535"/>
+            <mets:div TYPE="part" ID="PART1_2302535" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2302535"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2302535" LABEL="abstract.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2302535"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

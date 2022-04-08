@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2962125">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Correcting bias in allele frequency estimates to an observation threshold: A Markov chain analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Toni</namePart>
+                        <namePart type="family">Goßmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6609-4116</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Waxman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">There are many problems in biology and related disciplines involving stochasticity, where a signal can only be detected when it lies above a threshold level, while signals lying below threshold are simply not detected. A consequence is that the detected signal is conditioned to lie above threshold, and is not representative of the actual signal. In this work we present some general results for the conditioning that occurs due to the existence of such an observational threshold. We show that this conditioning is relevant, for example, to gene-frequency trajectories, where many loci in the genome are simultaneously measured in a given generation. Such a threshold can lead to severe biases of allele frequency estimates under purifying selection. In the analysis presented, within the context of Markov chains such as the Wright-Fisher model, we address two key questions: (1) `What is a natural measure of the strength of the conditioning associated with an observation threshold?&apos; (2) `What is a principled way to correct for the effects of the conditioning?&apos;. We answer the first question in terms of a proportion. Starting with a large number of trajectories, the relevant quantity is the proportion of these trajectories that are above threshold at a later time and hence are detected. The smaller the value of this proportion, the stronger the effects of conditioning. We provide an approximate analytical answer to the second question, that corrects the bias produced by an observation threshold, and performs to reasonable accuracy in the Wright-Fisher model for biologically plausible parameter values.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="eIssn">1759-6653</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29621256</identifier>
+                    <identifier type="doi">10.1093/gbe/evac047</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2962125</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2962125">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2962125/2962224/evac047.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2962125" DMDID="DMD2962125">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2962125"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

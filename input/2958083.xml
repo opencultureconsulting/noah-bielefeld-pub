@@ -1,0 +1,97 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2958083</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:510</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Tamino</namePart>
+  <namePart type="family">Huxohl</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">96181372</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-8865-2895</description></name>
+<name type="personal">
+  <namePart type="given">Franz</namePart>
+  <namePart type="family">Kummert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10372</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">n this work, the creation of a dataset labeled in a pixel-wise manner for the uncommon domain of stain detection on patterned laundry is described. The unique properties of images in this dataset—stains are small and sometimes occur in large amounts—led to the creation of noisy labels. Indeed, the training of a fully convolutional neural network for salient object detection with this dataset revealed that the model predicts stains missed by human labelers. Thus, the reduction in label noise by adding overlooked regions with the help of the model’s predictions is examined in two different experiments. In the model-assisted labeling experiment, a simulation is ran where a human selects correct regions from the predictions. In the self-training experiment, regions of high certainty are automatically selected from the predictions. Re-training the model with the revised labels shows that model-assisted labeling leads to an average improvement in performance by 8.52%. In contrast, with self-training, the performance increase is generally lower (2.58% on average) and a decrease is even possible since regions of high certainty are often false positives.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mathematics-09-02498-v4.pdf">https://pub.uni-bielefeld.de/download/2958083/2958225/mathematics-09-02498-v4.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>MDPI</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>self-training</topic><topic>model-assisted labeling</topic><topic>salient object detection</topic><topic>surface defect detection</topic><topic>stain detection</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Mathematics</title></titleInfo>
+  <identifier type="eIssn">2227-7390</identifier>
+  <identifier type="ISI">000709621200001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29580838</identifier><identifier type="doi">10.3390/math9192498</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>19</number></detail><extent unit="pages">2498</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huxohl, Tamino, and Kummert, Franz. 2021. “Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry”. &lt;em&gt;Mathematics&lt;/em&gt; 9 (19): 2498.&lt;/div&gt;</chicago>
+<lncs> Huxohl, T., Kummert, F.: Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. Mathematics. 9, 2498 (2021).</lncs>
+<default>Huxohl T, Kummert F (2021) &lt;br /&gt;&lt;em&gt;Mathematics&lt;/em&gt; 9(19): 2498.</default>
+<mla>Huxohl, Tamino, and Kummert, Franz. “Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry”. &lt;em&gt;Mathematics&lt;/em&gt; 9.19 (2021): 2498.</mla>
+<wels>Huxohl, T.; Kummert, F. (2021): Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry &lt;em&gt;Mathematics&lt;/em&gt;,9:(19): 2498.</wels>
+<angewandte-chemie>T.  Huxohl, and F.  Kummert, “Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry”, &lt;em&gt;Mathematics&lt;/em&gt;, &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, 2498.</angewandte-chemie>
+<harvard1>Huxohl, T., &amp;amp; Kummert, F., 2021. Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt;, 9(19), p 2498.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huxohl, T., &amp;amp; Kummert, F. (2021). Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(19), 2498. &lt;a href="https://doi.org/10.3390/math9192498" target="_blank"&gt;https://doi.org/10.3390/math9192498&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Huxohl T, Kummert F (2021) &lt;br /&gt;Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry.&lt;br /&gt;Mathematics 9(19): 2498.</bio1>
+<frontiers>Huxohl, T., and Kummert, F. (2021). Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt; 9, 2498.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huxohl, T. &amp;amp; Kummert, F. (2021). Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(19), 2498. MDPI. doi:10.3390/math9192498.&lt;/div&gt;</dgps>
+<ama>Huxohl T, Kummert F. Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt;. 2021;9(19):2498.</ama>
+<ieee> T. Huxohl and F. Kummert, “Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry”, &lt;em&gt;Mathematics&lt;/em&gt;,  vol. 9, 2021,  pp. 2498.</ieee>
+<apa>Huxohl, T., &amp;amp; Kummert, F. (2021). Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry. &lt;em&gt;Mathematics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(19), 2498. &lt;a href="https://doi.org/10.3390/math9192498" target="_blank"&gt;https://doi.org/10.3390/math9192498&lt;/a&gt;</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2958083</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-10-11T07:35:10Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-25T14:17:18Z</recordChangeDate>
+</recordInfo>
+</mods>

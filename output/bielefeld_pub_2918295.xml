@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918295">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Attentive Speaking. From Listener Feedback to Interactive Adaptation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">Buschmeier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9613-5713</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-11-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Dialogue is an interactive endeavour in which participants jointly pursue the goal of reaching understanding. Since participants enter the interaction with their individual conceptualisation of the world and their idiosyncratic way of using language, understanding cannot, in general, be reached by exchanging messages that are encoded when speaking and decoded when listening. Instead, speakers need to design their communicative acts in such a way that listeners are likely able to infer what is meant. Listeners, in turn, need to provide evidence of their understanding in such a way that speakers can infer whether their communicative acts were successful. This is often an interactive and iterative process in which speakers and listeners work towards understanding by jointly coordinating their communicative acts through feedback and adaptation. Taking part in this interactive process requires dialogue participants to have ‘interactional intelligence’.&lt;br /&gt;&lt;br /&gt;
+
+This conceptualisation of dialogue is rather uncommon in formal or technical approaches to dialogue modelling. This thesis argues that it may, nevertheless, be a promising research direction for these fields, because it de-emphasises raw language processing performance and focusses on fundamental interaction skills. Interactionally intelligent artificial conversational agents may thus be able to reach understanding with their interlocutors by drawing upon such competences. This will likely make them more robust, more understandable, more helpful, more effective, and more human-like.&lt;br /&gt;&lt;br /&gt;
+
+This thesis develops conceptual and computational models of interactional intelligence for artificial conversational agents that are limited to (1) the speaking role, and (2) evidence of understanding in form of communicative listener feedback (short but expressive verbal/vocal signals, such as ‘okay’, ‘mhm’ and ‘huh’, head gestures, and gaze). This thesis argues that such ‘attentive speaker agents’ need to be able (1) to probabilistically reason about, infer, and represent their interlocutors’ listening related mental states (e.g., their degree of understanding), based on their interlocutors’ feedback behaviour; (2) to interactively adapt their language and behaviour such that their interlocutors’ needs, derived from the attributed mental states, are taken into account; and (3) to decide when they need feedback from their interlocutors and how they can elicit it using behavioural cues.This thesis describes computational models for these three processes, their integration in an incremental behaviour generation architecture for embodied conversational agents, and a semi-autonomous interaction study in which the resulting attentive speaker agent is evaluated.&lt;br /&gt;&lt;br /&gt;
+
+The evaluation finds that the computational models of attentive speaking developed in this thesis enable conversational agents to interactively reach understanding with their human interlocutors (through feedback and adaptation) and that these interlocutors are willing to provide natural communicative listener feedback to such an attentive speaker agent. The thesis shows that computationally modelling interactional intelligence is generally feasible, and thereby raises many new research questions and engineering problems in the interdisciplinary fields of dialogue and artificial conversational agents.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29182956</identifier>
+                    <identifier type="doi">10.4119/unibi/2918295</identifier>
+                    <identifier type="sys">HT019696065</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918295</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918295">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918295/2918423/buschmeier-phd-thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918295" DMDID="DMD2918295">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918295"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

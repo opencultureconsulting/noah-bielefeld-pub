@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1776217">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Chasing Algorithmus for the Eigenvalue Problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David S.</namePart>
+                        <namePart type="family">Watkins</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ludwig</namePart>
+                        <namePart type="family">Elsner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1991</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A generic chasing algorithm for the matrix eigenvalue problem is introduced and studied. This algorithm includes, as special cases, the implicit, multiple-step QR and LR algorithms and similar bulge-chasing algorithms for the standard eigenvalue problem. The scope of the generic chasing algorithm is quite broad; it encompasses a number of chasing algorithms that cannot be analyzed by the traditional (e.g., implicit Q theorem) approach. These include the LR algorithm with partial pivoting and other chasing algorithms that employ pivoting for stability, as well as hybrid algorithms that combine elements of the LR and QR algorithms. The main result is that each step of the generic chasing algorithm amounts to one step of the generic GR algorithm. Therefore the convergence theorems for GR algorithms that were proven in a previous work [D. S. Watkins and L. Elsner, Linear Algebra Appl., 143 (1991), pp. 19–47] also apply to the generic chasing algorithm.</abstract>
+                    <subject>
+                        <topic>Subspace iteration</topic>
+                        <topic>Chasing the bulge</topic>
+                        <topic>GR algorithm</topic>
+                        <topic>QR algorithm</topic>
+                        <topic>Eeigenvalue</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>SIAM Journal on matrix analysis and applications</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>374</start>
+                                <end>384</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0895-4798</identifier>
+                    <identifier type="eIssn">1095-7162</identifier>
+                    <identifier type="ISI">A1991FD74100013</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17762179</identifier>
+                    <identifier type="doi">10.1137/0612027</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1776217</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1776217">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1776217/2312110/Elsner_061.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1776217" DMDID="DMD1776217">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1776217"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

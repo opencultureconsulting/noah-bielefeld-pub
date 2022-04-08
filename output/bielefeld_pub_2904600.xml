@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2904600">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Autonomous Fault Detection for Performance Bugs in Component-Based Robotic Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Wienke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4517-5368</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a novel fault detection method for application in component-based robotic systems. In contrast to existing work, our method specifically addresses faults in the software system of the robot using a data-driven methodology which exploits the inter-process communication of the system. This enables an application of the approach without expert knowledge or availability of complex software models. We specifically focus on performance bugs, which slowly degrade the performance of the system and are thereby harder to detect but also most valuable for automatic recovery. Using a data set recorded on a RoboCup@Home platform we demonstrate the performance and applicability of our method and analyze the types of faults that can be detected by the method.</abstract>
+                    <subject>
+                        <topic>fault detection</topic>
+                        <topic>FDI</topic>
+                        <topic>robotics</topic>
+                        <topic>RoboCup</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29046004</identifier>
+                    <identifier type="doi">10.1109/IROS.2016.7759507</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2904600</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2904600">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2904600/2908057/iros2016-fd.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2904600" DMDID="DMD2904600">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2904600"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

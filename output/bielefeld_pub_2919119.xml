@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919119">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bootstrapping of parameterized skills through hybrid optimization in task and policy spaces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Queißer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9725-6971</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Modern robotic applications create high demands on adaptation of actions with respect to
+variance in a given task. Reinforcement learning is able to optimize for these changing conditions,
+but relearning from scratch is hardly feasible due to the high number of required rollouts. We
+propose a parameterized skill that generalizes to new actions for changing task parameters,
+which is encoded as a meta-learner that provides parameters for task-specific dynamic motion
+primitives. Our work shows that utilizing parameterized skills for initialization of the optimization
+process leads to a more effective incremental task learning. In addition, we introduce a hybrid
+optimization method that combines a fast coarse optimization on a manifold of policy parameters
+with a fine grained parameter search in the unrestricted space of actions. The proposed algorithm
+reduces the number of required rollouts for adaptation to new task conditions. Application in
+illustrative toy scenarios, for a 10-DOF planar arm, and a humanoid robot point reaching task
+validate the approach.</abstract>
+                    <subject>
+                        <topic>reinforcement learning</topic>
+                        <topic>policy optimization</topic>
+                        <topic>memory</topic>
+                        <topic>learning</topic>
+                        <topic>hybrid optimization</topic>
+                        <topic>dimensionality reduction</topic>
+                        <topic>parameterized skills</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Robotics and AI</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>5</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>49</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2296-9144</identifier>
+                    <identifier type="MEDLINE">33500934</identifier>
+                    <identifier type="ISI">000434682000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29191194</identifier>
+                    <identifier type="doi">10.3389/frobt.2018.00049</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919119</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919119">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919119/2920734/frobt-05-00049.queisser.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919119" DMDID="DMD2919119">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919119"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,183 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2670476">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ReSEED: Social Event dEtection Dataset</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timo</namePart>
+                        <namePart type="family">Reuter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">Dataset from Flickr for event detection. Contains 437,370 pictures annotated with metadata in a csv file. Released under a CC license that allows a modification.</abstract>
+                    <subject>
+                        <topic>machine learning</topic>
+                        <topic>event detection</topic>
+                        <topic>classification</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="doi">10.4119/unibi/2670476</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/by/summary/index.html">ODC-By</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2670476</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-python" ID="FILE0_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937789/reseed_eval.py" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937790/reseed_events.tar.gz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937791/reseed_pictures.tar.gz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE3_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937792/reseed_pictures_jpgs_test_1.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE4_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937793/reseed_pictures_jpgs_test_2.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE5_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937794/reseed_pictures_jpgs_test_3.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE6_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937795/reseed_pictures_jpgs_train_1.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE7_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937796/reseed_pictures_jpgs_train_2.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE8_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937797/reseed_pictures_jpgs_train_3.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE9_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937798/reseed_pictures_jpgs_train_4.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE10_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937799/reseed_pictures_jpgs_train_5.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE11_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937800/reseed_pictures_jpgs_train_6.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE12_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937801/reseed_pictures_jpgs_train_7.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip2" ID="FILE13_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937802/reseed_pictures_licenses.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE14_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937803/reseed_pictures_test.tar.gz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE15_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937804/reseed_pictures_train.tar.gz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE16_bielefeld_pub_2670476">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670476/2937805/reseed_readme.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2670476" DMDID="DMD2670476">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2670476"/>
+            <mets:div TYPE="part" ID="PART1_2670476" LABEL="reseed_events.tar.gz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2670476" LABEL="reseed_pictures.tar.gz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2670476" LABEL="reseed_pictures_jpgs_test_1.tar.bz2">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2670476" LABEL="reseed_pictures_jpgs_test_2.tar.bz2">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2670476" LABEL="reseed_pictures_jpgs_test_3.tar.bz2">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2670476" LABEL="reseed_pictures_jpgs_train_1.tar.bz2">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2670476" LABEL="reseed_pictures_jpgs_train_2.tar.bz2">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2670476" LABEL="reseed_pictures_jpgs_train_3.tar.bz2">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2670476" LABEL="reseed_pictures_jpgs_train_4.tar.bz2">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2670476" LABEL="reseed_pictures_jpgs_train_5.tar.bz2">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2670476" LABEL="reseed_pictures_jpgs_train_6.tar.bz2">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2670476" LABEL="reseed_pictures_jpgs_train_7.tar.bz2">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART13_2670476" LABEL="reseed_pictures_licenses.tar.bz2">
+                <mets:fptr FILEID="FILE13_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART14_2670476" LABEL="reseed_pictures_test.tar.gz">
+                <mets:fptr FILEID="FILE14_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART15_2670476" LABEL="reseed_pictures_train.tar.gz">
+                <mets:fptr FILEID="FILE15_bielefeld_pub_2670476"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART16_2670476" LABEL="reseed_readme.pdf">
+                <mets:fptr FILEID="FILE16_bielefeld_pub_2670476"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2603565">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Philippe</namePart>
+                        <namePart type="family">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tamara</namePart>
+                        <namePart type="family">Bobić</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulf</namePart>
+                        <namePart type="family">Leser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Hofmann-Apitius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Relation extraction is frequently and successfully addressed by machine learning methods. The downside of this approach is the need
+for annotated training data, typically generated in tedious manual, cost intensive work. Distantly supervised approaches make use of
+weakly annotated data, which can be derived automatically. Recent work in the biomedical domain has applied distant supervision for
+protein-protein interaction (PPI) with reasonable results, by employing the IntAct database. Training from distantly labeled corpora is
+more challenging than from manually curated ones, as such data is inherently noisy. With this paper, we make two corpora publicly
+available to the community to allow for comparison of different methods that deal with the noise in a uniform setting. The first corpus is
+addressing protein-protein interaction (PPI), based on named entity recognition and the use of IntAct and KUPS databases, the second
+is concerned with drug-drug interaction (DDI), making use of the database DrugBank. Both corpora are in addition labeled with 5
+state-of-the-art classifiers trained on annotated data, to allow for development of filter methods. Furthermore, we present in short our
+approach and results for distant supervision on these corpora as a strong baseline for future research.</abstract>
+                    <subject>
+                        <topic>Distant Supervision</topic>
+                        <topic>Relation Extraction</topic>
+                        <topic>Silver Standard</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26035658</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2603565</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2603565">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2603565/2624540/ppi-ddi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2603565" DMDID="DMD2603565">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2603565"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,95 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303952</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Unsupervised learning in a generalized regression framework</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Peter</namePart>
+  <namePart type="family">Meinicke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this thesis, the generalized regression (GR) framework is introduced as an extension of conventional regression estimation to the case of unsupervised learning. This approach unifies many supervised and unsupervised techniques for machine learning within a common framework. With regard to unsupervised methods it also closes the gap between projection and generative models, which are both treated as latent variable models for unsupervised regression differing only by the probabilistic nature of the latent variables. Therefore all models of this thesis can be considered as variations of a basic regression model, which gives rise to a convenient projection-regression scheme for estimation of function parameters and deterministic latent variables. For random latent variables an analogous estimation scheme is given by the well-known EM-algorithm. For the case of nonlinear dependencies on the latent variables, a homotopy-based optimization scheme is proposed for finding good local optima with respect to the objective functions.
+The rich class of unsupervised methods which is considered in this work comprises several well-known techniques which are shown to be special cases of GR, such as principal component analysis (PCA), vector quantization, factor analysis, independent component analysis or conventional mixture modelling. In addition, also several new developments, which have been inspired by the GR framework, are introduced. First a general basis function model for principal curves is proposed, which also comprises the computationally attractive polygonal and discrete approximations. In addition, suitable penalty functions (regularizers) which provide a convenient estimation scheme are introduced, together with a homotopy-based optimization scheme for finding good local minima of the highly non-convex error functions. The importance of homotopy-based optimization is also been shown for the case of local PCA. In particular, topographic local PCA is proposed as a generalization of the well-known self-organizing map (SOM). Furthermore a generative principal component model which requires the estimation of an effective latent variable dimensionality is introduced. This model is also extended to a principal component mixture with local subspace dimensionalities and again homotopy-based optimization, now via a fixed noise-variance parameter, is important in order to achieve reliable estimates. For that purpose a two-phase deterministic annealing approach is proposed, which combines the estimation of spherical and principal component mixtures in a sequential manner.
+In addition, on several application examples the feasibility of the proposed methods and their utility in practical real world domains is demonstrated. First unsupervised regression techniques are applied to the domains of visualization and sonification. For the visualization of high-dimensional data, principal curve models are utilized to provide distance plots of the data, which are well-suited for the detection of clusters and outliers. As an acoustic counterpart to the distance plots, principal curve sonification is introduced to provide an auditory display for multivariate data.
+Finally unsupervised regression models for images of handwritten digits are proposed for pattern recognition. As suitable candidates, several principal component mixtures are compared for the performance of their associated plug-in classifiers. For a possible improvement of image data representations, the topographic local PCA map is proposed for learning of invariances with respect to geometric transformations of the images with one or two main degrees of freedom.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.ps">https://pub.uni-bielefeld.de/download/2303952/2303955/diss.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2000</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Neuronales Netz</topic><topic>Unüberwachtes Lernen</topic><topic>Multivariate Analyse</topic><topic>Regression</topic><topic>Neural networks</topic><topic>Unsupervised learning</topic><topic>Machine learning</topic><topic>Regressionsschätzung</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-1394</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2000-12-11</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Meinicke, P.: Unsupervised learning in a generalized regression framework. Bielefeld University, Bielefeld (2000).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meinicke, Peter. 2000. &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Meinicke, Peter. &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University, 2000.</mla>
+<default>Meinicke P (2000) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<ama>Meinicke P. &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University; 2000.</ama>
+<frontiers>Meinicke, P. (2000). Unsupervised learning in a generalized regression framework. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meinicke, P. (2000). &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Meinicke, P. (2000).  &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<ieee> P. Meinicke, &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;,  Bielefeld: Bielefeld University, 2000.</ieee>
+<wels>Meinicke, P. (2000): Unsupervised learning in a generalized regression framework. Bielefeld: Bielefeld University.</wels>
+<bio1>Meinicke P (2000) &lt;br /&gt;&lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<harvard1>Meinicke, P., 2000. &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meinicke, P. (2000).  &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>P.  Meinicke, &lt;em&gt;Unsupervised learning in a generalized regression framework&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2000&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303952</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-03-25T12:58:50Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:35:45Z</recordChangeDate>
+</recordInfo>
+</mods>

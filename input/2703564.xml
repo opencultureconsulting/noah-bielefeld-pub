@@ -1,0 +1,392 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2703564</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Das Kapitel wendet sich an Interessierte am Thema Klang und Information und setzt keinen besonderen mathematischen Hintergrund im Bereich Datenanalyse voraus. Im Kapitel wird das Gebiet der Sonifikation vorgestellt und es wird motiviert, inwiefern Klänge nützliche Informationen Übertragen und wie diese Eigenschaft zum Verständnis komplexer Daten ausgenutzt werden kann. Dises Webseite bietet Klangbeispiele an, welche im Kapitel vorgestellt und besprochen werden. 
+
+Die Sonifikationsbeispiele sind in der Programmiersprache SuperCollider3 erzeugt. Der Programmcode, bzw. wesentliche Auszüge werden jeweils angegeben. 
+
+- Der erste Schritt, sofern man die Code-Beipiele selbst nachvollziehen möchte, ist es, SuperCollider zu installieren und nutzen zu lernen. Hinweise hierzu finden sich unter [audiosynth.com](http://www.audiosynth.com/).
+- Für die Programmbeispiele wird angenommen, dass der sc sound server mittels `s.boot` bereits gestartet wurde.
+- Die Klangbeispiele werden zusätzlich im mp3 Format bereitgestellt.
+
+
+## Media files
++ [Audifikation](#audifikation)
++ [Diskrete Parameter Mapping Sonifikation](#diskretes-parameter-mapping)
++ [Kontinuierliche Parameter Mapping Sonifikation](#kontinuierliche-parameter-mapping-sonifikation)
++ [Ereignisbasierte Parameter Mapping Sonifikation](#ereignisbasierte-parameter-mapping-sonifikation)
++ [Hybride Parameter Mapping Sonifikation](#hybride-parameter-mapping-sonifikation)
++ [Modellbasierte Sonifikation](#modellbasierte-sonifikation)
++ [Anwendungsbeispiele](#anwendungsbeispiele)
+
+&lt;a id="audifikation" class="anchor"&gt;&lt;/a&gt;
+##  4. Audifikation
+**Audifikation rekurrenter neuronaler Retinamodelle**
+Im Kapitel wird die Audifikation der Dynamik rekurrenter Neuronaler Netzmodelle besprochen. Grundsätzlich zeigt das Retina-Modell ein oszillierendes Verhalten. Durch Audifikation der Aktivität eines Neurons bei langsamer Änderung der Kopplungskonstante zwischen benachbarten Neuronen haben wir entdeckt, dass diese Oszillationsfrequenz ein interessanter Muster aufweist: sie steigt allmählich an, bleibt aber in einigen Regionen konstant (sog. Frequency-Locking). 
+
+&lt;center&gt;&lt;img src="https://pub.uni-bielefeld.de/download/2703564/2703584" width="500"&gt;&lt;/center&gt;
+
+Das Bild zeigt ein Spektrogramm der Sonifikation - mit der Zeitachse erhöht sich die Kopplungsstärke linear, dennoch bleibt die Oszillationsfrequenz im Bereich c, e, g, h, etc. konstant! 
+
+* Klangbeispiel: [RNN (mp3, 72k)](https://pub.uni-bielefeld.de/download/2703564/2703578).
+
+**Audifikation von EEG-Daten:** 
+Als weiteres Beispiel sei eine Audifikation von EEG-Daten vorgespielt. Ein epileptischer Rhythmus kann hier als verrauschte Pulse gehört werden. Oft sind Audifikationen sehr geräuschhaft und verrauscht.
+
+* Klangbeispiel: [EEG (mp3, 12k)](https://pub.uni-bielefeld.de/download/2703564/2703565).
+
+
+## 5. Parameter Mapping Sonification
+&lt;a id="diskretes-parameter-mapping" class="anchor"&gt;&lt;/a&gt;
+### 5.1. Diskretes Parameter Mapping
+Das Beispiel zeigt diskrete Parameter Mapping Sonifikation des Iris Datasatzes.
+iris.csv ist der [Iris](http://en.wikipedia.org/wiki/Iris_flower_data_set) Datensatz mit den Spalten: index, sepal_length, sepal_width, petal_length, petal_width.
+Im Beispiel wird das folgende Mapping verwendet:
+
++ petal_length wird zum Zeitpunkt des Tons
++ sepal_length wird zur Tonhöhe
++ petal_width wird zur Schärfe
++ sepal_width wird zur Dauer
++ class wird zur Stereoposition
+
+Der Code kann beliebige andere csv-Dateien verarbeiten. 
+
+```(
+SynthDef("syn", { | freq=440, amp=0.2, pan=0, num=1, att=0.02, rel=0.2|
+	Out.ar(0, Pan2.ar(
+		Blip.ar(freq, num) * EnvGen.kr(Env.perc(att, rel, -4), 1, doneAction: 2), 
+		pan,	amp))
+}).load(s);
+~parmapDiscrete = { |dataset, duration=5|
+	Score({ |dataset, duration|
+		var score=[], event, stat;
+		var onset, freq, pan, num, rel;
+		stat = dataset.flop.collect{|col| [col.minItem, col.maxItem]};
+		dataset.do{ | row | 
+			i=3; onset= row[i].linlin(stat[i][0], stat[i][1], 0, duration); 
+			i=1; freq = row[i].linlin(stat[i][0], stat[i][1], 400, 1000); 
+			i=4; num = row[i].linlin(stat[i][0], stat[i][1], 1, 10);
+			i=2; rel = row[i].linlin(stat[i][0], stat[i][1], 0.1, 1);
+			i=5; pan = row[i].linlin(stat[i][0], stat[i][1], -1, 1);	
+			event = [onset, 
+			 [\s_new, \syn, -1, 0, 0, \freq, freq, \pan, pan, 
+			 	\amp, 0.05, \num, num, \att, 0.001, \rel, rel]];
+			score = score ++ [event];
+		};
+	 score;
+ }.value(dataset, duration)).sort.play;
+}
+~ds = CSVFileReader.readInterpret(Document.current.path.dirname++"/iris.csv");
+~parmapDiscrete.value(~ds);
+```
+
+
+
+
+#### Klangbeispiele:
+* [S1 (mp3, 96k)](https://pub.uni-bielefeld.de/download/2703564/2703571)
+Die Clusterung der Daten ist hörbar
+* [S2 (mp3, 60k)](https://pub.uni-bielefeld.de/download/2703564/2703572)
+Die Clusterung der Daten ist hörbar
+* [S3 (mp3, 60k)](https://pub.uni-bielefeld.de/download/2703564/2703573)
+Das Quantisierungsraster dominiert den Rhythmus
+* [S4 (mp3, 60k)](https://pub.uni-bielefeld.de/download/2703564/2703574)
+Eine Clustering ist hier nicht gut hörbar
+
+&lt;a id="kontinuierliche-parameter-mapping-sonifikation" class="anchor"&gt;&lt;/a&gt;
+### 5.2. Kontinuierliche Parameter Mapping Sonifikation
+*Sonifikation des Building-Datensatzes:* 
+Die ständlichen Messungen Temperatur, Luftfeuchtigkeit, Sonnenstrahlung, Windgeschwindigkeit, sowie die Verbrauchsmessungen für Strom, Kaltwasser und Heisswasser für ein großes Gebäude über 41 Tage sind Grundlage der Sonifikationen. Die Umgebungsmessungen werden wie folgt auf Eigenschaften des Klangs abgebildet: 
+
++ Temperatur: Rauschenergie
++ Luftfeuchtigkeit: Frequenz des Bandpass-Rauschens
++ Sonnenstrahlung: inverse Filterbandbreite
++ Wind: Schärfe des Tons
++ Stromverbrauch: Frequenz des Tons
++ Kaltwasserverbrauch: Lautstärke des Tons
++ Warmwasserverbrauch: Stereoposition des Tons
+
+Der Code kann beliebige andere csv-Dateien verarbeiten. 
+
+
+```(
+SynthDef("syncon", { | freq=440, amp=0.2, pan=0, num=1|
+//	Out.ar(0, Pan2.ar( Blip.ar(freq, num), pan, amp))
+	Out.ar(0, Pan2.ar( Formant.ar(freq.lag(0.1), freq, num.lag(0.1)*freq), pan, amp))
+}).load(s);
+
+~parmapContinuous = { |dataset, duration=5, filename='rec.wav'|
+	var stat, onset, freq, pan, amp, num, x,y,cf,rq, ampn;
+	stat = dataset.flop.collect{|col| [col.minItem, col.maxItem]};
+	b = Buffer.alloc(s, 65536, 2); 0.6.wait;
+	b.write(filename, "wav", "int16", 0, 0, true);
+	d = Synth.tail(nil, "record", ["bufnum", b.bufnum]); // this starts recording!!!
+	x = Synth.new(\syncon);
+	y = Synth.new(\noise);
+	dataset.do{ | row, j | 
+		i=0; onset= row[i].linlin(stat[i][0], stat[i][1], 0, duration); 
+		onset = j.linlin(0, dataset.size, 0, duration);
+		// 10 = temp, 11 = humidity, 12=solar-rad, 13=wind, 14=electr 15=coldwater 16=hotwater
+		i=10; ampn = row[i].linlin(stat[i][0], stat[i][1], 0.5,1.5); 
+		i=11; cf = row[i].linlin(stat[i][0], stat[i][1], 200, 800);
+		i=12; rq = row[i].linlin(stat[i][0], stat[i][1], 0.05,0.5);
+
+		i=13; num = row[i].linlin(stat[i][0], stat[i][1], 1, 5);
+		i=14; freq = row[i].linlin(stat[i][0], stat[i][1], 400, 1000); 
+		i=15; amp = row[i].linlin(stat[i][0], stat[i][1], 0.05,0.3);
+		i=16; pan = row[i].linlin(stat[i][0], stat[i][1], -1, 1);
+
+		s.makeBundle( onset, {x.set(\freq, freq, \pan, pan, \amp, amp, \num, num)});
+		s.makeBundle( onset, {y.set(\freq, cf, \rq, rq, \amp, ampn)});
+
+		onset.post; " ".post; freq.post; " ".post; amp.postln
+	};
+ (0.1+duration).wait;
+ x.free;
+ y.free;
+ d.free; b.close; b.free;
+ };
+)
+```
+
+
+#### Klangbeispiele:
+* [S1 (mp3, 156k) (10sec)](https://pub.uni-bielefeld.de/download/2703564/2703569)
+* [S2 (mp3, 486k) (30sec)](https://pub.uni-bielefeld.de/download/2703564/2703581)
+* [S3 (mp3, 932k) (60sec)](https://pub.uni-bielefeld.de/download/2703564/2703570)
+
+&lt;a id="ereignisbasierte-parameter-mapping-sonifikation" class="anchor"&gt;&lt;/a&gt;
+### 5.3. Ereignisbasierte Parameter Mapping Sonifikation
+*Sonifikation der monatlichen Sonnenfleckenzahl seit 1790:* 
+Die Eventbasierte Parameter Mapping Sonifikation stellt durch 3 unterschiedliche akustische Events die Minima, Maxima und Schnitte der Sonnenfleckenzahl mit der mittleren Anzahl dar. Da die Rohdaten monatlich erhoben sind und sehr verrauscht sind, ist zur Bestimmung der Extrema zuvor eine Filterung der Daten erforderlich. In den Sonifikationen hört man ein Stolpern des Rhyhmus (vor allem in den letzt Klangbeispielen). Hier wird deutlich, dass die Anzahl schneller ansteigt als sie abfällt, was man in den Visualisierungen leicht übersehen kann. 
+
+#### Klangbeispiele:
+* [S1 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2703564/2703575)
+    Die Events für Minima, Mittelwertdurchgänge, Maxima sind hier je ein Ton fester Frequenz, hoch für Maxima, tief für Minima, mittel für Mittelwertsdurchgänge.
+* [S2 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2703564/2703576) 
+    Hier wird der jeweilige Zahlenwert der Sonnenflecken auf die Frequenz abgebildet. Im Ergebnis hört man mehr Informationen, z.B. besonders hervorstechende Sonnenaktivität in der jüngeren Vergangenheit.
+
+&lt;a id="hybride-parameter-mapping-sonifikation" class="anchor"&gt;&lt;/a&gt;
+### 5.4. Hybride Parameter Mapping Sonifikation
+*Sonifikation von Wettervorhersage-Daten:*
+Die Klangbeispiele illustrieren zwei unterschiedliche Wetterlagen. Die Sonifikationen dauern je 12 Sekunden und stellen 24h dar, von Mitternacht bis Mitternacht. Die Temperaturkurve ist ein Parameter-Mapping, während Event-Marker Donner, Spaziergehwetter-Detektion und Zeitmarken darstellen.
+* [S1-Frühling (mp3, 236k)](https://pub.uni-bielefeld.de/download/2703564/2703579)
+Ein Frühlingstag, ideales Wetter zum Spaziergehen. Der Vogelgesang ist ein "Emo-Marker" der immer automatisch ergänzt wird, wenn eine Wetterlage derart ist, dass man gut Spazierengehen kann.
+* [S2-Herbst (mp3, 236k)](https://pub.uni-bielefeld.de/download/2703564/2703580)
+Ein regnerischer Herbsttag. Das Husten ist ein "Emo-Marker", der immer automatisch ergänzt wird, wenn eine Wetterlage derart ist, dass man sich leicht erkältet.
+
+&lt;a id="modellbasierte-sonifikation" class="anchor"&gt;&lt;/a&gt;
+## 6. Modellbasierte Sonifikation
+**Datensonogramme:**
+Datensonogramme bezeichnen ein Sonifikationsmodell, in dem Daten als Masse-Feder-Systeme im hochdimensionalen Datenraum aufgefasst werden, welche durch Anregung einer sich räumlich ausbreitenden Schockwelle zu Schwingungen angeregt werden. Die folgenden drei Klangbeispiele sind Datensonogramme unter unterschiedlichen Anregungspunkten zum Iris Datensatz, der bereits oben als Datensatz für die Parameter-Mapping-Sonifikation verwendet wurde. 
+* [S1 (mp3, 20k)](https://pub.uni-bielefeld.de/download/2703564/2703566)
+* [S2 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2703564/2703568)
+* [S3 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2703564/2703567)
+
+&lt;a id="anwendungsbeispiele" class="anchor"&gt;&lt;/a&gt;
+## 7. Anwendungsbeispiele
+### 7.1. Sonifikation von EEG-Daten:
+Beispiele zur Event-basierten Sonifikation von EEG-Daten finden sich [hier](http://pub.uni-bielefeld.de/data/2702890)
+Beispiele zur vokalen Sonifikation von EEG-Daten finden sich [hier](http://pub.uni-bielefeld.de/data/2699903)
+
+### 7.2. Sonifikation psychotherapeutischer Gesprächsprotokolle:
+Die folgende Sonifikation stellt ein 1-ständiges Gespräch in 10sek akustisch dar. Jedes abstrakte, emotionale und CRA-Wort wird durch ein unterschiedliches Klangereignis dargestellt (Becken, Ton, Claves). Es werden Dichtewellen sowie Sprecherwechsel hörbar.
+* [S1 (mp3, 132k)](https://pub.uni-bielefeld.de/download/2703564/2703577)
+
+### 7.3. Sonifikation von Fluoreszenzmikroskopie biologischer Zellen
+Examples can be found on [this website](http://pub.uni-bielefeld.de/data/2763993)</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="RNN.mp3">https://pub.uni-bielefeld.de/download/2703564/2703578/RNN.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG-Audifikation.mp3">https://pub.uni-bielefeld.de/download/2703564/2703565/EEG-Audifikation.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_disc_iris_1.mp3">https://pub.uni-bielefeld.de/download/2703564/2703571/pms_disc_iris_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_disc_iris_2.mp3">https://pub.uni-bielefeld.de/download/2703564/2703572/pms_disc_iris_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_disc_iris_3.mp3">https://pub.uni-bielefeld.de/download/2703564/2703573/pms_disc_iris_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_disc_iris_4.mp3">https://pub.uni-bielefeld.de/download/2703564/2703574/pms_disc_iris_4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_cont_building_1.mp3">https://pub.uni-bielefeld.de/download/2703564/2703569/pms_cont_building_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_cont_building_2.mp3">https://pub.uni-bielefeld.de/download/2703564/2703581/pms_cont_building_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_cont_building_3.mp3">https://pub.uni-bielefeld.de/download/2703564/2703570/pms_cont_building_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_evbson_sunspots_1.mp3">https://pub.uni-bielefeld.de/download/2703564/2703575/pms_evbson_sunspots_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pms_evbson_sunspots_2.mp3">https://pub.uni-bielefeld.de/download/2703564/2703576/pms_evbson_sunspots_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="weather1_spring.mp3">https://pub.uni-bielefeld.de/download/2703564/2703579/weather1_spring.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="weather2_autumn.mp3">https://pub.uni-bielefeld.de/download/2703564/2703580/weather2_autumn.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mbs_datasonogram_iris_1.mp3">https://pub.uni-bielefeld.de/download/2703564/2703566/mbs_datasonogram_iris_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mbs_datasonogram_iris_2.mp3">https://pub.uni-bielefeld.de/download/2703564/2703568/mbs_datasonogram_iris_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mbs_datasonogram_iris_3.mp3">https://pub.uni-bielefeld.de/download/2703564/2703567/mbs_datasonogram_iris_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="psychotherapy_2612_15sec.mp3">https://pub.uni-bielefeld.de/download/2703564/2703577/psychotherapy_2612_15sec.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2009</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2703564</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017256</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ama>Hermann T. &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University; 2009.</ama>
+<frontiers>Hermann, T. (2009). Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2009). &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703564.&lt;/div&gt;</dgps>
+<apa>Hermann, T. (2009).  &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703564</apa>
+<ieee> T. Hermann, &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;, Bielefeld University, 2009.</ieee>
+<wels>Hermann, T. (2009): Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn". Bielefeld University.</wels>
+<bio1>Hermann T (2009) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., 2009. &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2009).  &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703564&lt;/div&gt;</apa_indent>
+<angewandte-chemie>T.  Hermann, &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2009&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Hermann, T.: Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn". Bielefeld University (2009).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas. 2009. &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hermann, Thomas. &lt;em&gt;Supplementary Material for "Sonifikation hochdimensionaler Daten - Funktionaler Klang zum Erkenntnisgewinn"&lt;/em&gt;. Bielefeld University, 2009.</mla>
+<default>Hermann T (2009) &lt;br /&gt;Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2703564</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-10T11:46:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:29Z</recordChangeDate>
+</recordInfo>
+</mods>

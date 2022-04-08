@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1585850">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>EURACE: A massively parallel agent-based model of the European economy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christophe</namePart>
+                        <namePart type="family">Deissenberg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sander</namePart>
+                        <namePart type="family">van der Hoog</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2348-3194</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Herbert</namePart>
+                        <namePart type="family">Dawid</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8536-9960</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">EURACE is a major European attempt to construct an agent-based model of the European economy with a very large population of autonomous, purposive agents interacting in a complicated economic environment. To create it, major advances are needed, in particular in terms of economic modeling and software engineering. In this paper, we describe the general structure of the economic model developed for EURACE and present the Flexible Large-scale Agent Modelling Environment (FLAME) that will be used to describe the agents and run the model on massively parallel supercomputers. Illustrative simulations with a simplified model based on EURACE&apos;s labor market module are presented. (C) 2008 Elsevier Inc. All rights reserved.</abstract>
+                    <subject>
+                        <topic>Eurace@Unibi model</topic>
+                        <topic>Agent-based computational economics</topic>
+                        <topic>Parallel computation</topic>
+                        <topic>X-machines</topic>
+                        <topic>agent-based modelling</topic>
+                        <topic>ETACE_Agent_Based_Modelling</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Applied Mathematics and Computation</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>204</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>541</start>
+                                <end>552</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0096-3003</identifier>
+                    <identifier type="ISI">000260017000004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-15858503</identifier>
+                    <identifier type="doi">10.1016/j.amc.2008.05.116</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1585850</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1585850">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1585850/2900298/Deissenberg_Hoog_Dawid_2008_Eurace_AMC_WP_version.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1585850" DMDID="DMD1585850">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1585850"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

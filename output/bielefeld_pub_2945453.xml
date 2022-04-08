@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945453">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>new joint friction model for parameter identification and sensor-less hand guiding in industrial robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Guanghui</namePart>
+                        <namePart type="family">Liu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Qiang</namePart>
+                        <namePart type="family">Li</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4315-0864</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lijin</namePart>
+                        <namePart type="family">Fang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bing</namePart>
+                        <namePart type="family">Han</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hualiang</namePart>
+                        <namePart type="family">Zhang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Purpose The purpose of this paper is to propose a new joint friction model, which can accurately model the real friction, especially in cases with sudden changes in the motion direction. The identification and sensor-less control algorithm are investigated to verify the validity of this model. Design/methodology/approach The proposed friction model is nonlinear and it considers the angular displacement and angular velocity of the joint as a secondary compensation for identification. In the present study, the authors design a pipeline - including a manually designed excitation trajectory, a weighted least squares algorithm for identifying the dynamic parameters and a hand guiding controller for the arm&apos;s direct teaching. Findings Compared with the conventional joint friction model, the proposed method can effectively predict friction factors during the dynamic motion of the arm. Then friction parameters are quantitatively obtained and compared with the proposed friction model and the conventional friction model indirectly. It is found that the average root mean square error of predicted six joints in the proposed method decreases by more than 54%. The arm&apos;s force control with the full torque using the estimated dynamic parameters is qualitatively studied. It is concluded that a light-weight industrial robot can be dragged smoothly by the hand guiding. Practical implications In the present study, a systematic pipeline is proposed for identifying and controlling an industrial arm. The whole procedure has been verified in a commercial six DOF industrial arm. Based on the conducted experiment, it is found that the proposed approach is more accurate in comparison with conventional methods. A hand-guiding demo also illustrates that the proposed approach can provide the industrial arm with the full torque compensation. This essential functionality is widely required in many industrial arms such as kinaesthetic teaching. Originality/value First, a new friction model is proposed. Based on this model, identifying the dynamic parameter is carried out to obtain a set of model parameters of an industrial arm. Finally, a smooth hand guiding control is demonstrated based on the proposed dynamic model.</abstract>
+                    <subject>
+                        <topic>Industrial robot</topic>
+                        <topic>Parameter identification</topic>
+                        <topic>Friction model</topic>
+                        <topic>Weighted</topic>
+                        <topic>least squares</topic>
+                        <topic>Direct teaching</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="issn">0143-991X</identifier>
+                    <identifier type="eIssn">1758-5791</identifier>
+                    <identifier type="ISI">000554681600001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29454537</identifier>
+                    <identifier type="doi">10.1108/IR-03-2020-0053</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945453</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945453">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945453/2951532/PrePrint-A+New+Joint+Friction+Model+for+Parameter+Identification+and+Sensor-less+Hand+guiding+in+Industrial+Robots.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945453" DMDID="DMD2945453">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945453"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

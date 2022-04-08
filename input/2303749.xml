@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303749</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Biologically inspired visual navigation in indoor and outdoor environments</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Frank</namePart>
+  <namePart type="family">Röben</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ralf</namePart>
+  
+  
+  <namePart type="family">Möller</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10040</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Diese Doktorarbeit beschäftigt sich mit vier Themen: dem Polarisations-Licht-Kompass, lokalen visuellen Homing-Methoden, Outdoor-Navigation mit Farbkontrasten sowie der Reinigungsrobotersteuerung.
+Insekten, speziell Bienen und Ameisen, sind in der Lage, das Polarisationsmuster des Himmels, welches erzeugt wird durch das Auftreffen der Sonnenstrahlen auf die Atmosphäre der Erde, zu nutzen, um sich zu orientieren. Hierbei ist es unerheblich, ob der Himmel klar oder teilweise wolkenbedeckt ist; Insekten sind in der Lage, eine Orientierung relativ zur Sonne abzuleiten. Dieser Teil der Arbeit konzentriert sich auf den Bau eines Polarisations-Licht-Kompasses und dem Vergleich mit einem elektromagnetischen Kompass. Des Weiteren wird versucht, das Polarisationsmuster des Himmels mithilfe einer Schwenk-Neige-Einheit und eines darauf montierten Polarisations-Licht-Kompasses zu detektieren.
+Insekten sind hervorragende Navigatoren, d.h. sie sind in der Lage, ihr Nest wiederzufinden, nachdem sie sich mehrere hundert Meter von selbigem entfernt haben. Forscher erklären sich diese Fähigkeit anhand cleverer Navigationsstrategien. Lokale visuelle Homing-Methoden spielen hierbei eine große Rolle. In der Literatur existieren bereits etliche Ansätze. Diese Arbeit verwendet "Scale Invariant Feature Transformation" (SIFT)-Merkmale, um eine Homing-Methode mit Merkmalsextraktion zu implementieren. Des Weiteren wird untersucht, ob Homing-Methoden, die auf Parameterrepräsentationen aufbauen, ebenfalls gute Homing-Ergebnisse liefern. Beide Ansätze werden ausführlich getestet und mit einem etablierten Verfahren (2D-Warping) verglichen.
+Der Aufbau des Insektenauges sowie die ermittelte spektrale Sensitivität desselben legen die Vermutung nahe, dass Insekten Farbkontraste nutzen könnten um zu navigieren. Diese Arbeit analysiert die unterschiedlichen Farbkontraste, welche aus den Farbkanälen UV, Blau, Grün, Rot und Infrarot abgeleitet werden können. Es wird gezeigt, wie Insekten ihre Umwelt sehen könnten und wie diese Information verwendet werden könnte, um sich in selbiger zu bewegen und zu navigieren.
+Die Reinigungsrobotersteuerung dient in dieser Arbeit als technische Anwendung visueller Homing-Methoden. Es wird ein Ansatz zur Steuerung präsentiert, welcher es dem Reinigungsroboter ermöglicht, mäandrierende Bahnen zu fahren. Das Hauptaugenmerk liegt hierbei bei einer möglichst geringen Überlappung der Bahnen und das bei möglichst absoluter Abdeckung einer zu reinigenden rechteckigen Fläche.</abstract>
+<abstract lang="eng">This thesis deals with four topics: the polarized-light compass, local visual homing methods, outdoor navigation with color contrasts, and cleaning robot control.
+Insects like bees and ants are able to detect the pattern of polarized light of the sky. The polarization pattern of the sky is formed because the sunlight is scattered at the atmosphere. Insects make use of the pattern of skylight polarization to compute their current orientation relative to the sun. For this purpose, it is insignificant if the sky is clear or partly covered with clouds. The construction of a polarized-light compass and the comparison of a polarized-light compass versus an electromagnetic compass is presented in this part of the thesis. Furthermore, a polarized-light compass mounted on a pan-tilt unit was used to measure the pattern of polarization of the sky.
+Insects have admirable navigational abilities; they are able to return to their hive even if they are hundreds of meters away. Thus, clever homing methods are used by the insects. Several local visual homing methods have already been published. A local visual homing method with feature preselection is presented. The features are computed using the "scale invariant feature transformation" (SIFT). Furthermore, it is tested whether holistic local visual homing methods that make use of parameters are competitive. The presented methods are tested, and a 2D-warping method is used as reference.
+The spectral sensitivity of the compound eye of the insects allows the assumption that insects might use color contrasts for landmark navigation. This thesis focuses on contrasts that are computed from UV, blue, green, red, and IR. Furthermore, it is presented how insects might see the world and how they might use this information for movement and navigation.
+A technical application for local visual homing methods is presented by the cleaning robot control approach, which enables the robot to move in meandering lanes for cleaning a rectangular area. To achieve a good cleaning result, a cleaning strategy with a small overlap of cleaned areas and a full coverage of the space are needed.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_froeben.pdf">https://pub.uni-bielefeld.de/download/2303749/2303752/diss_froeben.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2009</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Polarisationslichtkompass</topic><topic>Visuelles Homing</topic><topic>Reinigungsrobotersteuerung</topic><topic>Polarisiertes Licht</topic><topic>Kompass</topic><topic>Heimkehrfähigkeit</topic><topic>Navigation</topic><topic>Farbkontrast</topic><topic>Mobiler Roboter</topic><topic>Bahnsteuerung</topic><topic>Polarized-light compass</topic><topic>Local visual homing methods</topic><topic>Outdoor navigation</topic><topic>Color contrasts</topic><topic>Cleaning robot control</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-16477</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2009-09-30</dateOther>
+<extension>
+<bibliographicCitation>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Röben, F. (2009).  &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Röben F (2009) &lt;br /&gt;&lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Röben, F., 2009. &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>F.  Röben, &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2009&lt;/strong&gt;.</angewandte-chemie>
+<wels>Röben, F. (2009): Biologically inspired visual navigation in indoor and outdoor environments. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Röben, F. (2009).  &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> F. Röben, &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2009.</ieee>
+<ama>Röben F. &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2009.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Röben, F. (2009). &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Röben, F. (2009). Biologically inspired visual navigation in indoor and outdoor environments. Bielefeld (Germany): Bielefeld University.</frontiers>
+<mla>Röben, Frank. &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2009.</mla>
+<default>Röben F (2009) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Röben, F.: Biologically inspired visual navigation in indoor and outdoor environments. Bielefeld University, Bielefeld (Germany) (2009).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Röben, Frank. 2009. &lt;em&gt;Biologically inspired visual navigation in indoor and outdoor environments&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303749</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-03-22T13:27:03Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:55:55Z</recordChangeDate>
+</recordInfo>
+</mods>

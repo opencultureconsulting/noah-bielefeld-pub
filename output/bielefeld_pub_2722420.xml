@@ -1,0 +1,115 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2722420">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>GraphSAW: A web-based system for graphical analysis of drug interactions and side effects using pharmaceutical and molecular data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alban</namePart>
+                        <namePart type="family">Shoshi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tobias</namePart>
+                        <namePart type="family">Hoppe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Kormeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Venus</namePart>
+                        <namePart type="family">Ogultarhan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Adverse drug reactions are one of the most common causes of death in industrialized Western countries. Nowadays, empirical data from clinical studies for the approval and monitoring of drugs and molecular databases is available.
+Methods
+
+The integration of database information is a promising method for providing well-based knowledge to avoid adverse drug reactions. This paper presents our web-based decision support system GraphSAW which analyzes and evaluates drug interactions and side effects based on data from two commercial and two freely available molecular databases. The system is able to analyze single and combined drug-drug interactions, drug-molecule interactions as well as single and cumulative side effects. In addition, it allows exploring associative networks of drugs, molecules, metabolic pathways, and diseases in an intuitive way. The molecular medication analysis includes the capabilities of the upper features.
+Results
+
+A statistical evaluation of the integrated data and top 20 drugs concerning drug interactions and side effects is performed. The results of the data analysis give an overview of all theoretically possible drug interactions and side effects. The evaluation shows a mismatch between pharmaceutical and molecular databases. The concordance of drug interactions was about 12% and 9% of drug side effects. An application case with prescribed data of 11 patients is presented in order to demonstrate the functionality of the system under real conditions. For each patient at least two interactions occured in every medication and about 8% of total diseases were possibly induced by drug therapy.
+Conclusions
+
+GraphSAW (http://tunicata.techfak.uni-bielefeld.de/graphsaw/ webcite) is meant to be a web-based system for health professionals and researchers. GraphSAW provides comprehensive drug-related knowledge and an improved medication analysis which may support efforts to reduce the risk of medication errors and numerous drastic side effects.</abstract>
+                    <subject>
+                        <topic>Drug side effects</topic>
+                        <topic>Adverse drug reaction</topic>
+                        <topic>Adverse drug interaction</topic>
+                        <topic>Drug therapy</topic>
+                        <topic>Decision support system</topic>
+                        <topic>Medical informatics</topic>
+                        <topic>Information system</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Medical Informatics and Decision Making</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1472-6947</identifier>
+                    <identifier type="MEDLINE">25881043</identifier>
+                    <identifier type="ISI">000350313500001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27224202</identifier>
+                    <identifier type="doi">10.1186/s12911-015-0139-5</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2722420</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2722420">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2722420/2722427/shoshi.s12911-015-0139-5.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2722420" DMDID="DMD2722420">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2722420"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

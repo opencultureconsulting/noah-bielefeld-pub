@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908162">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Attention Guiding Techniques using Peripheral Vision and Eye Tracking for Feedback in Augmented-Reality-based Assistance Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Renner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9640-8291</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A limiting factor of current smart glasses-based augmented reality (AR) systems is their small field of view. AR assistance systems designed for tasks such as order picking or manual assembly are supposed to guide the visual attention of the user towards the item that is relevant next. This is a challenging task, as the user may
+initially be in an arbitrary position and orientation relative to the target. As a result of the small field of view, in most cases the target will initially not be covered by the AR display, even if it is visible to the user. This raises the question of how to design attention guiding for such ”off-screen gaze” conditions.
+
+The central idea put forward in this paper is to display cues for attention guidance in a way that they can still be followed using peripheral vision. While the eyes’ focus point is beyond the AR display, certain visual cues presented on the display are still detectable by the human. In addition to that, guidance methods that are adaptive to the eye movements of the user are introduced and evaluated. 
+
+In the frame of a research project on smart glasses-based assistance systems for a manual assembly station, several attention guiding techniques with and without eye tracking have been designed, implemented and tested. As evaluation method simulated AR in a virtual reality HMD setup was used, which supports a repeatable and highly-controlled experimental design.</abstract>
+                    <subject>
+                        <topic>Virtuelle Realität</topic>
+                        <topic>Virtual Reality</topic>
+                        <topic>Augmented Reality</topic>
+                        <topic>Erweiterte Realität</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29081628</identifier>
+                    <identifier type="doi">10.1109/3DUI.2017.7893338</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908162</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2908162">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908162/2908197/3dui2017-peripheralcuesforar_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908162" DMDID="DMD2908162">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908162"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

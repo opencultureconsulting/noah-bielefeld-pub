@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306501">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Implementation and Evaluation of Acoustic Distance Measures for Syllables</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Munier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In dieser Arbeit werden verschiedene akustische Ähnlichkeitsmaße für Silben motiviert und anschließend evaluiert. Der Mahalanobisabstand als lokales Abstandsmaß für einen Dynamic-Time-Warping-Ansatz zum Messen von akustischen Abständen hat die Fähigkeit, Silben zu unterscheiden. Als solcher erlaubt er die Klassifizierung von Silben mit einer Genauigkeit, die für die Klassifizierung von kleinen akustischen Einheiten üblich ist (60 Prozent für eine Nächster-Nachbar-Klassifizierung auf einem Satz von zehn Silben für Samples eines einzelnen Sprechers). Dieses Maß kann durch verschiedene Techniken verbessert werden, die jedoch seine Ausführungsgeschwindigkeit verschlechtern (Benutzen von mehr Mischverteilungskomponenten für die Schätzung von Kovarianzen auf einer Gaußschen Mischverteilung, Benutzen von voll besetzten Kovarianzmatrizen anstelle von diagonalen Kovarianzmatrizen). Durch experimentelle Evaluierung wird deutlich, dass ein gut funktionierender Algorithmus zur Silbensegmentierung, welcher eine akkurate Schätzung von Silbengrenzen erlaubt, für die korrekte Berechnung von akustischen Abständen durch die in dieser Arbeit entwickelten Ähnlichkeitsmaße unabdingbar ist. Weitere Ansätze für Ähnlichkeitsmaße, die durch ihre Anwendung in der Timbre-Klassifizierung von Musikstücken motiviert sind, zeigen keine adäquate Fähigkeit zur Silbenunterscheidung.</abstract>
+                    <abstract lang="eng">In this work, several acoustic similarity measures for syllables are motivated and successively evaluated. The Mahalanobis distance as local distance measure for a dynamic time warping approach to measure acoustic distances is a measure that is able to discriminate syllables and thus allows for syllable classification with an accuracy that is common to the classification of small acoustic units (60 percent for a nearest neighbor classification of a set of ten syllables using samples of a single speaker). This measure can be improved using several techniques that however impair the execution speed of the distance measure (usage of more mixture density components for the estimation of covariances from a Gaussian mixture model, usage of fully occupied covariance matrices instead of diagonal covariance matrices). Through experimental evaluation it becomes evident that a decently working syllable segmentation algorithm allowing for accurate syllable border estimations is essential to the correct computation of acoustic distances by the similarity measures developed in this work. Further approaches for similarity measures which are motivated by their usage in timbre classification of music pieces do not show adequate syllable discrimination abilities.</abstract>
+                    <subject>
+                        <topic>Automatische Spracherkennung</topic>
+                        <topic>Automatic Speech Recognition</topic>
+                        <topic>MFCC Statistics</topic>
+                        <topic>Silben</topic>
+                        <topic>Dynamic Time Warping</topic>
+                        <topic>Temporal Statistics</topic>
+                        <topic>Syllables</topic>
+                        <topic>MFCCs</topic>
+                        <topic>Acoustic Similarity</topic>
+                        <topic>Dynamic Time Warping</topic>
+                        <topic>Ähnlichkeitsmaß</topic>
+                        <topic>Automatische Spracherkennung</topic>
+                        <topic>Template-Based Speech Recognition</topic>
+                        <topic>Acoustic Distance</topic>
+                        <topic>Akustische Ähnlichkeit</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18460</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306501</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306501">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306501/2306504/Munier2011-MasterThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306501" DMDID="DMD2306501">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306501"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

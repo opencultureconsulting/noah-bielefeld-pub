@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2663466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ReSEED: Social Event dEtection Dataset</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timo</namePart>
+                        <namePart type="family">Reuter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Symeon</namePart>
+                        <namePart type="family">Papadopoulos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vasilios</namePart>
+                        <namePart type="family">Mezaris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Nowadays, digital cameras are very popular among people and quite every mobile phone has a build-in camera. Social events have a prominent role in people’s life. Thus, people take pictures of events they take part in and more and more of them upload these to well-known online photo community sites like Flickr. The number of pictures uploaded to these sites is still proliferating and there is a great interest in automatizing the process of event clustering so that every incoming (picture) document can be assigned to the corresponding event without the need of human interaction. These social events are defined as events that are planned by people, attended by people and for which the social multimedia are also captured by people. There is an urgent need to develop algorithms which are capable of grouping media by the social events they depict or are related to. In order to train, test, and evaluate such algorithms and frameworks, we present a dataset that consists of about 430,000 photos from Flickr together with the underlying ground truth consisting of about 21,000 social events. All the photos are accompanied by their textual metadata. The ground truth for the event groupings has been derived from event calendars on the Web that have been created collaboratively by people. The dataset has been used in the Social Event Detection (SED) task that was part of the MediaEval Benchmark for Multimedia Evaluation 2013. This task required participants to discover social events and organize the related media items in event-specific clusters within a collection of Web multimedia documents. In this paper we describe how the dataset has been collected and the creation of the ground truth together with a proposed evaluation methodology and a brief description of the corresponding task challenge as applied in the context of the Social Event Detection task.</abstract>
+                    <subject>
+                        <topic>Classification</topic>
+                        <topic>Clustering</topic>
+                        <topic>Event Detection</topic>
+                        <topic>Content Analysis</topic>
+                        <topic>Dataset</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-1-4503-2705-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26634662</identifier>
+                    <identifier type="doi">10.1145/2557642.2563674</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2663466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2663466">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2663466/2686734/2663466_Reuter_ReSEEDSocialEventeDetectionDataset.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2663466" DMDID="DMD2663466">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2663466"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

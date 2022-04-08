@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304745">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Combinatorial aspects of low-rank matrix factorization and two applications in bioinformatics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Epameinondas</namePart>
+                        <namePart type="family">Fritzilas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-04-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In many signal processing and data mining applications we need to write a given matrix Y as a low-rank product Y = AX. Both matrices A and X have to be determined and we assume that from the specifics of the application we can derive some constraints for A and X. In general, there are different factorizations that approximate a given Y equally well and, therefore, the problem is inherently ill-defined. On the other hand, we intuitively expect that the constraints that we impose on the factors must offer some control over the space of possible solutions.
+In this work, we focus on an especially strong class of constraints. They arise in applications that involve a bipartite network of sources that are emitting some signals over discrete time and sensors that are monitoring these signals. In this context, Y contains sensor measurements over several time points, X contains source signals over time points and A contains the source-sensor mixing coefficients. We assume that we know a-priori the connectivity of the network, which implies that, in the factorization Y = AX, A (the matrix of the mixing coefficients) must have zeros at certain positions. For this class of constraints a fundamental question arises: Does the known zero pattern of A contribute anything to the uniqueness of the factorization?
+An observation that follows from the linearity of the model naturally leads us to a characterization of uniqueness up to diagonal scaling. It is important to note that this characterization is combinatorial, in the sense that it is based solely on the structure of the source-sensor network and not on the numerical values of a particular (A,X) solution. In fact, it only assumes that the matrices A and X of a solution are numerically generic. This discussion is formalized in Chapter 3 with the definition of identifiable bipartite graphs. Thereby, the concept of structural rank is the crucial link between linear algebra and graph theory.
+Identifiable graphs are defined in terms of bipartite matchings, which are very well-studied objects both in graph theory and in computer science. Below we mention some classical results that we use in our investigations. We can only start with Hall&apos;s marriage theorem, which gives a concise theoretical characterization for the existence of perfect matchings in bipartite graphs. From the algorithmic point of view, a maximum matching can be efficiently computed due to Berge&apos;s theorem and the concept of augmenting paths. An elegant connection of bipartite matchings to linear programming via totally unimodular matrices builds a bridge between continuous and combinatorial optimization. In the case of non-identifiable graphs, we draw some conclusions about the identifiability of the model, using the Dulmage-Mendelsohn (DM) decomposition of bipartite graphs. Finally, the concepts of surplus and submodular set functions appear at different points of the discussion.
+After the definition of identifiable graphs, we focus on two optimization problems that arise in the context of source-sensor networks. For these problems we coin the names MINSENSOR and MINSOURCE; we define and study them in Chapters 4 and 5, respectively. Roughly speaking, both problems deal with the selection of good subgraphs: Given a bipartite graph G the goal is to find a subgraph of G that is identifiable and also satisfies some additional restrictions. Both problems turn out to be NP-hard, as we show with reductions from SET COVER. This is a prototypical NP-hard problem with many generalizations, for many of which the approximation (and inapproximability) properties have been well-studied. One powerful generalization is SUBMODULAR SET COVER, for which a greedy approach achieves a logarithmic approximation guarantee. We derive an approximation algorithm for MINSENSOR by showing that it is a special case of SUBMODULAR SET COVER.
+In Chapter 6 we ask another natural question that arises from our need to model uncertainty in the network structure. Given an identifiable graph G, where the edges have been predicted with some uncertainty, how many edge modifications does it take, so that G loses the property? This robustness question is reduced to the computation of surplus in bipartite graphs and we show how this can be done in polynomial time.
+In Chapters 7 and 8 we present two applications from bioinformatics that can be abstracted in the context of a source-sensor network. The first one is dealing with the processing of microarray data under the presence of non-specific probes and the second one is dealing with the quantification of transcription factor activities in simple regulatory networks.
+To the best of our knowledge we are the first to define identifiable bipartite graphs in order to study the uniqueness of solutions in low-rank matrix factorization. We are also the first to investigate the properties of these graphs and related combinatorial optimization problems that arise in the context of source-sensor networks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15004</identifier>
+                    <identifier type="sys">HT015987098</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304745</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304745">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304745/2304748/FritzilasDis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304745" DMDID="DMD2304745">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304745"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

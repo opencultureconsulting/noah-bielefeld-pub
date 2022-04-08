@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Multi-Agenten in einem situierten künstlichen Kommunikator</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Scheering</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alois C.</namePart>
+                        <namePart type="family">Knoll</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-07-02</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Gegenstand der Arbeit ist die Entwicklung einer multi-agenten-basierten Software-Modellierung eines mehrarmigen robotischen Konstruktionssystems. Mit diesem System kann ein menschlicher Instrukteur einen interaktiven Montageprozess durchführen. Die Anweisungen erfolgen in natürlich-sprachlicher Form und können durch Zeigegesten unterstützt werden.
+Die dazu notwendige Integration von Perzeption und Kognition zur Umsetzung instruktionsgeleiteter Handlungen in diesem als Situierter Künstlicher Kommunikator (SKK) agierenden Robotersystem macht die Einbeziehung unterschiedlicher Sensoren (wie z. B. Kraft-Momenten-Sensoren, Handkameras und externer Kameras) und Erkennungsmechanismen unerlässlich. Zur situativen Interpretation der Ergebnisse dient ein aus Sensoragenten und Datenfusionsmethoden aufgebautes Sensorsubsystem, mit dem die sensorischen und sensomotorischen Fertigkeiten des Robotersystems realisiert wurden.
+Sowohl die Architektur des SKK-Prototypen als auch das darunterliegende Sensorsubsystem beruhen auf einer Modellierung des im Rahmen dieser Arbeit entwickelten generischen Agentenmodells MagiC. Als Kooperationsmechanismus in MagiC dient eine Weiterentwicklung des contract net protocols, durch das eine selbstorganisierte Aufgabenverteilung zur Laufzeit möglich wird, welche die funktionale Redundanz der Agenten ausnutzt.
+Neben den Erweiterungen um Teambildung, Domänenkontexte und dynamisch erzeugte Agentenklone wurde das klassische contract net insbesondere um die Fähigkeiten der asynchronen Taskausschreibung und nebenläufigen Dienstausführung zur Modellierung sog. anytime services ergänzt.</abstract>
+                    <subject>
+                        <topic>Montageroboter , Bahnplanung , Mehragentensystem , Spracheingabe , Gestik , Bilderkennung , Multi-Agenten-System , Robotisches Konstruktionssystem , Sensorfusion , Sprach-Handlungs-Integration ,</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1753</identifier>
+                    <identifier type="sys">HT014239940</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE0_bielefeld_pub_2302573">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302573/2302579/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE1_bielefeld_pub_2302573">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302573/2302578/0013b.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2302573">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302573/2302577/0013.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2302573">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302573/2302576/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302573" DMDID="DMD2302573">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302573"/>
+            <mets:div TYPE="part" ID="PART1_2302573" LABEL="0013b.ps">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2302573"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2302573" LABEL="0013.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2302573"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2302573" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2302573"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

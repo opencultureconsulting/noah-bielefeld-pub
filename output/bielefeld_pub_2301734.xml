@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301734">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computing phylogenies by comparing biosequences following principles of traditional systematics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Georg</namePart>
+                        <namePart type="family">Füllen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-11-07</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Phylogeny estimation, that is the inference of the evolutionary history of the various life forms (species) on earth, is a widely studied problem that is not yet solved to satisfaction. Studying the strengths and weaknesses of current methods that work on biosequence data, branch attraction phenomena due to unequal amounts of evolutionary change in different parts of the phylogeny are one major problem, placing the species that evolved fast in one part of the phylogenetic tree, and the species that evolved slowly in the other.
+We improve the current state of the art by describing a way to avoid the attraction of species that evolved slowly, and hence share old (&quot;symplesiomorphic&quot;) character states. These leftover character states have &quot;eroded&quot; away in the other species. They are detected using a calibrated comparison with an outgroup, and contrasted with shared novel (&quot;synapomorphic&quot;) character states that testify the exclusive common heritage of a subset of the species. Torn apart, these shared novelties indicate conflict in a split of all species considered, and only the split at the root of the phylogenetic tree cannot have such conflict. Therefore, we can work top-down, by heuristically searching for a minimum-conflict split, and tackling the resulting two subsets in the same way. This application of the divide-and-conquer principle, together with an intelligent search for mininum-conflict splits based on the exchange of species that carry the conflict, results in a fast, simple and transparent phylogeny estimation algorithm. The algorithm, called &quot;minimum conflict phylogeny estimation&quot; (MCOPE), is validated intensively using both real and artificial data.</abstract>
+                    <subject>
+                        <topic>Phylogenetische Systematik , Sequenz , Stammbaum ,  , Evolution , Phylogeny , Molecular systematics , Divide-and-conquer</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1365</identifier>
+                    <identifier type="sys">HT014236968</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301734</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301734">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301734/2301738/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2301734">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301734/2301737/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2301734">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301734/2301739/errata.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301734" DMDID="DMD2301734">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301734"/>
+            <mets:div TYPE="part" ID="PART1_2301734" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2301734"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2301734" LABEL="errata.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2301734"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

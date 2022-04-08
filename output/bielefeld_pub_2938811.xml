@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2938811">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal Installation of Solar Panels with Price Impact: a Solvable Singular Stochastic Control Problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Torben</namePart>
+                        <namePart type="family">Koch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tiziano</namePart>
+                        <namePart type="family">Vargiolu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a price-maker company which generates electricity and sells it in
+the spot market. The company can increase its level of installed power by irreversible installations
+of solar panels. In absence of the company&apos;s economic activities, the spot electricity
+price evolves as an Ornstein-Uhlenbeck process, and therefore it has a mean-reverting behavior.
+The current level of the company&apos;s installed power has a permanent impact on the
+electricity price and affects its mean-reversion level. The company aims at maximizing the
+total expected profits from selling electricity in the market, net of the total expected proportional
+costs of installation. This problem is modeled as a *two-dimensional degenerate singular
+stochastic control problem* in which the installation strategy is identified as the company&apos;s
+control variable. We follow a *guess-and-verify approach* to solve the problem. We find that
+the optimal installation strategy is triggered by a curve which separates the *waiting region*,
+where it is not optimal to install additional panels, and the *installation region*, where it is.
+Such a curve depends on the current level of the company&apos;s installed power, and is the unique
+strictly increasing function which solves a first-order ordinary differential equation (ODE).
+Finally, our study is complemented by a numerical analysis of the dependency of the optimal
+installation strategy on the model&apos;s parameters.</abstract>
+                    <abstract lang="eng">MSC2010 subject classification: 93E20; 49L20; 91B70; 60G99</abstract>
+                    <subject>
+                        <topic>singular stochastic control</topic>
+                        <topic>irreversible investment</topic>
+                        <topic>variational inequality</topic>
+                        <topic>Ornstein-Uhlenbeck process</topic>
+                        <topic>market impact</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>627</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>29</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29388119</identifier>
+                    <identifier type="sys">HT020402697</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2938811</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2938811">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938811/2938815/IMW_working_paper_627.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2938811" DMDID="DMD2938811">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2938811"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

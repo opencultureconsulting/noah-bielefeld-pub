@@ -1,0 +1,356 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2930310</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Mark H.</namePart>
+  <namePart type="family">Hansen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">##### **Example E0:** Using audification of particle trajectories (section 3.3 in the paper).
+
+Listen to a single particle converging to a mode in a three-modal density function p. This example corresponds to figure 2 in the paper. Files:[WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930311/E0a.wav).
+
+
+Listen to a similar particle with an increased friction coefficient of 0.9996. On each step, the kinetic energy is reduced to E(t+1) = 0.9996 E(t), resulting in an exponential decay of energy. Sounds: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930312/E0b.wav)
+
+
+
+##### **Example E1:** Audification of particle trajectories started at McMC steps (section 5.1 in the paper).
+
+The Audification of 100 McMC steps in a distribution p with 3 modes
+
+   - Soundfile:  [WAVE-File](https://pub.uni-bielefeld.de/download/2930310/2930313/E1.wav)
+
+       
+##### **Example E2:** Using McMC process stream,  AIB stream and McMC details stream as introduced in the paper
+This examples are discussed in the paper in section 5.2.
+&lt;br&gt;
+
+**(a)** dataset: 3 clusters in 6 dimensional space. T = 0.01
+
+   - McMC stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930322/E2a_stream1.wav)  
+   - McMC details stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930323/E2a_stream2.wav) 
+    - AIB stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930324/E2a_stream3.wav)
+    - All streams together: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930321/E2a_mix.wav)
+
+**(b)** dataset: 3 clusters in 6 dimensional space. T = 0.002
+
+   - McMC stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930326/E2b_stream1.wav)
+   - McMC details stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930327/E2b_stream2.wav)
+   - AIB stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930328/E2b_stream3.wav)
+   - All streams together: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930325/E2b_mix.wav)
+
+**(c)** dataset: 6 clusters in 6 dimensional space, T = 0.008
+
+   - McMC stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930330/E2c_stream1.wav)
+   - McMC details stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930331/E2c_stream2.wav)
+   - AIB stream: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930332/E2c_stream3.wav)
+   - All streams together: [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930329/E2c_mix.wav)
+
+**(d)** dataset: 3 clusters in 6 dim. space, T = 0.002, p computed by kernel density estimation but now with a kernel of bandwidth sigma such that p is unimodal.
+
+   - All streams together:  [WAVE-file](https://pub.uni-bielefeld.de/download/2930310/2930333/E2d_mix.wav)
+        
+        
+##### **Example E3:** Sonification of McMC simulations for handwritten digits (section 5.3 in the paper)
+
+##### **Example E4:** Sonification of McMC simulations for Bayesian Models (section 5.4 in the paper)
+
+##### **Example E5:** Sonification of McMC simulation on iris dataset
+This examples are discussed in the paper in section 5.5. The following examples are sonification with
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;bandwidth scaling exponent&lt;/td&gt;
+&lt;td&gt;soundfile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930336/mcmc_iris1_bw0.5.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0.25&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930337/mcmc_iris1_bw0.25.wav"&gt;WAVE-file&lt;/a&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930338/mcmc_iris1_bw0.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-0.25&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930340/mcmc_iris1_bw-0.25.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-0.5&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930339/mcmc_iris1_bw-0.5.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-0.75&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930341/mcmc_iris1_bw-0.75.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-1&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2930310/2930343/mcmc_iris1_bw-1.wav"&gt;WAVE-file&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E0a.wav">https://pub.uni-bielefeld.de/download/2930310/2930311/E0a.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E0b.wav">https://pub.uni-bielefeld.de/download/2930310/2930312/E0b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E1.wav">https://pub.uni-bielefeld.de/download/2930310/2930313/E1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream1.wav">https://pub.uni-bielefeld.de/download/2930310/2930322/E2a_stream1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream2.wav">https://pub.uni-bielefeld.de/download/2930310/2930323/E2a_stream2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream3.wav">https://pub.uni-bielefeld.de/download/2930310/2930324/E2a_stream3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_mix.wav">https://pub.uni-bielefeld.de/download/2930310/2930321/E2a_mix.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream1.wav">https://pub.uni-bielefeld.de/download/2930310/2930326/E2b_stream1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream2.wav">https://pub.uni-bielefeld.de/download/2930310/2930327/E2b_stream2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream3.wav">https://pub.uni-bielefeld.de/download/2930310/2930328/E2b_stream3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_mix.wav">https://pub.uni-bielefeld.de/download/2930310/2930325/E2b_mix.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream1.wav">https://pub.uni-bielefeld.de/download/2930310/2930330/E2c_stream1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream2.wav">https://pub.uni-bielefeld.de/download/2930310/2930331/E2c_stream2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream3.wav">https://pub.uni-bielefeld.de/download/2930310/2930332/E2c_stream3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_mix.wav">https://pub.uni-bielefeld.de/download/2930310/2930329/E2c_mix.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2d_mix.wav">https://pub.uni-bielefeld.de/download/2930310/2930333/E2d_mix.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ds_3cl6d.dat">https://pub.uni-bielefeld.de/download/2930310/2930318/ds_3cl6d.dat</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess"/>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ds_6cl6d.dat">https://pub.uni-bielefeld.de/download/2930310/2930319/ds_6cl6d.dat</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess"/>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0.5.wav">https://pub.uni-bielefeld.de/download/2930310/2930336/mcmc_iris1_bw0.5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0.25.wav">https://pub.uni-bielefeld.de/download/2930310/2930337/mcmc_iris1_bw0.25.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0.wav">https://pub.uni-bielefeld.de/download/2930310/2930338/mcmc_iris1_bw0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0.25.wav">https://pub.uni-bielefeld.de/download/2930310/2930340/mcmc_iris1_bw-0.25.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0.5.wav">https://pub.uni-bielefeld.de/download/2930310/2930339/mcmc_iris1_bw-0.5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0.75.wav">https://pub.uni-bielefeld.de/download/2930310/2930341/mcmc_iris1_bw-0.75.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-1.wav">https://pub.uni-bielefeld.de/download/2930310/2930343/mcmc_iris1_bw-1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-1.25.wav">https://pub.uni-bielefeld.de/download/2930310/2930342/mcmc_iris1_bw-1.25.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2001</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2930310</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017315</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ama>Hermann T, Hansen MH, Ritter H. &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University; 2001.</ama>
+<frontiers>Hermann, T., Hansen, M. H., and Ritter, H. (2001). Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Hansen, M.H. &amp;amp; Ritter, H. (2001). &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930310.&lt;/div&gt;</dgps>
+<apa>Hermann, T., Hansen, M. H., &amp;amp; Ritter, H. (2001).  &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930310</apa>
+<ieee> T. Hermann, M.H. Hansen, and H. Ritter, &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;, Bielefeld University, 2001.</ieee>
+<wels>Hermann, T.; Hansen, M. H.; Ritter, H. (2001): Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations". Bielefeld University.</wels>
+<harvard1>Hermann, T., Hansen, M.H., &amp;amp; Ritter, H., 2001. &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Hansen, M. H., &amp;amp; Ritter, H. (2001).  &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930310&lt;/div&gt;</apa_indent>
+<bio1>Hermann T, Hansen MH, Ritter H (2001) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<angewandte-chemie>T.  Hermann, M. H.  Hansen, and H.  Ritter, &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2001&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Hermann, T., Hansen, M.H., Ritter, H.: Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations". Bielefeld University (2001).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Hansen, Mark H., and Ritter, Helge. 2001. &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hermann, Thomas, Hansen, Mark H., and Ritter, Helge. &lt;em&gt;Supplementary Material for "Sonification of Markov-chain Monte Carlo Simulations"&lt;/em&gt;. Bielefeld University, 2001.</mla>
+<default>Hermann T, Hansen MH, Ritter H (2001) &lt;br /&gt;Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2930310</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-08-07T12:03:38Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-07T14:04:32Z</recordChangeDate>
+</recordInfo>
+</mods>

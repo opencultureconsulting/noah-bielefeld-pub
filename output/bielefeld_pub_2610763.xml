@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2610763">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Knowledge in the loop: Semantics representation for multimodal simulative environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marc Erich</namePart>
+                        <namePart type="family">Latoschik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Biermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Butz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Brian</namePart>
+                        <namePart type="family">Fisher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Antonio</namePart>
+                        <namePart type="family">Krüger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Olivier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This article describes the integration of knowledge based techniques into simulative Virtual Reality (VR) applications. The approach is motivated using multimodal Virtual Construction as an example domain. An abstract Knowledge Representation Layer (KRL) is proposed which is expressive enough to define all necessary data for diverse simulation tasks and which additionally provides a base formalism for the integration of Artificial Intelligence (AI) representations. The KRL supports two different implementation methods. The first method uses XSLT processing to transform the external KRL format into the representation formats of the diverse target systems. The second method implements the KRL using a functionally extendable semantic network. The semantic net library is tailored for real time simulation systems where it interconnects the required simulation modules and establishes access to the knowledge representations inside the simulation loop. The KRL promotes a novel object model for simulated objects called Semantic Entities which provides a uniform access to the KRL and which allows extensive system modularization. The KRL approach is demonstrated in two simulation areas. First, a generalized scene graph representation is presented which introduces an abstract definition and implementation of geometric node interrelations. It supports scene and application structures which can not be expressed using common scene hierarchies or field route concepts. Second, the KRL’s expressiveness is demonstrated in the design of multimodal interactions. Here, the KRL defines the knowledge particularly required during the semantic analysis of multimodal user utterances.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-3-540-28179-5</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26107631</identifier>
+                    <identifier type="doi">10.1007/11536482_3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2610763</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2610763">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2610763/2674895/kitl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2610763" DMDID="DMD2610763">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2610763"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302431">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Vision-based manipulative gesture recognition in a human-robot interaction scenario</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Zhe</namePart>
+                        <namePart type="family">Li</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-07-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Nowadays, many people are expecting an age of personal robots just as what happened in the evolution of computers. With this background, the research on human-robot interaction receives a lot of attention in the robotics research community. In this dissertation, we focus on the vision-based recognition of human&apos;s manipulative gestures because the manipulation of objects draws the attention of the communication partner on the objects that are relevant for a performed task and furthermore the recognition of them serves the goal of a more pro-active behavior of the robot in passive, more observational situations.
+Comparing to the interpretation of communicative gestures, which can be recognized purely based on trajectory information, the understanding of manipulative gestures is more relying on the object contexts. Different to others, the approach we propose is called object-oriented w.r.t. three different aspects: it is object-centered in terms of trajectory features that are defined relative to an object, it uses object-specific models for action primitives, and it has an object-attention mechanism which is based on task models.
+While most of the related work in gesture recognition assumes a fixed static camera view, such kind of constraints do not apply for mobile robot companions. After an analysis of the observational scenario, a 2-D approach was chosen by us. The manipulative primitive recognition scheme is able to generalize a primitive model, which has been learned from data items observed from a single camera view, to variant view points and different settings. We tackle the problem of compensating the view dependence of 2-D motion models on three different levels. Firstly, the trajectories are pre-segmented based on an object vicinity that depends on the camera tilt and object detections. Secondly, an interactive feature vector is designed to represent the relative movements between the human hand and the objects. Thirdly, a particle filter realized matching method adaptively finds out a scaling parameter which can fit the HMM-based models to different view angles.
+To cope with different layers of intentions in the manipulative gestures, a unified graphical model with a two-layered recognition structure is proposed. The object-specific manipulative primitives on the lower level are coupled with task-specific Markovian models on the upper level. The combined bottom-up top-down processing loop in this structure realizes a dynamic attention mechanism by utilizing the task-level prediction of possible primitives to restrict the object types possibly detected as well as the action primitives possibly recognized. In this thesis, an online task-learning strategy based on pre-learned object-specific manipulative primitives is also proposed. The task model can be initialized with few labeled data and updated incrementally when new unlabeled data becomes available. The results of experiments in an office environment show the applicability of the approaches for vision-based manipulative gesture recognition put forward in this thesis.</abstract>
+                    <subject>
+                        <topic>Hand</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Gestik</topic>
+                        <topic>Kontextbezogenes System</topic>
+                        <topic>Bilderkennung</topic>
+                        <topic>Hidden Markov Model</topic>
+                        <topic>Manipulative gesture</topic>
+                        <topic>Particle filtering</topic>
+                        <topic>Image processing</topic>
+                        <topic>Gesture recognition</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-13974</identifier>
+                    <identifier type="sys">HT015840345</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302431</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302431">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302431/2302434/Dissertation_LiZhe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302431" DMDID="DMD2302431">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302431"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

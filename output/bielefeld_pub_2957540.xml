@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2957540">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dealing with uncertainty in health economic decision modeling. Applying statistical and data science methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Scholz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Greiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-03-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Health economic decision modeling is a widely used method to support decision makers in the health care sector choosing cost-effective interventions. Modeling allows to combine evidence from various sources and to compare different treatment strategies that exceed the feasible number of comparators in clinical trials. New, increasingly complex health technologies need to be reflected by more complex models and need to be informed by more data. Additionally, more detailed models come with more and new types of uncertainties surrounding model input, model structure and methodological choices.&lt;br /&gt;
+The aim of the present dissertation thesis is twofold: First, statistical and data science methods are explored to deal with the increased data demand of more complex models and to be applied for the classical forms of uncertainty. The second goal is the exploration of a new source of uncertainty originating from the heuristic nature of new model types like agent-based modeling – namely uncertainty associated with the algorithms used to simulate agent behavior.&lt;br /&gt;
+The thesis is comprised of eight articles published in international, peer-reviewed journals. The first six articles are dedicated to the application of statistical and data science methods to model uncertainties regarding parameters, methodological and structural choices. The publications show how new methods, for example web-scraping, can be used to inform behavioral, epidemiological as well as health economic input parameters of models. They also present how uncertainties can be explored and communicated to decision makers. The last two  articles explore the influence of algorithmic uncertainty in agent-based models used in infectious disease modeling. The results show the extent in which matching algorithms influence the spread of a sexually transmitted infection.&lt;br /&gt;
+The thesis demonstrates that new statistical and data science methods allow the use of more detailed, complex models to answer very specific research questions. This allows decision  makers to find tailored, cost-effective interventions. However, these new model types also come with new uncertainties that must be communicated to the decision makers to fully account for the uncertainty surrounding the model results.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29575407</identifier>
+                    <identifier type="doi">10.4119/unibi/2957540</identifier>
+                    <identifier type="sys">HT021092622</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2957540</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2957540">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957540/2957579/Dissertation_Scholz_2020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2957540" DMDID="DMD2957540">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2957540"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

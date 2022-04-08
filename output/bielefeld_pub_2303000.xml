@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303000">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Analyse der Position, Orientierung und Bewegung von rigiden und artikulierten Objekten aus Stereobildsequenzen</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Analysis of the position, orientation, and motion of rigid and articulated objects from stereo image sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Björn</namePart>
+                        <namePart type="family">Barrois</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-11-08</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis regards the analysis of position, orientation und motion of rigid and articulated objects from stereo image sequences. In a first step, a spatio-temporal scene reconstruction based on stereo image analysis and optical flow computation on the binocular or trinocular image sequences is performed. Subsequently a segmentation stage is used to seperate the object from each other and from the background.
+Different newly developed pose-estimation techniques are utilized, e.g. problem-specific versions of the iterative closest point algorithm which is used to determine the object pose (position and orientation) based on the 3D point cloud using model information. Alternatively, a novel model-based stereo analysis or a novel fusion of contour-based and point-based pose estimation is applied.
+Several new methods for motion analysis can be utilized to determine the temporal derivative of the pose, i.e. the object motion, instantaneously. Here the complete three-dimensional motion is determined based on optical flow data, contour-based or by using a model-based scene-flow technique.
+Several system setups are presented which robustly estimate the pose and the motion of rigid or articulated objets with high accuracy. To demonstrate the usability of the approach for different scenarios the system is evaluated in the industrial production scenario and in the traffic scenario at road intersections. In the production scenario the human hand-forearm-limb is regarded as an articulated object, whereas in the traffic scenario vehicles are regarded as rigid objects.
+The evaluation is based on real-world sequences and shows high accuracies for the newly developed determination of the position and orientation as well as for the novel motion analysis using independently determined ground-truth data. Furthermore, it is shown that the developed fusion approach is useful for small objects in the production scenario, because a combination of contour-based and point-based algorithms increases the robustness of the system significantly. For the traffic scenario a use of 3D points alone shows high accuracies, while the model-based stereo technique achieves a further increase of the accuracies. For the complete motion analysis in the traffic scenario, the model-based scene flow method reaches high accuracy, whereas in the production scenario a contour-based approach or an extented method for the analysis of optical flow fields is favourably applied.
+One main focus of the system is the integration of decision feedback in the processing hierarchy, leading to an increased robustness of the system. By using decision feedback, stereo matching errors can be avoided or a classification of articulated objects can be done, which allows a verification of the object detection. Another advantage of the system is the instantaneous determination of the object motion, where just two or three time steps are used. A temporal filtering of the object pose is thus avoided, which would result in a delayed reaction of the system.</abstract>
+                    <abstract lang="ger">Diese Arbeit beschäftigt sich mit der Analyse der Position, Orientierung und Bewegung von rigiden und artikulierten Objekten aus Stereobildsequenzen. Grundlage für diese Analyse ist eine raum-zeitliche Szenenrekonstruktion auf Basis der bi- oder trinokularen Bildsequenzen unter Verwendung von Stereobildverarbeitung und Berechnung des optischen Flusses. Darauffolgend wird eine Vorsegmentierung der Szene durchgeführt, um die einzelnen Objekte darin zu separieren.
+Verschiedene neuentwickelte Verfahren zur Pose-Estimation kommen zum Einsatz, darunter problemspezifische Varianten des Iterative Closest Point-Algorithmus, mit deren Hilfe sich aus 3D-Punktewolken unter Zuhilfenahme von Modellwissen die Pose eines Objekts (Position und Orientierung des Objekts) ermitteln lässt. Alternativ dazu werden in dieser Arbeit auch neuartige Ansätze zur modellbasierten Stereobildverarbeitung und zur Fusion von kontur- und punktbasierter Poseschätzung untersucht.
+Anschließend werden Methoden zur Bewegungsanalyse benutzt, um die zeitliche Ableitung der Pose, die Bewegung, bestmöglich zu ermitteln. Bei diesen neu entwickelten Ansätzen wird auf Basis des optischen Flusses, konturbasiert oder unter Verwendung eines neuartigen modellbasierten Szenenfluss-Verfahrens, die vollständige Objektbewegung ermittelt.
+Es werden verschiedene Systemausprägungen vorgestellt, die anwendungsspezifisch in der Lage sind, robust die Pose und die Bewegung eines rigiden oder artikulierten Objekts mit einer hohen Genauigkeit zu schätzen. Um zu zeigen, dass der entwickelte Ansatz für sehr unterschiedliche Szenarien einsetzbar ist, wird zum einen das Produktionsszenario in der Fabrik und zum anderen das Straßenverkehrsszenario im Kreuzungsbereich untersucht. Im Produktionsszenario geht es um die Interaktion von Mensch und Roboter. Dabei wird die Hand-Unterarm-Region des Arbeiters als artikuliertes Objekt untersucht. Im Straßenverkehrsszenario geht es hingegen um die Realisierung von Fahrerassistenzsystemen. Hier werden ganze Fahrzeuge als rigide Objekte betrachtet.
+Eine Evaluierung auf Basis realistischer Sequenzen belegt unter Verwendung einer genauen, mit einem anderen Verfahren ermittelten Ground-Truth diese hohen Genauigkeiten, sowohl bei der neuartigen Schätzung von Position und Orientierung als auch bei der neuentwickelten Bewegungsanalyse. Es wird außerdem gezeigt, dass eine Fusion bei kleinen Objekten im Produktionsszenario sinnvoll ist, da eine Kombination von punkt- und konturbasierter Poseschätzung eine wesentliche Erhöhung der Systemrobustheit mit sich bringt. Im Straßenverkehrsszenario zeigt die ausschließliche Verwendung von 3D-Punkten sehr gute Ergebnisse, wobei die Verwendung eines modellbasierten Stereoansatzes eine weitere Steigerung bewirkt. Zur Schätzung der vollständigen Bewegung der Fahrzeuge zeigt ein modellbasierter Szenenflussansatz im Straßenverkehr gute Ergebnisse, wohingegen in der Produktion, bei bekannter Objektkontur, ein konturbasierter Ansatz oder eine erweiterte Methode zur Analyse der Verschiebungsvektorfelder zum Einsatz kommt.
+Ein Hauptaugenmerk bei dem neuentwickelten System liegt in der Einbringung von Rückkopplungen in die Verarbeitungskette. Dadurch wird die Robustheit des Gesamtsystems nochmals erhöht, da hierdurch beispielsweise Fehlkorrespondenzen im Stereoalgorithmus verhindert werden können, oder auch artikulierte Objekte klassifiziert und somit die Objektverfolgung verifiziert werden kann. Eine weitere Eigenschaft des Systems ist eine instantane Bestimmung der Bewegung durch die Verwendung von lediglich zwei bzw. drei Zeitschritten, ohne eine zeitliche Filterung zu benutzten, die zu einer verzögerten Reaktion führen würde.</abstract>
+                    <subject>
+                        <topic>Dreidimensionale Bildverarbeitung</topic>
+                        <topic>Human-machine interaction</topic>
+                        <topic>Advanced driver assistence systems</topic>
+                        <topic>Stereo image processing</topic>
+                        <topic>Scene flow</topic>
+                        <topic>Motion analysis</topic>
+                        <topic>Mensch-Maschine-Interaktion</topic>
+                        <topic>Stereobildverarbeitung</topic>
+                        <topic>Fahrerassistenzsysteme</topic>
+                        <topic>Szenenfluss</topic>
+                        <topic>Bewegungsanalyse</topic>
+                        <topic>Klassifikation</topic>
+                        <topic>Registrierung (Bildverarbeitung)</topic>
+                        <topic>Korrespondenzproblem (Bildverarbeitung)</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17832</identifier>
+                    <identifier type="sys">HT016775084</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303000</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303000">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303000/2303003/Diss_Barrois.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303000" DMDID="DMD2303000">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303000"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

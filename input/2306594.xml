@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2306594</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Reeder</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Our understanding of the role of RNA has undergone a major change in the last decade. Once believed to be only a mere carrier of information and structural component of the ribosomal machinery in the advent of the genomic age, it is now clear that RNAs play a much more active role. RNAs can act as regulators and can have catalytic activity - roles previously only attributed to proteins. There is still much speculation in the scientific community as to what extent RNAs are responsible for the complexity in higher organisms which can hardly be explained with only proteins as regulators.
+In order to investigate the roles of RNA, it is therefore necessary to search for new classes of RNA. For those and already known classes, analyses of their presence in different species of the tree of life will provide further insight about the evolution of biomolecules and especially RNAs. Since RNA function often follows its structure, the need for computer programs for RNA structure prediction is an immanent part of this procedure. The secondary structure of RNA - the level of base pairing - strongly determines the tertiary structure. As the latter is computationally intractable and experimentally expensive to obtain, secondary structure analysis has become an accepted substitute. In this thesis, I present two new algorithms (and a few variations thereof) for the prediction of RNA secondary structures.
+The first algorithm addresses the problem of predicting a secondary structure from a single sequence including RNA pseudoknots. Pseudoknots have been shown to be functionally relevant in many RNA mediated processes. However, pseudoknots are excluded from considerations by state-of-the-art RNA folding programs for reasons of computational complexity. While folding a sequence of length n into unknotted structures requires O(n^3) time and O(n^2) space, finding the best structure including arbitrary pseudoknots has been proven to be NP-complete. Nevertheless, I demonstrate in this work that certain types of pseudoknots can be included in the folding process with only a moderate increase of computational cost.
+In analogy to protein coding RNA, where a conserved encoded protein hints at a similar metabolic function, structural conservation in RNA may give clues to RNA function and to finding of RNA genes. However, structure conservation is more complex to deal with computationally than sequence conservation. The method considered to be at least conceptually the ideal approach in this situation is the Sankoff algorithm. It simultaneously aligns two sequences and predicts a common secondary structure. Unfortunately, it is computationally rather expensive - O(n^6) time and O(n^4) space for two sequences, and for more than two sequences it becomes exponential in the number of sequences! Therefore, several heuristic implementations emerged in the last decade trying to make the Sankoff approach practical by introducing pragmatic restrictions on the search space.
+In this thesis, I propose to redefine the consensus structure prediction problem in a way that does not imply a multiple sequence alignment step. For a family of RNA sequences, my method explicitly and independently enumerates the near-optimal abstract shape space and predicts an abstract shape as the consensus for all sequences. For each sequence, it delivers the thermodynamically best structure which has this shape. The technique of abstract shapes analysis is employed here for a synoptic view of the suboptimal folding space. As the shape space is much smaller than the structure space, and identification of common shapes can be done in linear time (in the number of shapes considered), the method is essentially linear in the number of sequences. Evaluations show that the new method compares favorably with available alternatives.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis.pdf">https://pub.uni-bielefeld.de/download/2306594/2306597/thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>RNS , Sekundärstruktur , Algorithmus , Molekulare Bioinformatik , Pseudoknoten , Komparative Analyse , RNA secondary structure , Pseudoknots , Comparative analysis</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-12764</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2008-04-01</dateOther>
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reeder, J. (2007). &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Reeder, J. (2007). Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Reeder J. &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<ieee> J. Reeder, &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<apa>Reeder, J. (2007).  &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<wels>Reeder, J. (2007): Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>J.  Reeder, &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reeder, J. (2007).  &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Reeder, J., 2007. &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Reeder J (2007) &lt;br /&gt;&lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reeder, Jens. 2007. &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Reeder, J.: Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<default>Reeder J (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Reeder, Jens. &lt;em&gt;Algorithms for RNA secondary structure analysis : prediction of pseudoknots and the consensus shapes approach&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2306594</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-04-09T13:26:24Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T09:01:28Z</recordChangeDate>
+</recordInfo>
+</mods>

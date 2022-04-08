@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919673">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient Grouping Methods for the Annotation and Sorting of Single Cells</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Lux</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-04-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Insights into large-scale biological data require computational methods which reliably and efficiently recognize latent structures and patterns. In many cases, it is necessary to find homogeneous subgroups of the data in order to solve complex problems and to enable the discovery of novel knowledge. Here, clustering and classification techniques are commonly employed in all fields of research. Confounding factors often complicate data analysis and require a thorough choice of methods and parameters. This thesis is focused on methods around single-cell research - I developed, evaluated, compared and adapted grouping methods for open problems from three different technologies:&lt;br /&gt;&lt;br /&gt;
+
+First, metagenomics is typically confronted with the problem of detecting clusters representing involved species in a given sample (binning). Albeit powerful technologies exist for the identification of known taxa, de novo binning is still in its infancy. In this context, I evaluated optimal choices of techniques and parameters regarding the integration of modern machine learning methods, such as dimensionality reduction and clustering, resulting in an automated binning pipeline.&lt;br /&gt;&lt;br /&gt;
+
+Second, in single-cell sequencing, a major problem is given by sample contamination with foreign genomic material. From a computational point of view, in both metagenomics and single-cell genome assemblies, genomes can be represented as clusters. Contrary to metagenomics, the clustering task for single cells is a fundamentally different one. Here, I developed a methodology to automatically detect contamination and estimate confidences in single-cell genome assemblies.&lt;br /&gt;&lt;br /&gt;
+
+A third challenge can be seen in the field of flow cytometry. Here, the precise identification of cell populations in a sample is crucial and requires manual, tedious, and possibly biased cell annotation. Automated methods exist, however they require difficult fine-tuning of hyper-parameters to obtain the best results. To overcome this limitation, I developed a semi-supervised tool for cell population identification, with few very robust parameters, being fast, accurate and interpretable at the same time.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29196734</identifier>
+                    <identifier type="sys">HT019700598</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919673</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919673">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919673/2919674/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919673" DMDID="DMD2919673">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919673"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

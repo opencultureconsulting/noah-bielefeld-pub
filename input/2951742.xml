@@ -1,0 +1,227 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2951742</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Evaluation data for "On the use of sequence-quality information in OTU clustering"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Müller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">76159895</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0909-3608</description></name>
+<name type="personal">
+  <namePart type="given">Markus</namePart>
+  <namePart type="family">Nebel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">71594916</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">76156357</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Prepared data sets and aggregated results of the comparative evaluation of [GeFaST](https://github.com/romueller/gefast)'s quality-aware clustering and refinement methods performed in "On the use of sequence-quality information in OTU clustering" (submitted). &lt;br /&gt;&lt;br /&gt;
+GeFaST is compared to DADA2, USEARCH, VSEARCH, UPARSE and Swarm on two collections of data sets described in
+[*DADA2: High-resolution sample inference from Illumina amplicon data*](https://doi.org/10.1038/nmeth.3869) (Callahan et al.) and
+[*Improved OTU-picking using long-read 16S rRNA gene amplicon sequencing and generic hierarchical clustering*](https://doi.org/10.1186/s40168-015-0105-6) (Franzén et al.).&lt;br /&gt;&lt;br /&gt;
+
+The provided files allow to repeat the evaluation by rerunning the tools or just reanalysing the results.
+The evaluation repository is available [here](https://github.com/romueller/gefast-qa-evaluation).&lt;br /&gt;&lt;br /&gt;
+
+*Input files:* &lt;br /&gt;&lt;br /&gt;
+
+**callahan_data.tar.bz2**: Read files and ground truths of the Callahan data sets used by GeFaST, USEARCH, VSEARCH, UPARSE and Swarm. 
+	This archive should be extracted in the `analyses/model_supported_callahan/`, `analyses/quality_weighted_callahan/`, `analyses/swarm_callahan/`, `analyses/uvsearch_callahan/` and `analyses/performance/` subfolder of the evaluation repository.
+
+**dada2_callahan_data.tar.bz2**: Read files and ground truths of the Callahan data sets used by DADA2.
+	This archive should be extracted in the `analyses/dada2_callahan/` subfolder of the evaluation repository.
+	The workflow of DADA2 differs from the other examined tools and, thus, involves slightly different ground-truth files in order to assess the quality of the reconstructed clusters.
+
+**franzen_data.tar.bz2**: Read files and ground truths of the Franzén data sets used by all tools. 
+	This archive should be extracted in the `analyses/dada2_franzen/`, `analyses/model_supported_franzen/`, `analyses/quality_weighted_franzen/`, `analyses/swarm_franzen/` and `analyses/uvsearch_franzen/` subfolder of the evaluation repository.
+	Since the origin of *in silico* sequenced amplicons is known, the ground truths can also be used for DADA2. &lt;br /&gt;&lt;br /&gt;
+
+
+*Aggregated results:* &lt;br /&gt;&lt;br /&gt;
+
+**dada2_callahan_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of DADA2 on the Callahan data sets.
+	This archive should be extracted in the `analyses/dada2_callahan/` subfolder of the evaluation repository.
+
+**dada2_franzen_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of DADA2 on the Franzén data sets.
+	This archive should be extracted in the `analyses/dada2_franzen/` subfolder of the evaluation repository.
+
+**model_supported_callahan_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of the model-supported clustering and refinement methods of GeFaST on the Callahan data sets.
+	This archive should be extracted in the `analyses/model_supported_callahan/` subfolder of the evaluation repository.
+
+**model_supported_franzen_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of the model-supported clustering and refinement methods of GeFaST on the Franzén data sets.
+	This archive should be extracted in the `analyses/model_supported_franzen/` subfolder of the evaluation repository.
+
+**performance_evaluation.tar.bz2**: Aggregated results (clustering quality, runtime, memory consumption) of the different runs of GeFaST, USEARCH, VSEARCH, UPARSE and Swarm on the largest Callahan data set (hmp_single).
+	This archive should be extracted in the `analyses/performance/` subfolder of the evaluation repository.
+
+**quality_weighted_callahan_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of GeFaST involving quality-weighted alignments on the Callahan data sets.
+	This archive should be extracted in the `analyses/quality_weighted_callahan/` subfolder of the evaluation repository.
+
+**quality_weighted_franzen_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of GeFaST involving quality-weighted alignments on the Franzén data sets.
+	This archive should be extracted in the `analyses/quality_weighted_franzen/` subfolder of the evaluation repository.
+
+**swarm_callahan_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of Swarm on the Callahan data sets.
+	This archive should be extracted in the `analyses/swarm_callahan/` subfolder of the evaluation repository.
+
+**swarm_franzen_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of Swarm on the Franzén data sets. 
+	This archive should be extracted in the `analyses/swarm_franzen/` subfolder of the evaluation repository.
+
+**uvsearch_callahan_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of USEARCH, VSEARCH and UPARSE on the Callahan data sets.
+	This archive should be extracted in the `analyses/uvsearch_callahan/` subfolder of the evaluation repository.
+
+**uvsearch_franzen_evaluation.tar.bz2**: Aggregated results (clustering quality, number of clusters) of the different runs of USEARCH, VSEARCH and UPARSE on the Franzén data sets. 
+	This archive should be extracted in the `analyses/uvsearch_franzen/` subfolder of the evaluation repository.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="callahan_data.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952909/callahan_data.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dada2_callahan_data.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952910/dada2_callahan_data.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="franzen_data.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952911/franzen_data.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dada2_callahan_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952912/dada2_callahan_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dada2_franzen_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952913/dada2_franzen_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="model_supported_callahan_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952914/model_supported_callahan_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="model_supported_franzen_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952915/model_supported_franzen_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="performance_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952916/performance_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="quality_weighted_callahan_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952917/quality_weighted_callahan_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="quality_weighted_franzen_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952918/quality_weighted_franzen_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="swarm_callahan_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952919/swarm_callahan_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="swarm_franzen_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952920/swarm_franzen_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="uvsearch_callahan_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952921/uvsearch_callahan_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="uvsearch_franzen_evaluation.tar.bz2">https://pub.uni-bielefeld.de/download/2951742/2952922/uvsearch_franzen_evaluation.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://creativecommons.org/licenses/by-nc/4.0/</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2951742</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<mla>Müller, Robert, and Nebel, Markus. &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University, 2021.</mla>
+<default>Müller R, Nebel M (2021) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Müller, R., Nebel, M.: Evaluation data for "On the use of sequence-quality information in OTU clustering". Bielefeld University (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, Robert, and Nebel, Markus. 2021. &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<bio1>Müller R, Nebel M (2021) &lt;br /&gt;&lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, R., &amp;amp; Nebel, M. (2021).  &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2951742" target="_blank"&gt;https://doi.org/10.4119/unibi/2951742&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Müller, R., &amp;amp; Nebel, M., 2021. &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;, Bielefeld University.</harvard1>
+<angewandte-chemie>R.  Müller, and M.  Nebel, &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<wels>Müller, R.; Nebel, M. (2021): Evaluation data for "On the use of sequence-quality information in OTU clustering". Bielefeld University.</wels>
+<apa>Müller, R., &amp;amp; Nebel, M. (2021).  &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2951742" target="_blank"&gt;https://doi.org/10.4119/unibi/2951742&lt;/a&gt;</apa>
+<ieee> R. Müller and M. Nebel, &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;, Bielefeld University, 2021.</ieee>
+<ama>Müller R, Nebel M. &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University; 2021.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, R. &amp;amp; Nebel, M. (2021). &lt;em&gt;Evaluation data for "On the use of sequence-quality information in OTU clustering"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2951742.&lt;/div&gt;</dgps>
+<frontiers>Müller, R., and Nebel, M. (2021). Evaluation data for "On the use of sequence-quality information in OTU clustering". Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2951742</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-02-25T15:40:50Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-08-18T15:39:20Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2952182">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Two-Sided Singular Control of an Inventory with Unknown Demand Trend</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Salvatore</namePart>
+                        <namePart type="family">Federico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Neofytos</namePart>
+                        <namePart type="family">Rodosthenous</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study the problem of optimally managing an inventory with unknown demand trend. Our
+formulation leads to a stochastic control problem under partial observation, in which a Brownian motion
+with non-observable drift can be singularly controlled in both an upward and downward direction. We
+first derive the equivalent separated problem under full information, with state-space components given
+by the Brownian motion and the filtering estimate of its unknown drift, and we then completely solve
+this latter problem. Our approach uses the transition amongst three different but equivalent problem
+formulations, links between two-dimensional bounded-variation stochastic control problems and games
+of optimal stopping, and probabilistic methods in combination with refined viscosity theory arguments.
+We show substantial regularity of (a transformed version of) the value function, we construct an optimal
+control rule, and we show that the free boundaries delineating (transformed) action and inaction regions
+are bounded globally Lipschitz continuous functions. To our knowledge this is the first time that such
+a problem has been solved in the literature.</abstract>
+                    <abstract lang="eng">MSC2020 subject classifications: Primary 93E20, 93E11, 91A55, 49J40, 90B05.</abstract>
+                    <subject>
+                        <topic>bounded-variation stochastic control</topic>
+                        <topic>partial observation</topic>
+                        <topic>inventory management</topic>
+                        <topic>Dynkin games</topic>
+                        <topic>free boundaries</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>643</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>32</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29521821</identifier>
+                    <identifier type="sys">HT020917679</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2952182</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2952182">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2952182/2952187/IMW_working_paper_643.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2952182" DMDID="DMD2952182">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2952182"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909213">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Phylogenetic assembly of paleogenomes integrating ancient DNA data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nina</namePart>
+                        <namePart type="family">Luhmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8112-7027</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cedric</namePart>
+                        <namePart type="family">Chauve</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-12-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In comparative genomics, reconstructing the genomes of ancestral species in a given phylogeny is an important problem in order to analyze genome evolution over time. The diversity of present-day genomes in terms of local mutations and genome rearrangements allows to shed light on the dynamics of evolutionary processes that led from a common ancestor to a set of extant genomes. This speciation history is depicted in a phylogenetic tree. Comparative genome reconstruction methods aim to infer genomic features such as an order of markers (e.g. genes) for extinct species at internal nodes of the tree by applying different evolutionary models, relying only on the information available for the extant genomes at the leaves of the phylogenetic tree. &lt;br /&gt;&lt;br /&gt;
+
+Recently, the steady progress in sequencing technologies led to the emergence of the field of paleogenomics, where the study of ancient DNA (aDNA) found in conserved organic material is moving rapidly towards the sequencing and analysis of complete paleogenomes. Such &apos;&apos;genetic time travel&apos;&apos; allows direct insight into specific phases of the evolution of specific genomes that are not only implicitly inferred from extant DNA sequences. However, as DNA is naturally degraded over time after the death of an organism and environmental conditions interfere with the conservation of DNA material, an assembly of these paleogenomes is usually fragmented, preventing a detailed analysis of genome rearrangements along the branches of the phylogenetic tree.&lt;br /&gt;&lt;br /&gt;
+
+In this thesis, we aim to combine the study of aDNA and comparative ancestral reconstruction in a phylogenetic framework. The comparison with extant related genomes can naturally assist in scaffolding a fragmented aDNA assembly, while the aDNA sequencing data can be included as an additional source of information for comparative reconstruction methods to improve the reconstructions of all related genomes in the phylogenetic tree. Our first focus is on integrative methods to reconstruct marker orders globally in a phylogeny under the assumption of parsimony. An underlying rearrangement model can describe the evolutionary operations that occurred along the edges of the tree. However, as much as complex rearrangement scenarios can give insights into underlying biological mechanisms during evolution, from an computational point of view the ancestral reconstruction problem under rearrangement distances is an NP-hard problem. One exception is the Single-Cut-or-Join (SCJ) distance, that uses a marker order-based representation of the involved genomes to model the cut and join of marker adjacencies as evolutionary operations.&lt;br /&gt;&lt;br /&gt;
+
+We build upon this rearrangement model and describe parsimony-based reconstruction methods aiming to minimize the SCJ distance in the tree. In addition, we require the reconstructed solutions to be consistent, such that they represent linear or circular regions of the ancestral genome. Our first polynomial-time method is based on the Sankoff-Rousseau algorithm and directly includes an aDNA assembly graph at one internal node of the tree. We show that including branch lengths in the underlying tree can avoid ambiguity in practice. Our second approach follows a more general strategy and includes the aDNA sequencing data as local weights for adjacencies next to the SCJ distance in the objective. We describe a fixed-parameter-tractable algorithm that also allows to sample co-optimal solutions. Finally, we describe an approach to fill gaps between potentially adjacent markers by aDNA data to reconstruct the complete genome sequence of a paleogenome guided by the related extant genome sequences. In addition, this approach enables us to select the adjacencies that are supported by the sequencing information from sets of conflicting adjacencies.&lt;br /&gt;&lt;br /&gt;
+
+We evaluate our proposed models and algorithms on simulated and biological data. In particular, we integrate two aDNA sequencing data sets for ancient strains of the pathogen Yersinia pestis, that is understood to be the cause of several pandemics in medieval times. We show that the combination of aDNA sequencing reads and a parsimonious reconstruction in the phylogenetic tree reduces the fragmentation of an initial aDNA assembly substantially and explore alternative reconstructions to emphasize reliably reconstructed regions of the ancient genomes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29092135</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909213</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909213">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909213/2909214/PhDThesis_nluhmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909213" DMDID="DMD2909213">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909213"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2954897">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Effect of Mean-Reverting Processes in the Pricing of Options in the Energy Market: An Arithmetic Approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Maren Diane</namePart>
+                        <namePart type="family">Schmeck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Schwerin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we study the effect that mean-reverting components in the arithmetic dynamics of electricity spot price have on the price of a call option on a swap. Our model allows for seasonal effects, spikes, and negative values of the price of electricity. We show that for sufficiently large delivery periods of the swap contract, the error that one makes by neglecting some of the mean-reverting processes affecting the spot price evolution converges to zero. The decay rate is explicitly calculated. This is achieved by exploiting the additive structure of the electricity price process in order to determine an explicit closed-form formula for the price of the call on a swap. The theoretical analysis is then illustrated via a numerical example.</abstract>
+                    <subject>
+                        <topic>electricity spot prices</topic>
+                        <topic>multi-scale mean reversion</topic>
+                        <topic>pricing error</topic>
+                        <topic>jumps</topic>
+                        <topic>delivery period</topic>
+                        <topic>swaps</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Risks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>5</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2227-9091</identifier>
+                    <identifier type="ISI">000654486100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29548972</identifier>
+                    <identifier type="doi">10.3390/risks9050100</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2954897</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2954897">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2954897/2954898/Schmeckrisks-09-00100-v2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2954897" DMDID="DMD2954897">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2954897"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

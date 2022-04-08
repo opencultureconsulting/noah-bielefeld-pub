@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1774986">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An algorithm for computing the distance to uncontrollability</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ludwig</namePart>
+                        <namePart type="family">Elsner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Chunyang</namePart>
+                        <namePart type="family">He</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1991</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper, we present an algorithm to compute the distance to uncontrollability. The problem of computing the distance is an optimization problem of minimizing [sigma](x,y) over the complete plane. This new approach is based on finding zero points of grad [sigma](x,y). We obtain the explicit expression of the derivative matrix of grad [sigma](x,y). The Newton&apos;s method and the bisection method are applied to approach these zero points. Numerical results show that these methods work well.</abstract>
+                    <subject>
+                        <topic>Controllability</topic>
+                        <topic>Newton&apos;s method</topic>
+                        <topic>distance to uncontrollability</topic>
+                        <topic>singular value decomposition</topic>
+                    </subject>
+                    <classification authority="ddc">050</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Systems &amp; Control Letters</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>17</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>6</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>453</start>
+                                <end>464</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0167-6911</identifier>
+                    <identifier type="ISI">A1991GV93600006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17749868</identifier>
+                    <identifier type="doi">10.1016/0167-6911(91)90085-S</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1774986</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1774986">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1774986/2311707/Elsner_062.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1774986" DMDID="DMD1774986">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1774986"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

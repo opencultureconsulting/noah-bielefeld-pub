@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301827">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Integrated multiple sequence alignment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Sammeth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-09-26</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The thesis presents enhancements for automated and manual multiple sequence alignment: existing alignment algorithms are made more easily accessible and new algorithms are designed for difficult cases.
+Firstly, we introduce the QAlign framework, a graphical user interface for multiple sequence alignment. It comprises several state-of-the-art algorithms and supports their parameters by convenient dialogs. An alignment viewer with guided editing functionality can also highlight or print regions of the alignment. Also phylogenetic features are provided, e.g., distance-based tree reconstruction methods, corrections for multiple substitutions and a tree viewer. The modular concept and the platform-independent implementation guarantee an easy extensibility.
+Further, we develop a constrained version of the divide-and-conquer alignment such that it can be restricted by anchors found earlier with local alignments. It can be shown that this method shares attributes of both, local and global aligners, in the quality of results as well as in the computation time. We further modify the local alignment step to work on bipartite (or even multipartite) sets for sequences where repeats overshadow valuable sequence information. In the end a technique is established that can accurately align sequences containing eventually repeated motifs.
+Finally, another algorithm is presented that allows to compare tandem repeat sequences by aligning them with respect to their possible repeat histories. We describe an evolutionary model including tandem duplications and excisions, and give an exact algorithm to compare two sequences under this model.</abstract>
+                    <subject>
+                        <topic>,  , Multiple alignment , Constrained alignment , Repeats , VNTR (Variable number of tandem repeats) , Visualization</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9753</identifier>
+                    <identifier type="sys">HT014940094</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301827</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301827">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301827/2301830/05_sammeth_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301827" DMDID="DMD2301827">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301827"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,225 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2763993</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Multi-Channel Image Data Analysis using Sonification</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In biomedicine as well as in many other areas experimental data consists of topographically ordered multidimensional data arrays or images.
+
+In our collaboration, multi parameter flourescence microscopy data of immunoflourescently labeled lymphocytes has to be analysed. One experimental data set consists of n intensity images of the sample. As a result of a specific immunolabeling technique in each image different subsets of the lymphocytes appear with high intensity values, expressing the existence of a specific cell surface protein. Because the positions of the cells are not affected by the labeling process, the n flourescence signals of a cell can be traced through the image stack at constant coordinates.
+
+The analysis of such stacks of images by an expert user is limited to two strategies in most laboratories: the images are analyzed one after the other or up to three images are written into the RGB channels of a color map. Obviously, these techniques are not suitable for the analysis of higher dimensional data.
+
+Here, Sonification of the stack of images allows to perceive the complete pattern of all markers.
+The biomedical expert may probe specific cells on an auditory map and listen to their flourescence patterns.
+The sonification was designed to satisfy specific requirements: 
+
+
+* **Identification** - Cells with identical patterns should very easily be perceived as identical sounds
+* **Similarity** - Similar cell flourescence patterns should lead to sonifications that sound similar
+* **Extensibility** - the sonification should be extensible, so that the future addition of markers does not change the sound characteristic, driven by the other markers
+* **Short Duration** - the whole sonification should last only a short time of about 1 sec, to allow a fast browsing of the image.
+
+Such sonifications can be derived using several strategies. One is to play a tone for each marker if the corresponding flourescence intensity is more than a threshold. Thus a **rythmic pattern** emerges for each cell.
+Another strategy is to use frequency to distinct markers. Thus each cell is a superposition of tones with different pitch and a chord or tone-cluster is the result. This leads to a **harmonic presentation** of each cell.
+However, using both time and pitch, the result is a rythmical sequence of tones and thus a specific melody for a cell.
+As our abbilities to memorize and recognice melodies or musical structures is better than recognizing visual presented histograms, this yields a promising approach for the inspection of such data by an expert. Now, an example sonification is presented using only five dimensional data images. However, the results are even good with much higher dimensionality - we tested the method with a stack of 12 images.
+The following demonstration uses only 5 markers. A map is rendered to show all cells for browsing (shown right) 
+
+&lt;table COLS=4 WIDTH="85%"&gt;
+&lt;tr ALIGN=LEFT VALIGN=TOP&gt;
+&lt;td NOSAVE&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2763999" height=100 width=120 align=TEXTTOP&gt;
+&lt;br&gt;&lt;b&gt;cd-02&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2764001" height=100 width=120&gt;
+&lt;br&gt;&lt;b&gt;cd-08&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;/td&gt;
+
+&lt;td &gt;&lt;b&gt;Identical patterns:&lt;/b&gt;
+&lt;br&gt;&amp;nbsp;&lt;a href="https://pub.uni-bielefeld.de/download/2763993/2763994"&gt;Cell 1&lt;/a&gt;
+&lt;br&gt;&amp;nbsp;&lt;a href="https://pub.uni-bielefeld.de/download/2763993/2763995"&gt;Cell 2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr ALIGN=LEFT VALIGN=TOP&gt;
+&lt;td&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2763998" height=100 width=120&gt;
+&lt;br&gt;&lt;b&gt;cd-03&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;
+&lt;br&gt;&amp;nbsp;
+&lt;br&gt;&amp;nbsp;
+&lt;br&gt;&amp;nbsp;
+&lt;br&gt;&amp;nbsp;
+&lt;p&gt;&lt;b&gt;------&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2764003" height=100 width=120 align=TEXTTOP&gt;
+&lt;br&gt;&lt;b&gt;superposition&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;b&gt;Similar pattern:&lt;/b&gt;
+&lt;br&gt;&amp;nbsp;&lt;a href="https://pub.uni-bielefeld.de/download/2763993/2763996"&gt;Cell 3&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr ALIGN=LEFT VALIGN=TOP&gt;
+&lt;td&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2764000" height=100 width=120 align=TEXTTOP&gt;
+&lt;br&gt;&lt;b&gt;cd-04&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;img SRC="https://pub.uni-bielefeld.de/download/2763993/2764002" height=100 width=120 align=TEXTTOP&gt;
+&lt;br&gt;&lt;b&gt;hla-dr&lt;/b&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;/td&gt;
+
+&lt;td&gt;&lt;b&gt;Very different pattern:&lt;/b&gt;
+&lt;br&gt;&amp;nbsp;&lt;a href="https://pub.uni-bielefeld.de/download/2763993/2763997"&gt;Cell 4&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+A specific advantage of this method is, that it allows to examine the high-dimensional data vectors without the need to change the viewing direction. However, there are many other methods to present such data acoustically, e.g. by using different timbre classes for the markers, like percussive instruments, fluid sounds, musical instruments or the human voice. These alternatives and their applicability are currently investigated.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="superpos_c.gif">https://pub.uni-bielefeld.de/download/2763993/2764003/superpos_c.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="b_hla-dr_120x100.gif">https://pub.uni-bielefeld.de/download/2763993/2764002/b_hla-dr_120x100.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="b_cd08k.gif">https://pub.uni-bielefeld.de/download/2763993/2764001/b_cd08k.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="b_cd04k.gif">https://pub.uni-bielefeld.de/download/2763993/2764000/b_cd04k.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="b_cd02k.gif">https://pub.uni-bielefeld.de/download/2763993/2763999/b_cd02k.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="b_cd03k.gif">https://pub.uni-bielefeld.de/download/2763993/2763998/b_cd03k.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="c4.wav">https://pub.uni-bielefeld.de/download/2763993/2763997/c4.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="c3.wav">https://pub.uni-bielefeld.de/download/2763993/2763996/c3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="c2.wav">https://pub.uni-bielefeld.de/download/2763993/2763995/c2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="c1.wav">https://pub.uni-bielefeld.de/download/2763993/2763994/c1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2001</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2763993</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017374</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, and Nattkemper, Tim Wilhelm. 2001. &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T., Nattkemper, T.W.: Multi-Channel Image Data Analysis using Sonification. Bielefeld University (2001).</lncs>
+<default>Hermann T, Nattkemper TW (2001) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas, and Nattkemper, Tim Wilhelm. &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University, 2001.</mla>
+<wels>Hermann, T.; Nattkemper, T. W. (2001): Multi-Channel Image Data Analysis using Sonification. Bielefeld University.</wels>
+<angewandte-chemie>T.  Hermann, and T. W.  Nattkemper, &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2001&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hermann T, Nattkemper TW (2001) &lt;br /&gt;&lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., &amp;amp; Nattkemper, T. W. (2001).  &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2763993&lt;/div&gt;</apa_indent>
+<harvard1>Hermann, T., &amp;amp; Nattkemper, T.W., 2001. &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;, Bielefeld University.</harvard1>
+<frontiers>Hermann, T., and Nattkemper, T. W. (2001). Multi-Channel Image Data Analysis using Sonification. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. &amp;amp; Nattkemper, T.W. (2001). &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2763993.&lt;/div&gt;</dgps>
+<ama>Hermann T, Nattkemper TW. &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University; 2001.</ama>
+<ieee> T. Hermann and T.W. Nattkemper, &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;, Bielefeld University, 2001.</ieee>
+<apa>Hermann, T., &amp;amp; Nattkemper, T. W. (2001).  &lt;em&gt;Multi-Channel Image Data Analysis using Sonification&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2763993</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2763993</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-07-20T14:56:29Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:33Z</recordChangeDate>
+</recordInfo>
+</mods>

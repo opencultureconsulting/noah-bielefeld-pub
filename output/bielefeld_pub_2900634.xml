@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900634">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>HoloR: Interactive Mixed-Reality Rooms</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Carsten</namePart>
+                        <namePart type="family">Schwede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Existing virtual reality technologies only cover certain areas of the mixed-reality spectrum: Augmented reality goggles are unable to provide immersion while head-mounted displays make it difficult to interact with the real world. In this paper we introduce HoloR - short for Holographic Room: A stereoscopic, multi-person, multi-viewer, spatial projected augmented reality system, which enables applications to fade between different parts of the mixed-reality spectrum. By using web-technologies like JavaScript and WebGL the operation of HoloR does not require any installation or compiling process and thus allows for rapid development of applications and extensions. We present different sample applications ranging from collaborative data exploration to augmented persons and ambient information systems.</abstract>
+                    <subject>
+                        <topic>augmented reality</topic>
+                        <topic>mixed reality</topic>
+                        <topic>virtuality continuum</topic>
+                        <topic>projection mapping</topic>
+                        <topic>spatial projection</topic>
+                        <topic>depth cameras</topic>
+                        <topic>spatial augmented reality</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29006343</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900634</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900634">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900634/2900636/HoloR_final_compressed.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900634" DMDID="DMD2900634">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900634"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

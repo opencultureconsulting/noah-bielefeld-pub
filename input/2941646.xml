@@ -1,0 +1,104 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2941646</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:600</setSpec><setSpec>ddc:000</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Sarah</namePart>
+  <namePart type="family">Pilz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">96183218</identifier></name>
+<name type="personal">
+  <namePart type="given">Florian</namePart>
+  <namePart type="family">Porrmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">96183421</identifier></name>
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Kaiser</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">25328236</identifier></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Hagemeyer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">30629226</identifier></name>
+<name type="personal">
+  <namePart type="given">James M.</namePart>
+  <namePart type="family">Hogan</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Ulrich</namePart>
+  <namePart type="family">Rückert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15438821</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper is concerned with Field Programmable Gate Arrays (FPGA)-based systems for energy-efficient high-throughput string comparison. Modern applications which involve comparisons across large data sets—such as large sequence sets in molecular biology—are by their nature computationally intensive. In this work, we present a scalable FPGA-based system architecture to accelerate the comparison of binary strings. The current architecture supports arbitrary lengths in the range 16 to 2048-bit, covering a wide range of possible applications. In our example application, we consider DNA sequences embedded in a binary vector space through Locality Sensitive Hashing (LSH) one of several possible encodings that enable us to avoid more costly character-based operations. Here the resulting encoding is a 512-bit binary signature with comparisons based on the Hamming distance. In this approach, most of the load arises from the calculation of the     O ( m ∗ n )     Hamming distances between the signatures, where m is the number of queries and n is the number of signatures contained in the database. Signature generation only needs to be performed once, and we do not consider it further, focusing instead on accelerating the signature comparisons. The proposed FPGA-based architecture is optimized for high-throughput using hundreds of computing elements, arranged in a systolic array. These core computing elements can be adapted to support other string comparison algorithms with little effort, while the other infrastructure stays the same. On a Xilinx Virtex UltraScale+ FPGA (XCVU9P-2), a peak throughput of 75.4 billion comparisons per second—of 512-bit signatures—was achieved, using a design with 384 parallel processing elements and a clock frequency of 200 MHz. This makes our FPGA design 86 times faster than a highly optimized CPU implementation. Compared to a GPU design, executed on an NVIDIA GTX1060, it performs nearly five times faster.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="algorithms-13-00047-v3.pdf">https://pub.uni-bielefeld.de/download/2941646/2942764/algorithms-13-00047-v3.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>MDPI AG</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>FPGA</topic><topic>bioinformatics</topic><topic>multiple string matching</topic><topic>parallel computing</topic><topic>Hamming distance</topic><topic>locality sensitive hashing</topic><topic>hardware acceleration</topic><topic>parallel system architecture</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Algorithms</title></titleInfo>
+  <identifier type="eIssn">1999-4893</identifier>
+  <identifier type="ISI">000519108500016</identifier><identifier type="urn">urn:nbn:de:0070-pub-29416462</identifier><identifier type="doi">10.3390/a13020047</identifier>
+<part><detail type="volume"><number>13</number></detail><detail type="issue"><number>2</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pilz, Sarah, Porrmann, Florian, Kaiser, Martin, Hagemeyer, Jens, Hogan, James M., and Rückert, Ulrich. 2020. “Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs”. &lt;em&gt;Algorithms&lt;/em&gt; 13 (2): 47.&lt;/div&gt;</chicago>
+<lncs> Pilz, S., Porrmann, F., Kaiser, M., Hagemeyer, J., Hogan, J.M., Rückert, U.: Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. Algorithms. 13, : 47 (2020).</lncs>
+<default>Pilz S, Porrmann F, Kaiser M, Hagemeyer J, Hogan JM, Rückert U (2020) &lt;br /&gt;&lt;em&gt;Algorithms&lt;/em&gt; 13(2): 47.</default>
+<mla>Pilz, Sarah, Porrmann, Florian, Kaiser, Martin, Hagemeyer, Jens, Hogan, James M., and Rückert, Ulrich. “Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs”. &lt;em&gt;Algorithms&lt;/em&gt; 13.2 (2020): 47.</mla>
+<wels>Pilz, S.; Porrmann, F.; Kaiser, M.; Hagemeyer, J.; Hogan, J. M.; Rückert, U. (2020): Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs &lt;em&gt;Algorithms&lt;/em&gt;,13:(2):47</wels>
+<angewandte-chemie>S.  Pilz, F.  Porrmann, M.  Kaiser, J.  Hagemeyer, J. M.  Hogan, and U.  Rückert, “Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs”, &lt;em&gt;Algorithms&lt;/em&gt;, &lt;strong&gt;2020&lt;/strong&gt;, &lt;em&gt;13&lt;/em&gt;, : 47.</angewandte-chemie>
+<bio1>Pilz S, Porrmann F, Kaiser M, Hagemeyer J, Hogan JM, Rückert U (2020) &lt;br /&gt;Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs.&lt;br /&gt;Algorithms 13(2): 47.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pilz, S., Porrmann, F., Kaiser, M., Hagemeyer, J., Hogan, J. M., &amp;amp; Rückert, U. (2020). Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(2), 47. doi:10.3390/a13020047&lt;/div&gt;</apa_indent>
+<harvard1>Pilz, S., et al., 2020. Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt;, 13(2): 47.</harvard1>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pilz, S., Porrmann, F., Kaiser, M., Hagemeyer, J., Hogan, J.M. &amp;amp; Rückert, U. (2020). Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(2): 47. MDPI AG. doi:10.3390/a13020047.&lt;/div&gt;</dgps>
+<frontiers>Pilz, S., Porrmann, F., Kaiser, M., Hagemeyer, J., Hogan, J. M., and Rückert, U. (2020). Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt; 13:47.</frontiers>
+<ama>Pilz S, Porrmann F, Kaiser M, Hagemeyer J, Hogan JM, Rückert U. Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt;. 2020;13(2): 47.</ama>
+<ieee> S. Pilz, et al., “Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs”, &lt;em&gt;Algorithms&lt;/em&gt;,  vol. 13, 2020, : 47.</ieee>
+<apa>Pilz, S., Porrmann, F., Kaiser, M., Hagemeyer, J., Hogan, J. M., &amp;amp; Rückert, U. (2020). Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs. &lt;em&gt;Algorithms&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(2), 47. doi:10.3390/a13020047</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2941646</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-03-03T09:27:57Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-04-20T11:40:32Z</recordChangeDate>
+</recordInfo>
+</mods>

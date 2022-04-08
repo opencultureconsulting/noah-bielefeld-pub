@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301722">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data mart based research in heart surgery</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bert</namePart>
+                        <namePart type="family">Arnrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörg</namePart>
+                        <namePart type="family">Walter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-05-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The proposed data mart based information system has proven to be useful and effective in the particular application domain of clinical research in heart surgery. In contrast to common data warehouse systems who are focused primarily on administrative, managerial, and executive decision making, the primary objective of the designed and implemented data mart was to provide an ongoing, consolidated and stable research basis. Beside detail-oriented patient data also aggregated data are incorporated in order to fulfill multiple purposes. Due to the chosen concept, this technique integrates the current and historical data from all relevant data sources without imposing any considerable operational or liability contract risk for the existing hospital information systems (HIS). By this means the possible resistance of involved persons in charge can be minimized and the project specific goals effectively met.
+The challenges of isolated data sources, securing a high data quality, data with partial redundancy and consistency, valuable legacy data in special file formats, and privacy protection regulations are met with the proposed data mart architecture. The applicability was demonstrated in several fields, including (i) to permit easy comprehensive medical research, (ii) to assess preoperative risks of adverse surgical outcomes, (iii) to get insights into historical performance changes, (iv) to monitor surgical results, (v) to improve risk estimation, and (vi) to generate new knowledge from observational studies.
+The data mart approach allows to turn redundant data from the electronically available hospital data sources into valuable information. On the one hand, redundancies are used to detect inconsistencies within and across HIS. On the other hand, redundancies are used to derive attributes from several data sources which originally did not contain the desired semantic meaning. Appropriate verification tools help to inspect the extraction and transformation processes in order to ensure a high data quality. Based on the verification data stored during data mart assembly, various aspects on the basis of an individual case, a group, or a specific rule can be inspected.
+Invalid values or inconsistencies must be corrected in the primary source data bases by the health professionals. Due to all modifications are automatically transferred to the data mart system in a subsequent cycle, a consolidated and stable research data base is achieved throughout the system in a persistent manner.
+In the past, performing comprehensive observational studies at the Heart Institute Lahr had been extremely time consuming and therefore limited. Several attempts had already been conducted to extract and combine data from the electronically available data sources. Dependent on the desired scientific task, the processes to extract and connect the data were often rebuilt and modified. Consequently the semantics and the definitions of the research data changed from one study to the other. Additionally, it was very difficult to maintain an overview of all data variants and derived research data sets. With the implementation of the presented data mart system the most time and effort consuming process with conducting successful observational studies could be replaced and the research basis remains stable and leads to reliable results.</abstract>
+                    <subject>
+                        <topic>Data-Warehouse-Konzept</topic>
+                        <topic>Data Mining</topic>
+                        <topic>Herzchirurgie</topic>
+                        <topic>Medizinische Informatik</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8755</identifier>
+                    <identifier type="sys">HT014772460</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301722</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301722">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301722/2301725/barnrich_dm_research.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301722" DMDID="DMD2301722">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301722"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

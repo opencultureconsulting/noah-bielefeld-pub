@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302511</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Generic e-learning platform for interactive educational simulations for use in university courses and individual studies online and offline</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Andreas</namePart>
+  <namePart type="family">Dieckmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This doctoral thesis covers the design and implementation of an e-learning platform for interactive educational simulations. The simulations can be used in the context of university courses as well as for the purpose of individual studies. The data structures and storage mechanisms enable the use of any kind of multimedia contents, which can be classified and managed using arbitrary sets of metadata.
+Educational units are treated as configurations of a simulation software. The data format for those configuration files can be based on XML (but does not have to). They are stored as the content of Virtual Directories, which also contain the individual media files needed for the simulations in the form of Virtual Learning Objects.
+Each installation of the e-learning platform contains its own local database and is capable of interacting with other instances of the system via an XML-RPC communication mechanism. Hence the software can be used both online and offline. In online mode, new contents can be distributed or downloaded. It is also possible to integrate powerful communication functionalities like chats.
+The integrated user management makes it possible to personalize the software and to specify access rights for reading, creating and modifying objects contained in the system. The e-learning framework was implemented in a platform-independent way using the JAVA programming language. The software can be extended by new components if necessary. For this purpose it was made available to the public under the terms of an open-source license. (For details please see the homepage of the Monist project, http://www.monist.de, where the software can be downloaded. The contact address for any questions is info@monist.de.)
+The e-learning platform provides the necessary base technologies for a distributed e-learning system, especially powerful mechanisms for managing simulation data and metadata. But it is not meant to be a standalone e-learning system because the necessary simulation software and the specific contents of the particular field of study have to be integrated.
+The Monist system serves as a reference implementation of the e-learning platform. It covers the field of computational neuroscience. The project team created a configurable simulation software, programmed an editor for such configurations and prepared a large amount of educational content. The combination of these three components makes a system that can fully benefit from the services offered by the e-learning platform.
+For further use of the e-learning platform it is essential to create simulation software for other fields of study and to integrate it into the framework. The next step is the creation of a critical mass of specific content for the subject to make the system ready for educational use. To achieve a good level of user acceptance it is also necessary to hold courses using the e-learning system on a regular base and to create new contents from time to time. Both tasks require some efforts, but both are also supported by the e-learning platform.</abstract>
+<abstract lang="ger">Mit der in der vorliegenden Arbeit entworfenen E-Learning-Plattform und ihrer parallel dazu erfolgten Implementierung in der Programmiersprache Java wurde eine technische Basis für die Verwendung interaktiver Lehrsimulationen geschaffen, die sowohl in der Präsenzlehre als auch im Selbststudium eingesetzt werden können. Die Datenstrukturen und Speichermechanismen ermöglichen das Einbringen von beliebigen, multimedialen Inhalten sowie deren Verwaltung durch den Gebrauch von frei definierbaren Metadaten. Einzelne Lehreinheiten können in Form von Konfigurationen der Simulationssoftware, beispielsweise in einem XML-basierten Datenformat, vorliegen und als Inhalt (content) von Virtuellen Verzeichnissen gespeichert werden, die außerdem die einzelnen Medien, die für die Zusammensetzung der betreffenden Simulation anhand der Konfigurationen erforderlich sind, in Form von Virtuellen Lernobjekten enthalten.
+Durch die in jede Installation des Systems integrierte Datenbank und den verwendeten XML-RPC-Kommunikationsmechanismus ist die Benutzung der E-Learning-Plattform sowohl online als auch offline möglich. Im Online-Betrieb können dabei jederzeit neue Inhalte verbreitet bzw. heruntergeladen werden, und die Möglichkeit zur Integration von umfangreichen Kommunikationsfunktionalitäten ist ebenfalls gegeben. Die Verwaltung von Benutzern und Zugriffsrechten ermöglicht sowohl die Personalisierung des Systems als auch die Festlegung von Berechtigungen für das Lesen, Anlegen und Verändern von im System enthaltenen Objekten. Die Software ist plattformunabhängig implementiert und kann bei Bedarf beliebig erweitert werden. Zu diesem Zweck wird sie im Rahmen einer Open-Source-Politik zur Verfügung gestellt. (Siehe hierzu die Homepage des Projektes Monist, http://www.monist.de, auf der ein Download des Monist-Systems und der E-Learning-Plattform möglich ist. Als Kontaktadresse und für Fragen steht die E-Mail-Adresse info@monist.de zur Verfügung.)
+Die E-Learning-Plattform bietet die erforderlichen Basistechnologien für ein verteiltes E-Learning-System, ist jedoch für sich allein genommen noch kein derartiges System. Ohne die Integration der Lernsoftware sowie der fachlichen Inhalte würde sie nur eine leere Hülle darstellen, deren Funktionalität über die reine Datenverwaltung nicht hinaus ginge. Im Monist-System wurde eine konfigurierbare Simulationssoftware geschaffen, ein Editor für derartige Konfigurationen entwickelt und ein umfangreicher Grundstock an fachlichen Lerninhalten für das Gebiet der Neuro- und Kognitionswissenschaften angelegt. Durch das Zusammenwirken mit diesen drei Komponenten entsteht erst ein System, das den vollen Umfang der Funktionalitäten der E-Learning-Plattform nutzen kann und den beabsichtigten Einsatz in der universitären Lehre ermöglicht.
+Für eine weitergehende Nutzung der E-Learning-Plattform ist es daher erforderlich, für andere Fachbereiche die Entwicklung entsprechender Simulationsprogramme vorzunehmen, diese und eventuell bereits vorhandene Software ins System zu integrieren sowie eine kritische Masse an fachspezifischen Inhalten bereitzustellen. Damit das System von den Lernenden dauerhaft angenommen wird, empfiehlt sich darüber hinaus das regelmäßige Abhalten von Lehrveranstaltungen unter Verwendung der elektronischen Lehre sowie die fortgesetzte Erstellung neuer Inhalte. Dies erfordert beides einen gewissen Aufwand, wird aber auch beides durch die E-Learning-Plattform unterstützt.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Lernplattform.pdf">https://pub.uni-bielefeld.de/download/2302511/2302514/Lernplattform.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>E-Learning , Studium , Selbststudium , Computersimulation , Generische Programmierung , Open Source , Metadatenmodell , Java (Programmiersprache) , Lehrsimulation , Präsenzlehre , Metadaten , Lernplattform , Generisch , Multi-Tier-Architektur , XML , RPC , Internet , Monist , E-Learning , Simulation , Metadata , Generic , Platform</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-5327</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2004-06-24</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> A. Dieckmann, &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2003.</ieee>
+<apa>Dieckmann, A. (2003).  &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Dieckmann, A. (2003). Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dieckmann, A. (2003). &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Dieckmann A. &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2003.</ama>
+<angewandte-chemie>A.  Dieckmann, &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2003&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Dieckmann, A., 2003. &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Dieckmann A (2003) &lt;br /&gt;&lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dieckmann, A. (2003).  &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Dieckmann, A. (2003): Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline. Bielefeld (Germany): Bielefeld University.</wels>
+<default>Dieckmann A (2003) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Dieckmann, Andreas. &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2003.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dieckmann, Andreas. 2003. &lt;em&gt;Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Dieckmann, A.: Generische E-Learning-Plattform für interaktive Lehrsimulationen zum Einsatz in Selbststudium und Präsenzlehre online und offline. Bielefeld University, Bielefeld (Germany) (2003).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302511</recordIdentifier><recordCreationDate encoding="w3cdtf">2004-07-05T09:38:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:48:21Z</recordChangeDate>
+</recordInfo>
+</mods>

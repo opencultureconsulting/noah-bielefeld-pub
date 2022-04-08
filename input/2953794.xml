@@ -1,0 +1,123 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2953794</id><setSpec>book_chapter</setSpec><setSpec>doc-type:bookPart</setSpec><setSpec>ddc:410</setSpec><setSpec>book_chapterFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>book chapter</genre>
+
+<titleInfo><title>Reproducing an experiment in automatic disfluency detection</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Frank</namePart>
+  <namePart type="family">Grimm</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">79220312</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7045-8055</description></name>
+<name type="personal">
+  <namePart type="given">David</namePart>
+  <namePart type="family">Schlangen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">20699903</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-2686-6887</description></name>
+<name type="personal">
+  <namePart type="given">Julian</namePart>
+  <namePart type="family">Hough</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">48164400</identifier></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Philipp</namePart><namePart type="family">Cimiano</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Christian</namePart><namePart type="family">Pietsch</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Cord</namePart><namePart type="family">Wiljes</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">26374437</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Conquaire: Conquaire</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">In this chapter, we describe an effort to reproduce the main results of the published paper “Joint, Incremental Disfluency Detection and Utterance Segmentation from Speech” [1], published as part of the proceedings of the “European Chapter of the Association for Computational Linguistics” (EACL) in 2017. The paper focuses on the task of disfluency detection and utterance segmentation and proposes a simple deep learning system that processes dialogue transcriptions and Automatic Speech Recognition (ASR) output. For this purpose, the Dialogue Systems Group (DSG) at Bielefeld University developed a library that relies on a data model for live ASR data that combines timing and textual information. It utilizes a refined text corpus of open data to demonstrate the feasibility of the system for simultaneously detecting disfluencies and segmenting the individual utterances for use in conversational systems and similar speech related tasks. The code and data for this reproducibility experiment are available at https://gitlab.ub.uni-bielefeld.de/conquaire/deep_disfluency. </abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="conquaire-book _chapter-8.pdf">https://pub.uni-bielefeld.de/download/2953794/2953805/conquaire-book _chapter-8.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Linguistics</topic><topic>Speech Recognition</topic><topic>Python</topic><topic>Machine learning</topic><topic>LSTM</topic><topic>HMM</topic><topic>RNN</topic><topic>NLTK</topic><topic>Theano</topic><topic>Keras</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Studies in Analytical Reproducibility: the Conquaire Project</title></titleInfo>
+  <identifier type="isbn">978-3-943363-06-7</identifier><identifier type="urn">urn:nbn:de:0070-pub-29537945</identifier>
+<part><extent unit="pages">97-112</extent>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2942780</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<lncs> Grimm, F., Schlangen, D., Hough, J., Cimiano, P.: Reproducing an experiment in automatic disfluency detection. In: Cimiano, P., Pietsch, C., and Wiljes, C. (eds.) Studies in Analytical Reproducibility: the Conquaire Project. p. 97-112. Universität Bielefeld, Bielefeld (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grimm, Frank, Schlangen, David, Hough, Julian, and Cimiano, Philipp. 2021. “Reproducing an experiment in automatic disfluency detection”. In &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, ed. Philipp Cimiano, Christian Pietsch, and Cord Wiljes, 97-112. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Grimm, Frank, Schlangen, David, Hough, Julian, and Cimiano, Philipp. “Reproducing an experiment in automatic disfluency detection”. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Ed. Philipp Cimiano, Christian Pietsch, and Cord Wiljes. Bielefeld: Universität Bielefeld, 2021. 97-112.</mla>
+<default>Grimm F, Schlangen D, Hough J, Cimiano P (2021)  &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C (Eds);  Bielefeld: Universität Bielefeld:  97-112.</default>
+<ama>Grimm F, Schlangen D, Hough J, Cimiano P. Reproducing an experiment in automatic disfluency detection. In: Cimiano P, Pietsch C, Wiljes C, eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Bielefeld: Universität Bielefeld;  2021: 97-112.</ama>
+<frontiers>Grimm, F., Schlangen, D., Hough, J., and Cimiano, P. (2021). “Reproducing an experiment in automatic disfluency detection” in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, Cimiano, P., Pietsch, C., and Wiljes, C. eds. (Bielefeld: Universität Bielefeld), 97-112.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grimm, F., Schlangen, D., Hough, J. &amp;amp; Cimiano, P. (2021). Reproducing an experiment in automatic disfluency detection. In P. Cimiano, C. Pietsch &amp;amp; C. Wiljes (Hrsg.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (S. 97-112). Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<apa>Grimm, F., Schlangen, D., Hough, J., &amp;amp; Cimiano, P. (2021). Reproducing an experiment in automatic disfluency detection. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 97-112). Bielefeld: Universität Bielefeld.</apa>
+<ieee> F. Grimm, et al., “Reproducing an experiment in automatic disfluency detection”, &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, P. Cimiano, C. Pietsch, and C. Wiljes, eds.,  Bielefeld: Universität Bielefeld, 2021,  pp.97-112.</ieee>
+<wels>Grimm, F.; Schlangen, D.; Hough, J.; Cimiano, P. (2021): Reproducing an experiment in automatic disfluency detection. In: Philipp Cimiano; Christian Pietsch; Cord Wiljes (Hrsg.):  Studies in Analytical Reproducibility: the Conquaire Project. Bielefeld: Universität Bielefeld.  S. 97-112.</wels>
+<bio1>Grimm F, Schlangen D, Hough J, Cimiano P (2021) &lt;br /&gt;Reproducing an experiment in automatic disfluency detection. &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C (Eds); Bielefeld: Universität Bielefeld:  97-112.</bio1>
+<harvard1>Grimm, F., et al., 2021. Reproducing an experiment in automatic disfluency detection. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes, eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;.  Bielefeld: Universität Bielefeld, pp. 97-112.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grimm, F., Schlangen, D., Hough, J., &amp;amp; Cimiano, P. (2021). Reproducing an experiment in automatic disfluency detection. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 97-112). Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>F.  Grimm, D.  Schlangen, J.  Hough, and P.  Cimiano, in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (Eds.: P. Cimiano, C. Pietsch, C. Wiljes), Universität Bielefeld, Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;, p. 97-112.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2953794</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-04-10T20:17:31Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T13:06:40Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2920199">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Rating Distributions and Bayesian Inference. Enhancing Cognitive Models of Spatial Language Use</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Schultheis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Idiart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Lenci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thierry</namePart>
+                        <namePart type="family">Poibeau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Aline</namePart>
+                        <namePart type="family">Villavicencio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present two methods that improve the assessment of cognitive models. The first method is applicable to models computing average acceptability ratings. For these models, we propose an extension that simulates a full rating distribution (instead of average ratings) and allows generating individual ratings. Our second method enables Bayesian inference for models generating individual data. To this end, we propose to use the cross-match test (Rosenbaum, 2005) as a likelihood function. We exemplarily present both methods using cognitive models from the domain of spatial language use. For spatial language use, determining linguistic acceptability judgments of a spatial preposition for a depicted spatial relation is assumed to be a crucial process (Logan and Sadler, 1996). Existing models of this process compute an average acceptability rating. We extend the models and – based on existing data – show that the extended models allow extracting more information from the empirical data and yield more readily interpretable information about model successes and failures. Applying Bayesian inference, we find that model performance relies less on mechanisms of capturing geometrical aspects than on mapping the captured geometry to a rating interval.</abstract>
+                    <subject>
+                        <topic>cognitive modeling</topic>
+                        <topic>linguistic judgments</topic>
+                        <topic>Bayesian inference</topic>
+                        <topic>spatial language</topic>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29201995</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2920199</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2920199">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920199/2920200/acl2018_workshop_long.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2920199" DMDID="DMD2920199">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2920199"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

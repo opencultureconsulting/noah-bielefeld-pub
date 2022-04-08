@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303538">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-03-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Collections of Expressed Sequence Tags (ESTs) provide the most extensive available survey of the transcriptome of an organism and with it evidence for the existence of genes. They are indispensable for gene discovery, gene structure prediction, and genomic mapping. The price of the low-cost high-throughput data is that ESTs contain high error rates and are not very well annotated. The low quality sequence data can be improved by several processing steps and by clustering into gene-oriented clusters, which again can be assembled to contig sequences for further analyses.
+The first part of this thesis describes an EST clustering pipeline that makes use of enhanced suffix arrays as implemented in the software tool Vmatch. Enhanced suffix arrays are a data structure that has been shown to be as powerful as suffix trees, with the advantage of a reduced space requirement and reduced processing time. Further on, enhanced suffix arrays have been shown to be superior to other matching tools for a variety of applications. We will validate the clustering results based on a &quot;gold-standard&quot; EST data set of Arabidopsis thaliana and compare the result to other widely used clustering tools. The implemented clustering pipeline takes advantage of the underlying database and enables unique batch functionality of mapping results from other organisms to the species of interest.
+For some species, EST projects provide the only information about their gene content. One of these species is the African clawed frog Xenopus laevis. Research using this model system has provided critical insights into the mechanisms of early vertebrate development and cell biology. Despite of the interest in this model organism, no genome project is currently ongoing, and EST and cDNA sequences are the only resource available. To further improve Xenopus as a non-mammalian model system, one of the goals of highest priority is the generation of ESTs and full length cDNA collections, as they facilitate functional assays, one of the particular strengths of Xenopus.
+We have applied the EST clustering pipeline described in the first part of this thesis to Xenopus laevis ESTs, both to identify full length protein encoding sequences and full length cDNA clones. The unique database system XenDB supports comparative approaches between Xenopus laevis and other model systems, and enables the retrieval of their potential full length clones.</abstract>
+                    <subject>
+                        <topic>Glatter Krallenfrosch , Cluster-Analyse , Bioinformatik ,  , EST clustering , Suffix arrays , Full length clone prediction</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10816</identifier>
+                    <identifier type="sys">HT015312677</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303538</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303538">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303538/2303541/asczyrba_diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303538" DMDID="DMD2303538">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303538"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2445229">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Studies on Subject-Specific Requirements for Open Access Infrastructure</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Meier zu Verl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfram</namePart>
+                        <namePart type="family">Horstmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This study addresses subject-specific requirements for research infrastructure with a focus on the influences of Open Access (OA). OA is treated in a broad sense covering open access to literature, open data and open science. Considering the wide variety of aspects to be analysed and the early stages of developing a general account of OA infrastructure, the study took a case-based approach and deliberately did not attempt to provide a representative account of research. In the pragmatic approach taken, six partners (institutions and organisations) were chosen to provide their subjective view on OA infrastructure. These partners are considered as exemplars of research and infrastructure institutions in a given subject area.</abstract>
+                    <subject>
+                        <topic>science and technology studies</topic>
+                        <topic>metadata</topic>
+                        <topic>research infrastructure</topic>
+                        <topic>case study</topic>
+                        <topic>datasets</topic>
+                        <topic>literature management</topic>
+                        <topic>subject-specific requirements</topic>
+                        <topic>Open Access</topic>
+                        <topic>research community</topic>
+                        <topic>data management</topic>
+                        <topic>publications</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="isbn">978-3-943363-00-5</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24452297</identifier>
+                    <identifier type="doi">10.2390/PUB-2011-1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2445229</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2445229">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2445229/2479864/Online_full.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2445229">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2445229/2458695/LaTeX_source.tar.gz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2445229" DMDID="DMD2445229">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2445229"/>
+            <mets:div TYPE="part" ID="PART1_2445229" LABEL="LaTeX_source.tar.gz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2445229"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

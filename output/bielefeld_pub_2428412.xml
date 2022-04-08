@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2428412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interactive acquisition of spatial representations with mobile robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Fang</namePart>
+                        <namePart type="family">Yuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hanheide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-09-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Robots that are able to provide services to human users in personal context are known as personal service robots. They are attracting more and more attention, as enriching and easing people’s lives are their general missions. Acquisition of spatial representations is crucial for such a robot to move around in a human-shared environment, provide services and interact with the user about the environment. With methods developed in the field of
+autonomous exploration it is possible for a mobile robot to build a metric representation from sensor data, while exploring an initially unknown environment. However, due to the limited perceptual abilities of the robot and dynamic changes in the environment over time, challenges still pose for robots. Besides, in order to facilitate the communication about the environment, a mapping between the spatial understanding of the user and the robot has
+to be built in a service context.
+To acquire a spatial representation, exploration strategies are necessary for the robot to move around in the environment and gain information from the surroundings. The term Human-Robot Joint Spatial Exploration is used for a framework that allows the human user to influence the robot’s exploration of the environment and the environment representation built by the robot. By interactively gathering information, individual spatial knowledge from the user’s point of view is expected to be integrated into the built environment representation. Therefore, how to make the robot interactively learn from the human user and build a spatial representation incorporating the gathered information is the central problem of this thesis. A Home-Tour is assumed as the initial scenario for information gathering. In the interactive guided tour the user presents the environment to the robot, while the robot
+learns various models of the environment with the help of the user. A link between the spatial representation built by the robot and human understanding of the environment is
+able to be created. The major contribution of this thesis is a framework that enables a mobile robot to inter-
+actively acquire an environment representation. We first present the interactive Home-Tour scenario assumed as the starting point of the integrated solution to the central problem.
+Benefits and challenges of this solution are discussed as well. Then, a hybrid person-following behavior that facilitates the joint exploration of the environment for the robot and the guide-person is described. The robot is able to choose an appropriate behavior according to strategies designed on the basis of spatial context and relative person’s positions with respect to the robot. Afterwards, a metric map of the surroundings can be built by the robot during the joint exploration. Because of the guide-person perceived by the robot in the Home-Tour, the violation of the static world assumption used in the mapping process has to be pointed out. Consequently, we provide a technique to reduce the negative impact on the mapping process, resulting from the guide-person. Finally, a topological graph built upon the metric representation is discussed. Human navigation strategies and spatial
+concepts achieved by the robot in the interactive learning process are incorporated in the graph-based environment representation.
+Based on the idea of interactive information gathering, an integrated system is implemented. Experimental results achieved from individual modules validate their effective-
+ness respectively. By means of a user study, the robustness and practicality of the system consisting of these modules are verified as a whole in real world scenarios.</abstract>
+                    <subject>
+                        <topic>home-tour</topic>
+                        <topic>person-following</topic>
+                        <topic>human-robot joint exploration</topic>
+                        <topic>service robots</topic>
+                        <topic>path-planning</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24284126</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2428412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2428412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2428412/2428471/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2428412" DMDID="DMD2428412">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2428412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

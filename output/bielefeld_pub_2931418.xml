@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2931418">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Travel time predictions: should one model speeds or travel times?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dietmar</namePart>
+                        <namePart type="family">Bauer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2920-7032</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mirsad</namePart>
+                        <namePart type="family">Tulic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Purpose
+
+Travel time predictions are of importance for individual trip planning as well as for logistics applications. Since travel time and travel speed have a one-one correspondence, the modeller has the choice to model travel times directly or model the corresponding travel speeds and infer the associated time from the speed predictions. A priori it is not clear which of these is the superior approach. In this paper we investigate the implications of the choice of the methodology for the accuracy of the travel time predictions.
+Methods
+
+For a selection of links, travel time prediction models, both in a direct way as well as indirectly via the implied link travel speeds, are obtained. The respective predictions are compared on a validation data set with respect to their accuracy as measured by mean error, root mean square error, mean percentage error as well as mean absolute percentage error. Additionally, the accuracy of route travel time predictions is evaluated based on the raw GPS data from the floating taxis.
+Results
+
+The empirical results overwhelmingly make the case for using direct modelling if the goal of prediction is to obtain a RMSE-optimal prediction. If the MAPE is to be minimized, however, the indirect method provides the better results.
+Conclusion
+
+Thus the goal of the prediction determines the better method of modelling: if one is interested in minimizing the RMSE, then, for the data investigated in this paper, the direct method should be selected. However, if one is interested in obtaining a small MAPE, the indirect method achieves better results.</abstract>
+                    <subject>
+                        <topic>Travel time prediction</topic>
+                        <topic>Navigation</topic>
+                        <topic>Routing</topic>
+                        <topic>Floating taxi data</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>European Transport Research Review</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1867-0717</identifier>
+                    <identifier type="ISI">000446543400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29314183</identifier>
+                    <identifier type="doi">10.1186/s12544-018-0315-7</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2931418</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2931418">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2931418/2931463/10.1186_s12544-018-0315-7.bauer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2931418" DMDID="DMD2931418">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2931418"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

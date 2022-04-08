@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2513843">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Moran model of population genetics : case studies with recombination and selection</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thiemo</namePart>
+                        <namePart type="family">Hustedt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ellen</namePart>
+                        <namePart type="family">Baake</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-06-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Moran model is a widespread  model for a finite population in the field of population genetics.
+In the first part of the thesis, we consider a Moran model with recombination. 
+Models of recombination take a special role between
+linear and nonlinear models.
+Although there is abundant interaction and
+hence nonlinearity, the deterministic system that describes the
+frequencies of all possible types may be exactly transformed
+into a linear one.  The
+underlying linear structure even allows an explicit
+solution. In certain important special
+cases (notably, in so-called single-crossover dynamics in continuous time), 
+this solution is surprisingly simple and immediately plausible.
+
+Elucidating underlying linear structures in the corresponding stochastic
+system has only
+started very recently. In the single-crossover case,  
+Baake and Herms (2006) observed that the expected type frequencies in the 
+finite system follow those in the deterministic model. This and other results now lead to
+the question whether in the general recombination scheme 
+the dynamics of the expectations may be embedded into a higher but finite dimensional 
+space, such that
+they are given by a finite system of differential equations. We show that the system of moments closes here after a finite number of steps, without any need for approximations. Surprisingly, this property is lost when resampling  is included.  
+
+In the second part of the thesis, we consider a Moran model with selection and mutation. Starting from this, we trace back the ancestral lines of single
+individuals. We are interested in the stationary distribution of the corresponding
+ancestral types. Fearnhead and Taylor already showed two approaches to this problem. Fearnhead&apos;s (2002) is based on the ancestral selection graph (Krone/Neuhauser
+1997),  Taylor&apos;s (2007) relies on a description of the full population backward in time by means of a diffusion equation.
+Kluth (2010) derived a recursion that describes this stationary distribution directly from the model. For the diffusion limit,
+this leads to the same equation as Taylor&apos;s approach.
+
+We can solve this recursion explicitly and may solve Taylor&apos;s equation directly from this recursion and thus link his solution 
+to the Moran model and its graphical representation. This leads to a better understanding of the model and allows us to propose 
+a new particle model.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25138439</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2513843</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2513843">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2513843/2513852/diss_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2513843" DMDID="DMD2513843">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2513843"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

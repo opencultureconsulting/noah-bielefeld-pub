@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914625">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dynamisch partielle Rekonﬁguration in fehlertoleranten FPGA-Systemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Korf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Plessl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-09-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Die Anforderungen an mikroelektronische Systeme steigen kontinuierlich. Rekonfigurierbare Architekturen bieten einen Kompromiss zwischen der Leistungsfähigkeit anwendungsspezifischer Schaltungen (ASICs) und der Flexibilität heutiger Prozessoren. Sogenannte im Feld programmierbare Gatter-Arrays (engl. Field-Programmable Gate Arrays, FPGAs) haben sich hierbei in den letzten Jahrzehnten besonders etabliert. Die Konfigurationsart dynamisch partielle Rekonfiguration (DPR) moderner SRAM-basierter FPGAs verdeutlicht die gewonnene System-Flexibilität. DPR wird in verschiedensten Anwendungsgebieten aus unterschiedlichsten Motivationen heraus eingesetzt.&lt;br /&gt;
+Die Hauptanwendung der DPR ist die Erstellung eines Systems, welches Veränderungen an der Schaltung auf dem FPGA zur Laufzeit erlaubt. Obwohl viele FPGA-Familien bereits seit zwei Jahrzehnten DPR hardwareseitig ermöglichen, ist die Unterstützung durch die Hersteller-Software und insbesondere die Eigenschaften des daraus resultierenden DPR-Systems verbesserungswürdig. Um das Potenzial der verfügbaren Hardware-Flexibilität ausnutzen zu können, wird in dieser Dissertation ein neuer Entwurfsablauf (INDRA 2.0, INtegrated Design Flow for Reconfigurable Architectures) vorgestellt. Dieser Entwurfsablauf ermöglicht die Erstellung eines flexiblen DPR-Systems mit geringem Speicher-, Verwaltungs- und Wartungsaufwand.&lt;br /&gt;
+Für Anwendungen mit Homogenitätsanforderungen wird mit DHHarMa (Design Flow for Homogeneous Hard Macros) ein Entwurfsablauf vorgestellt, der die Transformation eines zunächst inhomogenen Designs in ein homogenes Design ermöglicht. Bei dieser Design-Homogenisierung ergibt sich die Fragestellung nach möglichen Auswirkungen bezüglich des FPGA-Ressourcenbedarfs und der Leistungsfähigkeit durch die einzelnen Homogenisierungsschritte. Die einzelnen DHHarMa-Softwarekomponenten wurden daher detailliert durch verschiedene Bewertungsmaße analysiert. Hierbei konnte festgehalten werden, dass die Homogenisierungsschritte im Mittel einen, teils deutlichen, positiven Einfluss auf den FPGA-Ressourcenbedarf jedoch teils einen geringen negativen Einfluss auf die Leistungsfähigkeit hat. Die verwendete FPGA-Architektur hat hierbei auf beide Größen einen entscheidenden Einfluss.
+Zusätzlich wird in Anwendungsgebieten mit Strahlungseinfluss die DPR-Funktionalität in Verfahren zur Abschwächung von durch Strahlung induzierten Fehlern eingesetzt. In der Dissertation wird mit der Readback Scrubbing Unit eine Komponente vorgestellt, welche eine Einbitfehlerkorrektur und Zweibitfehlererkennung im FPGA-Konfigurationsspeicher implementiert. Durch integrierte Fehlerstatistikmechanismen wird eine Analyse des Systems zur Laufzeit realisiert. Zusätzlich ist die Erstellung von Readback Scrubbing Schedules möglich, sodass die Fehlererkennung und -korrektur zum einen autonom und zum anderen zur Laufzeit angepasst werden kann. Zusätzlich wird mit OLT(RE)² (On-Line on-demand Testing approach for permanent Radiation Effects in REconfigurable systems) ein Selbsttest für ein SRAM-basiertes FPGA vorgestellt. Dieser Selbsttest ermöglicht zur Systemlaufzeit eine Überprüfung einer FPGA-Fläche vor der Verwendung auf permanente Fehler in den Verdrahtungsressourcen.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29146251</identifier>
+                    <identifier type="sys">HT019546801</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914625</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914625">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914625/2914626/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914625" DMDID="DMD2914625">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914625"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

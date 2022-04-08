@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2563576">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Detailed Analysis of a New 3D Spatial Feature Vector for Indoor Scene Classification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Agnes</namePart>
+                        <namePart type="family">Swadzba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Enhancing perception of the local environment with semantic information like the room type is an important ability for agents acting in their environment. Such high-level knowledge can reduce the effort needed for, for example, object detection. This paper shows how to extract the room label from a small amount of room percepts taken from a certain view point (like the door frame when entering the room). Such functionality is similar to the human ability to get a scene impression from a quick glance. We propose a new three-dimensional (3D) spatial feature vector that captures the layout of a scene from extracted planar surfaces. The trained models emulate the human brain sensitivity to the 3D geometry of a room. Further, we show that our descriptor complements the information encoded by the Gist feature vector — a first attempt to model the mentioned brain area. The global scene properties are extracted from edge information in 2D depictions of the scene. Both features can be fused, resulting in a system that follows our goal to combine psychological insights on human scene perception with physical properties of environments. This paper provides detailed insights into the nature of our spatial descriptor.</abstract>
+                    <subject>
+                        <topic>Indoor scene classification</topic>
+                        <topic>Robot vision</topic>
+                        <topic>Spatial cognition</topic>
+                        <topic>Planar surfaces</topic>
+                        <topic>3D vision</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Robotics and Autonomous Systems</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>62</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>5</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>646</start>
+                                <end>662</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0921-8890</identifier>
+                    <identifier type="ISI">000335111400004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25635768</identifier>
+                    <identifier type="doi">10.1016/j.robot.2012.10.006</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2563576</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2563576">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2563576/2612468/ras-spme-11-rvs.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2563576">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2563576/2612554/A4-SwadzbaWachsmuth-IndoorSceneClassification.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2563576" DMDID="DMD2563576">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2563576"/>
+            <mets:div TYPE="part" ID="PART1_2563576" LABEL="A4-SwadzbaWachsmuth-IndoorSceneClassification.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2563576"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

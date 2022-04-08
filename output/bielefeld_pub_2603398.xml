@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2603398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Empirical Evaluation of Resources for the Identification of Diseases and Adverse Effects in Biomedical Literature</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Harsha</namePart>
+                        <namePart type="family">Gurulingappa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Hofmann-Apitius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Juliane</namePart>
+                        <namePart type="family">Fluck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The mentions of human health perturbations such as the diseases and adverse effects denote a special entity class in the biomedical
+literature. They help in understanding the underlying risk factors and develop a preventive rationale. The recognition of these named
+entities in texts through dictionary-based approaches relies on the availability of appropriate terminological resources. Although few
+resources are publicly available, not all are suitable for the text mining needs. Therefore, this work provides an overview of the well
+known resources with respect to human diseases and adverse effects such as the MeSH, MedDRA, ICD-10, SNOMED CT, and UMLS.
+Individual dictionaries are generated from these resources and their performance in recognizing the named entities is evaluated over a
+manually annotated corpus. In addition, the steps for curating the dictionaries, rule-based acronym disambiguation and their impact
+on the dictionary performance is discussed. The results show that the MedDRA and UMLS achieve the best recall. Besides this,
+MedDRA provides an additional benefit of achieving a higher precision. The combination of search results of all the dictionaries achieve
+a considerably high recall. The corpus is available on http://www.scai.fraunhofer.de/disease-ae-corpus.html</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26033985</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2603398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2603398">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2603398/2624528/Gurulingappa.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2603398" DMDID="DMD2603398">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2603398"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,171 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2935425</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:330</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data publication for: Skill transferability and the adoption of new technology</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Hötte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">158344877</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8633-4225</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This data publication contains all material used in Hötte, K., 2019, "Skill transferability and the adoption of new technology: A learning based explanation for patterns of diffusion". 
+It is composed of (1) the simulation model are required inputs to reproduce the results, (2) simulated data presented in the article, (3) R-scripts that were used for the statistical analyses, (4) selected results and graphics that are partly used in the article and partly supplementary. 
+&lt;br /&gt;&lt;br /&gt;
+Please check for software updates (concerning the model and [R code](https://gitlab.ub.uni-bielefeld.de/khoette/rcode_eurace)) on gitlab.  If you are only interested in the programming code, I recommend to check out gitlab first because this data publication consumes a lot of disk-space due to the large amount of simulated data (~16Gb). 
+&lt;br /&gt;&lt;br /&gt;
+If you have questions, do not hesitate to send me an email: kerstin.hoette[at]uni-bielefeld.de
+&lt;br /&gt;&lt;br /&gt;
+### Background: Abstract of the underlying research paper
+Technological capabilities are decisive to make effectively use of new 
+machinery and capital goods. Firms and employees accumulate these capabilities 
+when working with specific machinery. Radical innovation differs by technology 
+type and pre-existing capabilities may be imperfectly transferable across 
+types. 
+In this paper, I address the implications of cross-technology 
+transferability of capabilities for firm-level technology adoption and 
+macroeconomic directed technological change. I propose a microeconomically 
+founded model of technological learning that is based on empirical and 
+theoretical insights of the innovation literature. In a simulation study using 
+the ABM Eurace@unibi-eco and 
+applied to the context of green technology diffusion, it 
+is shown that a high transferability of knowledge has ambiguous effects. It 
+accelerates the diffusion process initially, but comes of the cost of 
+technological stability and specialization. 
+For firms, it is easy to adopt, but also easy to switch back to the 
+conventional technology type. 
+It is shown how different types of policies can be used to stabilize the 
+diffusion process. 
+The framework of analysis is used to derive a general characterization of 
+technologies that may provide guidance for future empirical analyses. 
+
+### More detailed overview of the content: 
+
+See also readme files in the subfolders. 
+
+#### model: Simulation inputs 
+
+The data provided should allow you to REPRODUCE the simulations, i.e. to produce your own 
+simulation data that should exhibit the same patterns as those discussed in the paper. 
+
+- model files: model xml files and c code
+ Extensions compared to "standard eurace@unibi": (Here only main modifications highlighted)
+- Cons_Goods_UNIBI: Production routine and investment decision modified. 
+- Government_GREQAM: Eco policy module added. 
+- Inv_Goods_Vintage: Adaptive pricing mechanism and endogenous innovation added/ modified. 
+- Labour_UNIBI: Households skill endowment and learning. 
+- Statistical_Office_UNIBI: Documentation of indicator variables. 
+- my_library_functions.c: Running order of vintages adjusted by using costs. 
+
+- its: initial population
+
+
+
+#### experiment_directories_and_data: Simulated data (raw). 
+
+This data allows you to perform STATISTICAL ANALYSES with the simulation output yourself. 
+You may use these as input to the Rcode. 
+
+ Experiment folders contain simulation files and simulation output
+- baseline -&gt; With intermediate techn. difficulty and distance
+- difficulty -&gt; 3 discrete levels of chi^{dist}
+- distance -&gt; 3 discrete levels of chi^{int}
+monte_carlo_exp: 
+- both_learning_at_random_3_barr -&gt; Monte Carlo analysis (MC) with fix barrier and randomly drawn learning parameters
+- both_learning_at_random_random_barr -&gt; MC with random learning and random barrier at max 10 pct, serves as policy baseline
+- rand_learn_rand_pol_rand_barr10 -&gt; Policy experiment
+
+In principle, you should be able to reproduce the simulated data (Note that the 
+model has stochastic components, hence it will not be EXACTLY the same but 
+sufficiently similar). 
+
+#### rcode: 
+This documentation makes the STATISTICAL METHODS used in the paper transparent. Sorry for the 
+inefficient code. 
+
+- rcode: R scripts used for statistical analysis of simulation output
+
+#### selected_results
+Output of analysed data and additional time series plots. Here, you find additional time series 
+that are not presented in the main article, some descriptive statistics and the ouput of statistical 
+tests and analyses, i.e. regression output and wilcoxon test results in txt format and plots that are 
+used in the paper. These files can be reproduced by the R code. 
+
+
+
+### Acknowledgements
+The author gratefully acknowledges the achievements and provision of free statistical software maintained by the R 
+programming community. This work uses a modified version of the Eurace@Unibi model, developed by Herbert Dawid, Simon Gemkow, Philipp Harting, Sander van der Hoog and Michael Neugart, as an extension of the research within the EU 6th Framework Project Eurace. 
+Particular gratitude is owed to Herbert Dawid for uncomplicated and efficient support. 
+
+Further, many thanks to the center for research data for support and the provision of excellent infrastructure. Particular thanks to Cord Wiljes. 
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="learning_spillovers.zip">https://pub.uni-bielefeld.de/download/2935425/2935731/learning_spillovers.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+
+<subject><topic>Technology transition</topic><topic>Directed technological change</topic><topic>Agent-based computational economics</topic><topic>Eurace@unibi</topic><topic>Technological capabilities</topic><topic>Technological learning</topic><topic>Innovation diffusion</topic><topic>Climate economics</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2935425</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2932844</url>     <url>https://pub.uni-bielefeld.de/record/2935928</url>     <url>https://pub.uni-bielefeld.de/record/2932992</url>     <url>https://pub.uni-bielefeld.de/record/2946054</url>     <url>https://pub.uni-bielefeld.de/record/2939047</url>     <url>https://pub.uni-bielefeld.de/record/2944244</url>     <url>https://pub.uni-bielefeld.de/record/2952925</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ieee> K. Hötte, &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;, Bielefeld University, 2019.</ieee>
+<apa>Hötte, K. (2019).  &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935425</apa>
+<frontiers>Hötte, K. (2019). Data publication for: Skill transferability and the adoption of new technology. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2019). &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935425.&lt;/div&gt;</dgps>
+<ama>Hötte K. &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University; 2019.</ama>
+<angewandte-chemie>K.  Hötte, &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2019).  &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935425&lt;/div&gt;</apa_indent>
+<bio1>Hötte K (2019) &lt;br /&gt;&lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hötte, K., 2019. &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;, Bielefeld University.</harvard1>
+<wels>Hötte, K. (2019): Data publication for: Skill transferability and the adoption of new technology. Bielefeld University.</wels>
+<default>Hötte K (2019) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hötte, Kerstin. &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University, 2019.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, Kerstin. 2019. &lt;em&gt;Data publication for: Skill transferability and the adoption of new technology&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hötte, K.: Data publication for: Skill transferability and the adoption of new technology. Bielefeld University (2019).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2935425</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-04-29T07:27:40Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-19T15:53:48Z</recordChangeDate>
+</recordInfo>
+</mods>

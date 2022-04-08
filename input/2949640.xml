@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2949640</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:660.6</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Alejandro</namePart>
+  <namePart type="family">Linares-Barranco</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Fernando</namePart>
+  <namePart type="family">Perez-Peña</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Angel</namePart>
+  <namePart type="family">Jimenez-Fernandez</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Elisabetta</namePart>
+  <namePart type="family">Chicca</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">26461080</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-5518-8990</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Compared to classic robotics, biological nervous systems respond to stimuli in a fast and efficient way regarding the body motor actions. Decision making, once the sensory information arrives to the brain, is in the order of ms, while the whole process from sensing to movement requires tens of ms. Classic robotic systems usually require complex computational abilities. Key differences between biological systems and robotic machines lie in the way information is coded and transmitted. A neuron is the “basic” element that constitutes biological nervous systems. Neurons communicate in an event-driven way through small currents or ionic pulses (spikes). When neurons are arranged in networks, they allow not only for the processing of sensory information, but also for the actuation over the muscles in the same spiking manner. This paper presents the application of a classic motor control model (proportional-integral-derivative) developed with the biological spike processing principle, including the motor actuation with time enlarged spikes instead of the classic pulse-width-modulation. This closed-loop control model, called spike-based PID controller (sPID), was improved and adapted for a dual FPGA-based system to control the four joints of a bioinspired light robot (BioRob X5), called event-driven BioRob (ED-BioRob). The use of spiking signals allowed the system to achieve a current consumption bellow 1A for the entire 4 DoF working at the same time. Furthermore, the robot joints commands can be received from a population of silicon-neurons running on the Dynap-SE platform. Thus, our proposal aims to bridge the gap between a general purpose processing analog neuromorphic hardware and the spiking actuation of a robotic platform.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fnbot-14-590163.pdf">https://pub.uni-bielefeld.de/download/2949640/2949642/fnbot-14-590163.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Media SA</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>spike-based motor control</topic><topic>neuromorphic robotics</topic><topic>Dynap-SE</topic><topic>FPGA</topic><topic>SPID</topic><topic>spike-based processing</topic><topic>BioRob</topic><topic>AER</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in Neurorobotics</title></titleInfo>
+  <identifier type="eIssn">1662-5218</identifier>
+  <identifier type="MEDLINE">33328951</identifier>
+  <identifier type="ISI">000598462000001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29496400</identifier><identifier type="doi">10.3389/fnbot.2020.590163</identifier>
+<part><detail type="volume"><number>14</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Linares-Barranco, Alejandro, Perez-Peña, Fernando, Jimenez-Fernandez, Angel, and Chicca, Elisabetta. 2020. “ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers”. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt; 14: 590163.&lt;/div&gt;</chicago>
+<lncs> Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A., Chicca, E.: ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. Frontiers in Neurorobotics. 14, : 590163 (2020).</lncs>
+<default>Linares-Barranco A, Perez-Peña F, Jimenez-Fernandez A, Chicca E (2020) &lt;br /&gt;&lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt; 14: 590163.</default>
+<mla>Linares-Barranco, Alejandro, Perez-Peña, Fernando, Jimenez-Fernandez, Angel, and Chicca, Elisabetta. “ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers”. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt; 14 (2020): 590163.</mla>
+<wels>Linares-Barranco, A.; Perez-Peña, F.; Jimenez-Fernandez, A.; Chicca, E. (2020): ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;,14:590163</wels>
+<angewandte-chemie>A.  Linares-Barranco, F.  Perez-Peña, A.  Jimenez-Fernandez, and E.  Chicca, “ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers”, &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;, &lt;strong&gt;2020&lt;/strong&gt;, &lt;em&gt;14&lt;/em&gt;, : 590163.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A., &amp;amp; Chicca, E. (2020). ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;, 590163. doi:10.3389/fnbot.2020.590163&lt;/div&gt;</apa_indent>
+<bio1>Linares-Barranco A, Perez-Peña F, Jimenez-Fernandez A, Chicca E (2020) &lt;br /&gt;ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers.&lt;br /&gt;Frontiers in Neurorobotics 14: 590163.</bio1>
+<harvard1>Linares-Barranco, A., et al., 2020. ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;, 14: 590163.</harvard1>
+<frontiers>Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A., and Chicca, E. (2020). ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt; 14:590163.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A. &amp;amp; Chicca, E. (2020). ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;: 590163. Frontiers Media SA. doi:10.3389/fnbot.2020.590163.&lt;/div&gt;</dgps>
+<ama>Linares-Barranco A, Perez-Peña F, Jimenez-Fernandez A, Chicca E. ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;. 2020;14: 590163.</ama>
+<ieee> A. Linares-Barranco, et al., “ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers”, &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;,  vol. 14, 2020, : 590163.</ieee>
+<apa>Linares-Barranco, A., Perez-Peña, F., Jimenez-Fernandez, A., &amp;amp; Chicca, E. (2020). ED-BioRob: A Neuromorphic Robotic Arm With FPGA-Based Infrastructure for Bio-Inspired Spiking Motor Controllers. &lt;em&gt;Frontiers in Neurorobotics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;, 590163. doi:10.3389/fnbot.2020.590163</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2949640</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-12-22T15:19:41Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-12-22T15:20:07Z</recordChangeDate>
+</recordInfo>
+</mods>

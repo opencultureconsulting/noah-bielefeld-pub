@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2961979">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning in non-stationary Environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Raab</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank-Michael</namePart>
+                        <namePart type="family">Schleif</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2022-03-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The topic of Machine Learning deals with learning a data-based decision function. This function assigns correct output information based on input data. The learning process is performed in a laboratory domain and finally applied in a test or application domain. Typically, the distribution of data between the learning and application domain is assumed to be the same, denoted as a stationary environment. If this is not the case and the distributions change between the two domains, it is called a non-stationary environment.  &lt;br /&gt;&lt;br /&gt;
+
+The research area of Domain Adaptation offers methods to adapt the input data or an already learned decision function to the test domain data in such non-stationary environments. Current solutions search for a suitable representation space by minimizing some statistical divergence measure or subspace projector differences. The former methods bound domain differences with computational requirements almost intractable, while the latter formulate no guarantees regarding domain differences. &lt;br /&gt;&lt;br /&gt;
+
+In the first part of this thesis, I provide geometric- and subspace-oriented projectors built upon the idea of domain separability. The methods outperform recent solutions while being a magnitude faster. Both solutions bound the domain differences by the remaining differences of the spectra, and I show that subspace solutions naturally provide less domain separability.&lt;br /&gt;&lt;br /&gt;
+
+In the second part of this thesis, I motivated a spectral-based moment-matching regularization loss. The approach is based on the characterization of domain differences via spectral differences described above. Applied to neural networks, domains can be matched in latent or label space. Furthermore, I implemented a relevance weighting that minimizes domain-specific influences, leading to a stable and effective solution. &lt;br /&gt;&lt;br /&gt;
+
+While the above methods work well for time-independent data with finite sample sizes, tasks such as weather forecasting require fast processing of a potentially unlimited amount of data in a temporal sequence. If the data distribution changes over time, the sequence, also called data stream, is additionally affected by Concept Drift. Domain Adaptation methods are not practical for such scenarios because they do not scale to data stream size. The research area of Concept Drift Stream Classification addresses the challenges just described. It provides a variety of algorithms and techniques to fit and adapt the model with linear complexity. Prototype-based learning is already reasonably flexible in this constraint through an online learning approach but is not yet prepared for Concept Drifts. In the third part of the thesis, I extended probabilistic prototype models by drift detection via a statistical test plus an active and passive Concept Drift adaptation, providing stable and fast concept adaptation against various drift types.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29619799</identifier>
+                    <identifier type="doi">10.4119/unibi/2961979</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2961979</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2961979">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2961979/2961980/christoph_raab_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2961979" DMDID="DMD2961979">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2961979"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

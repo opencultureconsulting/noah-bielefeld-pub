@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2602601">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>AsapRealizer in practice – A modular and extensible architecture for a BML Realizer</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dennis</namePart>
+                        <namePart type="family">Reidsma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Herwin</namePart>
+                        <namePart type="family">van Welbergen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Building a complete virtual human application from scratch is a daunting task, and it makes sense to rely on existing platforms for behavior generation. When one does this, one needs to be able to adapt and extend the capabilities of the virtual human as offered by the platform, without having to make invasive modifications to the platform itself. This is not trivial to support, and not all existing platforms facilitate this equally well. This paper describes how AsapRealizer (successor to Elckerlyc and ACE), a novel platform for controlling virtual humans, offer these possibilities.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Entertainment Computing</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>157</start>
+                                <end>169</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1875-9521</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26026013</identifier>
+                    <identifier type="doi">10.1016/j.entcom.2013.05.001</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2602601</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2602601">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2602601/2602609/EntComElckerlyc2011.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2602601" DMDID="DMD2602601">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2602601"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

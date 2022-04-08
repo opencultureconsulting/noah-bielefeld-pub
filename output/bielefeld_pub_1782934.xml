@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1782934">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Implementation of self-organizing neural networks for visuo-motorcontrol of an industrial robot</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jörg A.</namePart>
+                        <namePart type="family">Walter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Schulten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1993</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The implementation of two neural network algorithms for visuo-motor control of an industrial robot (Puma 562) is reported. The first algorithm uses a vector quantization technique, the &quot;neural-gas&quot; network, together with an error correction scheme based on a Widrow-Hoff-type learning rule. The second algorithm employs an extended self-organizing feature map algorithm. Based on visual information provided by two cameras, the robot learns to position its end effector without an external teacher. Within only 3000 training steps, the robot-camera system is capable of reducing the positioning error of the robot&apos;s end effector to approximately 0.1% of the linear dimension of the work space. By employing adaptive feedback the robot succeeds in compensating not only slow calibration drifts, but also sudden changes in its geometry. Hardware aspects of the robot-camera system are discussed</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IEEE Transactions on Neural Networks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>86</start>
+                                <end>96</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1045-9227</identifier>
+                    <identifier type="MEDLINE">18267706</identifier>
+                    <identifier type="ISI">A1993KG70800010</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17829348</identifier>
+                    <identifier type="doi">10.1109/72.182698</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1782934</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1782934">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1782934/2314067/OCT3405.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1782934" DMDID="DMD1782934">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1782934"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

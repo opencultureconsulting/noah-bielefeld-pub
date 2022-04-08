@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2463253">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dynamically reconfigurable hardware for embedded control systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Carlos Vladimir</namePart>
+                        <namePart type="family">Paiz Gatica</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-12-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis explores the use of dynamically reconfigurable hardware for the realisation of embedded control systems, using the most well-known example of this kind of technology: Field Programmable Gate array (FPGA). The focus of the first part of the thesis is on assessing the resource utilisation of FPGA- and CPU-based realisations, relating the results to the algorithmic characteristics of the implemented controller, and the properties of both hardware and software architectures. Using a selected set of benchmarks, it is shown that an FPGA-based design achieves a higher computational density (Computational density = throughput/area) and a higher energy efficiency (energy efficiency = throughput/power) than a CPU-based implementation. Furthermore, it is shown that when the average parallelism of the algorithm to be implemented increases when increasing the problem size (i.e., the amount of computations required for that algorithm), the gap between FPGA- and CPU-based realisations in terms of computational density increases, too.
+The use of run-time hardware reconfiguration to achieve a more efficient resource utilisation than a static approach is investigated in the second part of this work. It is shown that control systems requiring structural and parametric adjustments during execution can benefit from run-time hardware reconfiguration. Application examples are presented showing that the proposed concepts are successfully realisable using current technologies, also for control applications having demanding time-constraints.
+ New design methodologies are required for embedded control systems using dynamically reconfigurable hardware, specially for those targeting run-time hardware reconfiguration. A Hardware-in-the-Loop design framework is presented in the third part of this work, which allows an early cycle-accurate verification of a design under test (DUT), using a simulated environment. In a second stage, the DUT can be monitored in real-time, and design parameters can be adjusted during operation, while using the target environment of the DUT. Several realisation examples show the efficacy of the proposed framework.
+ This thesis shows that dynamically reconfigurable hardware, particularly FPGA technology, is a suitable platform for demanding embedded control applications. Methods and tools presented in this thesis disclose the advantages of dynamically reconfigurable hardware, and represent a step towards taking full advantage of the possibilities offered by this technology, in the context of embedded control systems.</abstract>
+                    <subject>
+                        <topic>energy efficiency</topic>
+                        <topic>dynamically reconfigurable hardware</topic>
+                        <topic>run-time hardware reconfiguration</topic>
+                        <topic>embedded control</topic>
+                        <topic>Hardware-in-the-Loop</topic>
+                        <topic>FPGA</topic>
+                        <topic>Computational density</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24632538</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2463253</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2463253">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2463253/2463254/Dissertation_CPaiz_genehmigte.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2463253" DMDID="DMD2463253">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2463253"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

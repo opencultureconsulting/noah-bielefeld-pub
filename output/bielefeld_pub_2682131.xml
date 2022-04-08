@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2682131">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Kisses, ambivalent models and more: Contributions to the analysis of RNA secondary structure.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Janssen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0955-0589</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-06-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The full functional role of RNA in all domains of life is yet to be explored. Deep sequencing technologies generate massive data about RNA transcripts with functional potential. To decipher this information, bioinformatics methods for structural analysis are in demand. With this thesis at hand, we want to improve current secondary structure prediction in different respects.
+The introductory chapter explains ADP with a focus on its comfortable, but atypical style of specifying algorithms. Then, we present five contributions to the analysis of RNA secondary structures.
+1. It is the nature of models to abstract and simplify reality in order to master its complexity. Chapter 3 is an in depth analysis of four popular computational models of RNA secondary structure (Programs RNAshapes and RNAalishapes).
+2. The secondary structure of RNA is too dynamic to be described by a single structure and in turn, there is no single optimal secondary structure. Thus, we compute the most likely abstract shape of a given RNA sequence. Improvements of the algorithms for computing the likelihood of abstract shapes are discussed in Chapter 4, specifically with regards to computational speed (Program RapidShapes).
+3. For computational complexity reasons, models of RNA structures commonly exclude crossing base-pairs, the so-called &quot;pseudoknots&quot;, from the secondary structure. In Chapter 5, we introduce a heuristic for mastering a frequent type of pseudoknots: &quot;kissing-hairpins&quot; (Program pKiss).
+4. In Chapter 6 we revisit the old algorithmic idea of outside-in computation for the new programming framework Bellman’s GAP. This broadens the arsenal of rapid prototyping algorithms for RNA and other sequential problems. It adds &quot;outside&quot; and &quot;MEA&quot; functionality to RNAshapes and RNAalishapes.
+5. Covariance Models representing RNA families assume a single consensus secondary structure for a set of related RNAs and serve as statistical tools to search for additional members. In Chapter 7, we evaluate CM scorings that are more structurespecific than the standard sequence-to-model alignments. Furthermore, we introduce a technique to incorporate &quot;ambivalent&quot; consensus structures into covariance models (Program aCMs).
+The results of this work are available at the Bielefeld Bioinformatic Server. The RNA Studio (http://bibiserv.cebitec.uni-bielefeld.de/rna) supports ready to use web-submissions, web-services and cloud computing for the programs developed in this thesis. debian packages foster a simple way to install our software on your local machine. Developers can benefit from our algorithmic analyses or use our sources for rapid prototyping as a primer for new implementations: http://bibiserv.cebitec.uni-bielefeld.de/fold-grammars.</abstract>
+                    <subject>
+                        <topic>algebraic dynamic programming</topic>
+                        <topic>Bellman&apos;s GAP</topic>
+                        <topic>covariance models</topic>
+                        <topic>base pair probabilities</topic>
+                        <topic>prediction</topic>
+                        <topic>shapes</topic>
+                        <topic>RNA secondary structure</topic>
+                        <topic>dynamic programming</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26821318</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2682131</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2682131">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2682131/2682134/dissertation_StefanJanssen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2682131" DMDID="DMD2682131">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2682131"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

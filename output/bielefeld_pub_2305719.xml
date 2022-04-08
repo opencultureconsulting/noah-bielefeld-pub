@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305719">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Robustes Verstehen gesprochener Sprache in einem multimodalen Roboter-Szenario</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Robust understanding of speech for multimodal robot interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sonja</namePart>
+                        <namePart type="family">Hüwel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-04-27</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Das Bestreben in Industrie und Forschung, Robotersysteme zu entwickeln, die dem Menschen zur Unterhaltung dienen oder andere Dienste erweisen, ist ungebrochen. Dabei wird die Möglichkeit, mit dem Robotersystem interagieren zu können, immer wichtiger. Gerade für den Privatgebrauch ist es das Ziel, einen Roboterkameraden zu konstruieren, der dem Menschen zur Seite steht, ihn z.B. bei den Aufgaben wie Aufräumen oder Blumengießen unterstützt. Da gerade im privaten Bereich sehr unterschiedliche Menschen (z.B. alte und junge) mit dem Roboter interagieren sollen, kann nicht erwartet werden, dass sie erst eine Reihe von komplexen Befehlen lernen müssen. Ebenfalls sollte es möglich sein, dem Roboter neue Gegenstände zu zeigen und sie benennen zu können, damit der Roboter mehr über seine Umgebung lernt und so besser in ihr agieren kann. Es ist daher sehr wichtig, dass die Kommunikation möglichst unbeschränkt und intuitiv stattfinden kann.
+Diese Arbeit stellt einen interdisziplinären Ansatz für die Entwicklung einer robusten Sprachverarbeitung für einen Robotergefährten dar, der einerseits die Rahmenbedingungen berücksichtigt, die für eine freie Kommunikation mit sehr unterschiedlichen Personengruppen gelten, aber auch auf die komplexeren Zusammenspiele und Anforderungen der anderen im Robotersystem integrierten Komponenten eingeht.
+Robustheit bedeutet in diesem Zusammenhang zweierlei. Einerseits kann die Verstehenskomponente eine Vielzahl an Äußerungen verstehen, die in einem spontansprachlichen Kontext vorkommen können (Mensch und Roboter agieren in einer gemeinsamen Umgebung). Das bedeutet, dass sowohl nicht-grammatikalische oder unvollständige Äußerungen verarbeitet als auch mögliche Hinweise auf Informationen über die Umgebung korrekt eingebunden und an die visuellen Komponenten weitergereicht werden können. Andererseits kann die Verstehenskomponente auch mit möglicherweise fehlerhaften Daten aus der Spracherkennung umgehen. Das Sprachverstehen generiert eine semantische Interpretation aus der erkannten Wortkette und bewertet zusätzlich die Qualität, also inwieweit eine Äußerung vollständig korrekt erkannt wurde oder nicht.
+Der Ansatz der Sprachverarbeitung ist modular aufgebaut, um eine Trennung der Wissensdatenbanken (Lexikon und semantische Konzepte) von dem Verarbeitungsmechanismus zu ermöglichen. Somit können die Datenbanken des Systems jeweils an neue Kontexte angepasst und um neue Sprachdaten erweitert werden, die z.B. aus realen Experimenten gewonnen wurden.
+Im Rahmen dieser Arbeit wurde ein besonderer Repräsentationsformalismus für die Semantik situierter Spontansprache entwickelt. Die sogenannten situierten semantischen Einheiten oder Units (SSUs) bilden das gesamte Wissen für die Dialoge zwischen Mensch und Roboter ab, sie stellen zudem hierarchische Informationen bereit, die sowohl für die Verarbeitung als auch für die Bereitstellung von Dialogakten genutzt werden können.
+Der Verarbeitungsmechanismus generiert unter Einsatz der Wissensdatenbanken jeweils eine semantische Interpretation aus den Äußerungen der Interaktionspartner. Dafür werden anstelle syntaktischer Informationen die semantischen Beziehungen zwischen den Wörtern genutzt. Die Interpretationen werden anschließend vom Dialogmanager verwendet, um eine Handlung zu generieren, z.B. auf eine Frage zu antworten oder die Robotersteuerung zu aktivieren.
+Zunächst setzt sich diese Arbeit mit den soziologischen, psychologischen und linguistischen Besonderheiten der spontansprachlichen Interaktion zwischen Mensch und Roboter auseinander. Hierzu wurden erste Studien und Experimente durchgeführt. Aus den Korpusstudien der Experimente wurde das Lexikon und die semantische Datenbank für das Robotersystem entwickelt. Ein weiterer Bereich, der in dem besonderen Konzept der Sprachverarbeitung einfließt, ist die technische Realisierung des Roboters. Insbesondere wird auf die Schnittstellen zwischen den Komponenten eingegangen. Dazu kommen technische Besonderheiten, die sich aus der Notwendigkeit eines Echtzeitsystems in einer realen Umgebung in der Interaktion mit möglicherweise unbekannten Personen ergeben. Das Sprachverstehen mit seinen verschiedenen Bestandteilen ist in die multimodale Roboterarchitektur BIRON integriert, das im zweiten Teil dieser Arbeit ausführlich behandelt wird. Außerdem wurden Benutzerexperimente mit BIRON durchgeführt und das Sprachverstehen auf Basis dieser Experimente evaluiert.
+Das hier beschriebene Konzept zum Sprachverstehen verleiht einem mobilen Robotersystem die Fähigkeit, spontansprachliche und situierte Äußerungen zu verstehen und mit anderen Modalitäten in Beziehung zu setzen. Das Robotersystem erlangt dadurch tiefgehende kommunikative Fähigkeiten, die den Grundstock zur Verständigung in freien Dialogsituationen bilden.</abstract>
+                    <subject>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Multimodales System</topic>
+                        <topic>Serviceroboter</topic>
+                        <topic>Mobiler Serviceroboter</topic>
+                        <topic>Roboterarchitektur</topic>
+                        <topic>Human-robot interaction</topic>
+                        <topic>Computerlinguistik</topic>
+                        <topic>Korpus (Linguistik)</topic>
+                        <topic>Benutzerverhalten</topic>
+                        <topic>Sprachverarbeitung</topic>
+                        <topic>Sprachverstehen</topic>
+                        <topic>Spontaneous speech</topic>
+                        <topic>Mobile service robot</topic>
+                        <topic>Mensch-Roboter-Interaktion</topic>
+                        <topic>Spontansprache</topic>
+                        <topic>Computational linguistics</topic>
+                        <topic>Robot architecture</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11179</identifier>
+                    <identifier type="sys">HT015227442</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305719</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305719">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305719/2305722/SHuewel_Diss2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305719" DMDID="DMD2305719">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305719"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

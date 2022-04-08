@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2960736">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Modeling robot control systems in compliant interaction with the environment. Bridging the gap between the envisioned task and the robot’s behavior</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dennis Leroy</namePart>
+                        <namePart type="family">Wigand</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-12-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In recent years, robotics applications increasingly rely on physically compliant interaction, which entails the deliberate compensation and exploitation of contact forces. Explicitly considering the compliant interaction between the robot and the environment is essential for successful and safe task execution in contact-rich applications: e.g., snap-fitting electrical clamps, relying on the environment for support (e.g., using a hand-rail), and accommodating for soft materials (e.g., in soft tissue surgery). Developing robotic systems for such applications, requires not only suitable control algorithms, but also a task description that formalizes the compliant interaction as well as other relevant system concerns (e.g., timing). Skill-based approaches are commonly used to create such systems. However, they usually neglect the compliant interaction almost entirely and introduce hidden assumptions for other relevant concerns. This causes a significant gap between the envisioned task and the resulting robot’s behavior in terms of explainability and predictability. To close the gap, this thesis introduces suitable abstractions to model the compliant interaction in the context of a task description as constraints on the robot’s behavior. The constraints are based on the physical exchange of forces via (natural) contacts. Using the developed synthesis, the modeled task constraints for compliant interaction are directly transferred into a control system model that uses the Projected Inverse Dynamics Control formalism. A modularization and composition approach for domain-specific languages is developed to combine the resulting control system model with relevant functional and non-functional robotics concerns, such as the specification of the execution time behavior, which are essential to produce a predictable behavior. The implementation of the conceptual approach allows the modeling of compliant interaction tasks, the synthesis of a suitable robot control system, and the generation of a real-time software system that can be executed in simulation as well as on the real robot. Together, this significantly reduces the aforementioned gap and ensures a behavior that conforms to the modeled task and timing constraints. Using the developed approach three relevant compliant interaction scenarios from the domains of human-robot interaction and industrial assembly are modeled and executed. The scenarios show the eligibility of the introduced concepts and their ability to scale to different compliant interactions.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29607367</identifier>
+                    <identifier type="doi">10.4119/unibi/2960736</identifier>
+                    <identifier type="sys">HT021221171</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2960736</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2960736">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2960736/2960737/dissertation_dennis_wigand_2021.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2960736" DMDID="DMD2960736">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2960736"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

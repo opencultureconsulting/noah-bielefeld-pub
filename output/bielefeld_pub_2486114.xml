@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2486114">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Hypothesis-based image segmentation for object learning and recognition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Denecke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-02-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis addresses the figure-ground segmentation problem in the context of complex systems for automatic object recognition as well as for the online and interactive acquisition of visual representations. First the problem of image segmentation in general terms and next its importance for object learning in current state-of-the-art systems is introduced. Secondly a method using artificial neural networks is presented. This approach on the basis of Generalized Learning Vector Quantization is investigated in challenging scenarios such as the real-time figure-ground segmentation of complex shaped objects under continuously changing environment conditions. The ability to fulfill these requirements characterizes the novelty of the approach compared to state-of-the-art methods.
+Finally our technique is extended towards online adaption of model complexity and the integration of several segmentation cues. This yields a framework for object segmentation that is applicable to improve current systems for visual object learning and recognition.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24861140</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2486114</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2486114">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2486114/2486115/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2486114" DMDID="DMD2486114">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2486114"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

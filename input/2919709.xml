@@ -1,0 +1,373 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2919709</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Wave Space Sonification"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper introduces Wave Space Sonification (WSS), a novel class of sonification techniques for time- (or space-) indexed data. WSS doesn't fall into the classes of Audification, Parameter-Mapping Sonification or Model-based Sonification and thus constitutes a novel class of sonification techniques. It realizes a different link between data and their auditory representation, by scanning a scalar field – defined as wave space – along a data-driven trajectory. This allows both the highly controlled definition of the auditory representation for any area of interest, as well as subtle yet acoustically complex sound variations as the overall pattern changes. To illustrate Wave Space Sonification (WSS), we introduce three different WSS instances, (i) the Static Canonical WSS, (ii) Data-driven Localized WSS and (iii), Granular Wave Space Sonification (GWSS), and we demonstrate the different methods with sonification examples from various data domains. We discuss the technique and its relation to other sonification approaches and finally outline productive application areas.
+
+
+ 
+##### **Canonical Wave Space Sonification of a circle trajectory**
+ 
+*S1-Canonic-WSS-Circle.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919937"&gt;&lt;/audio&gt;&lt;/center&gt;
+The sonification exhibits 3 cylces of the circling trajectory, see article for further details.
+
+ 
+##### **Canonical Wave Space Sonification of periodic cycles using axis-aligned timbres**
+ 
+*S2-Canonic-WSS-timbre-axis.wav*
+
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919938"&gt;&lt;/audio&gt;&lt;/center&gt;
+This sonification uses a delay embedding (s(t), s(t-k)) of s(t) = sin(2*pi*t)+0.18*sin(2*pi*2*t) with t in [0, 0.01,...10]
+with k=20 using a wave space definition with 1st, 3rd, 5th harmonic along x-axis and 1st, 2nd, 3rd harmonic along y-axis
+
+ 
+##### **Canonical Wave Space Sonification of the monthly number of sunspots dataset (k=12, rate=30)**
+ 
+*S3.1-Canonic-WSS-sunspots-k12-rate30.wav* 
+
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919939"&gt;&lt;/audio&gt;&lt;/center&gt;
+In this WSS, the overall evolution of sunspots variations over 150 years can be heard in few seconds. 
+The 11-year cycle of varying strength and its change over centuries can be perceived.
+
+ 
+##### **Canonical Wave Space Sonification of the monthly number of sunspots dataset (k=12, rate=300)**
+ 
+*S3.2-Canonic-WSS-sunspots-k12-rate300.wav*
+
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919940"&gt;&lt;/audio&gt;&lt;/center&gt;
+In this WSS, the overall evolution of sunspots variations over 150 years can be heard in 30 seconds. 
+The variations between the 11-year cycles can be perceived.
+
+ 
+##### **Canonical Wave Space Sonification of the monthly number of sunspots dataset (k=24, rate=30)**
+ 
+*S3.3-Canonic-WSS-sunspots-k24-rate30.wav*
+
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919941"&gt;&lt;/audio&gt;&lt;/center&gt;
+In this WSS, the overall evolution of sunspots variations over 150 years can be heard in few seconds. 
+The 11-year cycle of varying strength and its change over centuries can be perceived. Compared to S3.1, the delay embedding uses offset k=24, which affects the timbre.
+
+ 
+##### **Canonical Wave Space Sonification of the monthly number of sunspots dataset (k=24, rate=300)**
+ 
+*S3.4-Canonic-WSS-sunspots-k24-rate300.wav* 
+
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919942"&gt;&lt;/audio&gt;&lt;/center&gt;
+In this WSS, the overall evolution of sunspots variations over 150 years can be heard in 30 seconds. 
+The variations between the 11-year cycles can be perceived. Compared to S3.2, the delay embedding uses offset k=24, which affects the timbre.
+
+ 
+##### **Static Sample based Wave Space Sonification of the monthly number of sunspots dataset (k=24, rate=144)**
+ 
+*S4.1-Sample-based-WSS-sunspots-hp5-k24-rate144.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919943"&gt;&lt;/audio&gt;&lt;/center&gt;
+WSS of sunspots data set trajectories where the first wave space dimension is filled with the spoken vowels ‘a-e-i-o-u’ (vowels as in bath-bear-bee-beau-boo) with a short gap in-between, and the second wave space dimension is left silent. The vowels are reproduced at trajectory speed depending rate, accessing different vowels according to oscillation amplitude.
+
+ 
+##### **Static Sample based Wave Space Sonification of the monthly number of sunspots dataset (k=24, rate=30)**
+ 
+*S4.2-Sample-based-WSS-sunspots-hp5-k24-rate30.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919944"&gt;&lt;/audio&gt;&lt;/center&gt;
+WSS of sunspots data set trajectories where the first wave space dimension is filled with the spoken vowels ‘a-e-i-o-u’ (vowels as in bath-bear-bee-beau-boo) with a short gap in-between, and the second wave space dimension is left silent. The vowels are reproduced at trajectory speed depending rate, accessing different vowels according to oscillation amplitude. Different from S4.1, here the rate is approx. 4 times higher, resulting in a shorter overall sonification.
+
+ 
+##### **Static Sample based Wave Space Sonification of ECG (k=24, rate=40)**
+ 
+*S4.3-Sample-based-WSS-ecg-hp5-k24-rate40.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919945"&gt;&lt;/audio&gt;&lt;/center&gt;
+WSS of ECG time series delay embedding (k=24) trajectory where the first wave space dimension is filled with the spoken vowels ‘a-e-i-o-u’ (vowels as in bath-bear-bee-beau-boo) with a short gap in-between, and the second wave space dimension is left silent. 8 heart beats can be heard and their pattern becomes a clearly recognizable auditory gestalt.
+
+ 
+##### **Static Sample based Wave Space Sonification of ECG (k=24, rate=160)**
+ 
+*S4.4-Sample-based-WSS-ecg-hp5-k24-rate160.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919946"&gt;&lt;/audio&gt;&lt;/center&gt; 
+WSS of ECG time series delay embedding (k=24) trajectory where the first wave space dimension is filled with the spoken vowels ‘a-e-i-o-u’ (vowels as in bath-bear-bee-beau-boo) with a short gap in-between, and the second wave space dimension is left silent. Compared to S4.3, the trajectory speed is 4x slower, allowing more detailed attention to the patterns within the cycles.
+
+ 
+##### **Samples used for Localized Wave Space Sonification**
+ 
+*S5.0-samples-r-s-whistle.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919947"&gt;&lt;/audio&gt;&lt;/center&gt; 
+Introduction to three samples used for Localized Wave Space Sonification
+
+ 
+##### **Data-Driven Localized Wave Space Sonification of ECG (k=16, rate=40)**
+ 
+*S5.1-LocWSS-ecg-hp45-k16-rate40-logs-1.7-mode2-fn4.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919948"&gt;&lt;/audio&gt;&lt;/center&gt; 
+WSS of the ECG cycle depicted in Fig. 6 of the corresponding article, using a sound sample of spoken letter ’r’ and ’s’ for the outgoing (horizontal towards the right) and returning (vertical, downward) trajectory of the QRS-complex. A whistling sound is added to the origin with a 45 degree orientation, which is turned into a discernable pattern by the other parts of the ECG (u-wave, p- wave, etc.).
+
+ 
+##### **Data-Driven Localized Wave Space Sonification of ECG (k=16, rate=160)**
+ 
+*S5.2-LocWSS-ecg-hp45-k16-rate160-logs-2.1-mode2-fn4.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919949"&gt;&lt;/audio&gt;&lt;/center&gt; 
+This WSS is similar to S5.1, but the trajectory speed is slowed down by a factor of 4, allowing more time to follow details of the time series in between subsequent QRS-complexes. 
+
+ 
+##### **Granular Wave Space Sonification of ECG (paricle rate 3 Hz, particle duration 20 msec)**
+ 
+*S6.1-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.02-p_speed3.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919950"&gt;&lt;/audio&gt;&lt;/center&gt; 
+This sonification shows how grains sound differently as they are spawned from different locations along the trajectory.
+
+ 
+##### **Granular Wave Space Sonification of ECG (paricle rate 3 Hz, particle duration 100 msec)**
+ 
+*S6.2-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.10-p_speed3.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919951"&gt;&lt;/audio&gt;&lt;/center&gt; 
+Compared to S6.1. the grain duration is increased to 100ms, allowing to perceive the inner temporal organization of grains
+
+ 
+##### **Granular Wave Space Sonification of ECG (paricle rate 20 Hz, particle duration 100 msec)**
+ 
+*S6.3-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate20-p_dur-0.10-p_speed3.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919952"&gt;&lt;/audio&gt;&lt;/center&gt; 
+Compared to S2 now the grain rate is increased to 20Hz so that it can be better heard how the timbre changes with movement. Apparently this is not sufficient to discern the hear beats.
+
+ 
+##### **Granular Wave Space Sonification of ECG (paricle rate 40 Hz, particle duration 30 msec)**
+ 
+*S6.4-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919953"&gt;&lt;/audio&gt;&lt;/center&gt; 
+Increasing the rate to 40 grains/s, the heart beat pattern becomes salient, 5 heart beats become audible  
+
+ 
+##### **Granular Wave Space Sonification of ECG (paricle rate 40 Hz, particle duration 30 msec, speed 0.33)**
+ 
+*S6.5-GWWS-hp45-k15-rate6-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919954"&gt;&lt;/audio&gt;&lt;/center&gt; 
+This 3*slower sonification gives more auditory access to variations within the beats. Without the granularization, the pitch would have dropped by more than one octave, rendering the timbre and pitch variations less perceivable. 
+
+ 
+##### **Granular Wave Space Sonification in a localized WSS of ECG (paricle rate 40 Hz, particle duration 60 msec, speed 0.5)**
+ 
+*S6.6-GWWS-hp45-k15-rate4-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919955"&gt;&lt;/audio&gt;&lt;/center&gt; 
+In this sonification, the localized WSS definition using the vowels are used. Tuning the particle speed allows to maintain a particle speed at which the vowels remain discernable, independent of the overall trajectory rate. The auditory gestalt of 10 heart beats can be heard to be quite stable over time.
+
+ 
+##### **Granular Wave Space Sonification in a localized WSS of ECG (paricle rate 40 Hz, particle duration 60 msec, speed 1)**
+ 
+*S6.7-GWWS-hp45-k15-rate2-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav*
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2919709/2919956"&gt;&lt;/audio&gt;&lt;/center&gt; 
+Different to sonification example S6.6. the trajectory rate is halfed, resulting in a 2x speedup, but now (and different strom standard WSS) without affecting the pitch.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1-Canonic-WSS-Circle.wav">https://pub.uni-bielefeld.de/download/2919709/2919937/S1-Canonic-WSS-Circle.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2-Canonic-WSS-timbre-axis.wav">https://pub.uni-bielefeld.de/download/2919709/2919938/S2-Canonic-WSS-timbre-axis.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.1-Canonic-WSS-sunspots-k12-rate30.wav">https://pub.uni-bielefeld.de/download/2919709/2919939/S3.1-Canonic-WSS-sunspots-k12-rate30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.2-Canonic-WSS-sunspots-k12-rate300.wav">https://pub.uni-bielefeld.de/download/2919709/2919940/S3.2-Canonic-WSS-sunspots-k12-rate300.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.3-Canonic-WSS-sunspots-k24-rate30.wav">https://pub.uni-bielefeld.de/download/2919709/2919941/S3.3-Canonic-WSS-sunspots-k24-rate30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.4-Canonic-WSS-sunspots-k24-rate300.wav">https://pub.uni-bielefeld.de/download/2919709/2919942/S3.4-Canonic-WSS-sunspots-k24-rate300.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.1-Sample-based-WSS-sunspots-hp5-k24-rate144.wav">https://pub.uni-bielefeld.de/download/2919709/2919943/S4.1-Sample-based-WSS-sunspots-hp5-k24-rate144.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.2-Sample-based-WSS-sunspots-hp5-k24-rate30.wav">https://pub.uni-bielefeld.de/download/2919709/2919944/S4.2-Sample-based-WSS-sunspots-hp5-k24-rate30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.3-Sample-based-WSS-ecg-hp5-k24-rate40.wav">https://pub.uni-bielefeld.de/download/2919709/2919945/S4.3-Sample-based-WSS-ecg-hp5-k24-rate40.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.4-Sample-based-WSS-ecg-hp5-k24-rate160.wav">https://pub.uni-bielefeld.de/download/2919709/2919946/S4.4-Sample-based-WSS-ecg-hp5-k24-rate160.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.0-samples-r-s-whistle.wav">https://pub.uni-bielefeld.de/download/2919709/2919947/S5.0-samples-r-s-whistle.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.1-LocWSS-ecg-hp45-k16-rate40-logs-1.7-mode2-fn4.wav">https://pub.uni-bielefeld.de/download/2919709/2919948/S5.1-LocWSS-ecg-hp45-k16-rate40-logs-1.7-mode2-fn4.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.2-LocWSS-ecg-hp45-k16-rate160-logs-2.1-mode2-fn4.wav">https://pub.uni-bielefeld.de/download/2919709/2919949/S5.2-LocWSS-ecg-hp45-k16-rate160-logs-2.1-mode2-fn4.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.1-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.02-p_speed3.wav">https://pub.uni-bielefeld.de/download/2919709/2919950/S6.1-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.02-p_speed3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.2-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.10-p_speed3.wav">https://pub.uni-bielefeld.de/download/2919709/2919951/S6.2-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate3-p_dur-0.10-p_speed3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.3-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate20-p_dur-0.10-p_speed3.wav">https://pub.uni-bielefeld.de/download/2919709/2919952/S6.3-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate20-p_dur-0.10-p_speed3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.4-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav">https://pub.uni-bielefeld.de/download/2919709/2919953/S6.4-GWWS-hp45-k15-rate2-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.5-GWWS-hp45-k15-rate6-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav">https://pub.uni-bielefeld.de/download/2919709/2919954/S6.5-GWWS-hp45-k15-rate6-logsc3.3-mode0-fn0-p_rate40-p_dur-0.03-p_speed3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.6-GWWS-hp45-k15-rate4-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav">https://pub.uni-bielefeld.de/download/2919709/2919955/S6.6-GWWS-hp45-k15-rate4-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.7-GWWS-hp45-k15-rate2-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav">https://pub.uni-bielefeld.de/download/2919709/2919956/S6.7-GWWS-hp45-k15-rate2-logsc2.3-mode0-fn3-p_rate40-p_dur-0.06-p_speed2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+
+<subject><topic>Sonification</topic><topic>auditory displays</topic><topic>electrocardiography</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2919709</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2919707</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<mla>Hermann, Thomas. &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University, 2018.</mla>
+<default>Hermann T (2018) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Hermann, T.: Supplementary Material for "Wave Space Sonification". Bielefeld University (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas. 2018. &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2018).  &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2919709&lt;/div&gt;</apa_indent>
+<bio1>Hermann T (2018) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., 2018. &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;, Bielefeld University.</harvard1>
+<angewandte-chemie>T.  Hermann, &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<wels>Hermann, T. (2018): Supplementary Material for "Wave Space Sonification". Bielefeld University.</wels>
+<apa>Hermann, T. (2018).  &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2919709</apa>
+<ieee> T. Hermann, &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;, Bielefeld University, 2018.</ieee>
+<ama>Hermann T. &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University; 2018.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2018). &lt;em&gt;Supplementary Material for "Wave Space Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2919709.&lt;/div&gt;</dgps>
+<frontiers>Hermann, T. (2018). Supplementary Material for "Wave Space Sonification". Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2919709</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-05-08T20:22:12Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-06-03T07:56:19Z</recordChangeDate>
+</recordInfo>
+</mods>

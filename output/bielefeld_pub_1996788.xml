@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1996788">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On-Line Planning of Time-Optimal, Jerk-Limited Trajectories</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Erik</namePart>
+                        <namePart type="family">Weitnauer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Service robots which directly interact with humans in highly unstructured, unpredictable and dynamic environments must be able to flexibly adapt their motion in reaction to unforeseen events or obstacles and they must provide a new feasible trajectory in real-time. Hence, algorithms come into focus which replan the motion path and its time evolution from arbitrary initial conditions within milliseconds. We present a real-time algorithm to generate synchronised and time-optimal third-order manipulator trajectories complying maximal motion limits on velocity, acceleration and jerk. Experimental results carried out on a Mitsubishi PA10-7C arm are presented.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19967887</identifier>
+                    <identifier type="doi">10.1109/IROS.2008.4650924</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1996788</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1996788">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1996788/2280502/preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1996788" DMDID="DMD1996788">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1996788"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

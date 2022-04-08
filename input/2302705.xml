@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302705</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Automatisches Segmentieren von Mikroarraybildern</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Automatic segmentation of microarray images</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Mathias</namePart>
+  <namePart type="family">Katzer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Franz</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Gene expression experiments using microarray hybridisation have become a widespread method in scientific as well as industrial research. Analysis of microarray images is a bottleneck of array data analysis pipelines, as it is usually performed using interactive computer programs. Apart from practical concerns, automation of microarray gridding and feature segmentation is most important to achieve constant data quality, which is a precondition to the integration of different expression data sets. Therefore, image processing methods that are applicable regardless of the employed array design and laboratory protocols are highly useful.
+In this work a Markov random field (MRF) based approach to high level grid segmentation is proposed, which is robust to common problems encountered with array images and does not require calibration. The MRF framework allows to separate the heuristic modeling of spot grid layouts from the segmentation algorithm itself.
+Also proposed is an active contour method for spot signal segmentation. Active contour models describe objects in images by local properties of their boundaries and thereby enable robust segmentation of irregularly shaped array spots. The traditional active contour model must be generalized for successful application to microarray spot segmentation.
+The methods proposed in this work are implemented in the AIM (Automatic Image processing for Microarray experiments) system. The results of the system evaluation using a sample of 23 different types of microarray images show the usefulness of the MRF grid segmentation approach. The evaluation of quantitative image analysis is much more difficult since it seems hardly possible to produce authoritative as well as biologically relevant calibration data. The quantitative analysis of array spots using the active contour model reproduces the results of a fine tuned interactive image analysis with a commercial image processing tool (Imagene). Active contour segmentation is less sensitive to variations of grid segmentation than the well known Mann-Whitney segmentation.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="asvm.pdf">https://pub.uni-bielefeld.de/download/2302705/2302708/asvm.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Microarray</topic><topic>Active contours</topic><topic>Differentielle Genexpression</topic><topic>Konturfindung</topic><topic>Bildsegmentierung</topic><topic>Microarray gridding</topic><topic>Quantitative Bildanalyse</topic><topic>Markov-Zufallsfeld</topic><topic>Gittersegmentierung</topic><topic>Aktive Konturmodelle</topic><topic>Quantitative microarray image analysis</topic><topic>Quantitative Mikroarray-Bildauswertung</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-4655</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2004-01-22</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Katzer M (2003) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Katzer, Mathias. &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2003.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Katzer, Mathias. 2003. &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Katzer, M.: Automatisches Segmentieren von Mikroarraybildern. Bielefeld University, Bielefeld (Germany) (2003).</lncs>
+<angewandte-chemie>M.  Katzer, &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2003&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Katzer, M. (2003).  &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Katzer, M., 2003. &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Katzer M (2003) &lt;br /&gt;&lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<wels>Katzer, M. (2003): Automatisches Segmentieren von Mikroarraybildern. Bielefeld (Germany): Bielefeld University.</wels>
+<ieee> M. Katzer, &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2003.</ieee>
+<apa>Katzer, M. (2003).  &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Katzer, M. (2003). Automatisches Segmentieren von Mikroarraybildern. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Katzer, M. (2003). &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Katzer M. &lt;em&gt;Automatisches Segmentieren von Mikroarraybildern&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2003.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302705</recordIdentifier><recordCreationDate encoding="w3cdtf">2004-02-13T10:47:12Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:52Z</recordChangeDate>
+</recordInfo>
+</mods>

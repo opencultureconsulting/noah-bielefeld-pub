@@ -1,0 +1,164 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2712107</id><setSpec>report</setSpec><setSpec>doc-type:report</setSpec><setSpec>ddc:006</setSpec><setSpec>ddc:610</setSpec><setSpec>reportFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>report</genre>
+
+<titleInfo><title>SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Andreas</namePart>
+  <namePart type="family">Stöckel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">80194247</identifier></name>
+<name type="personal">
+  <namePart type="given">Benjamin</namePart>
+  <namePart type="family">Paaßen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">49941564</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3899-2450</description></name>
+<name type="personal">
+  <namePart type="given">Raphael</namePart>
+  <namePart type="family">Dickfelder</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Jan Philip</namePart>
+  <namePart type="family">Göpfert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">27345942</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1982-9399</description></name>
+<name type="personal">
+  <namePart type="given">Nicole</namePart>
+  <namePart type="family">Brazda</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Hans Werner</namePart>
+  <namePart type="family">Müller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Hartung</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955539</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-6549-066X</description></name>
+<name type="personal">
+  <namePart type="given">Roman</namePart>
+  <namePart type="family">Klinger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">37260489</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Translational neuroscience in the field of spinal
+cord injuries (SCI) faces a strong disproportion
+between immense preclinical research efforts
+and a lack of therapeutic approaches success-
+ful in human patients: Currently, preclinical
+research on SCI yields more than 3,000 new
+publications per year (8,000 when including
+the whole central nervous system, growing at
+an exponential rate), whereas none of the result-
+ing therapeutic concepts has led to functional
+recovery of neural tissue in humans. Improving
+clinical researchers’ information access there-
+fore carries the potential to support more effec-
+tive selection of promising therapy candidates
+from preclinical studies. Thus, automated in-
+formation extraction from scientific publica-
+tions contributes to enabling meta studies and
+therapy grading by aggregating relevant infor-
+mation from the entire body of previous work
+on SCI.
+We present SCIE, an automated information
+extraction pipeline capable of detecting rele-
+vant information in SCI publications based on
+ontological entity and probabilistic relation de-
+tection. The input are plain text or PDF doc-
+uments. As output, the user choses between
+an online visualization or a machine-readable
+format. Compared to human gold standard
+annotations, our system achieves an average
+extraction performance of 76 % precision and
+52 % recall (F1-measure 0.59).
+An instance of the webservice is available at
+http://scie.sc.cit-ec.uni-bielefeld.de/. SCIE is
+free software licensed under the AGPL and can
+be downloaded for local installation at http:
+//opensource.cit-ec.de/projects/scie/.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="scie-webservice-techrep.pdf">https://pub.uni-bielefeld.de/download/2712107/2712109/scie-webservice-techrep.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>web service</topic><topic>pre-clinical studies</topic><topic>translational neurobiology</topic><topic>spinal cord injury</topic><topic>text mining</topic><topic>information extraction</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-27121074</identifier><identifier type="doi">10.1101/013458</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Stöckel A, Paaßen B, Dickfelder R, Göpfert JP, Brazda N, Müller HW, Cimiano P, Hartung M, Klinger R (2015) &lt;br /&gt;bioRxive.org.</default>
+<mla>Stöckel, Andreas, Paaßen, Benjamin, Dickfelder, Raphael, Göpfert, Jan Philip, Brazda, Nicole, Müller, Hans Werner, Cimiano, Philipp, Hartung, Matthias, and Klinger, Roman. &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org, 2015.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stöckel, Andreas, Paaßen, Benjamin, Dickfelder, Raphael, Göpfert, Jan Philip, Brazda, Nicole, Müller, Hans Werner, Cimiano, Philipp, Hartung, Matthias, and Klinger, Roman. 2015. &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org.&lt;/div&gt;</chicago>
+<lncs> Stöckel, A., Paaßen, B., Dickfelder, R., Göpfert, J.P., Brazda, N., Müller, H.W., Cimiano, P., Hartung, M., Klinger, R.: SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit. bioRxive.org (2015).</lncs>
+<angewandte-chemie>A.  Stöckel, B.  Paaßen, R.  Dickfelder, J. P.  Göpfert, N.  Brazda, H. W.  Müller, P.  Cimiano, M.  Hartung, and R.  Klinger, &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;, bioRxive.org, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Stöckel A, Paaßen B, Dickfelder R, Göpfert JP, Brazda N, Müller HW, Cimiano P, Hartung M, Klinger R (2015) &lt;br /&gt;&lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;.&lt;br /&gt;bioRxive.org.</bio1>
+<harvard1>Stöckel, A., et al., 2015. &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;, bioRxive.org.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stöckel, A., Paaßen, B., Dickfelder, R., Göpfert, J. P., Brazda, N., Müller, H. W., Cimiano, P., et al. (2015).  &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org. doi:10.1101/013458&lt;/div&gt;</apa_indent>
+<wels>Stöckel, A.; Paaßen, B.; Dickfelder, R.; Göpfert, J. P.; Brazda, N.; Müller, H. W.; Cimiano, P.; Hartung, M.; Klinger, R. (2015): SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit. bioRxive.org.</wels>
+<ieee> A. Stöckel, et al., &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;,  bioRxive.org: 2015.</ieee>
+<apa>Stöckel, A., Paaßen, B., Dickfelder, R., Göpfert, J. P., Brazda, N., Müller, H. W., Cimiano, P., et al. (2015).  &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org. doi:10.1101/013458</apa>
+<frontiers>Stöckel, A., Paaßen, B., Dickfelder, R., Göpfert, J. P., Brazda, N., Müller, H. W., Cimiano, P., Hartung, M., and Klinger, R. (2015). SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit. bioRxive.org.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stöckel, A., Paaßen, B., Dickfelder, R., Göpfert, J.P., Brazda, N., Müller, H.W., Cimiano, P., Hartung, M. &amp;amp; Klinger, R. (2015). &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org. doi:10.1101/013458.&lt;/div&gt;</dgps>
+<ama>Stöckel A, Paaßen B, Dickfelder R, et al. &lt;em&gt;SCIE: Information Extraction for Spinal Cord Injury Preclinical Experiments – A Webservice and Open Source Toolkit&lt;/em&gt;. bioRxive.org; 2015.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2712107</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-01-13T11:49:36Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:32Z</recordChangeDate>
+</recordInfo>
+</mods>

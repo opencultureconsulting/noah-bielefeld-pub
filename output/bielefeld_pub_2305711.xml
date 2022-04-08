@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305711">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Klanke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-11-13</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis presents several new developments in the field of manifold learning and nonlinear dimensionality reduction. The main text can be divided into three parts, the first of which presents a smoothness-based regularizer that is specifically tuned to the Parametrized Self-Organizing Map (PSOM). The regularization approach makes it possible to deal with noisy or missing data in a principled manner, and it facilitates the construction of PSOMs from data that are not organized in a grid topology.
+In the second part, the manifold learning algorithm Unsupervised Kernel Regression (UKR) is introduced as a counterpart to the classical Nadaraya-Watson estimator. In a nutshell, UKR requires very little parameters to be chosen a priori: In its simplest form, a UKR model is fully specified by the dimensionality of latent space and the choice of a density kernel, and it can be regularized automatically by using leave-one-out cross-validation without additional computational cost. The low dimensional coordinates (latent variables) together with a mapping from latent space to data space are retrieved by minimizing some error criterion.
+The third part presents four possible extensions to UKR, specifically
+1) a more general cross-validation scheme, aimed at avoiding unsmooth manifolds,
+2) the inclusion of loss functions beyond the usual squared error, which can enhance the robustness towards outliers, and by which UKR can be tuned to specific noise levels,
+3) a &quot;landmark&quot; variant which helps to reduce the computational cost, and
+4) Unsupervised Local Polynomial Regression, where the Nadaraya-Watson estimator is replaced by local linear or local quadratic regression models, the latter showing less bias in the presence of curvature.</abstract>
+                    <subject>
+                        <topic>Dimensionsreduktion</topic>
+                        <topic>Manifold learning</topic>
+                        <topic>Dimensionality reduction</topic>
+                        <topic>Unsupervised kernel regression</topic>
+                        <topic>Parametrized self-organizing map</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12066</identifier>
+                    <identifier type="sys">HT015419768</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305711</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305711">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305711/2305714/Klanke_Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305711" DMDID="DMD2305711">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305711"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

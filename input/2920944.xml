@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2920944</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Meinolf</namePart>
+  <namePart type="family">Ottensmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">133249155</identifier></name>
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Stoffel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">54854488</identifier></name>
+<name type="personal">
+  <namePart type="given">Hazel</namePart>
+  <namePart type="family">Nichols</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">143225582</identifier></name>
+<name type="personal">
+  <namePart type="given">Joseph</namePart>
+  <namePart type="family">Hoffman</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">23351084</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-5895-8949</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2528935</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Chemical cues are arguably the most fundamental means of animal communication and play an important role in mate choice and kin recognition. Consequently, there is growing interest in the use of gas chromatography (GC) to investigate the chemical basis of eco-evolutionary interactions. Both GC-MS (mass spectrometry) and FID (flame ionization detection) are commonly used to characterise the chemical composition of biological samples such as skin swabs. The resulting chromatograms comprise peaks that are separated according to their retention times and which represent different substances. Across chromatograms of different samples, homologous substances are expected to elute at similar retention times. However, random and often unavoidable experimental variation introduces noise, making the alignment of homologous peaks challenging, particularly with GC-FID data where mass spectral data are lacking. Here we present GCalignR, a user-friendly R package for aligning GC-FID data based on retention times. The package was developed specifically for ecological and evolutionary studies that seek to investigate similarity patterns across multiple and often highly variable biological samples, for example representing different sexes, age classes or reproductive stages. The package also implements dynamic visualisations to facilitate inspection and fine-tuning of the resulting alignments and can be integrated within a broader workflow in R to facilitate downstream multivariate analyses. We demonstrate an example workflow using empirical data from Antarctic fur seals and explore the impact of user-defined parameter values by calculating alignment error rates for multiple datasets. The resulting alignments had low error rates for most of the explored parameter space and we could also show that GCalignR performed equally well or better than other available software. We hope that GCalignR will help to simplify the processing of chemical datasets and improve the standardization and reproducibility of chemical analyses in studies of animal chemical communication and related fields.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="journal.pone.0198311.ottensmann.pdf">https://pub.uni-bielefeld.de/download/2920944/2921259/journal.pone.0198311.ottensmann.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Public Library Science</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>PLOS ONE</title></titleInfo>
+  <identifier type="issn">1932-6203</identifier>
+  <identifier type="MEDLINE">29879149</identifier>
+  <identifier type="ISI">000434384900030</identifier><identifier type="urn">urn:nbn:de:0070-pub-29209443</identifier><identifier type="doi">10.1371/journal.pone.0198311</identifier>
+<part><detail type="volume"><number>13</number></detail><detail type="issue"><number>6</number></detail>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2933772</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<lncs> Ottensmann, M., Stoffel, M., Nichols, H., Hoffman, J.: GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. PLOS ONE. 13, : e0198311 (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ottensmann, Meinolf, Stoffel, Martin, Nichols, Hazel, and Hoffman, Joseph. 2018. “GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies”. &lt;em&gt;PLOS ONE&lt;/em&gt; 13 (6): e0198311.&lt;/div&gt;</chicago>
+<mla>Ottensmann, Meinolf, Stoffel, Martin, Nichols, Hazel, and Hoffman, Joseph. “GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies”. &lt;em&gt;PLOS ONE&lt;/em&gt; 13.6 (2018): e0198311.</mla>
+<default>Ottensmann M, Stoffel M, Nichols H, Hoffman J (2018) &lt;br /&gt;&lt;em&gt;PLOS ONE&lt;/em&gt; 13(6): e0198311.</default>
+<ama>Ottensmann M, Stoffel M, Nichols H, Hoffman J. GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt;. 2018;13(6): e0198311.</ama>
+<frontiers>Ottensmann, M., Stoffel, M., Nichols, H., and Hoffman, J. (2018). GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt; 13:e0198311.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ottensmann, M., Stoffel, M., Nichols, H. &amp;amp; Hoffman, J. (2018). GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(6): e0198311. Public Library Science. doi:10.1371/journal.pone.0198311.&lt;/div&gt;</dgps>
+<apa>Ottensmann, M., Stoffel, M., Nichols, H., &amp;amp; Hoffman, J. (2018). GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(6), e0198311. doi:10.1371/journal.pone.0198311</apa>
+<ieee> M. Ottensmann, et al., “GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies”, &lt;em&gt;PLOS ONE&lt;/em&gt;,  vol. 13, 2018, : e0198311.</ieee>
+<wels>Ottensmann, M.; Stoffel, M.; Nichols, H.; Hoffman, J. (2018): GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies &lt;em&gt;PLOS ONE&lt;/em&gt;,13:(6):e0198311</wels>
+<harvard1>Ottensmann, M., et al., 2018. GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt;, 13(6): e0198311.</harvard1>
+<bio1>Ottensmann M, Stoffel M, Nichols H, Hoffman J (2018) &lt;br /&gt;GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies.&lt;br /&gt;PLOS ONE 13(6): e0198311.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ottensmann, M., Stoffel, M., Nichols, H., &amp;amp; Hoffman, J. (2018). GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies. &lt;em&gt;PLOS ONE&lt;/em&gt;, &lt;em&gt;13&lt;/em&gt;(6), e0198311. doi:10.1371/journal.pone.0198311&lt;/div&gt;</apa_indent>
+<angewandte-chemie>M.  Ottensmann, M.  Stoffel, H.  Nichols, and J.  Hoffman, “GCalignR: An R package for aligning gas-chromatography data for ecological and evolutionary studies”, &lt;em&gt;PLOS ONE&lt;/em&gt;, &lt;strong&gt;2018&lt;/strong&gt;, &lt;em&gt;13&lt;/em&gt;, : e0198311.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2920944</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-07-02T07:19:07Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:47:03Z</recordChangeDate>
+</recordInfo>
+</mods>

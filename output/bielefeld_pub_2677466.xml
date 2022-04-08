@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2677466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computational methods for high-throughput metabolomics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nils</namePart>
+                        <namePart type="family">Hoffmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6540-6875</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Niehaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-05-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The advent of analytical technologies being broadly and routinely applied in biology and biochemistry for the analysis and characterization of small molecules in biological organisms has brought with it the need to process, analyze, compare, and evaluate large amounts of experimental data in a highly automated fashion. The most prominent methods used in these fields are chromatographic methods capable of separating complex mixtures of chemical compounds by properties like size or charge, coupled to mass spectrometry detectors that measure the mass and intensity of a compound&apos;s ion or its fragments eluting from the chromatographic separation system.
+
+One major problem in these high-throughput applications is the automatic extraction of features quantifying the compounds contained in the measured results and their reliable association among multiple measurements for quantification and statistical analysis.
+
+The main goal of this thesis is the creation of scalable and robust methods for highly automated processing of large numbers of samples. Of special importance is  the comparison of different samples in order to find similarities and differences in the context of metabolomics, the study of small chemical compounds in biological organisms.
+
+We herein describe novel algorithms for retention time alignment of peak and chromatogram data from one- and two-dimensional gas chromatography-mass spectrometry experiments in the application area of metabolomics. We also perform a comprehensive evaluation of each method against other state-of-the-art methods on publicly available datasets with genuine biological backgrounds.
+
+In addition to these methods, we also describe the underlying software framework Maltcms and the accompanying graphical user interface Maui, and demonstrate their use on instructive application examples.</abstract>
+                    <subject>
+                        <topic>chromatography</topic>
+                        <topic>mass spectrometry</topic>
+                        <topic>parallel processing</topic>
+                        <topic>workflow</topic>
+                        <topic>metabolomics</topic>
+                        <topic>algorithms</topic>
+                        <topic>GCxGC-MS</topic>
+                        <topic>GC-MS</topic>
+                        <topic>alignment</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26774668</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2677466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2677466">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2677466/2677469/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2677466" DMDID="DMD2677466">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2677466"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

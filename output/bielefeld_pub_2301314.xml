@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301314">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>BRIDGE : a bioinformatics software platform for the integration of heterogeneous data from genomic explorations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7086-2568</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2004-06-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The flood of data acquired from the increasing number of publicly available prokaryote genomes has led to new demands for bioinformatics software. With the growing amount of information resulting from high-throughput experiments new questions arise that often focus on the comparison of genes, genomes and their expression profiles. Inferring new knowledge by combining different kinds of &quot;post genomics&quot; data obviously necessitates the development of new approaches that allow the integration of variable data sources into a flexible framework. This work describes a concept for the integration of heterogeneous data into a platform for systems biology. Several specialized components were developed for separate scopes (GenDB for genome annotation, EMMA for transcriptome data analysis, ProDB for proteome analysis and GOPArc as a Gene Ontology and pathway architecture). A project management system was established for combining different data sources. In addition to an application programmer&apos;s interface (API) all components can be used via a web front-end and/or a graphical user interface.</abstract>
+                    <subject>
+                        <topic>Genanalyse</topic>
+                        <topic>Datenintegration</topic>
+                        <topic>Objektorientiertes Datenbanksystem</topic>
+                        <topic>Softwareproduktionsumgebung</topic>
+                        <topic>Objektrelationales Datenbanksystem</topic>
+                        <topic>Genomprojekt</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-5402</identifier>
+                    <identifier type="sys">HT014294012</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301314</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301314">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301314/2301317/BRIDGE.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301314" DMDID="DMD2301314">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301314"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2552092">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Unraveling overlapping deletions by agglomerative clustering</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roland</namePart>
+                        <namePart type="family">Wittler</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2249-9880</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Structural variations in human genomes, such as deletions, play an important role in cancer development. Next-Generation Sequencing technologies have been central in providing ways to detect such variations. Methods like paired-end mapping allow to simultaneously analyze data from several samples in order to, e.g., distinguish tumor from patient specific variations. However, it has been shown that, especially in this setting, there is a need to explicitly take overlapping deletions into consideration. Existing tools have only minor capabilities to call overlapping deletions, unable to unravel complex signals to obtain consistent predictions.
+Result
+
+We present a first approach specifically designed to cluster short-read paired-end data into possibly overlapping deletion predictions. The method does not make any assumptions on the composition of the data, such as the number of samples, heterogeneity, polyploidy, etc. Taking paired ends mapped to a reference genome as input, it iteratively merges mappings to clusters based on a similarity score that takes both the putative location and size of a deletion into account.
+Conclusion
+
+We demonstrate that agglomerative clustering is suitable to predict deletions. Analyzing real data from three samples of a cancer patient, we found putatively overlapping deletions and observed that, as a side-effect, erroneous mappings are mostly identified as singleton clusters. An evaluation on simulated data shows, compared to other methods which can output overlapping clusters, high accuracy in separating overlapping from single deletions.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1471-2164</identifier>
+                    <identifier type="MEDLINE">23369161</identifier>
+                    <identifier type="ISI">000314471000012</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25520927</identifier>
+                    <identifier type="doi">10.1186/1471-2164-14-S1-S12</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2552092</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2552092">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2552092/2552096/1471-2164-14-S1-S12.wittler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2552092">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2552092/2576631/correctedArticle.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2552092" DMDID="DMD2552092">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2552092"/>
+            <mets:div TYPE="part" ID="PART1_2552092" LABEL="correctedArticle.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2552092"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

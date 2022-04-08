@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2912187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An empirical validation protocol for large-scale agent-based models</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sylvain</namePart>
+                        <namePart type="family">Barde</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sander</namePart>
+                        <namePart type="family">van der Hoog</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2348-3194</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Despite recent advances in bringing agent-based models (ABMs) to the data, the estimation or calibration of model parameters remains a challenge, especially when it comes to large-scale agent-based macroeconomic models. Most methods, such as the method of simulated moments (MSM), require in-the-loop simulation of new data, which may not be feasible for such computationally heavy simulation models.
+
+The purpose of this paper is to provide a proof-of-concept of a generic empirical validation methodology for such large-scale simulation models. We introduce an alternative `large-scale&apos; empirical validation approach, and apply it to the Eurace@Unibi macroeconomic simulation model (\citealp{Dawid_2016}). This model was selected because it displays strong emergent behaviour and is able to generate a wide variety of nonlinear economic dynamics, including endogenous business- and financial cycles. In addition, it is a computationally heavy simulation model, so it fits our targeted use-case.
+
+The validation protocol consists of three stages. At the first stage we use Nearly-Orthogonal Latin Hypercube sampling (NOLH) in order to generate a set of 513 parameter combinations with good space-filling properties. At the second stage we use the recently developed Markov Information Criterion (MIC) to score the simulated data against empirical data. Finally, at the third stage we use stochastic kriging to construct a surrogate model of the MIC response surface, resulting in an interpolation of the response surface as a function of the parameters. The parameter combinations providing the best fit to the data are then identified as the local minima of the interpolated MIC response surface.
+
+The Model Confidence Set (MCS) procedure of \citet{Hansen_et_al_2011} is used to restrict the set of model calibrations to those models that cannot be rejected to have equal predictive ability, at a given confidence level. Validation of the surrogate model is carried out by re-running the second stage of the analysis on the so identified optima and cross-checking that the realised MIC scores equal the MIC scores predicted by the surrogate model.
+
+The results we obtain so far look promising as a first proof-of-concept for the empirical validation methodology since we are able to validate the model using empirical data series for 30 OECD countries and the euro rea. The internal validation procedure of the surrogate model also suggests that the combination of NOLH sampling, MIC measurement and stochastic kriging yields reliable predictions of the MIC scores for samples not included in the original NOLH sample set. In our opinion, this is a strong indication that the method we propose could provide a viable statistical machine learning technique for the empirical validation of (large-scale) ABMs.</abstract>
+                    <subject>
+                        <topic>Statistical machine learning</topic>
+                        <topic>surrogate modelling</topic>
+                        <topic>empirical validation</topic>
+                        <topic>etace_WP</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>04-2017</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>42</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29121875</identifier>
+                    <identifier type="doi">10.4119/unibi/2912187</identifier>
+                    <identifier type="sys">HT020610418</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2912187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2912187">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2912187/2912206/Empirical+validation+protocol+%28WP+Unibi+SSRN%29.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2912187" DMDID="DMD2912187">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2912187"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301939">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Phylogeny-based analysis of gene clusters</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Phylogenie-basierte Analyse von Genclustern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roland</namePart>
+                        <namePart type="family">Wittler</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2249-9880</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-02-22</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Durch die Erforschung von verwandtschaftlichen Beziehungen, der Phylogenie, verschiedener Spezies erlangen wir umfassende Informationen über deren Evolution. Ein Ansatz für die Rekonstruktion phylogenetischer Szenarien oder zum Vergleich von Genomen ist die Untersuchung des Erbguts auf Ebene der DNA-, RNA- oder Proteinsequenzen. Eine weitere Herangehensweise ist das Studium der Struktur der Genome. Auf dieser höheren Ebene betrachtet man oft die Reihenfolge der Gene innerhalb des Genoms.
+Evolutionäre Prozesse führen zu strukturellen Veränderungen im Genom und somit zu einer Umordnung der Genfolgen. Die Genzusammenstellung in einigen Bereichen bleibt dabei jedoch erhalten und findet sich in mehreren, verwandten Genomen. Diese Abschnitte mit den darin enthaltenen Genen werden als Gencluster bezeichnet. Studien konnten zeigen, dass solche konservierten Regionen oftmals Gene enthalten, deren Funktionen einem gemeinsamen Kontext zuzuordnen sind oder die evolutionär zusammenhängen. So kann das Auffinden und der Vergleich von Genclustern wertvolle Hinweise auf die Funktion oder die evolutionäre Entwicklung von Genen geben.
+In der Literatur werden zahlreiche formale Definitionen für Gencluster, basierend auf verschiedenen Modellen für Genordnungen, diskutiert und analysiert. In dieser Forschungsarbeit wird ein allgemeines Konzept von Genclustern eingeführt, welches einerseits so flexibel ist, dass es eine Vielzahl von Gencluster-Modellen umfasst, aber andererseits konkret genug ist, um Folgedefinitionen, theoretische Betrachtungen und algorithmische Vorgehensweisen darauf aufzubauen.
+Wenn die Genome mehrerer Spezies denselben Gencluster aufweisen, wurde dieser vermutlich von einem gemeinsamen Vorfahren geerbt. Ein Kernpunkt dieser Arbeit ist die Entwicklung und Untersuchung einer Methode, welche aus den Genordnungen heute lebender Spezies auf Basis ihrer Phylogenie Gencluster ihrer Vorfahren rekonstruiert. Die Betrachtung von Genclustern in einem evolutionären Zusammenhang gibt Aufschlüsse über die strukturelle Entwicklung von Genomen, die Evolution von Genclustern im Allgemeinen, aber auch die Entstehung und Entwicklung von bestimmten Genclustern.
+Ein Kriterium, das für die Rekonstruktion zugrunde gelegt wird, ist das sog. Parsimony-Prinzip, welches besonders im Kontext der Phylogenie oft Verwendung findet. Bei diesem Verfahren wird ein Szenario gesucht, welches die beobachteten Daten mit möglichst wenigen evolutionären Ereignissen erklärt. In diesem Fall sollen den Vorfahrspezies Gencluster so zugeordnet werden, dass die Anzahl an Neuentstehungen und Verlusten von Clustern, die sich durch das Szenario ergeben würden, minimal ist. Eine solche Zuordnung lässt sich mit Hilfe bekannter Methoden, z.B. des Fitch-Hartigan-Algorithmus, effizient bestimmen.
+Abhängig vom verwendeten Modell für die Genordnung und Gencluster, können die auf diese Weise für einen Vorfahren bestimmten Gencluster Widersprüche aufweisen. Das heißt, es gäbe keine in diesem Modell gültige Anordnung von Genen, die alle rekonstruierten Cluster enthält. Dies legt ein weiteres Kriterium nahe: die Forderung nach Konsistenz. Die Überprüfung dieser Eigenschaft ist jedoch eine komplexe Aufgabe. Im Rahmen dieser Arbeit wurde für verschiedene Modelle überprüft, wie bzw. ob dieses Problem effizient gelöst werden kann. Die Resultate reichen von Algorithmen, welche die Eigenschaft der Konsistenz für das Modell der konservierten Nachbarschaften mit linearem Zeitaufwand prüfen, bis zum Nachweis der NP-Vollständigkeit für komplexere Modelle, die beweisen, dass die Überprüfung der Konsistenz zu einer Klasse von sehr schwer lösbaren Problemen gehört.
+Als Zielsetzung der Rekonstruktion wird eine Kombination aus beiden Eigenschaften definiert. Unter allen konsistenten Zuordnungen wird eine solche gesucht, welche die Anzahl an Entstehungen und Verlusten von Genclustern minimiert. Es konnte ein wichtiger Zusammenhang zwischen beiden Kriterien gezeigt werden, auf welchem der entwickelte Rekonstruktionsalgorithmus aufbaut. Dieser berechnet exakte Ergebnisse in praktikablen Laufzeiten. Eine umfassende Evaluation auf Basis simulierter Daten zeigte, dass unabhängig vom Modell nahezu alle rekonstruierten Gencluster korrekt waren, und je nach simulierter evolutionärer Distanz der Spezies hinreichend viele der theoretisch vorhandenen Cluster gefunden wurden.
+Die Anwendung der Methode auf Genomdaten von Corynebakterien unter der Verwendung von verschiedenen Genclustermodellen zeigte unter anderem, dass die Ergebnisse nur sehr wenig vom verwendeten Modell abhängen, da die Reihenfolge der Gene in konservierten Bereichen meist vollständig erhalten war. In Zusammenarbeit mit Biologen konnte bestätigt werden, dass die rekonstruierten, evolutionären Szenarien sinnvoll sind. Darüber hinaus konnte exemplarisch gezeigt werden, dass die erhaltenen Ergebnisse neue Fragestellungen aufwerfen, auf Fehler in den Eingabedaten hinweisen und für weiterführende Analysen verwendet werden können.</abstract>
+                    <abstract lang="eng">The exploration of the ancestral history, the phylogeny, of different species can raise valuable information about their evolution. One approach for the reconstruction of phylogenetic scenarios or for the comparison of genomes is the examination of the genetic material on the level of the DNA, RNA or protein sequences. Another possibility is to study the genomic structure. On this higher level, one commonly considers the order of the genes within the genome.
+Evolutionary processes can modify a genome structurally and rearrange its gene order. The gene composition of some regions, however, is preserved and can be found in several related genomes. These segments and the contained genes are denoted as gene clusters. Studies revealed that such conserved regions often comprise functionally or phylogenetically related genes. The identification and comparison of gene clusters can therefore give valuable hints on their function or the evolution of genes.
+Various formal definitions of gene clusters based on different models of gene order are discussed and analyzed in the literature. In this thesis, we introduce a general concept of gene clusters which, on the one hand, is flexible enough to cover a variety of gene clusters models and, on the other hand, is concrete enough to build the basis for follow-up definitions, theoretical considerations and algorithmical approaches.
+If the genomes of several species comprise the same gene cluster, it was probably inherited from a common ancestor. A major aim of this project is the development and evaluation of a method that reconstructs ancestral gene clusters from the gene order of contemporary species based on their phylogeny. The analysis of gene clusters in an evolutionary context offers clues about the structural development of genomes, the evolution of gene clusters in general, but also about the origin and development of specific clusters.
+One criterion the reconstruction is based on is the so-called parsimony principle, which is commonly used, especially in the field of phylogenetics. The objective of this approach is a scenario which explains the observed data by assuming as few evolutionary events as possible. Here, we want to assign gene clusters to ancestral species in such a way that the number of gains and losses of clusters implied by the scenario is minimized. Such an assignment can be determined efficiently by well known algorithms, for instance the method by Fitch and Hartigan.
+Depending on the underlying model of gene order and gene clusters, the clusters obtained for one ancestor in this manner can be conflicting. That means, in the considered model, there is no putative order of genes that contains all reconstructed clusters. Thus, a further criterion should be considered: the requirement of consistency. However, the verification of this property is a complex task. Within the scope of this thesis, we discuss whether and how this problem can be solved efficiently for different models. Our results range from algorithms which verify consistency for the model of conserved adjacencies in linear time to the confirmation of NP-completeness for more complex models proving that the verification of consistency belongs to a class of very hard problems.
+We define the objective of the reconstruction as a combination of both properties. Among all consistent assignments, we seek for those which minimize the number of gains and losses of gene clusters. We revealed an important connection between both criteria. Based on this, we developed an algorithm that finds exact solutions in practical running times. A broad evaluation on simulated data showed that, independent of the considered model, almost all reconstructed clusters were correct and, depending on the simulated evolutionary distances of the species, adequately many of the theoretically present clusters were found.
+We applied the method on genomic data of Corynebacteria using different gene cluster models. This study indicates that reconstruction results hardly depend on the utilized gene cluster model since the order of genes in conserved segments was preserved exactly in most cases. In cooperation with biologists, we confirmed evolutionary scenarios reconstructed by our method to be reasonable. Furthermore, we exemplified how our results can raise new open questions, indicate errors in the input data, and can be used for further analyses.</abstract>
+                    <subject>
+                        <topic>Genom</topic>
+                        <topic>Gencluster</topic>
+                        <topic>Genreihenfolge</topic>
+                        <topic>Genomvergleich</topic>
+                        <topic>Corynebakterium</topic>
+                        <topic>Whole genome comparison</topic>
+                        <topic>Phylogenie</topic>
+                        <topic>Corynebacteria</topic>
+                        <topic>Gene order</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16277</identifier>
+                    <identifier type="sys">HT016375386</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301939</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301939">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301939/2301942/phd_thesis_wittler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301939" DMDID="DMD2301939">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301939"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

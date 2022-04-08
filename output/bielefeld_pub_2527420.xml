@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2527420">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Stochastic synaptic plasticity in deterministic aVLSI networks of spiking neurons</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">S.</namePart>
+                        <namePart type="family">Fusi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Rattay</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Stochastic learning solves the stability-plasticity problem (Fusi et al., 2000a)
+but raises new issues related to the generation of the proper noise driving
+the synaptic dynamics. Here we show that a simple, fully deterministic,
+spike-driven synaptic device can make use of the network generated vari-
+ability in the neuronal activity to drive the required stochastic mechanism.
+Randomness emerges naturally from the interaction of deterministic neu-
+rons, and no extra source of noise is needed. Learning and forgetting
+rates of the network can be easily controlled by changing the statistics of
+the spike trains without changing any inherent parameter of the synaptic
+dynamics.</abstract>
+                    <subject>
+                        <topic>VLSI</topic>
+                        <topic>learning</topic>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25274206</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2527420</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2527420">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2527420/2527424/Stochastic_synaptic_plasticity_in_deterministic_aVLSI_networks_of_spiking_neurons.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2527420" DMDID="DMD2527420">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2527420"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

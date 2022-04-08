@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943115">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Decentralized control of insect walking:Asimple neural network explains a wide range of behavioral and neurophysiological results.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Malte</namePart>
+                        <namePart type="family">Schilling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0849-483X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Controlling the six legs of an insect walking in an unpredictable environment is a challenging task, as many degrees of freedom have to be coordinated. Solutions proposed to deal with this task are usually based on the highly influential concept that (sensory-modulated) central pattern generators (CPG) are required to control the rhythmic movements of walking legs. Here, we investigate a different view. To this end, we introduce a sensor based controller operating on artificial neurons, being applied to a (simulated) insectoid robot required to exploit the &quot;loop through the world&quot; allowing for simplification of neural computation. We show that such a decentralized solution leads to adaptive behavior when facing uncertain environments which we demonstrate for a broad range of behaviors never dealt with in a single system by earlier approaches. This includes the ability to produce footfall patterns such as velocity dependent &quot;tripod&quot;, &quot;tetrapod&quot;, &quot;pentapod&quot; as well as various stable intermediate patterns as observed in stick insects and in Drosophila. These patterns are found to be stable against disturbances and when starting from various leg configurations. Our neuronal architecture easily allows for starting or interrupting a walk, all being difficult for CPG controlled solutions. Furthermore, negotiation of curves and walking on a treadmill with various treatments of individual legs is possible as well as backward walking and performing short steps. This approach can as well account for the neurophysiological results usually interpreted to support the idea that CPGs form the basis of walking, although our approach is not relying on explicit CPG-like structures. Application of CPGs may however be required for very fast walking. Our neuronal structure allows to pinpoint specific neurons known from various insect studies. Interestingly, specific common properties observed in both insects and crustaceans suggest a significance of our controller beyond the realm of insects.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS computational biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1553-7358</identifier>
+                    <identifier type="MEDLINE">32339162</identifier>
+                    <identifier type="ISI">000531366700020</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29431152</identifier>
+                    <identifier type="doi">10.1371/journal.pcbi.1007804</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943115</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943115">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943115/2944343/journal.pcbi.1007804.schilling.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943115" DMDID="DMD2943115">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943115"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

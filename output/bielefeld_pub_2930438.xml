@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2930438">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the Singular Control of Exchange Rates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tiziano</namePart>
+                        <namePart type="family">Vargiolu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Consider the problem of a central bank that wants to manage the exchange
+rate between its domestic currency and a foreign one. The central bank can
+purchase and sell the foreign currency, and each intervention on the exchange market
+leads to a proportional cost whose instantaneous marginal value depends on the
+current level of the exchange rate. The central bank aims at minimizing the total
+expected costs of interventions on the exchange market, plus a total expected holding
+cost. We formulate this problem as an infinite time-horizon stochastic control problem
+with controls that have paths which are locally of bounded variation. The exchange
+rate evolves as a general linearly controlled one-dimensional diffusion, and the two
+nondecreasing processes giving the minimal decomposition of a bounded-variation
+control model the cumulative amount of foreign currency that has been purchased
+and sold by the central bank. We provide a complete solution to this problem by
+finding the explicit expression of the value function and a complete characterization
+of the optimal control. At each instant of time, the optimally controlled exchange rate
+is kept within a band whose size is endogenously determined as part of the solution to
+the problem. We also study the expected exit time from the band, and the sensitivity
+of the width of the band with respect to the model&apos;s parameters in the case when
+the exchange rate evolves (in absence of any intervention) as an Ornstein-Uhlenbeck
+process, and the marginal costs of controls are constant. The techniques employed in
+the paper are those of the theory of singular stochastic control and of one-dimensional diffusions</abstract>
+                    <subject>
+                        <topic>singular stochastic control</topic>
+                        <topic>exchange rates</topic>
+                        <topic>target zones</topic>
+                        <topic>central bank</topic>
+                        <topic>variational inequality</topic>
+                        <topic>optimal stopping</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>594</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>36</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29304388</identifier>
+                    <identifier type="sys">HT019950307</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2930438</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2930438">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2930438/2930439/IMW_working_paper_594.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2930438" DMDID="DMD2930438">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2930438"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

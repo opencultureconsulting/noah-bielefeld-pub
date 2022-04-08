@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2905878</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:590</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Emily</namePart>
+  <namePart type="family">Humble</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">51414992</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-6841-1269</description></name>
+<name type="personal">
+  <namePart type="given">Michael A. S.</namePart>
+  <namePart type="family">Thorne</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Jaume</namePart>
+  <namePart type="family">Forcada</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Joseph</namePart>
+  <namePart type="family">Hoffman</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">23351084</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-5895-8949</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2528935</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+Single nucleotide polymorphism (SNP) discovery is an important goal of many studies. However, the number of ‘putative’ SNPs discovered from a sequence resource may not provide a reliable indication of the number that will successfully validate with a given genotyping technology. For this it may be necessary to account for factors such as the method used for SNP discovery and the type of sequence data from which it originates, suitability of the SNP flanking sequences for probe design, and genomic context. To explore the relative importance of these and other factors, we used Illumina sequencing to augment an existing Roche 454 transcriptome assembly for the Antarctic fur seal (Arctocephalus gazella). We then mapped the raw Illumina reads to the new hybrid transcriptome using BWA and BOWTIE2 before calling SNPs with GATK. The resulting markers were pooled with two existing sets of SNPs called from the original 454 assembly using NEWBLER and SWAP454. Finally, we explored the extent to which SNPs discovered using these four methods overlapped and predicted the corresponding validation outcomes for both Illumina Infinium iSelect HD and Affymetrix Axiom arrays.
+Results
+
+Collating markers across all discovery methods resulted in a global list of 34,718 SNPs. However, concordance between the methods was surprisingly poor, with only 51.0 % of SNPs being discovered by more than one method and 13.5 % being called from both the 454 and Illumina datasets. Using a predictive modeling approach, we could also show that SNPs called from the Illumina data were on average more likely to successfully validate, as were SNPs called by more than one method. Above and beyond this pattern, predicted validation outcomes were also consistently better for Affymetrix Axiom arrays.
+Conclusions
+
+Our results suggest that focusing on SNPs called by more than one method could potentially improve validation outcomes. They also highlight possible differences between alternative genotyping technologies that could be explored in future studies of non-model organisms.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="bmcgen.art%3A10.1186%2Fs13104-016-2209-x.humble.pdf">https://pub.uni-bielefeld.de/download/2905878/2905879/bmcgen.art%3A10.1186%2Fs13104-016-2209-x.humble.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Nature</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Transcriptome Roche 454 sequencing Illumina HiSeq sequencing Single nucleotide polymorphism Validation success Marine mammal Antarctic fur seal Arctocephalus gazella</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>BMC Research Notes</title></titleInfo>
+  <identifier type="issn">1756-0500</identifier><identifier type="urn">urn:nbn:de:0070-pub-29058785</identifier><identifier type="doi">10.1186/s13104-016-2209-x</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2930356</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<default>Humble E, Thorne MAS, Forcada J, Hoffman J (2016) &lt;br /&gt;&lt;em&gt;BMC Research Notes&lt;/em&gt; 9(1): 418.</default>
+<mla>Humble, Emily, Thorne, Michael A. S., Forcada, Jaume, and Hoffman, Joseph. “Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success”. &lt;em&gt;BMC Research Notes&lt;/em&gt; 9.1 (2016): 418.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Humble, Emily, Thorne, Michael A. S., Forcada, Jaume, and Hoffman, Joseph. 2016. “Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success”. &lt;em&gt;BMC Research Notes&lt;/em&gt; 9 (1): 418.&lt;/div&gt;</chicago>
+<lncs> Humble, E., Thorne, M.A.S., Forcada, J., Hoffman, J.: Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. BMC Research Notes. 9, : 418 (2016).</lncs>
+<ieee> E. Humble, et al., “Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success”, &lt;em&gt;BMC Research Notes&lt;/em&gt;,  vol. 9, 2016, : 418.</ieee>
+<apa>Humble, E., Thorne, M. A. S., Forcada, J., &amp;amp; Hoffman, J. (2016). Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 418. doi:10.1186/s13104-016-2209-x</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Humble, E., Thorne, M.A.S., Forcada, J. &amp;amp; Hoffman, J. (2016). Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1): 418. Springer Nature. doi:10.1186/s13104-016-2209-x.&lt;/div&gt;</dgps>
+<frontiers>Humble, E., Thorne, M. A. S., Forcada, J., and Hoffman, J. (2016). Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt; 9:418.</frontiers>
+<ama>Humble E, Thorne MAS, Forcada J, Hoffman J. Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt;. 2016;9(1): 418.</ama>
+<angewandte-chemie>E.  Humble, M. A. S.  Thorne, J.  Forcada, and J.  Hoffman, “Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success”, &lt;em&gt;BMC Research Notes&lt;/em&gt;, &lt;strong&gt;2016&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, : 418.</angewandte-chemie>
+<bio1>Humble E, Thorne MAS, Forcada J, Hoffman J (2016) &lt;br /&gt;Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success.&lt;br /&gt;BMC Research Notes 9(1): 418.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Humble, E., Thorne, M. A. S., Forcada, J., &amp;amp; Hoffman, J. (2016). Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 418. doi:10.1186/s13104-016-2209-x&lt;/div&gt;</apa_indent>
+<harvard1>Humble, E., et al., 2016. Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success. &lt;em&gt;BMC Research Notes&lt;/em&gt;, 9(1): 418.</harvard1>
+<wels>Humble, E.; Thorne, M. A. S.; Forcada, J.; Hoffman, J. (2016): Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success &lt;em&gt;BMC Research Notes&lt;/em&gt;,9:(1):418</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2905878</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-09-27T10:06:17Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-16T11:26:02Z</recordChangeDate>
+</recordInfo>
+</mods>

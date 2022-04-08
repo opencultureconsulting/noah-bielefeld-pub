@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1780992">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Objektorientierte Systemanalyse und Prototyping</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Spitta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1992</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">The article has three goals: 1. To emphasize system construction as the decision with most consequences in software development and to show solutions; 2. to demonstrate the all over applicability of object oriented techniques; 3. to underline the necessity of a unique view of software and data engineering and to emphasize, that a change of paradigms in software engineering is overdue. The most important statements: Systems have to be constructed, they don´t “fall from heaven”. A top down design of software systems is impossible: hierarchies of data (inheritance!) grow bottom up by abstraction. Transformation oriented methods (SA. SADT, RSL, ISAC etc.) are too expensive and cause breaks in structures : therefore they have to be “garbaged” from teaching and application.</abstract>
+                    <abstract lang="eng">Der Beitrag hat drei Ziele: 1. Die Systembildung als folgenreichste konstitutive Entscheidung bei der Softwareentwicklung hervorzuheben und Lösungen aufzuzeigen; 2. die Durchgängigkeit objektorientierter Techniken zu demonstrieren; 3. die Notwendigkeit einer einheitlichen Sicht von Software und Data Engineering zu unterstreichen und damit deutlich zu machen, dass ein Paradigmenwechsel im Software Engineering überfällig ist. Die wichtigsten Aussagen: Systeme sind zu konstruieren, sie „fallen nicht vom Himmel“. Ein Top-down-Entwurf von Softwaresystemen ist nicht möglich: Hierarchien von Daten (Vererbung!) entstehen bottom up durch Abstraktion, Transformationsorientierte Spezifikationsmethoden (SA, SADT, RSL, ISAC und andere) sind zu aufwendig und führen zu Strukturbrüchen: Sie sind daher aus Lehre und Anwendung zu „entsorgen“.</abstract>
+                    <subject>
+                        <topic>Prototyping</topic>
+                        <topic>Software Engineering</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Information Management</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>60</start>
+                                <end>64</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0930-5181</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-23228</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1780992</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1780992">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1780992/2313130/Spitta_020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1780992" DMDID="DMD1780992">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1780992"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

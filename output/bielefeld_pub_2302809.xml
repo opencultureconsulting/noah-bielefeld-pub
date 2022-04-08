@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302809">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Density matrix renormalisation applied to nonlinear dynamical systems</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Dichtematrix-Renormierung, angewandt auf nichtlineare dynamische Systeme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Bogner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philippe</namePart>
+                        <namePart type="family">Blanchard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-09-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In dieser Dissertation wird die effektive numerische Beschreibung nichtlinearer dynamischer Systeme untersucht.
+Systeme dieser Art tauchen praktisch überall auf, wo zeitabhängige Größen quantitativ untersucht werden, d.h. in fast allen Bereichen der Physik, aber auch in der Biologie, Ökonomie oder Mathematik.
+Ziel ist die Bestimmung reduzierter Modelle, deren Phasenraum eine signifikant reduzierte Dimensionalität aufweist. Dies wird erreicht durch Benutzung von Konzepten aus der Dichtematrix-Renormierung.
+In dieser Arbeit werden drei neue Anwendungen vorgeschlagen. Zuerst wird eine Dichtematrix-Renormierungsmethode zur Berechnung einer Schur-Zerlegung vorgestellt. Verglichen mit bereits existierenden Arbeiten liegt der Vorteil dieses Ansatzes in der Möglichkeit, auch für nicht-normale Operatoren orthonormale Basen von sukzessive invarianten Unterräumen zu bestimmen.
+Der Algorithmus wird dann angewandt auf Gittermodelle stochastischer Systeme, wobei als Beispiele ein Reaktions-Diffusions- und ein Oberflächenablagerungs-Modell dienen.
+Als Nächstes wird ein Dichtematrix-Renormierungsansatz für die orthogonale Zerlegung (proper orthogonal decomposition) entwickelt. Diese Zerlegung erlaubt die Bestimmung relevanter linearer Unterräume auch für nichtlineare Systeme.
+Durch die Verwendung der Dichtematrix-Renormierung werden alle Berechnungen nur für kleine Untersysteme durchgeführt. Dabei werden diskretisierte partielle Differentialgleichungen, d.h. die Diffusionsgleichung, die Burgers-Gleichung und eine nichtlineare Diffusionsgleichung als numerische Beispiele betrachtet.
+Schließlich wird das vorige Konzept auf höherdimensionale Probleme in Form eines Variationsverfahrens erweitert. Dies Verfahren wird dann an den zweidimensionalen Navier-Stokes-Gleichungen erprobt.</abstract>
+                    <abstract lang="eng">In this work the effective numerical description of nonlinear dynamical systems is investigated.
+Such systems arise in most fields of physics, as well as in mathematics, biology, economy and essentially in all problems for which a quantitative description of a time evolution is considered.
+The aim is to find reduced models with a phase space of significantly reduced dimensionality. This is achieved by the use of concepts from density matrix renormalisation.
+Three new applications are proposed in this work. First, a density matrix renormalisation method for calculating a Schur decomposition is introduced.
+The advantage of this approach, compared to existing work, is the possibility to obtain orthonormal bases for successively invariant subspaces even if the generator of evolution is not normal.
+The algorithm is applied to lattice models for stochastic systems, namely a reaction diffusion and a surface deposition model.
+Next, a density matrix renormalisation approach to the proper orthogonal decomposition is developed.
+This allows the determination of relevant linear subspaces even for nonlinear systems. Due to the use of density matrix renormalisation concepts, all calculations are done on small subsystems. Here discretised partial differential equations, i.e. the diffusion equation, the Burgers equation and a nonlinear diffusion equation are considered as numerical examples.
+Finally, the previous concept is extended to higher dimensional problems in a variational form. This method is then applied to the two-dimensional, incompressible Navier-Stokes equations as testing ground.</abstract>
+                    <subject>
+                        <topic>Nichtlineares dynamisches System , Dichtematrix , Renormierungsgruppe , Burgers-Gleichung , Navier-Stokes-Gleichung , Dichtematrix-Renormierung , Modellreduktion , Stochastische Dynamik , Reaktions-Diffusions-Modell , Density matrix renormalisation , Model reduction , Proper orthogonal decomposition , Stochastic dynamics , Reaction diffusion model</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11664</identifier>
+                    <identifier type="sys">HT015362595</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302809</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302809">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302809/2302812/phd.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302809" DMDID="DMD2302809">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302809"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

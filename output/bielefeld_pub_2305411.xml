@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305411">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Rare event simulation for probabilistic models of T-cell activation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Lipsmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ellen</namePart>
+                        <namePart type="family">Baake</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-07-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">One of the central questions in immunobiology is: How does the immune system reliably distinguish between antigens of our own body and foreign antigens? This ability is critical for our survival. One of the major cell types involved in these decisions are the so called T-cells, which are specialized white blood cells with a detection mechanism that is not fully explained until now. There is not a one to one specificity between T-cells and antigens. T-cells have to be cross-reactive, that is they have to be able to be activated by several antigens.
+The usual mathematical models in immunobiology are deterministic ones and therefore not applicable to the given problem. We need probabilistic approaches in order to describe the problem properly, because of the huge amount of possible receptor-antigen-combinations and the fact that a given T-cell is not confronted with individual antigens but has to make its decision when being in contact with so called antigen presenting cells (APC) which present a huge amount of antigens on their surface.
+This thesis deals with the probabilistic modeling and efficient simulation of models which describe the mechanism of T-cell activation and foreign-self discrimination. Because of the complexity of the topic, the first part of the thesis forms a review of the recent experimental findings with regard to T-cell immunology. Afterwards we introduce the already existing first probabilistic model of T-cell activation developed by van den Berg, Rand and Burroughs (BRB).
+The second part of this thesis is concerned with the simulation and analysis of this model. As T-cell activation is a rare event, that is the probability of T-cell activation is very low, we cannot analyze the model with the usual simple sampling strategies, but rely on the so-called importance sampling approach. With the help of large deviation theory we are able to construct an efficient simulation algorithm, which uses special alternative distributions for sampling for which we can proof asymptotic efficiency.
+In our analysis of the BRB model we are able to show that it can explain foreign-self discrimination and explain how this comes about in the model. We are also able to show where the defects of the model are, especially with regard to the biological relevance.
+Consequently, in the third part of this thesis we develop a new model of T-cell activation. One major improvement in this model is, that we are able to integrate negative selection which is a process during T-cell maturation where T-cells that are to self-reactive are induced to die. Again, we have to adapt and develop new simulation algorithms for the analysis of this model. We are then able to show that our new model is able to explain foreign-self discrimination with parameters that are biologically much more plausible than in the BRB model.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17386</identifier>
+                    <identifier type="sys">HT016589222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305411</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305411">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305411/2305414/lipsmeier_dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305411" DMDID="DMD2305411">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305411"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

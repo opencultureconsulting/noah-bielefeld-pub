@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301983">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>SEMEDA (Semantic Meta-Database) : ontology based semantic integration of biological databases</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jacob</namePart>
+                        <namePart type="family">Köhler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-07-06</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The work presented in this thesis is outlined in the following. The state of the art in the relevant disciplines is introduced and reviewed in chapter 2. This includes on the one hand the current state of molecular biological databases, their heterogeneity and the integration of molecular biological databases. On the other hand the current usage of ontologies in general and with special regard to database integration is described. 
+The principles of semantic database integration as introduced in this thesis are new and suitable to be used also in other database integration systems, which have to deal with a high number of semantically heterogeneous databases. Therefore in Chapter 3 the newly introduced principles for ontology based semantic database integration are presented independent of their implementation.
+Chapter 4 introduces the requirements for the implementation of a semantic database integration system (SEMEDA). Several general requirements for the integration of molecular biological systems from the scientific literature are discussed with regard to the feasibility of their implementation in general and in SEMEDA. In addition, the requirements specific to semantic database integration are introduced. In addition how the BioDataServer is used to overcome &quot;technical&quot; heterogeneity, so that SEMEDA only has to deal with semantic heterogeneity is analysed.
+In chapter 5, an appropriate data structure for storing ontologies, database metadata and the semantic definitions as described in Chapter 3 is developed. Subsequently, it is discussed how this data structure can be edited and queried. In Chapter 6, SEMEDAs software design, implementation and system architecture is given.
+Chapter 7 describes the use of SEMEDA and its interfaces. The user interface SEMEDA-edit is used to collaboratively edit ontologies and to semantically define databases using ontologies. SEMEDA-query is the query interface that provides uniform access to heterogeneous databases. In addition, a set of procedures exists which can be used by external applications.
+In order to use SEMEDA to semantically define databases, an appropriate ontology is needed. Although SEMEDA allows building ontologies from the scratch, due to the fact that generating ontologies is a labour intensive time-consuming task, it would be preferable to use an existing ontology. Therefore, in chapter 8 several ontologies were evaluated for their usability in SEMEDA. The intention was to find out if a suitable ontology can be found and imported or whether it is more appropriate to build a custom ontology for SEMEDA.
+It turned out that the existing ontologies were not well suited for semantic database integration. In chapter 9 general and SEMEDA specific ontology design principles are introduced which were then followed to build a custom ontology for database integration. The structure of this custom ontology and some issues concerning its use for semantic database integration are explained. 
+In chapter 10, the practical use of SEMEDA is described by two examples. The first section of this chapter shows how SEMEDA supports the building of user schemata for the BioDataServer. The second section describes how the clone database of the RZPD Berlin (Deutsches Ressourcenzentrum für Genomforschung GmbH) is connected to SEMEDA and thus linked to the other databases.
+In the discussion (chapter 11) SEMEDA is compared to existing database integration systems, especially other ontology based integration systems. It is further discussed how principles for semantic database integration apply to other database integration systems and how they might be implemented there. A database mirror is proposed to improve the overall performance of SEMEDA and the BioDataServer.</abstract>
+                    <subject>
+                        <topic>Föderiertes Datenbanksystem</topic>
+                        <topic>Molekularbiologie</topic>
+                        <topic>Metadatenmodell</topic>
+                        <topic>Semantisches Datenmodell</topic>
+                        <topic>Datenintegration</topic>
+                        <topic>Formale Ontologie</topic>
+                        <topic>Ontologie</topic>
+                        <topic>Datenbank</topic>
+                        <topic>Föderiertes Datenbanksystem</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>Semantic database integration</topic>
+                        <topic>Database federation</topic>
+                        <topic>Database mediation</topic>
+                        <topic>Ontology</topic>
+                        <topic>Bioinformatics</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3493</identifier>
+                    <identifier type="sys">HT014308048</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301983</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301983">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301983/2301986/thesis_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301983" DMDID="DMD2301983">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301983"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

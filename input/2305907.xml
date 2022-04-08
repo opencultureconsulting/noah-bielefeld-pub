@@ -1,0 +1,109 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305907</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Image analysis methods for location proteomics</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Bildanalysemethoden für die Lokalisierungsproteomik</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Marko</namePart>
+  <namePart type="family">Tscherepanow</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">128602</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Franz</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Proteine spielen eine herausragende Rolle für die Existenz aller lebenden Organismen, da sie an praktisch jeder Art von biologischem Prozess beteiligt sind. Leider sind die Funktionen und Interaktionen der überwiegenden Mehrheit der Proteine unbekannt. Das Wissen über diese Funktionen könnte essentielle Informationen für die Simulation von Zellverhalten liefern, was wiederum die Untersuchung von Krankheiten sowie die Entwicklung neuartiger Medikamente und Impfstoffe erleichtert.
+Es gibt verschiedene Techniken, die sich mit diesem Problem befassen. Eine besonders vielversprechende Art von Ansätzen wird unter dem Namen Lokalisierungsproteomik zusammengefasst. Sie analysiert den Auftrittsort von Proteinen, um Informationen über ihre Funktionen abzuleiten. Da spezifische Zellkompartimente spezifische Aufgaben erfüllen, ist ein betrachtetes Protein wahrscheinlich an der Ausführung der Funktion der Zellkompartimente, in denen es sich befindet, beteiligt. Da aber die Auftrittsorte von Proteinen vom Zellzustand und den Umgebungsbedingungen abhängen, sind sie hochdynamisch. Es ist daher vorteilhaft, sie in lebenden Zellen zu beobachten. Dies kann mit Hilfe der Fluoreszenzmikroskopie realisiert werden; die fraglichen Proteine werden mit einem Fluoreszenzfarbstoff markiert und anschließend mit einem Fluoreszenzmikroskop visualisiert. Sogar Ko-Lokalisierungen und zeitweilige Interaktionen verschiedener Proteine werden beobachtbar. Damit könnte die Lokalisierungsproteomik wichtige Details von Zellprozessen enthüllen.
+Aber selbst wenn markierte Proteine in lebenden Zellen beobachtet werden können, ist ihre Untersuchung schwierig. Ein Fluoreszenzbild enthält typischerweise mehrere oder sogar zahlreiche Zellen. Diese Zellen können in unterschiedlichen Zuständen sein, wodurch sich verschiedene Auftrittsorte der markierten Proteine ergeben. Weiterhin sind die Zellen selbst nicht notwendigerweise sichtbar. Es sind also zusätzliche Informationen erforderlich.
+Diese Dissertation stellt Bildanalysemethoden bereit, die die automatische Lokalisierung von Proteinen in lebenden Zellen vereinfachen: Erstens wird ein Verfahren vorgestellt, das die Erkennung von Zellen in Hellfeld-Mikroskopbildern ermöglicht. Hierbei wird die Position der Zellen mit Hilfe morphologischer Operatoren automatisch bestimmt. Die darauf folgende Segmentierung erfolgt mittels eines erweiterten Algorithmus zur Berechnung aktiver Konturen. Die resultierenden Segmente werden dann mit Hilfe eines inkrementellen neuronalen Netzwerks und von Support-Vektor-Maschinen bewertet. Diese Technik kann gemeinsam mit Ansätzen zur Proteinlokalisierung verwendet werden, ohne Probleme zu verursachen.
+Zweitens werden Methoden diskutiert, die eine Untersuchung von Proteinverteilungsmustern innerhalb der erkannten Zellen zulassen. Hierfür wurde eine Menge angemessener Merkmale ausgewählt, die eine Unterscheidung zwischen zehn Auftrittsorten von Proteinen zulässt. Die Klassifikation erfolgt mittels eines inkrementellen neuronalen Netzes. Somit können zusätzliche Proteinverteilungsmuster und Auftrittsorte integriert werden.
+Abschließend wurden beide Techniken kombiniert, was in einem automatischen System resultierte, das für Hochdurchsatzanwendungen geeignet ist. Solch ein System stellt einen innovativen Beitrag zu aktuellen Forschungen im Bereich der Proteomik dar, insbesondere da inkrementelle Ansätze verwendet werden, die die Integration neuer Informationen während ihrer Nutzung ermöglichen.</abstract>
+<abstract lang="eng">Proteins play a major role for the existence of all living organisms, since they are virtually involved in every kind of biological process. Unfortunately, the functions and interactions of the vast majority of proteins are unknown. The knowledge of these functions could provide crucial information for the simulation of cell behaviour, which facilitates the investigation of diseases as well as the development of innovative drugs and vaccines.
+There are several techniques dealing with this problem. One kind of very promising approaches is subsumed under the term location proteomics. It analyses the location of proteins in order to derive information about their function. As specific cell compartments fulfil specific tasks, a protein under consideration is likely to be involved in performing the function of the cell compartments it occurs in. But since the locations of proteins depend on the cell state and the environmental conditions, they are highly dynamic. Therefore, it is beneficial to examine them in living cells. This can be realised by means of fluorescence microscopy; the proteins in question are tagged by a fluorescent dye and subsequently rendered visible using a fluorescence microscope. Even co-localisations and temporary interactions of multiple proteins become observable. Therefore, location proteomics could reveal crucial details of cell processes.
+But even if tagged proteins can be observed in live cells, their analysis is difficult. A fluorescence image typically contains multiple or even numerous cells. These cells may be in various states resulting in different locations of the tagged proteins. Furthermore, the cells themselves are not necessarily visible. Hence, additional information is required.
+This thesis provides image analysis methods that facilitate the automatic localisation of proteins in living cells: Firstly, a procedure is introduced, which is able to recognise cells in bright-field microscope images. Here, the cells are automatically localised based on morphological operators and segmented by means of an enhanced active contour algorithm. The final segments are evaluated using an incremental neural network and support vector machines. This technique can be applied in conjunction with protein localisation approaches without causing any problems.
+Secondly, methods allowing the examination of protein distribution patterns within the recognised cells are discussed. Here, a set of appropriate features was selected, which enables a differentiation between ten protein locations. The classification is performed by an incremental neural network. So, additional protein location patterns and protein locations can be incorporated.
+Finally, both techniques were combined, which resulted in an automated system that is amenable to high-throughput processing. Such a system constitutes an innovative contribution to the current proteomic research, in particular, as incremental approaches are employed, which enable the integration of new information during their application.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation.pdf">https://pub.uni-bielefeld.de/download/2305907/2305910/Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Mustererkennung</topic><topic>Zellerkennung</topic><topic>Bildsegmentierung</topic><topic>Cell recognition</topic><topic>Soft Computing</topic><topic>Proteomanalyse</topic><topic>Bildauswertung</topic><topic>Fluoreszenzmikroskopie</topic><topic>Proteome analysis</topic><topic>Image segmentation</topic><topic>Pattern recognition</topic><topic>Image analysis</topic><topic>Fluorescence microscopy</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-13846</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2008-05-05</dateOther>
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>M.  Tscherepanow, &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Tscherepanow M (2007) &lt;br /&gt;&lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Tscherepanow, M., 2007. &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Tscherepanow, M. (2007).  &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Tscherepanow, M. (2007): Image analysis methods for location proteomics. Bielefeld (Germany): Bielefeld University.</wels>
+<ieee> M. Tscherepanow, &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<apa>Tscherepanow, M. (2007).  &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Tscherepanow, M. (2007). Image analysis methods for location proteomics. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Tscherepanow, M. (2007). &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Tscherepanow M. &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<default>Tscherepanow M (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Tscherepanow, Marko. &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Tscherepanow, Marko. 2007. &lt;em&gt;Image analysis methods for location proteomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Tscherepanow, M.: Image analysis methods for location proteomics. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305907</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-11-04T13:54:37Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:57:02Z</recordChangeDate>
+</recordInfo>
+</mods>

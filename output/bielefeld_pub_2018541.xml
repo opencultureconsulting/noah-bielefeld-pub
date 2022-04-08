@@ -1,0 +1,120 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2018541">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Resource Efficiency of Hardware Extensions of a 4-issue VLIW Processor for Elliptic Curve Cryptography</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Jungeblut</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7425-8766</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Puttmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Dreesen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Thies</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Uwe</namePart>
+                        <namePart type="family">Kastens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The secure transmission of data plays a significant
+role in todays information era. Especially in the area
+of public-key-cryptography methods, which are based on elliptic curves (ECC), gain more and more importance. Compared to asymmetric algorithms, like RSA, ECC can be used with shorter key lengths, while achieving an equal level of security. The performance of ECC-algorithms can be increased significantly by adding application specific hardware extensions.
+Due to their fine grained parallelism, VLIW-processors
+are well suited for the execution of ECC algorithms. In
+this work, we extended the fourfold parallel CoreVA-VLIW-architecture by several hardware accelerators to increase the resource efficiency of the overall system. For the designspace exploration we use a dual design flow, which is based on the automatic generation of a complete C-compiler based tool chain from a central processor specification. Using the hardware accelerators the performance of the scalar multiplication on binary fields can be increased by the factor of 29. The energy consumption can be reduced by up to 90%. The extended processor hardware was mapped on a current 65 nm low-power standard-cell-technology. The chip area of the CoreVA-VLIW-architecture is 0.24mm2 at a power consumption
+of 29 mW/MHz. The performance gain is analyzed in respect to the increased hardware costs, as chip area or
+power consumption.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Advances in Radio Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>295</start>
+                                <end>305</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1684-9973</identifier>
+                    <identifier type="eIssn">1684-9973</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20185412</identifier>
+                    <identifier type="doi">10.5194/ars-8-295-2010</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2018541</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2018541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2018541/2407209/Resource_efficiency_of_hardware_extensions_of_a_4-issue_VLIW_processor_for_elliptic_curve_cryptography.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2018541" DMDID="DMD2018541">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2018541"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301679</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Soft volume models for protein-protein docking</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Protein Docking mit weichen Volumenmodellen</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Steffen</namePart>
+  <namePart type="family">Neumann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Gerhard</namePart>
+  
+  
+  <namePart type="family">Sagerer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Der Begriff "Protein Docking" beschreibt die Frage, ob und wie zwei gegebene Proteine interagieren, ausgehend von der 3D Struktur. Für die Entwicklung von Protein Docking Systemen werden große Testsätze für Training und Validierung benötigt. Die manuelle Erstellung solcher Datensätze kann nicht mit dem exponentiellen Wachstum der Protein Datenbank (PDB) Schritt halten. Eine automatische Methode für die Erstellung von Testdatensätzen auf Basis kombinierter Suchverfahren und Filter wird vorgestellt.
+Das Docking System ElMaR besteht aus verteilten, optional parallelisierten Modulen. Durch die Parallelisierung werden Ergebnisse in wenigen Minuten berechnet. Docking Hypothesen werden aufgrund der geometrischen Komplementarität, elektrostatischer Kräfte und der Oberflächenhydrophobizität bewertet. ElMaR berücksichtigt die Flexibilität von Seitenketten und führt dynamische Strafterme für die Bewertung von sterischer Überlappung ein. Die Flexibilitätsmaße werden einerseits aus Statistiken über der gesamten Protein Datenbank, andererseits für jedes Protein einzeln aus Kraftfeldern errechnet.
+Für die erstellten Testdaten werden Docking Untersuchungen angestellt, und die Ergebnisse anschließend diskutiert. Die Fähigkeit der Bewertungsfunktion, native von nicht-nativen Proteinkontakten zu unterscheiden, wird anhand von Kristallkontakten erfolgreich untersucht.</abstract>
+<abstract lang="eng">Protein docking is the question whether and how two proteins interact, starting from their 3D structure. For training and test of docking systems large data sets are needed. A method for automated Test Case generation based on combined searches and filters on the content of the Protein Data Bank (PDB) is described.
+ElMaR is a distributed, modular and optionally parallel docking system. Fast Docking algorithms usually employ the rigid-body assumption and score geometric complementarity as well as physico-chemical features. However, for unbound protein docking steric clashes might impose wrong penalisation if side chains change their conformation during the docking process. ElMaR incorporates protein flexibility obtained through statistics and force field calculation. Using a fast correlation technique, steric clash penalties are weighted according to the possibility of amino acid rotamer changes. 
+Results on the generated test sets are presented and discussed. The ability to distinguish between native and non-native contact sites is tested on interfaces in protein crystals. A performance exceeding published results has been achieved.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SoftDocking_SteffenNeumann.pdf">https://pub.uni-bielefeld.de/download/2301679/2301682/SoftDocking_SteffenNeumann.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Flexibility</topic><topic>Fourier transformation</topic><topic>Scientific database</topic><topic>Fourier-Transformation</topic><topic>Wissenschaftliche Datenbank</topic><topic>Docking protein</topic><topic>Volume model</topic><topic>Flexibilität</topic><topic>Volumenmodell</topic><topic>Docking protein</topic><topic>Docking protein</topic><topic>Volumenmodell</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-4172</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2003-12-01</dateOther>
+<extension>
+<bibliographicCitation>
+<bio1>Neumann S (2003) &lt;br /&gt;&lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Neumann, S., 2003. &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Neumann, S. (2003).  &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>S.  Neumann, &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2003&lt;/strong&gt;.</angewandte-chemie>
+<wels>Neumann, S. (2003): Soft volume models for protein-protein docking. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Neumann, S. (2003).  &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> S. Neumann, &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2003.</ieee>
+<ama>Neumann S. &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2003.</ama>
+<frontiers>Neumann, S. (2003). Soft volume models for protein-protein docking. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Neumann, S. (2003). &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<mla>Neumann, Steffen. &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2003.</mla>
+<default>Neumann S (2003) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Neumann, S.: Soft volume models for protein-protein docking. Bielefeld University, Bielefeld (Germany) (2003).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Neumann, Steffen. 2003. &lt;em&gt;Soft volume models for protein-protein docking&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301679</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-12-16T12:50:43Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T09:05:13Z</recordChangeDate>
+</recordInfo>
+</mods>

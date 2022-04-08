@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1625402">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Rose: generating sequence families</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Evers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Folker</namePart>
+                        <namePart type="family">Meyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Motivation: We present a new probabilistic model of the evolution of RNA-, DNA-, ol protein-like sequences and a software tool, Rose, that implements this model. Guided by an evolutionary tree, a family of related sequences is created from a common ancestor sequence by insertion, deletion and substitution of characters. During this artificial evolutionary process, the &apos;true&apos; history is logged and the &apos;correct&apos; multiple sequence alignment is created simultaneously The model also allows for varying rates of mutation within the sequences, making it possible to establish so-called sequence motifs. Results: The data created by Rose are suitable for the evaluation of methods in multiple sequence alignment computation and the prediction of phylogenetic relationships. It can also be useful when reaching courses in or developing models of sequence evolution and in the study of evolutionary processes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BIOINFORMATICS</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>157</start>
+                                <end>163</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1367-4803</identifier>
+                    <identifier type="eIssn">1460-2059</identifier>
+                    <identifier type="MEDLINE">9545448</identifier>
+                    <identifier type="ISI">000074406000008</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16254026</identifier>
+                    <identifier type="doi">10.1093/bioinformatics/14.2.157</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1625402</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1625402">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1625402/2311139/157.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1625402" DMDID="DMD1625402">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1625402"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

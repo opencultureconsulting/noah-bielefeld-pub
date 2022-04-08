@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936169">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Generation of Virtual Humans for Virtual Reality, Medicine, and Domestic Assistance</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jascha</namePart>
+                        <namePart type="family">Achenbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-06-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Virtual humans are employed in various applications including computer games, special effects in movies, virtual try-ons, medical surgery planning, and virtual assistance. This thesis deals with virtual humans and their computer-aided generation for different purposes.&lt;br /&gt;&lt;br /&gt;
+
+In a first step, we derive a technique to digitally clone the face of a scanned person. Fitting a facial template model to 3D-scanner data is a powerful technique for generating face avatars, in particular in the presence of noisy and incomplete measurements. Consequently, there are many approaches for the underlying non-rigid registration task, and these are typically composed from very similar algorithmic building blocks. By providing a thorough analysis of the different design choices, we derive a face matching technique tailored to high-quality reconstructions from high-resolution scanner data. We then extend this approach in two ways: An anisotropic bending model allows us to more accurately reconstruct facial details. A simultaneous constrained fitting of eyes and eyelids improves the reconstruction of the eye region considerably. Next, we extend this work to full bodies and present a complete pipeline to create animatable virtual humans by fitting a holistic template character. Due to the careful selection of techniques and technology, our reconstructed humans are quite realistic in terms of both geometry and texture. Since we represent our models as single-layer triangle meshes and animate them through standard skeleton-based skinning and facial blendshapes, our characters can be used in standard VR engines out of the box. By optimizing computation time and minimizing manual intervention, our reconstruction pipeline is capable of processing entire characters in less than ten minutes.&lt;br /&gt;&lt;br /&gt;
+
+In a following part of this thesis, we build on our template fitting method and deal with the problem of inferring the skin surface of a head from a given skull and vice versa. Starting with a method for automated estimation of a human face from a given skull remain, we extend this approach to bidirectional facial reconstruction in order to also estimate the skull from a given scan of the skin surface. This is based on a multilinear model that describes the correlation between the skull and the facial soft tissue thickness on the one hand and the head/face surface geometry on the other hand. We demonstrate the versatility of our novel multilinear model by estimating faces from given skulls as well as skulls from given faces within just a couple of seconds. To foster further research in this direction, we made our multilinear model publicly available.&lt;br /&gt;&lt;br /&gt;
+
+In a last part, we generate assistive virtual humans that are employed as stimuli for an interdisciplinary study. In the study, we shed light on user preferences for visual attributes of virtual assistants in a variety of smart home contexts.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29361691</identifier>
+                    <identifier type="doi">10.4119/unibi/2936169</identifier>
+                    <identifier type="sys">HT020190593</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936169</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936169">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936169/2936170/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936169" DMDID="DMD2936169">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936169"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

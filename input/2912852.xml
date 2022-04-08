@@ -1,0 +1,99 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2912852</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Methods for the identification of common RNA motifs</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Benedikt</namePart>
+  <namePart type="family">Löwes</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">42788323</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">For a long time, non-coding RNAs were given less attention than messenger RNAs, even though their existence was proposed at a similar time in 1971, because the research focus was mostly on protein coding genes. With the discovery of catalytically active RNA molecules and micro RNAs, which are involved in the post-transcriptional regulation of gene expression, non-coding RNAs have gained widespread attention. It was revealed early on that non-coding RNAs are often more conserved in structure than in sequence. Since determining the function of non-coding RNAs includes costly and time consuming laboratory experiments, computational methods can help identifying further homologs of experimentally validated RNA families. But a question remains: can we identify potential RNAs with novel functions solely by using *in silico* methods?
+&lt;br /&gt;&lt;br /&gt;
+In this thesis, we perform an evaluation of 4,667 viral reference genomes in order to identify common RNA motifs shared by multiple taxonomically distant viruses. One potential mechanism that might explain similar motifs in taxonomically distant viruses that infect common hosts by interacting with their cellular components is convergent evolution. Convergent evolution is used to describe the phenomenon that two different species that are originated from two ancestors share related or similar traits. By looking for long stretches of exact RNA structure matches with low sequence conservation, we want to maximize the chance that the common motifs are the result of structural convergence due to similar selection criteria in common host organisms. Viruses are an excellent fit when it comes to the discovery of shared RNA motifs without the involvement of conserved sequence regions because of their high mutation rates. We were able to identify 69 RNA motifs, which could not be assigned to any of the existing RNA families, with a length of at least 50 nucleotides that are shared among at least three taxonomically distant viruses.
+&lt;br /&gt;&lt;br /&gt;
+The secondary structure of an RNA molecule can be represented as a string. Finding maximal repeats in strings can be done using well-known string matching techniques based on suffix trees and arrays. In contrast to normal RNA sequences, secondary structure strings represent base pairing interactions within a single molecule. Thus, not every substring of the secondary structure defines a well-formed RNA structure. Therefore, we describe a new data structure, the viable suffix tree, that takes the constraints on the RNA secondary structure into account and only returns maximal repeats that are well-formed structures. But this data structure is not limited to RNA structures, it can also be used for any other problem domain for which a set of allowed words can be defined, e.g. by using a grammar. However, the overall complexity of constructing the viable suffix tree cannot be lower than the complexity of the word problem for the language of such a grammar.
+&lt;br /&gt;&lt;br /&gt;
+A limitation of exact structure matching is the need for long common stretches of secondary structures that are not allowed to have a mismatch at any position. Therefore, we need to allow small mismatches to find more potential targets, but current state of the art techniques use computationally too expensive methods for sequence and structure comparisons and exhibit high false positive rates around 50%. We present a new approach that uses smaller RNA sequence and structure seed motifs that do not require long stretches of the secondary structure to be identical. The sequence and structure motifs can be hashed into integer values, which can be compared much faster. An evaluation using the three well understood hammerhead ribozyme families showed that our approach is able to detect 70% to 80% of the hammerhead motifs with a similar false positive rate as the other approaches.
+&lt;br /&gt;&lt;br /&gt;
+Whenever the performance of new and existing tools should be compared, there is a need for a benchmark data set with an underlying gold standard. BRaliBase is a widely used benchmark for assessing the accuracy of RNA secondary structure alignment methods. In most case studies based on the BRaliBase benchmark, one can observe a puzzling drop in accuracy in the 40% to 60% sequence identity range, the so-called “BRaliBase dent”. We show that this dent is due to a bias in the composition of the BRaliBase benchmark, namely the inclusion of a disproportionate number of tRNAs, which exhibit a very conserved secondary structure. Furthermore, we show that a simple sampling approach that restricts the presence of the most abundant RNA families can prevent such artifacts during the performance evaluation.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="main.pdf">https://pub.uni-bielefeld.de/download/2912852/2912853/main.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29128523</identifier>
+<part><extent unit="pages">140</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2017-07-11</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Löwes B. &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2017.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Löwes, B. (2017). &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Löwes, B. (2017). Methods for the identification of common RNA motifs. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Löwes, B. (2017).  &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> B. Löwes, &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2017.</ieee>
+<wels>Löwes, B. (2017): Methods for the identification of common RNA motifs. Bielefeld: Universität Bielefeld.</wels>
+<bio1>Löwes B (2017) &lt;br /&gt;&lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Löwes, B., 2017. &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Löwes, B. (2017).  &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>B.  Löwes, &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2017&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Löwes, B.: Methods for the identification of common RNA motifs. Universität Bielefeld, Bielefeld (2017).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Löwes, Benedikt. 2017. &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Löwes, Benedikt. &lt;em&gt;Methods for the identification of common RNA motifs&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2017.</mla>
+<aps> B.  Löwes, Methods for the identification of common RNA motifs, (Universität Bielefeld, Bielefeld, 2017).</aps>
+<default>Löwes B (2017) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2912852</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-07-18T09:32:43Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:32Z</recordChangeDate>
+</recordInfo>
+</mods>

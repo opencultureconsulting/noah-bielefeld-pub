@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303567">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>data mining approach for high-content fluorescence microscopy images of tissue samples</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julia</namePart>
+                        <namePart type="family">Herold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-06-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis, a novel analysis strategy for the exploration of protein colocation in multivariate tissue micrographs, obtained by fluorescence microscopy, is proposed. Multivariate fluorescence imaging is a new field in microscopy which allows to image the spatial location of multiple proteins in one sample and hence facilitates the exploration of molecular networks. While the gain in molecular information through this technique can lead to a new understanding of cellular function, the exploration of such data is a new challenge for computational biodata analysis. This thesis therefore aims at providing approaches which help the biologists in getting an insight and understanding of this complex data domain. The presented strategy consists of a SVM-based object detection system and the subsequent data analysis which integrates concepts from the field of data mining, information visualization and statistics.
+Here, the object detection as well as different unsupervised learning approaches largely reduce the complexity of the data which eases the knowledge discovery process. Visualizations tailored to the need of protein colocation analysis and statistical measures can then employed to get an insight in the data. With the proposed object-based analysis strategy, meaningful results were obtained suggesting that such a fully data-driven approach is well suited to extract new knowledge from multivariate fluorescence micrographs.</abstract>
+                    <subject>
+                        <topic>Multivariate fluorescence microscopy</topic>
+                        <topic>Data mining</topic>
+                        <topic>Protein colocation analysis</topic>
+                        <topic>Machine learning</topic>
+                        <topic>Point pattern analysis</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17369</identifier>
+                    <identifier type="sys">HT016589255</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303567</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303567">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303567/2303570/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303567" DMDID="DMD2303567">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303567"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

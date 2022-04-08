@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2723541">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bioinformatic methods for the analysis and comparison of metagenomes and metatranscriptomes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christina</namePart>
+                        <namePart type="family">Ander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Tauch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-12-22</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Microbial communities play an important role in the whole life of planet earth. The fields metagenomics and metatranscriptomics have developed to reveal the taxo-
+nomic composition and functional diversity of heterogeneous microbial communities. With the development of new sequencing methods studies in those fields are
+accelerated. At the same time the new sequencing methods provide a challenge for bioinformatics to process and store a high amount of data.
+In the scope of this thesis, methods for the analysis of metagenome and metatranscriptome data were developed. At first, the taxonomic classifier metaBEETL was
+developed and implemented. metaBEETL is based on the Burrows-Wheeler transformation and analyses metagenome sequences to gain a taxonomic profile of microbial communities. Using several bias controls, it provides accurate taxonomic profiles while being memory efficient. In this thesis the accuracy of the classifier is
+shown by the analysis of an artificial metagenome dataset.
+Secondly, the rich client software platform Metrans was developed for the analysis and comparison of metatranscriptome datasets. Metrans consists of a pipeline
+designed for the analysis of metatranscriptomes. It also includes storage and visualization of the analysis results. The software is currently used in a number of
+projects. The analysis of a metatranscriptome gained from the infected ear of a man and a time series from tidal flat are presented as analysis examples in this thesis.</abstract>
+                    <subject>
+                        <topic>metagenomic</topic>
+                        <topic>metatranscriptomic</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27235413</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2723541</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2723541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2723541/2723759/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2723541" DMDID="DMD2723541">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2723541"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2915155">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>RNA-seq assembly - are we there yet?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Schliesky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Udo</namePart>
+                        <namePart type="family">Gowik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas P. M.</namePart>
+                        <namePart type="family">Weber</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andrea</namePart>
+                        <namePart type="family">Bräutigam</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5309-0527</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Transcriptomic sequence resources represent invaluable assets for research, in particular for non-model species without a sequenced genome. To date, the Next Generation Sequencing technologies 454/Roche and Illumina have been used to generate transcriptome sequence databases by mRNA-Seq for more than fifty different plant species. While some of the databases were successfully used for downstream applications, such as proteomics, the assembly parameters indicate that the assemblies do not yet accurately reflect the actual plant transcriptomes. Two different assembly strategies have been used, overlap consensus based assemblers for long reads and Eulerian path/de Bruijn graph assembler for short reads. In this review, we discuss the challenges and solutions to the transcriptome assembly problem. A list of quality control parameters and the necessary scripts to produce them are provided.</abstract>
+                    <subject>
+                        <topic>RNA-seq</topic>
+                        <topic>assembly</topic>
+                        <topic>plant</topic>
+                        <topic>NGS</topic>
+                        <topic>next generation sequencing</topic>
+                        <topic>transcriptome</topic>
+                    </subject>
+                    <classification authority="ddc">580</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Plant Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1664-462X</identifier>
+                    <identifier type="MEDLINE">23056003</identifier>
+                    <identifier type="ISI">000208837900217</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29151555</identifier>
+                    <identifier type="doi">10.3389/fpls.2012.00220</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2915155</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2915155">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915155/2915951/Schliesky_et_al-2012-Frontiers_in_Plant_Science.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2915155" DMDID="DMD2915155">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2915155"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

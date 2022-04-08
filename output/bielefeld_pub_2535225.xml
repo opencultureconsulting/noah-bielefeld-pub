@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2535225">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Formal system design for intelligent artifacts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Dittes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Goerick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-12-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This work deals with conceptual and software aspects (i.e. algorithms and structure) of intelligent systems interacting with the real-world. Typical domains for such systems are robotics as well as personal digital- and driver assistance.
+In decades of research on intelligent systems, a large number of system structures or architectures for intelligent artifacts have been proposed and implemented. However, no established and broadly accepted hypothesis for such a system structure has emerged because no common language or common understanding of the space of architectures exists.
+This in turn makes scientific discourse about architectures difficult.
+
+In this thesis we aim to improve the process and tools for describing, constructing and evolving the architecture and software of large-scale systems for intelligent artifacts. At the heart of this improvement is the proposed formalism &apos;Systematica 2D&apos;, suitable for both flexible description of system architectures as well as for functional design of the resulting system integration process. We motivate the approach and relate it to other formal descriptions by means of a new formalization measure.
+
+The new language is shown to find a good compromise between cognitive description, high flexibility and easy implementation. We present ways to map resulting designs to the most popular infrastructure paradigms and derive mathematically provable benefits for the system construction process: incremental composition, graceful degradation, subsystem separation and global deadlock-free operation.
+
+Finally, the powers of the formalism for architecture categorization and comparison are explored. It is analytically shown that there is a direct relation between sensor / behavior spaces (a descriptive design property) and the interfaces and connections of units (a functional design property).
+
+Without lack of generality, examples and results are obtained from two specific, recent and state-of-the-art large-scale systems: ALIS3 [Goerick 2009] and AutoSys [Schmuedderich 2010]. Experimental results show that a) modeling a wide variety of systems as Systematica 2D designs is possible, b) implementing systems according to such a design is dramatically faster and produces inherent, provable system properties and c) different systems can be related and classified based on the designs.</abstract>
+                    <subject>
+                        <topic>Driver Assistance</topic>
+                        <topic>Software Engineering</topic>
+                        <topic>Robotics</topic>
+                        <topic>Formal Design</topic>
+                        <topic>System Design</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25352255</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2535225</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2535225">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2535225/2549128/PhDThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE1_bielefeld_pub_2535225">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2535225/2549760/Sys2D.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2535225" DMDID="DMD2535225">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2535225"/>
+            <mets:div TYPE="part" ID="PART1_2535225" LABEL="Sys2D.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2535225"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

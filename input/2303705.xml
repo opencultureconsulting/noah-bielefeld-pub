@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303705</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Approximate common intervals based gene cluster models</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Katharina</namePart>
+  <namePart type="family">Jahn</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">179271</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Durch die zunehmende Verfügbarkeit von vollständig sequenzierten und assemblierten Genomen enstand in den letzten Jahren ein neues Teilgebiet der komparativen Genomik, in dem Genome verschiedener Spezies bezüglich der enthaltenen Gene und deren Anordnung auf den Chromosomen verglichen werden. Ziel solcher Studien ist es, die Funktionen von einzelnen Genen und Genverbünden aufzudecken und ein besseres Verständnis für die auf Genomebene wirkenden evolutionären Prozesse zu gewinnen. Im allgemeinen beobachtet man bei diesen Vergleichen eine graduelle Randomisierung der Genanordung und des Gengehalts, die um so stärker ausgeprägt ist, je geringer der Verwandtschaftsgrad der untersuchten Spezies ist. Einige lokale Bereiche bleiben jedoch auch über große evolutionäre Distanzen sehr gut konserviert. Dieses wiederholte gemeinsame Auftreten von bestimmten Genen ist ein zuverlässiger Indikator für deren funktionelle Interaktion.Die automatisierte Aufdeckung dieser Genverbünde, häufig als Gencluster bezeichnet, erweist sich als anspruchsvolles Problem, da man häufig mit unvollständigen Konservierungsmustern konfrontiert ist, die durch lokale Genumordnungen, den Verlust einzelner Genvorkommen, Unterbrechungen durch unbeteiligte Gene oder fehlerhafte Homologie-Bestimmung entstanden sind. Diese Doktorarbeit beschäftigt sich mit der formalen Modellierung solcher approximativ konservierten Gencluster, ihrer effizienten Berechnung sowie mit sich daraus ergebenden Anwendungsgebieten in der komparativen Genomik.
+Die in dieser Doktorarbeit entwickelten Gencluster-Modelle, die unter dem Begriff "approximate common intervals" zusammengefasst werden können, erweitern das etablierte Modell der "common intervals" dahingehend, dass nicht mehr nur lokale Genumordnungen innerhalb eines Clustervorkommens toleriert werden, sondern auch Insertionen und Deletionen von Genen. Diese Verallgemeinerung führt dazu, dass ein Gencluster nicht mehr durch eine eindeutige Menge von Genen beschrieben werden kann, die in allen Clustervorkommen vollständig und konsekutiv vorkommt. Stattdessen wird eine Konsensus-Menge definiert, die die unterschiedlichen Clustervorkommen bestmöglich repräsentiert. Hierfür wurden basierend auf der symmetrischen Mengendistanz zwei Konsenus-Modelle entworfen: Die Median Gene Cluster minimieren die Summe der paarweisen Distanzen zwischen der Konsensus-Menge und dem Gengehalt der approximativen Vorkommen, während die Center Gene Cluster die maximale paarweise Distanz minimieren. Von beiden Modellen wurde zudem eine referenzbasierte Variante entwickelt, die statt der optimalen Konsensusmenge den bestmöglichen Repräsentanten auswählt, dessen Gene konsekutiv auf einem der untersuchten Genome vorkommen.
+Das Verwenden einer Konsensusmenge bzw. eines Referenzvorkommens stellt einen entscheidenden Fortschritt gegenüber anderen Verallgemeinerungen der "common intervals" wie z.B. den "max-gap" oder "r-window" Genclustern dar. In diesen Modellen enthält ein Gencluster nur solche Gene, die in allen Cluster-Vorkommen gemeinsam auftreten, was beim Vergleich einer großen Anzahl von Genomen durch den Verlust einzelner Genvorkommen leicht dazu führen kann, dass nur ein Teil der kolokalisierten Gene in einem Gencluster zusammengefasst wird und dadurch scheinbare Lücken in den Cluster-Vorkommen auftreten. Es konnte an realen Datensätzen gezeigt werden, dass diese Effekte nicht auftreten, wenn "approximate common intervals" basierte Gencluster-Modelle verwendet werden, und dass dadurch komplexere Gencluster gefunden werden können.
+Neben der Modellierung lag der Schwerpunkt dieser Doktorarbeit auf der Entwicklung von Algorithmen, die die effiziente Vorhersage von Genclustern unter den neuen Modellen ermöglichen. Zunächst wurde für den bekannten "Connecting Intervals" Algorithmus zur Berechnung von common intervals eine einfache Methode beschrieben, durch die der Speicherplatzbedarf von quadratischer auf lineare Abhängigkeit von der Eingabegröße reduziert werden kann. Darauf aufbauend wurden neue Algorithmen für die "approximate common intervals" basierten Gencluster-Modelle entwickelt. Für die referenzbasierten Modelle wurde ein effizienter Algorithmus gefunden, der quadratisch von der Eingabegröße und einer vom Benutzer vorgegebenen Distanz-Obergrenze abhängt. Für die Median Gene Cluster und die Center Gene Cluster wurde durch das Verwenden einer Filter-Technik und mehrerer algorithmischer Optimierungen der exponentielle Suchraum soweit eingeschränkt, dass ein großer Parameter-Raum in angemessener Zeit abgesucht werden kann, während die "worst-case" Laufzeit exponentiell mit der Anzahl verglichener Genome anwächst.
+Weitere Punkte, die in dieser Doktorarbeit behandelt wurden, sind die statistische Signifikanz-Analyse von Genclustervorhersagen, die Anwendung der vorgestellten Methoden in der Gencluster-Vorhersage in prokaryotischen Genomen sowie die Entwicklung einer distanzbasierten Methode zur Phylogenie-Rekonstruktion.</abstract>
+<abstract lang="eng">With the increasing availability of completely sequenced and assembled genomes, gene-order based comparisons of whole genomes have recently become an important field in comparative genomics. The aim of such studies is to reveal functional coupling between genes, and to gain a better understanding of large-scale evolutionary processes. In general, we observe in such studies a gradual randomization of gene order and gene content that is contrasted by a number of well-conserved segments that remain co-located across species. Such local aberrations from genome randomization are known to provide highly informative signals for functional analysis. However, incomplete conservation patterns caused by micro-rearrangements, gene losses, gene insertions, as well as errors in the homology assignment turn gene cluster detection into a computationally hard problem.
+This thesis is about the formal modeling of approximately conserved gene clusters, their efficient computation and applications in comparative genomics. The gene cluster models developed in this work can be summarized under the term "approximate common intervals". They extend the established "common intervals" model to deal not only with micro-rearrangements within cluster occurrences but also with insertions and deletions of genes. Due to this generalization, a gene cluster is no longer determined by a specific set of genes which occurs everywhere as a complete and consecutive block. Instead a consensus set is defined that best represents a set of similar cluster occurrences. For that purpose, we defined two consensus models based on the symmetric set distance: Median Gene Clusters choose the consensus gene set to minimize the overall distance to the approximate occurrences, while Center Gene Clusters minimize the largest pairwise distance between the consensus set and any of the approximate occurrences. For both models, we developed also a reference-based version that picks the representative directly from the set of similar cluster occurrences. Both approaches, the optimized consensus set and the reference occurrences improve substantially over earlier generalizations of the common intervals model, like "max-gap" or "r-window" gene clusters. In the latter models, only those genes belong to a cluster that occur in each approximate occurrence. When comparing a large number of genomes, the loss of individual genes in different cluster occurrences has the effect that only a part of the co-localized genes is combined into a gene cluster and that artificial gaps are introduced into cluster occurrences. Our experimental results show that these effects do not occur in approximate common intervals based gene cluster models and that more complex conservation patterns can be detected.
+Besides the formal modeling of gene clusters, we focused in this thesis on the development of efficient algorithms for the prediction of gene clusters under the novel models.  We introduced a simple extension of the "Connecting Intervals" algorithm for the computation of common intervals to reduce its space complexity from quadratic to linear dependency on the input size. Based on these results, we developed new algorithms for approximate common intervals computation. For the reference-based version, we devise an efficient polynomial-time algorithm that depends quadratically on the input size and a user-defined distance threshold. For median and center gene clusters we use filter techniques and algorithmic optimizations that restrict the exponential search space sufficiently to search a large parameter range in reasonable time, albeit the asymptotic runtime of our approach grows exponentially with the number of genomes compared.
+Further topics of this thesis are the analysis of the statistical significance of predicted gene clusters, the application of the developed approaches to gene cluster prediction in prokaryotic genomes and the development of a distance-based approach to phylogeny reconstruction.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissKomplett.pdf">https://pub.uni-bielefeld.de/download/2303705/2303708/dissKomplett.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Komparative Genomik</topic><topic>Gencluster</topic><topic>Genomvergleich</topic><topic>Genom</topic><topic>Algorithmus</topic><topic>Whole genome comparison</topic><topic>Comparative genomics</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-18533</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-07-19</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, Katharina. 2010. &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Jahn, K.: Approximate common intervals based gene cluster models. Bielefeld University, Bielefeld (Germany) (2010).</lncs>
+<default>Jahn K (2010) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Jahn, Katharina. &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2010.</mla>
+<frontiers>Jahn, K. (2010). Approximate common intervals based gene cluster models. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, K. (2010). &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Jahn K. &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2010.</ama>
+<ieee> K. Jahn, &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2010.</ieee>
+<apa>Jahn, K. (2010).  &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<wels>Jahn, K. (2010): Approximate common intervals based gene cluster models. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>K.  Jahn, &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Jahn K (2010) &lt;br /&gt;&lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, K. (2010).  &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Jahn, K., 2010. &lt;em&gt;Approximate common intervals based gene cluster models&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303705</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-06-16T14:05:11Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:31Z</recordChangeDate>
+</recordInfo>
+</mods>

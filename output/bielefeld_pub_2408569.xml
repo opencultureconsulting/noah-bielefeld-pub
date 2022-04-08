@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2408569">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Vision-based posture detection and tracking for interactive scenarios</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Joachim</namePart>
+                        <namePart type="family">Schmidt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Wöhler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jannik</namePart>
+                        <namePart type="family">Fritsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-10-02</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The thesis here present is about the perception of the human body and the environment with means of computer vision and the analysis of these information for applications in the field of human robot interaction. The discussion will mostly be about real-world scenarios involving the observation of real humans; that means we will have to deal with an ever-changing and dynamic environment and possibly large variations in the appearance of an object to be observed. This poses a huge challenge to automated vision techniques. Additional constraints can ease the problem, but also make the resulting system less flexible. The presented work combines various techniques from computer vision and optimization theory. The scenarios that are addressed are wide spread: worker safety in an industry environment, interacting with a mobile robot and even understanding the relevance of gestures for learning in children. The common ground for all these scenarios is the fact that methods from computer vision are applied to enable or to understand an interaction between humans among themselves and humans and machines.</abstract>
+                    <subject>
+                        <topic>Computer vision</topic>
+                        <topic>Gesture recognition</topic>
+                        <topic>Kernel particle filter</topic>
+                        <topic>Human body pose tracking</topic>
+                        <topic>Genetic algorithm</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24085693</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2408569</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2408569">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2408569/2408574/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2408569" DMDID="DMD2408569">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2408569"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

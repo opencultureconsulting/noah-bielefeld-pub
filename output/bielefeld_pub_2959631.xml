@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959631">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Current Trends and Future Directions of Large Scale Image and Video Annotation: Observations From Four Years of BIIGLE 2.0</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Zurowietz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7122-2343</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Marine imaging has evolved from small, narrowly focussed applications to large-scale applications covering areas of several hundred square kilometers or time series covering observation periods of several months. The analysis and interpretation of the accumulating large volume of digital images or videos will continue to challenge the marine science community to keep this process efficient and effective. It is safe to say that any strategy will rely on some software platform supporting manual image and video annotation, either for a direct manual annotation-based analysis or for collecting training data to deploy a machine learning–based approach for (semi-)automatic annotation. This paper describes how computer-assisted manual full-frame image and video annotation is currently performed in marine science and how it can evolve to keep up with the increasing demand for image and video annotation and the growing volume of imaging data. As an example, observations are presented how the image and video annotation tool BIIGLE 2.0 has been used by an international community of more than one thousand users in the last 4 years. In addition, new features and tools are presented to show how BIIGLE 2.0 has evolved over the same time period: video annotation, support for large images in the gigapixel range, machine learning assisted image annotation, improved mobility and affordability, application instance federation and enhanced label tree collaboration. The observations indicate that, despite novel concepts and tools introduced by BIIGLE 2.0, full-frame image and video annotation is still mostly done in the same way as two decades ago, where single users annotated subsets of image collections or single video frames with limited computational support. We encourage researchers to review their protocols for education and annotation, making use of newer technologies and tools to improve the efficiency and effectivity of image and video annotation in marine science.</abstract>
+                    <subject>
+                        <topic>marine imaging</topic>
+                        <topic>image annotation</topic>
+                        <topic>video annotation</topic>
+                        <topic>environmental monitoring</topic>
+                        <topic>machine learning</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Marine Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2296-7745</identifier>
+                    <identifier type="ISI">000729889100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29596315</identifier>
+                    <identifier type="doi">10.3389/fmars.2021.760036</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959631</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959631">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959631/2959632/fmars-08-760036.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2959631">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959631/2959633/data+sheet+1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959631" DMDID="DMD2959631">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959631"/>
+            <mets:div TYPE="part" ID="PART1_2959631" LABEL="data sheet 1.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2959631"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

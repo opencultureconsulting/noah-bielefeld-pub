@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2603481">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automatic Composition of Music with Methods of Computational Intelligence</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Günter</namePart>
+                        <namePart type="family">Rudolph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We describe our approach for the automatic composition of monophone melodies on a user given chord
+sequence. For this purpose we use Markov-chains and other methods to build some initial individuals. These are
+then optimised with evolutionary algorithms using automatically learned classifiers next to interactive evaluation
+as fitness functions.</abstract>
+                    <subject>
+                        <topic>Markov-models</topic>
+                        <topic>Markov-chains</topic>
+                        <topic>evolutionary
+algorithm</topic>
+                        <topic>neural network</topic>
+                        <topic>decision tree</topic>
+                        <topic>music</topic>
+                        <topic>computational Intelligence</topic>
+                        <topic>automatic composition</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Transactions in Information Science and Applications</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>508</start>
+                                <end>515</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2224-3402</identifier>
+                    <identifier type="issn">1790-0832</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26034810</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2603481</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2603481">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2603481/2624532/Klinger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2603481" DMDID="DMD2603481">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2603481"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

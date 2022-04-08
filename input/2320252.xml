@@ -1,0 +1,118 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2320252</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Markus</namePart>
+  <namePart type="family">Hahn</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Franz</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Christian</namePart>
+  
+  
+  <namePart type="family">Wöhler</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Today, industrial production processes in car manufacturing worldwide are characterised by either fully automated production sequences carried out solely by industrial robots or fully manual assembly steps where only humans work together on the same task. Up to now, close collaboration between humans and machines, especially industrial robots, is very limited and usually not possible due to safety concerns. Industrial production processes can increase efficiency by establishing a close collaboration of humans and machines exploiting their unique capabilities.
+This thesis describes computer vision and pattern recognition methods to allow a safe interaction between human workers and industrial robots in a production environment. Vision methods are required for marker-less 3D pose estimation and tracking of the motion of human body parts and robot parts. With a motion analysis the vision based safety system is able to slow down or stop the robot early enough to avoid potentially hazardous situations. To have reliable depth information of the investigated scene, we use a small-baseline trinocular camera system similar to the SafetyEYE protection system (www.safetyeye.com).
+Based on the example of tracking the human hand-forearm limb and the head-shoulder area it is shown that the developed 3D pose estimation and tracking algorithms allow for a robust, temporally stable, and metric accurate system performance. The developed 3D pose estimation algorithms are either model-based top-down techniques which directly use the three synchronously acquired images or bottom-up approaches which rely on motion-attributed 3D~point clouds that are computed from the observed scene.
+The Multiocular Contracting Curve Density (MOCCD) algorithm is a known top-down pose estimation technique based on pixel statistics around a contour model projected into the images from several cameras. The MOCCD algorithm is applied to track the 3D pose and some deformation parameters of the hand-forearm limb and the head-shoulder area with a traditional Kalman Filter framework.
+In a second system the newly developed Shape Flow algorithm, a temporal extension of the MOCCD approach, is used to replace the Kalman Filter framework. The Shape Flow algorithm uses a spatio-temporal model of the tracked object and is able to obtain an estimate of the instantaneous motion properties, thus no temporal filtering is required. Obtaining instantaneous motion information is of essential importance in the context of safe human-robot interaction, such that the proposed method do not apply temporal filtering -- the latency time of a temporal filtering stage would result in delays unacceptable in our application scenario. The developed system allows for a computation of a top-down model-based 3D scene flow using directly the three synchronously acquired images from the small-baseline trinocular camera.
+Another tracking system combines the MOCCD technique and a bottom-up approach which uses a motion-attributed 3D point cloud to estimate the object pose with the Iterative Closest Point (ICP) algorithm. Because of the orthogonal properties of both approaches it is shown that a fusion of the pose estimates is favourable. The tracking is realised by a motion analysis which is based on motion-attributed 3D points belonging to the tracked object using an extended constraint-line approach. A further refinement of the obtained motion properties is done using the Shape Flow algorithm, no temporal filtering is applied.
+The idea behind another newly developed tracking approach is to extract the motion of all moving objects in the observed scene with a 3D mean-shift tracking algorithm and a simple ellipsoid model. A graph based clustering stage extracts all moving objects from motion-attributed 3D~point cloud of the observed scene. The proposed 3D mean-shift tracking approach in this thesis relies on hue or gray value histograms and motion-attributed 3D point cloud data. At each time step the newly developed recognition stage determines the relevant object (e.g. the hand) which performs the working actions.
+To understand the behaviour of the human worker, consistently 3D information from the tracking stage is used. The newly developed recognition system is able to extract an object performing a known action out of a multitude of tracked objects. A sequence of working actions is recognised with a particle filter based non-stationary Hidden Markov Model framework, relying on the spatial context and a classification of the observed 3D~trajectories using the Levenshtein Distance on Trajectories as a measure for the similarity between the observed trajectories and a set of reference trajectories. Based on an engine assembly scenario it is shown that the system achieves action-specific recognition rates of more than 90% and that the system is able to detect disturbances, i.e. interruptions of the sequence of working actions, by entering a safety mode, and it returns to the regular mode as soon as the working actions continue.
+All experimental investigations in this thesis are performed on real-world image sequences displaying several test persons performing different working actions typically occurring in an industrial production scenario. In all example scenes, the background is cluttered, and the test persons wear various kinds of clothes. For evaluation, independently obtained ground truth data is used.</abstract>
+<abstract lang="ger">In der vorliegenden Arbeit wird das Konzept eines intelligenten technischen Überwachungssystems zur Realisierung einer sicheren Interaktion zwischen Mensch und Industrieroboter in einfachen Arbeitsprozessen der Automobilproduktion vorgestellt. Es wird ein ganzheitliches System zur kamerabasierten Überwachung von menschlichen Arbeitern beschrieben. Neben der kamerabasierten Detektion, Segmentierung und Verfolgung der Arbeiter werden auch die ausgeführten Aktionen zur Durchführung des Arbeitsprozesses erkannt. Nur so kann der Industrieroboter geeignet reagieren und seinen Beitrag zum Interaktionsprozess leisten.
+Der sich in der Szene befindende Mensch wird mit einem Mehrkamerasystem mit kleiner Basisbreite beobachtet. Dieses Kamerasystem ist dem Überwachungssystem SafetyEYE (www.safetyeye.com) sehr ähnlich. Es werden verschiedene Systeme zur 3D-Pose-Estimation und zum 3D-Tracking menschlicher Körperteile vorgestellt und diese hinsichtlich ihrer Eignung im realen Produktionsszenario untersucht. Zur 3D-Pose-Estimation werden top-down Verfahren, welche nur die synchronen Bilder des Mehrkamerasystems nutzen, und bottom-up Ansätze, welche auf zuvor berechneten 3D-Punktewolken mit Bewegungsinformation basieren, eingesetzt. Die entwickelten Trackingsysteme sind offen für die Erkennung und Verfolgung verschiedenster Körperteile gestaltet, da das Objektmodell einfach austauschbar ist. Am Beispiel der Verfolgung der menschlichen Hand-Unterarm-Extremität und der menschlichen Kopf-Schulter-Partie wird gezeigt, dass eine robuste und zeitlich stabile Verfolgung möglich ist.
+Der multiokulare Contracting-Curve-Density (MOCCD) ist ein bekanntes top-down Verfahren zur 3D-Pose-Estimation in mindestens zwei 2D-Bildern. Grundlage der Pose-Estimation ist ein System aus kalibrierten Kameras in einem definierten Weltkoordinatensystem. Das Modell einer parametrischen 3D-Kurve wird dabei an die Bilddaten so angepasst, dass die Pixelstatistiken auf der inneren und äußeren Seite der parametrischen Kurve möglichst unterschiedlich sind. Der MOCCD-Algorithmus wird in einem ersten Trackingsystem verwendet, um die 3D-Pose eines Objekts zu schätzen. Die notwendige 3D-Pose-Prädiktion über die Zeit wird durch Kalman-Filter berechnet.
+In einem zweiten Trackingsystem wird der neu entwickelte Shape-Flow-Algorithmus, eine Erweiterung des MOCCD-Algorithmus auf Bildsequenzen, verwendet, um die Kalman-Filter im ersten System zu ersetzen. Wichtig bei diesem System ist, dass das getrackte menschliche Körperteil durch ein raum-zeitliches 3D-Konturmodell beschrieben werden kann. Durch den Shape-Flow-Algorithmus wird eine direkt gemessene Bewegungsschätzung realisiert, dadurch können die zeitlichen Filter ersetzt werden und die Qualität der Bewegungsschätzung wird verbessert. Außerdem werden Latenzzeiten verringert, da es keine Einschwingphasen eines Filters mehr gibt.
+In einem weiteren, neu entwickelten Trackingsystem werden zwei unterschiedliche Ansätze zur 3D-Pose-Estimation miteinander gewichtet kombiniert. Dabei wird ein Verfahren verwendet, welches basierend auf 3D-Punktewolken mit Bewegungsinformation und dem bekannten Iterative-Closest-Point (ICP) das verwendete 3D-Modell anpasst. Zum anderen wird der MOCCD-Algorithmus eingesetzt, um das Objektmodell an die Bilddaten anzupassen. Ein Vorteil der verwendeten Ansätze ist, dass sie auf unterschiedlichen Eingabedaten basieren und somit auch einen Ausfall des jeweils anderen Verfahrens kompensieren können. Die Fusion der zwei Pose-Schätzungen basiert auf drei verschiedenen Ähnlichkeitsmaßen. Durch eine Bewegungsanalyse, basierend auf Szenenflussdaten, werden die Bewegungsparameter des Objekts bestimmt. Diese werden anschließend durch den Shape-Flow-Algorithmus verfeinert und sogar die Tiefengeschwindigkeit des Objekts direkt gemessen. Der Einsatz eines zeitlichen Filters ist nicht notwendig.
+Ein viertes, neu entwickeltes Trackingsystem eignet sich zur Verfolgung beliebiger Objekte in Kamerabildern und 3D-Punktewolken. Die in den Kamerabildern getrackten Objekte werden nicht im Detail modelliert, sondern durch Ellipsoide beschrieben. Das System verwendet zur Pose-Estimation Bilddaten und 3D-Punktewolken mit Bewegungsinformation und basiert auf dem Mean-Shift-Algorithmus. Durch das Trackingsystem sollen alle bewegten Objekte in der beobachteten Szene verfolgt werden und auf einer höheren Stufe des Gesamtsystems, der Aktionserkennung, aus den Bewegungsdaten die Zuordnung zum Objekt, Aktionen oder Handlungen abgeleitet werden.
+Um die Bewegungen des menschlichen Arbeiters beim Interaktionsprozess mit dem Industrieroboter verstehen zu können, wurde ein neuartiges System zur Aktionserkennung entwickelt. Als aktionsspezifische Merkmale werden Trajektorien von 3D-Punkten ausgewählt. In dieser Arbeit werden daher konsequent 3D-Informationen verwendet. Das Aktionserkennungssystem ist in der Lage, das getrackte Objekt, welches eine bekannte Bewegung ausführt, aus einer Menge getrackter Objekte zu erkennen. Es kann zusätzlich festgestellt auch werden, dass eine unbekannte Bewegung vorliegt, sodass durch die Vorhersage der Bewegung des Arbeiters mögliche Kollisionen mit dem Industrieroboter oder anderen Objekten erkannt werden. Zur Erkennung der bekannten Aktionen wird aus dem vorgegebenen Arbeitsablauf die Struktur eines Hidden-Markov-Modells (HMMs) abgeleitet und durch ein Partikelfilter der aktuellen Hidden-State des HMMs aus den 3D-Trajektorien geschätzt. Neu ist, dass das HMM nichtstationäre Transitionswahrscheinlichkeiten besitzt. Dies wird durch die zusätzliche Schätzung der Phase der zum Hidden-State zugehörigen Referenztrajektorien (3D-Trajektorien als Aktionsprototypen) möglich. Die Phase beschreibt dabei, zu welchem Anteil die zum Hidden-State zugehörigen Referenztrajektorien bereits durchlaufen sind. Zum Vergleich der 3D-Eingabetrajektorien mit den Aktionsprototypen wird die Levenshtein-Distanz von Trajektorien (LDT) verwendet.
+Am Beispiel von Montagearbeiten eines Werkers an einem Motorblock wird in der Evaluierung auf realen Testsequenzen gezeigt, dass Erkennungsraten von mehr als 90% möglich sind. Außerdem können Unterbrechungen im Arbeitsablauf erkannt werden. Die Erkennung des bekannten zyklischen Arbeitsablaufs wird fortgesetzt, sobald der Arbeiter wieder bekannte Aktionen ausführt. Die Ergebnisse im betrachteten realitätsnahen Beispielszenario zeigen, dass durch die in dieser Arbeit beschriebenen Algorithmen einfache Arbeitsprozesse, wie z.B. "Handeinlegestationen", ganzheitlich überwacht werden könnten und eine sichere physische Interaktion des Arbeiters mit dem Industrieroboter möglich ist.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DissertationMarkusHahn.pdf">https://pub.uni-bielefeld.de/download/2320252/2320268/DissertationMarkusHahn.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universitätsbibliothek</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>3D tracking</topic><topic>3D computer vision</topic><topic>Non-stationary Hidden Markov Models</topic><topic>Action recognition</topic><topic>3D pose estimation</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-23202528</identifier>
+<part><extent unit="pages">232</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2011-05-13</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hahn, Markus. 2010. &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</chicago>
+<lncs> Hahn, M.: Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen. Universitätsbibliothek, Bielefeld (2010).</lncs>
+<default>Hahn M (2010) &lt;br /&gt;Bielefeld: Universitätsbibliothek.</default>
+<mla>Hahn, Markus. &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek, 2010.</mla>
+<frontiers>Hahn, M. (2010). Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen. Bielefeld: Universitätsbibliothek.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hahn, M. (2010). &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</dgps>
+<ama>Hahn M. &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek; 2010.</ama>
+<ieee> M. Hahn, &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;,  Bielefeld: Universitätsbibliothek, 2010.</ieee>
+<apa>Hahn, M. (2010).  &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek.</apa>
+<wels>Hahn, M. (2010): Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen. Bielefeld: Universitätsbibliothek.</wels>
+<angewandte-chemie>M.  Hahn, &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;, Universitätsbibliothek, Bielefeld, &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hahn M (2010) &lt;br /&gt;&lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universitätsbibliothek.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hahn, M. (2010).  &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</apa_indent>
+<harvard1>Hahn, M., 2010. &lt;em&gt;Raum-zeitliche Objekt- und Aktionserkennung : ein statistischer Ansatz für reale Umgebungen&lt;/em&gt;, Bielefeld: Universitätsbibliothek.</harvard1>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2320252</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-08-23T19:02:00Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:53Z</recordChangeDate>
+</recordInfo>
+</mods>

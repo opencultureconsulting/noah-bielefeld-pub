@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1784020">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>GeneFisher-P: variations of GeneFisher as processes in Bio-jETI</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Anna-Lena</namePart>
+                        <namePart type="family">Lamprecht</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tiziana</namePart>
+                        <namePart type="family">Margaria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4405-3847</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Hartmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: PCR primer design is an everyday, but not trivial task requiring state-of-the-art software. We describe the popular tool GeneFisher and explain its recent restructuring using workflow techniques. We apply a service-oriented approach to model and implement GeneFisher-P, a process-based version of the GeneFisher web application, as a part of the Bio-jETI platform for service modeling and execution. We show how to introduce a flexible process layer to meet the growing demand for improved user-friendliness and flexibility. Results: Within Bio-jETI, we model the process using the jABC framework, a mature model-driven, service-oriented process definition platform. We encapsulate remote legacy tools and integrate web services using jETI, an extension of the jABC for seamless integration of remote resources as basic services, ready to be used in the process. Some of the basic services used by GeneFisher are in fact already provided as individual web services at BiBiServ and can be directly accessed. Others are legacy programs, and are made available to Bio-jETI via the jETI technology. The full power of service-based process orientation is required when more bioinformatics tools, available as web services or via jETI, lead to easy extensions or variations of the basic process. This concerns for instance variations of data retrieval or alignment tools as provided by the European Bioinformatics Institute (EBI). Conclusions: The resulting service- and process-oriented GeneFisher-P demonstrates how basic services from heterogeneous sources can be easily orchestrated in the Bio-jETI platform and lead to a flexible family of specialized processes tailored to specific tasks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18460174</identifier>
+                    <identifier type="ISI">000259023300013</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17840205</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-S4-S13</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1784020</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1784020">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1784020/2314321/gieg_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1784020" DMDID="DMD1784020">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1784020"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

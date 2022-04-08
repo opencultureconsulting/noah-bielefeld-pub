@@ -1,0 +1,125 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943876">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Attention-based Robot Learning of Haptic Interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexandra</namePart>
+                        <namePart type="family">Moringen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2605-1020</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sascha</namePart>
+                        <namePart type="family">Fleer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1606-2436</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Guillaume</namePart>
+                        <namePart type="family">Walck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ilana</namePart>
+                        <namePart type="family">Nisky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jess</namePart>
+                        <namePart type="family">Hartcher-O’Brien</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michaël</namePart>
+                        <namePart type="family">Wiertlewski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jeroen</namePart>
+                        <namePart type="family">Smeets</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Haptic interaction involved in almost any physical interaction with the environment performed by humans is a highly sophisticated and to a large extent a computationally unmodelled process. Unlike humans, who seamlessly handle a complex mixture of haptic features and profit from their integration over space and time, even the most advanced robots are strongly constrained in performing contact-rich interaction tasks. In this work we approach the described problem by demonstrating the success of our online haptic interaction learning approach on an example task: haptic identification of four unknown objects. Building upon our previous work performed with a floating haptic sensor array, here we show functionality of our approach within a fully-fledged robot simulation. To this end, we utilize the haptic attention model (HAM), a meta-controller neural network architecture trained with reinforcement learning. HAM is able to learn to optimally parameterize a sequence of so-called haptic glances, primitive actions of haptic control derived from elementary human haptic interaction. By coupling a simulated KUKA robot arm with the haptic attention model, we pursue to mimic the functionality of a finger.
+&lt;br /&gt;&lt;br /&gt;
+Our modeling strategy allowed us to arrive at a tactile reinforcement learning architecture and characterize some of its advantages. Owing to a rudimentary experimental setting and an easy acquisition of simulated data, we believe our approach to be particularly useful for both time-efficient robot training and a flexible algorithm prototyping.</abstract>
+                    <subject>
+                        <topic>Haptic interaction in 3D</topic>
+                        <topic>Reinforcement learning</topic>
+                        <topic>Haptic attention</topic>
+                        <topic>Robot control</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Haptics: Science, Technology, Applications. 12th International Conference, EuroHaptics 2020, Leiden, The Netherlands, September 6–9, 2020, Proceedings</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12272</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>462</start>
+                                <end>470</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-030-58146-6</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29438764</identifier>
+                    <identifier type="doi">10.1007/978-3-030-58147-3_51</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943876</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943876">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943876/2943877/eurohaptics.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943876" DMDID="DMD2943876">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943876"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

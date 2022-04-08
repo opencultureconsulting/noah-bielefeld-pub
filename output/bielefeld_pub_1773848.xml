@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773848">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>initial step of DNA hairpin folding: a kinetic analysis using fluorescence correlation spectroscopy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jiho</namePart>
+                        <namePart type="family">Kim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sören</namePart>
+                        <namePart type="family">Doose</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hannes</namePart>
+                        <namePart type="family">Neuweiler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Sauer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Conformational fluctuations of single-stranded DNA (ssDNA) oligonucleotides were studied in aqueous solution by monitoring contact-induced fluorescence quenching of the oxazine fluorophore MR121 by intrinsic guanosine residues (dG). We applied fluorescence correlation spectroscopy as well as steady-state and time-resolved fluorescence spectroscopy to analyze kinetics of DNA hairpin folding. We first characterized the reporter system by investigating bimolecular quenching interactions between MR121 and guanosine monophosphate in aqueous solution estimating rate constants, efficiency and stability for formation of quenched complexes. We then studied the kinetics of complex formation between MR121 and dG residues site-specifically incorporated in DNA hairpins. To uncover the initial steps of DNA hairpin folding we investigated complex formation in ssDNA carrying one or two complementary base pairs (dC–dG pairs) that could hybridize to form a short stem. Our data show that incorporation of a single dC–dG pair leads to non-exponential decays for opening and closing kinetics and reduces rate constants by one to two orders of magnitude. We found positive activation enthalpies independent of the number of dC–dG pairs. These results imply that the rate limiting step of DNA hairpin folding is not determined by loop dynamics, or by mismatches in the stem, but rather by interactions between stem and loop nucleotides.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Nucleic Acids Research</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>34</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>9</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>2516</start>
+                                <end>2527</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0305-1048</identifier>
+                    <identifier type="eIssn">1362-4962</identifier>
+                    <identifier type="MEDLINE">16687657</identifier>
+                    <identifier type="ISI">000238763700012</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17738488</identifier>
+                    <identifier type="doi">10.1093/nar/gkl221</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773848</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773848">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773848/2311328/2516.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1773848">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773848/2311329/2516_Suppl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773848" DMDID="DMD1773848">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773848"/>
+            <mets:div TYPE="part" ID="PART1_1773848" LABEL="2516_Suppl.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1773848"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

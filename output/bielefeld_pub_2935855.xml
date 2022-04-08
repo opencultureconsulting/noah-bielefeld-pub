@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935855">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Natural Language Semantics With Pictures: Some Language &amp; Vision Datasets and Potential Uses for Computational Semantics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Schlangen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2686-6887</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Dobnik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stergios</namePart>
+                        <namePart type="family">Chatzikyriakidis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vera</namePart>
+                        <namePart type="family">Demberg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Propelling, and propelled by, the &quot;deep learning revolution&quot;, recent years have seen the introduction of ever larger corpora of images annotated with natural language expressions. We survey some of these corpora, taking a perspective that reverses the usual directionality, as it were, by viewing the images as semantic annotation of the natural language expressions. We discuss datasets that can be derived from the corpora, and tasks of potential interest for computational semanticists that can be defined on those. In this, we make use of relations provided by the corpora (namely, the link between expression and image, and that between two expressions linked to the same image) and relations that we can add (similarity relations between expressions, or between images). Specifically, we show that in this way we can create data that can be used to learn and evaluate lexical and compositional grounded semantics, and we show that the &quot;linked to same image&quot; relation tracks a semantic implication relation that is recognisable to annotators even in the absence of the linking image as evidence. Finally, as an example of possible benefits of this approach, we show that an exemplar-model-based approach to implication beats a (simple) distributional space-based one on some derived datasets, while lending itself to explainability.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-1-950737-19-2</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29358557</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935855</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935855">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935855/2935856/W19-0424.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935855" DMDID="DMD2935855">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935855"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

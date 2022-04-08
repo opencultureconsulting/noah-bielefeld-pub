@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305163">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Semantic visualization with hyperbolic self-organizing maps : a novel approach for exploring structure in large data sets</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jörg</namePart>
+                        <namePart type="family">Ontrup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-06-06</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis describes a novel semantic visualization approach for the exploration of structure in large data sets. The ever increasing amount of online data has led to an information overload which can be alleviated with techniques from information retrieval, machine learning, visualization and semantic processing. The thesis introduces a hierarchically growing variant of the self-organizing map where the geometrical lattice structure is constructed in hyperbolic space allowing a speed-up of several orders of magnitude for the learning of large maps. Furthermore a semantically guided extension to the classic bag-of-words model is given: WordNet is used to construct a hierarchical feature representation of documents, called the pyramid-of-words. In addition to the theoretical foundation of the aforementioned novel approaches, the architecture of a demonstrator system is introduced. The system is applied to several artificial data sets and three real world examples including the Reuters-21578 benchmark data set. The thesis closes with a user study addressing the question how effective the proposed system is with respect to navigation tasks in large data structures.</abstract>
+                    <subject>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Selbstorganisierende Karte</topic>
+                        <topic>Hyperbolische selbstorganisierende Karten</topic>
+                        <topic>Hyperbolic self-organizing maps</topic>
+                        <topic>Neuronales Netz</topic>
+                        <topic>Data Mining</topic>
+                        <topic>Visualisierung</topic>
+                        <topic>Information Retrieval</topic>
+                        <topic>Semantisches Datenmodell</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12998</identifier>
+                    <identifier type="sys">HT015625817</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305163</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305163">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305163/2305166/Ontrup_SemanticVisualization2008.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305163" DMDID="DMD2305163">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305163"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,126 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2710097">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Multi-Level Control Architecture for the Bionic Handling Assistant</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Rolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Queißer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9725-6971</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Arne</namePart>
+                        <namePart type="family">Nordmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Bionic Handling Assistant is one of the largest soft continuum robots and very special in be-
+ing a pneumatically operated platform that is able to bend, stretch, and grasp in all directions. It
+nevertheless shares many challenges with smaller continuum and other softs robots such as parallel
+actuation, complex movement dynamics, slow pneumatic actuation, non-stationary behavior, and a
+lack of analytic models. To master the control of this challenging robot, we argue for a tight inte-
+gration of standard analytic tools, simulation, control, and state of the art machine learning into an
+overall architecture that can serve as blueprint for control design also beyond the BHA. To this aim,
+we show how to integrate specific modes of operation and different levels of control in a synergistic
+manner, which is enabled by using modern paradigms of software architecture and middleware. We
+thereby achieve an architecture with unique overall control abilities for a soft continuum robot that
+allow for exible experimentation towards compliant user-interaction, grasping, and online learning of
+internal models.</abstract>
+                    <subject>
+                        <topic>Continuum Robot</topic>
+                        <topic>Soft Robot</topic>
+                        <topic>Control Architecture</topic>
+                        <topic>Middleware</topic>
+                        <topic>Compliant Interaction</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Advanced Robotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>29</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>13: SI</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>847</start>
+                                <end>859</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0169-1864</identifier>
+                    <identifier type="eIssn">1568-5535</identifier>
+                    <identifier type="ISI">000360223500001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27100971</identifier>
+                    <identifier type="doi">10.1080/01691864.2015.1037793</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2710097</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2710097">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2710097/2904482/SIARCR.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2710097" DMDID="DMD2710097">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2710097"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

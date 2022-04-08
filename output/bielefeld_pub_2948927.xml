@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Markov chains under nonlinear expectation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Max</namePart>
+                        <namePart type="family">Nendel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper, we consider continuous-time Markov chains with a finite state space under nonlinear expectations. We define so-called Q-operators as an extension of Q-matrices or rate matrices to a nonlinear setup, where the nonlinearity is due to model uncertainty. The main result gives a full characterization of convex Q-operators in terms of a positive maximum principle, a dual representation by means of Q-matrices, time-homogeneous Markov chains under convex expectations, and a class of nonlinear ordinary differential equations. This extends a classical characterization of generators of Markov chains to the case of model uncertainty in the generator. We further derive an explicit primal and dual representation of convex semigroups arising from Markov chains under convex expectations via the Fenchel-Legendre transformation of the generator. We illustrate the results with several numerical examples, where we compute price bounds for European contingent claims under model uncertainty in terms of the rate matrix.</abstract>
+                    <subject>
+                        <topic>generator of nonlinear semigroup</topic>
+                        <topic>imprecise Markov chain</topic>
+                        <topic>model</topic>
+                        <topic>uncertainty</topic>
+                        <topic>nonlinear expectation</topic>
+                        <topic>nonlinear ODE</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Mathematical Finance</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>31</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>474</start>
+                                <end>507</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0960-1627</identifier>
+                    <identifier type="eIssn">1467-9965</identifier>
+                    <identifier type="ISI">000587334900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29489276</identifier>
+                    <identifier type="doi">10.1111/mafi.12289</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2948927">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948927/2950999/mafi.12289%282%29.nendel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948927" DMDID="DMD2948927">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

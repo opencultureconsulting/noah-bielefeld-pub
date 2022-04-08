@@ -1,0 +1,410 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2702997</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Relevance-based Interactive Optimization of Sonification"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Bunte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">28260405</identifier></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper presents a novel approach for the interactive optimization of sonification parameters. In a closed loop, the system automatically generates modified versions of an initial (or previously selected) sonification via gradient ascend or evolutionary algorithms. The human listener directs the optimization process by providing relevance feedback about the perceptual quality of these propositions. In summary, the scheme allows users to bring in their perceptual capabilities without burdening them with computational tasks. It also allows for continuous update of exploration goals in the course of an exploration task. Finally, Interactive Optimization is a promising novel paradigm for solving the mapping problems and for a user-centred design of auditory display. The paper gives a full account on the technique, and demonstrates the optimization at hand of synthetic and real-world data sets. 
+
+### Sonification examples
+Fisher Data set (two overlapping clusters): The sonification examples are the parents of a series of optimization steps, starting with a random sonification and optimizing towards an audible separation of chlusters. SFk is the parent of iteration k.
+
++ [SF1 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2702998)
++ [SF3 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2702999)
++ [SF5 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703000)
++ [SF6 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703001)
++ [SF7 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703002)
++ [SF9 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703003)
++ [SF10 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703004) good audible clustering structure
++ [SF11 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703005)
++ [SF12 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703006)
++ [SF13 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703008)
++ [SF14 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703007)
++ [SF15 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703009)
++ [SF17 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703010)
++ [SF18 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703011)
++ [SF19 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703012)
++ [SF20 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703013)
++ [SF21 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703014)
++ [SF22 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703016)
++ [SF23 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703015)
++ [SF24 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703018)
++ [SF25 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703017)
++ [SF33 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703019)
++ [SF34 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703020)
++ [SF37 (mp3, 28k)](https://pub.uni-bielefeld.de/download/2702997/2703021)
+
+Iris data set (4d data with 3 clusters, 150 items): The sonification examples are again the parents for the successive iterations during evolutionary optimization SIk denotes (S)ound Example for (I)ris data set iteration k.
+
++ [SI1 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703024)
++ [SI2 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703022)
++ [SI3 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703023)
++ [SI4 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703025)
++ [SI5 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703026)
++ [SI6 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703027)
++ [SI7 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703028)
++ [SI8 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703031)
++ [SI9 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703029)
++ [SI10 (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703030)
+
+The following examples are optimization results for increased attention to amplitude and panning.
+
++ [SI Amplitude (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703032)
++ [SI Panning (mp3, 40k)](https://pub.uni-bielefeld.de/download/2702997/2703033)
+
+### SuperCollider Extensions
+Find here SuperCollider classes by Thomas Hermann, which are useful for programming sonifications. 
+
+#### OctaveSC
+OctaveSC is a class to interface with the free powerful math package [octave](http://www.octave.org/).
+Description
+The class allows to call octave functions and execute octave instructions from sc3 transfer data between octave and sc3 use the SuperCollider rtf document editor as octave shell (tested on OSX): via CTRL-RETURN the current line or selection can be executed in octave. This allows to interleave octave code and explaning text in the same way as it can be done with sc code.
+
+#### Download
+OctaveSC is provided as zip archive (download  [(OctaveSC.zip (16kB)](https://pub.uni-bielefeld.de/download/2702997/2933602/OctaveSC.zip) ]) with the OctaveSC class directory containing the class file OctaveSC.sc and a help file OctaveSC.help.rtf. See the README.txt for installation instructions and how to get started.
+
+
+#### Contributing to OctaveSC
+The standard data types (scalars, vectors, matrices) of numbers work reliable, and I find OctaveSC very useful. However, its functionality is far from complete in this version. In particular, I'd like to address for future versions the integration of high-level commands to exchange strings exchange of string matrices checks for proper dimensions when exchanging matrices and vectors automatic matrix-2-vector conversion for Nx1 matrices (which currently appear in sc as arrays of arrays with 1 element each) working with structures.
+
+Suggestions for improving OctaveSC are very welcome, please e-mail your code fragment for inclusion into the official distribution provided on this website. </abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF1.mp3">https://pub.uni-bielefeld.de/download/2702997/2702998/SF1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF3.mp3">https://pub.uni-bielefeld.de/download/2702997/2702999/SF3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF5.mp3">https://pub.uni-bielefeld.de/download/2702997/2703000/SF5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF6.mp3">https://pub.uni-bielefeld.de/download/2702997/2703001/SF6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF7.mp3">https://pub.uni-bielefeld.de/download/2702997/2703002/SF7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF9.mp3">https://pub.uni-bielefeld.de/download/2702997/2703003/SF9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF10.mp3">https://pub.uni-bielefeld.de/download/2702997/2703004/SF10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF11.mp3">https://pub.uni-bielefeld.de/download/2702997/2703005/SF11.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF12.mp3">https://pub.uni-bielefeld.de/download/2702997/2703006/SF12.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF13.mp3">https://pub.uni-bielefeld.de/download/2702997/2703008/SF13.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF14.mp3">https://pub.uni-bielefeld.de/download/2702997/2703007/SF14.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF15.mp3">https://pub.uni-bielefeld.de/download/2702997/2703009/SF15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF17.mp3">https://pub.uni-bielefeld.de/download/2702997/2703010/SF17.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF18.mp3">https://pub.uni-bielefeld.de/download/2702997/2703011/SF18.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF19.mp3">https://pub.uni-bielefeld.de/download/2702997/2703012/SF19.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF20.mp3">https://pub.uni-bielefeld.de/download/2702997/2703013/SF20.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF21.mp3">https://pub.uni-bielefeld.de/download/2702997/2703014/SF21.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF22.mp3">https://pub.uni-bielefeld.de/download/2702997/2703016/SF22.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF23.mp3">https://pub.uni-bielefeld.de/download/2702997/2703015/SF23.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF24.mp3">https://pub.uni-bielefeld.de/download/2702997/2703018/SF24.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF25.mp3">https://pub.uni-bielefeld.de/download/2702997/2703017/SF25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF33.mp3">https://pub.uni-bielefeld.de/download/2702997/2703019/SF33.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF34.mp3">https://pub.uni-bielefeld.de/download/2702997/2703020/SF34.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SF37.mp3">https://pub.uni-bielefeld.de/download/2702997/2703021/SF37.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI1.mp3">https://pub.uni-bielefeld.de/download/2702997/2703024/SI1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI2.mp3">https://pub.uni-bielefeld.de/download/2702997/2703022/SI2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI3.mp3">https://pub.uni-bielefeld.de/download/2702997/2703023/SI3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI4.mp3">https://pub.uni-bielefeld.de/download/2702997/2703025/SI4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI5.mp3">https://pub.uni-bielefeld.de/download/2702997/2703026/SI5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI6.mp3">https://pub.uni-bielefeld.de/download/2702997/2703027/SI6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI7.mp3">https://pub.uni-bielefeld.de/download/2702997/2703028/SI7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI8.mp3">https://pub.uni-bielefeld.de/download/2702997/2703031/SI8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI9.mp3">https://pub.uni-bielefeld.de/download/2702997/2703029/SI9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI10.mp3">https://pub.uni-bielefeld.de/download/2702997/2703030/SI10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI_Amplitude.mp3">https://pub.uni-bielefeld.de/download/2702997/2703032/SI_Amplitude.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SI_Panning.mp3">https://pub.uni-bielefeld.de/download/2702997/2703033/SI_Panning.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="OctaveSC.zip">https://pub.uni-bielefeld.de/download/2702997/2933602/OctaveSC.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2702997</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017304</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>T.  Hermann, K.  Bunte, and H.  Ritter, &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hermann T, Bunte K, Ritter H (2007) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., Bunte, K., &amp;amp; Ritter, H., 2007. &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Bunte, K., &amp;amp; Ritter, H. (2007).  &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702997&lt;/div&gt;</apa_indent>
+<wels>Hermann, T.; Bunte, K.; Ritter, H. (2007): Supplementary Material for "Relevance-based Interactive Optimization of Sonification". Bielefeld University.</wels>
+<ieee> T. Hermann, K. Bunte, and H. Ritter, &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;, Bielefeld University, 2007.</ieee>
+<apa>Hermann, T., Bunte, K., &amp;amp; Ritter, H. (2007).  &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702997</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Bunte, K. &amp;amp; Ritter, H. (2007). &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702997.&lt;/div&gt;</dgps>
+<frontiers>Hermann, T., Bunte, K., and Ritter, H. (2007). Supplementary Material for "Relevance-based Interactive Optimization of Sonification". Bielefeld University.</frontiers>
+<ama>Hermann T, Bunte K, Ritter H. &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University; 2007.</ama>
+<default>Hermann T, Bunte K, Ritter H (2007) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas, Bunte, Kerstin, and Ritter, Helge. &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University, 2007.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Bunte, Kerstin, and Ritter, Helge. 2007. &lt;em&gt;Supplementary Material for "Relevance-based Interactive Optimization of Sonification"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T., Bunte, K., Ritter, H.: Supplementary Material for "Relevance-based Interactive Optimization of Sonification". Bielefeld University (2007).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2702997</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-06T07:57:43Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-06T10:35:14Z</recordChangeDate>
+</recordInfo>
+</mods>

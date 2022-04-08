@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2614314">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computer-aided investigation of interaction mediated by an AR-enabled wearable interface</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Angelika</namePart>
+                        <namePart type="family">Dierker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hanheide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-08-31</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis provides an approach on facilitating the analysis of nonverbal behaviour during human-human interaction. Thereby, much of the work that researchers do starting with experiment control, data acquisition, tagging and finally the analysis of the data is alleviated. For this, software and hardware techniques are used as sensor technology, machine learning, object tracking, data processing, visualisation and Augmented Reality. These are combined into an Augmented-Reality-enabled Interception Interface (ARbInI), a modular wearable interface for two users. The interface mediates the users’ interaction thereby intercepting and influencing it.
+The ARbInI interface consists of two identical setups of sensors and displays, which are mutually coupled. Combining cameras and microphones with sensors, the system offers to record rich multimodal interaction cues in an efficient way. The recorded data can be analysed online and offline for interaction features (e. g. head gestures in head movements, objects in joint attention, speech times) using integrated machine-learning approaches. The classified features can be tagged in the data.
+For a detailed analysis, the recorded multimodal data is transferred automatically into file bundles loadable in a standard annotation tool where the data can be further tagged by hand. For statistic analyses of the complete multimodal corpus, a toolbox for use in a standard statistics program allows to directly import the corpus and to automate the analysis of multimodal and complex relationships between arbitrary data types.
+When using the optional multimodal Augmented Reality techniques integrated into ARbInI, the camera records exactly what the participant can see and nothing more or less. The following additional advantages can be used during the experiment: (a) the experiment can be controlled by using the auditory or visual displays thereby ensuring controlled experimental conditions, (b) the experiment can be disturbed, thus offering to investigate how problems in interaction are discovered and solved, and (c) the experiment can be enhanced by interactively comprising the behaviour of the user thereby offering to investigate how users cope with novel interaction channels.
+This thesis introduces criteria for the design of scenarios in which interaction analysis can benefit from the experimentation interface and presents a set of scenarios. These scenarios are applied in several empirical studies thereby collecting multimodal corpora that particularly include head gestures. The capabilities of computer-aided interaction analysis for the investigation of speech, visual attention and head movements are illustrated on this empirical data.
+The effects of the head-mounted display (HMD) are evaluated thoroughly in two studies. The results show that the HMD users need more head movements to achieve the same shift of gaze direction and perform less head gestures with slower velocity and fewer repetitions compared to non-HMD users. From this, a reduced willingness to perform head movements if not necessary can be concluded. Moreover, compensation strategies are established like leaning backwards to enlarge the field of view, and increasing the number of utterances or changing the reference to objects to compensate for the absence of mutual eye contact. Two studies investigate the interaction while actively inducing misunderstandings. The participants here use compensation strategies like multiple verification questions and arbitrary gaze movements. Additionally, an enhancement method that highlights the visual attention of the interaction partner is evaluated in a search task. The results show a significantly shorter reaction time and fewer errors.</abstract>
+                    <subject>
+                        <topic>influencing interaction</topic>
+                        <topic>multimodal data analysis</topic>
+                        <topic>facilitate research process</topic>
+                        <topic>Augmented Reality</topic>
+                        <topic>wearable interface</topic>
+                        <topic>mediated interaction</topic>
+                        <topic>nonverbal behaviour</topic>
+                        <topic>closed-loop interface</topic>
+                        <topic>human-human interaction</topic>
+                        <topic>collaboration</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26143142</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2614314</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2614314">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2614314/2614322/Dierker2012_Diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2614314" DMDID="DMD2614314">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2614314"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

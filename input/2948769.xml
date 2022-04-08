@@ -1,0 +1,107 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2948769</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Ganschow</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jörn</namePart>
+  
+  
+  <namePart type="family">Kalinowski</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Carsten</namePart>
+  
+  
+  <namePart type="family">Tiemann</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10017</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The field of forensic DNA typing has advanced rapidly over the past decades. Nowadays, short
+tandem repeats (STRs) are the markers of choice to identify the donor of biological evidence. This class of genetic variation consists of tandem-like repeated elements that are highly variable in both the number of repeat units and the repeat sequence. Analysis of length polymorphisms at STR loci currently almost exclusively relies on PCR amplification and subsequent fragment sizing using capillary electrophoresis – a “gold standard” with certain limitations as to the resolution of STR alleles and the separation of artificial products. With the ongoing advancement of DNA sequencing, the forensic community is exploring the opportunities of massively parallel sequencing (MPS) for high-resolution forensic DNA typing. MPS enables characterizing biological evidence in previously unimagined detail. Some attractive features of STR sequencing are the increased discrimination power compared to that of electrophoretic sizing and the ability to investigate a wide range of forensic markers in a single assay. Despite these benefits, the application of MPS to routine casework poses new challenges, which are addressed as part of this dissertation.
+The monSTR identity panel was designed in response to demand for a medium-sized STR assay
+on the Illumina MiSeq platform, targeting 21 forensically important markers including the highly discriminative SE33 locus. This thematic complex describes the construction of a custom forensic MPS-STR assay from primer engineering through the optimization of thermocycling conditions. The Design of Experiments methodology pioneered in this context enables an experimentally practical and economically justifiable assay optimization. Statistical modeling revealed valuable insights that helped to understand the characteristics of the monSTR assay. Joint optimization of multiple process parameters resulted in a high-fidelity identity panel, characterized by a wellbalanced amplification of STR loci, a high on-target ratio of sequence reads, and reduced formation of stutter products compared to standard PCR conditions. Developmental validation studies according to established forensic guidelines have explored the capabilities and limitations of this novel identity panel. One of the key findings was that monSTR generates complete and reproducible genotypes even with minute amounts of input DNA. Results have also demonstrated that STR alleles of multiple contributors in imbalanced mixed samples can be accurately resolved. 
+The bioinformatics analysis of STR sequencing data represents one of the main bottlenecks for
+the integration of MPS into standard casework laboratories. The present thesis introduces a novel open-access web application, toaSTR, that translates raw sequencing data into genetic profiles. The software engineering chapter provides insights into bioinformatics algorithms and the composition of application components. A novel stutter model proposed herein predicts and identifies artificial products originating from the analytical scheme. Sequence observations are automatically classified in order to assist in the interpretation of complex samples. Evidence from multiple studies has shown that toaSTR can precisely identify alleles from data obtained with various MPS platforms and identity panels. By emphasizing usability and versatility, toaSTR simplifies access to MPS data analysis for DNA laboratories without in-depth bioinformatics knowledge.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Ganschow.pdf">https://pub.uni-bielefeld.de/download/2948769/2948974/Dissertation_Ganschow.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29487695</identifier><identifier type="doi">10.4119/unibi/2948769</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2931971</url>  </location>
+</relatedItem>
+
+<dateOther encoding="w3cdtf" type="defenseDate">2020-10-29</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Ganschow, S.: High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software. Universität Bielefeld, Bielefeld (2020).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ganschow, Sebastian. 2020. &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Ganschow, Sebastian. &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2020.</mla>
+<default>Ganschow S (2020) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<ama>Ganschow S. &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2020.</ama>
+<frontiers>Ganschow, S. (2020). High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ganschow, S. (2020). &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2948769.&lt;/div&gt;</dgps>
+<apa>Ganschow, S. (2020).  &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2948769</apa>
+<ieee> S. Ganschow, &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2020.</ieee>
+<wels>Ganschow, S. (2020): High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software. Bielefeld: Universität Bielefeld.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ganschow, S. (2020).  &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2948769&lt;/div&gt;</apa_indent>
+<bio1>Ganschow S (2020) &lt;br /&gt;&lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Ganschow, S., 2020. &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>S.  Ganschow, &lt;em&gt;High-resolution forensic DNA typing - Construction, optimization, and validation of a human identity panel used with massively parallel sequencing and the development of a web-based genotyping software&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2020&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2948769</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-11-16T14:26:29Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-24T14:35:07Z</recordChangeDate>
+</recordInfo>
+</mods>

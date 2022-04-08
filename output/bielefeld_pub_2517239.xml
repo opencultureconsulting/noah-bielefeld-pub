@@ -1,0 +1,121 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2517239">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Combining peak- and chromatogram-based retention time alignment algorithms for multiple chromatography-mass spectrometry datasets</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nils</namePart>
+                        <namePart type="family">Hoffmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6540-6875</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Keck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Neuweger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mathias</namePart>
+                        <namePart type="family">Wilhelm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Högy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Niehaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Modern analytical methods in biology and chemistry use separation techniques coupled to sensitive detectors, such as gas chromatography-mass spectrometry (GC-MS) and liquid chromatography-mass spectrometry (LC-MS). These hyphenated methods provide high-dimensional data. Comparing such data manually to find corresponding signals is a laborious task, as each experiment usually consists of thousands of individual scans, each containing hundreds or even thousands of distinct signals. In order to allow for successful identification of metabolites or proteins within such data, especially in the context of metabolomics and proteomics, an accurate alignment and matching of corresponding features between two or more experiments is required. Such a matching algorithm should capture fluctuations in the chromatographic system which lead to non-linear distortions on the time axis, as well as systematic changes in recorded intensities. Many different algorithms for the retention time alignment of GC-MS and LC-MS data have been proposed and published, but all of them focus either on aligning previously extracted peak features or on aligning and comparing the complete raw data containing all available features.
+Results
+
+In this paper we introduce two algorithms for retention time alignment of multiple GC-MS datasets: multiple alignment by bidirectional best hits peak assignment and cluster extension (BIPACE) and center-star multiple alignment by pairwise partitioned dynamic time warping (CEMAPP-DTW). We show how the similarity-based peak group matching method BIPACE may be used for multiple alignment calculation individually and how it can be used as a preprocessing step for the pairwise alignments performed by CEMAPP-DTW. We evaluate the algorithms individually and in combination on a previously published small GC-MS dataset studying the Leishmania parasite and on a larger GC-MS dataset studying grains of wheat (Triticum aestivum).
+Conclusions
+
+We have shown that BIPACE achieves very high precision and recall and a very low number of false positive peak assignments on both evaluation datasets. CEMAPP-DTW finds a high number of true positives when executed on its own, but achieves even better results when BIPACE is used to constrain its search space. The source code of both algorithms is included in the OpenSource software framework Maltcms, which is available from http://maltcms.sf.net webcite. The evaluation scripts of the present study are available from the same source.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>13</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">22920415</identifier>
+                    <identifier type="ISI">000313493000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25172390</identifier>
+                    <identifier type="doi">10.1186/1471-2105-13-21</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2517239</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2517239">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2517239/2552125/1471-2105-13-214.hoffmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2517239" DMDID="DMD2517239">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2517239"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

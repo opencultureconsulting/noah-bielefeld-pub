@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303299">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Integrative approaches to protein homology search</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Intikhab</namePart>
+                        <namePart type="family">Alam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-07-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Many methods have been developed to search for homologous members of a protein family in databases, and the reliability of results and conclusions may be compromised if only one method is used, neglecting the others. This thesis introduces an integrative approach to homology search and shows that an effective combination of homology search methods reveals superior results (Alam et al., 2004). Two protein sequence database search methods (called CHASE (Comparative Homology Agreement SEarch) and GenCHASE (Genomic CHASE)) were developed, which serve as a major step to improve the detection of remote homology. CHASE combines methods that search proteins in protein databases. We implemented some improvements in CHASE that we now call CHASE2. An evaluation based on the SCOP database reveals that, on average, a coverage of 55 percent and 49 percent can be obtained by CHASE2 and CHASE respectively, in searches for distantly related homologues (i.e. members of the same superfamily, but not the same family - the most difficult task), accepting only 10 false positives, while the individual methods obtain a coverage of 31 to 44 percent. GenCHASE combines methods that search proteins in genomic sequences and predict gene structure. Using GenCHASE we have found several candidates for ABC, S100, and Cadherin proteins. Experimental verification of some of these candidates is underway.</abstract>
+                    <subject>
+                        <topic>Datenbank , Online-Recherche , Proteinfamilie , Sequenzdaten , Homologie (Biologie) ,  , CHASE (Comparative Homology Agreement SEarch) , GenCHASE (Genomic CHASE) , Protein sequence database search , Evaluation</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7293</identifier>
+                    <identifier type="sys">HT014568721</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303299</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303299">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303299/2303302/Thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303299" DMDID="DMD2303299">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303299"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

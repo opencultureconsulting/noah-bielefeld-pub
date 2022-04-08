@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2280918">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Direct Tactile Coupling of Mobile Phones with the feelabuzz System</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">René</namePart>
+                        <namePart type="family">Tünnermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Leichsenring</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Touch can convey emotions on a very direct level. We propose feelabuzz, a system implementing a remote touch connection using standard mobile phone hardware. Accelerometer data is mapped to vibration strength on
+two smartphones connected via the Internet. This is done using direct mapping techniques, without any abstraction of the acceleration signal. By this, feelabuzz can be used for implicit context communication, i.e. the background monitoring of the natural movements of the users  themselves or their environments, as well as for direct communication, i.e. voluntary and symbolic signalling through this new channel. We describe the system and its implementation, discuss its possible implications and verify the system&apos;s ability to recognizably transmit different actions in a preliminary user study.</abstract>
+                    <subject>
+                        <topic>mediated communication</topic>
+                        <topic>tactile feedback</topic>
+                        <topic>haptic display</topic>
+                        <topic>mobile devices</topic>
+                        <topic>wearable computing</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Mobile Social Signal Processing. First International Workshop, MSSP 2010, Lisbon, Portugal, September 7, 2010, Invited Papers</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8045</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>74</start>
+                                <end>83</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-642-54324-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22809181</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2280918</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2280918">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2280918/2280965/TuennermannLeichsenringHermann2010.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2280918" DMDID="DMD2280918">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2280918"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

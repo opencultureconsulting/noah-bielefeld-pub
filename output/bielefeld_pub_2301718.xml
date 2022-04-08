@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Nuclear export signals (NESs) in Arabidopsis thaliana : development and experimental validation of a prediction tool</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Claudia Consuelo</namePart>
+                        <namePart type="family">Rubiano Castellanos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Merkle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-06-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">It is well established that nucleo-cytoplasmic shuttling regulates not only the localization but also the activity of many proteins like transcription factors, cell cycle regulators and tumor suppressor proteins just to mention some. Also in plants the nucleo-cytoplasmic partitioning of proteins emerges as an important regulation mechanism for many plant-specific processes.
+One requirement for a protein to shuttle between nucleus and cytoplasm lies in its nuclear export activity. The widely used mechanism for export of proteins from the nucleus involves the receptor Exportin 1 and the presence of a nuclear export signal (NES) in the cargo protein. Given the big amount of sequence data available nowadays the possibility to use a computational tool to predict the proteins potentially containing an NES would help to facilitate the screening and experimental characterization of NES-containing proteins. However, the computational prediction of NESs is a challenging task. Currently there is only one NES prediction tool and that is unfortunately not accurate for predicting these signals in proteins of plants. In that direction, this study aimed mainly at developing a prediction method for identifying NESs in proteins from Arabidopsis and to validate its usefulness experimentally. It included also the definition of the influence of the NES protein context in the nuclear export activity of specific proteins of Arabidopsis.
+Three machine-learning algorithms (i.e. k-NN, SVM and Random Forests) were trained with experimentally validated NES sequences from proteins of Arabidopsis and other organisms. Two kinds of features were included, the sequence of the NESs expressed as the score obtained from an HMM profile constructed with the NES sequences of proteins from Arabidopsis, and physicochemical properties of the amino acid residues expressed as amino acid index values. The Random Forest classifier was selected among the three classifiers after evaluation of the performance by different methods. It showed to be highly accurate (accuracy values over 85 percent, classification error around 10 percent, MCC around 0.7 and area under the ROC curve around 0.90) and performed better than the other two trained classifiers.
+Using the Random Forest classifier around 5000 proteins from the total of protein sequences from Arabidopsis were predicted as containing NESs. A group of these proteins was selected by using Gene Ontologies (GO) and from this last group, 13 proteins were experimentally tested for nuclear export activity. 11 out of those 13 proteins showed positive interaction with the receptor Exportin 1 (XPO1a) from Arabidopsis in yeast two-hybrid assays. The proteins showing nuclear export activity include 9 transcription factors and 2 DNA metabolism-related proteins. Furthermore, it was established that the amino acid residues located between the hydrophobic residues in the NES as well as the protein structure of the regions around the NES could modify the nuclear export activity of some proteins.
+In conclusion, this work presents a new prediction tool for NESs in proteins of Arabidopsis based on a Random Forest classifier. The experimental validation of the nuclear export activity in a selected group of proteins is an indicative of the usefulness of the tool. From the biological point of view, the nuclear export activity observed in those proteins strongly suggest that nucleo-cytoplasmic partitioning could be involved in the regulation of their functions. For the follow up research the further characterization of the proteins showing positive nuclear export activity as well as the validation of additional predicted NES-containing proteins is envisioned. In the near future, the developed tool is going to be available as a web application to facilitate and promote its further usage.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17235</identifier>
+                    <identifier type="sys">HT016589602</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301718">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301718/2301721/RubianoClaudia_disertation_e.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301718" DMDID="DMD2301718">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

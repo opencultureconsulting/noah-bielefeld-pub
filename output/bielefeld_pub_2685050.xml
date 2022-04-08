@@ -1,0 +1,109 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2685050">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Active Compliant Control Mode for Interaction with a Pneumatic Soft Robot</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Queißer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9725-6971</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Rolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Bionic soft robots offer exciting perspectives for
+more flexible and safe physical interaction with the world and
+humans. Unfortunately, their hardware design often prevents
+analytical modeling, which in turn is a prerequisite to apply
+classical automatic control approaches. On the other hand,
+also modeling by means of learning is hardly feasible due to
+many degrees of freedom, high-dimensional state spaces and the
+softness properties like e.g. mechanical elasticity, which cause
+limited repeatability and complex dynamics. Nevertheless, the
+realization of basic control modes is important to leverage the
+potential of soft robots for applications. We therefore propose
+a hybrid approach combining classical and learning elements
+for the realization of an interactive control mode for an elastic
+bionic robot. It superimposes a low-gain feedback control with a
+feed-forward control based on a learned simplified model of the
+inverse dynamics which considers only equilibria of the robot’s
+dynamics. We demonstrate on the Bionic Handling Assistant
+how a respective inverse equilibrium model can be learned and
+effectively exploited for quick and agile control. In a second
+step, the control scheme is extended to an active compliant
+control mode. It implements a kind of gravitation compensation
+to allow for kinesthetic teaching of the robot based on the
+implicit knowledge of gravitational and mechanical forces that
+are encoded in the learned equilibrium model.We finally discuss
+that this control scheme may be implemented also on other
+soft robots to provide the avenue towards their applications in
+general manipulation tasks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">9781479969357</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26850500</identifier>
+                    <identifier type="doi">10.1109/IROS.2014.6942617</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2685050</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2685050">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2685050/2904479/IROS2014bha.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2685050" DMDID="DMD2685050">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2685050"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,113 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2935619</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:600</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Philipp</namePart>
+  
+  
+  <namePart type="family">Cimiano</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The task of answering natural language questions over structured data has received wide
+interest in recent years. Structured data in the form of knowledge bases has been available
+for public usage with coverage on multiple domains. DBpedia and Freebase are such knowledge
+bases that include encyclopedic data about multiple domains. However, querying such
+knowledge bases requires an understanding of a query language and the underlying ontology,
+which requires domain expertise. Querying structured data via question answering systems
+that understand natural language has gained popularity to bridge the gap between the data
+and the end user.
+In order to understand a natural language question, a question answering system needs
+to map the question into query representation that can be evaluated given a knowledge base.
+An important aspect that we focus in this thesis is the multilinguality. While most research
+focused on building monolingual solutions, mainly English, this thesis focuses on building
+multilingual question answering systems. The main challenge for processing language input
+is interpreting the meaning of questions in multiple languages.
+In this thesis, we present three different semantic parsing approaches that learn models
+to map questions into meaning representations, into a query in particular, in a supervised
+fashion. Each approach differs in the way the model is learned, the features of the model, the
+way of representing the meaning and how the meaning of questions is composed. The first
+approach learns a joint probabilistic model for syntax and semantics simultaneously from the
+labeled data. The second method learns a factorized probabilistic graphical model that builds
+on a dependency parse of the input question and predicts the meaning representation that is
+converted into a query. The last approach presents a number of different neural architectures
+that tackle the task of question answering in end-to-end fashion. We evaluate each approach
+using publicly available datasets and compare them with state-of-the-art QA systems.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Sherzod_Hakimov_PhD_Dissertation.pdf">https://pub.uni-bielefeld.de/download/2935619/2935620/Sherzod_Hakimov_PhD_Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29356195</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-03-25</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod. 2019. &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Hakimov, S.: Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures. Universität Bielefeld, Bielefeld (2019).</lncs>
+<default>Hakimov S (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Hakimov, Sherzod. &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+<wels>Hakimov, S. (2019): Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>S.  Hakimov, &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Hakimov, S., 2019. &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Hakimov S (2019) &lt;br /&gt;&lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S. (2019).  &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<frontiers>Hakimov, S. (2019). Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S. (2019). &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<ama>Hakimov S. &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<ieee> S. Hakimov, &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<apa>Hakimov, S. (2019).  &lt;em&gt;Learning Multilingual Semantic Parsers for Question Answering over Linked Data. A comparison of neural and probabilistic graphical model architectures&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2935619</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-05-17T08:25:55Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-05-21T12:21:49Z</recordChangeDate>
+</recordInfo>
+</mods>

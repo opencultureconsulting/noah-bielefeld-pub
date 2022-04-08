@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2783224">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive structure metrics for automated feedback provision in intelligent tutoring systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bassam</namePart>
+                        <namePart type="family">Mokbel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Typical intelligent tutoring systems rely on detailed domain-knowledge which is hard to obtain and difficult to encode. As a data-driven alternative to explicit domain-knowledge, one can present learners with feedback based on similar existing solutions from a set of stored examples.
+At the heart of such a data-driven approach is the notion of similarity. We present a general-purpose framework to construct structure metrics on sequential data and to adapt those metrics using machine learning techniques. We demonstrate that metric adaptation improves the classification of wrong versus correct learner attempts in a simulated data set from sports training, and the classification of the underlying learner strategy in a real Java programming dataset.</abstract>
+                    <subject>
+                        <topic>metric learning</topic>
+                        <topic>intelligent tutoring systems</topic>
+                        <topic>sequential data</topic>
+                        <topic>learning vector quantization</topic>
+                        <topic>algebraic dynamic programming</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Neurocomputing</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>192</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>SI</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>3</start>
+                                <end>13</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0925-2312</identifier>
+                    <identifier type="eIssn">1872-8286</identifier>
+                    <identifier type="ISI">000375629000002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27832247</identifier>
+                    <identifier type="doi">10.1016/j.neucom.2015.12.108</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2783224</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2783224">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2783224/2902671/paassen_mokbel_hammer_neurocomputing_2015_preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2783224" DMDID="DMD2783224">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2783224"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

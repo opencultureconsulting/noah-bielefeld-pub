@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2517237">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>MCC-IMS data analysis using automated spectra processing and explorative visualisation methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Bunkowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörg Ingo</namePart>
+                        <namePart type="family">Baumbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-03-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Ion Mobility Spectrometry (IMS) is a method to characterise chemical substances on the basis of velocity of gas-phase ions in an electrical field. The data resulting from an IMS measurement is a number of spectra sorted by retention time. Each spectrum contains a series of values and each value represents the amount of ionised molecules at one specific drift time. Recent advantages in the field of Ion Mobility Spectrometry lead to an highly increased amount of data per measurement as well as measurements per experiment. Due to the usage of a Multi-capillary Chromatographic Column (MCC) as pre-separation technique the task of analysing and interpreting the resulting data completely changed and now includes a pseudo coloured image in addition to the classic spectra data. Analysing and comparing a high number of these images and their corresponding spectra is almost impossible and extremely time consuming with the methods used so far.
+Different methods for spectra processing, data analysis, visualisation and project management were developed and combined in one software called ’IMS Peaklist &amp; Heatmap Explorer’ (IPHEx) to challenge this task. IPHEx is the first software system supporting the analysis, management, and visualisation of large amounts of MCC-IMS measurements in parallel. It is currently used for the investigation of metabolomics experiments with a focus on the analysis of exhaled air, headspace samples of cell and bacteria cultures, as well as general screening of ambient air. While the main methods of IPHEx are designed to process three dimensional data obtained from different MCC-IMS devices,it also handles GC-MS based data for comparison and substance identification as well as several other information obtained from flat and Excel files. It became the standard analysis platform at the Leibniz-Institut für Analytische Wissenschaften ISAS e.V. for MCC-IMS data and showed its potential during the examination of experiments performed in cooperation with the Lungenklinik Hemer - Zentrum für Pneumologie und Thoraxchirurgie, the University Göttingen - Department of Anesthesiology, Emergency and Intensive Care Medicine, the Charité – Universitätsmedizin Berlin and several others. It is also used for experimental purposes at the Korea Institute of Science and Technology, Saarbrücken and the B&amp;S Analytik GmbH, Dortmund.
+The application to many different experiments and tasks demonstrates that the requirements have successfully been addressed and the software and therefore the underlying methods and concepts are suited to analyse large amounts of IMS data in an efficient way. With IPHEx, a complete analysis environment exists, which offers a solution for all analysis, management, and visualisation tasks which are necessary to perform a comprehensive investigation of large amounts of MCC-IMS data.</abstract>
+                    <subject>
+                        <topic>heatmap</topic>
+                        <topic>exhaled air</topic>
+                        <topic>headspace analysis</topic>
+                        <topic>gas chromatography</topic>
+                        <topic>breath analysis</topic>
+                        <topic>volatile organic compounds</topic>
+                        <topic>explorative visualisation</topic>
+                        <topic>mass spectrometry</topic>
+                        <topic>Ion Mobility Spectrometry</topic>
+                        <topic>spectra processing</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25172370</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2517237</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2517237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2517237/2517243/bunkowski.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2517237" DMDID="DMD2517237">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2517237"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

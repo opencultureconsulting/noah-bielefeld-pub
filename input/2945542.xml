@@ -1,0 +1,116 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2945542</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:000</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>From Geometries to Contact Graphs</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Meier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">6564614</identifier></name>
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Haschke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">33056</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-5842-9991</description></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+<name type="personal"><namePart type="given">Igor</namePart><namePart type="family">Farkas</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Paolo</namePart><namePart type="family">Masulli</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Stefan</namePart><namePart type="family">Wermter</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>International Conference on Artificial Neural Networks</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">When a robot perceives its environment, it is not only important to know what kind of objects are present in it, but also
+how they relate to each other. For example in a cleanup task in a cluttered environment, a sensible 
+strategy is to pick the objects with the least contacts to other objects first, to minimize the chance of unwanted
+movements not related to the current picking action. Estimating object contacts
+in cluttered scenes only based on passive observation is a complex problem.
+To tackle this problem, we present a deep neural network that learns physically stable object relations directly
+from geometric features. The learned relations are encoded as contact graphs between the objects. To facilitate
+training of the network, we generated a rich, publicly available dataset consisting of more than 25000 unique contact scenes,
+by utilizing a physics simulation. Different deep architectures have been evaluated and the final
+architecture, which shows good results in reconstructing contact graphs, is evaluated quantitatively and qualitatively.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="icann2020.pdf">https://pub.uni-bielefeld.de/download/2945542/2950675/icann2020.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer</publisher><dateIssued encoding="w3cdtf">2020</dateIssued><place><placeTerm type="text">Bratislava, Slovakia</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II</title></titleInfo>
+  <identifier type="isbn">978-3-030-61615-1</identifier><identifier type="urn">urn:nbn:de:0070-pub-29455427</identifier><identifier type="doi">10.1007/978-3-030-61616-8_44</identifier>
+<part><detail type="volume"><number>12397</number></detail><extent unit="pages">546-555</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Meier, M., Haschke, R., Ritter, H.: From Geometries to Contact Graphs. In: Farkas, I., Masulli, P., and Wermter, S. (eds.) Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II. Lecture Notes in Computer Science. 12397, p. 546-555. Springer, Cham (2020).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meier, Martin, Haschke, Robert, and Ritter, Helge. 2020. “From Geometries to Contact Graphs”. In &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;, ed. Igor Farkas, Paolo Masulli, and Stefan Wermter, 12397:546-555. Lecture Notes in Computer Science. Cham: Springer.&lt;/div&gt;</chicago>
+<mla>Meier, Martin, Haschke, Robert, and Ritter, Helge. “From Geometries to Contact Graphs”. &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;. Ed. Igor Farkas, Paolo Masulli, and Stefan Wermter. Cham: Springer, 2020.Vol. 12397. Lecture Notes in Computer Science. 546-555.</mla>
+<default>Meier M, Haschke R, Ritter H (2020)  &lt;br /&gt;In:  Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II. Farkas I, Masulli P, Wermter S (Eds);  Lecture Notes in Computer Science, 12397.  Cham: Springer:  546-555.</default>
+<ama>Meier M, Haschke R, Ritter H. From Geometries to Contact Graphs. In: Farkas I, Masulli P, Wermter S, eds. &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;. Lecture Notes in Computer Science. Vol 12397. Cham: Springer;  2020: 546-555.</ama>
+<frontiers>Meier, M., Haschke, R., and Ritter, H. (2020). “From Geometries to Contact Graphs” in &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;, Farkas, I., Masulli, P., and Wermter, S. eds. Lecture Notes in Computer Science, vol. 12397, (Cham: Springer), 546-555.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meier, M., Haschke, R. &amp;amp; Ritter, H. (2020). From Geometries to Contact Graphs (Lecture Notes in Computer Science). In I. Farkas, P. Masulli &amp;amp; S. Wermter (Hrsg.), &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt; (S. 546-555). Gehalten auf der International Conference on Artificial Neural Networks, Cham: Springer. doi:10.1007/978-3-030-61616-8_44.&lt;/div&gt;</dgps>
+<apa>Meier, M., Haschke, R., &amp;amp; Ritter, H. (2020). From Geometries to Contact Graphs. In I.  Farkas, P.  Masulli, &amp;amp; S.  Wermter (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 12397&lt;/em&gt;&lt;em&gt;. Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt; (pp. 546-555). Cham: Springer. doi:10.1007/978-3-030-61616-8_44</apa>
+<ieee> M. Meier, R. Haschke, and H. Ritter, “From Geometries to Contact Graphs”, &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;, I. Farkas, P. Masulli, and S. Wermter, eds., Lecture Notes in Computer Science, vol. 12397,  Cham: Springer, 2020,  pp.546-555.</ieee>
+<wels>Meier, M.; Haschke, R.; Ritter, H. (2020): From Geometries to Contact Graphs. In: Igor Farkas; Paolo Masulli; Stefan Wermter (Hrsg.):  Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II. Cham: Springer. (Lecture Notes in Computer Science, 12397).  S. 546-555.</wels>
+<harvard1>Meier, M., Haschke, R., &amp;amp; Ritter, H., 2020. From Geometries to Contact Graphs. In I.  Farkas, P.  Masulli, &amp;amp; S.  Wermter, eds. &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt;. Lecture Notes in Computer Science. no.12397  Cham: Springer, pp. 546-555.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meier, M., Haschke, R., &amp;amp; Ritter, H. (2020). From Geometries to Contact Graphs. In I.  Farkas, P.  Masulli, &amp;amp; S.  Wermter (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 12397&lt;/em&gt;&lt;em&gt;. Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt; (pp. 546-555). Cham: Springer. doi:10.1007/978-3-030-61616-8_44&lt;/div&gt;</apa_indent>
+<bio1>Meier M, Haschke R, Ritter H (2020) &lt;br /&gt;From Geometries to Contact Graphs. &lt;br /&gt;In:  Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II. Farkas I, Masulli P, Wermter S (Eds); Lecture Notes in Computer Science, 12397. Cham: Springer:  546-555.</bio1>
+<angewandte-chemie>M.  Meier, R.  Haschke, and H.  Ritter, in &lt;em&gt;Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II&lt;/em&gt; (Eds.: I. Farkas, P. Masulli, S. Wermter), Springer, Cham, &lt;strong&gt;2020&lt;/strong&gt;, p. 546-555.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2945542</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-08-24T13:34:06Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-02T08:57:04Z</recordChangeDate>
+</recordInfo>
+</mods>

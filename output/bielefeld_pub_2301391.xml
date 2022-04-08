@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Model based object classification and localisation in multiocular images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Krüger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-10-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis various approaches to object recognition are investigated, mainly recorded by multiocular imaging systems. The strengths and weaknesses of the approaches are analysed. Several different methods - Template Matching, Feature Pose Maps, Contracting Curve Density, Active Contours - are implemented, thoroughly investigated, and evaluated. These methods make use of images synchronously taken by multiple calibrated cameras in order to improve the location accuracy and to overcome ambiguities.
+Based on these information a new object recognition and localisation algorithm is designed, implemented, and tested. This algorithm is based on the sign of the gradient of the feature-model distance in the image. Since the model function is reduced to very little information (its sign) at a given feature position, the evaluation is very fast as it can be reduced to a simple table lookup. Thus we named the new method Gradient Sign Tables.
+In order to conveniently obtain a calibration of an arbitrary number of cameras a new calibration procedure is designed, implemented, and tested that is centred around a reliable, automatic calibration pattern finder.
+Based on the methods above a three-dimensional object recognition system is designed, implemented, evaluated, and adjusted for selected practical applications. It has the following properties:
+- The object pose is obtained with application specific degrees of freedom.
+- The type of an object is automatically determined out of a set of given types with rejection of unknown objects.
+- Corresponding points between the images and the model of an object are automatically determined.
+- The implementations of the algorithms fulfil the timing requirements of typical industrial image processing applications. Processing times of at most seconds, but not minutes are achieved.
+- Moderate requirements are made to the hardware in terms of image resolution and memory consumption. Usually VGA sized camera resolutions are sufficient.
+- No algorithm or implementation has arbitrary limits in image size or model complexity, other than those imposed by memory consumption and desired run time.
+The camera calibration is evaluated using 100 images per calibration rig position. So we can obtain the influence of the image noise on the calibration parameters. We could verify the rules of thumb regarding rig placement and found one new rule that is important for multiocular cameras: Depicting the rig in the corners of the calibration volume improves the external calibration parameters. Our correlation based corner detector achieves an accurcay of 0.018 pixels (average) with a worst case error of 0.3 pixel near to overexposed portions of the image.
+The methods in this thesis are evaluated using two example applications from automated quality assurance. The first application estimates the pose of a rigid object - an oil cap - in order to verify its correct mounting. Additionally the class of the oil cap is obtained in order to verify the mounting of the correct type of oil cap.
+We found that the multiocular methods achieve a depth error that is 2-3 times smaller than that of the monocular methods for rigid objects. We also found that performing the distance transform of the image and storing a small model is preferrable to a distance transformed - and therefore large - model or the computation of the distance transform on-the-fly.
+The second application deals with the recognition of non-rigid objects. We obtain the trajectory of a tube or cable by starting from a fixed end (&quot;dangling rope problem&quot;) and follow it using object recognition methods. Using example images of varying contrast, three different methods are evaluated: Contracting Curve Density, Active Contours, Gradient Sign Tables.
+Gradient Sign Tables are more robust and have a simpler implementation. They achieve a slightly higher error due to the edge quantisation to integer pixel coordinates. The Contracting Curve Density algorithm is the most accurate of the three methods, but cannot cope very well with small object. This is the domain of the Active Contours, but at a higher error.
+Tubes and cables can be traversed for the complete length if a suitable contrast is present. In this case the average error is about 1.5 mm for a tube-camera distance of about 700-1000 mm and a tube diameter of 7-25 mm. If only one edge of the tube or cable has a poor contrast, the methods can follow a shading related edge to some extent. In this case the average error is about 20 mm.
+Based on these findings we present some possible improvements and directions of future research.</abstract>
+                    <subject>
+                        <topic>Objekterkennung</topic>
+                        <topic>Kalibrieren (Messtechnik)</topic>
+                        <topic>Klassifikation</topic>
+                        <topic>Dreidimensionale Bildverarbeitung</topic>
+                        <topic>Bildverarbeitung</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11900</identifier>
+                    <identifier type="sys">HT015387743</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301391">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301391/2301394/dissertation_krueger_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301391" DMDID="DMD2301391">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301391"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

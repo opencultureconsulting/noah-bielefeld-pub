@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2957927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Effects of Noise on the Grammar of Languages</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Gerrit</namePart>
+                        <namePart type="family">Bauch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study a signaling game of common interest in which a stochastic noise is perturbing the communication between an informed sender and an uninformed receiver. Despite this inhibiting factor, efficient languages exist. In equilibrium, sender uses a tessellation consisting of convex cells while receiver converts posterior beliefs into Bayesian estimators serving as interpretations. Shannon entropy measures the noise level and describes to which extent communication is possible. A limit case of errors that respect the distance between words leads to concise interpretations in the decoding process. Comparative statics for different levels of noise reveal which grammatical structures are more robust towards noise. For increasing error separation between most distinct types becomes more important than precision about each single one. Furthermore, distinct words are saved for the description of opposite domains of the type space. Evolutionary modeling approaches converge to equilibria, but not every equilibrium is stable.</abstract>
+                    <subject>
+                        <topic>cheap talk</topic>
+                        <topic>noisy communication</topic>
+                        <topic>language formation</topic>
+                        <topic>Voronoi language</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>655</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>28</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29579276</identifier>
+                    <identifier type="sys">HT021192810</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2957927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2957927">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2957927/2957930/IMW_working_paper_655.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2957927" DMDID="DMD2957927">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2957927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

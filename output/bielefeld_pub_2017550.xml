@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017550">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Hybrid System for Cell Detection in Digital Micrographs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Walter</namePart>
+                        <namePart type="family">Schubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">B.</namePart>
+                        <namePart type="family">Tilg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">To analyze large sets of digital micrographs from high-throughput screening studies with constant accuracy, advanced image processing algorithms are necessary. In the literature, systems have been proposed applying modelbased fitting algorithms, morphological operators and artificial
+neural networks (ANN). Because single approaches show limited performance, we propose a hybrid system that combines the Hough transform with a multi-layer perceptron (MLP) network. Our results show, that the combination of both approaches improves the performance and the positions of cell bodies are obtained with increased sensitivity and positive predictive value.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Biomedical Engineering, Proc.</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>417</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20175504</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017550</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017550">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017550/2787155/NattkemperSHR2004-AHS.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017550" DMDID="DMD2017550">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017550"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

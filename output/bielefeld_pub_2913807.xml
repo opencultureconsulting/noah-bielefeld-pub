@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913807">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Thermal noise limit for ultra-high vacuum noncontact atomic force microscopy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jannis</namePart>
+                        <namePart type="family">Lübbe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Temmen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Rode</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Rahe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Angelika</namePart>
+                        <namePart type="family">Kühnle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Reichling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The noise of the frequency-shift signal Delta f in noncontact atomic force microscopy (NC-AFM) consists of cantilever thermal noise, tip-surface-interaction noise and instrumental noise from the detection and signal processing systems. We investigate how the displacement-noise spectral density d(z) at the input of the frequency demodulator propagates to the frequency-shift-noise spectral density d(Delta f) at the demodulator output in dependence of cantilever properties and settings of the signal processing electronics in the limit of a negligible tip-surface interaction and a measurement under ultrahigh-vacuum conditions. For a quantification of the noise figures, we calibrate the cantilever displacement signal and determine the transfer function of the signal-processing electronics. From the transfer function and the measured dz, we predict d(Delta f) for specific filter settings, a given level of detection-system noise spectral density d(ds)(z) and the cantilever-thermal-noise spectral density d(th)(z). We find an excellent agreement between the calculated and measured values for d(Delta f). Furthermore, we demonstrate that thermal noise in d(Delta f), defining the ultimate limit in NC-AFM signal detection, can be kept low by a proper choice of the cantilever whereby its Q-factor should be given most attention. A system with a low-noise signal detection and a suitable cantilever, operated with appropriate filter and feedback-loop settings allows room temperature NC-AFM measurements at a low thermal-noise limit with a significant bandwidth.</abstract>
+                    <subject>
+                        <topic>Cantilever</topic>
+                        <topic>feedback loop</topic>
+                        <topic>filter</topic>
+                        <topic>noncontact atomic force microscopy</topic>
+                        <topic>(NC-AFM)</topic>
+                        <topic>noise</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Beilstein Journal of Nanotechnology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>32</start>
+                                <end>44</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2190-4286</identifier>
+                    <identifier type="MEDLINE">23400758</identifier>
+                    <identifier type="ISI">000313659100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29138074</identifier>
+                    <identifier type="doi">10.3762/bjnano.4.4</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913807</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913807">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913807/2930775/BeilsteinJNano_4_2013_L%C3%BCbbe_a.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913807" DMDID="DMD2913807">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913807"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2500674">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Linked Data for the Natural Sciences. Two Use Cases in Chemistry and Biology</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2528-5391</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Web was designed to improve the way people work together. The Semantic Web extends the Web with a layer of Linked Data that offers new paths for scientific publishing and co-operation. Experimental raw data, released as Linked Data, could be discovered automatically, fostering its reuse and validation by scientists in different contexts and across the boundaries of disciplines. However, the technological barrier for scientists who want to publish and share their research data as Linked Data remains rather high. We present two real-life use cases in the fields of chemistry and biology and outline a general methodology for transforming research data into Linked Data. A key element of our methodology is the role of a scientific data curator, who is proficient in Linked Data technologies and works in close co-operation with the scientist.</abstract>
+                    <subject>
+                        <topic>E-Science</topic>
+                        <topic>Ontology</topic>
+                        <topic>Semantic Web</topic>
+                        <topic>Scientific Publishing</topic>
+                        <topic>Research Data Management</topic>
+                        <topic>Methodology</topic>
+                        <topic>Linked Data</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25006740</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2500674</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2500674">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2500674/2510642/sepublica-2012_paper_linked-science.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-zip-compressed" ID="FILE1_bielefeld_pub_2500674">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2500674/2938506/paper_3.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2500674" DMDID="DMD2500674">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2500674"/>
+            <mets:div TYPE="part" ID="PART1_2500674" LABEL="paper_3.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2500674"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

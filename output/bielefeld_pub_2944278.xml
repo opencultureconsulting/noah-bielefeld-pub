@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2944278">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data Science Tools for Monitoring the Global Repository Eco-System and its Lines of Evolution</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Friedrich</namePart>
+                        <namePart type="family">Summann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6297-3348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Czerniak</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3883-4169</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Schirrwagen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0458-1004</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Pieper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6083-9348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The global network of scholarly repositories for the publication and dissemination of scientific publications and related materials can already look back on a history of more than twenty years. During this period, there have been many developments in terms of technical optimization and the increase of content. It is crucial to observe and analyze this evolution in order to draw conclusions for the further development of repositories. The basis for such an analysis is data. The Open Archives Initiative (OAI) service provider Bielefeld Academic Search Engine (BASE) started indexing repositories in 2004 and has collected metadata also on repositories. This paper presents the main features of a planned repository monitoring system. Data have been collected since 2004 and includes basic repository metadata as well as publication metadata of a repository. This information allows an in-depth analysis of many indicators in different logical combinations. This paper outlines the systems approach and the integration of data science techniques. It describes the intended monitoring system and shows the first results.</abstract>
+                    <subject>
+                        <topic>Bielefeld Academic Search Engine</topic>
+                        <topic>repository network</topic>
+                        <topic>monitoring</topic>
+                        <topic>repository observer</topic>
+                        <topic>data science</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Publications</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2304-6775</identifier>
+                    <identifier type="ISI">000551225500010</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29442781</identifier>
+                    <identifier type="doi">10.3390/publications8020035</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2944278</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2944278">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944278/2945239/publications-08-00035-v2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2944278" DMDID="DMD2944278">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2944278"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

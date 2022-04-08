@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1666510">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Image fusion for dynamic contrast enhanced magnetic resonance imaging</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Twellmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Saalbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Olaf</namePart>
+                        <namePart type="family">Gerstung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin O</namePart>
+                        <namePart type="family">Leach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND: Multivariate imaging techniques such as dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) have been shown to provide valuable information for medical diagnosis. Even though these techniques provide new information, integrating and evaluating the much wider range of information is a challenging task for the human observer. This task may be assisted with the use of image fusion algorithms. METHODS: In this paper, image fusion based on Kernel Principal Component Analysis (KPCA) is proposed for the first time. It is demonstrated that a priori knowledge about the data domain can be easily incorporated into the parametrisation of the KPCA, leading to task-oriented visualisations of the multivariate data. The results of the fusion process are compared with those of the well-known and established standard linear Principal Component Analysis (PCA) by means of temporal sequences of 3D MRI volumes from six patients who took part in a breast cancer screening study. RESULTS: The PCA and KPCA algorithms are able to integrate information from a sequence of MRI volumes into informative gray value or colour images. By incorporating a priori knowledge, the fusion process can be automated and optimised in order to visualise suspicious lesions with high contrast to normal tissue. CONCLUSION: Our machine learning based image fusion approach maps the full signal space of a temporal DCE-MRI sequence to a single meaningful visualisation with good tissue/lesion contrast and thus supports the radiologist during manual image evaluation.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Biomed Eng Online</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1475-925X</identifier>
+                    <identifier type="MEDLINE">15494072</identifier>
+                    <identifier type="ISI">000497963400034</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16665102</identifier>
+                    <identifier type="doi">10.1186/1475-925X-3-35</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1666510</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1666510">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1666510/2311167/1475_925X_3_35.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1666510" DMDID="DMD1666510">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1666510"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

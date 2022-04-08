@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945097">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Unsupervised Knowledge Transfer for Object Detection in Marine Environmental Monitoring and Exploration</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Zurowietz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7122-2343</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The volume of digital image data collected in the field of marine environmental monitoring and exploration has been growing in rapidly increasing rates in recent years. Computational support is essential for the timely evaluation of the high volume of marine imaging data, but often modern techniques such as deep learning cannot be applied due to the lack of training data. In this paper, we present Unsupervised Knowledge Transfer (UnKnoT), a new method to use the limited amount of training data more efficiently. In order to avoid time-consuming annotation, it employs a technique we call &quot;scale transfer&quot; and enhanced data augmentation to reuse existing training data for object detection of the same object classes in new image datasets. We introduce four fully annotated marine image datasets acquired in the same geographical area but with different gear and distance to the sea floor. We evaluate the new method on the four datasets and show that it can greatly improve the object detection performance in the relevant cases compared to object detection without knowledge transfer. We conclude with a recommendation for an image acquisition and annotation scheme that ensures a good applicability of modern machine learning methods in the field of marine environmental monitoring and exploration.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IEEE Access</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2169-3536</identifier>
+                    <identifier type="ISI">000560342800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29450970</identifier>
+                    <identifier type="doi">10.1109/ACCESS.2020.3014441</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945097</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945097">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945097/2945432/09159641.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945097" DMDID="DMD2945097">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945097"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

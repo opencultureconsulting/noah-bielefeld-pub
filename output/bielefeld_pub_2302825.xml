@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302825">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ankunftszeitbestimmung ultrakurzer XUV Pulse von FLASH durch Kreuzkorrelation mit ultrakurzen NIR Pulsen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Cunovic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Drescher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-09-26</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">The high-gain, single-pass free-electron laser in Hamburg (FLASH) is operated in the self amplified spontaneous emission (SASE) mode. It delivers ultrashort (a few tens of fs) extreme-ultraviolet (XUV) pulses with photon energies up to 200 eV, peak powers at the gigawatt level, unprecedented average and peak brilliance and a high degree of transverse coherence. In combination with an electronically synchronized fs NIR laser, pump-probe experiments can be performed. Currently, the ultimate time resolution given by the pulse duration of both pulses is not achievable due to unpredictable shot-to-shot arrival time fluctuations of the FLASH pulses. The temporal resolution will be significantly improved, if the random delay fluctuations are measured for individual pulses and the data from a simultaneously operated pump-probe experiment are sorted accordingly. For this purpose three different cross-correlation approaches are presented in this thesis:
+The first cross-correlation experiment is based on ion time-of-flight spectra of rare gases. The NIR radiation is capable of further ionizing rare gas ions produced by the XUV radiation of FLASH. A delay dependent NIR-induced enhancement of the ion yield should become apparent. Using both pulses, a NIR-induced signal enhancement is indeed obtained, however, unambiguous delay dependence was not found. Thus, no short-lived ion state is produced by the XUV radiation. By tuning the radiation wavelength to an appropriate value concerning the rare gas in use, the setup carries the potential for single-shot arrival-time measurements at the end-station.
+Laser assisted photoionization of rare gases can be used to measure the relative arrival time of the XUV pulses: Characteristic sidebands appear in the photoelectron spectra at temporal and spatial overlap of both pulses. An energy-dispersive electron optical system can image the cross-correlation volume and separate the energetically modulated from the unmodulated photoelectrons. From the spatial position of the cross-correlation signal the relative timing of both pulses can be deduced. In the current setup, the signal level requires averaging over several pulses. An upper limit for the temporal jitter at the end-station has been measured to be ~750 fs (FWHM). Working at higher FLASH intensities does not enhance the cross-correlation signal due to space charge effects. However, with a stronger NIR laser, which is available in the future, this setup carries the potential for single-shot arrival time measurements.
+Another approach to measure arrival time fluctuations is based on the XUV-induced change of the optical reflectivity of a GaAs crystal. The temporal delay between the two pulses is directly encoded in the spatial position of the reflectivity change, which is captured with a CCD camera. With this setup shot-to-shot FEL arrival times can be measured at the end-station with a resolution of approximately 40 fs (rms). During 5 min a maximum delay of ± 600 fs and an overall rms jitter of ± 250 fs have been observed. Further, a correlation between the XUV/laser delay, measured at the end-station, and the electronbunch/laser delay, measured with electro-optical sampling in front of the undulator, has been found.</abstract>
+                    <subject>
+                        <topic>Freie-Elektronen-Laser</topic>
+                        <topic>Ultrakurzer Lichtimpuls</topic>
+                        <topic>Kreuzkorrelation</topic>
+                        <topic>Extremes Ultraviolett</topic>
+                        <topic>NIR</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-13786</identifier>
+                    <identifier type="sys">HT015731580</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302825</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302825">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302825/2302828/Promotion_Cunovic.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302825" DMDID="DMD2302825">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302825"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

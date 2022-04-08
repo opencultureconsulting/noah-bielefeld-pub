@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305131">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Algorithms for improving the design and production of oligonucleotide microarrays</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sérgio Anibal de</namePart>
+                        <namePart type="family">Carvalho Junior</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-05-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Microarrays are a ubiquitous tool in molecular biology with a wide range of applications on a whole-genome scale including high-throughput gene expression analysis, genotyping, and resequencing. Although several different microarray platforms exist, we focus on high-density oligonucleotide arrays, sometimes called DNA chips. One of the advantages of higher density arrays is that they allow the simultaneous measurement of the expression of several thousand genes at once, possibly covering all genes of a species in a single experiment.
+Oligonucleotide microarrays consist of short DNA molecules, called probes, affixed or synthesized at specific locations of a solid support. Probes are built, nucleotide-by-nucleotide, by a light-directed combinatorial chemistry. Because of the natural properties of light, the quality of a microarray can be compromised if the physical arrangement of the probes on the array and their synthesis schedule are not carefully designed. This thesis is mainly concerned with the problem of designing the layout of a microarray in such a way that the incidence of the unintended illumination problem is reduced. We call it the microarray layout problem (MLP), using the term layout to refer to where and how the probes are synthesized on the array, i.e., their arrangement and their embeddings.</abstract>
+                    <subject>
+                        <topic>Bioinformatics</topic>
+                        <topic>GeneChip</topic>
+                        <topic>Microarray</topic>
+                        <topic>Placement</topic>
+                        <topic>Algorithms</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11986</identifier>
+                    <identifier type="sys">HT015463465</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305131</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305131">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305131/2305134/deCarvalhoJr_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305131" DMDID="DMD2305131">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305131"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,107 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301935</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:400</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kai</namePart>
+  <namePart type="family">Wörner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Andreas</namePart>
+  
+  
+  <namePart type="family">Witt</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18015421</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Annotation Science, a discipline dedicated to developing and maturing methodology for the annotation of language resources, is playing a prominent role in the fields of computational and corpus linguistics. While progress in the search for the right annotation model and format is undeniable, these results only sparsely become manifest in actual solutions (i.e. software tools) that could be used by researchers wishing to annotate their resources right away, even less so for resources of spoken language transcriptions. The dissertation presents a solution consisting of a data model and an annotation tool that tries to fill this gap that exists between "annotation science" and the practice of transcribing spoken language in the area of discourse analysis and pragmatics, where the lack of ready-to-use annotation solutions is especially remarkable.
+Transcriptions of discourse vary from other language resources in many ways: they depend on the temporal organization of the speaker's contributions. To analyze phenomena like turn-taking, it is crucial to exactly record what happens when. In discourse, there is not one primary data like in most written texts: every speaker's utterances make up for one stream of primary data, and these streams of primary data can and frequently do overlap. Departing from these and other observations, a data model for the transcription of spoken discourse has to: supply a timeline to represent the temporal properties of the speaker's utterances, allow for overlap of speaker's utterances and overlap of annotations, be prepared for different options for the segmentation of the transcribed material and support most existing writing systems. Existing data models are distributed on an axis between two poles. The one pole consists of a model where language is seen as a hierarchical structure in which the down most layer represents the actual textual content (OHCO, Ordered Hierarchy of Content Objects) (3). These models always have to introduce special "workarounds" to deal with overlapping hierarchies or speaker contributions. The other pole is represented by a model that is based on directed, acyclic graphs and is centered on the aspect of temporal relations of the respective units.
+Transcription graphs, on which the EXMARaLDA transcription format and toolset is built, specify and substantiate the annotation graph formalism. The EXMARaLDA data format, in particular, introduces the possibility to segment the textual content of the transcriptions according to transcription conventions. Departing from a so-called "basic transcription", that in most cases only contains segments motivated by changes in the constellation of the discourse (speaker changes, interruptions) that are directly linked to the explicit timeline, the EXMARaLDA system allows for the automatic segmentation into linguistically motivated segments (like words, utterances, sentences, turns) that are defined through rules laid down in the transcription conventions and do not necessarily link to distinct points on the timeline. While it is possible to add annotations to the former type of segments by simply adding additional annotation tiers to the transcription in the transcription tool, there is no mechanism, neither in software nor in the data format, to add annotations to the latter.
+Based on these premises, an annotation format and software tool were developed to facilitate annotation of these segments. Since tools and large and valuable corpora for the EXMARaLDA format already exist, one indispensable premise was that no changes on the tools and the existing format should be necessary. This precondition determined the usage of stand-off annotation: stand-off annotation stores annotations and the annotated content in different locations (i.e. files), and connect them through pointers.
+Annotations themselves are modeled as feature structures, following the TEI's recommendations for feature structures that are also an ISO standard. Feature structures model information as attribute/value pairs, where the value can either be atomic or another attribute/value pair. That way, they allow for the easy modeling of simple attribute/value combinations, but also allow for much more complex annotation structures like trees. Furthermore, feature structures offer an established method of creating libraries of frequently used features that can be utilized by pointing at them.</abstract>
+<abstract lang="ger">Die Dissertationsschrift "Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache" versucht, eine Brücke zwischen den Erkenntnissen der "Annotation Science", die sich im überwiegenden Teil mit der Annotation von schriftsprachlichen Texten beschäftigt, und der Praxis der wissenschaftlichen Arbeit mit Transkriptionen in den Bereichen von Gesprächsforschung, Pragmatik und Diskursanalyse zu schlagen.
+Dabei soll anhand der Besonderheiten, die Daten gesprochener Sprache ausmachen, erörtert werden, ob und welche Verfahren aus der Domäne der geschriebenen Sprache sich sinnvoll auf die der gesprochenen Sprache übertragen lassen, und was benötigt wird, um Transkriptionen mit komplexerer Annotation anreichern zu können.
+Bei der Erstellung eines Datenmodells für Transkriptionen gibt es einige Besonderheiten zu beachten. Insbesondere die Tatsache, dass es in Diskursen zur zeitlichen Überlappung von Beiträgen einzelner Sprecher kommen kann, ist ein für die Modellierung hoch relevanter Umstand. In denselben Bereich fallen weitere Aspekte, die mit der Einordnung der sprachlichen Phänomene in ein zeitliches Kontinuum befasst sind. Es lassen sich folgende Anforderungen an ein Datenmodell für die Modellierung von Transkriptionen gesprochener Sprache festhalten: Es muss über eine Zeitachse für die zeitliche Einordnung von Sprecherbeiträgen verfügen, es muss die Überlappung von Sprecherbeiträgen und Annotationen zulassen, es muss verschiedene Arten der Segmentierung von sprachlichen Einheiten zulassen und es sollte möglichst viele Schriftsysteme unterstützen.
+Verschiedene existierende Datenmodelle unterstützen diese Anforderungen unterschiedlich gut. Grundsätzlich lassen sich zwei Modellierungsansätze für Sprachdaten unterscheiden: Auf der einen Seite stehen die Modelle, die Sprache stärker in einer geordneten hierarchischen Struktur sehen. In der stärksten Ausprägung einer solchen Struktur schließen Elternelemente ihre Kindelemente immer ein, die Abfolge der untersten Ebene der Kindelemente ergibt den Text und es kann keine überlappenden Hierarchien geben. Weniger strikte Formen dieses Modells etablieren bestimmte Konstrukte, die beispielsweise die Modellierung überlappender Hierarchien ermöglichen.
+Trotzdem kann festgestellt werden, dass sich solche Modelle besser für die Modellierung von Texten geschriebener Sprache eignen. Für die computergestützte Verarbeitung von gesprochener Sprache haben sich Modelle etabliert, die auf gerichteten, azyklischen Graphen basieren, die den Aspekt des zeitlichen Ablaufes stärker in den Vordergrund stellen und weniger Probleme mit Phänomenen wie der Überlappung von Sprecherbeiträgen haben.
+Die Modelle, die für die Arbeit auf ihre Eignung für die Annotation von Transkriptionen gesprochener Sprache untersucht werden, sind auf beiden Seiten dieses Spektrums zu finden.
+Für die weitere Untersuchung wird das Modell der Transkriptionsgraphen gewählt, auf dem die Werkzeuge des EXMARaLDA-Systems aufgebaut sind. Dieses Modell erfüllt nicht nur die zuvor aufgestellten Anforderungen an ein Datenmodell, es liegen vor allem auch Werkzeuge für die Bearbeitung dieses Modells und Korpora im dazugehörigen Format vor, an denen sich die entwickelten Lösungen testen lassen.
+Ein Problem, das alle existierenden Werkzeuge des EXMARaLDA-Systems teilen, wird bei dieser Betrachtung deutlich: In EXMARaLDA existieren zwei verschiedene Systeme, nach denen Transkripionen in Segmente unterteilt werden. Zum einen existieren Segmente, die sich auf die Zeitachse beziehen und Einheiten wie Sprecherbeiträge, Pausen, Überlappungen etc. markieren. Auf der anderen Seite stehen Segmente, die vom Programm aufgrund von Transkriptionskonventionen automatisch in die Transkription eingefügt werden. Diese Einheiten markieren (je nach verwendeter Konvention) Segmente wie Wörter, Äußerungen und dergleichen. Insbesondere für die Annotation letzterer Segmente existiert noch keine Lösung, weder auf Modell- noch auf Anwendungsebene - dabei ist die Annotation dieser Segmente für Linguisten besonders interessant.
+In der Arbeit wird aus den erarbeiteten Anforderungen ein Szenario entwickelt, mit dem sich EXMARaLDA-Transkriptionen mit Annotationen versehen lassen - und zwar in einer Form, die vorher nicht zur Verfügung stand. Dafür wird ein Format entwickelt, das die Annotationen in Form von Feature structures auf alle möglichen Segmente einer EXMARaLDA-Transkription (und Abschnitte unterhalb dieser Segmente) anwenden kann. Damit lassen sich auch die über Transkriptionskonventionen eingeführten Segmente, die bisher nicht annotiert werden konnten, annotieren.
+Für die Form der Annotation wurde Standoff-Annotation gewählt, bei der die Annotationsdateien für die einzelnen Annotationsebenen separat von der annotierten Datei gespeichert werden. Damit werfen zum einen Überlappungen, die bei verschiedenen Annotationsebenen sehr leicht auftreten können, keine Probleme auf, zum anderen müssen an den Transkriptionsdateien zunächst keinerlei Änderungen vorgenommen werden, um sie mit Annotationen versehen zu können.
+Im Folgenden wird eine Dokumentgrammatik und zwei Werkzeug-Prototypen, die für diese Arbeit erstellt wurden, vorgestellt. Das erste, Sextant, dient der Zuordnung von Transkriptionen und Annotationen. Es lassen sich die Verweise von Annotation zu Annotiertem überprüfen und einfache Ausgaben von beidem damit. Das zweite Werkzeug basiert auf einem existierenden Werkzeug, das ursprünglich zur manuellen Annotation von TEI-Texten entwickelt wurde. Es wird dahingehend erweitert, dass es EXMARaLDA-Transkriptionen verarbeiten (und annotieren) und das Ergebnis der Annotation in Dateien im neuentwickelten Standoff-Annotationsformat speichern kann.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_gold.pdf">https://pub.uni-bielefeld.de/download/2301935/2301938/diss_gold.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2009</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Gesprochene Sprache</topic><topic>Transkription</topic><topic>Annotation</topic><topic>Modellierung</topic><topic>Texttechnologie</topic><topic>Linguistische Datenverarbeitung</topic><topic>Pragmatik</topic><topic>Diskursanalyse</topic><topic>Annotationsgraphen</topic><topic>Transkriptionsgraphen</topic><topic>Standoff-Annotation</topic><topic>EXMARaLDA (Extensible Markup Language For Discourse Annotation)</topic><topic>Annotation graphs</topic><topic>Transcription graphs</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-16696</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-02-28</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Wörner, Kai. &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2009.</mla>
+<default>Wörner K (2009) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Wörner, K.: Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache. Bielefeld University, Bielefeld (Germany) (2009).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wörner, Kai. 2009. &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wörner, K. (2009).  &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Wörner, K., 2009. &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Wörner K (2009) &lt;br /&gt;&lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<angewandte-chemie>K.  Wörner, &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2009&lt;/strong&gt;.</angewandte-chemie>
+<wels>Wörner, K. (2009): Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Wörner, K. (2009).  &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> K. Wörner, &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2009.</ieee>
+<ama>Wörner K. &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2009.</ama>
+<frontiers>Wörner, K. (2009). Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wörner, K. (2009). &lt;em&gt;Werkzeuge zur flachen Annotation von Transkriptionen gesprochener Sprache&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301935</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-14T08:06:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:50Z</recordChangeDate>
+</recordInfo>
+</mods>

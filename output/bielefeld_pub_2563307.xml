@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2563307">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Die </nonSort>
+                        <title>Cloud im lokalen Bibliothekskatalog : eine integrative lokale Portallösung mit nahtlos eingebundenem Discovery Service der Universitätsbibliothek Bielefeld</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Friedrich</namePart>
+                        <namePart type="family">Summann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6297-3348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8778-1273</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Pieper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6083-9348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Universitätsbibliothek Bielefeld hat eine lange Tradition in der Entwicklung lokaler Portallösungen mit integrativem Ansatz und der Verbindung lokaler und externer Recherchequellen und zugehöriger Dienste. Mit dem Aufkommen von Discovery Services ergeben sich neue Möglichkeiten, externe Nachweise vollständiger und effizienter einzubinden. Die Einbindung des EBSCO Discovery Service (EDS) über eine API erlaubt es dabei, die lokalen Entwicklungs- und Einbettungsmöglichkeiten voll auszuschöpfen.
+
+Mittelpunkt der neu entwickelten Suchumgebung bleibt der Bibliothekskatalog. Auf Basis der Heidelberger Entwicklung HEIDI wird die EDS-API in einer sehr effizienten Perl-basierten Lösung mit überschaubarem Aufwand eingebunden. Dabei werden Bibliothekskatalog (zum Nachweis der lokalen Bestände inkl. E-Books), EDS (zum Nachweis hauptsächlich unselbstständiger Literatur) und BASE (zum Nachweis von online verfügbaren Open-Access-Publikationen) in einer homogenen Benutzerumgebung präsentiert. Die Entscheidung für eine API-Lösung ermöglicht es, die lokalen Nutzererwartungen optimal umzusetzen und die SFX-Einbindung – ebenfalls durch Nutzung einer API – unter Usability-Gesichtspunkten zu verbessern.</abstract>
+                    <subject>
+                        <topic>Empfehlungssdienst</topic>
+                        <topic>discovery service</topic>
+                        <topic>Dezentrale Datenverarbeitung</topic>
+                        <topic>Verteiltes System</topic>
+                        <topic>Web Services</topic>
+                        <topic>Portal &lt;Internet&gt;</topic>
+                        <topic>API</topic>
+                        <topic>Perl &lt;Programmiersprache&gt;</topic>
+                        <topic>Empfehlungssystem</topic>
+                        <topic>Online-Katalog</topic>
+                        <topic>Bibliothekskatalog</topic>
+                        <topic>Literaturrecherche</topic>
+                        <topic>Bibliothek</topic>
+                        <topic>Literaturdatenbank</topic>
+                        <topic>OPAC</topic>
+                        <topic>Bibliographische Daten</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:0290-opus-14686</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2563307</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2563307">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2563307/2563568/btag2013_bielefeld_katalogplus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2563307" DMDID="DMD2563307">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2563307"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

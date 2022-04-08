@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2529157">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Brain-Computer Interface for robotic arm control</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Lenhardt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-11-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Brain-Computer Interfaces (BCI) are tools that open a new channel of communication between humans and machines. 
+The majority of human input devices for computers require proper functioning of our primary sensors and motor 
+functions like grasping, moving and visual perception. In the case of severe motor disabilities, like amyotrophic 
+lateral sclerosis (ALS) or spinal chord injury (SCI),
+The most common method to measure brain activity suitable for BCI are electroencephalographic measurements (EEG) 
+due to their relative cost effectiveness and ease of use. Alternative ways to extract brain signals exist but 
+either require invasive procedures, i.e. opening the skull, or are very costly and bulky (MEG, fMRI) 
+which renders them unusable for home appliance. 
+One of the most popular brain controlled input methods is the P300-Speller paradigm
+which gives the user control over a virtual keyboard to enter text. The term P300 refers to a specific EEG component 
+that can be measured whenever a rare task relevant stimulus is interspersed with many non-relevant stimuli. This method requires 
+the ability to control the visual presentation of stimuli and therefore also requires some sort of computer controlled display. 
+The recognition rates for this type of BCI, yet already quite high with roughly 80-90% accuracy, 
+are still prone to errors and may not be suitable for critical applications like issuing movement commands to a wheelchair 
+in a highly populated environment. Commands to stop the wheelchair might be recognized too late. 
+Further, it is impossible with the standard stimulus matrix to react to external influences like obstacles or select physical objects 
+in a scene which does not allow the user to interact with a dynamic environment. 
+This work aims to fuse state of the art BCI techniques into one single system to control an artificial actuator 
+like a robot arm and use it to manipulate the physical environment. To achieve this goal, multiple techniques originating 
+from different fields of research as augmented reality, computer vision, psychology, machine learning and data mining have 
+to be combined to form a robust, intuitively to use input device.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25291577</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2529157</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2529157">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2529157/2529158/main.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2529157" DMDID="DMD2529157">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2529157"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

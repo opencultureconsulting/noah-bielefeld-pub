@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1780764">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Projekt Liederwerkstatt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hans</namePart>
+                        <namePart type="family">Hermsen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1986</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>Beispielsammlung</topic>
+                        <topic>Unterrichtseinheit</topic>
+                        <topic>Projektunterricht</topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Das AOL Projekte-Buch</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>256</start>
+                                <end>261</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-499-18098-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-22064</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1780764</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1780764">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1780764/2313016/Hermsen_33.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1780764" DMDID="DMD1780764">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1780764"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

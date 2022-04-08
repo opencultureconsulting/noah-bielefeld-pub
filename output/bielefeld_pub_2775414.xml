@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2775414">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Incremental learning of action models as HMMs over qualitative trajectory representations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Maximilian</namePart>
+                        <namePart type="family">Panzner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5607-6168</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we present an incremental approach to learning generative models of object manipulation actions as HMMs over qualitative relations between two objects. We compare the incremental approach against a traditional batch training baseline and show that the resulting qualitative action models are capable of one-shot learning after just one seen example while displaying good generalization behavior as more data becomes available.</abstract>
+                    <subject>
+                        <topic>qualitative trajectory calculus</topic>
+                        <topic>action recognition</topic>
+                        <topic>model merging</topic>
+                        <topic>hidden markov models</topic>
+                        <topic>online classification</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27754143</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2775414</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2775414">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2775414/2782736/NC2_2015_-_Incremental_Qualitative_Action_Models.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2775414" DMDID="DMD2775414">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2775414"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

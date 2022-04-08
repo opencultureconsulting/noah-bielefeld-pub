@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1782800">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Fundamentalismus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heinz</namePart>
+                        <namePart type="family">Streib</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3633-4785</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Norbert</namePart>
+                        <namePart type="family">Mette</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Folkert</namePart>
+                        <namePart type="family">Richers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">200</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Lexikon der Religionspädagogik</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>vol. 1: A - K</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>649</start>
+                                <end>652</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-7887-1745-9</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-33300</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1782800</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1782800">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1782800/2314001/OCT3330.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1782800">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1782800/2212841/fundamentalism-LRP" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1782800" DMDID="DMD1782800">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1782800"/>
+            <mets:div TYPE="part" ID="PART1_1782800" LABEL="fundamentalism-LRP">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1782800"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773761">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Accurate and robust phylogeny estimation based on profile distances: a study of the Chlorophyceae (Chlorophyta)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Tobias</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Dandekar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Wolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: In phylogenetic analysis we face the problem that several subclade topologies are known or easily inferred and well supported by bootstrap analysis, but basal branching patterns cannot be unambiguously estimated by the usual methods (maximum parsimony (MP), neighbor-joining (NJ), or maximum likelihood (ML)), nor are they well supported. We represent each subclade by a sequence profile and estimate evolutionary distances between profiles to obtain a matrix of distances between subclades. Results: Our estimator of profile distances generalizes the maximum likelihood estimator of sequence distances. The basal branching pattern can be estimated by any distance-based method, such as neighbor-joining. Our method (profile neighbor-joining, PNJ) then inherits the accuracy and robustness of profiles and the time efficiency of neighbor-joining. Conclusions: Phylogenetic analysis of Chlorophyceae with traditional methods (MP, NJ, ML and MrBayes) reveals seven well supported subclades, but the methods disagree on the basal branching pattern. The tree reconstructed by our method is better supported and can be confirmed by known morphological characters. Moreover the accuracy is significantly improved as shown by parametric bootstrap.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">580</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Evolutionary Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2148</identifier>
+                    <identifier type="MEDLINE">15222898</identifier>
+                    <identifier type="ISI">000222665600003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17737617</identifier>
+                    <identifier type="doi">10.1186/1471-2148-4-20</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773761</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773761">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773761/2311316/1471_2148_4_20.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773761" DMDID="DMD1773761">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773761"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

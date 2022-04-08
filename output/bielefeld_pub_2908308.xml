@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908308">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ReaCog, a Minimal Cognitive Controller Based on Recruitment of Reactive Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Malte</namePart>
+                        <namePart type="family">Schilling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0849-483X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">It has often been stated that for a neuronal system to become a cognitive one, it has to be large enough. In contrast, we argue that a basic property of a cognitive system, namely the ability to plan ahead, can already be fulfilled by small neuronal systems. As a proof of concept, we propose an artificial neural network, termed reaCog, that, first, is able to deal with a specific domain of behavior (six-legged-walking). Second, we show how a minor expansion of this system enables the system to plan ahead and deploy existing behavioral elements in novel contexts in order to solve current problems. To this end, the system invents new solutions that are not possible for the reactive network. Rather these solutions result from new combinations of given memory elements. This faculty does not rely on a dedicated system being more or less independent of the reactive basis, but results from exploitation of the reactive basis by recruiting the lower-level control structures in a way that motor planning becomes possible as an internal simulation relying on internal representation being grounded in embodied experiences.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neurorobotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5218</identifier>
+                    <identifier type="MEDLINE">28194106</identifier>
+                    <identifier type="ISI">000392864800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29083082</identifier>
+                    <identifier type="doi">10.3389/fnbot.2017.00003</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908308</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2908308">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908308/2908309/fnbot-11-00003.schilling.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908308" DMDID="DMD2908308">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908308"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

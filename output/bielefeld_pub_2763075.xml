@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2763075">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Pareto optimization in algebraic dynamic programming</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cedric</namePart>
+                        <namePart type="family">Saule</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Pareto optimization combines independent objectives by computing the Pareto front of its search space, defined as the set of all solutions for which no other candidate solution scores better under all objectives. This gives, in a precise sense, better information than an artificial amalgamation of different scores into a single objective, but is more costly to compute. Pareto optimization naturally occurs with genetic algorithms, albeit in a heuristic fashion. Non-heuristic Pareto optimization so far has been used only with a few applications in bioinformatics. We study exact Pareto optimization for two objectives in a dynamic programming framework. We define a binary Pareto product operator ∗Par on arbitrary scoring schemes. Independent of a particular algorithm, we prove that for two scoring schemes A and B used in dynamic programming, the scoring scheme A∗ParB correctly performs Pareto optimization over the same search space. We study different implementations of the Pareto operator with respect to their asymptotic and empirical efficiency. Without artificial amalgamation of objectives, and with no heuristics involved, Pareto optimization is faster than computing the same number of answers separately for each objective. For RNA structure prediction under the minimum free energy versus the maximum expected accuracy model, we show that the empirical size of the Pareto front remains within reasonable bounds. Pareto optimization lends itself to the comparative investigation of the behavior of two alternative scoring schemes for the same purpose. For the above scoring schemes, we observe that the Pareto front can be seen as a composition of a few macrostates, each consisting of several microstates that differ in the same limited way. We also study the relationship between abstract shape analysis and the Pareto front, and find that they extract information of a different nature from the folding space and can be meaningfully combined.</abstract>
+                    <subject>
+                        <topic>Algebraic dynamic programming</topic>
+                        <topic>Sankoff algorithm</topic>
+                        <topic>RNA structure</topic>
+                        <topic>Dynamic programming</topic>
+                        <topic>Pareto optimization</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms for Molecular Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1748-7188</identifier>
+                    <identifier type="MEDLINE">26150892</identifier>
+                    <identifier type="ISI">000357365700001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27630756</identifier>
+                    <identifier type="doi">10.1186/s13015-015-0051-7</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2763075</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2763075">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2763075/2763119/saule.s13015-015-0051-7.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2763075" DMDID="DMD2763075">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2763075"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

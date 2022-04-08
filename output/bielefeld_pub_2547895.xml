@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2547895">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Rare neural correlations implement robotic conditioning with reward delays and disturbances</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andrea</namePart>
+                        <namePart type="family">Soltoggio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andre</namePart>
+                        <namePart type="family">Lemme</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Neural conditioning associates cues and actions with following rewards. The environments in which robots operate, however, are pervaded by a variety of disturbing stimuli and uncertain timing. In particular, variable reward delays make it difficult to reconstruct which previous actions are responsible for following rewards. Such an uncertainty is handled by biological neural networks, but represents a challenge for computational models, suggesting the lack of a satisfactory theory for robotic neural conditioning. The present study demonstrates the use of rare neural correlations in making correct associations between rewards and previous cues or actions. Rare correlations are functional in selecting sparse synapses to be eligible for later weight updates if a reward occurs. The repetition of this process singles out the associating and reward-triggering pathways, and thereby copes with distal rewards. The neural network displays macro-level classical and operant conditioning, which is demonstrated in an interactive real-life human-robot interaction. The proposed mechanism models realistic conditioning in humans and animals and implements similar behaviors in neuro-robotic platforms.</abstract>
+                    <subject>
+                        <topic>CoR-Lab Publication</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neurorobotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>6</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5218</identifier>
+                    <identifier type="eIssn">1662-5218</identifier>
+                    <identifier type="MEDLINE">23565092</identifier>
+                    <identifier type="ISI">000209437600006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25478952</identifier>
+                    <identifier type="doi">10.3389/fnbot.2013.00006</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2547895</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2547895">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2547895/2575452/soltoggio.fnbot-07-00006.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2547895" DMDID="DMD2547895">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2547895"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

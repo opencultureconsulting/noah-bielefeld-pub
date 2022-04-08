@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2736686">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive Affine Sequence Alignment Using Algebraic Dynamic Programming</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bassam</namePart>
+                        <namePart type="family">Mokbel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A core issue in machine learning is the classification of data. However, for data structures that can not easily be summarized in a feature representation, standard vectorial approaches are not suitable. An alternative approach is to represent the data not by features, but by their similarities or disimilarities to each other. In the case of sequential data, dissimilarities can be efficiently calculated by well-established alignment distances. Recently, techniques have been put forward to adapt the parameters of such alignment distances to the specific data set at hand, e.g. using gradient descent on a cost function.
+In this thesis we provide a comprehensive theory for gradient descent on alignment distance based on Algebraic Dynamic Programming, enabling us to adapt even sophisticated alignment distances. We focus on Affine Sequence Alignment, which we optimize by gradient descent on the Large Margin Nearest Neighbor cost function. Thereby we directly optimize the classification accuracy of the popular k-Nearest Neighbor classifier.
+We present a free software implementation of this theory, the TCS Alignment Toolbox, which we use for the subsequent experiments. Our experiments entail alignment distance learning on three diverse data sets (two artificial ones and one real-world example), yielding not only an increase in classification accuracy but also interpretable resulting parameter settings.</abstract>
+                    <subject>
+                        <topic>sequence alignment</topic>
+                        <topic>metric learning</topic>
+                        <topic>dissimilarity data</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27366869</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2736686</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2736686">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2736686/2736687/bpaassen_ma_thesis_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2736686" DMDID="DMD2736686">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2736686"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

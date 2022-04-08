@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2652142">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ressourceneffiziente Hardware-Software-Kombinationen für Kryptographie mit elliptischen Kurven</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Puttmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-12-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der heutigen Informationsgesellschaft spielt die sichere Übertragung von elektronischen Daten eine immer wichtigere Rolle. Die hierfür eingesetzten Endgeräte beschränken sich mittlerweile nicht mehr auf klassische, stationäre Computer, sondern es setzen zunehmend mobile Alltagsgegenstände (z.B. Smartphone oder Reisepass) eine sichere Datenübertragung zwingend voraus. Die Anforderungen bezüglich der Ressourcen einer Hardware-Software-Kombination variieren dabei für verschiedene Anwendungsszenarien sehr stark.
+
+Kryptographie auf Basis von elliptischen Kurven stellt eine attraktive Alternative zu etablierten asymmetrischen Verfahren dar und wird vermehrt eingesetzt, um sicherheitskritische Daten zu ver- bzw. entschlüsseln sowie deren Integrität und Authentizität sicherzustellen.
+
+Im Rahmen dieser Arbeit werden, am Beispiel von Algorithmen für die Kryptographie mit elliptischen Kurven, verschiedene Methoden vorgestellt, um ressourceneffiziente Hardware-Software-Kombinationen zu entwickeln. Es wird eine automatisierte Testumgebung vorgestellt, welche die systematische Entwicklung von ressourceneffizienten Hardware-Software-Kombinationen ermöglicht. Um verschiedene Implementierungen im Hinblick auf ein spezielles Anwendungsszenario miteinander vergleichen zu können, wird eine allgemeine Bewertungsmetrik eingeführt, welche die drei wesentlichen Parameter (Chipfläche, Verlustleistung, Ausführungsdauer) des Entwurfsraumes einer ASIC-Entwicklung berücksichtigt.
+
+Basierend auf einer hierarchisch entwickelten, skalierbaren Systemarchitektur wird eine Entwurfsraumexploration für zwei exemplarische Anwendungsszenarien durchgeführt.
+Mit den angewandten Konzepten der Instruktionssatzerweiterung, der Parallelisierung sowie eines Coprozessor-Ansatzes wird die Ressourceneffizienz auf unterschiedlichen Hierarchieebenen der zugrundeliegenden Systemarchitektur anwendungsspezifisch optimiert. Die Ergebnisse werden mit Hilfe einer FPGA-basierten Entwicklungsumgebung prototypisch evaluiert sowie durch eine ASIC-Realisierung in einer 65-nm-CMOS-Standardzellentechnologie praktisch belegt.</abstract>
+                    <subject>
+                        <topic>SoC</topic>
+                        <topic>ECC</topic>
+                        <topic>NoC</topic>
+                        <topic>FPGA</topic>
+                        <topic>ASIC</topic>
+                        <topic>Hardwarebeschleuniger</topic>
+                        <topic>Instruktionssatzerweiterung</topic>
+                        <topic>Mikroprozessor</topic>
+                        <topic>Ressourceneffizienz</topic>
+                        <topic>Kryptographie</topic>
+                        <topic>Elliptische Kurven</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26521422</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2652142</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2652142">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2652142/2652143/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2652142" DMDID="DMD2652142">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2652142"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

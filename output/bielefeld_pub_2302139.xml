@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302139">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kolja</namePart>
+                        <namePart type="family">Henckel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-03-11</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Medicago truncatula is a model plant for studying legume biology. The ability to interact with beneficial microbial organisms leading to the formation of nitrogen fixing root nodules and to phosphate-acquiring arbuscular mycorriza (AM) is one of the main distinctive features of this family of plants. The two different symbioses of Medicago truncatula are investigated by various international research projects.
+Oligonucleotide microarrays are a robust technique to examine the expression of thousands of genes in parallel. Affymetrix GeneChips®, more recently designed gene-specific chips, make it easier for the researcher to compare and evaluate gene expression and thus will most certainly lead to more accurate results. Not surprisingly, Medicago GeneChips® are moving into the focus of gene expression analysis research in this model plant. Software applications for the analysis of GeneChips® are mostly commercial, or implemented as command-line tools without a user interface. Furthermore, a comparison to the analyses of previously performed oligonucleotide microarrays is difficult, as analysis pipelines and methods differ in each application. In the scope of this thesis EMMA2, an application for the analysis of oligonucleotide microarrays, was extended to load, store and analyze Affymetrix GeneChips® as compareable as possible to oligonucleotide datasets.
+Databases for either sequence, annotation, or microarray experiment datasets are extremely beneficial to the research community, as they centrally gather information from experiments performed by different scientists. However, datasets from different sources develop their full capacities only when combined. The idea of a data warehouse directly addresses this problem and solves it by integrating all required data into one single database hence there are already many data warehouses available to genetics. For the model legume Medicago truncatula there was no such single data warehouse that integrated all freely available gene sequences, the corresponding gene expression data, and annotation information.
+The TRUNCATULIX data warehouse is created in the scope of this thesis to store Medicago truncatula sequence, annotation, and expression datasets and offer these to the legume community. Different filtersteps allow a precise query for genes and expression values in a database of over 200.000 gene sequences and over 200 hybridizations. For the first time users can now quickly search for specific genes and gene expression datasets in a huge database based on high-quality annotations. The results can be exported as Excel, HTML, or as csv files for further usage.
+A multitude of EST and microarray experiments are conducted for Medicago truncatula covering different tissues, cell states, and cell types. Under these circumstances the challenge arises to integrate the results of the different expression analysis methods with the goal to discover novel information from the combined datasets. The application MediPlEx is designed to allow an integrated expression analysis for the Medicago truncatula datasets stored in SAMS and in the TRUNCATULIX data warehouse. After selecting genes of interest by their expression conditions, expression profiles are combined for a hierarchical clustering. The results are presented in a table, as a cluster dendrogram, and in an interactive 3D application.
+The three parts of the thesis have been published by Dondrup et al. (2009), Henckel et al. (2009), or are submitted (Henckel et al. (2010)).</abstract>
+                    <subject>
+                        <topic>Expression profiling</topic>
+                        <topic>GeneChip expression data</topic>
+                        <topic>database</topic>
+                        <topic>est analysis</topic>
+                        <topic>comparative expression analysis</topic>
+                        <topic>microarray</topic>
+                        <topic>mediplex</topic>
+                        <topic>truncatulix</topic>
+                        <topic>medicago truncatula</topic>
+                        <topic>data warehouse</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16625</identifier>
+                    <identifier type="sys">HT016440587</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302139</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302139">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302139/2302142/Dissertation_Kolja_Henckel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302139" DMDID="DMD2302139">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302139"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

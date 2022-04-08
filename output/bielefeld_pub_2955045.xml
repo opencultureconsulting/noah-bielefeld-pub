@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2955045">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evaluating NLG-frameworks for multilingual surface realization in conversational assistants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hanne</namePart>
+                        <namePart type="family">Brockow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">Buschmeier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9613-5713</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Conversational voice assistants that are available in multiple countries need to be able to generate utterances in the language that their users speak. In open domains, in which messages can be variable, pre-writing and translating all utterances in advance is unfeasible because it is costly, error-prone, and inflexible when changes need to be made. Approaches to automatically generate multilingual surface forms of utterances have been developed in the field of Natural Language Generation (NLG), however, these are rarely used when developing skills for conversational voice assistants. In this paper, we describe an evaluation study that analyses the feasibility of integrating NLG surface-realization frameworks (SimpleNLG and RosaeNLG) into the development process of an existing commercial and multilingual (English, French, German, Italian, Spanish) home-automation skill, and compare it to a more traditional localization approach. The study uses methods and measures from human–computer interaction and software engineering, and takes into account the perspective of various stakeholders in the development process (conversation designers, language experts and developers).</abstract>
+                    <subject>
+                        <topic>conversational agents</topic>
+                        <topic>natural language generation</topic>
+                        <topic>multilingual surface realization</topic>
+                        <topic>internationalization</topic>
+                        <topic>evaluation</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29550457</identifier>
+                    <identifier type="doi">10.1145/3469595.3469631</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2955045</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2955045">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2955045/2956212/BrockowBuschmeier-2021-CUI.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2955045" DMDID="DMD2955045">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2955045"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

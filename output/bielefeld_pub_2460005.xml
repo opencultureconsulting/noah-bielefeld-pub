@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2460005">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kirsten</namePart>
+                        <namePart type="family">Bergmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-07-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The use of speech-accompanying iconic gestures is a ubiquitous characteristic of human-human communication, especially when spatial information is expressed. At the starting point of this thesis, however, it was a widely open question why different gestures take the particular physical form they actually do. Accordingly, previous computational models simulating the use of gestures were of limited significance. The goal of this thesis was to develop a comprehensive computational simulation model for the production of co-speech iconic gestures to be realized in virtual agents. The rationale behind this objective was to devise and probe a predictive model of gesture use in order to gain insight into human gesture production, and thereby to improve human-agent interaction such that it progresses towards intuitive and human-like communication. 
+
+As an empirical basis for the generation model, a corpus of natural speech and gesture use was statistically analyzed, revealing novel findings regarding the question when and how speakers use gestures. It was found that iconic gesture use is not only influenced by the shape of the object to depict, but also by other characteristics of the referent, by the linguistic and discourse-contextual situation, as well as a speaker&apos;s previous gestural behavior. Further, it could be shown that the role of gestural representation techniques (like placing or drawing) is decisive for the physical form of iconic gestures. And finally, the analysis revealed obvious inter-individual differences, both at the surface of gestural behavior and also in how strong particular influencing relations were. 
+
+Based on these empirical insights, the Generation Network for Iconic Gestures (GNetIc) was developed – a computational simulation model for the production of speech-accompanying iconic gestures. It goes beyond previous systems in several respects. First, the model combines data-driven machine learning techniques and rule-based decision making to account for both inter-individual differences in gesture use, as well as patterns of form-meaning mappings specific to representation techniques. Second, the network accounts for the fact that the physical appearance of generated gestures is influenced by multiple factors: characteristic features of the referent accounting for iconicity, as well as contextual factors like the given communicative goal, information state, or previous gesture use. And third, learning gesture networks from individual speakers&apos; data gives an easily interpretable visual image of preferences and strategies in composing gestures and makes them available to generate novel gesture forms in the style of the respective speaker. 
+GNetIc models were brought to application in an overall architecture for integrated speech and gesture generation. Being equipped with proper knowledge sources, i.e., communicative plans, lexicon, grammar, propositional, and imagistic knowledge, a virtual agent was enabled to autonomously explain buildings of a virtual environment using speech and gestures. By switching between the respective decision networks, the system has the ability to simulate speaker-specific gesture use.
+
+Accounting for the two-fold rationale followed in this thesis, the GNetIc model was finally evaluated in two ways. First, in comparison with empirically observed gestural behavior, the model was shown to be able to successfully approximate human use of iconic gestures, especially when capturing the characteristics of individual speakers&apos; gesture style. Second, when brought to application in a virtual agent, the generated gestural behavior was found to be positively rated by human recipients. In particular, individualized GNetIc-generated gestures could increase the perceived quality of object descriptions. Moreover, the virtual agent itself was rated more positively in terms of verbal capability, likeability, competence, and human-likeness.  Accordingly the results of this work provide first steps towards a more thorough understanding of iconic gesture production in humans and also on how gesture use may improve human-agent interaction.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24600059</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2460005</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2460005">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2460005/2460009/PhdThesis_KirstenBergmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2460005" DMDID="DMD2460005">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2460005"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

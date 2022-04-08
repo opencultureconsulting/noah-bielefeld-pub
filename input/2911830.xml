@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2911830</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Georges</namePart>
+  <namePart type="family">Hattab</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">50871385</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4168-8254</description></name>
+<name type="personal">
+  <namePart type="given">Jan-Philip</namePart>
+  <namePart type="family">Schlüter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Anke</namePart>
+  <namePart type="family">Becker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In order to understand gene function in bacterial life cycles, time lapse bioimaging is applied in combination with different marker protocols in so called microfluidics chambers (i.e., a multi-well plate). In one experiment, a series of T images is recorded for one visual field, with a pixel resolution of 60 nm/px. Any (semi-)automatic analysis of the data is hampered by a strong image noise, low contrast and, last but not least, considerable irregular shifts during the acquisition. Image registration corrects such shifts enabling next steps of the analysis (e.g., feature extraction or tracking). Image alignment faces two obstacles in this microscopic context: (a) highly dynamic structural changes in the sample (i.e., colony growth) and (b) an individual data set-specific sample environment which makes the application of landmarks-based alignments almost impossible. We present a computational image registration solution, we refer to as ViCAR: (Vi)sual (C)ues based (A)daptive (R)egistration, for such microfluidics experiments, consisting of (1) the detection of particular polygons (outlined and segmented ones, referred to as visual cues), (2) the adaptive retrieval of three coordinates throughout different sets of frames, and finally (3) an image registration based on the relation of these points correcting both rotation and translation. We tested ViCAR with different data sets and have found that it provides an effective spatial alignment thereby paving the way to extract temporal features pertinent to each resulting bacterial colony. By using ViCAR, we achieved an image registration with 99.9% of image closeness, based on the average rmsd of 4.10−2 pixels, and superior results compared to a state of the art algorithm.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fgene-08-00069.hattab.pdf">https://pub.uni-bielefeld.de/download/2911830/2912118/fgene-08-00069.hattab.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Media SA</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in Genetics</title></titleInfo>
+  <identifier type="issn">1664-8021</identifier>
+  <identifier type="MEDLINE">28620411</identifier>
+  <identifier type="ISI">000402738200001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29118304</identifier><identifier type="doi">10.3389/fgene.2017.00069</identifier>
+<part><detail type="volume"><number>8</number></detail>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2913120</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hattab, G.; Schlüter, J. - P.; Becker, A.; Nattkemper, T. W. (2017): ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments &lt;em&gt;Frontiers in Genetics&lt;/em&gt;,8:69</wels>
+<harvard1>Hattab, G., et al., 2017. ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt;, 8: 69.</harvard1>
+<bio1>Hattab G, Schlüter J-P, Becker A, Nattkemper TW (2017) &lt;br /&gt;ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments.&lt;br /&gt;Frontiers in Genetics 8: 69.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G., Schlüter, J. - P., Becker, A., &amp;amp; Nattkemper, T. W. (2017). ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt;, &lt;em&gt;8&lt;/em&gt;, 69. doi:10.3389/fgene.2017.00069&lt;/div&gt;</apa_indent>
+<angewandte-chemie>G.  Hattab, J. - P.  Schlüter, A.  Becker, and T. W.  Nattkemper, “ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments”, &lt;em&gt;Frontiers in Genetics&lt;/em&gt;, &lt;strong&gt;2017&lt;/strong&gt;, &lt;em&gt;8&lt;/em&gt;, : 69.</angewandte-chemie>
+<ama>Hattab G, Schlüter J-P, Becker A, Nattkemper TW. ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt;. 2017;8: 69.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G., Schlüter, J.-P., Becker, A. &amp;amp; Nattkemper, T.W. (2017). ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt;, &lt;em&gt;8&lt;/em&gt;: 69. Frontiers Media SA. doi:10.3389/fgene.2017.00069.&lt;/div&gt;</dgps>
+<frontiers>Hattab, G., Schlüter, J. - P., Becker, A., and Nattkemper, T. W. (2017). ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt; 8:69.</frontiers>
+<apa>Hattab, G., Schlüter, J. - P., Becker, A., &amp;amp; Nattkemper, T. W. (2017). ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. &lt;em&gt;Frontiers in Genetics&lt;/em&gt;, &lt;em&gt;8&lt;/em&gt;, 69. doi:10.3389/fgene.2017.00069</apa>
+<ieee> G. Hattab, et al., “ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments”, &lt;em&gt;Frontiers in Genetics&lt;/em&gt;,  vol. 8, 2017, : 69.</ieee>
+<lncs> Hattab, G., Schlüter, J.-P., Becker, A., Nattkemper, T.W.: ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments. Frontiers in Genetics. 8, : 69 (2017).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, Georges, Schlüter, Jan-Philip, Becker, Anke, and Nattkemper, Tim Wilhelm. 2017. “ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments”. &lt;em&gt;Frontiers in Genetics&lt;/em&gt; 8: 69.&lt;/div&gt;</chicago>
+<mla>Hattab, Georges, Schlüter, Jan-Philip, Becker, Anke, and Nattkemper, Tim Wilhelm. “ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments”. &lt;em&gt;Frontiers in Genetics&lt;/em&gt; 8 (2017): 69.</mla>
+<default>Hattab G, Schlüter J-P, Becker A, Nattkemper TW (2017) &lt;br /&gt;&lt;em&gt;Frontiers in Genetics&lt;/em&gt; 8: 69.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2911830</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-05-31T08:40:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:46:31Z</recordChangeDate>
+</recordInfo>
+</mods>

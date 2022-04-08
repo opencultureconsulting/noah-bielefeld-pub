@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304360">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>P300-based brain-computer interfacing</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>P300-basiertes Brain-Computer Interfacing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Kaper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-04-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Verschiedene Strategien der Vorverarbeitung und Klassifikation werden mit dem Ziel der Beschleunigung einer P300-basierten Gehirn-Computer-Schnittstelle untersucht. In einer Reihe von eigenen Offline-Experimenten werden diese Strategien optimiert. In einem nachfolgenden Online-Experiment wurden diese Strategien dann verwendet, um eine direkte Benutzung der Schnittstelle zu gestatten. Fuer beide Modi konnten starke Verbesserungen der Informationstransferrate, im Vergleich zu existierenden Ansaetzen, erzielt werden.</abstract>
+                    <abstract lang="eng">Several preprocessing and classification strategies are investigated to accelerate a Brain-Computer Interface (BCI) which relies on the P300 component in EEG patterns. First, in a series of own offline experiments, preprocessing and classification techniques are optimized. Second, these optimized strategies are employed within an online BCI which allows to actually operate the device. Strong enhancements of current information transfer rates could be obtained for both experimental modes.</abstract>
+                    <subject>
+                        <topic>Neuroinformatik , Gehirn-Computer-Schnittstelle , Maschinelles Lernen ,  , Brain-computer interface , P300 , Machine learning</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8620</identifier>
+                    <identifier type="sys">HT014740768</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304360</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304360">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304360/2304363/kaper_diss_p300basedbci.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304360" DMDID="DMD2304360">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304360"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

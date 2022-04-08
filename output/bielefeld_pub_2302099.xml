@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302099">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Beiträge zum Lanczosalgorithmus in endlicher Arithmetik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Wülling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ludwig</namePart>
+                        <namePart type="family">Elsner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2004-07-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Der Lanczosalgorithmus ist ein iteratives Verfahren zur Berechnung (bzw. Approximation) einiger Eigenwerte und Eigenvektoren großer, dünn besetzter symmetrischer Matrizen. Aufbauend auf Ergebnissen von Christopher Conway Paige wird das numerische Verhalten dieses Verfahrens insbesondere hinsichtlich der Bildung von Cluster von Ritzwerten analysiert: Es stellt sich heraus, dass sich Cluster von Ritzwerten nur um einen Eigenwert bilden können.
+Darüber hinaus berechnet der Lanczosalgorithmus (bzw. das cg-Verfahren) implizit eine Folge von Gaußquadraturapproximationen an ein durch den Startvektor des Verfahrens und den Eigenwerten der Matrix, für die die Eigenwertapproximationen bestimmt werden, definiertes Riemann-Stieltjes Integral. Es wird die so genannte Stabilisierung der Gewichte der Gaußquadratur sowohl beim Rechnen in exakter als auch in endlicher Arithmetik nachgewiesen. 
+Ein Lanczos-ähnlicher Algorithmus für unitäre Matrizen zeigt numerisch ein analoges Verhalten wie der symmetrische Lanczosalgorithmus. Es wird der analoge Zusammenhang zwischen Orthogonalitätsverlust unter den Lanczosvektoren und der Konvergenz von Ritzwerten aufgezeigt.</abstract>
+                    <subject>
+                        <topic>Lanczos-Verfahren , Lanczos-Algorithmus , Eigenwerte , Ritzwerte , Rundungsfehler , Cluster , Lanczos algorithm , Eigenvalues , Ritz values , Finite precision computation , Cluster of Ritz values</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-5458</identifier>
+                    <identifier type="sys">HT014293969</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302099</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302099">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302099/2302102/WW_diss_04.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302099" DMDID="DMD2302099">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302099"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

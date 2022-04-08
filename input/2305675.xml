@@ -1,0 +1,95 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305675</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Lang</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Gernot A.</namePart>
+  
+  
+  <namePart type="family">Fink</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Diese Arbeit beschreibt ein System zur Steuerung der Aufmerksamkeit eines mobilen Roboters, das es ihm erlaubt, sich aktiv auf einzelne Personen für die Interaktion zu fokussieren. Diese Fähigkeit ist insbesondere dann erforderlich, wenn sich mehrere Personen in der Nähe des Roboters aufhalten, von denen jede potenziell einen Interaktionspartner darstellt. Die Aufmerksamkeitssteuerung entscheidet dann darüber, auf wen die Kamera des Roboters gerichtet wird und welche mit den Mikrofonen erfasste Äußerung verarbeitet wird.
+Die grundlegende Voraussetzung für die Steuerung der Aufmerksamkeit ist die Fähigkeit des Roboters, Personen in seiner Nähe zu detektieren und über die Zeit zu verfolgen. Der in dieser Arbeit eingesetzte Roboter verfügt dazu über eine Kamera, zwei Mikrofone und einen Laser-Entfernungsmesser. Die Kamera, die den oberen Bereich von Menschen erfasst, dient zur Detektion von Gesichtern und zur Lokalisation des Oberkörpers. Mit den Mikrofonen werden Sprachquellen geortet. Der Laser-Entfernungsmesser wird zur Detektion von menschlichen Beinpaaren eingesetzt. Die Integration der verschiedenen Erkennungsergebnisse erfolgt über ein in dieser Arbeit neu entwickeltes Verfahren zum Verfolgen von Personen. Es erweitert den Anchoring-Ansatz von Coradeschi und Saffiotti auf die gleichzeitige Verwendung mehrerer Sensoren und wird entsprechend als multimodales Anchoring bezeichnet. Eine zentrale Rolle bei der Erweiterung spielen dabei drei Modelle, die die räumlichen Relationen der beobachteten Einzelbestandteile und ihre Bewegung über die Zeit beschreiben, sowie die Fusion neuer Messdaten zu einer multimodalen Gesamthypothese definieren. Darüber hinaus stellt die Erweiterung Funktionalitäten zur Verwaltung von einer variablen Anzahl von Personenhypothesen zur Verfügung.
+Die Aufmerksamkeitssteuerung setzt auf den Ergebnissen des Verfahrens zum Verfolgen von Personen auf. Sie selektiert aus der Menge der wahrgenommenen Personen diejenige, die für den Roboter die höchste Relevanz hat. In der Interaktionsphase ist dies immer der Benutzer, was zu einer dauerhaften Aufmerksamkeit führt. In der Bereitschaftsphase bestimmt sich die Relevanz jeder Person anhand der Merkmale "sprechen" und "zum Roboter schauen". Somit werden bevorzugt jene Personen selektiert, die beabsichtigen, mit dem Roboter zu interagieren. Die Aufmerksamkeitssteuerung fokussiert die Aufmerksamkeit des Roboters auf die selektierte Person. Dies geschieht durch aktives Ausrichten der Roboterbasis und der separat beweglichen Kamera. Dadurch wird sowohl die selektierte Person optimal mit den Sensoren wahrgenommen als auch der Aufmerksamkeitsfokus des Roboters intuitiv verständlich nach außen hin dargestellt. Das genaue Verhalten des Roboters ist situationsabhängig und durch so genannte Aufmerksamkeitszustände definiert. Es gibt vier Zustände in der Bereitschaftsphase, die den Roboter schlafend, wach, wachsam oder zuhörend darstellen. In der Interaktionsphase sind die Zustände an die Dialogsituation gebunden, wobei der Roboter auf eine Anweisung wartet, dem Benutzer folgt, eine Zeigegeste erwartet oder auf ein Objekt schaut. Eine weitere Aufgabe der Aufmerksamkeitssteuerung ist die Aktivierung und Deaktivierung der Sprachverarbeitung. Hiermit wird die auditive Aufmerksamkeit des Roboters realisiert, die dazu dient, nur solche Äußerungen zu verarbeiten, die an den Roboter gerichtet sind.
+Fünf verschiedene Experimente demonstrieren die Leistungsfähigkeit des entwickelten Systems. Sie zeigen sowohl die Robustheit des Verfahrens zum Verfolgen von Personen als auch die Effektivität der Aufmerksamkeitssteuerung im praktischen Einsatz. Die Auswertung von Benutzerbefragungen hat ergeben, dass die Aufmerksamkeit in der Mehrheit als eine besonders interessante Fähigkeit des Roboters bewertet wird, was auf eine hohe Akzeptanz des vorgestellten Ansatzes bei Benutzern schließen lässt.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Lang2005.pdf">https://pub.uni-bielefeld.de/download/2305675/2305678/Lang2005.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>BIRON (Bielefeld Robot Companion)</topic><topic>Mensch-Maschine-Kommunikation</topic><topic>Mensch-Roboter-Interaktion</topic><topic>Aufmerksamkeit</topic><topic>Schallortung</topic><topic>Personen-Tracking</topic><topic>Aufmerksamkeitssteuerung</topic><topic>Serviceroboter</topic><topic>Mobiler Roboter</topic><topic>Multimodales System</topic><topic>Person</topic><topic>Bilderkennung</topic><topic>Lokalisation</topic><topic>Objektverfolgung</topic><topic>Situationsanalyse</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-6792</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-04-25</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Lang, S.: Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lang, Sebastian. 2005. &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Lang, Sebastian. &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<default>Lang S (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<wels>Lang, S. (2005): Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter. Bielefeld (Germany): Bielefeld University.</wels>
+<harvard1>Lang, S., 2005. &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lang, S. (2005).  &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Lang S (2005) &lt;br /&gt;&lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<angewandte-chemie>S.  Lang, &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+<ama>Lang S. &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<frontiers>Lang, S. (2005). Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lang, S. (2005). &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Lang, S. (2005).  &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> S. Lang, &lt;em&gt;Multimodale Aufmerksamkeitssteuerung für einen mobilen Roboter&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305675</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-05-19T13:32:08Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:44:39Z</recordChangeDate>
+</recordInfo>
+</mods>

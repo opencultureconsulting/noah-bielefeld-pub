@@ -1,0 +1,122 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2944282">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Economic and epidemic implications of virus containment policies: insights from agent-based simulations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Basurto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Herbert</namePart>
+                        <namePart type="family">Dawid</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8536-9960</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Harting</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8865-7466</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jasper</namePart>
+                        <namePart type="family">Hepp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Kohlweyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper analyzes the implications of different designs of policies, which aim to
+contain the diffusion of the SARS-CoV-2 virus, with respect to induced economic loss
+and virus mortality. An agent-based simulation model is implemented and calibrated
+with German data, which combines the representation of a simple multi-sectoral closed
+economy with the explicit incorporation of virus transmission channels at the workplace,
+during shopping activities and other social contacts. It is demonstrated that
+under a policy resembling German containment measures the model closely reproduces
+the dynamics of pandemic and economic variables in the aftermath of the COVID-19
+outbreak in Germany. Exploring alternative policy designs shows that any efficient
+policy should impose a low threshold of newly infected for moving from the lock-down
+to the opening-up stage and in the opening-up stage all restrictions on economic activity
+should be lifted. With respect to the reduction of consumption activities during
+the lock-down a trade-off between the induced GDP loss and the resulting mortality
+emerges. Regardless of the chosen design of the containment measures, the introduction
+of complementary economic support measures substantially reduces the induced
+GDP loss and leads to a reduction of the public debt accumulated during the considered
+time interval. The efficient design of containment policies changes substantially
+if lifting economic restrictions during the opening-up stage also results in reduced
+effectiveness of the individual prevention measures by agents.</abstract>
+                    <subject>
+                        <topic>COVID-19</topic>
+                        <topic>economic loss</topic>
+                        <topic>containment policy</topic>
+                        <topic>exit strategy</topic>
+                        <topic>agent-based modeling</topic>
+                        <topic>etace_WP</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>05-2020</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>49</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29442829</identifier>
+                    <identifier type="doi">10.4119/unibi/2944282</identifier>
+                    <identifier type="sys">HT020590778</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2944282</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2944282">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944282/2944283/wpaper_05_2020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2944282" DMDID="DMD2944282">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2944282"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

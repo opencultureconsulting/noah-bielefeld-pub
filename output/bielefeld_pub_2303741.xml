@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303741">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Simulation of mental models with recurrent neural networks</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Simulation mentaler Modelle mit rekurrenten neuronalen Netzen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simone</namePart>
+                        <namePart type="family">Kühn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-07-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Menschen sind in der Lage, mentale Modelle von Informationen, die sie aus der Umwelt aufnehmen, aufzubauen. Solche mentalen Modelle bilden die Grundlage für die Organisation und Strukturierung von sensorischer Information und Wissen und sind damit wesentlich, um Gedächtnisaufgaben ausführen zu können. Sie können in so genannten cell assemblies, also wechselseitig miteinander verschalteten Neuronen, realisiert werden. Für den Aufbau von mentalen Modellen muss das neuronale System adaptive Fähigkeiten besitzen, d.h. die Fähigkeit zu lernen. Eine wesentliche Voraussetzung für diese Lernfähigkeit ist die Anpassung der synaptischen Übertragungsstärke in Abhängigkeit von der jeweiligen Situation.
+Die Informationen aus der Umwelt, mit denen der Mensch und damit sein neuronales System in einzelnen Situationen konfrontiert ist, können verschiedengestaltig sein: Es kann sich zum Beispiel um statische Muster handeln, wie z.B. einen Baum oder einen Stuhl, aber auch um dynamische Szenen wie etwa ein vorbeifahrendes Auto oder ein auf und ab hüpfender Ball.
+In dieser Arbeit werden zwei Ansätze vorgeschlagen, die eine Modellierung mentaler Modelle sowohl statischer als auch dynamischer Informationen mit Hilfe von rekurrenten neuronalen Netzen ermöglichen. Beiden Modellen ist gemein, dass die Lernprozesse selbstorganisiert und nur in Abhängigkeit von lokaler Information ablaufen. Da die Lerndynamik und die rekurrente Dynamik bei Online-Lernverfahren eng miteinander verwoben sind, ist der Erfolg des ersten Modells (Kapitel 2) stark abhängig von der Anpassung der Lernrate. Mit der Input Compensation (IC) Struktur wird in Kapitel 3 und 4 eine biologisch inspirierte Neuronenstruktur vorgeschlagen, die Lern- und rekurrente Dynamik voneinander entkoppelt und somit Online-Lernen in sehr effizienter Weise erlaubt. Rekurrente Netze, die mit solchen IC Neuronen ausgestattet sind, können erfolgreich trainiert werden, um sowohl statische als auch dynamische Situationen abzubilden. Somit bietet dieses Modell eine Grundlage für sehr vielfältige Gedächtnisleistungen.</abstract>
+                    <abstract lang="eng">Humans are able to form internal representations of the information they process - a capability which enables them to perform many different memory tasks. Therefore, the neural system has to learn somehow to represent aspects of the environmental situation; this process is assumed to be based on synaptic changes. The situations to be represented are various as for example different types of static patterns but also dynamic scenes. How are neural networks consisting of mutually connected neurons capable of performing such tasks?
+Here we propose two approaches which are suitable to model internal representations of static as well as dynamic information with recurrent neural networks. Both models adapt in a self-organised way using local information only. Especially the new neuronal structure for artificial neurons proposed allows to disentangle the dynamics of the recurrent connectivity from the dynamics induced by synaptic changes due to the learning processes. The error signal is computed locally within the individual neuron. Thus, online learning is possible without any additional structures. Recurrent neural networks equipped with these computational units are able to cope with different memory tasks. Examples illustrate how information is extracted from environmental situations comprising fixed patterns to produce sustained activity and to deal with simple algebraic relations. Thus, these models provide the basis for various memory tasks.</abstract>
+                    <subject>
+                        <topic>Rekursives neuronales Netz</topic>
+                        <topic>Lernen</topic>
+                        <topic>Simulation</topic>
+                        <topic>Rekurrente neuronale Netze</topic>
+                        <topic>Mentale Modelle</topic>
+                        <topic>Interne Repräsentation</topic>
+                        <topic>Recurrent neural networks</topic>
+                        <topic>Mental models</topic>
+                        <topic>Internal representation</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9252</identifier>
+                    <identifier type="sys">HT014887432</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303741</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303741">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303741/2303744/Kuehn_Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303741" DMDID="DMD2303741">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303741"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

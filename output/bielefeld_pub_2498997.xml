@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2498997">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Incremental On-line Clustering with a Topology-Learning Hierarchical ART Neural Network Using Hyperspherical Categories</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marko</namePart>
+                        <namePart type="family">Tscherepanow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Perner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Incremental on-line learning is an important branch of machine learning. One class of approaches particularly well-suited to such tasks are Adaptive Resonance Theory (ART) neural networks. This paper presents a novel ART network combining the ability of noise-insensi\-tive, incremental clustering and topology learning at different levels of detail from TopoART with Euclidean similarity measures and hyperspherical categories from Hypersphere ART. As a result of the modified internal representations, several limitations of the original TopoART network are lifted. In particular, the presented network can process arbitrarily scaled values even if their range is not entirely known in advance.</abstract>
+                    <subject>
+                        <topic>Incremental learning</topic>
+                        <topic>Hierarchical clustering</topic>
+                        <topic>TopoART</topic>
+                        <topic>Adaptive Resonance Theory</topic>
+                        <topic>On-line learning</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="issn">1864-9734</identifier>
+                    <identifier type="isbn">978-3-942952-17-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24989977</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2498997</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2498997">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2498997/2517690/tscherepanow.marko2012incremental-ICDM.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2498997" DMDID="DMD2498997">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2498997"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

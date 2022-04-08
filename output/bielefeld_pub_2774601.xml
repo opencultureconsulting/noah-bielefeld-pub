@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2774601">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Realizing a Low-latency Virtual Reality Environment for Motor Learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Waltemate</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Hülsmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8263-3765</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4047-9277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9954-120X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Virtual Reality (VR) has the potential to support motor learning in ways exceeding beyond the possibilities provided by real world environments. New feedback mechanisms can be implemented that support motor learning during the performance of the trainee and afterwards as a performance review. As a consequence, VR environments excel in controlled evaluations, which has been proven in many other application scenarios.
+
+However, in the context of motor learning of complex tasks, including full-body movements, questions regarding the main technical parameters of such a system, in particular that of the required maximum latency, have not been addressed in depth. To fill this gap, we propose a set of requirements towards VR systems for motor learning, with a special focus on motion capturing and rendering. We then assess and evaluate state-of-the-art techniques and technologies for motion capturing and rendering, in order to provide data on latencies for different setups. We focus on the end-to-end latency of the overall system, and present an evaluation of an exemplary system that has been developed to meet these requirements.</abstract>
+                    <subject>
+                        <topic>low-latency</topic>
+                        <topic>motor learning</topic>
+                        <topic>virtual reality</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-1-4503-3990-2</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27746019</identifier>
+                    <identifier type="doi">10.1145/2821592.2821607</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2774601</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2774601">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2774601/2906758/p139-waltemate.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2774601" DMDID="DMD2774601">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2774601"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

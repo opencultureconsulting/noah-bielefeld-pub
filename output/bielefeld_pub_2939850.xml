@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2939850">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning efficient haptic shape exploration with a rigid tactile sensor array</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sascha</namePart>
+                        <namePart type="family">Fleer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1606-2436</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexandra</namePart>
+                        <namePart type="family">Moringen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2605-1020</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roberta L.</namePart>
+                        <namePart type="family">Klatzky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Haptic exploration is a key skill for both robots and humans to discriminate and handle unknown objects or to recognize familiar objects. Its active nature is evident in humans who from early on reliably acquire sophisticated sensory-motor capabilities for active exploratory touch and directed manual exploration that associates surfaces and object properties with their spatial locations. This is in stark contrast to robotics. In this field, the relative lack of good real-world interaction models—along with very restricted sensors and a scarcity of suitable training data to leverage machine learning methods—has so far rendered haptic exploration a largely underdeveloped skill. In robot vision however, deep learning approaches and an abundance of available training data have triggered huge advances. In the present work, we connect recent advances in recurrent models of visual attention with previous insights about the organisation of human haptic search behavior, exploratory procedures and haptic glances for a novel architecture that learns a generative model of haptic exploration in a simulated three-dimensional environment. This environment contains a set of rigid static objects representing a selection of one-dimensional local shape features embedded in a 3D space: an edge, a flat and a convex surface. The proposed algorithm simultaneously optimizes main perception-action loop components: feature extraction, integration of features over time, and the control strategy, while continuously acquiring data online. Inspired by the Recurrent Attention Model, we formalize the target task of haptic object identification in a reinforcement learning framework and reward the learner in the case of success only. We perform a multi-module neural network training, including a feature extractor and a recurrent neural network module aiding pose control for storing and combining sequential sensory data. The resulting haptic meta-controller for the rigid 16 × 16 tactile sensor array moving in a physics-driven simulation environment, called the Haptic Attention Model, performs a sequence of haptic glances, and outputs corresponding force measurements. The resulting method has been successfully tested with four different objects. It achieved results close to 100% while performing object contour exploration that has been optimized for its own sensor morphology.</abstract>
+                    <subject>
+                        <topic>Tactile sensation</topic>
+                        <topic>Robots</topic>
+                        <topic>Employment</topic>
+                        <topic>Touch</topic>
+                        <topic>Learning</topic>
+                        <topic>Machine learning algorithms</topic>
+                        <topic>Recurrent neural networks</topic>
+                        <topic>Machine learning</topic>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLOS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="arXiv">1902.07501</identifier>
+                    <identifier type="MEDLINE">31896135</identifier>
+                    <identifier type="ISI">000534267300011</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29398500</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0226880</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2939850</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2939850">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939850/2939906/journal.pone.0226880.fleer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2939850" DMDID="DMD2939850">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2939850"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

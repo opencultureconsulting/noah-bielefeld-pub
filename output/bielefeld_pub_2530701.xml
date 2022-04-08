@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2530701">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Real-Time 3D Segmentation of Cluttered Scenes for Robot Grasping</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">André</namePart>
+                        <namePart type="family">Ückermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a real-time algorithm that segments unstructured and highly cluttered scenes. The algorithm robustly separates objects of unknown shape in congested scenes of stacked and partially occluded objects. The model-free approach finds smooth surface patches, using a depth image from a Kinect camera, which are subsequently combined to form highly probable object hypotheses. The real-time capabilities and the quality of the algorithm are evaluated on a benchmark database. Advantages compared to existing approaches as well as weaknesses are discussed. We also report on an autonomous grasping experiment with the Shadow Robot Hand which employs the estimated shape and pose of objects given by our algorithm in a task in which it cleans a table.</abstract>
+                    <subject>
+                        <topic>3D</topic>
+                        <topic>Segmentation</topic>
+                        <topic>Computer Vision</topic>
+                        <topic>Robot Grasping</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-1-4673-1367-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25307013</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2530701</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2530701">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2530701/2530720/ICHR12_FI.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2530701" DMDID="DMD2530701">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2530701"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

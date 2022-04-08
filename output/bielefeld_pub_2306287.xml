@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306287">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient algorithms for gene cluster detection in prokaryotic genomes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Schmidt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörn</namePart>
+                        <namePart type="family">Kalinowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-07-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The research in genomics science rapidly emerged in the last few years, and the availability of completely sequenced genomes continuously increases due to the use of semi-automatic sequencing machines. Also these sequences, mostly prokaryotic ones, are well annotated, which means that the positions of their genes and parts of their regulatory or metabolic pathways are known. A new task in the field of bioinformatics now is to gain gene or protein information from the comparison of genomes on a higher level.
+In the approach of &quot;comparative genomics&quot; researchers in bioinformatics are attempting to locate groups or clusters of orthologous genes that may have the same function in multiple genomes. These researches are often anchored on the simple, but biologically verified fact, that functionally related proteins are usually coded by genes placed in a region of close genomic neighborhood, in different species.
+From an algorithmic and combinatorial point of view, the first descriptions of the concept of &quot;closely placed genes&quot; were only fragmentary, and sometimes confusing. The given algorithms often lack the necessary grounds to prove their correctness, or assess their complexity.
+Within the first formal models of a conserved genomic neighborhood, genomes are often represented as permutations of their genes, and common intervals, i.e. intervals containing the same set of genes, are interpreted as gene clusters. But here the major disadvantage of representing genomes as permutations is the fact that paralogous copies of the same gene inside one genome can not be modelled. Since especially large genomes contain numerous paralogous genes, this model is insufficient to be used on real genomic data.
+In this work, we consider a modified model of gene clusters that allows paralogs, simply by representing genomes as sequences rather than permutations of genes. We define common intervals based on this model, and we present a simple algorithm that finds all common intervals of two sequences in [Theta](n2) time using [Theta](n2) space. Another, more complicated algorithm runs in [Omikron](n2) time and uses only linear space. We also show how to extend these algorithms to more than two genomes and present the implementation of the algorithms as well as the visualization of the located clusters in the tool Gecko. Since the creation of the string representation of a set of genomes is a non-trivial task, we also present the data preparation tool GhostFam that groups all genes from the given set of genomes to their families of homologs. In the evaluation on a set of 20 bacterial genomes, we show that with the presented approach it is possible to correctly locate gene clusters that are known from the literature, and to successfully predict new groups of functionally related genes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7497</identifier>
+                    <identifier type="sys">HT014715320</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306287</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306287">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306287/2306290/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306287" DMDID="DMD2306287">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306287"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

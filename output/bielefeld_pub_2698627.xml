@@ -1,0 +1,204 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2698627">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Validation Data of a Reference Model for Campus-Management Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Carolla</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Spitta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">## Abstract and guideline
+In a four-year research project, the landscape of large German speaking universities (Austria, Germany, Switzerland) was investigated. Our goal was to construct an empirically based data model for campus-management systems (CMS). An early version of the methodology can be found in [Carolla &amp; Spitta, 2014](http://pub.uni-bielefeld.de/publication/2698378). The final results will be published by the end of 2014 as the PhD thesis of Marco Carolla. 
+
+The data presented here show the validation of the ontologically designed data model, which we call a reference model for the data base schema of CMS. Its construction was performed iteratively following a guideline being sketched below. A UML class model derived from the ontologically constructed model of kinds, roles and relators was built using the concept OntoUML. This model was transformed into a relational database schema with all structurally relevant attributes of entities. Found entities serve as headlines for database tables filled with values of all 30 cases shown here.
+
+The sampling was done in two steps: First we drew a probabilities proportional to size sample (PPS) of 10 from the 60 large German speaking universities (&apos;large&apos; &gt; 15,000 students). The probability for a university to get into the sample increased with the number of offered study courses. Secondly a random selection of 3 study courses for each of the 10 selected universities followed. Only these 10 institutions offer more than 10.250 study courses. This means that our validation is plausible but can not be called statistically representative (Yin, 2014, p. 40 ff. and 68). 
+## Data
+We present the data for two types of users:
+
+1. *Researchers* or developers who want to read all data of the study. They can download the whole sample (&apos;All Cases&apos;) except the textual sources. The data file uses 1.7 MB.
+2. Members of *universities of our sample*. They can select the data of single institutions containing the textual sources we used for our sample modelling. 
+
+The documents which can be downloaded contain 
+**(1)** an overview about two steps of the model&apos;s design (UML and relational view) and a summary table of our finding&apos;s frequencies of 20 theses about the model&apos;s structure. 
+**(2)** The complete download as described above.
+**(3)** The selected download of each of the 10 universities (as ZIP files). 
+
+These are:
+
+* [FH München](https://pub.uni-bielefeld.de/download/2698627/2698803)
+* [U Mainz](https://pub.uni-bielefeld.de/download/2698627/2698804)
+* [U Frankfurt/M](https://pub.uni-bielefeld.de/download/2698627/2698805)
+* [U Hannover](https://pub.uni-bielefeld.de/download/2698627/2698806)
+* [TU Darmstadt](https://pub.uni-bielefeld.de/download/2698627/2698807)
+* [TU Dortmund](https://pub.uni-bielefeld.de/download/2698627/2698808)
+* [TU München](https://pub.uni-bielefeld.de/download/2698627/2698809)
+* [U Bern](https://pub.uni-bielefeld.de/download/2698627/2698810)
+* [U Innsbruck](https://pub.uni-bielefeld.de/download/2698627/2698811)
+* [U Regensburg](https://pub.uni-bielefeld.de/download/2698627/2698812)
+
+Zip files were produced on a Windows 7 file system. 
+File types contained are pdf, txt, odt &amp; ods (OpenOffice).
+
+The order of the universities investigated follows the sequence of our sampling in the PhD thesis, in which the reader can see a transcript of each case. This is not part of the data collection. Because modelling always includes design decisions, the transcripts make these decisions explicit. 
+For further questions contact &lt;A HREF=&quot;mailto:%74%68%53%70%69%74%74%61%40%77%69%77%69%2E%75%6E%69%2D%62%69%65%6C%65%66%65%6C%64%2E%64%65&quot;&gt;Thorsten Spitta&lt;/A&gt;.
+
+Yin, Robert K. (2014). Case Study Research: Design and Methods. 5.ed. Thousand Oaks /California et.al.: Sage.</abstract>
+                    <subject>
+                        <topic>Top Level Ontology</topic>
+                        <topic>Relational Data Base Schema</topic>
+                        <topic>Campus-Management</topic>
+                        <topic>Empirical Validation</topic>
+                        <topic>Reference Data Model</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="doi">10.4119/unibi/2698627</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/pddl/summary/index.html">PDDL</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2698627</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698802/2-All_Cases.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE1_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698811/3.9-U-Innsbruck.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE2_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698810/3.8-U-Bern.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE3_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698804/3.2-U_JohannesGutenberg-Mainz.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE4_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698803/3.1-HS_angew-Wissenschaften-Muenchen.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE5_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698806/3.4-U_GottfrWilhLeibniz-Hannover.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE6_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698805/3.3-U_JohannWolfgGoethe-Frankfurt-M.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/csv" ID="FILE7_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698818/1.2-Freqencies-of-Findings2.csv" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE8_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698812/3.10-U-Regensburg.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE9_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698815/1.1-Overview.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE10_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698817/1.2-Freqencies-of-Findings.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE11_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698809/3.7-TU-Muenchen.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE12_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698808/3.6-TU-Dortmund.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE13_bielefeld_pub_2698627">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2698627/2698807/3.5-TU-Darmstadt.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2698627" DMDID="DMD2698627">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2698627"/>
+            <mets:div TYPE="part" ID="PART1_2698627" LABEL="3.9-U-Innsbruck.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2698627" LABEL="3.8-U-Bern.zip">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2698627" LABEL="3.2-U_JohannesGutenberg-Mainz.zip">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2698627" LABEL="3.1-HS_angew-Wissenschaften-Muenchen.zip">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2698627" LABEL="3.4-U_GottfrWilhLeibniz-Hannover.zip">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2698627" LABEL="3.3-U_JohannWolfgGoethe-Frankfurt-M.zip">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2698627" LABEL="1.2-Freqencies-of-Findings2.csv">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2698627" LABEL="3.10-U-Regensburg.zip">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2698627" LABEL="1.1-Overview.pdf">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2698627" LABEL="1.2-Freqencies-of-Findings.pdf">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2698627" LABEL="3.7-TU-Muenchen.zip">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2698627" LABEL="3.6-TU-Dortmund.zip">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2698627"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART13_2698627" LABEL="3.5-TU-Darmstadt.zip">
+                <mets:fptr FILEID="FILE13_bielefeld_pub_2698627"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

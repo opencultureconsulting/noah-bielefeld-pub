@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1779390">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ziele und Grenzen von Persönlichkeitsfragebogen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alois</namePart>
+                        <namePart type="family">Angleitner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">W.</namePart>
+                        <namePart type="family">Tack</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1975</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Bericht über den 29. Kongress der Deutschen Gesellschaft für Psychologie</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>vol. 2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>31</start>
+                                <end>33</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-18626</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1779390</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1779390">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1779390/2312687/Angleitner_14.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1779390" DMDID="DMD1779390">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1779390"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

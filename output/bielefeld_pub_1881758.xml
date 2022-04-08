@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1881758">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Is There a Way Beyond Fundamentalism? Challenges for Faith Development and Religious Education</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heinz</namePart>
+                        <namePart type="family">Streib</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3633-4785</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leslie J.</namePart>
+                        <namePart type="family">Francis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jeff</namePart>
+                        <namePart type="family">Astley</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mandy</namePart>
+                        <namePart type="family">Robbins</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">220</classification>
+                    <identifier type="isbn">1-85390-507-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-12807</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1881758</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1881758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1881758/2315026/BeyondFundamentalism.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1881758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1881758/2231600/beyondFundamentalism" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1881758" DMDID="DMD1881758">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1881758"/>
+            <mets:div TYPE="part" ID="PART1_1881758" LABEL="beyondFundamentalism">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1881758"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

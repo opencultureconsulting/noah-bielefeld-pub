@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2288853">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Evaluation of the Scalable GigaNetIC Architecture for Access Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jörg-Christian</namePart>
+                        <namePart type="family">Niemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Sauer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present an architecture for network processing nodes
+based on a massively parallel processor structure. Due to its
+regularity, our architecture can be easily scaled to accommodate
+a range of packet processing applications with disparate
+performance and throughput requirements at high reliability.
+Furthermore, the composition from predefined building blocks
+guarantees fast design cycles and eases system verification. For
+particular resource efficiency in terms of power consumption,
+computational performance, and area requirements, specialized
+hardware accelerators can be embedded into the tailored processor
+cluster, which have been optimized for a particular target
+application. We demonstrate our approach using a real-world
+network access scenario that implements a full Internet protocol
+based digital subscriber line access multiplexer (IP-DSLAM) on
+our architecture. For this scenario, we achieve substantial increases
+of performance with only a slight area increase of less
+than 0.3 %. At the same time, the processors are strongly relieved
+and are thus available for the remaining tasks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22888531</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2288853</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2288853">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2288853/2407100/An_Evaluation_of_the_Scalable_GigaNetIC_Architecture_for_Access_Networks.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2288853" DMDID="DMD2288853">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2288853"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

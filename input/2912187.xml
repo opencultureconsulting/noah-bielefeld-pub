@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2912187</id><setSpec>working_paper</setSpec><setSpec>doc-type:workingPaper</setSpec><setSpec>ddc:330</setSpec><setSpec>working_paperFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>working Paper</genre>
+
+<titleInfo><title>An empirical validation protocol for large-scale agent-based models</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Sylvain</namePart>
+  <namePart type="family">Barde</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Sander</namePart>
+  <namePart type="family">van der Hoog</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15269682</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-2348-3194</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Innovation-fuelled, Sustainable, Inclusive Growth</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">Despite recent advances in bringing agent-based models (ABMs) to the data, the estimation or calibration of model parameters remains a challenge, especially when it comes to large-scale agent-based macroeconomic models. Most methods, such as the method of simulated moments (MSM), require in-the-loop simulation of new data, which may not be feasible for such computationally heavy simulation models.
+
+The purpose of this paper is to provide a proof-of-concept of a generic empirical validation methodology for such large-scale simulation models. We introduce an alternative `large-scale' empirical validation approach, and apply it to the Eurace@Unibi macroeconomic simulation model (\citealp{Dawid_2016}). This model was selected because it displays strong emergent behaviour and is able to generate a wide variety of nonlinear economic dynamics, including endogenous business- and financial cycles. In addition, it is a computationally heavy simulation model, so it fits our targeted use-case.
+
+The validation protocol consists of three stages. At the first stage we use Nearly-Orthogonal Latin Hypercube sampling (NOLH) in order to generate a set of 513 parameter combinations with good space-filling properties. At the second stage we use the recently developed Markov Information Criterion (MIC) to score the simulated data against empirical data. Finally, at the third stage we use stochastic kriging to construct a surrogate model of the MIC response surface, resulting in an interpolation of the response surface as a function of the parameters. The parameter combinations providing the best fit to the data are then identified as the local minima of the interpolated MIC response surface.
+
+The Model Confidence Set (MCS) procedure of \citet{Hansen_et_al_2011} is used to restrict the set of model calibrations to those models that cannot be rejected to have equal predictive ability, at a given confidence level. Validation of the surrogate model is carried out by re-running the second stage of the analysis on the so identified optima and cross-checking that the realised MIC scores equal the MIC scores predicted by the surrogate model.
+
+The results we obtain so far look promising as a first proof-of-concept for the empirical validation methodology since we are able to validate the model using empirical data series for 30 OECD countries and the euro rea. The internal validation procedure of the surrogate model also suggests that the combination of NOLH sampling, MIC measurement and stochastic kriging yields reliable predictions of the MIC scores for samples not included in the original NOLH sample set. In our opinion, this is a strong indication that the method we propose could provide a viable statistical machine learning technique for the empirical validation of (large-scale) ABMs.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Empirical validation protocol (WP Unibi SSRN).pdf">https://pub.uni-bielefeld.de/download/2912187/2912206/Empirical validation protocol (WP Unibi SSRN).pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://creativecommons.org/licenses/by-sa/3.0/</accessCondition>
+<originInfo><publisher>Bielefeld University, Department of Business Administration and Economics</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Statistical machine learning</topic><topic>surrogate modelling</topic><topic>empirical validation</topic><topic>etace_WP</topic>
+</subject>
+
+
+<relatedItem type="host">
+  <identifier type="issn">2196-2723</identifier><identifier type="urn">urn:nbn:de:0070-pub-29121875</identifier><identifier type="doi">10.4119/unibi/2912187</identifier>
+<part><detail type="volume"><number>04-2017</number></detail><extent unit="pages">42</extent>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2674041</url>     <url>https://pub.uni-bielefeld.de/record/2908396</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Barde, Sylvain, and van der Hoog, Sander. 2017. &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;. Vol. 04-2017. Working Papers in Economics and Management. Bielefeld: Bielefeld University, Department of Business Administration and Economics.&lt;/div&gt;</chicago>
+<lncs> Barde, S., van der Hoog, S.: An empirical validation protocol for large-scale agent-based models. Working Papers in Economics and Management, 04-2017. Bielefeld University, Department of Business Administration and Economics, Bielefeld (2017).</lncs>
+<default>Barde S, van der Hoog S (2017)  Working Papers in Economics and Management; 04-2017.&lt;br /&gt;Bielefeld: Bielefeld University, Department of Business Administration and Economics.</default>
+<mla>Barde, Sylvain, and van der Hoog, Sander. &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;. Bielefeld: Bielefeld University, Department of Business Administration and Economics, 2017. Working Papers in Economics and Management. 04-2017.</mla>
+<wels>Barde, S.; van der Hoog, S. (2017): An empirical validation protocol for large-scale agent-based models. Bielefeld: Bielefeld University, Department of Business Administration and Economics.</wels>
+<angewandte-chemie>S.  Barde, and S.  van der Hoog, &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;, Bielefeld University, Department Of Business Administration And Economics, Bielefeld, &lt;strong&gt;2017&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Barde, S., &amp;amp; van der Hoog, S. (2017).  &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt; (Working Papers in Economics and Management, 04-2017). Bielefeld: Bielefeld University, Department of Business Administration and Economics. doi:10.4119/unibi/2912187&lt;/div&gt;</apa_indent>
+<harvard1>Barde, S., &amp;amp; van der Hoog, S., 2017. &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;, Working Papers in Economics and Management, no.04-2017, Bielefeld: Bielefeld University, Department of Business Administration and Economics.</harvard1>
+<bio1>Barde S, van der Hoog S (2017) &lt;br /&gt;&lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;. Working Papers in Economics and Management; 04-2017.&lt;br /&gt;Bielefeld: Bielefeld University, Department of Business Administration and Economics.</bio1>
+<frontiers>Barde, S., and van der Hoog, S. (2017). An empirical validation protocol for large-scale agent-based models. &lt;em&gt;Working Papers in Economics and Management&lt;/em&gt;, 04-2017, Bielefeld: Bielefeld University, Department of Business Administration and Economics.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Barde, S. &amp;amp; van der Hoog, S. (2017). &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt; (Working Papers in Economics and Management). Bielefeld: Bielefeld University, Department of Business Administration and Economics. doi:10.4119/unibi/2912187.&lt;/div&gt;</dgps>
+<ama>Barde S, van der Hoog S. &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;. Working Papers in Economics and Management. Vol 04-2017. Bielefeld: Bielefeld University, Department of Business Administration and Economics; 2017.</ama>
+<ieee> S. Barde and S. van der Hoog, &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt;, Working Papers in Economics and Management, vol. 04-2017,  Bielefeld: Bielefeld University, Department of Business Administration and Economics, 2017.</ieee>
+<apa>Barde, S., &amp;amp; van der Hoog, S. (2017).  &lt;em&gt;An empirical validation protocol for large-scale agent-based models&lt;/em&gt; (Working Papers in Economics and Management, 04-2017). Bielefeld: Bielefeld University, Department of Business Administration and Economics. doi:10.4119/unibi/2912187</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2912187</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-06-20T08:16:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T12:56:54Z</recordChangeDate>
+</recordInfo>
+</mods>

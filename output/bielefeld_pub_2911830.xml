@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2911830">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ViCAR: An Adaptive and Landmark-Free Registration of Time Lapse Image Data from Microfluidics Experiments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Georges</namePart>
+                        <namePart type="family">Hattab</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4168-8254</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan-Philip</namePart>
+                        <namePart type="family">Schlüter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anke</namePart>
+                        <namePart type="family">Becker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In order to understand gene function in bacterial life cycles, time lapse bioimaging is applied in combination with different marker protocols in so called microfluidics chambers (i.e., a multi-well plate). In one experiment, a series of T images is recorded for one visual field, with a pixel resolution of 60 nm/px. Any (semi-)automatic analysis of the data is hampered by a strong image noise, low contrast and, last but not least, considerable irregular shifts during the acquisition. Image registration corrects such shifts enabling next steps of the analysis (e.g., feature extraction or tracking). Image alignment faces two obstacles in this microscopic context: (a) highly dynamic structural changes in the sample (i.e., colony growth) and (b) an individual data set-specific sample environment which makes the application of landmarks-based alignments almost impossible. We present a computational image registration solution, we refer to as ViCAR: (Vi)sual (C)ues based (A)daptive (R)egistration, for such microfluidics experiments, consisting of (1) the detection of particular polygons (outlined and segmented ones, referred to as visual cues), (2) the adaptive retrieval of three coordinates throughout different sets of frames, and finally (3) an image registration based on the relation of these points correcting both rotation and translation. We tested ViCAR with different data sets and have found that it provides an effective spatial alignment thereby paving the way to extract temporal features pertinent to each resulting bacterial colony. By using ViCAR, we achieved an image registration with 99.9% of image closeness, based on the average rmsd of 4.10−2 pixels, and superior results compared to a state of the art algorithm.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Genetics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1664-8021</identifier>
+                    <identifier type="MEDLINE">28620411</identifier>
+                    <identifier type="ISI">000402738200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29118304</identifier>
+                    <identifier type="doi">10.3389/fgene.2017.00069</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2911830</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2911830">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2911830/2912118/fgene-08-00069.hattab.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2911830" DMDID="DMD2911830">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2911830"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

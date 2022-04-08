@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1783280">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An incremental approach to automated protein localisation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marko</namePart>
+                        <namePart type="family">Tscherepanow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nickels</namePart>
+                        <namePart type="family">Jensen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background:
+
+The subcellular localisation of proteins in intact living cells is an important means for gaining information about protein functions. Even dynamic processes can be captured, which can barely be predicted based on amino acid sequences. Besides increasing our knowledge about intracellular processes, this information facilitates the development of innovative therapies and new diagnostic methods. In order to perform such a localisation, the proteins under analysis are usually fused with a fluorescent protein. So, they can be observed by means of a fluorescence microscope and analysed. In recent years, several automated methods have been proposed for performing such analyses. Here, two different types of approaches can be distinguished: techniques which enable the recognition of a fixed set of protein locations and methods that identify new ones. To our knowledge, a combination of both approaches – i.e. a technique, which enables supervised learning using a known set of protein locations and is able to identify and incorporate new protein locations afterwards – has not been presented yet. Furthermore, associated problems, e.g. the recognition of cells to be analysed, have usually been neglected.
+Results:
+
+We introduce a novel approach to automated protein localisation in living cells. In contrast to well-known techniques, the protein localisation technique presented in this article aims at combining the two types of approaches described above: After an automatic identification of unknown protein locations, a potential user is enabled to incorporate them into the pre-trained system. An incremental neural network allows the classification of a fixed set of protein location as well as the detection, clustering and incorporation of additional patterns that occur during an experiment. Here, the proposed technique achieves promising results with respect to both tasks. In addition, the protein localisation procedure has been adapted to an existing cell recognition approach. Therefore, it is especially well-suited for high-throughput investigations where user interactions have to be avoided.
+Conclusion:
+
+We have shown that several aspects required for developing an automatic protein localisation technique – namely the recognition of cells, the classification of protein distribution patterns into a set of learnt protein locations, and the detection and learning of new locations – can be combined successfully. So, the proposed method constitutes a crucial step to render image-based protein localisation techniques amenable to large-scale experiments.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18937856</identifier>
+                    <identifier type="ISI">000261534000002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17832809</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-445</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1783280</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1783280">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1783280/2314146/BMC_36.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1783280" DMDID="DMD1783280">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1783280"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

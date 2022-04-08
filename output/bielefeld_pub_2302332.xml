@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Architektur eines multimodalen Forschungssystems zur iterativen inhaltsbasierten Bildsuche</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-09-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Durch den Einzug digitaler Kameras in die privaten Haushalte ist auch hier ein enormer Zuwachs der digitalen Bilddatenbestände zu verzeichnen. Diese Entwicklung wurde im kommerziellen Bereich bereits länger beobachtet und führte zu dem Bestreben, entsprechende Techniken für eine einfache Verwaltung der Bilddatenbestände zu entwickeln.
+Subjektivität und der enorme manuelle Arbeitsaufwand, der bei den zunächst eingesetzten textbasierten Bildsuchsystemen zu verzeichnen war, führten zu der Forderung, die formale Repräsentation der Bilder ausschließlich aus dem visuellen Bildinhalt zu extrahieren. Diese so genannten inhaltsbasierten Bilddatenbanksysteme sind in der Lage, die Extraktion der für die Suche notwendigen Daten automatisch durchzuführen.
+Einen Schritt in die Richtung der Entwicklung von Endanwendungen, die den Anforderungen eines gemeinen Anwenders gerecht werden, geht das in dieser Arbeit vorgestellte System INDI. Dieses System verbindet intelligente Techniken der inhaltsbasierten Bildsuche mit natürlicher Interaktion in Form von Sprachäußerungen und Touchscreen-Gesten. Es setzt damit kein Vorwissen in den Bereichen der Bildverarbeitung und Bildsuche, aber auch in der allgemeinen Bedienung von Rechensystemen voraus und öffnet sich damit einer entsprechend großen Menge von Anwendern.
+Auf Basis der besonderen Anforderungen, die die natürliche Interaktion mittels Sprache und Gestik im Bezug zur iterativen inhaltsbasierten Bildsuche stellt, wird in dieser Arbeit zunächst das Systemkonzept der INDI-Applikation erarbeitet. Darauf aufbauend wird die Umsetzung dieses Konzepts vorgestellt. Hier wird auf Besonderheiten des entstandenen Client/Server-Systems, wie beispielsweise die Ein- und Anbindung der Sprach- und Touch-Gestenerkennung, eingegangen. Abschließend werden die Ergebnisse einer System-Evaluierung vorgestellt, die Aufschluss darüber geben, inwieweit der Einsatz der natürlichen Interaktion Einfluss auf die Bedienbarkeit des Bildsuchsystems ausübt.</abstract>
+                    <subject>
+                        <topic>Multimodal system</topic>
+                        <topic>Relevance feedback</topic>
+                        <topic>Ähnlichkeitssuche</topic>
+                        <topic>INDI-System</topic>
+                        <topic>Bedienbarkeitsanalyse</topic>
+                        <topic>Human-computer interaction</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Bilddatenbank</topic>
+                        <topic>Relevanz-Feedback</topic>
+                        <topic>Multimodales System</topic>
+                        <topic>Client-Server-Konzept</topic>
+                        <topic>Usability test</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9848</identifier>
+                    <identifier type="sys">HT014939946</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302332">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302332/2302335/Pfeiffer2006.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302332" DMDID="DMD2302332">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302332"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

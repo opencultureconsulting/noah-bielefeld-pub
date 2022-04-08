@@ -1,0 +1,110 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2547517</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Marco</namePart>
+  <namePart type="family">Kortkamp</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">177109</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Sven</namePart>
+  
+  
+  <namePart type="family">Wachsmuth</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">23136503</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis develops a system, based on Web images, for the detection of domestic objects in images of indoor home environments. Images from ten different domestic object categories (apple, bottle, bowl, cup, handbag, laptop, light switch, potted plant, shoe and toaster) are downloaded and annotated from the Web. This results in complex training sets for each category, which are divided unsupervised into sub-sets according to the extracted principal views. The principal views are also employed to learn class- and view-specific, data-tuned hierarchical tessellations of the 2D image plane. The 2D tessellations are used along with a class-independent data-tuned hierarchical tessellation of a high-dimensional descriptor space to realize a view-tuned approximate partial matching kernel. A view-tuned kernel implements a fine-to-coarse matching of Bag of Words-based object parts, while paying attention to the structure of the object and the relative positions of its parts. Both the tessellation of the image plane and the high-dimensional descriptor space are learned with a hierarchical Growing Neural Gas, the lbTreeGNG. View-tuned kernels are  used efficiently with Support Vector Machines in a sliding window approach to train view-tuned experts for the different sub-sets. Finally, the outputs of various experts are fused to determine a final detection result. The proposed system shows a state-of-the-art recognition performance on the image database created, and is able to detect unseen object instances in unknown environments.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mk_thesis.pdf">https://pub.uni-bielefeld.de/download/2547517/2547518/mk_thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>domestic objects</topic><topic>computer vision</topic><topic>object detection</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-25475179</identifier>
+<part><extent unit="pages">186</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2012-11-12</dateOther>
+<extension>
+<bibliographicCitation>
+<bio1>Kortkamp M (2011) &lt;br /&gt;&lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kortkamp, M. (2011).  &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<harvard1>Kortkamp, M., 2011. &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>M.  Kortkamp, &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2011&lt;/strong&gt;.</angewandte-chemie>
+<wels>Kortkamp, M. (2011): Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images. Bielefeld: Universität Bielefeld.</wels>
+<apa>Kortkamp, M. (2011).  &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> M. Kortkamp, &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2011.</ieee>
+<ama>Kortkamp M. &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2011.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kortkamp, M. (2011). &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Kortkamp, M. (2011). Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images. Bielefeld: Universität Bielefeld.</frontiers>
+<mla>Kortkamp, Marco. &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2011.</mla>
+<default>Kortkamp M (2011) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<lncs> Kortkamp, M.: Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images. Universität Bielefeld, Bielefeld (2011).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kortkamp, Marco. 2011. &lt;em&gt;Detecting domestic objects with ensembles of view-tuned support vector machine cascades trained on Web images&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2547517</recordIdentifier><recordCreationDate encoding="w3cdtf">2012-12-17T22:47:32Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:25Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2315089">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Strategien und Umsetzungskonzepte zur Neuausrichtung des wissenschaftlichen Publizierens an der Universität Bielefeld. Vortrag gehalten beim 94. Deutschen Bibliothekartag in Düsseldorf, 18.03.2005</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Norbert</namePart>
+                        <namePart type="family">Lossau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">preprint</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>Universität Bielefeld</topic>
+                        <topic>Wissenschaftliche Veröffentlichung</topic>
+                        <topic>Elektronisches Publizieren</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-6589</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2315089</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaPreprint</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2315089">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2315089/2315333/Lossau_Neuausrichtung_wiss_Pub.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2315089" DMDID="DMD2315089">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2315089"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

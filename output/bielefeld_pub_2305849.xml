@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305849">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Development of a planning system for the WalkNet</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Entwicklung eines Planungssystems für das WalkNet</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Roggendorf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-06-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Menschen sind offenbar in der Lage, ihre Bewegungen mental durchzuspielen, ohne sie auszuführen. Dieses Phänomen wird allgemein als &quot;Probehandeln&quot; bezeichnet und als kognitive Fähigkeit aufgefasst [McFarland und Boesser, 1993]. Probehandeln kann bei der Bewältigung schwieriger motorischer Aufgaben helfen.
+Man stelle sich z.B. einen Menschen vor, der einen Baum erklettert. Der Kletterer wird immer wieder in Situationen kommen, in denen er aus seiner momentanen Haltung den nächsten Ast nicht erreichen kann. Oft wird es aber möglich sein, den Ast zu erreichen, wenn der Kletterer seinen Körper in die entsprechende Richtung verlagert. Ob eine solche Verlagerung ausreicht, ist jedoch nicht immer offensichtlich. Hinzu kommt die Frage, in welcher Reihenfolge die Hände und Füße am besten auf neue Äste gesetzt werden, ohne dabei das Gleichgewicht zu verlieren.
+Um solche Probleme mental durchzuspielen, benötigt der Kletterer eine mentale Repräsentation seines Körpers und der fraglichen Äste. Jedoch steht eine solche Repräsentation vermutlich nicht allein, sondern ist vielmehr mit zahlreichen reaktiven Systemen zur Bewegungssteuerung verknüpft [Ito, 1993; Fuster, 1995; Jeannerod, 1999]. Möglicherweise ist das Planungssystem selbst ein Teil der motorischen Steuerung. Das hieße, &quot;Denken&quot; ist neuronal identisch mit Handeln -- lediglich die Muskeln sind während des Denkens &quot;abgeschaltet&quot; [Rizzolatti und Arbib, 1998; Jeannerod, 1999].
+Die vorliegende Simulationsstudie stellt die Entwicklung eines derartigen Planungssystems dar. Da für die Simulation reaktiver Steuerungssysteme für Stabheuschrecken deutlich mehr Vorarbeiten existieren als für Menschen, werden Bewegungen dieser Insekten simuliert und kontrolliert. Zur Entwicklung des Planungssystems war es zunächst notwendig, eine einfache und zuverlässige reaktive Steuerung zu entwickeln. Als Basis dafür diente das WalkNet [Cruse et al., 1998] (siehe Kapitel 2 und teilweise Kapitel 4). Kapitel 3 stellt ein System zur Planung und Evaluation von Bewegungen vor. Das oben angesprochene Problem, zu bestimmen, in welcher Reihenfolge die Gliedmaßen am besten repositioniert werden, wird in Kapitel 4 behandelt. Hier wird ein Planungssystem vorgestellt, das implizit vorausplant und mit reaktiven Systemen zur Bewältigung anderer Aufgaben verknüpft ist.</abstract>
+                    <abstract lang="eng">Humans are obviously capable of mentally testing actions before executing them. This phenomenon is known as &quot;Probehandeln&quot;. This is a simulation study that introduces such a planning system that is build on top of an elaborate reactive controller.</abstract>
+                    <subject>
+                        <topic>Kognition</topic>
+                        <topic>Hexapode (Robotik)</topic>
+                        <topic>Motorik</topic>
+                        <topic>Kognitives Schema</topic>
+                        <topic>Adaptive Steuerung</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9109</identifier>
+                    <identifier type="sys">HT014856123</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305849</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305849">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305849/2305852/phD_withFonts.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305849" DMDID="DMD2305849">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305849"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

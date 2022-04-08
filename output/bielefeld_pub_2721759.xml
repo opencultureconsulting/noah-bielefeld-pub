@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2721759">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Discriminative Model for Perceptually-Grounded Incremental Reference Resolution</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Casey</namePart>
+                        <namePart type="family">Kennington</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Livia</namePart>
+                        <namePart type="family">Dia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Schlangen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2686-6887</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A large part of human communication involves referring to entities in the world, and often these entities are objects that are visually present for the interlocutors. A computer system that aims to resolve such references needs to tackle a complex task: objects and their visual features must be determined, the referring expressions must be recognised, extra-linguistic information such as eye gaze or pointing gestures must be incorporated --- and the intended connection between words and world must be reconstructed. In this paper, we introduce a discriminative model of reference resolution that processes incrementally (i.e., word for word), is perceptually-grounded, and improves when interpolated with information from gaze and pointing gestures. We evaluated our model and found that it performed robustly in a realistic reference resolution task, when compared to a generative model.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27217594</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2721759</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2721759">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2721759/2735293/W15-0124.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2721759" DMDID="DMD2721759">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2721759"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

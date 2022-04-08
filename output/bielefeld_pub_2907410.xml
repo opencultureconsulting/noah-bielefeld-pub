@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2907410">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Heart Alert: ECG Sonification for supporting the detection and diagnosis of ST segment deviations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andrea Lorena</namePart>
+                        <namePart type="family">Aldana Blanco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Steffen</namePart>
+                        <namePart type="family">Grautoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents two novel sonification designs for Electrocardiography (ECG) data: (a) Water Ambience soundscapes aim at turning heart activity into an ambience which exhibits salient patterns as specific ECG properties deviate from a normal heartbeat, (b) Timbre Morphing sonification aims at supporting analysts to quickly assess if an abnormality in terms of the frequency, rhythm or amplitude in the signal occurs. Both methods are embedded into an interactive setting where the users can upload a dataset and interactively adjust sonification parameters, for instance in search of settings that optimize the contrast between a baseline (regular) and abnormal (ST deviated) case, based on pre-recorded real ECG data sets. In result, we qualitatively analyze how a small group of users interacts with the system and what their overview regarding the proposed methods is. Also, we conduct a study with eight participants in which they are asked to classify a set of sonifications according to two categories; healthy or unhealthy. The study results suggest that the proposed sonification designs allow users to correctly classify the datasets without having prior knowledge about ECG signals.</abstract>
+                    <subject>
+                        <topic>Sonification</topic>
+                        <topic>Electrocardiogram</topic>
+                        <topic>ECG</topic>
+                        <topic>ST elevation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29074106</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2907410</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2907410">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2907410/2909454/AldanaGH-HeartAlert-ISon2016.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2907410" DMDID="DMD2907410">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2907410"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2518927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Charakterisierung und Validierung der 13C-Stoffflussanalyse im Parallelansatz</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stephan</namePart>
+                        <namePart type="family">Miebach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Noll</namePart>
+                        <namePart type="family">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-05-31</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Metabolic fluxes (i.e. in vivo reaction rates) represent the properties of cellular regulation and are
+most suitable for characterizing specific phenotypes of microorganisms. As intracellular fluxes are
+not directly measurable they have to be estimated from measured quantities through model-based
+evaluation with the aid of computational routines based on13C labeling experiments (13C-MFA).
+However, the question might be raised about the biological significance and statistical reliability of
+those flux estimations based on single experiments. In addition the medium throughput approach
+of13C-MFA leads to a multiplied amount of data, so the used algorithms for data pre-processing
+and evaluation of results has to be optimized to increase the efficiency.
+Seeking to answer the question and to adopt the challenge of medium throughput13C-MFA a se-
+ries of standardized13C-labeling experiments with the model organism Corynebacterium glutami-
+cum wildtype (WT) and a lysine producer (LP) was carried out under well-controlled conditions:
+continuous cultivation mode with dilution rates of 0.20h−1, 0.15h−1, 0.10h−1and 0.05h−1was
+chosen to ensure metabolic and isotopic stationarity. For increasing throughput and minimizing
+13C labeling costs a parallel bioreactor setup at small scale (300mL working volume) was uti-
+lized. Hence, all experiments were performed in fourfold biological replicates for calculation of
+extracellular rates, i.e. substrate uptake and (by-) product formation, including corresponding stan-
+dard error. By online FT-IR spectrometry discrimination between13C and12C carbon dioxide was
+realized. From each single experiment six technical samples were taken and labeling patterns of
+intracellular metabolites were analyzed by LC-MS/MS technology.
+To realise data evaluation, processing and storage of such experiments an application-oriented
+software package 13CFLUX2-Essentials was developed. The package offers an environment
+to handle the huge amount of data, e.g. the graphically aided adjustment and management of
+analytical raw data or different functions for comparing results. Calculation of extracellular rates
+as well as carbon balances, network modeling, parallel multi-start simulations, evaluation and
+visualization of results is automatically performed. Thus,13C-MFA in a medium throughput is
+possible now and was developed and used in this work.
+From the 20 datasets intracellular fluxes were estimated using the 13CFLUX2 software package.
+Comprehensive statistical analysis of error propagation was performed to investigate the influence
+of analytical and experimental errors on the determinacy of all fluxes. Label measurements of
+intracellular metabolites showed different reproducibility between technical and biological repli-
+cations. Carbon balances were closed between 73–102% with an average about 86%. Beside the
+extracellulare rates ~66 labeling fragments were included for parameter fitting. 5–7 metabolites
+were rejected due to analytical errors. With each dataset 10000 single fittings were performed in
+an multi start optimization (MSO). Differences between biological replicas were caused by va-
+riations in the fractional labeling of intermediates. 12 out of 20 datasets showed unique global
+optimal solutions in the MSO results.
+The studies in a small-scale system discover bottle necks and points for improvement for further
+investigations. It is demonstrated that multiple experimental runs distinctively increases reliability
+and, in turn, the potential to generate meaningful fluxome data. Hence, these results strengthen the
+position of metabolic flux analysis to be an effective diagnostic tool for metabolic engineering.</abstract>
+                    <subject>
+                        <topic>biotechnology</topic>
+                        <topic>modeling</topic>
+                        <topic>corynebacterium glutamicum</topic>
+                        <topic>metabolic flux analysis</topic>
+                        <topic>software development</topic>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25189271</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2518927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2518927">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2518927/2518928/Dissertation_Miebach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2518927" DMDID="DMD2518927">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2518927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

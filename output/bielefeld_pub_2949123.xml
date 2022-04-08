@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2949123">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Scaffolding for learning from reinforcement: Improving interaction learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sascha</namePart>
+                        <namePart type="family">Fleer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1606-2436</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-11-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis analyses the psychological concept of “scaffolding” as a candidate for being able to facilitate the learning process not only of human learners but also of artificial agents. The original concept employs a range of techniques to improve the learning process of novices by analysing their current skill level, adjusts the task’s complexity, directs their attention and provides temporary support. By transferring these methods to the field of machine learning and proposing scaffolding as a general principle for guiding the learning process of an artificial agent, this work demonstrates that the learning performance can be improved significantly and even enables the learning of new skills that would otherwise be impossible.
+&lt;br /&gt;&lt;br /&gt;
+First, the relations of the individual key aspects of this psychological theory to historical and recent findings in the field of machine learning are discussed. Second, a suitable refined definition of “scaffolding for machine learning” is put forward by positioning scaffolding as a special form of meta-learning that is inspired by psychology. As a result, four different scaffolds for reinforcement learning agents are designed for supporting different parts of the learning process by facilitating efficient acting, perception or pre-learning of sub-skills. In the final analysis, their positive impact is demonstrated by testing these supportive approaches on selected interaction problems.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29491235</identifier>
+                    <identifier type="doi">10.4119/unibi/2949123</identifier>
+                    <identifier type="sys">HT020861458</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2949123</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2949123">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2949123/2949624/Dissertation_Fleer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE1_bielefeld_pub_2949123">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2949123/2949625/Supplementary+Material_Fleer.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2949123" DMDID="DMD2949123">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2949123"/>
+            <mets:div TYPE="part" ID="PART1_2949123" LABEL="Supplementary Material_Fleer.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2949123"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902194">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Incrementally resolving references in order to identify visually present objects in a situated dialogue setting</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Casey</namePart>
+                        <namePart type="family">Kennington</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Schlangen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-03-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The primary concern of this thesis is to model the resolution of spoken referring expressions
+made in order to identify objects; in particular, everyday objects that can be perceived visually
+and distinctly from other objects. The practical goal of such a model is for it to be implemented
+as a component for use in a live, interactive, autonomous spoken dialogue system. The requirement of interaction imposes an added complication; one that has been ignored in previous
+models and approaches to automatic reference resolution: the model must attempt to resolve
+the reference incrementally as it unfolds–not wait until the end of the referring expression to
+begin the resolution process.
+Beyond components in dialogue systems, reference has been a major player in the philosophy of meaning for longer than a century. For example, Gottlob Frege (1892) has distinguished
+between Sinn (sense) and Bedeutung (reference), discussed how they are related and how they
+relate to the meaning of words and expressions. It has furthermore been argued (e.g., Dahlgren
+(1976)) that reference to entities in the actual world is not just a fundamental notion of semantic theory, but the fundamental notion; for an individual acquiring a language, understanding
+the meaning of many words and concepts is done via the task of reference, beginning in early
+childhood. In this thesis, we pursue an account of word meaning that is based on perception of
+objects; for example, the meaning of the word red is based on visual features that are selected
+as distinguishing red objects from non-red ones.
+This thesis proposes two statistical models of incremental reference resolution. Given ex-
+amples of referring expressions and visual aspects of the objects to which those expressions
+referred, both model components learn a functional mapping between the words of the refer-
+ring expressions and the visual aspects. A generative model, the simple incremental update
+model, presented in Chapter 5, uses a mediating variable to learn the mapping, whereas a dis-
+criminative model, the words-as-classifiers model, presented in Chapter 6, learns the mapping
+directly and improves over the generative model. Both models have been evaluated in various
+reference resolution tasks to objects in virtual scenes as well as real, tangible objects. This
+thesis shows that both models work robustly and are able to resolve referring expressions made
+in reference to visually present objects despite realistic, noisy conditions of speech and object
+recognition. A theoretical and practical comparison is also provided.
+Special emphasis is given to the discriminative model in this thesis because of its simplicity
+and ability to represent word meanings. It is in the learning and application of this model that
+gives credence to the above claim that reference is the fundamental notion for semantic theory
+and that meanings of (visual) words is done through experiencing referring expressions made
+to objects that are visually perceivable.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29021947</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902194</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902194">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902194/2902660/CaseyKennington-ReferenceToVisualObjects.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902194" DMDID="DMD2902194">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902194"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303292">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Repräsentation und Generalisierung von diskreten Ereignisabläufen in Abhängigkeit von Multisensormustern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Yorck Oliver von</namePart>
+                        <namePart type="family">Collani</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alois</namePart>
+                        <namePart type="family">Knoll</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-12-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Montage ist ein schwieriger Prozess, aber auch eines der wichtigsten Gebiete der Robotik. Das Problem der Montage besteht im Design eines rechner-gesteuerten Robotersystems, welches in der Lage ist, ein Objekt aus seinen Einzelteilen zusammenzusetzen.
+Es wird ein Montagesystem und ein auf diesem System aufbauendes Lernverfahren vorgestellt, welches zum interaktiven Lernen von Montagesequenzen dient. Ein Instrukteur beschreibt mit Hilfe sprachlicher Äußerungen und Gesten den Montagevorgang, der vom Montagesystem online durchgeführt wird. Dieses System soll nach einer abgeschlossenen Montage nicht nur in der Lage sein, diese exakt, sondern sie auch in leicht abgewandelter Form zu wiederholen. 
+Es wird eine Methode zur Repräsentation und Wiederholung von Montagesequenzen vorgestellt, und darüber hinaus der Aspekt der Generalisierung von Montagevorgängen berücksichtigt. Insbesondere wird Wert auf die Einbeziehung interaktiver Aspekte (Mensch-Maschine-Kommunikation) und realer Montagevorgänge gelegt, was die Verarbeitung von realen Sensordaten unterschiedlicher Art zur Folge hat. Ein weiterer zentraler Punkt ist die Parametrisierung gelernter Handlungen, um die Durchführung von modifizierten Anweisungen zu realisieren. 
+Folgende Probleme werden thematisiert:
+-- Implementation einer Kontrollarchitektur für Montagevorgänge, ohne sich generell auf das Lernverfahren als einzigen Anwendungsfall festzulegen;
+-- Einbeziehung eines realen Robotersystems mit seinen vielfältigen Unsicherheiten;
+-- Berücksichtigung realer hochdimensionaler und verrauschter Sensordaten;
+-- Verarbeitung von Sensormustern unbekannter Struktur;
+-- Realisierung eines Verfahrens zur Akquirierung und Generalisierung von Montagewissen mittels Lernen.</abstract>
+                    <subject>
+                        <topic>Montageroboter , Montageablauf , Modul (Software) , Multisensor , Diskretes Ereignissystem , Mustererkennung , Robotik , Lernen , Montage , Sensordatenfusion ,</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1657</identifier>
+                    <identifier type="sys">HT014238646</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303292</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2303292">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303292/2303298/diss.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2303292">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303292/2303297/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE2_bielefeld_pub_2303292">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303292/2303296/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2303292">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303292/2303295/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303292" DMDID="DMD2303292">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303292"/>
+            <mets:div TYPE="part" ID="PART1_2303292" LABEL="diss.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2303292"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2303292" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2303292"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2303292" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2303292"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

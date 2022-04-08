@@ -1,0 +1,478 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2921050</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this paper we present an approach using incrementally constructed neural gas networks to 'grow' an intuitive interface for interactive exploratory sonification of high-dimensional data. The sonifications portray information about the intrinsic data dimensionality and its variation within the data space. The interface follows the paradigm of model-based sonification and consists of a graph of nodes that can be acoustically ý with simple mouse actions. The sound generation process is defined in terms of the node parameters and the graph topology, following a physically motivated model of energy flow through the graph structure. The resulting sonification model is tied to the given data set by constructing both graph topology and node parameters by an adaptive, fully data-driven learning process, using a growing neural gas network. We report several examples of applying this method to static data sets and point out a generalization to the task of process analysis 
+
+#### Sound Examples: GNGS -- Probing Gaussian Distributions
+
+&lt;center&gt;&lt;img src="https://pub.uni-bielefeld.de/download/2921050/2921069"
+width="300" style="float:right;" &gt;&lt;/center&gt;
+
+The sonifications are currently computed offline: after a click in a scatterplot of the data the nearest neuron of the GNG is searched and the graph is excited at this location. Since energy propagates along topological connections between the GNG graph, the sound is completely determined from a connected subgraph, e.g. a cluster. The sonifications last about 2 secs, and are presented to the listener as soon as they are computed. Since this interrupts the exploratory flow only slightly, the user is appearing an (discrete) interactive mode of exploration.
+
+
+Sonifications for probing in the clusters of intrinsic dimension d:
+
+* d = 1 : [Example_1a](https://pub.uni-bielefeld.de/download/2921050/2921070) (mp3, 16k) [Example_1b](https://pub.uni-bielefeld.de/download/2921050/2921071) (mp3, 16k)
+* d = 2 : [Example_2a](https://pub.uni-bielefeld.de/download/2921050/2921072) (mp3, 16k) [Example_2b](https://pub.uni-bielefeld.de/download/2921050/2921073) (mp3, 16k)
+* d = 3 : [Example_3a](https://pub.uni-bielefeld.de/download/2921050/2921074) (mp3, 16k) [Example_3b](https://pub.uni-bielefeld.de/download/2921050/2921075) (mp3, 16k)
+* d = 4 : [Example_4a](https://pub.uni-bielefeld.de/download/2921050/2921076) (mp3, 16k) [Example_4b](https://pub.uni-bielefeld.de/download/2921050/2921077) (mp3, 16k)
+* d = 5 : [Example_5a](https://pub.uni-bielefeld.de/download/2921050/2921078) (mp3, 16k) [Example_5b](https://pub.uni-bielefeld.de/download/2921050/2921079) (mp3, 16k)
+* d = 6 : [Example_6a](https://pub.uni-bielefeld.de/download/2921050/2921080) (mp3, 16k) [Example_6b](https://pub.uni-bielefeld.de/download/2921050/2921081) (mp3, 16k)
+* d = 7 : [Example_7a](https://pub.uni-bielefeld.de/download/2921050/2921082) (mp3, 16k) [Example_7b](https://pub.uni-bielefeld.de/download/2921050/2921083) (mp3, 16k)
+* d = 8 : [Example_8a](https://pub.uni-bielefeld.de/download/2921050/2921084) (mp3, 16k) [Example_8b](https://pub.uni-bielefeld.de/download/2921050/2921085) (mp3, 16k)
+
+
+#### Sound Examples: GNGS -- Probing Sonification for the Noisy Spiral dataset
+A noisy spiral dataset is adapted by a GNG. This are GNGS probing sonifications from (a) the outer end of the spiral, (b) in the middle, (c) the inner end of the spiral. The examples are for differing network complexity, expressed by the number of neurons N. 
+
+
+* N = 3: [Example_1](https://pub.uni-bielefeld.de/download/2921050/2921057) (mp3, 16k) [Example_1](https://pub.uni-bielefeld.de/download/2921050/2921058) (mp3, 16k)
+* N = 20: [Example_2a](https://pub.uni-bielefeld.de/download/2921050/2921059) (mp3, 16k) [Example_2b](https://pub.uni-bielefeld.de/download/2921050/2921060) (mp3, 16k) [Example_2c](https://pub.uni-bielefeld.de/download/2921050/2921061) (mp3, 16k)
+* N = 45: [Example_3a](https://pub.uni-bielefeld.de/download/2921050/2921062) (mp3, 16k) [Example_3b](https://pub.uni-bielefeld.de/download/2921050/2921063) (mp3, 16k) [Example_3c](https://pub.uni-bielefeld.de/download/2921050/2921064) (mp3, 16k)
+* N = 150: [Example_4a](https://pub.uni-bielefeld.de/download/2921050/2921066) (mp3, 16k) [Example_4b](https://pub.uni-bielefeld.de/download/2921050/2921067) (mp3, 16k) [Example_4c](https://pub.uni-bielefeld.de/download/2921050/2921068) (mp3, 16k)
+* The following examples are for a noisy spiral with only one rotation
+* N = 20: [Example_5a](https://pub.uni-bielefeld.de/download/2921050/2921051) (mp3, 16k) [Example_5b](https://pub.uni-bielefeld.de/download/2921050/2921052) (mp3, 16k) [Example_5c](https://pub.uni-bielefeld.de/download/2921050/2921053) (mp3, 16k)
+* N = 45: [Example_6a](https://pub.uni-bielefeld.de/download/2921050/2921054) (mp3, 16k) [Example_6b](https://pub.uni-bielefeld.de/download/2921050/2921055) (mp3, 16k) [Example_6c](https://pub.uni-bielefeld.de/download/2921050/2921056) (mp3, 16k)
+
+
+#### Sound Examples: GNGS -- Process Monitoring Sonifications
+The following for sonification present the dynamically changing auditory state of a GNG during the adaptive growth process.
+
+* Noisy Spiral, 1 rotation [Example_1](https://pub.uni-bielefeld.de/download/2921050/2921098) (mp3, 45k)
+* Noisy Spiral, 2 rotation [Example_2](https://pub.uni-bielefeld.de/download/2921050/2921099) (mp3, 45k)
+* Gaussian Cluster of dimension 5 [Example_3](https://pub.uni-bielefeld.de/download/2921050/2921096) (mp3, 45k)
+* Mixture of 2d and 5d uniform distributions [Example_4](https://pub.uni-bielefeld.de/download/2921050/2921097) (mp3, 45k)
+
+
+
+#### Sound Examples: GNGS Probing and Process Monitoring for MNIST dataset
+The MNIST dataset contains 24x24 pixel bitmaps of handwritten digits. 8x8 subsampling was performed to obtain 64-dimensional records, about 1000 records for each class. The examples are computed for the classes of '1' and '2'. The shape of '2' contains more internal degrees of freedom, resulting in a higher intrinsic dimensionality of the distribution, audible from the higher brilliance and complexity of the probing sonification.
+
+* Handwritten digits, class '1', Probing: [(a)](https://pub.uni-bielefeld.de/download/2921050/2921086) [(b)](https://pub.uni-bielefeld.de/download/2921050/2921087) [(c)](https://pub.uni-bielefeld.de/download/2921050/2921088) [(d)](https://pub.uni-bielefeld.de/download/2921050/2921089) (mp3, 17k)
+* Handwritten digits, class '1', Growth sonification: [growth](https://pub.uni-bielefeld.de/download/2921050/2921090) (mp3, 33k)
+* Handwritten digits, class '2', Probing: [(a)](https://pub.uni-bielefeld.de/download/2921050/2921091) [(b)](https://pub.uni-bielefeld.de/download/2921050/2921092) [(c)](https://pub.uni-bielefeld.de/download/2921050/2921093) [(d)](https://pub.uni-bielefeld.de/download/2921050/2921094) (mp3, 17k)
+* Handwritten digits, class '2', Growth sonification: [growth](https://pub.uni-bielefeld.de/download/2921050/2921095) (mp3, 33k)</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921051/gng_2sp1rot20N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921052/gng_2sp1rot20N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_3.mp3">https://pub.uni-bielefeld.de/download/2921050/2921053/gng_2sp1rot20N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921054/gng_2sp1rot45N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921055/gng_2sp1rot45N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_3.mp3">https://pub.uni-bielefeld.de/download/2921050/2921056/gng_2sp1rot45N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp3N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921057/gng_2sp3N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp3N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921058/gng_2sp3N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921059/gng_2sp20N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921060/gng_2sp20N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_3.mp3">https://pub.uni-bielefeld.de/download/2921050/2921061/gng_2sp20N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921062/gng_2sp45N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921063/gng_2sp45N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_3.mp3">https://pub.uni-bielefeld.de/download/2921050/2921064/gng_2sp45N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_4.mp3">https://pub.uni-bielefeld.de/download/2921050/2921065/gng_2sp45N_4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_1.mp3">https://pub.uni-bielefeld.de/download/2921050/2921066/gng_2sp150N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_2.mp3">https://pub.uni-bielefeld.de/download/2921050/2921067/gng_2sp150N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_3.mp3">https://pub.uni-bielefeld.de/download/2921050/2921068/gng_2sp150N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id1a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921070/GNG_id1a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id1b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921071/GNG_id1b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id2a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921072/GNG_id2a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id2b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921073/GNG_id2b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id3a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921074/GNG_id3a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id3b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921075/GNG_id3b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id4a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921076/GNG_id4a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id4b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921077/GNG_id4b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id5a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921078/GNG_id5a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id5b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921079/GNG_id5b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id6a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921080/GNG_id6a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id6b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921081/GNG_id6b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id7a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921082/GNG_id7a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id7b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921083/GNG_id7b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id8a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921084/GNG_id8a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNG_id8b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921085/GNG_id8b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST1a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921086/GNGMNIST1a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST1b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921087/GNGMNIST1b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST1c.mp3">https://pub.uni-bielefeld.de/download/2921050/2921088/GNGMNIST1c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST1d.mp3">https://pub.uni-bielefeld.de/download/2921050/2921089/GNGMNIST1d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST1process.mp3">https://pub.uni-bielefeld.de/download/2921050/2921090/GNGMNIST1process.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST2a.mp3">https://pub.uni-bielefeld.de/download/2921050/2921091/GNGMNIST2a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST2b.mp3">https://pub.uni-bielefeld.de/download/2921050/2921092/GNGMNIST2b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST2c.mp3">https://pub.uni-bielefeld.de/download/2921050/2921093/GNGMNIST2c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST2d.mp3">https://pub.uni-bielefeld.de/download/2921050/2921094/GNGMNIST2d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGMNIST2process.mp3">https://pub.uni-bielefeld.de/download/2921050/2921095/GNGMNIST2process.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcgaussian5d.mp3">https://pub.uni-bielefeld.de/download/2921050/2921096/GNGProcgaussian5d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcsaturn.mp3">https://pub.uni-bielefeld.de/download/2921050/2921097/GNGProcsaturn.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcSpiral2d1rot.mp3">https://pub.uni-bielefeld.de/download/2921050/2921098/GNGProcSpiral2d1rot.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcSpiral2d2rot.mp3">https://pub.uni-bielefeld.de/download/2921050/2921099/GNGProcSpiral2d2rot.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGGUI.jpg">https://pub.uni-bielefeld.de/download/2921050/2921069/GNGGUI.jpg</url>
+  </location>
+  <physicalDescription><internetMediaType>image/jpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2921050</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017400</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hermann, T.; Ritter, H. (2004): Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data". Bielefeld University.</wels>
+<harvard1>Hermann, T., &amp;amp; Ritter, H., 2004. &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., &amp;amp; Ritter, H. (2004).  &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2921050&lt;/div&gt;</apa_indent>
+<bio1>Hermann T, Ritter H (2004) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<angewandte-chemie>T.  Hermann, and H.  Ritter, &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<ama>Hermann T, Ritter H. &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University; 2004.</ama>
+<frontiers>Hermann, T., and Ritter, H. (2004). Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. &amp;amp; Ritter, H. (2004). &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2921050.&lt;/div&gt;</dgps>
+<apa>Hermann, T., &amp;amp; Ritter, H. (2004).  &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2921050</apa>
+<ieee> T. Hermann and H. Ritter, &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;, Bielefeld University, 2004.</ieee>
+<lncs> Hermann, T., Ritter, H.: Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data". Bielefeld University (2004).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, and Ritter, Helge. 2004. &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hermann, Thomas, and Ritter, Helge. &lt;em&gt;Supplementary Material for "Neural Gas Sonification - Growing Adaptive Interfaces for Interacting with Data"&lt;/em&gt;. Bielefeld University, 2004.</mla>
+<default>Hermann T, Ritter H (2004) &lt;br /&gt;Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2921050</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-07-09T18:13:34Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:44Z</recordChangeDate>
+</recordInfo>
+</mods>

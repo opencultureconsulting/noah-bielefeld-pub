@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2952857">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Multidimensional Singular Control and Related Skorokhod Problem: Suficient Conditions for the Characterization of Optimal Controls</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jodi</namePart>
+                        <namePart type="family">Dianetti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We characterize the optimal control for a class of singular stochastic control
+problems as the unique solution to a related Skorokhod reflection problem. The considered
+optimization problems concern the minimization of a discounted cost functional over an infinite time-horizon through a process of bounded variation affecting an Itô-diffusion. The
+setting is multidimensional, the dynamics of the state and the costs are convex, the volatility
+matrix can be constant or linear in the state. We prove that the optimal control acts only
+when the underlying diffusion attempts to exit the so-called waiting region, and that the
+direction of this action is prescribed by the derivative of the value function. Our approach is
+based on the study of a suitable monotonicity property of the derivative of the value function
+through its interpretation as the value of an optimal stopping game. Such a monotonicity allows to construct nearly optimal policies which reflect the underlying diffusion at the
+boundary of approximating waiting regions. The limit of this approximation scheme then
+provides the desired characterization. Our result applies to a relevant class of linear-quadratic
+models, among others. Furthermore, it allows to construct the optimal control in degenerate
+and non degenerate settings considered in the literature, where this important aspect was
+only partially addressed.</abstract>
+                    <abstract lang="eng">AMS subject classification: 93E20, 60G17, 91A55, 49J40</abstract>
+                    <subject>
+                        <topic>Dynkin games</topic>
+                        <topic>re ected diffusion</topic>
+                        <topic>singular stochastic control</topic>
+                        <topic>Skorokhod problem</topic>
+                        <topic>variational inequalities</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>645</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>38</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29528576</identifier>
+                    <identifier type="sys">HT020917765</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2952857</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2952857">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2952857/2952859/IMW_working_paper_645.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2952857" DMDID="DMD2952857">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2952857"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

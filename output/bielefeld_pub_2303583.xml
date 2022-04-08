@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303583">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>RNA folding via algebraic dynamic programming</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dirk J.</namePart>
+                        <namePart type="family">Evers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-06-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The aim of this thesis is to apply the framework of Algebraic Dynamic Programming (short ADP) to a well known problem with established significance in bioinformatics, to implement the current &quot;state of the art&quot;, and finally to go one step further and solve one of the open problems. Ab initio RNA secondary structure folding of a single sequence was chosen as a perfect fit to the requirements. First, because of the compactness of the field, showing a clear path from the first description of the Nearest Neighbor model by Tinoco and others in a Nature paper from 1971, via the base pair maximization algorithm by Nussinov and others in 1978, to the first efficient and complete solution to the free energy minimization problem by Zuker and Stiegler in 1981, and then on to a number of further refinements to date (Tinoco et al., 1971; Nussinov et al., 1978; Zuker and Stiegler, 1981; Wuchty et al., 1999; Lyngsoe et al., 1999). Second, there is a clear description of an open problem in a paper by Zuker and Sankoff in 1984, that to our knowledge has not been solved yet (Zuker and Sankoff, 1984). It is the problem of reducing the structure space of a given RNA to saturated secondary structures whose helices can not be extended any further by legal base pairs.</abstract>
+                    <subject>
+                        <topic>RNS</topic>
+                        <topic>Sekundärstruktur</topic>
+                        <topic>Proteinfaltung</topic>
+                        <topic>Dynamische Optimierung</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>RNA folding</topic>
+                        <topic>Dynamic programming</topic>
+                        <topic>Bioinformatics</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2906</identifier>
+                    <identifier type="sys">HT014315369</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303583</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303583">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303583/2303586/WPM%246E9C.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303583" DMDID="DMD2303583">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303583"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

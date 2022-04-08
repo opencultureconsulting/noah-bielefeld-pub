@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918990">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Metadata-driven computational (meta)genomics. A practical machine learning approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Madis</namePart>
+                        <namePart type="family">Rumming</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leonid</namePart>
+                        <namePart type="family">Chindelevitch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-09-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A vast amount of bacterial and archaeal genomic sequences have been generated in the past decade through single cell sequencing and in particular binning of metagenomic sequences, but a detailed characterization of the functional features and observable phenotypes of such novel genomes is mostly unknown and thus missing. Machine learning models are trained on previously annotated organisms in relation to the mentioned traits and can be used for the characterization of so far undiscovered novel microbial organisms. The metadata is also used to enrich microbial community profiles with this kind of information, and a client-side webtool has been developed for comparative visualizations of these profiles.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29189905</identifier>
+                    <identifier type="sys">HT019683215</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918990</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918990">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918990/2918991/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918990" DMDID="DMD2918990">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918990"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

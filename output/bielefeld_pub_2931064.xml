@@ -1,0 +1,109 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2931064">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Modeling and Simulating the Aerobic Carbon Metabolism of a Green Microalga Using Petri Nets and New Concepts of VANESA</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Brinkrolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nadja Alina</namePart>
+                        <namePart type="family">Henke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lennart</namePart>
+                        <namePart type="family">Ochel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Boas</namePart>
+                        <namePart type="family">Pucker</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3321-7471</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Olaf</namePart>
+                        <namePart type="family">Kruse</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9874-382X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Lutter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this work we present new concepts of VANESA, a tool for modeling and simulation in systems biology. We provide a convenient way to handle mathematical expressions and take physical units into account. Simulation and result management has been improved, and syntax and consistency checks, based on physical units, reduce modeling errors. As a proof of concept, essential components of the aerobic carbon metabolism of the green microalga Chlamydomonas reinhardtii are modeled and simulated. The modeling process is based on xHPN Petri net formalism and simulation is performed with OpenModelica, a powerful environment and compiler for Modelica. VANESA, as well as OpenModelica, is open source, free-of-charge for non-commercial use, and is available at: http://agbi.techfak.uni-bielefeld.de/vanesa.</abstract>
+                    <subject>
+                        <topic>petri net</topic>
+                        <topic>Chlamydomonas reinhardtii</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of Integrative Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1613-4516</identifier>
+                    <identifier type="eIssn">1613-4516</identifier>
+                    <identifier type="MEDLINE">30218605</identifier>
+                    <identifier type="ISI">000444546600003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29310640</identifier>
+                    <identifier type="doi">10.1515/jib-2018-0018</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2931064</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2931064">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2931064/2955478/10.1515_jib-2018-0018.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2931064" DMDID="DMD2931064">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2931064"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

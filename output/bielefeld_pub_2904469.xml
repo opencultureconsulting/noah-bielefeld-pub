@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2904469">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Non-Negative Kernel Sparse Coding for the Analysis of Motion Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Babak</namePart>
+                        <namePart type="family">Hosseini</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3335-4289</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Hülsmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8263-3765</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9954-120X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">E.P. Villa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Paolo</namePart>
+                        <namePart type="family">Masulli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Antonio</namePart>
+                        <namePart type="family">Javier Pons Rivero</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We are interested in the decomposition of motion data into a sparse linear combination of base functions which enable efficient data processing. We combine two prominent frameworks: dynamic time warping (DTW), which offers particularly successful pairwise motion data comparison, and sparse coding (SC), which enables an automatic decomposition of vectorial data into a sparse linear combination of base vectors. We enhance SC as follows: an efficient kernelization which extends its application domain to general similarity data such as offered by DTW, and its restriction to non-negative linear representations of signals and base vectors in order to guarantee a meaningful dictionary. Empirical evaluations on motion capture benchmarks show the effectiveness of our framework regarding interpretation and discrimination concerns.</abstract>
+                    <subject>
+                        <topic>Kernel sparse coding</topic>
+                        <topic>Motion analysis</topic>
+                        <topic>Classification</topic>
+                        <topic>Interpretable models</topic>
+                        <topic>Dynamic time warping</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Artificial Neural Networks and Machine Learning – ICANN 2016</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9887</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>506</start>
+                                <end>514</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-319-44780-3</identifier>
+                    <identifier type="arXiv">1903.03891</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29044695</identifier>
+                    <identifier type="doi">10.1007/978-3-319-44781-0_60</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2904469</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2904469">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2904469/2914870/ICANN+poster.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2904469" DMDID="DMD2904469">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2904469"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

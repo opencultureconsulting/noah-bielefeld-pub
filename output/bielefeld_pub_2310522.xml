@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2310522">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning Similarity Functions for Event Identification using Support Vector Machines</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timo</namePart>
+                        <namePart type="family">Reuter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Every clustering algorithm requires a similarity measure, ideally optimized for the task in question. In this paper we are concerned with the task of identifying events in social media data and address the question of how a suitable similarity function can be learned from training data for this task. The task consists essentially in grouping social media documents by the event they belong to. In order to learn a similarity measure using machine learning techniques, we extract relevant events from last.fm and match the unique machine tags for these events to pictures uploaded to Flickr, thus getting a gold standard were each picture is assigned to its corresponding event. We evaluate the similarity measure with respect to accuracy on the task of assigning a picture to its correct event. We use SVMs to train an appropriate similarity measure and investigate the performance of different types of SVMs (Ranking SVMs vs. Standard SVMs), different strategies for creating training data as well as the impact of the amount of training data and the kernel used. Our results show that a suitable similarity measure can be learned from a few examples only given a suitable strategy for creating training data. We also show that i) Ranking SVMs can learn from fewer examples, ii) are more robust compared to standard SVMs in the sense that their performance does not vary significantly for different sizes and samples of training data and iii) are not as prone to overfitting as standard SVMs.</abstract>
+                    <subject>
+                        <topic>SupportVector Machine</topic>
+                        <topic>data mining.</topic>
+                        <topic>weight adjustment</topic>
+                        <topic>event identification</topic>
+                        <topic>similarity function</topic>
+                        <topic>machine learning</topic>
+                        <topic>Clustering/classification</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-23105222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2310522</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2310522">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2310522/2686731/2310522_Reuter_LearningSimilarityFunctions.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2310522" DMDID="DMD2310522">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2310522"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

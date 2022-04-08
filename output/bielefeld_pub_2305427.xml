@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305427">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Peak intensity prediction in mass spectra using machine learning methods</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Peakintensitätsvorhersage in Massenspektren mit maschinellen Lernmethoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wiebke</namePart>
+                        <namePart type="family">Timm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-09-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Massenspektrometrie ist heutzutage unersetzlich, um Proteine und Peptide in komplexen biologischen Proben schnell zu untersuchen. Das Hauptproblem bei der quantitativen Analyse mit Methoden der Massenspektrometrie ist dabei die Tatsache, dass die Empfindlichkeit von Massenspektrometern prinzipbedingt peptidabhängig ist. Daher ist die Beziehung zwischen beobachteten Peakintensitäten und den entsprechenden Peptidkonzentrationen in der Probe unklar. Es gibt verschiedene Ansätze, dieses Problem durch Labeling-Techniken zu umgehen. Allerdings sind diese Techniken extrem teuer und zeitaufwändig in der Anwendung. Wenn man die peptidabhängige Empfindlichkeit verlässlich vorhersagen könnte, dann könnte man einen peptidabhängigen Korrekturfaktor berechnen, wodurch die Genauigkeit von absoluten Quantifizierungstechniken ohne den Einsatz von Labeling-Techniken (label-free absolute quantitation) verbessert werden könnte.
+In dieser Arbeit beschäftige ich mich mit der Frage, ob es möglich ist, die peptidspezifische Empfindlichkeit eines Massenspektrometers zu modellieren. Zu diesem Zweck wird mithilfe von Datensätzen eines Matrix-Assisted Laser Desorption Ionization (MALDI)-Massenspektrometers ein Verfahren entwickelt, das Simulation und Überwachte Lernverfahren kombiniert. Der zweite Teil der Arbeit hat zum Ziel, jene Peptideigenschaften zu ermitteln, die den größten Einfluß auf die peptidspezifischen Empfindlichkeiten haben.
+Diese Arbeit stellt einen wichtigen Schritt dar, um die Genaugkeit Label-freier Quantifizierung mithilfe von Massenspektrometrie zu verbessern: Ich zeige, dass die Vorhersage der peptidabhängigen Empfindlichkeit tatsächlich möglich ist, sogar mit nur wenig Daten. Das beste hier vorgestellte Verfahren erreicht eine signifikante quadratische Pearson-Korrelation von 0,46 in einer zehnfachen Kreuzvalidierung (ten-fold cross-validation). Wissensextraktion mit Feature Selection-Methoden deckt sowohl bereits bekannte als auch neue Peptid-Eigenschaften auf, die für das Problem relevant sind. Im Zuge dessen wird Least-Angle Regression, eine moderne Feature Selection-Technik, evaluiert und als geeignet befunden, auch auf verrauschten Daten gute Ergebnisse zu erzielen.</abstract>
+                    <abstract lang="eng">Mass spectrometry (MS) is an indispensable technique for the fast analysis of proteins and peptides in complex biological samples. One key problem with the quantitative mass spectrometric analysis of peptides and proteins, however, is the fact that the sensitivity of MS instruments is peptide-dependent, leading to an unclear relationship between the observed peak intensity and the peptide concentration in the sample. Various labeling techniques have been developed to circumvent this problem, but are very expensive and time-consuming. A reliable prediction of peptide-specific sensitivies could provide a peptide-specific correction factor, which would be valuable for label-free absolute quantitation.
+In this work, I analyze if modeling of peptide-specific sensitivities of unkonwn proteins is feasible. For this purpose, a combined simulation and supervised learning approach is developed using datasets from matrix-assisted laser desorption ionization (MALDI). As a second main focus, I deal with the question which peptide properties have the most influence on peptide-specific sensitivities.
+This work constitutes an important step to enhance label-free quantification accuracy: I show that the prediction of peptide-specific sensitivities is indeed feasible even on a small dataset. A significant Pearson&apos;s squared correlation of 0.46 in ten-fold cross-validation is reached with support vector regression. Knowledge extraction with feature selection methods leads to the rediscovery of known as well as new properties that are relevant for this problem. Least-angle regression, a modern feature selection technique, is evaluated for this purpose among others, and is shown to perform comparatively well on noisy MS data.</abstract>
+                    <subject>
+                        <topic>Proteomanalyse</topic>
+                        <topic>Flugzeitmassenspektrometrie</topic>
+                        <topic>MALDI-MS</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Data Mining</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>Quantitative proteomics</topic>
+                        <topic>Mass spectrometry</topic>
+                        <topic>Machine learning</topic>
+                        <topic>Feature selection</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-13706</identifier>
+                    <identifier type="sys">HT015937627</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305427</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305427">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305427/2305430/Timm_PeakIntensityPrediction_Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305427" DMDID="DMD2305427">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305427"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

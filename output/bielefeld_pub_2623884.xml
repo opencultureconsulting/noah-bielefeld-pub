@@ -1,0 +1,115 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2623884">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>hexapod walker using a heterarchical architecture for action selection</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Malte</namePart>
+                        <namePart type="family">Schilling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0849-483X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Paskarbeit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thierry</namePart>
+                        <namePart type="family">Hoinville</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Arne</namePart>
+                        <namePart type="family">Hüffmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Josef</namePart>
+                        <namePart type="family">Schmitz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2054-9124</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Moving in a cluttered environment with a six-legged walking machine that has additional body actuators, therefore controlling 22 DoFs, is not a trivial task. Already simple forward walking on a flat plane requires the system to select between different internal states. The orchestration of these states depends on walking velocity and on external disturbances. Such disturbances occur continuously, for example due to irregular up-and-down movements of the body or slipping of the legs, even on flat surfaces, in particular when negotiating tight curves. The number of possible states is further increased when the system is allowed to walk backward or when front legs are used as grippers and cannot contribute to walking. Further states are necessary for expansion that allow for navigation. Here we demonstrate a solution for the selection and sequencing of different (attractor) states required to control different behaviors as are forward walking at different speeds, backward walking, as well as negotiation of tight curves. This selection is made by a recurrent neural network (RNN) of motivation units, controlling a bank of decentralized memory elements in combination with the feedback through the environment. The underlying heterarchical architecture of the network allows to select various combinations of these elements. This modular approach representing an example of neural reuse of a limited number of procedures allows for adaptation to different internal and external conditions. A way is sketched as to how this approach may be expanded to form a cognitive system being able to plan ahead. This architecture is characterized by different types of modules being arranged in layers and columns, but the complete network can also be considered as a holistic system showing emergent properties which cannot be attributed to a specific module.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Computational Neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>126</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5188</identifier>
+                    <identifier type="eIssn">1662-5188</identifier>
+                    <identifier type="MEDLINE">24062682</identifier>
+                    <identifier type="ISI">000324633500001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26238842</identifier>
+                    <identifier type="doi">10.3389/fncom.2013.00126</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2623884</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2623884">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2623884/2623896/fncom-07-00126.2013.schilling.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2623884" DMDID="DMD2623884">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2623884"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

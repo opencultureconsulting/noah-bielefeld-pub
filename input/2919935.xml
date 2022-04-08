@@ -1,0 +1,122 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2919935</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Georges</namePart>
+  <namePart type="family">Hattab</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">50871385</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4168-8254</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Tim Wilhelm</namePart>
+  
+  
+  <namePart type="family">Nattkemper</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Tamara</namePart>
+  
+  
+  <namePart type="family">Munzner</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Bioimaging technologies enable the description of the life cycle of organisms at the microscopic scale, for example bacterial cells. In the particular case of time lapse imaging, the coupling of experimental setups and marker protocols results in the acquisition of biological changes in spatiotemporal experiments. Such experiments are devised to obtain a time-lapse image data, which I refer to as biomovies. Understanding how a cell behaves at every time point is crucial. In fact, this motivated all cell studies in the literature, which are single cell oriented. For the present biomovies, the task is to identify similarly fluorescing subpopulations across space and time. &lt;br /&gt;&lt;br /&gt;
+
+My interest lies in isogenic bacterial populations of *Sinorhizobium meliloti*. The biomovies’ particularity is a dynamic range of high values for a set of different properties (e.g. cell density, cell count, etc), herein, leading to a bottleneck. State of the art methods cannot address such a task, which is partly due to their inability to handle highly dense populations and their adaptability to different experimental setups. In particular, they fall short either at the segmentation step (to delineate individual cells and extract their abstraction, e.g. cell centroid) or at the tracking step (to follow identified cells in each frame). To gain insight into bacterial growth at the population level, I claim that one does not really need to know the fate of each single cell.&lt;br /&gt;&lt;br /&gt; 
+
+In the context of this thesis, I present a series of pipelines and algorithms. First, preprocessing pipelines to reduce noise and enhance the object-to-background contrast. Second, an adaptive algorithm to correct spatial shift in the images (i.e. registration) and of each biomovie. Third and last, a modular algorithm that constructs coherent patch lineages by employing two adapted data abstractions, the particle and the patch, that are essential to solving the aforementioned bottleneck and are defined as follows: A particle is an intuitive geometric abstraction that results from considering whether the neighborhood around a pixel falls within a cell by checking for signal characteristics such as signal intensity, edge orientation, fluorescence signals, or texture. A patch is the aggregation of spatially contiguous particle trajectories that feature similar fluorescence patterns. &lt;br /&gt;&lt;br /&gt;
+
+The methodology that creates coherent patch lineages is automatic and modular. By integrating aspects of object recognition and spatiotemporal changes, it lays down the foundation for investigating colony growth. All of the aforementioned pipelines represent a new methodological contribution to the field of lineage analysis and colony growth. I evaluate the proposed pipelines and algorithms on simulated and biological data, respectively. In turn this enabled me to validate the algorithms, interpret changes in the colony growth and differences among conditions of an experiment. In particular, I found that in a same condition, two isogenic bacterial colonies grew differently when faced with the same stress. The methods pioneered herein provide a key step to investigating colony growth.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissertation.pdf">https://pub.uni-bielefeld.de/download/2919935/2919936/dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29199359</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-05-14</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> G. Hattab, &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<apa>Hattab, G. (2018).  &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<frontiers>Hattab, G. (2018). Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G. (2018). &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<ama>Hattab G. &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<angewandte-chemie>G.  Hattab, &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Hattab, G., 2018. &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Hattab G (2018) &lt;br /&gt;&lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, G. (2018).  &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<wels>Hattab, G. (2018): Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments. Bielefeld: Universität Bielefeld.</wels>
+<default>Hattab G (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Hattab, Georges. &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hattab, Georges. 2018. &lt;em&gt;Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Hattab, G.: Analyzing colony dynamics and visualizing cell diversity in spatiotemporal experiments. Universität Bielefeld, Bielefeld (2018).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2919935</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-05-22T10:50:45Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-19T14:18:09Z</recordChangeDate>
+</recordInfo>
+</mods>

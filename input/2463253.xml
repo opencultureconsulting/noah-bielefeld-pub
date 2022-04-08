@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2463253</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Dynamically reconfigurable hardware for embedded control systems</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Carlos Vladimir</namePart>
+  <namePart type="family">Paiz Gatica</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis explores the use of dynamically reconfigurable hardware for the realisation of embedded control systems, using the most well-known example of this kind of technology: Field Programmable Gate array (FPGA). The focus of the first part of the thesis is on assessing the resource utilisation of FPGA- and CPU-based realisations, relating the results to the algorithmic characteristics of the implemented controller, and the properties of both hardware and software architectures. Using a selected set of benchmarks, it is shown that an FPGA-based design achieves a higher computational density (Computational density = throughput/area) and a higher energy efficiency (energy efficiency = throughput/power) than a CPU-based implementation. Furthermore, it is shown that when the average parallelism of the algorithm to be implemented increases when increasing the problem size (i.e., the amount of computations required for that algorithm), the gap between FPGA- and CPU-based realisations in terms of computational density increases, too.
+The use of run-time hardware reconfiguration to achieve a more efficient resource utilisation than a static approach is investigated in the second part of this work. It is shown that control systems requiring structural and parametric adjustments during execution can benefit from run-time hardware reconfiguration. Application examples are presented showing that the proposed concepts are successfully realisable using current technologies, also for control applications having demanding time-constraints.
+ New design methodologies are required for embedded control systems using dynamically reconfigurable hardware, specially for those targeting run-time hardware reconfiguration. A Hardware-in-the-Loop design framework is presented in the third part of this work, which allows an early cycle-accurate verification of a design under test (DUT), using a simulated environment. In a second stage, the DUT can be monitored in real-time, and design parameters can be adjusted during operation, while using the target environment of the DUT. Several realisation examples show the efficacy of the proposed framework.
+ This thesis shows that dynamically reconfigurable hardware, particularly FPGA technology, is a suitable platform for demanding embedded control applications. Methods and tools presented in this thesis disclose the advantages of dynamically reconfigurable hardware, and represent a step towards taking full advantage of the possibilities offered by this technology, in the context of embedded control systems.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_CPaiz_genehmigte.pdf">https://pub.uni-bielefeld.de/download/2463253/2463254/Dissertation_CPaiz_genehmigte.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität</publisher><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>energy efficiency</topic><topic>dynamically reconfigurable hardware</topic><topic>run-time hardware reconfiguration</topic><topic>embedded control</topic><topic>Hardware-in-the-Loop</topic><topic>FPGA</topic><topic>Computational density</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-24632538</identifier>
+<part><extent unit="pages">220</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2011-12-21</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paiz Gatica, Carlos Vladimir. 2012. &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität.&lt;/div&gt;</chicago>
+<lncs> Paiz Gatica, C.V.: Dynamically reconfigurable hardware for embedded control systems. Universität, Bielefeld (2012).</lncs>
+<default>Paiz Gatica CV (2012) &lt;br /&gt;Bielefeld: Universität.</default>
+<mla>Paiz Gatica, Carlos Vladimir. &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität, 2012.</mla>
+<frontiers>Paiz Gatica, C. V. (2012). Dynamically reconfigurable hardware for embedded control systems. Bielefeld: Universität.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paiz Gatica, C.V. (2012). &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität.&lt;/div&gt;</dgps>
+<ama>Paiz Gatica CV. &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität; 2012.</ama>
+<ieee> C.V. Paiz Gatica, &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;,  Bielefeld: Universität, 2012.</ieee>
+<apa>Paiz Gatica, C. V. (2012).  &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität.</apa>
+<wels>Paiz Gatica, C. V. (2012): Dynamically reconfigurable hardware for embedded control systems. Bielefeld: Universität.</wels>
+<angewandte-chemie>C. V.  Paiz Gatica, &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;, Universität, Bielefeld, &lt;strong&gt;2012&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Paiz Gatica CV (2012) &lt;br /&gt;&lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität.</bio1>
+<harvard1>Paiz Gatica, C.V., 2012. &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;, Bielefeld: Universität.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paiz Gatica, C. V. (2012).  &lt;em&gt;Dynamically reconfigurable hardware for embedded control systems&lt;/em&gt;. Bielefeld: Universität.&lt;/div&gt;</apa_indent>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2463253</recordIdentifier><recordCreationDate encoding="w3cdtf">2012-01-30T19:24:13Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:56Z</recordChangeDate>
+</recordInfo>
+</mods>

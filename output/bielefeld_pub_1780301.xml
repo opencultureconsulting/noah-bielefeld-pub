@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1780301">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Nicht-reaktive Messung und Anwendung historischer Methoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Günter</namePart>
+                        <namePart type="family">Albrecht</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jürgen</namePart>
+                        <namePart type="family">van Koolwijk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1977</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>Empirische Sozialforschung</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Techniken der empirischen Sozialforschung</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>vol. 2: Untersuchungsformen</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>9</start>
+                                <end>81</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-486-44811-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-20466</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1780301</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1780301">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1780301/2312861/Albrecht_015.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1780301" DMDID="DMD1780301">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1780301"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

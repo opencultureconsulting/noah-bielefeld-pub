@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306350">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Numerical analysis of the method of freezing traveling waves</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Vera</namePart>
+                        <namePart type="family">Thümmler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolf-Jürgen</namePart>
+                        <namePart type="family">Beyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-03-02</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der vorliegenden Arbeit werden spezielle Lösungen von parabolischen partiellen Differentialgleichungen (PDE) u_t = A u_xx + f(u, u_x), nämlich wandernde Wellen der Form u(x,t) = w(x-c t), untersucht.
+Dabei ist w das Wellenprofil und c die Geschwindigkeit.
+Das Paar (w,c) lässt sich als Gleichgewicht einer partiell differentiell algebraischen Gleichung (PDAE) auffassen, die aus PDE entsteht, indem man den Ansatz u(x,t) = v(x-g(t),t) in PDE einsetzt und eine zusätzliche Phasenbedingung einführt.
+Durch Diskretisierung von PDAE mit dem finiten Differenzenverfahren auf einem endlichen Gitter erhält man eine differentiell algebraische Gleichung (DAE).
+In der Arbeit werden sowohl der Effekt der Transformation PDE -&gt; PDAE (das &quot;Einfrieren der Welle&quot;) als auch der Diskretisierung PDAE -&gt; DAE auf die Existenz und Stabilität von wandernden Wellen, bzw. allgemeiner von relativen Gleichgewichten, untersucht.
+Eines der Hauptergebnisse ist der Nachweis, dass auch DAE (unter gewissen Voraussetzungen an die Randbedingungen) ein der eingefrorenen Welle (w,c) entsprechendes Gleichgewicht besitzt, welches die Stabilitätseigenschaften der wandernden Welle erbt.</abstract>
+                    <abstract lang="eng">This thesis deals with special solutions of parabolic partial differential equations (PDE) u_t = A u_xx + f(u, u_x), namely traveling waves of the form u(x,t) = w(x-c t). 
+Here w denotes the profile of the wave and c its velocity. 
+The pair (w,c) is an equilibrium of a partial differential algebraic equation (PDAE) which is constructed by inserting the ansatz u(x,t) = v(x-g(t),t) in PDE and adding an additional phase condition.
+By discretization with finite differences on a finite grid, one obtains a differential algebraic equation (DAE).
+In the thesis the effect of the transformation PDE -&gt; PDAE (the &apos;freezing of the wave&apos;) and of the discretization PDAE -&gt; DAE to existence and stability of traveling wave solutions, or more general, of relative equilibria, is analyzed. 
+One of the main results is the proof of the existence of an equilibrium of DAE which corresponds to (w,c) and which inherits the stability properties of the traveling wave.</abstract>
+                    <subject>
+                        <topic>Evolutionsgleichung</topic>
+                        <topic>Diskretisierung</topic>
+                        <topic>Numerisches Verfahren</topic>
+                        <topic>Evolutionsgleichungen</topic>
+                        <topic>Wandernde Wellen</topic>
+                        <topic>Stabilität</topic>
+                        <topic>Diskretisierung</topic>
+                        <topic>Spektrum</topic>
+                        <topic>Evolution equations</topic>
+                        <topic>Traveling waves</topic>
+                        <topic>Stability</topic>
+                        <topic>Discretization</topic>
+                        <topic>Spectrum</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-6695</identifier>
+                    <identifier type="sys">HT014379803</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306350</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306350">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306350/2306353/diss_bib.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306350" DMDID="DMD2306350">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306350"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

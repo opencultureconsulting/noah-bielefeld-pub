@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2961944">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Engineered Replicases, Synthetic DNA, and Long-Read Sequencing Quality Control for Adeno-Associated Virus Production</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Radukic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kristian</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2022-01-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In gene therapy, diseases can be treated with modified (recombinant) viruses that deliver therapeutic transgenes. Recombinant adeno-associated viruses (rAAV) are the most promising candidates for treatment, as clinical trials have demonstrated the safety of the vector at low and medium-dose, and three AAV-based products are already approved by regulatory authorities. However, rAAV are challenging to produce, and rAAV-based therapeutics are among the most expensive medicinal products. AAV is a non-pathogenic dependovirus with a bi-phasic lifecycle, and rAAV production systems inherit a complex biology from the wild-type virus.
+The viral replicases (Rep), four non-structural proteins of AAV (Rep40, 52, 68, and 78), control the complex lifecycle and provide much of the functions required for efficient rAAV production. This work establishes Rep as an engineering target to reduce inherited complexities of recombinant production. Rep interacts in multiple ways with the host cell, for example, through post-translational modifications. Rational protein engineering showed that wild-type-like post-translational modifications of Rep are probably not required in the recombinant system. Only two of four replicases were needed, and the C-terminus of all four was dispensable from Rep68/78 amino acid N525 on. Rep variants with increased packaging rates were obtained. Of these variants, the Rep52/78 P2A, S535A substitution, and a variant with only Rep40/68 (P2A, R532G) showed the highest packaging rate. In contrast, all lysine substitutions tested decreased the packaging rate. The packaging rate increased because the tested Rep modifications affected the expression of capsids but not the titer of packaged rAAV genomes, supporting previous findings that packaging is the rate-limiting step during production. 
+More significant relief from biological constraints was expected by adapting the replicases to the recombinant system with directed evolution, taking biosafety considerations into account. The molecular design of the evolution system proved difficult: Either defective interfering particles emerged, or the vector yield was low. In the end, a system to package only the rep gene was created with rAAV yields of 3×1011 viral genomes per 10 cm cell culture dish. This system enables future experiments on this topic. 
+Previous work showed that rAAV contains non-transgene sequences and that homogeneity of the genetic payload is an essential quality attribute, but a method to assess all forms of heterogeneity was lacking. In this work, rapid nanopore-sequencing, which is inexpensive and easy to access compared to other sequencing technologies, was established to sequence rAAV packaged DNA directly with high throughput. A prototypic rAAV used in research served as the model. Unlike previous methods, the long reads and low bias of the direct nanopore sequencing technology readily revealed recombination events while also allowing for the quantification of adverse packaging. 2 – 3% of packaged genomes of the tested rAAV carried non-transgene sequences. Long reads confirmed that an error-prone genome replication and recombination involving the inverted terminal repeats (ITRs) of rAAV were responsible for the undesired packaging, thereby supporting years of previous research in one sequencing experiment. 
+A common heterogeneity observed here and by others were bacterial backbone sequences of plasmids used for rAAV production. In this work, synthetically produced rAAV genomes (AAVsynDNA) were prepared without bacterial sequences to improve genomic homogeneity. AAVsynDNA was produced by a cell-free rolling circle amplification. In the test system, AAVsynDNA reduced the number of backbone sequences in rAAV 5-fold to 0.6% without further process optimization. Complete absence of these unwanted sequences would be expected when the other plasmids required for production are also deprived of their backbones.
+Finally, this work explored the packaging of AAV empty capsids with transgenes in vitro as an alternative production method for rAAV. The molecular design of such a system is discussed. All components were obtained from E. coli, but in vitro packaging was not achieved yet. Further development of packageable DNA substrates is necessary and feasible. Cell-free production of a human viral vector remains an exciting possibility with significant transformative potential.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29619443</identifier>
+                    <identifier type="doi">10.4119/unibi/2961944</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2961944</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2961944">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2961944/2961945/Radukic_Dissertation_210910_revision.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2961944" DMDID="DMD2961944">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2961944"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,138 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2914921</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:570</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Sparkhit evaluation data set</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Liren</namePart>
+  <namePart type="family">Huang</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">51526451</identifier></name>
+<name type="personal">
+  <namePart type="given">Jan</namePart>
+  <namePart type="family">Krüger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">79326</identifier></name>
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Sczyrba</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">17894</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4405-3847</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067478</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610095</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Motivation: The increasing amount of next-generation sequencing data poses a fundamental challenge on large scale genomic analytics. Existing tools use different distributed computational platforms to scale-out bioinformatics workloads. However, the scalability of these tools is not efficient. Moreover, they have heavy run time overheads when pre-processing large amounts of data. To address these limitations, we have developed Sparkhit: a distributed bioinformatics framework built on top of the Apache Spark platform.
+&lt;br /&gt;
+Results: Sparkhit integrates a variety of analytical methods. It is implemented in the Spark extended MapReduce model. It runs 92 to 157 times faster than MetaSpark on metagenomic fragment recruitment and 18 to 32 times faster than Crossbow on data pre-processing. We evaluated sensitivity and accuracy with the simulated data provided here.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single36m100nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914923/single36m100nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single36m150nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914924/single36m150nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single72m100nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914925/single72m100nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single72m150nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914926/single72m150nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single142m100nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914927/single142m100nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="single142m150nt.fq.gz">https://pub.uni-bielefeld.de/download/2914921/2914928/single142m150nt.fq.gz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opendatacommons.org/licenses/pddl/summary/index.html</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2914921</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Huang, L., Krüger, J., Sczyrba, A.: Sparkhit evaluation data set. Bielefeld University (2017).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, Liren, Krüger, Jan, and Sczyrba, Alexander. 2017. &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Huang, Liren, Krüger, Jan, and Sczyrba, Alexander. &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University, 2017.</mla>
+<default>Huang L, Krüger J, Sczyrba A (2017) &lt;br /&gt;Bielefeld University.</default>
+<wels>Huang, L.; Krüger, J.; Sczyrba, A. (2017): Sparkhit evaluation data set. Bielefeld University.</wels>
+<harvard1>Huang, L., Krüger, J., &amp;amp; Sczyrba, A., 2017. &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Huang L, Krüger J, Sczyrba A (2017) &lt;br /&gt;&lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, L., Krüger, J., &amp;amp; Sczyrba, A. (2017).  &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2914921&lt;/div&gt;</apa_indent>
+<angewandte-chemie>L.  Huang, J.  Krüger, and A.  Sczyrba, &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2017&lt;/strong&gt;.</angewandte-chemie>
+<ama>Huang L, Krüger J, Sczyrba A. &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University; 2017.</ama>
+<frontiers>Huang, L., Krüger, J., and Sczyrba, A. (2017). Sparkhit evaluation data set. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, L., Krüger, J. &amp;amp; Sczyrba, A. (2017). &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2914921.&lt;/div&gt;</dgps>
+<apa>Huang, L., Krüger, J., &amp;amp; Sczyrba, A. (2017).  &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2914921</apa>
+<ieee> L. Huang, J. Krüger, and A. Sczyrba, &lt;em&gt;Sparkhit evaluation data set&lt;/em&gt;, Bielefeld University, 2017.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2914921</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-11-07T13:38:48Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:37Z</recordChangeDate>
+</recordInfo>
+</mods>

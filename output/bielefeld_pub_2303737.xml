@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303737">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Visual data mining in intrinsic hierarchical complex biodata</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Visuelles Data-Mining in intrinsisch hierarchischen komplexen Biodaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-06-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der vorliegenden Arbeit werden neue Ansätze des visuellen Dataminings zur Analyse von intrinsisch hierarchischen komplexen Biodaten entwickelt. Die Anwendung dieser Verfahren wird anhand von Genexpressionsdaten aus dem Bereich der Biomedizin sowie von Gensequenzdaten im Bereich der Metagenomik gezeigt.
+Komplexe biologische Daten sind charakterisiert durch eine hohe Dimensionalität, Multimodalität, fehlende Werte und Rauschen, wodurch die Analyse dieser Daten deutlich erschwert wird. Sie lassen sich in Primärdaten (Kerndaten bzw. Messwerte, die durch moderne Technologien in hoher Zahl erzeugt werden) und Sekundärdaten (ergänzende Daten, Zusatzinformationen und Hintergrundwissen) unterteilen. Zudem weisen biologische Daten oftmals eine innere hierarchische Struktur auf (z.B. Spezies im Baum des Lebens). Diese Eigenschaft sollte bei der Entwicklung neuer Ansätze zur Analyse komplexer Daten berücksichtigt werden.
+Im Bereich des maschinellen Lernens steht eine große Zahl von Computeralgorithmen zur Verfügung, um diejenigen strukturellen Muster aus existierenden komplexen Daten zu extrahieren, an denen der Forscher interessiert ist. In dieser Arbeit werden bestehende Algorithmen angepasst sowie neue entwickelt, die sowohl Primär- als auch Sekundärdaten in die Auswertung einbeziehen und gleichzeitig Einsicht in die analysierten Daten gewähren. Dazu werden Gütemaße zur Clustervalidierung sowie Visualisierungstechniken entwickelt.
+In dieser Arbeit wird der Tree Index (TI) für die externe Validierung hierarchisch geclusterter Daten entwickelt, um die Analyse von Genexpressionsdaten zu unterstützen. Der TI wird zum Normalisierten Tree Index erweitert (NTI), mit dessen Hilfe sich Korrelationen zwischen geclusterten Primärdaten und externen Labels identifizieren lassen. Anwendung findet ausserdem die sog. REEFSOM (Nattkemper, 2005), welche adaptiert wird, um geclusterte Gendaten, klinische Daten und kategorische Daten in einer Darstellung zu integrieren.
+Auf dem Gebiet der Gensequenzanalyse wird ein Klassifikator für die Selbst-Organisierende Karte (SOM) im hyperbolischen Raum entwickelt, mit dem kleine DNA-Fragmente variabler Länge klassifiziert werden können. Hierfür werden 350 prokaryotische Organismen auf sechs taxonomischen Ebenen im Baum des Lebens verwendet. Zum Schluss wird gezeigt, inwieweit SOMs im euklidischen und im hyperbolischen Raum in der Lage sind, die strukturelle Organisation der prokaryotischen Organismen im Baum des Lebens abzubilden.</abstract>
+                    <abstract lang="eng">In the present work, novel visual data mining approaches for the analysis of intrinsic hierarchical complex biodata are developed. Application of these methods is presented for gene expression data in biomedicine as well as for sequence data in metagenomics.
+Complex biological data is characterized by a high dimensionality, multi-modality, missing values and noisiness, making its analysis a challenging task. It consists of primary data, the core data produced by a modern high-throughput technology, and secondary data, a collection of all kinds of respective supplementary data and background knowledge. Furthermore, biological data often has an intrinsic hierarchical structure (e.g. species in the Tree of Life), an important property that should be considered when developing novel approaches for complex data analysis.
+Machine learning offers a wide range of computer algorithms to extract structural patterns from existing complex data to address the issues the biomedical researcher is interested in. Algorithms are adapted and developed such that both primary and secondary data are taken into account while at the same time insights into the analyzed data can be obtained. To this end, indices for cluster validation as well as methods for visualization enhancement are developed.
+In this work, a Tree Index (TI) is developed for the external validation of hierarchical clustering results to support the analysis of gene expression data. The TI is extended to the Normalized Tree Index (NTI) to identify correlations between clustered primary data and external labels. Also, the REEFSOM (Nattkemper, 2005) is adapted to integrate clustered gene expression data, clinical data and categorical data in one display.
+In the domain of sequence analysis and metagenomics, a Self-Organizing Map (SOM) classifier is developed in hyperbolic space to classify small variable-length DNA fragments. For this task, 350 prokaryotic organisms at six taxonomic levels in the Tree of Life are used. Finally, studies about the capabilities of SOMs to reassess the structural organization of the prokaryotic organisms in the Tree of Life are performed in both Euclidean and hyperbolic space.</abstract>
+                    <subject>
+                        <topic>Data Mining</topic>
+                        <topic>Visualisierung</topic>
+                        <topic>Cluster-Analyse</topic>
+                        <topic>Explorative Datenanalyse</topic>
+                        <topic>Unüberwachtes Lernen</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Genexpression</topic>
+                        <topic>Clustervalidierung</topic>
+                        <topic>Metagenomik</topic>
+                        <topic>Korrelationsanalyse</topic>
+                        <topic>Hyperbolische Selbst-Organisierende Karte (HSOM)</topic>
+                        <topic>Taxonomische Klassifikation</topic>
+                        <topic>Cluster validation</topic>
+                        <topic>Metagenomics</topic>
+                        <topic>Correlation analysis</topic>
+                        <topic>Hyperbolic Self-Organizing Map (HSOM)</topic>
+                        <topic>Taxonomic classification</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15147</identifier>
+                    <identifier type="sys">HT016017834</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303737</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303737">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303737/2303740/doctoratPublish.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303737" DMDID="DMD2303737">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303737"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

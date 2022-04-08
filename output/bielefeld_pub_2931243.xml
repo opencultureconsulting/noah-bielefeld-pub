@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2931243">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>How various design decisions on matching individuals in relationships affect the outcomes of microsimulations of sexually transmitted infection epidemics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nathan</namePart>
+                        <namePart type="family">Geffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Scholz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Microsimulations are increasingly used to estimate the prevalence of sexually transmitted infections (STIs). These models consist of agents which represent a sexually active population. Matching agents into sexual relationships is computationally intensive and presents modellers with difficult design decisions: how to select which partnerships between agents break up, which agents enter a partnership market, and how to pair agents in the partnership market. The aim of this study was to analyse the effect of these design decisions on STI prevalence. We compared two strategies for selecting which agents enter a daily partnership market and which agent partnerships break up: random selection in which agents are treated homogenously versus selection based on data from a large German longitudinal data set that accounts for sex, sexual orientation and age heterogeneity. We also coupled each of these strategies with one of several recently described algorithms for pairing agents and compared their speed and outcomes. Additional design choices were also considered, such as the number of agents used in the model, increasing the heterogeneity of agents’ sexual behaviour, and the proportion of relationships which are casual sex encounters. Approaches which account for agent heterogeneity estimated lower prevalence than less sophisticated approaches which treat agents homogeneously. Also, in simulations with non-random pairing of agents, as the risk of infection increased, incidence declined as the number of agents increased. Our algorithms facilitate the execution of thousands of simulations with large numbers of agents quickly. Fast pair-matching algorithms provide a practical way for microsimulation modellers to account for varying sexual behaviour within the population they are studying. For STIs with high infection rates modellers may need to experiment with different population sizes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLOS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>13</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="MEDLINE">30157216</identifier>
+                    <identifier type="ISI">000443071400058</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29312434</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0202516</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2931243</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2931243">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2931243/2931414/journal.pone.0202516.scholz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2931243" DMDID="DMD2931243">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2931243"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

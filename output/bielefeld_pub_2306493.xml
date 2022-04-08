@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306493">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Diffusions on path spaces over the real line with singular interaction via Dirichlet forms</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Judith Maria Nefertari</namePart>
+                        <namePart type="family">Dohmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Röckner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-07-11</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The thesis deals with closability and quasiregularity of classical Dirichlet forms on the space L^2(C(R,R),mu), i.e. E(u,v):=1/2 int &lt;grad u,grad v&gt;_H d mu, where u,v are in F C_b^infty (C(R,R)).
+In the investigated case mu is a Gibbs measure on C(R,R) defined by the specification pi_r^H(xi,f):=1/Z pi_r(xi,e^(-H_r) f), where pi_r(xi) is the image measure of m_r under the shift by the path which is equal to xi outside the interval [-r,r] and inside it is the affine linear function g with g(r)=xi(r) and g(-r)=xi(-r). The measure m_r describes a Brownian bridge on the interval [-r,r] and has its support on the functions which are zero outside of this interval.
+The main results are the proof that the specification from above is a specification, then that the measure mu is k-quasiinvariant for all k in C_0^1(R,R), i.e. the measure mu shifted by s*k is absolutely continuous w.r.t mu for all s in R, with the Radon-Nikodym density a_sk.
+With these densities we get a criterion for closability: If for an ONB of H such that mu is k_n-quasi-invariant for all n in N, the densities a_sk fulfill the Hamza-condition, then the form E from above is closable.
+Finally we show that E is a quasi-regular Dirichlet form and show that the process associated to E is a conservative diffusion.</abstract>
+                    <subject>
+                        <topic>,  ,</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11326</identifier>
+                    <identifier type="sys">HT015312534</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306493</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306493">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306493/2306496/dohmanndiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306493" DMDID="DMD2306493">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306493"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

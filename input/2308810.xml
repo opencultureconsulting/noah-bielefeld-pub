@@ -1,0 +1,113 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2308810</id><setSpec>report</setSpec><setSpec>doc-type:report</setSpec><setSpec>ddc:570</setSpec><setSpec>reportFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>report</genre>
+
+<titleInfo><title>Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Böcker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Letzel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">20255</identifier></name>
+<name type="personal">
+  <namePart type="given">Zsuzsanna</namePart>
+  <namePart type="family">Lipták</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">164350</identifier></name>
+<name type="personal">
+  <namePart type="given">Anton</namePart>
+  <namePart type="family">Pervukhin</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10018</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Metabolites, small molecules that are intermediates and products of the metabolism, participate in almost all cellular processes such as signal transduction and stress response. There exist several thousand metabolites for every species, the overwhelming majority still being uncharacterized. Mass spectrometry has become a method of choice to analyze the metabolites of a cell. High resolution mass spectrometry allows us to determine the mass and isotopic distribution of sample molecules with outstanding accuracy. Here, we provide a method to determine the sum formula of an unidentified metabolite (or, more generally, any chemical compound) solely from its mass and isotopic pattern. This is a crucial step in the identification of an unknown metabolite, as it reduces its possible structures to a finite and, hopefully, manageable set.
+In Part I, we show how to use integer decomposition techniques, introduced earlier by two of the authors, for decomposing real valued molecule masses, with large improvements over naïve methods that are currently best known for this problem. We then show how to rapidly match and rank simulated spectra against the measured spectrum. Our method is computationally efficient and can be applied to metabolites and other chemical compounds with mass up to 1000 Dalton. First results on experimental data indicate good identification rates for chemical compounds up to 700 Dalton.
+In Part II, we present our method for rapid computation of isotope distributions and mean masses of isotope peaks, i.e., for simulation of isotopic spectra, improving on best-known results. Fast simulation of isotope patterns is vital due to the large search space. Above 1000 Dalton, however, the number of molecules with a certain mass increases rapidly. Since the size of the search space thus becomes prohibitive, generating all potential solutions, simulating their isotope patterns, and matching them against the input is often not feasible. Instead, we define several "additive invariants" extracted from the input and then propose to solve a "joint decomposition problem": Given a finite weighted alphabet with character masses {a_1,...,a_sigma} and a query "m", a "decomposition" of "m" is a non-negative integer vector (c_1,..., c_sigma) such that sum_i c_i a_i = m. Here, we have the problem of finding a "joint" decomposition "c" for a set of queries, where each query has to be decomposed over a different weighted alphabet. We present an efficient algorithm for producing all joint decompositions of the query vector and demonstrate its fitness on real data extracted from a metabolite database.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2007.01.pdf">https://pub.uni-bielefeld.de/download/2308810/2319775/2007.01.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Technical Faculty, Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Metabolomics</topic><topic>Efficient algorithms</topic><topic>Mass spectrometry</topic><topic>Integer decomposition</topic><topic>Isotopic pattern</topic>
+</subject>
+
+
+<relatedItem type="host">
+  <identifier type="issn">0946-7831</identifier><identifier type="urn">urn:nbn:de:hbz:361-11040</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<ieee> S. Böcker, et al., &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;, Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld,  Bielefeld: Technical Faculty, Bielefeld University, 2007.</ieee>
+<apa>Böcker, S., Letzel, M., Lipták, Z., &amp;amp; Pervukhin, A. (2007).  &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt; (Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld). Bielefeld: Technical Faculty, Bielefeld University.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Böcker, S., Letzel, M., Lipták, Z. &amp;amp; Pervukhin, A. (2007). &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt; (Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld). Bielefeld: Technical Faculty, Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Böcker, S., Letzel, M., Lipták, Z., and Pervukhin, A. (2007). Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns. &lt;em&gt;Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld&lt;/em&gt;, Bielefeld: Technical Faculty, Bielefeld University.</frontiers>
+<ama>Böcker S, Letzel M, Lipták Z, Pervukhin A. &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;. Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld. Bielefeld: Technical Faculty, Bielefeld University; 2007.</ama>
+<angewandte-chemie>S.  Böcker, M.  Letzel, Z.  Lipták, and A.  Pervukhin, &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;, Technical Faculty, Bielefeld University, Bielefeld, &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Böcker, S., et al., 2007. &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;, Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld, Bielefeld: Technical Faculty, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Böcker, S., Letzel, M., Lipták, Z., &amp;amp; Pervukhin, A. (2007).  &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt; (Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld). Bielefeld: Technical Faculty, Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Böcker S, Letzel M, Lipták Z, Pervukhin A (2007) &lt;br /&gt;&lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;. Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld.&lt;br /&gt;Bielefeld: Technical Faculty, Bielefeld University.</bio1>
+<wels>Böcker, S.; Letzel, M.; Lipták, Z.; Pervukhin, A. (2007): Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns. Bielefeld: Technical Faculty, Bielefeld University.</wels>
+<default>Böcker S, Letzel M, Lipták Z, Pervukhin A (2007)  Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld.&lt;br /&gt;Bielefeld: Technical Faculty, Bielefeld University.</default>
+<mla>Böcker, Sebastian, Letzel, Matthias, Lipták, Zsuzsanna, and Pervukhin, Anton. &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;. Bielefeld: Technical Faculty, Bielefeld University, 2007. Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Böcker, Sebastian, Letzel, Matthias, Lipták, Zsuzsanna, and Pervukhin, Anton. 2007. &lt;em&gt;Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns&lt;/em&gt;. Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld. Bielefeld: Technical Faculty, Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Böcker, S., Letzel, M., Lipták, Z., Pervukhin, A.: Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns. Forschungsberichte der Technischen Fakultät, Abteilung Informationstechnik / Universität Bielefeld. Technical Faculty, Bielefeld University, Bielefeld (2007).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2308810</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-08-05T09:03:16Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-28T10:23:40Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2524325">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using RDF to Describe and Link Social Science Data to Related Resources on the Web</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kramer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Amber</namePart>
+                        <namePart type="family">Leahey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Humphrey</namePart>
+                        <namePart type="family">Southall</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Johanna</namePart>
+                        <namePart type="family">Vompras</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8224-2884</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joachim</namePart>
+                        <namePart type="family">Wackerow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This document focuses on how best to relate Resource Description Framework (RDF)-described datasets to
+other related resources and objects (publications, geographies, organizations, people, etc.) in the Semantic
+Web. This includes a description of what would be needed to make these types of relationships most useful,
+including which RDF vocabularies should be used, potential link predicates, and possible data sources. RDF
+provides a good model for describing social science data because it supports formal semantics that provide a
+dependable basis for reasoning about the meaning of an RDF expression. In particular, it supports defined
+notions of entailment which provide a basis for defining reliable rules of inference in RDF data.
+
+Our findings are discussed in the context of social science data and more specifically, how to leverage
+existing metadata models to use alongside linked data. We provide a case for leveraging the Data
+Documentation Initiative (DDI) to enable semantic linking of social science data to other data and related
+resources on the Web. This document is organized into five use cases, which we consider in turn. Use cases
+include: linking related publications to data, linking data about people and organizations to research data,
+linking geography, linking to related studies, and linking data to licenses. We briefly discuss emerging or
+known issues surrounding the potential use of linked data within each of the defined use cases. Following
+these, we list more topics that could develop into additional use cases. Appendix A lists elements from the DDI-Codebook and DDI-Lifecycle specifications that are relevant to each use case.</abstract>
+                    <subject>
+                        <topic>Semantic Web</topic>
+                        <topic>DDI Matadata Standard</topic>
+                        <topic>Data Documentation in Social Sciences</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="issn">2153-8247</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25243250</identifier>
+                    <identifier type="doi">10.3886/DDISemanticWeb01</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2524325</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2524325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2524325/2524326/UsingRDFToDescribeAndLinkSocialScienceDataToRelatedResourcesOnTheWeb.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2524325" DMDID="DMD2524325">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2524325"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

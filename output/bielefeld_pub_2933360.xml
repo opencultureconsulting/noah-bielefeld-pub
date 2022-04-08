@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933360">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal Reduction of Public Debt under Partial Observation of the Economic Growth</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgia</namePart>
+                        <namePart type="family">Callegaro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Claudia</namePart>
+                        <namePart type="family">Ceci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a government that aims at reducing the debt-to-gross domestic product
+(GDP) ratio of a country. The government observes the level of the debt-to-GDP ratio and an
+indicator of the state of the economy, but does not directly observe the development of the underlying
+macroeconomic conditions. The government&apos;s criterion is to minimize the sum of the total expected
+costs of holding debt and of debt&apos;s reduction policies. We model this problem as a singular stochastic
+control problem under partial observation. The contribution of the paper is twofold. Firstly, we
+provide a general formulation of the model in which the level of debt-to-GDP ratio and the value of
+the macroeconomic indicator evolve as a diffusion and a jump-diffusion, respectively, with coefficients
+depending on the regimes of the economy. These are described through a finite-state continuous-time
+Markov chain. We reduce via filtering techniques the original problem to an equivalent one with full
+information (the so-called separated problem), and we provide a general verification result in terms of
+a related optimal stopping problem under full information. Secondly, we specialize to a case study in
+which the economy faces only two regimes, and the macroeconomic indicator has a suitable diffusive
+dynamics. In this setting we provide the optimal debt reduction policy. This is given in terms of the
+continuous free boundary arising in an auxiliary fully two-dimensional optimal stopping problem.</abstract>
+                    <subject>
+                        <topic>singular stochastic control</topic>
+                        <topic>partial observation</topic>
+                        <topic>filtering</topic>
+                        <topic>separated problem</topic>
+                        <topic>optimal stopping</topic>
+                        <topic>free boundary</topic>
+                        <topic>debt-to-GDP ratio</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>608</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29333605</identifier>
+                    <identifier type="sys">HT019954893</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933360</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933360">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933360/2933361/IMW_working_paper_608.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933360" DMDID="DMD2933360">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933360"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

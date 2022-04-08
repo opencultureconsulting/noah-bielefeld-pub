@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Metric Learning for Structured Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Sperduti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Schmidt-Thieme</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-04-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Distance measures form a backbone of machine learning and information retrieval in many application fields such as computer vision, natural language processing, and biology. However, general-purpose distances may fail to capture semantic particularities of a domain, leading to wrong inferences downstream. Motivated by such failures, the field of metric learning has emerged. Metric learning is concerned with learning a distance measure from data which pulls semantically similar data closer together and pushes semantically dissimilar data further apart. Over the past decades, metric learning approaches have yielded state-of-the-art results in many applications. Unfortunately, these successes are mostly limited to vectorial data, while metric learning for structured data remains a challenge.
+
+In this thesis, I present a metric learning scheme for a broad class of sequence edit distances which is compatible with any differentiable cost function, and a scalable, interpretable, and effective tree edit distance learning scheme, thus pushing the boundaries of metric learning for structured data.
+
+Furthermore, I make learned distances more useful by providing a novel algorithm to perform time series prediction solely based on distances, a novel algorithm to infer a structured datum from edit distances, and a novel algorithm to transfer a learned distance to a new domain using only little data and computation time.
+
+Finally, I apply these novel algorithms to two challenging application domains. First, I support students in intelligent tutoring systems. If a student gets stuck before completing a learning task, I predict how capable students would proceed in their situation and guide the student in that direction via edit hints. Second, I use transfer learning to counteract disturbances for bionic hand prostheses to make these prostheses more robust in patients&apos; everyday lives.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29355459</identifier>
+                    <identifier type="doi">10.4119/unibi/2935545</identifier>
+                    <identifier type="sys">HT020131868</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935545">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935545/2935546/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935545" DMDID="DMD2935545">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1587974">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>pknotsRG: RNA pseudoknot folding including near-optimal structures and sliding windows</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Reeder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">RNA pseudoknots are an important structural feature of RNAs, but often neglected in computer predictions for reasons of efficiency. Here, we present the pknotsRG Web Server for single sequence RNA secondary structure prediction including pseudoknots. pknotsRG employs the newest Turner energy rules for finding the structure of minimal free energy. The algorithm has been improved in several ways recently. First, it has been reimplemented in the C programming language, resulting in a 60-fold increase in speed. Second, all suboptimal foldings up to a user-defined threshold can be enumerated. For large scale analysis, a fast sliding window mode is available. Further improvements of the Web Server are a new output visualization using the PseudoViewer Web Service or RNAmovies for a movie like animation of several suboptimal foldings. The tool is available as source code, binary executable, online tool or as Web Service. The latter alternative allows for an easy integration into bio-informatics pipelines. pknotsRG is available at the Bielefeld Bioinformatics Server (http://bibiserv.techfak.uni-bielefeld.de/pknotsrg).</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>NUCLEIC ACIDS RESEARCH</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>35</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Web Server</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>W320</start>
+                                <end>W324</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0305-1048</identifier>
+                    <identifier type="eIssn">1362-4962</identifier>
+                    <identifier type="MEDLINE">17478505</identifier>
+                    <identifier type="ISI">000255311500060</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-15879747</identifier>
+                    <identifier type="doi">10.1093/nar/gkm258</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1587974</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1587974">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1587974/2311099/NAR_00224W.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1587974" DMDID="DMD1587974">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1587974"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

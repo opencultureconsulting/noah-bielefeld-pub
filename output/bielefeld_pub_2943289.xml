@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943289">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>parabolic p-Laplacian with fractional differentiability</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dominic</namePart>
+                        <namePart type="family">Breit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Diening</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0523-3079</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Storn</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1520-6557</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörn</namePart>
+                        <namePart type="family">Wichmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">preprint</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study the parabolic p-Laplacian system in a bounded domain. We deduce optimal convergence rates for the space-time discretization based on an implicit Euler scheme in time. Our estimates are expressed in terms of Nikolskii spaces and therefore cover situations when the (gradient of) the solution has only fractional derivatives in space and time. The main novelty is that, different to all previous results, we do not assume any coupling condition between the space and time resolution h and τ. The theoretical error analysis is complemented by numerical experiments.</abstract>
+                    <subject>
+                        <topic>Parabolic PDEs</topic>
+                        <topic>Nonlinear Laplace-type systems</topic>
+                        <topic>Finite element methods</topic>
+                        <topic>Space-time discretization</topic>
+                        <topic>p-heat equation</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="arXiv">2004.09919</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29432896</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943289</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaPreprint</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943289">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943289/2943290/2004.09919%281%29.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943289" DMDID="DMD2943289">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943289"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

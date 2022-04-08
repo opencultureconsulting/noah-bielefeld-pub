@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306324">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>CoryneRegNet : a reference database and analysis platform for corynebacterial gene regulatory networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Baumbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-05-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Detailed information on DNA-binding transcription factors (the key players in the regulation of gene expression) and on transcriptional regulatory interactions of microorganisms deduced from literature-derived knowledge, computer predictions and global DNA microarray hybridization experiments, has opened the way for the genome-wide analysis of transcriptional regulatory networks. The large-scale reconstruction of these networks allows the in silico analysis of cell behavior in response to changing environmental conditions. We previously published CoryneRegNet, an ontology-based data warehouse of corynebacterial transcription factors and regulatory networks. Initially, it was designed to provide methods for the analysis and visualization of the gene regulatory network of Corynebacterium glutamicum.
+Results: Now we introduce CoryneRegNet release 4.0, which integrates data on the gene regulatory networks of 4 corynebacteria, 2 mycobacteria and the model organism Escherichia coli K12. As the previous versions, CoryneRegNet provides a web-based user interface to access the database content, to allow various queries, and to support the reconstruction, analysis and visualization of regulatory networks at different hierarchical levels. In this article, we present the further improved database content of CoryneRegNet along with novel analysis features. The network visualization feature GraphVis now allows the inter-species comparisons of reconstructed gene regulatory networks and the projection of gene expression levels onto that networks. Therefore, we added stimulon data directly into the database, but also provide Web Service access to the DNA microarray analysis platform EMMA. Additionally, CoryneRegNet now provides a SOAP based Web Service server, which can easily be consumed by other bioinformatics software systems. Stimulons (imported from the database, or uploaded by the user) can be analyzed in the context of known transcriptional regulatory networks to predict putative contradictions or further gene regulatory interactions. Furthermore, it integrates protein clusters by means of heuristically solving the weighted graph cluster editing problem. In addition, it provides Web Service based access to up to date gene annotation data from GenDB.
+Conclusions: The release 4.0 of CoryneRegNet is a comprehensive system for the integrated analysis of procaryotic gene regulatory networks. It is a versatile systems biology platform to support the efficient and large-scale analysis of transcriptional regulation of gene expression in microorganisms. It is publicly available at http://www.CoryneRegNet.DE.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12979</identifier>
+                    <identifier type="sys">HT015935938</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306324</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306324">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306324/2306327/dissertation_jan_baumbach_080121.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306324" DMDID="DMD2306324">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306324"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

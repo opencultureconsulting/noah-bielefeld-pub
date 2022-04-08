@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1585611">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ning</namePart>
+                        <namePart type="family">Wei</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Erwin</namePart>
+                        <namePart type="family">Flaschel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karl</namePart>
+                        <namePart type="family">Friehs</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Cell viability is one of the basic properties indicating the physiological state of the cell, thus, it has long been one of the major considerations in biotechnological applications. Conventional methods for extracting information about cell viability usually need reagents to be applied on the targeted cells. These reagent-based techniques are reliable and versatile, however, some of them might be invasive and even toxic to the target cells. In support of automated noninvasive assessment of cell viability, a machine vision system has been developed. Results: This system is based on supervised learning technique. It learns from images of certain kinds of cell populations and trains some classifiers. These trained classifiers are then employed to evaluate the images of given cell populations obtained via dark field microscopy. Wavelet decomposition is performed on the cell images. Energy and entropy are computed for each wavelet subimage as features. A feature selection algorithm is implemented to achieve better performance. Correlation between the results from the machine vision system and commonly accepted gold standards becomes stronger if wavelet features are utilized. The best performance is achieved with a selected subset of wavelet features. Conclusion: The machine vision system based on dark field microscopy in conjugation with supervised machine learning and wavelet feature selection automates the cell viability assessment, and yields comparable results to commonly accepted methods. Wavelet features are found to be suitable to describe the discriminative properties of the live and dead cells in viability classification. According to the analysis, live cells exhibit morphologically more details and are intracellularly more organized than dead ones, which display more homogeneous and diffuse gray values throughout the cells. Feature selection increases the system&apos;s performance. The reason lies in the fact that feature selection plays a role of excluding redundant or misleading information that may be contained in the raw data, and leads to better results.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>449</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18939996</identifier>
+                    <identifier type="ISI">000260890900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-15856113</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-449</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1585611</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1585611">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1585611/2311090/BMC_35.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1585611" DMDID="DMD1585611">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1585611"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

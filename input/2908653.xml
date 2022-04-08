@@ -1,0 +1,304 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2908653</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Jakob Nikolas</namePart>
+  <namePart type="family">Kather</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Yannick</namePart>
+  <namePart type="family">Bukschat</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tilmann</namePart>
+  <namePart type="family">Kramer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Lothar R.</namePart>
+  <namePart type="family">Schad</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Frank Gerrit</namePart>
+  <namePart type="family">Zöllner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">#### S1: Normal ECG sample 
+
+&lt;center&gt;&lt;img
+src="https://pub.uni-bielefeld.de/download/2908653/2908701"
+width="40%" height="40%" style="float:right;" &gt;&lt;/center&gt;
+
+Description: 
+This supplementary material contains ECG data sonification of a healthy control.
+
+* [s0306lrem.wav](https://pub.uni-bielefeld.de/download/2908653/2908702) contains sound data for a six-channel data set, 10 seconds
+* [s0306lrem.png](https://pub.uni-bielefeld.de/download/2908653/2908701) contains the corresponding visual data, 10 seconds, sampling rate of 1000 Hz
+
+
+
+#### S2: Incremental signal
+
+Description:
+This supplementary material contains an incremental number of channels from a pathological (STEMI) ECG data sonification 
+
+&lt;center&gt;&lt;img
+src="https://pub.uni-bielefeld.de/download/2908653/2908709"
+width="40%" height="40%" style="float:right;" &gt;&lt;/center&gt;
+
+- [incremental_01.wav](https://pub.uni-bielefeld.de/download/2908653/2908703) only channel III (lowest), 10 seconds
+- [incremental_02.wav](https://pub.uni-bielefeld.de/download/2908653/2908704) channel III and aVF, 10 seconds
+- [incremental_03.wav](https://pub.uni-bielefeld.de/download/2908653/2908705) channel III and aVF and II, 10 seconds
+- [incremental_04.wav](https://pub.uni-bielefeld.de/download/2908653/2908706) channel III and aVF and II and -aVR, 10 seconds
+- [incremental_05.wav](https://pub.uni-bielefeld.de/download/2908653/2908707) channels III through I, 10 seconds
+- [incremental_06.wav](https://pub.uni-bielefeld.de/download/2908653/2908708) all channels, 10 seconds
+- [incremental_signal.png](https://pub.uni-bielefeld.de/download/2908653/2908709) shows the corresponding visual data, 10 seconds, sampling rate of 257 Hz
+
+
+#### S3: Pathological ECG samples
+
+Description:
+This supplementary material contains sonified ECG data of four pathological samples, corresponding to Figure 2 in the main manuscript. All samples are 10 seconds in length (original sound file in sub-folder “original”, amplified sound file in sub-folder “amplified”).
+
+
+- [Sample_I04m_STEMI.wav](https://pub.uni-bielefeld.de/download/2908653/2908710) ST-elevation myocardial infarction
+- [Sample_I37m_PVC.wav](https://pub.uni-bielefeld.de/download/2908653/2908711) Premature ventricular contraction
+- [Sample_I50m_AF.wav](https://pub.uni-bielefeld.de/download/2908653/2908712) Atrial fibrillation
+- [Sample_I51m_Bigeminy.wav](https://pub.uni-bielefeld.de/download/2908653/2908713) Bigeminy
+
+
+
+#### S4: Flowchart of the algorithm 
+
+&lt;center&gt;&lt;img src="https://pub.uni-bielefeld.de/download/2908653/2908719" width="100%" height="100%"/&gt;&lt;/center&gt;
+
+File: [S4_sonification_procedure_schematic.pdf](https://pub.uni-bielefeld.de/download/2908653/2908714) 
+
+Description:
+This PDF is a detailed flowchart of the algorithm including all relevant parameters. This can be used to implement our proposed method in any programming language.
+
+
+#### S5: Observer performance during data analysis
+
+File: [S5_performance_data.xls](https://pub.uni-bielefeld.de/download/2908653/2908715)
+
+Description:
+The spreadsheet contains all results of the data analysis by 22 blinded observers in three groups. S1 to S12 refer to the ECG samples, the number in each cell in these columns shows the classification by the observer. Correct classifications are shown in green, errors are shown in red. “Instrument” denotes whether the observer had been actively playing an instrument for three or more years at any time during their life.
+
+
+#### S6 Source code of Polyphonic ECG Sonification (in SuperCollider3)
+
+File: [S6_Polyphonic-ECG-Sonification.zip](https://pub.uni-bielefeld.de/download/2908653/2908761)
+
+Description: 
+The zipped folder contains the Supercollider3 source code, two data files in csv format and the resulting sonifications for Polyphonic ECG Sonification.  Instructions for how to render the sonifications are given in the source code header.
+
+
+#### S7 Source code of Polyphonic ECG Sonification (Matlab)
+
+File: [S7_Polyphonic-ECG-Sonification-matlab.zip](https://pub.uni-bielefeld.de/download/2908653/2908760)
+
+Description: 
+This file contains the source code in matlab which was also used for the rendering of sonifications in the study.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="s0306lrem.wav">https://pub.uni-bielefeld.de/download/2908653/2908702/s0306lrem.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="s0306lrem.png">https://pub.uni-bielefeld.de/download/2908653/2908701/s0306lrem.png</url>
+  </location>
+  <physicalDescription><internetMediaType>image/png</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_01.wav">https://pub.uni-bielefeld.de/download/2908653/2908703/incremental_01.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_02.wav">https://pub.uni-bielefeld.de/download/2908653/2908704/incremental_02.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_03.wav">https://pub.uni-bielefeld.de/download/2908653/2908705/incremental_03.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_04.wav">https://pub.uni-bielefeld.de/download/2908653/2908706/incremental_04.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_05.wav">https://pub.uni-bielefeld.de/download/2908653/2908707/incremental_05.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_06.wav">https://pub.uni-bielefeld.de/download/2908653/2908708/incremental_06.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="incremental_signal.png">https://pub.uni-bielefeld.de/download/2908653/2908709/incremental_signal.png</url>
+  </location>
+  <physicalDescription><internetMediaType>image/png</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Sample_I04m_STEMI.wav">https://pub.uni-bielefeld.de/download/2908653/2908710/Sample_I04m_STEMI.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Sample_I50m_AF.wav">https://pub.uni-bielefeld.de/download/2908653/2908712/Sample_I50m_AF.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Sample_I51m_Bigeminy.wav">https://pub.uni-bielefeld.de/download/2908653/2908713/Sample_I51m_Bigeminy.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Sample_I37m_PVC.wav">https://pub.uni-bielefeld.de/download/2908653/2908711/Sample_I37m_PVC.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4_sonification_procedure_schematic.pdf">https://pub.uni-bielefeld.de/download/2908653/2908714/S4_sonification_procedure_schematic.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4_sonification_procedure_schematic.png">https://pub.uni-bielefeld.de/download/2908653/2908719/S4_sonification_procedure_schematic.png</url>
+  </location>
+  <physicalDescription><internetMediaType>image/png</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5_performance_data.xls">https://pub.uni-bielefeld.de/download/2908653/2908715/S5_performance_data.xls</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6_Polyphonic-ECG-Sonification.zip">https://pub.uni-bielefeld.de/download/2908653/2908761/S6_Polyphonic-ECG-Sonification.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S7_Polyphonic-ECG-Sonification-matlab.zip">https://pub.uni-bielefeld.de/download/2908653/2908760/S7_Polyphonic-ECG-Sonification-matlab.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+
+<subject><topic>Sonification</topic><topic>auditory displays</topic><topic>electrocardiography</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2908653</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2908582</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ieee> J.N. Kather, et al., &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;, Bielefeld University, 2017.</ieee>
+<apa>Kather, J. N., Hermann, T., Bukschat, Y., Kramer, T., Schad, L. R., &amp;amp; Zöllner, F. G. (2017).  &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2908653</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kather, J.N., Hermann, T., Bukschat, Y., Kramer, T., Schad, L.R. &amp;amp; Zöllner, F.G. (2017). &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2908653.&lt;/div&gt;</dgps>
+<frontiers>Kather, J. N., Hermann, T., Bukschat, Y., Kramer, T., Schad, L. R., and Zöllner, F. G. (2017). Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies". Bielefeld University.</frontiers>
+<ama>Kather JN, Hermann T, Bukschat Y, Kramer T, Schad LR, Zöllner FG. &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University; 2017.</ama>
+<angewandte-chemie>J. N.  Kather, T.  Hermann, Y.  Bukschat, T.  Kramer, L. R.  Schad, and F. G.  Zöllner, &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2017&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kather, J. N., Hermann, T., Bukschat, Y., Kramer, T., Schad, L. R., &amp;amp; Zöllner, F. G. (2017).  &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2908653&lt;/div&gt;</apa_indent>
+<harvard1>Kather, J.N., et al., 2017. &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Kather JN, Hermann T, Bukschat Y, Kramer T, Schad LR, Zöllner FG (2017) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<wels>Kather, J. N.; Hermann, T.; Bukschat, Y.; Kramer, T.; Schad, L. R.; Zöllner, F. G. (2017): Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies". Bielefeld University.</wels>
+<default>Kather JN, Hermann T, Bukschat Y, Kramer T, Schad LR, Zöllner FG (2017) &lt;br /&gt;Bielefeld University.</default>
+<mla>Kather, Jakob Nikolas, Hermann, Thomas, Bukschat, Yannick, Kramer, Tilmann, Schad, Lothar R., and Zöllner, Frank Gerrit. &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University, 2017.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kather, Jakob Nikolas, Hermann, Thomas, Bukschat, Yannick, Kramer, Tilmann, Schad, Lothar R., and Zöllner, Frank Gerrit. 2017. &lt;em&gt;Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Kather, J.N., Hermann, T., Bukschat, Y., Kramer, T., Schad, L.R., Zöllner, F.G.: Supplementary Material for "Polyphonic sonification of electrocardiography signals for diagnosis of cardiac pathologies". Bielefeld University (2017).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2908653</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-02-20T12:20:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:46:10Z</recordChangeDate>
+</recordInfo>
+</mods>

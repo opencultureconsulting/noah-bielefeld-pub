@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2946500">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal reduction of public debt under partial observation of the economic growth</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgia</namePart>
+                        <namePart type="family">Callegaro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Claudia</namePart>
+                        <namePart type="family">Ceci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a government that aims at reducing the debt-to-(gross domestic product) (GDP) ratio of a country. The government observes the level of the debt-to-GDP ratio and an indicator of the state of the economy, but does not directly observe the development of the underlying macroeconomic conditions. The government&apos;s criterion is to minimise the sum of the total expected costs of holding debt and of debt reduction policies. We model this problem as a singular stochastic control problem under partial observation. The contribution of the paper is twofold. Firstly, we provide a general formulation of the model in which the level of the debt-to-GDP ratio and the value of the macroeconomic indicator evolve as a diffusion and a jump-diffusion, respectively, with coefficients depending on the regimes of the economy. The latter are described through a finite-state continuous-time Markov chain. We reduce the original problem via filtering techniques to an equivalent one with full information (the so-called separated problem), and we provide a general verification result in terms of a related optimal stopping problem under full information. Secondly, we specialise to a case study in which the economy faces only two regimes and the macroeconomic indicator has a suitable diffusive dynamics. In this setting, we provide the optimal debt reduction policy. This is given in terms of the continuous free boundary arising in an auxiliary fully two-dimensional optimal stopping problem.</abstract>
+                    <subject>
+                        <topic>Singular stochastic control</topic>
+                        <topic>Partial observation</topic>
+                        <topic>Optimal stopping</topic>
+                        <topic>Free</topic>
+                        <topic>boundary</topic>
+                        <topic>Debt-to-GDP ratio</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Finance and stochastics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>24</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1083</start>
+                                <end>1132</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0949-2984</identifier>
+                    <identifier type="eIssn">1432-1122</identifier>
+                    <identifier type="ISI">000570134000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29465004</identifier>
+                    <identifier type="doi">10.1007/s00780-020-00438-z</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2946500</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2946500">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2946500/2949153/ferrari2020_Article_OptimalReductionOfPublicDebtUn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2946500" DMDID="DMD2946500">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2946500"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

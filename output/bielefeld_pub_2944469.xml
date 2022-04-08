@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2944469">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Sprachsensibler Biologieunterricht mit neuzugewanderten Schüler*innen. Dem Kleinsten auf der Spur – Arbeiten mit dem Mikroskop</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Schmiedebach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Julia</namePart>
+                        <namePart type="family">Baumgarth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Claas</namePart>
+                        <namePart type="family">Wegner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8866-7704</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Beschulung neuzugewanderter Schüler\*innen hat in den letzten Jahren aufgrund steigender Zuwanderungszahlen an Bedeutung für das deutsche Schulsystem gewonnen. Oftmals werden diese Kinder und Jugendliche in eigens für sie eingerichtete Klassen, so genannten „internationalen Klassen“ (IK), Willkommensklassen, Sprachfördergruppen, etc., unterrichtet. Der vorliegende Artikel zeigt, wie in einer solchen Lerngruppe Biologieunterricht trotz geringer Sprachkenntnisse erfolgen kann und ist im Rahmen des Projekts „Biology for Everyone“ entstanden. Zudem lässt er sich auch im Regelunterricht als sprachsensibler Fachunterricht umsetzen.</abstract>
+                    <subject>
+                        <topic>Mikroskopieren</topic>
+                        <topic>neuzugewanderte Schüler*innen</topic>
+                        <topic>sprachsensibler Fachunterricht</topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BU praktisch - Das Online-Journal für den Biologieunterricht</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2627-4469</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29444695</identifier>
+                    <identifier type="doi">10.4119/bupraktisch-1516</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2944469</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2944469">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944469/2953144/1516-Artikeltext-17471-1-10-20200629.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" ID="FILE1_bielefeld_pub_2944469">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944469/2953145/1516-Arbeitsmaterial-17472-1-10-20200629.docx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2944469" DMDID="DMD2944469">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2944469"/>
+            <mets:div TYPE="part" ID="PART1_2944469" LABEL="1516-Arbeitsmaterial-17472-1-10-20200629.docx">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2944469"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

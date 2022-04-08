@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2396366">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Simulation Results for Manipulation of Unknown Objects in Hand</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Qiang</namePart>
+                        <namePart type="family">Li</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4315-0864</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bram</namePart>
+                        <namePart type="family">Bolder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper, the authors proposed a novel reactive
+strategy to solve a unknown object local manipulation problem
+with an multifingered robot hand. In this method, the micro
+manipulation assumption is proposed and the object can be
+manipulated within the robot hand workspace without the active
+and explicit controlling about the rolling and sliding of the
+fingertips on the object. A 6 D.O.F reactive controller based on
+the hybrid of the contact force and the contact position feedback
+is developed. A three layer hierarchical control structure is
+employed to implement this manipulation strategy. The simulation
+experiment is run based on the physics engine-Vortex, to show the
+feasibility of this method.</abstract>
+                    <subject>
+                        <topic>Multifingered Hand</topic>
+                        <topic>General Object Manipulation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-23963669</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2396366</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2396366">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2396366/2400525/General_Object_Local_Manipulation_Based_on_Reactive_Control_ROBIO2011.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2396366" DMDID="DMD2396366">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2396366"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,109 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305175</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Michael</namePart>
+  <namePart type="family">Dondrup</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">89815</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Since the acquisition of the first complete genomic sequences, many advances have been made in the field of functional genomics. High-throughput methods have been developed to study gene-expression and metabolic pathways.
+Microarrays have become a highly popular method to measure the transcriptional regulation in functional genomics. Microarrays allow to measure the expression levels of thousands of genes in parallel, but the measured datasets contain a certain level of technical and biological variation.
+Many methods for the analysis of large datasets from error-prone microarray experiments have been developed, including normalization, statistical inference, and machine learning. Attempts to standardize the annotation of microarray data, such as Minimum Information About a Microarray Experiment (MIAME), the MAGE-ML format for data interchange, and ontologies, have been made.
+The existing software systems for microarray data analysis have only rudimentary implementations of the mentioned standards and are hard to extend.
+The EMMA2 software has been designed to resolve these shortcomings. Its specification includes full support of MIAME and MAGE-ML as well as the support of ontologies. Integration of genomic annotation data and other internal and external data-sources has been an important requirement.
+The specification, design, and implementation of EMMA2 follows an object-oriented development paradigm. This is reflected in the use of object-oriented modeling tools such as the Unified Modeling Language (UML).
+During the design phase, the MAGE object model was taken as the core of the application to model microarray data and their annotations. Additional models were needed to complement MAGE by classes for access control and data analysis.
+The software has been implemented using a code-generation approach. The backend code and database definitions have been derived from the joint object model defined in UML. EMMA2 can be used via a web interface and contains a Laboratory Information Management System (LIMS) component.
+A flexible PlugIn system for data analysis, which includes methods for preprocessing, normalization, statistical tests, cluster analysis, and visualization, has been added. Integration of other functional genomics data sources has been implemented by using the integration layer BRIDGE and also by the use of web services. Data integration allows for several new visualization components using metabolic pathway data and functional categories.
+The system is successfully applied in eight national and international projects. More that 2700 microarrays have been processed using EMMA2. Furthermore, an evaluation study has been carried out to compare the performance of inference tests for microarrays. As a result of this study, two methods (SAM and CyberT) can be recommended for experiments with very few replicates, while for larger numbers of replicates the t-test performs comparable.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DissertationDondrup.pdf">https://pub.uni-bielefeld.de/download/2305175/2305178/DissertationDondrup.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Microarray</topic><topic>Datenanalyse</topic><topic>IDAMS</topic><topic>Genregulation</topic><topic>Bioinformatik</topic><topic>Funktionelle Genomforschung</topic><topic>Datenmanagement</topic><topic>Microarray</topic><topic>Functional genomics</topic><topic>Data analysis</topic><topic>Data management</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-12363</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-05-24</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> M. Dondrup, &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<apa>Dondrup, M. (2007).  &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dondrup, M. (2007). &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Dondrup, M. (2007). EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Dondrup M. &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<angewandte-chemie>M.  Dondrup, &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dondrup, M. (2007).  &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Dondrup M (2007) &lt;br /&gt;&lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Dondrup, M., 2007. &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<wels>Dondrup, M. (2007): EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics. Bielefeld (Germany): Bielefeld University.</wels>
+<default>Dondrup M (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Dondrup, Michael. &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dondrup, Michael. 2007. &lt;em&gt;EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Dondrup, M.: EMMA2 : a MAGE-compliant system for the analysis of microarray data in integrated functional genomics. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305175</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-01-29T13:42:50Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:03Z</recordChangeDate>
+</recordInfo>
+</mods>

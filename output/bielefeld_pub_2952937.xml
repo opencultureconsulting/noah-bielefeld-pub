@@ -1,0 +1,116 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2952937">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient Reject Options for Particle Filter Object Tracking in Medical Applications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0739-612X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim</namePart>
+                        <namePart type="family">Redick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nassim</namePart>
+                        <namePart type="family">Ayoub</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ali</namePart>
+                        <namePart type="family">Modabber</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Abel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Reliable object tracking that is based on video data constitutes an important challenge in diverse areas, including, among others, assisted surgery. Particle filtering offers a state-of-the-art technology for this challenge. Becaise a particle filter is based on a probabilistic model, it provides explicit likelihood values; in theory, the question of whether an object is reliably tracked can be addressed based on these values, provided that the estimates are correct. In this contribution, we investigate the question of whether these likelihood values are suitable for deciding whether the tracked object has been lost. An immediate strategy uses a simple threshold value to reject settings with a likelihood that is too small. We show in an application from the medical domain—object tracking in assisted surgery in the domain of Robotic Osteotomies—that this simple threshold strategy does not provide a reliable reject option for object tracking, in particular if different settings are considered. However, it is possible to develop reliable and flexible machine learning models that predict a reject based on diverse quantities that are computed by the particle filter. Modeling the task in the form of a regression enables a flexible handling of different demands on the tracking accuracy; modeling the challenge as an ensemble of classification tasks yet surpasses the results, while offering the same flexibility.</abstract>
+                    <subject>
+                        <topic>secure object tracking</topic>
+                        <topic>reject option</topic>
+                        <topic>particle filtering</topic>
+                        <topic>assisted surgery</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Sensors</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1424-8220</identifier>
+                    <identifier type="MEDLINE">33803030</identifier>
+                    <identifier type="ISI">000652732100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29529376</identifier>
+                    <identifier type="doi">10.3390/s21062114</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2952937</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2952937">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2952937/2953013/sensors-21-02114-v2.kummert.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2952937" DMDID="DMD2952937">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2952937"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

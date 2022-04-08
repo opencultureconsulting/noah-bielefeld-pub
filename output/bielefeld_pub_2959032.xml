@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959032">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reprocessing 16S rRNA Gene Amplicon Sequencing Studies: (Meta)Data Issues, Robustness, and Reproducibility</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Xiangbin</namePart>
+                        <namePart type="family">Kang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dong Mei</namePart>
+                        <namePart type="family">Deng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wim</namePart>
+                        <namePart type="family">Crielaard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd W</namePart>
+                        <namePart type="family">Brandt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">High-throughput sequencing technology provides an efficient method for evaluating microbial ecology. Different bioinformatics pipelines can be used to convert 16S ribosomal RNA gene amplicon sequencing data into an operational taxonomic unit (OTU) table that is used to analyze microbial communities. It is important to assess the robustness of these pipelines, each with specific algorithms and/or parameters, and their influence on the outcome of statistical tests. Articles with publicly available datasets on the oral microbiome were searched for, and five datasets were retrieved. These were from studies on changes in microbiota related to smoking, oral cancer, caries, diabetes, or periodontitis. Next, the data was processed with four pipelines based on VSEARCH, USEARCH, mothur, and UNOISE3. OTU tables were rarefied, and differences in alpha-diversity and beta-diversity were tested for different groups in a dataset. Finally, these results were checked for consistency among these example pipelines. Of articles that deposited data, only 57% made all sequencing and metadata available. When processing the datasets, issues were encountered, caused by read characteristics and differences between tools and their defaults in combination with a lack of detail in the methodology of the articles. In general, the four mainstream pipelines provided similar results, but importantly, P-values sometimes differed between pipelines beyond the significance threshold. Our results indicated that for published articles, the description of bioinformatics methods and data deposition should be improved, and regarding reproducibility, that analysis of multiple subsamples is required when using rarefying as library-size normalization method. Copyright © 2021 Kang, Deng, Crielaard and Brandt.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in cellular and infection microbiology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2235-2988</identifier>
+                    <identifier type="MEDLINE">34746021</identifier>
+                    <identifier type="ISI">000721096900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29590326</identifier>
+                    <identifier type="doi">10.3389/fcimb.2021.720637</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959032</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959032">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959032/2959587/fcimb-11-720637.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959032" DMDID="DMD2959032">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959032"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,117 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2654984">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>robust sound perception model suitable for neuromorphic implementation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">M.</namePart>
+                        <namePart type="family">Coath</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">S.</namePart>
+                        <namePart type="family">Sheik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">S.</namePart>
+                        <namePart type="family">Denham</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">T.</namePart>
+                        <namePart type="family">Wennekers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We have recently demonstrated the emergence of dynamic feature sensitivity through exposure to formative stimuli in a real-time neuromorphic system implementing a hybrid analog/digital network of spiking neurons. This network, inspired by models of auditory processing in mammals, includes several mutually connected layers with distance-dependent transmission delays and learning in the form of spike timing dependent plasticity, which effects stimulus-driven changes in the network connectivity. Here we present results that demonstrate that the network is robust to a range of variations in the stimulus pattern, such as are found in naturalistic stimuli and neural responses. This robustness is a property critical to the development of realistic, electronic neuromorphic systems. We analyze the variability of the response of the network to “noisy” stimuli which allows us to characterize the acuity in information-theoretic terms. This provides an objective basis for the quantitative comparison of networks, their connectivity patterns, and learning strategies, which can inform future design decisions. We also show, using stimuli derived from speech samples, that the principles are robust to other challenges, such as variable presentation rate, that would have to be met by systems deployed in the real world. Finally we demonstrate the potential applicability of the approach to real sounds.</abstract>
+                    <subject>
+                        <topic>neuromorphic</topic>
+                        <topic>VLSI</topic>
+                        <topic>information</topic>
+                        <topic>plasticity</topic>
+                        <topic>modeling</topic>
+                        <topic>auditory</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Neuromorphic Engineering</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>278</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1</start>
+                                <end>10</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-453X</identifier>
+                    <identifier type="eIssn">1662-453X</identifier>
+                    <identifier type="MEDLINE">24478621</identifier>
+                    <identifier type="ISI">000346414800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26549844</identifier>
+                    <identifier type="doi">10.3389/fnins.2013.00278</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2654984</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2654984">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2654984/2654985/fnins-07-00278.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2654984" DMDID="DMD2654984">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2654984"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2939025">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bimanual Interaction with Clothes. Topology, Geometry, and Policy Representations in Robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Twardon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-11-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">If anthropomorphic robots are to assist people with activities of daily living, they must be able to handle all kinds of everyday objects, including highly deformable ones such as garments. The present thesis begins with a detailed problem analysis of robotic interaction with and perception of clothes. We show that handling items of clothing is very challenging due to their complex dynamics and the vast number of degrees of freedom. As a result of our analysis, we obtain a topological, geometric, and functional description of garments that supports the development of reduced object and task representations. One of the key findings is that the boundary components, which typically correspond with the openings, characterize garments well, both in terms of their topology and their inherent purpose, namely dressing. We present a polygon-based and an interactive method for identifying boundary components using RGB-D vision with application to grasping. Moreover, we propose Active
+Boundary Component Models (ABCMs), a constraint-based framework for tracking garment openings with point clouds. It is often difficult to maintain an accurate representation of the objects involved in contact-rich interaction tasks such as dressing assistance. Therefore, our policy optimization approach to putting a knit cap on a styrofoam head avoids modeling the details of the garment and its deformations. The experimental results suggest that a heuristic performance measure that takes into account the amount of contact established between the two objects is suitable for the task.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29390254</identifier>
+                    <identifier type="doi">10.4119/unibi/2939025</identifier>
+                    <identifier type="sys">HT020332597</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2939025</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2939025">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939025/2939083/thesis_ltwardon_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2939025" DMDID="DMD2939025">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2939025"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943046">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cung</namePart>
+                        <namePart type="family">Lian Sang</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6144-9544</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bastian</namePart>
+                        <namePart type="family">Steinhagen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7905-513X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jonas Dominik</namePart>
+                        <namePart type="family">Homburg</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4760-8510</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Adams</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4986-3654</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hesse</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9500-3284</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In Ultra-wideband (UWB)-based wireless ranging or distance measurement, differentiation between line-of-sight (LOS), non-line-of-sight (NLOS), and multi-path (MP) conditions are important for precise indoor localization. This is because the accuracy of the reported measured distance in UWB ranging systems is directly affected by the measurement conditions (LOS, NLOS or MP). However, the major contributions in literature only address the binary classification between LOS and NLOS in UWB ranging systems. The MP condition is usually ignored. In fact, the MP condition also has a significant impact on the ranging errors of the UWB compared to the direct LOS measurement results. Though, the magnitudes of the error contained in MP conditions are generally lower than completely blocked NLOS scenarios. This paper addresses machine learning techniques for identification of the mentioned three classes (LOS, NLOS, and MP) in the UWB indoor localization system using an experimental data-set. The data-set was collected in different conditions at different scenarios in indoor environments. Using the collected real measurement data, we compare three machine learning (ML) classifiers, i.e., support vector machine (SVM), random forest (RF) based on an ensemble learning method, and multilayer perceptron (MLP) based on a deep artificial neural network, in terms of their performance. The results show that applying ML methods in UWB ranging systems are effective in identification of the above-mentioned three classes. In specific, the overall accuracy reaches up to 91.9% in the best-case scenario and 72.9%  in the worst-case scenario. Regarding the F1-score, it is 0.92 in the best-case and 0.69 in the worst-case scenario. For reproducible results and further exploration, we provide the publicly accessible experimental research data discussed in this paper at PUB - Publications at Bielefeld University. The evaluations of the three classifiers are conducted using the open-source python machine learning library scikit-learn.</abstract>
+                    <abstract lang="eng">Appl. Sci. 2020, 10(11), 3980; https://doi.org/10.3390/app10113980</abstract>
+                    <subject>
+                        <topic>UWB</topic>
+                        <topic>NLOS identification</topic>
+                        <topic>multi-path detection</topic>
+                        <topic>NLOS and MP discrimination</topic>
+                        <topic>machine learning</topic>
+                        <topic>SVM</topic>
+                        <topic>random forest</topic>
+                        <topic>multilayer perceptron</topic>
+                        <topic>LOS</topic>
+                        <topic>DWM1000</topic>
+                        <topic>indoor localization</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Applied Sciences</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="ISI">000543385900317</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29430468</identifier>
+                    <identifier type="doi">10.3390/app10113980</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943046</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943046">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943046/2943837/applsci-10-03980_ks_uni_bielefeld.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943046" DMDID="DMD2943046">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943046"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

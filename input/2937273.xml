@@ -1,0 +1,129 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2937273</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Johannes</namePart>
+  <namePart type="family">Ax</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">25328392</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4943-2715</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Das Ziel der vorliegenden Arbeit ist die Realisierung und Analyse einer skalierbaren
+Verbindungsstruktur für ein Multi-Prozessorsystem auf einem Chip (MPSoC). Durch
+die zunehmende Digitalisierung werden in immer mehr Geräten des täglichen Lebens
+und der Industrie mikroelektronische Systeme eingesetzt. Hierbei handelt es sich häufig
+um energiebeschränkte Systeme, die zusätzlich einen stetig steigenden Bedarf an
+Rechenleistung aufweisen. Ein Trend, diesen Bedarf zu decken ist die Integration von
+zunehmend mehr Prozessorkernen auf einem einzelnen Mikrochip. Many-Core-Systeme
+mit vielen hunderten bis tausenden ressourceneffizienten CPU-Kernen versprechen
+hierbei eine besonders hohe Energieeffizienz. Im Vergleich zu Systemen mit wenigen
+leistungsfähigen, jedoch auch komplexeren CPUs, wird bei Many-Cores die Rechenleistung
+durch massive Parallelität erzielt. In der AG Kognitronik und Sensorik der
+Universität Bielefeld wird dazu das CoreVA-MPSoC entwickelt. Um hunderte von CPUs
+auf einen Chip zu integrieren, verfügt das CoreVA-MPSoC über eine hierarchische
+Verbindungsstruktur. Diese besteht aus einem On-Chip-Netzwerk (NoC), welches eine
+Vielzahl von CPU-Cluster koppelt. In jedem CPU-Cluster sind mehrere ressourceneffiziente
+VLIW-Prozessorkerne über eine eng gekoppelte Bus-Struktur verbunden.
+Der Fokus dieser Arbeit ist die Entwicklung und Entwurfsraumexploration einer
+ressourceneffizienten NoC-Architektur für den Einsatz im CoreVA-MPSoC. Die Entwurfsraumexploration
+findet dazu auf verschiedenen Ebenen statt. Auf der Ebene der
+Verbindungsstruktur des NoCs werden verschiedene Topologien und Mechanismen der
+Flusskontrolle untersucht. Des Weiteren wird die Entwicklung und Analyse eines synchronen,
+mesochronen und asynchronen NoCs vorgestellt, um die Skalierbarkeit und
+Energieeffizienz dieser Methoden zu untersuchen. Eine weitere Ebene bildet die Schnittstelle
+zum Prozessorsystem bzw. CPU-Cluster, die einen maßgeblichen Einfluss auf die
+Softwareentwicklung und Gesamtperformanz des Systems hat. Auf Systemebene wird
+schließlich die Anbindung verschiedener Speicherarchitekturen an das NoC vorgestellt
+und deren Auswirkung auf Performanz und Energiebedarf analysiert. Ein abstraktes
+Modell des CoreVA-MPSoCs mit Fokus auf dem NoC erlaubt die Abschätzung von Fläche,
+Performanz und Energie des Systems, bzw. der Ausführung von Streaming-Anwendungen.
+Dieses Modell kann im CoreVA-MPSoC-Compiler für die automatische Abbildung
+von Anwendungen auf dem MPSoC eingesetzt werden. Zehn Streaming-Anwendungen,
+vorwiegend aus dem Bereich der Signal- und Bildverarbeitung, zeigen bei der Abbildung
+auf einem CoreVA-MPSoC mit 32 CPUs eine durchschnittliche Beschleunigung um den
+Faktor 24 gegenüber der Ausführung auf einer CPU.
+Ein CoreVA-MPSoC mit 64 CPUs und insgesamt 3MB Speicher besitzt bei einer prototypischen
+Implementierung in einer 28-nm-FD-SOI-Standardzellenbibliothek einen
+Flächenbedarf von 14,4mm2. Bei einer Taktfrequenz von 700MHz liegt die durchschnittliche
+Leistungsaufnahme bei 2W. Eine FPGA-basierte Emulation auf einem
+FPGA-Cluster aus Xilinx Virtex-5-FPGAs erlaubt zudem eine skalierbare Verifikation
+eines CoreVA-MPSoCs mit nahezu beliebig vielen CPUs.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2019_09_07_Dissertation_Johannes_Ax.pdf">https://pub.uni-bielefeld.de/download/2937273/2937274/2019_09_07_Dissertation_Johannes_Ax.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29372738</identifier><identifier type="doi">10.4119/unibi/2937273</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-07-25</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Ax, Johannes. &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+<default>Ax J (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<lncs> Ax, J.: On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren. Universität Bielefeld, Bielefeld (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ax, Johannes. 2019. &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<bio1>Ax J (2019) &lt;br /&gt;&lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ax, J. (2019).  &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2937273&lt;/div&gt;</apa_indent>
+<harvard1>Ax, J., 2019. &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>J.  Ax, &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<wels>Ax, J. (2019): On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren. Bielefeld: Universität Bielefeld.</wels>
+<apa>Ax, J. (2019).  &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2937273</apa>
+<ieee> J. Ax, &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<ama>Ax J. &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<frontiers>Ax, J. (2019). On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ax, J. (2019). &lt;em&gt;On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2937273.&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2937273</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-09-10T19:10:20Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-10-10T04:56:52Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2701536">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Vision-based prediction of human driver behavior in urban traffic environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Heracles</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-10-31</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We address the problem of inferring the appropriate behavior of a human driver from visual information about urban traffic scenes. The visual information is acquired by an on-board camera that monitors the scene in front of the car, resulting in a video stream as seen by the driver. The appropriate behavior consists in the actions a responsible driver would typically perform in the depicted situations, including both longitudinal and lateral control. As solving the problem would enable a technical system to generate independent behavioral expectations, potential applications are in driver assistance and autonomous navigation.
+
+While autonomous vehicles have mastered highway, off-road, and urban traffic environments by now, their perceptual basis has fundamentally shifted towards non-visual sensors. The same is true of driver assistance systems, which are in addition limited to specific functions like collision avoidance or lane keeping. Partly, the reason lies in the complexity of urban traffic scenes, being rich in visual information and often densely populated by other traffic participants. Moreover, their diversity complicates their relationship to driving behavior: Many situations require the same behavior while others allow for several alternatives.
+
+In this context, we propose a novel framework based on scene categorization that approaches the problem from its behavioral side: Subdividing the behavior space induces visual categories for which dedicated classifiers are then learned. The visual complexity is handled by decomposing the traffic scenes into their constituent semantic entities and computing object-level features. While using known techniques, our linking them to actual human driver behavior is also novel. To validate our approach, we conduct experiments on video streams recorded in real urban traffic, including a detailed comparison to the state-of-the-art.
+
+Our results give compelling evidence of the superior robustness of our system, compared to the filter-based representation of the current method. This finding is consistent with general results in scene categorization and emphasizes their importance for behavior prediction. Moreover, our scene categorization based behavior prediction framework offers exciting possibilities for future research. Examples include a route-planning layer on top of the proposed system to go beyond reactive behavior, multi-modal extensions by audio or tactile sensors to enrich the perceptual basis, and real-time applications in the automotive domain.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27015360</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2701536</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2701536">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2701536/2701537/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2701536" DMDID="DMD2701536">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2701536"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

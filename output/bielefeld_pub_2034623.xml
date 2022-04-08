@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2034623">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using Articulated Scene Models for Dynamic 3D Scene Analysis in Vista Spaces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Niklas</namePart>
+                        <namePart type="family">Beuter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Agnes</namePart>
+                        <namePart type="family">Swadzba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we describe an efficient but detailed new approach to analyze complex dynamic scenes directly in 3D. The arising information is important for mobile robots to solve tasks in the area of household robotics. In our work a mobile robot builds an articulated scene model
+by observing the environment in the visual field or rather in the so-called vista space. The articulated scene model consists of essential knowledge about the static background, about autonomously moving entities like humans or robots and finally, in contrast to existing approaches, information about articulated parts. These parts describe movable objects like hairs, doors or other tangible entities, which could be moved by an agent. The combination of the static scene, the self-moving entities and the movable objects in one articulated scene model enhances the calculation of each single part. The reconstruction process for parts of the static scene benefits from removal of the dynamic parts and in turn, the moving parts can be extracted more easily through the knowledge about the background. In our experiments we show, that the system delivers simultaneously an accurate static background model, moving persons and movable objects. This information of the articulated scene model enables a mobile robot to detect and keep track of interaction partners, to navigate safely
+through the environment and finally, to strengthen the interaction with the user through the knowledge about the 3D articulated objects and 3D scene analysis.</abstract>
+                    <subject>
+                        <topic>3D</topic>
+                        <topic>3D ToF Sensor</topic>
+                        <topic>Scene Modeling</topic>
+                        <topic>dynamic scenes</topic>
+                        <topic>scene analysis</topic>
+                        <topic>3D time-of-flight sensor</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>3D Research</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2092-6731</identifier>
+                    <identifier type="eIssn">2092-6731</identifier>
+                    <identifier type="arXiv">1001.3192</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20346231</identifier>
+                    <identifier type="doi">10.1007/3DRes.03(2010)04</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2034623</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2034623">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2034623/2612483/3D_Research-10-ASM_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2034623" DMDID="DMD2034623">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2034623"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

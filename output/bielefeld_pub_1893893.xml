@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1893893">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Phylogenetic Comparative Assembly</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Husemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND:Recent high throughput sequencing technologies are capable of generating a huge amount of data for bacterial genome sequencing projects. Although current sequence assemblers successfully merge the overlapping reads, often several contigs remain which cannot be assembled any further. It is still costly and time consuming to close all the gaps in order to acquire the whole genomic sequence. RESULTS:Here we propose an algorithm that takes several related genomes and their phylogenetic relationships into account to create a graph that contains the likelihood for each pair of contigs to be adjacent. Subsequently, this graph can be used to compute a layout graph that shows the most promising contig adjacencies in order to aid biologists in finishing the complete genomic sequence. The layout graph shows unique contig orderings where possible, and the best alternatives where necessary. CONCLUSIONS:Our new algorithm for contig ordering uses sequence similarity as well as phylogenetic information to estimate adjacencies of contigs. An evaluation of our implementation shows that it performs better than recent approaches while being much faster at the same time</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms for Molecular Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>5</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1748-7188</identifier>
+                    <identifier type="MEDLINE">20047659</identifier>
+                    <identifier type="ISI">000275153400003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-18938936</identifier>
+                    <identifier type="doi">10.1186/1748-7188-5-3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1893893</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1893893">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1893893/2315028/Husemann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1893893" DMDID="DMD1893893">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1893893"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,97 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305605</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kai</namePart>
+  <namePart type="family">Essig</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Die vorliegende Arbeit beschreibt einen neuen Ansatz für die inhaltsbasierte Suche von Bildern in Datenbanken auf Basis von Blickbewegungsmessungen. Im Vision-Based Image Retrieval (VBIR) werden die Bilder in 16 gleich große Sektoren unterteilt, für die jeweils lokale Farb-, Form- und Texturmerkmale berechnet werden. Das Besondere am VBIR-Ansatz ist die dynamische Gewichtung lokaler Bildmerkmale (Bottom-Up Informationen) aus Aufmerksamkeitslandschaften online erfasster Blickdaten (Top-Down Informationen). Auf diese Weise passt sich das System den Präferenzen des Benutzers an. In den folgenden Suchprozessen werden dann solche Bilder ausgewählt, die dem gesuchten Bild in den bevorzugten Sektoren und Bildeigenschaften am ähnlichsten sind. Das neue System wurde in zwei Studien evaluiert, deren Ergebnisse vorgestellt werden: zum einen wird der neue Ansatz mit einem klassischen Bildsuchsystem (CBIR) verglichen. Zum anderen werden die Suchergebnisse beider Ansätze gemäß menschlichen Ähnlichkeitsbewertungen beurteilt. Die Ergebnisse belegen, dass mit dem VBIR-System eine höhere Erfolgsquote bei kürzeren mittleren Suchzeiten erreicht werden kann. Darüber hinaus werden die gefundenen Bilder als ähnlicher zum Anfragebild bewertet als beim CBIR-System.
+Bei der Umsetzung der Bildsuchsysteme werden zwei zentrale Aspekte für deren Gestaltungsprozess, nämlich die Bestimmung der optimalen Gewichtung der Bildmerkmale und die Merkmalsevaluierung, genauer untersucht. Dabei wird die optimale Gewichtung der eingesetzten Merkmalstypen mittels Shannon-Entropie aus Distanzhistogrammen berechnet. Im Gegensatz zu den üblichen Ansätzen, die iterativ die Einzelgewichtungen manuell anpassen, erfordert dieses Verfahren lediglich einen Rechendurchgang. Die Evaluation der Bildmerkmale erfolgt über ein Lernverfahren, eine Selbstorganisierende Merkmalskarte (SOM), welche Bilder gemäß ihrer Merkmalsähnlichkeit auf einem 2D Gitter anordnet.
+Die Arbeit schließt mit der Beschreibung von Computermodellen, mit denen die Suchprozesse für beide Bildsuchverfahren (VBIR und CBIR) in wesentlichen Zügen nachgebildet werden. Mittels eines weiteren, separaten Modells wird evaluiert, wie die verschiedenen Bildeigenschaften die Aufmerksamkeit der Probanden steuern.</abstract>
+<abstract lang="eng">This thesis presents a novel eye-movement based approach to image retrieval. Following a so-called Vision-Based Image Retrieval (VBIR) approach, images are divided into 16 equally sized tiles. Local colour, shape and texture features are calculated for each tile. A special feature of VBIR is the dynamical adjustment of the weights of the local image features (bottom-up information) on the basis of fixation maps. These maps are calculated online from participants' eye movements (top-down information). Thus, in the course of the retrieval process, the system adapts closer to users' preferences and finds images that are most similar to the query image in the preferred image tiles and features. In order to evaluate the performance of the VBIR system, two experiments are conducted: for one, the new approach is compared to a classical Content-Based Image Retrieval System (CBIRS) with regard to performance and reaction times. For another, the retrieval results of both approaches are evaluated with respect to participants' overall impression of similarity. The results reveal not only better retrieval performances and lower average reaction times in case of the VBIR system, but also higher ratings for the similarity between the systems' retrieval results and the corresponding query images.
+Two central aspects in the design process of retrieval systems are analysed: the estimation of the optimal feature weights and the evaluation of the chosen image features. The optimal feature weight combination is calculated from feature distance histograms using Shannon's entropy measure. The advantage of this method is that it requires only a single computation loop to find the optimal feature weights instead of an iterative loop of user inputs. The feature evaluation method applies a learning algorithm, the self-organizing map (SOM), which arranges images on a 2D grid according to the similarities in their feature vectors.
+This thesis concludes with a description of computer models simulating retrieval processes of both approaches (VBIR and CBIRS). A second, separate model evaluates the influence of different image features on participants' attention distribution.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_Kai_Essig.pdf">https://pub.uni-bielefeld.de/download/2305605/2305608/diss_Kai_Essig.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Bilddatenbanksystem</topic><topic>Information Retrieval</topic><topic>Bildverstehen</topic><topic>Merkmalsextraktion</topic><topic>Inhaltsbasierte Bildsuche</topic><topic>Eyetracking</topic><topic>Visuelle Aufmerksamkeit</topic><topic>Vision-based image retrieval (VBIR)</topic><topic>Content-based image retrieval (CBIR)</topic><topic>Eye tracking</topic><topic>Visual attention</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-12373</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-12-17</dateOther>
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Essig, K. (2007). &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Essig, K. (2007). Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Essig K. &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<ieee> K. Essig, &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<apa>Essig, K. (2007).  &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<wels>Essig, K. (2007): Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>K.  Essig, &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Essig, K., 2007. &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Essig, K. (2007).  &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Essig K (2007) &lt;br /&gt;&lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Essig, Kai. 2007. &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Essig, K.: Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<default>Essig K (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Essig, Kai. &lt;em&gt;Vision-based image retrieval (VBIR) : a new eye-tracking based approach to efficient and intuitive image retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305605</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-01-21T11:45:50Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:19Z</recordChangeDate>
+</recordInfo>
+</mods>

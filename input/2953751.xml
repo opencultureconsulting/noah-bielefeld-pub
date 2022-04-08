@@ -1,0 +1,90 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2953751</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:330</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Dietmar</namePart>
+  <namePart type="family">Bauer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45080422</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-2920-7032</description></name>
+<name type="personal">
+  <namePart type="given">Rainer</namePart>
+  <namePart type="family">Buschmeier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">50300713</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1125-8122</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">44359448</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper investigates the asymptotic properties of estimators obtained from the so called CVA (canonical variate analysis) subspace algorithm proposed by Larimore (1983) in the case when the data is generated using a minimal state space system containing unit roots at the seasonal frequencies such that the yearly difference is a stationary vector autoregressive moving average (VARMA) process. The empirically most important special cases of such data generating processes are the I(1) case as well as the case of seasonally integrated quarterly or monthly data. However, increasingly also datasets with a higher sampling rate such as hourly, daily or weekly observations are available, for example for electricity consumption. In these cases the vector error correction representation (VECM) of the vector autoregressive (VAR) model is not very helpful as it demands the parameterization of one matrix per seasonal unit root. Even for weekly series this amounts to 52 matrices using yearly periodicity, for hourly data this is prohibitive. For such processes estimation using quasi-maximum likelihood maximization is extremely hard since the Gaussian likelihood typically has many local maxima while the parameter space often is high-dimensional. Additionally estimating a large number of models to test hypotheses on the cointegrating rank at the various unit roots becomes practically impossible for weekly data, for example. This paper shows that in this setting CVA provides consistent estimators of the transfer function generating the data, making it a valuable initial estimator for subsequent quasi-likelihood maximization. Furthermore, the paper proposes new tests for the cointegrating rank at the seasonal frequencies, which are easy to compute and numerically robust, making the method suitable for automatic modeling. A simulation study demonstrates by example that for processes of moderate to large dimension the new tests may outperform traditional tests based on long VAR approximations in sample sizes typically found in quarterly macroeconomic data. Further simulations show that the unit root tests are robust with respect to different distributions for the innovations as well as with respect to GARCH-type conditional heteroskedasticity. Moreover, an application to Kaggle data on hourly electricity consumption by different American providers demonstrates the usefulness of the method for applications. Therefore the CVA algorithm provides a very useful initial guess for subsequent quasi maximum likelihood estimation and also delivers relevant information on the cointegrating ranks at the different unit root frequencies. It is thus a useful tool for example in (but not limited to) automatic modeling applications where a large number of time series involving a substantial number of variables need to be modelled in parallel.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="bauer202104entropy.pdf">https://pub.uni-bielefeld.de/download/2953751/2953941/bauer202104entropy.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>MDPI AG</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>cointegration</topic><topic>subspace algorithms</topic><topic>VARMA models</topic><topic>seasonality</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Entropy</title></titleInfo>
+  <identifier type="eIssn">1099-4300</identifier>
+  <identifier type="MEDLINE">33918005</identifier>
+  <identifier type="ISI">000642995100001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29537512</identifier><identifier type="doi">10.3390/e23040436</identifier>
+<part><detail type="volume"><number>23</number></detail><detail type="issue"><number>4</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<apa>Bauer, D., &amp;amp; Buschmeier, R. (2021). Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;(4), 436. &lt;a href="https://doi.org/10.3390/e23040436" target="_blank"&gt;https://doi.org/10.3390/e23040436&lt;/a&gt;</apa>
+<ieee> D. Bauer and R. Buschmeier, “Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method”, &lt;em&gt;Entropy&lt;/em&gt;,  vol. 23, 2021, : 436.</ieee>
+<ama>Bauer D, Buschmeier R. Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt;. 2021;23(4): 436.</ama>
+<frontiers>Bauer, D., and Buschmeier, R. (2021). Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt; 23:436.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bauer, D. &amp;amp; Buschmeier, R. (2021). Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;(4): 436. MDPI AG. doi:10.3390/e23040436.&lt;/div&gt;</dgps>
+<bio1>Bauer D, Buschmeier R (2021) &lt;br /&gt;Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method.&lt;br /&gt;Entropy 23(4): 436.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bauer, D., &amp;amp; Buschmeier, R. (2021). Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt;, &lt;em&gt;23&lt;/em&gt;(4), 436. &lt;a href="https://doi.org/10.3390/e23040436" target="_blank"&gt;https://doi.org/10.3390/e23040436&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Bauer, D., &amp;amp; Buschmeier, R., 2021. Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. &lt;em&gt;Entropy&lt;/em&gt;, 23(4): 436.</harvard1>
+<angewandte-chemie>D.  Bauer, and R.  Buschmeier, “Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method”, &lt;em&gt;Entropy&lt;/em&gt;, &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;23&lt;/em&gt;, : 436.</angewandte-chemie>
+<wels>Bauer, D.; Buschmeier, R. (2021): Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method &lt;em&gt;Entropy&lt;/em&gt;,23:(4):436</wels>
+<mla>Bauer, Dietmar, and Buschmeier, Rainer. “Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method”. &lt;em&gt;Entropy&lt;/em&gt; 23.4 (2021): 436.</mla>
+<default>Bauer D, Buschmeier R (2021) &lt;br /&gt;&lt;em&gt;Entropy&lt;/em&gt; 23(4): 436.</default>
+<lncs> Bauer, D., Buschmeier, R.: Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method. Entropy. 23, : 436 (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bauer, Dietmar, and Buschmeier, Rainer. 2021. “Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method”. &lt;em&gt;Entropy&lt;/em&gt; 23 (4): 436.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2953751</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-04-08T16:51:00Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-05-21T09:34:35Z</recordChangeDate>
+</recordInfo>
+</mods>

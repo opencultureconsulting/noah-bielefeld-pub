@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2956810">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Toward More Robust Hand Gesture Recognition on EIT Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Leins</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3386-2577</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Gibas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Rainer</namePart>
+                        <namePart type="family">Brück</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Striving for more robust and natural control of multi-fingered hand prostheses, we are studying electrical impedance tomography (EIT) as a method to monitor residual muscle activations. Previous work has shown promising results for hand gesture recognition, but also lacks generalization across multiple sessions and users. Thus, the present paper aims for a detailed analysis of an existing EIT dataset acquired with a 16-electrode wrist band as a prerequisite for further improvements of machine learning results on this type of signal. The performed t-SNE analysis confirms a much stronger inter-session and inter-user variance compared to the expected in-class variance. Additionally, we observe a strong drift of signals within a session. To handle these challenging problems, we propose new machine learning architectures based on deep learning, which allow to separate undesired from desired variation and thus significantly improve the classification accuracy. With these new architectures we increased cross-session classification accuracy on 12 gestures from 19.55 to 30.45%. Based on a fundamental data analysis we developed three calibration methods and thus were able to further increase cross-session classification accuracy to 39.01, 55.37, and 56.34%, respectively.</abstract>
+                    <subject>
+                        <topic>electrical impedance tomography</topic>
+                        <topic>gesture recognition</topic>
+                        <topic>artificial intelligence</topic>
+                        <topic>neural networks</topic>
+                        <topic>deep learning</topic>
+                        <topic>data analysis</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neurorobotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1662-5218</identifier>
+                    <identifier type="MEDLINE">34456704</identifier>
+                    <identifier type="ISI">000690154300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29568103</identifier>
+                    <identifier type="doi">10.3389/fnbot.2021.659311</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2956810</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2956810">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2956810/2956811/Frontiers_July_Leins_659311.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2956810" DMDID="DMD2956810">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2956810"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

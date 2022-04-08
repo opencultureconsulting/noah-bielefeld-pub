@@ -1,0 +1,189 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1635314</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Naryttza N.</namePart>
+  <namePart type="family">Diaz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Lutz</namePart>
+  <namePart type="family">Krause</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Goesmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">152495</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7086-2568</description></name>
+<name type="personal">
+  <namePart type="given">Karsten</namePart>
+  <namePart type="family">Niehaus</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">21913</identifier></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2685540</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441927</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441929</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29609402</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067438</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">40200282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background:
+
+Metagenomics, or the sequencing and analysis of collective genomes (metagenomes) of microorganisms isolated from an environment, promises direct access to the "unculturable majority". This emerging field offers the potential to lay solid basis on our understanding of the entire living world. However, the taxonomic classification is an essential task in the analysis of metagenomics data sets that it is still far from being solved. We present a novel strategy to predict the taxonomic origin of environmental genomic fragments. The proposed classifier combines the idea of the k-nearest neighbor with strategies from kernel-based learning.
+Results
+
+Our novel strategy was extensively evaluated using the leave-one-out cross validation strategy on fragments of variable length (800 bp – 50 Kbp) from 373 completely sequenced genomes. TACOA is able to classify genomic fragments of length 800 bp and 1 Kbp with high accuracy until rank class. For longer fragments ≥ 3 Kbp accurate predictions are made at even deeper taxonomic ranks (order and genus). Remarkably, TACOA also produces reliable results when the taxonomic origin of a fragment is not represented in the reference set, thus classifying such fragments to its known broader taxonomic class or simply as "unknown". We compared the classification accuracy of TACOA with the latest intrinsic classifier PhyloPythia using 63 recently published complete genomes. For fragments of length 800 bp and 1 Kbp the overall accuracy of TACOA is higher than that obtained by PhyloPythia at all taxonomic ranks. For all fragment lengths, both methods achieved comparable high specificity results up to rank class and low false negative rates are also obtained.
+Conclusion:
+
+An accurate multi-class taxonomic classifier was developed for environmental genomic fragments. TACOA can predict with high reliability the taxonomic origin of genomic fragments as short as 800 bp. The proposed method is transparent, fast, accurate and the reference set can be easily updated as newly sequenced genomes become available. Moreover, the method demonstrated to be competitive when compared to the most current classifier PhyloPythia and has the advantage that it can be locally installed and the reference set can be kept up-to-date.
+Background:</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="BMC_25.pdf">https://pub.uni-bielefeld.de/download/1635314/2311148/BMC_25.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Science + Business Media</publisher><dateIssued encoding="w3cdtf">2009</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">19210774</identifier>
+  <identifier type="ISI">000264007900001</identifier><identifier type="urn">urn:nbn:de:0070-pub-16353149</identifier><identifier type="doi">10.1186/1471-2105-10-56</identifier>
+<part><detail type="volume"><number>10</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">56</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<frontiers>Diaz, N. N., Krause, L., Goesmann, A., Niehaus, K., and Nattkemper, T. W. (2009). TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 10, 56.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Diaz, N.N., Krause, L., Goesmann, A., Niehaus, K. &amp;amp; Nattkemper, T.W. (2009). TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 56. Springer Science + Business Media. doi:10.1186/1471-2105-10-56.&lt;/div&gt;</dgps>
+<ama>Diaz NN, Krause L, Goesmann A, Niehaus K, Nattkemper TW. TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2009;10(1):56.</ama>
+<ieee> N.N. Diaz, et al., “TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 10, 2009,  pp. 56.</ieee>
+<apa>Diaz, N. N., Krause, L., Goesmann, A., Niehaus, K., &amp;amp; Nattkemper, T. W. (2009). TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 56. &lt;a href="https://doi.org/10.1186/1471-2105-10-56" target="_blank"&gt;https://doi.org/10.1186/1471-2105-10-56&lt;/a&gt;</apa>
+<wels>Diaz, N. N.; Krause, L.; Goesmann, A.; Niehaus, K.; Nattkemper, T. W. (2009): TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,10:(1): 56.</wels>
+<angewandte-chemie>N. N.  Diaz, L.  Krause, A.  Goesmann, K.  Niehaus, and T. W.  Nattkemper, “TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2009&lt;/strong&gt;, &lt;em&gt;10&lt;/em&gt;, 56.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Diaz, N. N., Krause, L., Goesmann, A., Niehaus, K., &amp;amp; Nattkemper, T. W. (2009). TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 56. &lt;a href="https://doi.org/10.1186/1471-2105-10-56" target="_blank"&gt;https://doi.org/10.1186/1471-2105-10-56&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Diaz, N.N., et al., 2009. TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 10(1), p 56.</harvard1>
+<bio1>Diaz NN, Krause L, Goesmann A, Niehaus K, Nattkemper TW (2009) &lt;br /&gt;TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach.&lt;br /&gt;BMC Bioinformatics 10(1): 56.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Diaz, Naryttza N., Krause, Lutz, Goesmann, Alexander, Niehaus, Karsten, and Nattkemper, Tim Wilhelm. 2009. “TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 10 (1): 56.&lt;/div&gt;</chicago>
+<lncs> Diaz, N.N., Krause, L., Goesmann, A., Niehaus, K., Nattkemper, T.W.: TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach. BMC Bioinformatics. 10, 56 (2009).</lncs>
+<default>Diaz NN, Krause L, Goesmann A, Niehaus K, Nattkemper TW (2009) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 10(1): 56.</default>
+<mla>Diaz, Naryttza N., Krause, Lutz, Goesmann, Alexander, Niehaus, Karsten, and Nattkemper, Tim Wilhelm. “TACOA - Taxonomic classification of environmental genomic fragments using a kernelized nearest neighbor approach”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 10.1 (2009): 56.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1635314</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-29T13:07:37Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:45Z</recordChangeDate>
+</recordInfo>
+</mods>

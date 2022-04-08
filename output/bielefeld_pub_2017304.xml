@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017304">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Relevance-based Interactive Optimization of Sonification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kerstin</namePart>
+                        <namePart type="family">Bunte</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">William L.</namePart>
+                        <namePart type="family">Martens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents a novel approach for the interactive optimization of sonification parameters. In a closed loop, the system automatically generates modified versions of an initial (or previously selected) sonification via gradient ascend or evolutionary algorithms. The human listener directs the optimization process by providing relevance feedback about the perceptual quality of these propositions. In summary, the scheme allows users to bring in their perceptual capabilities without burdening them with computational tasks. It also allows for continuous update of exploration goals in the course of an exploration task. Finally, Interactive Optimization is a promising novel paradigm for solving the mapping problems and for a user-centred design of auditory display. The paper gives a full account on the technique, and demonstrates the optimization at hand of synthetic and real-world data sets.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">0-9670904-2-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20173042</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017304</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017304">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017304/2456103/HermannBunteRitter2007-RBI.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017304" DMDID="DMD2017304">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017304"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

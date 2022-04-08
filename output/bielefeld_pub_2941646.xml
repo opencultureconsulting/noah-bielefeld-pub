@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2941646">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Accelerating Binary String Comparisons with a Scalable, Streaming-Based System Architecture Based on FPGAs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sarah</namePart>
+                        <namePart type="family">Pilz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Kaiser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Hagemeyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">James M.</namePart>
+                        <namePart type="family">Hogan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper is concerned with Field Programmable Gate Arrays (FPGA)-based systems for energy-efficient high-throughput string comparison. Modern applications which involve comparisons across large data sets—such as large sequence sets in molecular biology—are by their nature computationally intensive. In this work, we present a scalable FPGA-based system architecture to accelerate the comparison of binary strings. The current architecture supports arbitrary lengths in the range 16 to 2048-bit, covering a wide range of possible applications. In our example application, we consider DNA sequences embedded in a binary vector space through Locality Sensitive Hashing (LSH) one of several possible encodings that enable us to avoid more costly character-based operations. Here the resulting encoding is a 512-bit binary signature with comparisons based on the Hamming distance. In this approach, most of the load arises from the calculation of the     O ( m ∗ n )     Hamming distances between the signatures, where m is the number of queries and n is the number of signatures contained in the database. Signature generation only needs to be performed once, and we do not consider it further, focusing instead on accelerating the signature comparisons. The proposed FPGA-based architecture is optimized for high-throughput using hundreds of computing elements, arranged in a systolic array. These core computing elements can be adapted to support other string comparison algorithms with little effort, while the other infrastructure stays the same. On a Xilinx Virtex UltraScale+ FPGA (XCVU9P-2), a peak throughput of 75.4 billion comparisons per second—of 512-bit signatures—was achieved, using a design with 384 parallel processing elements and a clock frequency of 200 MHz. This makes our FPGA design 86 times faster than a highly optimized CPU implementation. Compared to a GPU design, executed on an NVIDIA GTX1060, it performs nearly five times faster.</abstract>
+                    <subject>
+                        <topic>FPGA</topic>
+                        <topic>bioinformatics</topic>
+                        <topic>multiple string matching</topic>
+                        <topic>parallel computing</topic>
+                        <topic>Hamming distance</topic>
+                        <topic>locality sensitive hashing</topic>
+                        <topic>hardware acceleration</topic>
+                        <topic>parallel system architecture</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>13</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1999-4893</identifier>
+                    <identifier type="ISI">000519108500016</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29416462</identifier>
+                    <identifier type="doi">10.3390/a13020047</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2941646</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2941646">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2941646/2942764/algorithms-13-00047-v3.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2941646" DMDID="DMD2941646">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2941646"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

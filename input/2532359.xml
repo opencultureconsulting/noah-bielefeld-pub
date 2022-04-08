@@ -1,0 +1,145 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2532359</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:600</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Task level motion planning : integrating local robot control and global sampling</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Behnisch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7879356</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Haschke</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Michael</namePart>
+  
+  
+  <namePart type="family">Gienger</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis addresses the problem of generating goal-directed movements for robots, a
+challenging problem especially in cases where the involved state spaces are high-dimensional
+and complex constraints, such as obstacles and joint-limits, are present. Local methods can
+be severely hindered in such situations and planning on a global level becomes necessary.
+Although an exhaustive search of the state space can generally solve these problems, complete
+planning methods do not scale well with the number of dimensions. To avoid the inherent
+complexity of complete state space planning, this work proposes the use of a condensed task-
+centered representation, focusing on the task to be achieved and neglecting all unnecessary
+details. The motion planning problem can then be effectively decomposed into two layers:
+A global search component that is restricted to the coarse-scale task representation and a
+local control method that generates fine-scale motions.
+The ability of the approach to solve difficult planning problems is demonstrated with an
+application for redundant robotic manipulators. Due to the limitation of global planning to
+the task representation, completeness can no longer be guaranteed, but it can be shown that
+many relevant situations can be solved. In particular, the ability to solve planning tasks
+for a humanoid robot operating in human-centered environments is demonstrated in both
+simulation and laboratory experiments, providing evidence of a significant computational
+advantage compared to complete state space sampling methods.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="TaskLevelMotionPlanning.pdf">https://pub.uni-bielefeld.de/download/2532359/2532368/TaskLevelMotionPlanning.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Sampling-based Planning</topic><topic>Bi-manual Planning</topic><topic>Motion Planning</topic><topic>Reactive Motion Control</topic><topic>Redundant and Humanoid Robots</topic><topic>Hybrid Planning</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-25323599</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2012-09-10</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Behnisch M (2012) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Behnisch, Matthias. &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University, 2012.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Behnisch, Matthias. 2012. &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Behnisch, M.: Task level motion planning : integrating local robot control and global sampling. Bielefeld University, Bielefeld (2012).</lncs>
+<ieee> M. Behnisch, &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;,  Bielefeld: Bielefeld University, 2012.</ieee>
+<apa>Behnisch, M. (2012).  &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<frontiers>Behnisch, M. (2012). Task level motion planning : integrating local robot control and global sampling. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Behnisch, M. (2012). &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Behnisch M. &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University; 2012.</ama>
+<angewandte-chemie>M.  Behnisch, &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2012&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Behnisch, M. (2012).  &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Behnisch, M., 2012. &lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<bio1>Behnisch M (2012) &lt;br /&gt;&lt;em&gt;Task level motion planning : integrating local robot control and global sampling&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<wels>Behnisch, M. (2012): Task level motion planning : integrating local robot control and global sampling. Bielefeld: Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2532359</recordIdentifier><recordCreationDate encoding="w3cdtf">2012-10-18T12:46:18Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:23Z</recordChangeDate>
+</recordInfo>
+</mods>

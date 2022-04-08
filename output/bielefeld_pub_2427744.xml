@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2427744">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Spike-based learning with a generalized integrate and fire silicon neuron</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">F.</namePart>
+                        <namePart type="family">Stefanini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Spike-based learning circuits have been typically used in conjunction with linear integrate-and-fire neurons. As a new class of current-mode conductance-based silicon neurons has been recently developed, it is important to evaluate how the spike-based learning circuits perform, when interfaced to these new types of neuron circuits. Here, we describe a VLSI implementation of a current-mode conductance-based neuron, connected to synaptic circuits with spike-based learning capabilities. The conductance-based silicon neuron has built-in-spike-frequency adaptation, refractory period mechanisms, and plasticity eligibility control circuits. The synaptic circuits exhibits realistic dynamics in the post-synaptic currents and comprise local spike-based learning circuits, controlled by the global post-synaptic eligibility circuits. We present experimental results which characterize the conductance-based neuron circuit properties and the spike-based learning circuits connected to it.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-1-4244-5308-5</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24277447</identifier>
+                    <identifier type="doi">10.1109/ISCAS.2010.5536980</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2427744</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2427744">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2427744/2459891/Spike-based_learning_with_a_generalized_integrate_and_fire_silicon_neuron.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2427744" DMDID="DMD2427744">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2427744"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

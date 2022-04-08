@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2637332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An architecture for fluid real-time conversational agents: Integrating incremental output generation and input processing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4047-9277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Herwin</namePart>
+                        <namePart type="family">van Welbergen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ramin</namePart>
+                        <namePart type="family">Yaghoubzadeh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">Buschmeier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9613-5713</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Embodied conversational agents still do not achieve the fluidity and smoothness of natural conversational interaction. One main reason is that current system often respond with big latencies and in inflexible ways. We argue that to overcome these problems, real-time conversational agents need to be based on an underlying architecture that provides two essential features for fast and fluent behavior adaptation: a close bi-directional coordination between input processing and output generation, and incrementality of processing at both stages. We propose an architectural framework for conversational agents [Artificial Social Agent Platform (ASAP)] providing these two ingredients for fluid real-time conversation. The overall architectural concept is described, along with specific means of specifying incremental behavior in BML and technical implementations of different modules. We show how phenomena of fluid real- time conversation, like adapting to user feedback or smooth turn-keeping, can be realized with ASAP and we describe in detail an example real-time interaction with the implemented system.</abstract>
+                    <subject>
+                        <topic>Fluid real-time interaction</topic>
+                        <topic>Embodied conversational agents architecture</topic>
+                        <topic>Incremental processing</topic>
+                        <topic>Generation–interpretation coordination</topic>
+                        <topic>BMLA</topic>
+                        <topic>ASAP</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal on Multimodal User Interfaces</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>97</start>
+                                <end>108</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1783-7677</identifier>
+                    <identifier type="eIssn">1783-8738</identifier>
+                    <identifier type="ISI">000337753000009</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26373326</identifier>
+                    <identifier type="doi">10.1007/s12193-013-0130-3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2637332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2637332">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2637332/2637921/jmui-article-realtime-PREPRINT.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2637332" DMDID="DMD2637332">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2637332"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,137 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2142025">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning Inverse Kinematics for Pose-Constraint Bi-Manual Movements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Rolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Gienger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stéphane</namePart>
+                        <namePart type="family">Doncieux</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Benoît</namePart>
+                        <namePart type="family">Girard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Agnès</namePart>
+                        <namePart type="family">Guillot</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">John</namePart>
+                        <namePart type="family">Hallam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jean-Arcady</namePart>
+                        <namePart type="family">Meyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jean-Baptiste</namePart>
+                        <namePart type="family">Mouret</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a neural network approach to learn inverse kinematics
+of the humanoid robot ASIMO, where we focus on bi-manual
+tool use. The learning copes with both the highly redundant inverse
+kinematics of ASIMO and the additional arbitrary constraint imposed
+by the tool that couples both hands. We show that this complex kinematics
+can be learned from few ground-truth examples using an efficient
+recurrent reservoir framework, which has been introduced previously for
+kinematics learning and movement generation. We analyze and quantify
+the network’s generalization for a given tool by means of reproducing
+the constraint in untrained target motions.</abstract>
+                    <subject>
+                        <topic>CoR-Lab Publication</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>From Animals to Animats 11. 11th International Conference on Simulation of Adaptive Behavior, SAB 2010. Proceedings</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6226</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-642-15192-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-21420253</identifier>
+                    <identifier type="doi">10.1007/978-3-642-15193-4_45</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2142025</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2142025">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2142025/2903544/NeumannRolfSteilSAB2010.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2142025" DMDID="DMD2142025">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2142025"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

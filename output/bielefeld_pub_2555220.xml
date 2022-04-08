@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2555220">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Design Rules: Industrial Research and Epistemic Merit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Torsten</namePart>
+                        <namePart type="family">Wilholt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A common complaint against the increasing privatization of research is that research that is conducted with the immediate purpose of producing applicable knowledge will not yield knowledge as valuable as that generated in more curiosity-driven, academic settings. In this paper, I make this concern precise and reconstruct the rationale behind it. Subsequently, I examine the case of industry research on the giant magnetoresistance effect in the 1990s as a characteristic example of research undertaken under considerable pressure to produce applicable results. The example permits one to arrive at a more optimistic assessment of the epistemic merits of private, application-driven research. I attempt to specify the conditions that, in this case, advanced the production of interesting and reliable knowledge.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Philosophy of Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>73</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>66</start>
+                                <end>89</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0031-8248</identifier>
+                    <identifier type="eIssn">1540-4684</identifier>
+                    <identifier type="ISI">000245709100004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25552201</identifier>
+                    <identifier type="doi">10.1086/510175</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2555220</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2555220">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555220/2916089/Wilholt+Design+Rules.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2555220">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555220/2916090/designrules.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2555220" DMDID="DMD2555220">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2555220"/>
+            <mets:div TYPE="part" ID="PART1_2555220" LABEL="designrules.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2555220"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

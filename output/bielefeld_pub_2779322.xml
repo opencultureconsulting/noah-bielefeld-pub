@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2779322">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Capturing and Visualizing Eye Movements in 3D Environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cem</namePart>
+                        <namePart type="family">Memili</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Renner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9640-8291</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kai</namePart>
+                        <namePart type="family">Essig</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Visual attention can be a viable source of information to assess human behaviors in many different contexts, from human-computer interaction, over sports or social interactions, to complex working environments, such as to be found in the context of Industry 4.0. In such scenarios in which the user is able to walk around freely, mobile eye-tracking systems are used to record eye movements, which are then mapped onto an ego-perspective video. The analysis of such recordings then requires large efforts for manually annotating the recorded videos on a frame-by-frame basis to label the fixations based on their locations to the target objects present in the video. First, we present a method to record eye movements in 3D scenarios and annotate fixations with corresponding labels for the objects of interest in real-time 2. For this purpose, we rely on computer-vision methods for the detection of the camera position and orientation in the world. Based on a coarse 3D model of the environment, representing the 3D areas of interest, fixations are mapped to areas of interest. As a result, we can identify the position of the fixation in terms of local object coordinates for each relevant object of interest. Second, we present a method for real-time creation and visualization of heatmaps for 3D objects 1. Based on a live-streaming of the recorded and analyzed eye movements, our solution renders heatmaps on top of the object s urfaces. The resulting visualizations are more realistic than standard 2D heatmaps, in that we consider occlusions, depth of focus and dynamic moving objects. Third, we present a new method which allows us to aggregate fixations on a per object basis, e.g. similar to regions/areas of interest. This allows us to transfer existing methods of analysis to 3D environments. We present examples from a virtual supermarket, a study on social interactions between two humans, examples from real-time gaze mapping on body parts of a moving humans and from studying 3D prototypes in a virtual reality environment.</abstract>
+                    <subject>
+                        <topic>eye tracking</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27793221</identifier>
+                    <identifier type="doi">10.2390/biecoll-saga2015_3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2779322</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2779322">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2779322/2956510/581-Article+Text-670-1-10-20190603.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2779322" DMDID="DMD2779322">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2779322"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

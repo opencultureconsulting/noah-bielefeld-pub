@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306172">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On K-theory of classical-like groups</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Roozbeh</namePart>
+                        <namePart type="family">Hazrat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anthony (Prof.</namePart>
+                        <namePart type="family">Bak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2002-10-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis consists of two parts. Part 1 is devoted to the study of nonstable K1 of quadratic groups using Bak&apos;s dimension theory. Part 2 is devoted to the study of the reduced K-theory of central simple algebras and is based on three papers published in 2001/2002: (1) Wedderburn&apos;s factorization theorem, (2) On central series of the multiplicative group of division rings, (3) SK1-like functors for division algebras.</abstract>
+                    <subject>
+                        <topic>Klassische Gruppe , K-Theorie , Zentral einfache Algebra ,  ,</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1577</identifier>
+                    <identifier type="sys">HT014237920</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306172</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306172">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306172/2306178/2_diss-part2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2306172">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306172/2306177/2_diss-part1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2306172">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306172/2306176/1_titel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2306172">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306172/2306175/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306172" DMDID="DMD2306172">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306172"/>
+            <mets:div TYPE="part" ID="PART1_2306172" LABEL="2_diss-part1.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2306172"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2306172" LABEL="1_titel.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2306172"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2306172" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2306172"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

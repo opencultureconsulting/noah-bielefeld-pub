@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918922">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Projected Inverse Dynamics Approach for Multi-arm Cartesian Impedance Control</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hsiu-Chin</namePart>
+                        <namePart type="family">Lin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joshua</namePart>
+                        <namePart type="family">Smith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Keyhan</namePart>
+                        <namePart type="family">Kouhkiloui Babarahmati</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Niels</namePart>
+                        <namePart type="family">Dehio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Mistry</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We propose a model-based control framework for
+multi-arm manipulation of a rigid object subject to external
+disturbances. The control framework, based on projected inverse
+dynamics, decomposes the control law into constrained
+and unconstrained subspaces. Unconstrained components accomplish
+the motion task with a desired 6-DOF Cartesian
+impedance behaviour against external disturbances. Meanwhile,
+the constrained component enforces contact and friction constraints
+by optimising for contact forces within the constrained
+subspace. External disturbances are explicitly compensated for
+without using force/torque sensors at the contact points. The
+approach is evaluated on a dual-arm platform manipulating a
+rigid object while coping with unknown object dynamics and
+human interaction.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="arXiv">1707.00484</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29189228</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918922</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918922">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918922/2919009/ICRA18_1225_FI.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918922" DMDID="DMD2918922">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918922"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

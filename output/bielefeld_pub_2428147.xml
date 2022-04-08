@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2428147">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>3D human detection and tracking on a mobile platform for situation awareness</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Niklas</namePart>
+                        <namePart type="family">Beuter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-09-27</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The vision of robots supporting the human in daily life encouraged research in the area of mobile robots in the recent past. The robots are meant to share the same environment and they are supposed to deal with the same requirements like the human in order to be able to assist the human in his tasks. But, the dynamic and highly complex human environment makes it affordable to implement algorithms, which enable the robot to deal with the arising requirements. Thereby, such algorithms are based on sensing and interpretation of the environment. Here, the following thesis applies by achieving a solid basement for the robot’s situation awareness. Situation awareness can be divided into four categories, whereas the ﬁrst three categories sense and interpret the environment and the fourth predicts the gathered knowledge into the future in order to adapt the aspired actions. The thesis provides a solution to the ﬁrst three categories, which implement the perceptual part of situation awareness. The ﬁrst category deals with the sensing of the environment. Here, a complete scene analysis by building an articulated scene model by observation of the Vista space is pro-
+posed. The model inherits different abstract scene parts, which are the static background, movable objects like e.g. chairs and moving objects like humans, which are all 
+revealed by a single model building process. The second category deals with a temporal linking of information, which is especially difﬁcult on a moving platform. In addition to a map, the most important information for a mobile robot is the information of positions and walking paths of present humans. Utilising the dynamic movements of humans the robot is able to calculate a safe path through the environment. Here, a dynamic human detection and tracking system is introduced, which is able to create temporal links between human occurrences even in the presence of challenging ego motion and scene changes. 
+The third category of situation awareness is implemented through a top-down visual attention system, which directs the focus of attention onto desired objects, humans or 
+locations. As the main purpose of a mobile robot is the interaction with the human, it is proposed to use a human model in combination with the top-down directed visual 
+search. The model represents more precise the diverse appearance of the human. This way, the robot is able to recover aspired humans or interaction partners, if they were absent for a short time. For each category experiments are conducted to show the performance of my solutions. The results show that each category implementation provides solid and stable information, which support the robot in achieving a broad situation awareness.</abstract>
+                    <subject>
+                        <topic>Human Tracking</topic>
+                        <topic>Mobile Robot</topic>
+                        <topic>3D</topic>
+                        <topic>Human Detection</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24281475</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2428147</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2428147">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2428147/2428148/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2428147" DMDID="DMD2428147">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2428147"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302829">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Real robot hand grasping using simulation-based optimisation of portable strategies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Röthling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-08-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis presents a complete line of biologically motivated approaches for providing robot hands with grasping capabilities. These approaches comprise a model of robot grasping, a grasp synthesis, a grasp strategy, and a grasp taxonomy.
+The grasp types defined by the taxonomy are fairly easy to realise in a robot hand setup when following the development rules proposed in this thesis. The approach to grasp synthesis stresses the target grasp posture, providing the opportunity for optimising the realised grasp types for finger closure trajectories. The target grasp is optimised by using an evolutionary algorithm after the pre-grasp is optimised for contact simultaneity in the first step of the optimisation strategy presented, which is substantiated by an experiment on human grasping. For optimisation, grasps are evaluated within a physics-based simulator by applying a grasp stability measure that is based on a standard grasp quality measure.
+By implementing the grasp strategy and the optimisation strategy on one robot hand setup (including the three-fingered 9-DOF hydraulic TUM Hand) and porting these strategies into the second setup (including the very dextrous 20-DOF pneumatic Shadow Hand), this thesis shows that these strategies are realisable on, and portable among, totally different robot systems. The strategies proposed are robust against limited positioning accuracy of the finger joints and uncertainties about object position and orientation. Grasping success is evaluated with the real hands by comparative experiments performing a benchmark test on 21 everyday objects.</abstract>
+                    <subject>
+                        <topic>Greifmanipulator</topic>
+                        <topic>Greifen</topic>
+                        <topic>Grifftechnik</topic>
+                        <topic>Optimierung</topic>
+                        <topic>Benchmark</topic>
+                        <topic>Robotergreifen</topic>
+                        <topic>Experiment zum menschlichen Greifen</topic>
+                        <topic>Grifftaxonomie</topic>
+                        <topic>Greifsimulation</topic>
+                        <topic>Griffoptimierung</topic>
+                        <topic>Robot grasping</topic>
+                        <topic>Grasp taxonomy</topic>
+                        <topic>Grasp experiment</topic>
+                        <topic>Evolutionary optimisation</topic>
+                        <topic>Benchmark for robot grasping</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11651</identifier>
+                    <identifier type="sys">HT015362612</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302829</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302829">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302829/2302832/diss_fr07.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302829" DMDID="DMD2302829">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302829"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

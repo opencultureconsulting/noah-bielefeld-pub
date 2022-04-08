@@ -1,0 +1,178 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945904">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data and analyses: Visual and movement memories steer foraging bumblebees along habitual routes.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Olivier</namePart>
+                        <namePart type="family">Bertrand</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0889-4550</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Charlotte</namePart>
+                        <namePart type="family">Doussot</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5766-8234</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim</namePart>
+                        <namePart type="family">Siesenop</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sridhar</namePart>
+                        <namePart type="family">Ravi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">Foraging bumblebees navigate between their hive and flowers. They will cross a landscape containing multiple objects and have to meander around them. Experienced navigator tends to travel along habitual routes along which the movement and the visual scenery will be alike between different trips. Here, we investigated the role of visual and movement memories on their way back to their hive. This data publication contains the bees&apos; trajectories, the conditions, and the analyses used in the article entitled: Visual and movement memories steer foraging bumblebees along habitual routes published in the Journal Experimental Biology.</abstract>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2945904</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945904</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-ipynb+json" ID="FILE0_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953730/Analyses.ipynb" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE1_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953731/data.h5" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ID="FILE2_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953732/Summary_exp0.xlsx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ID="FILE3_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953733/Summary_exp1.xlsx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.oasis.opendocument.text" ID="FILE4_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953734/readme.odt" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/x-python" ID="FILE5_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953735/plottools.py" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE6_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953736/better-article" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/x-python" ID="FILE7_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953737/Linearstats.py" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE8_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953738/Controls.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-ipynb+json" ID="FILE9_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953739/Controls.ipynb" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE10_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953740/ColourData.h5" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/x-python" ID="FILE11_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953741/Circstats.py" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE12_bielefeld_pub_2945904">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945904/2953742/Analyses.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945904" DMDID="DMD2945904">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945904"/>
+            <mets:div TYPE="part" ID="PART1_2945904" LABEL="data.h5">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2945904" LABEL="Summary_exp0.xlsx">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2945904" LABEL="Summary_exp1.xlsx">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2945904" LABEL="readme.odt">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2945904" LABEL="plottools.py">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2945904" LABEL="better-article">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2945904" LABEL="Linearstats.py">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2945904" LABEL="Controls.pdf">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2945904" LABEL="Controls.ipynb">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2945904" LABEL="ColourData.h5">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2945904" LABEL="Circstats.py">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2945904"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2945904" LABEL="Analyses.pdf">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2945904"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

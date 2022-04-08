@@ -1,0 +1,136 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2932844">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kerstin</namePart>
+                        <namePart type="family">Hötte</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8633-4225</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng"># Updates: 
+Check out the more recent versions of the rcode here: https://gitlab.ub.uni-bielefeld.de/khoette/rcode_eurace
+
+# Description
+The data publication contains all resources (data, code and statistical output) required to reproduce the results presented in &quot;How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&quot; (Hötte 2019). Objective of this publication is the transparency, reproducibility and reusability of the simulation model and statistical analysis. 
+&lt;br /&gt;&lt;br /&gt;
+The publication is composed of four directories: (1) The directory &quot;model&quot; allows the reader to understand the implementation of the simulation model (C-code), to reproduce the simulated data and to use the model for further studies. A conceptual description and technical documentation of the model is provided in the paper mentioned above. (2) The directory &quot;experiment_directories_and_data&quot; contains the simulated data that is presented and discussed in the paper. This data allows to reproduce exactly the statistical analyses presented in the paper and to check the general validity of the model. 
+(3) The directory &quot;rcode&quot; contains the code that was used for the statistical analyses and makes the methods transparent for the reader. (4) The directory &quot;results&quot; contains the output files of the statistical analyses, e.g. plots and txt-output files documenting the regression analyses. 
+&lt;br /&gt;&lt;br /&gt;
+Each directory contains a readme file with additional information about the content and instructions how to use it. 
+&lt;br /&gt;&lt;br /&gt;
+
+## Details on content of each subdirectory: 
+
+### (1) model: Simulation inputs
+
+The data provided should allow you to REPRODUCE the simulations, i.e. to produce your own simulation data that should exhibit the same patterns as those discussed in the paper. 
+Before trying to run the model, I strongly recommend to check out the introductory and explanatory material provided by the developers of the original model: http://www.wiwi.uni-bielefeld.de/lehrbereiche/vwl/etace/Eurace_Unibi/
+
+#### File content: 
+- model files: model xml files and c code
+ Extensions compared to &quot;standard eurace@unibi&quot;: (Here only main modifications highlighted)
+- Cons_Goods_UNIBI: Production routine and investment decision modified. 
+- Government_GREQAM: Eco policy module added. 
+- Inv_Goods_Vintage: Adaptive pricing mechanism and endogenous innovation added/ modified. 
+- Labour_UNIBI: Households skill endowment and learning. 
+- Statistical_Office_UNIBI: Documentation of indicator variables. 
+- my_library_functions.c: Running order of vintages adjusted by using costs. 
+
+- its: initial population
+
+#### Acknowledgement: 
+This model is a modified version of the Eurace@Unibi model, developed by Herbert
+Dawid, Simon Gemkow, Philipp Harting, Sander van der Hoog and Michael Neugart, as
+an extension of the research within the EU 6 th Framework Project Eurace. 
+
+### (2) experiment_directories_and_data: Simulated data (raw). 
+
+This data allows you to perform STATISTICAL ANALYSES with the simulation output yourself. You may use these as input to the Rcode. 
+&lt;br /&gt;
+Experiment folders contain simulation files and simulation output: 
+- baseline
+- rand_barr
+- rand_pol34_fix_barr5
+- rand_pol34_rand_barr15
+
+In principle, you should be able to reproduce the simulated data with the code provided in &quot;model&quot; (Note that the model has stochastic components, hence it will not be EXACTLY the same but sufficiently similar). 
+
+### (3) rcode: 
+
+This documentation makes the STATISTICAL METHODS used in the paper transparent. Sorry for the 
+inefficient code. Check whether updates are available. 
+
+- rcode: R scripts used for statistical analysis of simulation output
+
+### (4) results: 
+
+Output of analysed data. Here you find the output of the statistical analyses, i.e. regression output and wilcoxon test results in txt format and plots that are used in the paper. These files can be reproduced by the R code. 
+The results are documented experimentwise, i.e. baseline, barrier strength, policy with fix barriers, policy with random barriers. 
+&lt;br /&gt;&lt;br /&gt;
+#### Acknowledgement
+
+Particular gratitude is owed to Cord Wiljes for extensive support accompanying this data publication.</abstract>
+                    <subject>
+                        <topic>Directed technological change</topic>
+                        <topic>technology diffusion</topic>
+                        <topic>climate  policy</topic>
+                        <topic>absorptive capacity</topic>
+                        <topic>agent-based model</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="doi">10.4119/unibi/2932844</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2932844</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2932844">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2932844/2933029/EuraceUnibi_Eco.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2932844">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2932844/2933045/EULA-eco.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2932844">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2932844/2933046/permission_of_use.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2932844" DMDID="DMD2932844">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2932844"/>
+            <mets:div TYPE="part" ID="PART1_2932844" LABEL="EULA-eco.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2932844"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2932844" LABEL="permission_of_use.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2932844"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

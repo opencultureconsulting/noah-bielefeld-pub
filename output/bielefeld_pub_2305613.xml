@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305613">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Flexible Modelle für die Verweilzeiten : P-Spline basierte Methoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Pavel</namePart>
+                        <namePart type="family">Khomski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Göran</namePart>
+                        <namePart type="family">Kauermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-12-06</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Diese Untersuchung konzentriert sich auf die flexible Modellierung von Überlebenszeiten (im Angelsächsischen bekannt als &quot;Survival Modelling&quot;) und speziell von Kovariableneffekten. Als Ausgangspunkt der Modellierung dient der so genannte &quot;Cox-Proportional-Hazard&quot;-Ansatz. In diesem Modell wird der proportionale Effekt der Kovariablen auf die Hazardrate postuliert. Diese Annahme ist aber zu restriktiv, da sie in vielen verschiedenen Anwendungen nicht erfüllt ist. Damit bietet sich eine Reihe von möglichen Flexibilisierungen.
+Zur flexiblen Modellierung der Kovariableneffekte werden die so genannten P-Splines benutzt, welche in dieser Notation von Eilers &amp; Marx (1996) eingeführt wurden und sich in letzter Zeit zunehmender Beliebtheit erfreuen. Ihre grundlegenden Eigenschaften sind bekannt, und in vielen Fachartikeln wird über gute Erfahrungen im Modellieren damit berichtet. Der Entwicklungsstand der Modellierung mit P-Splines wirft aber noch viele offene Fragen auf. Wir geben eine zusammenfassende Übersicht und einige Literaturhinweise im Zusammenhang mit der flexiblen Modellierung mit Splines (und insbesondere mit P-Splines) in Kapitel 2. Kapitel 3 erläutert die theoretischen Grundlagen für die spätere Entwicklung und stützt sich in seiner Ausführung auf die Arbeit von Kauermann (2005b).
+Die in dieser Arbeit zu präsentierenden Modelle sind aus der Forschung am Lehrstuhl für Statistik, Universität Bielefeld, entstanden. Jedes Modell wird in einzelnen Kapiteln dargestellt und ausführlich diskutiert. Es sind dies unter anderem das Modell der &quot;Two-Way&quot; additiven Hazards (Kapitel 5 und 6) und der &quot;Competing Risks&quot; (Kapitel 8). Eine Weiterentwicklung des erstgenannten Modells ist das Modell mit Wechselwirkungen, das in Kapitel 7 geschildert wird. Auf der Vorgehensweise des Modells der Competing Risks baut das Multi-Zustandsmodell, das in Kapitel 9 beschrieben wird. Darüber hinaus sind einige Erweiterungen der Grundmodelle möglich, welche, neben einer allgemeinen Diskussion, im abschließenden Kapitel 10 erläutert werden.</abstract>
+                    <subject>
+                        <topic>Ereignisdatenanalyse , P-Spline , Überlebenszeitmodelle , Verweildauermodelle , Survival modeling , Survival analysis , Penalized splines</topic>
+                    </subject>
+                    <classification authority="ddc">310</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12643</identifier>
+                    <identifier type="sys">HT015558569</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305613</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305613">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305613/2305616/Dissertation_Pavel_Khomski.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305613" DMDID="DMD2305613">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305613"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

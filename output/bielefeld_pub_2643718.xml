@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2643718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Building Blocks for Cognitive Robots: Embodied Simulation and Schemata in a Cognitive Architecture</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nikolas</namePart>
+                        <namePart type="family">Hemion</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Katharina</namePart>
+                        <namePart type="family">Rohlfing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Joublin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-12-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Building robots with the ability to perform general intelligent action is a primary goal of artificial intelligence research. The traditional approach is to study and model fragments of cognition separately, with the hope that it will somehow be possible to integrate the specialist solutions into a functioning whole. However, while individual specialist systems demonstrate proficiency in their respective niche, current integrated systems remain clumsy in their performance. Recent findings in neurobiology and psychology demonstrate that many regions of the brain are involved not only in one but in a variety of cognitive tasks, suggesting that the cognitive architecture of the brain uses generic computations in a distributed network, instead of specialist computations in local modules. Designing the cognitive architecture for a robot based on these findings could lead to more capable integrated systems.
+
+In this thesis, theoretical background on the concept of embodied cognition is provided, and fundamental mechanisms of cognition are discussed that are hypothesized across theories. Based on this background, a view of how to connect elements of the different theories is proposed, providing enough detail to allow computational modeling. The view proposes a network of generic building blocks to be the central component of a cognitive architecture. Each building block learns an internal model for its inputs. Given partial inputs or cues, the building blocks can collaboratively restore missing components, providing the basis for embodied simulation, which in theories of embodied cognition is hypothesized to be a central mechanism of cognition and the basis for many cognitive functions. In simulation experiments, it is demonstrated how the building blocks can be autonomously learned by a robot from its sensorimotor experience, and that the mechanism of embodied simulation allows the robot to solve multiple tasks simultaneously.
+
+In summary, this thesis investigates how to develop cognitive robots under the paradigm of embodied cognition. It provides a description of a novel cognitive architecture and thoroughly discusses its relation to a broad body of interdisciplinary literature on embodied cognition. This thesis hence promotes the view that the cognitive system houses a network of active elements, which organize the agent&apos;s experiences and collaboratively carry out many cognitive functions. On the long run, it will be inevitable to study complete cognitive systems such as the cognitive architecture described in this thesis, instead of only studying small learning systems separately, to answer the question of how to build truly autonomous cognitive robots.</abstract>
+                    <subject>
+                        <topic>Integration</topic>
+                        <topic>Developmental Robotics</topic>
+                        <topic>Schemata</topic>
+                        <topic>Cognitive Architecture</topic>
+                        <topic>Internal Models</topic>
+                        <topic>Embodied Cognition</topic>
+                        <topic>Decision-Making</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26437185</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2643718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2643718">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2643718/2643776/hemion-dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2643718" DMDID="DMD2643718">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2643718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

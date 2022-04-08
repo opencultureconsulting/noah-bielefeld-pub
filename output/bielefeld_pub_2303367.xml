@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303367">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ONDEX - a data integration framework for the life sciences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Taubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-01-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Over the last decade biological research has changed completely. The reductionism approach of studying only a few biological entities at a time in the past is being replaced by the study of the biological system as a whole today. Systems Biology seeks to understand how complex biological systems work by looking at all parts of biological systems, how they interact with each other and form the complete whole. This process requires that existing biological knowledge (data) is made available to support on the one hand the analysis of experimental results and on the other hand the construction and enrichment of models for Systems Biology.
+Effective integration of biological knowledge from databases scattered around the internet and other information resources (for example experimental data) is recognized as a pre-requisite for many aspects of Systems Biology research. However, systems for the integration of biological knowledge have to overcome several challenges. For example, biological data sources may contain similar or overlapping coverage and the user of such systems is faced with the challenge of generating a consensus data set or selecting the &quot;best&quot; data source. Furthermore, there are many technical challenges to data integration, like different access methods to databases, different data formats, different naming conventions and erroneous or missing data.
+To address these challenges and enable effective integration of biological knowledge in support of Systems Biology research, the ONDEX system which is presented in this thesis was created. The ONDEX system provides an integrated view across biological data sources with the aim to enable the user to gain a better understanding of biology from integrated knowledge. ONDEX is supported by BBSRC (http://www.bbsrc.ac.uk/) as part of the System Approaches to Biological Research initiative (SABR) and is now mainly being developed at Rothamsted Research, Manchester University and Newcastle University. The first ONDEX prototype was developed at University of Bielefeld.
+ONDEX uses a three steps approach to address the outlined challenges, namely import of data from data sources, identifying overlapping or similar data across different data sources and analysis of the resulting integrated datasets to reveal new biological insights. This thesis presents the most interesting aspects of the ONDEX system in more detail; all other parts of the ONDEX system will only be briefly described when appropriate.</abstract>
+                    <subject>
+                        <topic>System Biologie</topic>
+                        <topic>Lebenswissenschaften</topic>
+                        <topic>ONDEX</topic>
+                        <topic>Systems Biology</topic>
+                        <topic>Life Sciences</topic>
+                        <topic>ONDEX</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>Datenintegration</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18135</identifier>
+                    <identifier type="sys">HT016989896</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303367</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303367">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303367/2303370/Thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303367" DMDID="DMD2303367">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303367"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

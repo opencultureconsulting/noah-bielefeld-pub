@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1781521">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Artificial neural nets for controlling a 6-legged walking system</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Holk</namePart>
+                        <namePart type="family">Cruse</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Uwe</namePart>
+                        <namePart type="family">Müller-Wilm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Dean</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jean-Arcady</namePart>
+                        <namePart type="family">Meyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1993</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the Second International Conference on Simulation of Adaptive Behavior</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>52</start>
+                                <end>60</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">0-262-63149-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17815211</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1781521</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1781521">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1781521/2712695/CruseMullerWilmDean1993AnAn2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1781521">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1781521/2313325/OCT2549.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1781521" DMDID="DMD1781521">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1781521"/>
+            <mets:div TYPE="part" ID="PART1_1781521" LABEL="OCT2549.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1781521"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

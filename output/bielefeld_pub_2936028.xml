@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936028">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Task Learning Mechanism for the Telerobots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jing</namePart>
+                        <namePart type="family">Luo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Chenguang</namePart>
+                        <namePart type="family">Yang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Qiang</namePart>
+                        <namePart type="family">Li</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4315-0864</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Min</namePart>
+                        <namePart type="family">Wang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Telerobotic systems have attracted growing attention because of their superiority in the dangerous or unknown interaction tasks. It is very challenging to exploit such systems to implement complex tasks in an autonomous way. In this paper, we propose a task learning framework to represent the manipulation skill demonstrated by a remotely controlled robot. Gaussian mixture model is utilized to encode and parametrize the smooth task trajectory according to the observations from the demonstrations. After encoding the demonstrated trajectory, a new task trajectory is generated based on the variability information of the learned model. Experimental results have demonstrated the feasibility of the proposed method.</abstract>
+                    <subject>
+                        <topic>Telerobotic systems</topic>
+                        <topic>Gaussian mixture model</topic>
+                        <topic>Gaussian mixture</topic>
+                        <topic>regression</topic>
+                        <topic>task model</topic>
+                        <topic>human-robot interaction</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>INTERNATIONAL JOURNAL OF HUMANOID ROBOTICS</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0219-8436</identifier>
+                    <identifier type="eIssn">1793-6942</identifier>
+                    <identifier type="ISI">000468300900003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29360282</identifier>
+                    <identifier type="doi">10.1142/S0219843619500099</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936028</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936028">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936028/2951533/IJHR19Luojing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936028" DMDID="DMD2936028">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936028"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1783712">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>SAMPI: protein identification with mass spectra alignments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hans-Michael</namePart>
+                        <namePart type="family">Kaltenbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Wilke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Böcker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Mass spectrometry based peptide mass fingerprints (PMFs) offer a fast, efficient, and robust method for protein identification. A protein is digested (usually by trypsin) and its mass spectrum is compared to simulated spectra for protein sequences in a database. However, existing tools for analyzing PMFs often suffer from missing or heuristic analysis of the significance of search results and insufficient handling of missing and additional peaks. Results: We present an unified framework for analyzing Peptide Mass Fingerprints that offers a number of advantages over existing methods: First, comparison of mass spectra is based on a scoring function that can be custom-designed for certain applications and explicitly takes missing and additional peaks into account. The method is able to simulate almost every additive scoring scheme. Second, we present an efficient deterministic method for assessing the significance of a protein hit, independent of the underlying scoring function and sequence database. We prove the applicability of our approach using biological mass spectrometry data and compare our results to the standard software Mascot. Conclusion: The proposed framework for analyzing Peptide Mass Fingerprints shows performance comparable to Mascot on small peak lists. Introducing more noise peaks, we are able to keep identification rates at a similar level by using the flexibility introduced by scoring schemes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">17386090</identifier>
+                    <identifier type="ISI">000245629700001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17837125</identifier>
+                    <identifier type="doi">10.1186/1471-2105-8-102</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1783712</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1783712">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1783712/2314251/13.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1783712" DMDID="DMD1783712">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1783712"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

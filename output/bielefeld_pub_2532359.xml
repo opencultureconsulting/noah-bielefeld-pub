@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2532359">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Task level motion planning : integrating local robot control and global sampling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Behnisch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Gienger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-09-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis addresses the problem of generating goal-directed movements for robots, a
+challenging problem especially in cases where the involved state spaces are high-dimensional
+and complex constraints, such as obstacles and joint-limits, are present. Local methods can
+be severely hindered in such situations and planning on a global level becomes necessary.
+Although an exhaustive search of the state space can generally solve these problems, complete
+planning methods do not scale well with the number of dimensions. To avoid the inherent
+complexity of complete state space planning, this work proposes the use of a condensed task-
+centered representation, focusing on the task to be achieved and neglecting all unnecessary
+details. The motion planning problem can then be effectively decomposed into two layers:
+A global search component that is restricted to the coarse-scale task representation and a
+local control method that generates fine-scale motions.
+The ability of the approach to solve difficult planning problems is demonstrated with an
+application for redundant robotic manipulators. Due to the limitation of global planning to
+the task representation, completeness can no longer be guaranteed, but it can be shown that
+many relevant situations can be solved. In particular, the ability to solve planning tasks
+for a humanoid robot operating in human-centered environments is demonstrated in both
+simulation and laboratory experiments, providing evidence of a significant computational
+advantage compared to complete state space sampling methods.</abstract>
+                    <subject>
+                        <topic>Sampling-based Planning</topic>
+                        <topic>Bi-manual Planning</topic>
+                        <topic>Motion Planning</topic>
+                        <topic>Reactive Motion Control</topic>
+                        <topic>Redundant and Humanoid Robots</topic>
+                        <topic>Hybrid Planning</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25323599</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2532359</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2532359">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2532359/2532368/TaskLevelMotionPlanning.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2532359" DMDID="DMD2532359">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2532359"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

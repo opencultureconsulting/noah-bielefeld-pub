@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909142">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Information transmission in hierarchies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Schopohl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We analyze a game in which players with unique information are arranged in a hierarchy.
+In the lowest layer each player can decide in each of several rounds either to pass the information
+to his successor or to hold. While passing generates an immediate payoff according
+to the value of information, the player can also get an additional reward if he is the last
+player to pass. Facing this problem while discounting over time determines the player’s
+behavior. Once a successor has collected all information from his workers he starts to play
+the same game with his successor.&lt;br /&gt;
+We state conditions for different Subgame Perfect Nash Equilibria and analyse the time it
+takes each hierarchy to centralize the information. This allows us to compare different structures
+and state which structure centralizes fastest depending on the information distribution
+and other parameters. We show that the time the centralization takes is mostly affected by
+the least informed players.</abstract>
+                    <subject>
+                        <topic>communication network</topic>
+                        <topic>dynamic network game</topic>
+                        <topic>hierarchical structure</topic>
+                        <topic>information transmission</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>570</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29091428</identifier>
+                    <identifier type="sys">HT019479240</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909142</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909142">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909142/2909143/IMW_working_paper_570.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909142" DMDID="DMD2909142">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909142"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

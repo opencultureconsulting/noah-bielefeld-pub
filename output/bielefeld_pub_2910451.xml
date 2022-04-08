@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2910451">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Visual Place Recognition for Autonomous Mobile Robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Horst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7389-3696</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Place recognition is an essential component of autonomous mobile robot navigation. It is used for loop-closure detection to maintain consistent maps, or to localize the robot along a route, or in kidnapped-robot situations. Camera sensors provide rich visual information for this task. We compare different approaches for visual place recognition: holistic methods (visual compass and warping), signature-based methods (using Fourier coefficients or feature descriptors (able for binary-appearance loop-closure evaluation, ABLE)), and feature-based methods (fast appearance-based mapping, FabMap). As new contributions we investigate whether warping, a successful visual homing method, is suitable for place recognition. In addition, we extend the well-known visual compass to use multiple scale planes, a concept also employed by warping. To achieve tolerance against changing illumination conditions, we examine the NSAD distance measure (normalized sum of absolute differences) on edge-filtered images. To reduce the impact of illumination changes on the distance values, we suggest to compute ratios of image distances to normalize these values to a common range. We test all methods on multiple indoor databases, as well as a small outdoor database, using images with constant or changing illumination conditions. ROC analysis (receiver-operator characteristics) and the metric distance between best-matching image pairs are used as evaluation measures. Most methods perform well under constant illumination conditions, but fail under changing illumination. The visual compass using the NSAD measure on edge-filtered images with multiple scale planes, while being slower than signature methods, performs best in the latter case</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Robotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2218-6581</identifier>
+                    <identifier type="ISI">000400865200004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29104517</identifier>
+                    <identifier type="doi">10.3390/robotics6020009</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2910451</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2910451">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2910451/2911395/robotics-06-00009.horst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2910451" DMDID="DMD2910451">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2910451"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

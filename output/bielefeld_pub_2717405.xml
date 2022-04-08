@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2717405">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Mapping Shape to Visuomotor Mapping: Learning and Generalisation of Sensorimotor Behaviour Based on Contextual Information</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Mapping Shape to Visuomotor Mapping</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Loes</namePart>
+                        <namePart type="family">van Dam</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0590-9347</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc O.</namePart>
+                        <namePart type="family">Ernst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Humans can learn and store multiple visuomotor mappings (dual-adaptation) when feedback for each is provided alternately. Moreover, learned context cues associated with each mapping can be used to switch between the stored mappings. However, little is known about the associative learning between cue and required visuomotor mapping, and how learning generalises to novel but similar conditions. To investigate these questions, participants performed a rapid target-pointing task while we manipulated the offset between visual feedback and movement end-points. The visual feedback was presented with horizontal offsets of different amounts, dependent on the targets shape. Participants thus needed to use different visuomotor mappings between target location and required motor response depending on the target shape in order to “hit” it. The target shapes were taken from a continuous set of shapes, morphed between spiky and circular shapes. After training we tested participants performance, without feedback, on different target shapes that had not been learned previously. We compared two hypotheses. First, we hypothesised that participants could (explicitly) extract the linear relationship between target shape and visuomotor mapping and generalise accordingly. Second, using previous findings of visuomotor learning, we developed a (implicit) Bayesian learning model that predicts generalisation that is more consistent with categorisation (i.e. use one mapping or the other). The experimental results show that, although learning the associations requires explicit awareness of the cues’ role, participants apply the mapping corresponding to the trained shape that is most similar to the current one, consistent with the Bayesian learning model. Furthermore, the Bayesian learning model predicts that learning should slow down with increased numbers of training pairs, which was confirmed by the present results. In short, we found a good correspondence be- tween the Bayesian learning model and the empirical results indicating that this model poses a possible mechanism for simultaneously learning multiple visuomotor mappings.</abstract>
+                    <subject>
+                        <topic>Bayes Theorem</topic>
+                        <topic>Learning</topic>
+                        <topic>Kalman Filter</topic>
+                        <topic>Generalisation</topic>
+                        <topic>Visuomotor behaviour</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS Computational Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1553-734X</identifier>
+                    <identifier type="eIssn">1553-7358</identifier>
+                    <identifier type="MEDLINE">25815787</identifier>
+                    <identifier type="ISI">000352195700050</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27174059</identifier>
+                    <identifier type="doi">10.1371/journal.pcbi.1004172</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2717405</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2717405">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2717405/2735212/journal.pcbi.1004172.vandam.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2717405" DMDID="DMD2717405">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2717405"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919707">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Wave Space Sonification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper introduces Wave Space Sonification (WSS), a novel class of sonification techniques for time- (or space-) indexed data. WSS doesn&apos;t fall into the classes of Audification, Parameter-Mapping Sonification or Model-based Sonification and thus constitutes a novel class of sonification techniques.  It realizes a different link between data and their auditory representation, by scanning a scalar field – defined as wave space – along a data-driven trajectory.  This allows both the highly controlled definition of the auditory representation for any area of interest, as well as subtle yet acoustically complex sound variations as the overall pattern changes.  To illustrate Wave Space Sonification (WSS), we introduce three different WSS instances, (i) the Static Canonical WSS, (ii) Data-driven Localized WSS and (iii), Granular Wave Space Sonification (GWSS), and we demonstrate the different methods with sonification examples from various data domains. We discuss the technique and its relation to other sonification approaches and finally outline productive application areas.</abstract>
+                    <subject>
+                        <topic>sonification, auditory display, time series analysis</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29197076</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919707</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919707">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919707/2920722/Hermann2018-WaveSpaceSonification-ICAD2018.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919707" DMDID="DMD2919707">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919707"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

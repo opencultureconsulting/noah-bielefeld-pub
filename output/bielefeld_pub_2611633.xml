@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2611633">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Statistics for approximate gene clusters</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Katharina</namePart>
+                        <namePart type="family">Jahn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sascha</namePart>
+                        <namePart type="family">Winter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Böcker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Genes occurring co-localized in multiple genomes can be strong indicators for either functional constraints on the genome organization or remnant ancestral gene order. The computational detection of these patterns, which are usually referred to as gene clusters, has become increasingly sensitive over the past decade. The most powerful approaches allow for various types of imperfect cluster conservation: Cluster locations may be internally rearranged. The individual cluster locations may contain only a subset of the cluster genes and may be disrupted by uninvolved genes. Moreover cluster locations may not at all occur in some or even most of the studied genomes. The detection of such low quality clusters increases the risk of mistaking faint patterns that occur merely by chance for genuine findings. Therefore, it is crucial to estimate the significance of computational gene cluster predictions and discriminate between true conservation and coincidental clustering.
+Results
+
+In this paper, we present an efficient and accurate approach to estimate the significance of gene cluster predictions under the approximate common intervals model. Given a single gene cluster prediction, we calculate the probability to observe it with the same or a higher degree of conservation under the null hypothesis of random gene order, and add a correction factor to account for multiple testing. Our approach considers all parameters that define the quality of gene cluster conservation: the number of genomes in which the cluster occurs, the number of involved genes, the degree of conservation in the different genomes, as well as the frequency of the clustered genes within each genome. We apply our approach to evaluate gene cluster predictions in a large set of well annotated genomes.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 15: Proc. of RECOMB-CG 2013</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">24564620</identifier>
+                    <identifier type="ISI">000328316700014</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26116339</identifier>
+                    <identifier type="doi">10.1186/1471-2105-14-S15-S14</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2611633</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2611633">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2611633/2648307/1471-2105-14-S15-S14.jahn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2611633" DMDID="DMD2611633">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2611633"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

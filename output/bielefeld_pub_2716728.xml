@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2716728">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Studying the Role of Location in 3D Scene Description using Natural Language</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Zoe</namePart>
+                        <namePart type="family">Falomir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">I.</namePart>
+                        <namePart type="family">Sanz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">L.</namePart>
+                        <namePart type="family">Museros</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">J. A.</namePart>
+                        <namePart type="family">Ortega</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper the description of 3D indoor scenes in natural language is studied from the point of view of intrinsic and relative location of the objects. An approach has been developed for this purpose which uses a XBox 360 Kinect in combination with ROS and PCL to obtain 3D-data from the scene. Object features are computed on these 3D-data, which are used to generate a SVM-model which classifies the different objects in the scene. After detecting the objects in the scene, their orientation is obtained and qualitative spatial relations between the objects are computed to generate a natural-language description of the scene.</abstract>
+                    <subject>
+                        <topic>Natural Language</topic>
+                        <topic>indoor scene decsription</topic>
+                        <topic>XBox Kinect</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-84-616-7622-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27167285</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2716728</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2716728">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2716728/2716734/jarca2013.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2716728" DMDID="DMD2716728">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2716728"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

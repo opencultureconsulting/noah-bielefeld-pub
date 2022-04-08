@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2537523">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An event metric and an episode metric for a virtual guide</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Rabe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joaquim</namePart>
+                        <namePart type="family">Filipe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ana</namePart>
+                        <namePart type="family">Fred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we introduce a metric to compare events and episodes in the episodic memory system of a virtual agent. The agent, a virtual tour guide based on a belief – desire – intention cognitive architecture, uses his memories to improve the walks around a virtual city. The guide’s past experiences are memorized as events and organized into episodes. Each event is indexed along six dimensions and is comparable on each dimension with a distinct distance function. This is then utilized to measure the similarity between episodes.</abstract>
+                    <subject>
+                        <topic>Virtual Agent</topic>
+                        <topic>Episode Metric</topic>
+                        <topic>Event Metric</topic>
+                        <topic>Guidance</topic>
+                        <topic>Episodic Memory</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>ICAART 2013 - Proceedings of the 5th International Conference on Agents and Artificial Intelligence</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>543</start>
+                                <end>546</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-989-8565-39-6</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25375238</identifier>
+                    <identifier type="doi">10.5220/0004262605430546</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2537523</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2537523">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2537523/2631728/Rabe_Wachsmuth-Event_Metric_Episode_Metric.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2537523" DMDID="DMD2537523">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2537523"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2909372</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:004</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Efficient Kernelization of Discriminative Dimensionality Reduction</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Schulz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">34943216</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0739-612X</description></name>
+<name type="personal">
+  <namePart type="given">Johannes</namePart>
+  <namePart type="family">Brinkrolf</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">40028560</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0032-7623</description></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Modern nonlinear dimensionality reduction (DR) techniques project
+high dimensional data to low dimensions for their visual inspection.
+Provided the intrinsic data dimensionality is larger than two, DR nec-
+essarily faces information loss and the problem becomes ill-posed. Dis-
+criminative dimensionality reduction (DiDi) offers one intuitive way
+to reduce this ambiguity: it allows a practitioner to identify what is
+relevant and what should be regarded as noise by means of intuitive
+auxiliary information such as class labels. One powerful DiDi method
+relies on a change of the data metric based on the Fisher information.
+This technique has been presented for vectorial data so far. The aim
+of this contribution is to extend the technique to more general data
+structures which are characterised in terms of pairwise similarities only
+by means of a kernelisation. We demonstrate that a computation of
+the Fisher metric is possible in kernel space, and that it can efficiently
+be integrated into modern DR technologies such as t-SNE or faster
+Barnes-Hut-SNE. We demonstrate the performance of the approach
+in a variety of benchmarks.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Schulz.et.al._kernelisationDiDi.pdf">https://pub.uni-bielefeld.de/download/2909372/2912784/Schulz.et.al._kernelisationDiDi.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Elsevier BV</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Neurocomputing</title></titleInfo>
+  <identifier type="issn">0925-2312</identifier>
+  <identifier type="eIssn">1872-8286</identifier>
+  <identifier type="ISI">000411541000005</identifier><identifier type="urn">urn:nbn:de:0070-pub-29093721</identifier><identifier type="doi">10.1016/j.neucom.2017.01.104</identifier>
+<part><detail type="volume"><number>268</number></detail><detail type="issue"><number>SI</number></detail><extent unit="pages">34-41</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Schulz A, Brinkrolf J, Hammer B (2017) &lt;br /&gt;&lt;em&gt;Neurocomputing&lt;/em&gt; 268(SI): 34-41.</default>
+<mla>Schulz, Alexander, Brinkrolf, Johannes, and Hammer, Barbara. “Efficient Kernelization of Discriminative Dimensionality Reduction”. &lt;em&gt;Neurocomputing&lt;/em&gt; 268.SI (2017): 34-41.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schulz, Alexander, Brinkrolf, Johannes, and Hammer, Barbara. 2017. “Efficient Kernelization of Discriminative Dimensionality Reduction”. &lt;em&gt;Neurocomputing&lt;/em&gt; 268 (SI): 34-41.&lt;/div&gt;</chicago>
+<lncs> Schulz, A., Brinkrolf, J., Hammer, B.: Efficient Kernelization of Discriminative Dimensionality Reduction. Neurocomputing. 268, 34-41 (2017).</lncs>
+<angewandte-chemie>A.  Schulz, J.  Brinkrolf, and B.  Hammer, “Efficient Kernelization of Discriminative Dimensionality Reduction”, &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;strong&gt;2017&lt;/strong&gt;, &lt;em&gt;268&lt;/em&gt;, 34-41.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schulz, A., Brinkrolf, J., &amp;amp; Hammer, B. (2017). Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;268&lt;/em&gt;(SI), 34-41. doi:10.1016/j.neucom.2017.01.104&lt;/div&gt;</apa_indent>
+<bio1>Schulz A, Brinkrolf J, Hammer B (2017) &lt;br /&gt;Efficient Kernelization of Discriminative Dimensionality Reduction.&lt;br /&gt;Neurocomputing 268(SI): 34-41.</bio1>
+<harvard1>Schulz, A., Brinkrolf, J., &amp;amp; Hammer, B., 2017. Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt;, 268(SI), p 34-41.</harvard1>
+<wels>Schulz, A.; Brinkrolf, J.; Hammer, B. (2017): Efficient Kernelization of Discriminative Dimensionality Reduction &lt;em&gt;Neurocomputing&lt;/em&gt;,268:(SI): 34-41.</wels>
+<ieee> A. Schulz, J. Brinkrolf, and B. Hammer, “Efficient Kernelization of Discriminative Dimensionality Reduction”, &lt;em&gt;Neurocomputing&lt;/em&gt;,  vol. 268, 2017,  pp. 34-41.</ieee>
+<apa>Schulz, A., Brinkrolf, J., &amp;amp; Hammer, B. (2017). Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;268&lt;/em&gt;(SI), 34-41. doi:10.1016/j.neucom.2017.01.104</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schulz, A., Brinkrolf, J. &amp;amp; Hammer, B. (2017). Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;268&lt;/em&gt;(SI), 34-41. Elsevier BV. doi:10.1016/j.neucom.2017.01.104.&lt;/div&gt;</dgps>
+<frontiers>Schulz, A., Brinkrolf, J., and Hammer, B. (2017). Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt; 268, 34-41.</frontiers>
+<ama>Schulz A, Brinkrolf J, Hammer B. Efficient Kernelization of Discriminative Dimensionality Reduction. &lt;em&gt;Neurocomputing&lt;/em&gt;. 2017;268(SI):34-41.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2909372</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-03-23T08:44:36Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:46Z</recordChangeDate>
+</recordInfo>
+</mods>

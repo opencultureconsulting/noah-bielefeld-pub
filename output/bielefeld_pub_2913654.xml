@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913654">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ISSN-Matching of Gold OA Journals (ISSN-GOLD-OA)  2.0</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christine</namePart>
+                        <namePart type="family">Rimmert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andre</namePart>
+                        <namePart type="family">Bruns</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christopher</namePart>
+                        <namePart type="family">Lenke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Niels Christian</namePart>
+                        <namePart type="family">Taubert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2357-2648</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">ISSN-GOLD-OA 2.0 provides a matching list of ISSN for Gold Open Access (OA) journals. The intention was to compile a matching table that is as complete as possible by using different publicly available sources. The data set offers a basis for various journal-related issues in bibliometric studies on Gold OA. The list is an updated version of  ISSN-GOLD-OA .      For a detailed description of the method, data sources used and the definition of the table fields, please refer to the original documentation: [https://pub.uni-bielefeld.de/data/2906347](https://pub.uni-bielefeld.de/data/2906347).</abstract>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2913654</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/odbl/summary/index.html">ODbL</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913654</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.ms-excel" ID="FILE0_bielefeld_pub_2913654">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913654/2913655/ISSN_GOLD-OA_2.0.csv" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2913654">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913654/2913656/ISSN_Gold_OA_Matching_2.0_documentation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913654" DMDID="DMD2913654">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913654"/>
+            <mets:div TYPE="part" ID="PART1_2913654" LABEL="ISSN_Gold_OA_Matching_2.0_documentation.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2913654"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

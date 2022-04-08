@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2931387">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Context-specific subcellular localization prediction: Leveraging protein interaction networks and scientific texts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lu</namePart>
+                        <namePart type="family">Zhu</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6705-7130</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Ester</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-09-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">One essential task in proteomics analysis is to explore the functions of proteins in conducting and regulating the activities at the subcellular level. Compartmentalization of cells allows proteins to perform their activities efficiently. A protein functions correctly only if it occurs at the right place, at the right time, and interacts with the right molecules. Therefore, the knowledge of protein subcellular localization (SCL) can provide valuable insights for understanding protein functions and related cellular mechanisms. Thus, the systematic study of the subcellular distribution of human proteins is an essential task for fully characterizing the human proteome.&lt;br /&gt;&lt;br /&gt;
+
+The context-specific analysis is an important and challenging task in systems biology research. Proteins may perform different functions at different subcellular compartments (SCCs). Hence, the dynamic and context-specific alterations of the subcellular spatial distribution of proteins are essential in identifying cellular function. While this important feature is well-known in molecular and cell biology, most large-scale protein annotation studies to-date have ignored it.&lt;br /&gt;&lt;br /&gt;
+
+Tissue is one particularly crucial biological context for human biology. Proteins show their tissue specificity at the subcellular level by localizing to different SCCs in different tissues. For example, glutamine synthetase localizes in mitochondria in liver cells while in the cytoplasm in brain cells. The knowledge of the tissue-specific SCLs can enrich the human protein annotation, and thus will increase our understanding of human biology.&lt;br /&gt;&lt;br /&gt;
+
+Conventional wet-lab experiments are used to determine the SCL of proteins. Due to the expense and low-throughput of wet-lab experimental approaches, various algorithms and tools have been developed for predicting protein SCLs by integrating biological background knowledge into machine learning methods. Most of the existing approaches are designed for handling general genome-wide large-scale analysis. Thus, they cannot be used for context-specific analysis of protein SCL.&lt;br /&gt;&lt;br /&gt;
+
+The focus of this work is to develop new methods to perform tissue-specific SCL prediction.
+(1) First, we developed Bayesian collective Markov Random Fields (BCMRFs) to address the general multi-SCL problem. BCMRFs integrate both protein-protein interaction network (PPIN) features and the protein sequence features, consider the spatial adjacency of SCCs, and employ transductive learning on imbalanced SCL data sets. Our experimental results show that BCMRFs achieve higher performance in comparison with the state-of-art PPI-based method in SCL prediction.&lt;br /&gt;&lt;br /&gt;
+
+(2) We then integrated BCMRFs into a novel end-to-end computational approach to perform tissue-specific SCL prediction on tissue-specific PPINs. In total, 1314 proteins which SCLs were previously proven cell lines dependent were successfully localized based on nine tissue-specific PPINs. Furthermore, 549 new tissue-specific localized candidate proteins were predicted and confirmed by scientific literature. Due to the high performance of BCMRFs on known tissue-specific proteins, these are excellent candidates for further wet-lab experimental validation.&lt;br /&gt;&lt;br /&gt;
+
+(3) In addition to the proteomics data, the existing scientific literature contains an abundance of tissue-specific SCL data. To collect these data, we developed a scoring-based text mining system and extracted tissue-specific SCL associations from the abstracts of a large number of biomedical papers. The obtained data are accessible from the web based database TS-SCL DB.&lt;br /&gt;&lt;br /&gt;
+
+(4) We concluded the study with an application case study of the tissue-specific subcellular distribution of human argonaute-2 (AGO2) protein. We demonstrated how to perform tissue-specific SCL prediction on AGO2-related PPINs. Most of the resulting tissue-specific SCLs are confirmed by literature results available in TS-SCL DB.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29313870</identifier>
+                    <identifier type="doi">10.4119/unibi/2931387</identifier>
+                    <identifier type="sys">HT019886967</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2931387</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2931387">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2931387/2931388/Zhu_dissertation_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2931387" DMDID="DMD2931387">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2931387"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

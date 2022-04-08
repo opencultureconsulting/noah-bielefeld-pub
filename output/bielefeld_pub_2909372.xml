@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909372">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient Kernelization of Discriminative Dimensionality Reduction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0739-612X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Brinkrolf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0032-7623</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Modern nonlinear dimensionality reduction (DR) techniques project
+high dimensional data to low dimensions for their visual inspection.
+Provided the intrinsic data dimensionality is larger than two, DR nec-
+essarily faces information loss and the problem becomes ill-posed. Dis-
+criminative dimensionality reduction (DiDi) offers one intuitive way
+to reduce this ambiguity: it allows a practitioner to identify what is
+relevant and what should be regarded as noise by means of intuitive
+auxiliary information such as class labels. One powerful DiDi method
+relies on a change of the data metric based on the Fisher information.
+This technique has been presented for vectorial data so far. The aim
+of this contribution is to extend the technique to more general data
+structures which are characterised in terms of pairwise similarities only
+by means of a kernelisation. We demonstrate that a computation of
+the Fisher metric is possible in kernel space, and that it can efficiently
+be integrated into modern DR technologies such as t-SNE or faster
+Barnes-Hut-SNE. We demonstrate the performance of the approach
+in a variety of benchmarks.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Neurocomputing</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>268</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>SI</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>34</start>
+                                <end>41</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0925-2312</identifier>
+                    <identifier type="eIssn">1872-8286</identifier>
+                    <identifier type="ISI">000411541000005</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29093721</identifier>
+                    <identifier type="doi">10.1016/j.neucom.2017.01.104</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909372</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909372">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909372/2912784/Schulz.et.al._kernelisationDiDi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909372" DMDID="DMD2909372">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909372"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2683286">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bio-inspired control concepts for elastic rotatory joint drives</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Salvatore</namePart>
+                        <namePart type="family">Annunziata</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-03-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Recent research in robotics focuses the attention on the control of compliant actuators to improve safety and to make the interaction with humans more natural. Lightweight
+construction, real elasticity directly integrated into the joint and control of joint compliance seem to play the most important role for improving safety in human-machine
+interaction. Humans are intrinsically elastic and the Central Nervous System (CNS) takes advantage of the nonlinear muscle properties to modulate joint stiffness through co-contraction of antagonistic muscles.
+If alterable compliance in robotic systems is desirable, its introduction can be achieved in two fundamentally different ways. The first way is a technical approach based on the idea of impedance control as formulated by Hogan (1985). The second approach is bioinspired and introduces physiological control mechanisms, muscle models and virtual
+antagonistic actuation into the control system of a robotics joint drive. Recently, biological models for the control of muscles in vertebrates have been developed
+(Franklin et al., 2008; Yang et al., 2011). Still, the question remains, how a control algorithm, acting on two or even more muscles, can be implemented in a technical joint.
+With the objective to implement bio-inspired control strategies on a robotic joint drive, in this thesis, musculoskeletal models, biological parameters and bio-inspired control laws are analyzed and tested. A simplified model of the human elbow joint is used to analyze muscle-like actuation and stiffness properties at the joint. Based on recent results related to how the CNS controls antagonistic muscles, a biological control pattern
+based on reciprocal activation and co-activation is tested for the control of torque and stiffness at the joint. However, a closer analysis of the musculoskeletal parameters reveals that, despite antagonistic co-activation, domains in the joint range of motion might occur for which stiffness variation is limited (low stiffness variability) or even impossible (stiffness nodes).
+The first part of this thesis presents novel strategies for simultaneous control of torque and stiffness in a hinge joint actuated by two antagonistic muscle pairs. One strategy handles stiffness nodes by shifting them away from the current joint position and thus regaining stiffness controllability. To prevent domains of low stiffness variation, an optimal biomechanical setup is sought and finally defined which allows for a maximal stiffness
+variation across a wide angular joint range. Based on this optimal setup, four additional control approaches are designed and tested in simulation which deliver stiffnesses
+and torques comparable to those obtained in the optimal case. The control approaches combine biologically justified aspects, like reciprocal activation and co-activation, with
+novel ideas like inverse dynamics model and activation overflow.
+The second part of the thesis focuses on the design, test and validation of a bio-inspired position and stiffness control strategy for a lightweight, intrinsically elastic, robotics joint drive. Reciprocal activation and co-activation are used here as a starting point to
+concurrently control stiffness and position (instead of torque). A stability analysis, performed on the human elbow joint model, confirms that the co-activation level (and, as
+a consequence, the stiffness level) affects the reaction of the joint to external perturbations in terms of oscillations and settling time. To account for the stability aspects and implement further mechanisms found in the CNS of vertebrates, models of the muscle spindles, Golgi tendon organs, alpha-motor neurons and Renshaw cells, are added to the control algorithm. Nevertheless, while in many biological systems, antagonistic muscles generate the movement of the joint, in simple robotic systems, the movement is generated by only one actuator. Therefore, in order to transmit the desired bio-inspired movement to the technical elbow, the sum of all muscle-torques acting on the joint (i.e. the net-torque at the joint), has to be transmitted to the lightweight, inherently elastic, joint drive and controlled. A speed-torque control cascade is designed, implemented and tested on the robotics joint drive. The impedance range of the human elbow joint is evaluated in simulation and compared to the range obtained when the technical joint drive is acting instead of its biological counterpart. The bio-inspired controlled joint drive is able to reach the desired position and modulate joint compliance according to the disturbance like humans do, both in static cases and during movements, while keeping stability.</abstract>
+                    <subject>
+                        <topic>stiffness control</topic>
+                        <topic>impedance control</topic>
+                        <topic>antagonistic joint</topic>
+                        <topic>bioinspired control</topic>
+                        <topic>virtual muscle</topic>
+                        <topic>robotics joint</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26832861</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2683286</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2683286">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2683286/2683302/Thesis_Annunziata_PUB.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2683286" DMDID="DMD2683286">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2683286"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

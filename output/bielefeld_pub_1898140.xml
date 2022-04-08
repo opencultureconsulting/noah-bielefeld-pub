@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1898140">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Der </nonSort>
+                        <title>Lehrstuhl für BWL, insbes. Unternehmensrechnung und Rechnungslegung an der Universität Bielefeld</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Amen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Zeitschrift für Controlling &amp; Management</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>54</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>278</start>
+                                <end>280</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1614-1822</identifier>
+                    <identifier type="eIssn">1864-5410</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-46576</identifier>
+                    <identifier type="doi">10.1007/s12176-010-0083-2</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1898140</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1898140">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1898140/2319750/2010_Amen_Lehrstuhlportrait_ZfCM.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1898140">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1898140/2240147/2010_Amen_-_Lehrstuhlportrait_ZfCM.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1898140" DMDID="DMD1898140">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1898140"/>
+            <mets:div TYPE="part" ID="PART1_1898140" LABEL="2010_Amen_-_Lehrstuhlportrait_ZfCM.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1898140"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

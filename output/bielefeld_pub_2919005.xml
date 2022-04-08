@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919005">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>GraphTeams. A method for discovering spatial gene clusters in Hi-C sequencing data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Tizian</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0744-7078</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Dörr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3720-6227</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Abstract
+Background
+
+Hi-C sequencing offers novel, cost-effective means to study the spatial conformation of chromosomes. We use data obtained from Hi-C experiments to provide new evidence for the existence of spatial gene clusters. These are sets of genes with associated functionality that exhibit close proximity to each other in the spatial conformation of chromosomes across several related species.
+Results
+
+We present the first gene cluster model capable of handling spatial data. Our model generalizes a popular computational model for gene cluster prediction, called δ-teams, from sequences to graphs. Following previous lines of research, we subsequently extend our model to allow for several vertices being associated with the same label. The model, called δ-teams with families, is particular suitable for our application as it enables handling of gene duplicates. We develop algorithmic solutions for both models. We implemented the algorithm for discovering δ-teams with families and integrated it into a fully automated workflow for discovering gene clusters in Hi-C data, called GraphTeams. We applied it to human and mouse data to find intra- and interchromosomal gene cluster candidates. The results include intrachromosomal clusters that seem to exhibit a closer proximity in space than on their chromosomal DNA sequence. We further discovered interchromosomal gene clusters that contain genes from different chromosomes within the human genome, but are located on a single chromosome in mouse.
+Conclusions
+
+By identifying δ-teams with families, we provide a flexible model to discover gene cluster candidates in Hi-C data. Our analysis of Hi-C data from human and mouse reveals several known gene clusters (thus validating our approach), but also few sparsely studied or possibly unknown gene cluster candidates that could be the source of further experimental investigations.</abstract>
+                    <subject>
+                        <topic>Spatial gene cluster</topic>
+                        <topic>Gene teams</topic>
+                        <topic>Single-linkage clustering</topic>
+                        <topic>Graph teams</topic>
+                        <topic>Hi-C data</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>19</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl. 5</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2164</identifier>
+                    <identifier type="eIssn">1471-2164</identifier>
+                    <identifier type="MEDLINE">29745835</identifier>
+                    <identifier type="ISI">000431831400004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29190056</identifier>
+                    <identifier type="doi">10.1186/s12864-018-4622-0</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919005</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919005">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919005/2920483/s12864-018-4622-0.doerr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919005" DMDID="DMD2919005">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919005"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

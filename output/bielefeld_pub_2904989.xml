@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2904989">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>High-throughput sequencing and graph-based cluster analysis facilitate microsatellite development from a highly complex genome</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Abhijeet</namePart>
+                        <namePart type="family">Shah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Schielzeth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9124-2261</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Albersmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörn</namePart>
+                        <namePart type="family">Kalinowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joseph</namePart>
+                        <namePart type="family">Hoffman</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5895-8949</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Despite recent advances in high-throughput sequencing, difficulties are often encountered when developing microsatellites for species with large and complex genomes. This probably reflects the close association in many species of microsatellites with cryptic repetitive elements. We therefore developed a novel approach for isolating polymorphic microsatellites from the club-legged grasshopper (Gomphocerus sibiricus), an emerging quantitative genetic and behavioral model system. Whole genome shotgun Illumina MiSeq sequencing was used to generate over three million 300 bp paired-end reads, of which 67.75% were grouped into 40,548 clusters within RepeatExplorer. Annotations of the top 468 clusters, which represent 60.5% of the reads, revealed homology to satellite DNA and a variety of transposable elements. Evaluating 96 primer pairs in eight wild-caught individuals, we found that primers mined from singleton reads were six times more likely to amplify a single polymorphic microsatellite locus than primers mined from clusters. Our study provides experimental evidence in support of the notion that microsatellites associated with repetitive elements are less likely to successfully amplify. It also reveals how advances in high-throughput sequencing and graph-based repetitive DNA analysis can be leveraged to isolate polymorphic microsatellites from complex genomes.</abstract>
+                    <subject>
+                        <topic>Acrididae</topic>
+                        <topic>genetic marker development</topic>
+                        <topic>Gomphocerus sibiricus</topic>
+                        <topic>high-throughput sequencing</topic>
+                        <topic>microsatellite</topic>
+                        <topic>Orthoptera</topic>
+                        <topic>transposable elements</topic>
+                    </subject>
+                    <classification authority="ddc">590</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Ecology and Evolution</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>6</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>5718</start>
+                                <end>5727</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2045-7758</identifier>
+                    <identifier type="MEDLINE">27547349</identifier>
+                    <identifier type="ISI">000381578400013</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29049896</identifier>
+                    <identifier type="doi">10.1002/ece3.2305</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2904989</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2904989">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2904989/2904990/ece32305.shah.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2904989" DMDID="DMD2904989">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2904989"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

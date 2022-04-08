@@ -1,0 +1,497 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2935744</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Marian</namePart>
+  <namePart type="family">Weger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">We introduce Auditory Contrast Enhancement (ACE) as a technique to enhance sounds at hand of a given collection of sound or sonification examples that belong to different classes, such as sounds of machines with and without a certain malfunction, or medical data sonifications for different pathologies/conditions.  A frequent use case in inductive data mining is the discovery of patterns in which such groups can be discerned, to guide subsequent paths for modelling and feature extraction.  ACE provides researchers with a set of methods to render focused auditory perspectives that accentuate inter-group differences and in turn also enhance the intra-group similarity, i.e, it warps sounds so that our human built-in metrics for assessing differences between sounds is better aligned to systematic differences between sounds belonging to different classes. We unfold and detail the concept along three different lines: temporal, spectral and spectrotemporal auditory contrast enhancement and we demonstrate their performance at hand of given sound and sonification collections.
+
+ 
+#### **ACE of Impact Sounds: table interaction sounds**
+		
+##### **S1.0-table-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935745"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.1-table__spectral__mode=median_filtered_ts__order=2.5__medfilt=9__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935746"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.2-table__spectral__mode=tanh_gained_ts__order=6.25__medfilt=25__nlgain=0.16.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935747"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.3-table__spectral__mode=tanh_gained_ts__order=26.75__medfilt=17__nlgain=0.17.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935748"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.4-table__spectral__mode=db_median_filtered_ps__order=47.5__medfilt=25__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935749"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.5-table__temporal__mode=median_filtered_ts__order=3.5__medfilt=5__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935750"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.6-table__spectrotemporal__mode=only_highest_ts__ts_threshold=3.311__sigma=0.316__mix=1.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935751"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.7-table__spectrotemporal__mode=only_highest_ts__ts_threshold=13.18__sigma=0.316__mix=1.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935752"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.8-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.331__mix=1.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935753"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S1.9-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.871__mix=0.998.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935754"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+
+#### **ACE of Impact Sounds: finger snap interaction sounds**
+
+##### **S2.0-snap-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935755"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S2.1-snap__spectral__mode=median_filtered_ts__order=1.0__medfilt=1__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935756"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S2.2-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935757"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S2.3-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.12.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935758"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S2.4-snap__spectral__mode=median_filtered_ts__order=4.5__medfilt=1__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935759"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S2.5-snap__spectrotemporal__mode=only_highest_ts__ts_threshold=3.02__sigma=0.316__mix=1.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935760"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+
+#### **ACE of synthesized sounds: SuperCollider Klank plus Noise**
+
+##### **S3.0-klanks-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935761"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S3.1-klanks__spectral__mode=median_filtered_ts__medfilt=15__order=1.75__nlgain=0.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935762"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S3.2-klanks__spectral__mode=tanh_gained_ts__order=3.0__medfilt=9__nlgain=0.21.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935763"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S3.3-klanks__spectral__mode=tanh_gained_ts__medfilt=27__order=7.0__nlgain=0.23.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935764"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S3.4-klanks__spectral__mode=median_filtered_ts__order=9.0__medfilt=1__nlgain=0.04.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935765"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S3.5-klanks__spectrotemporal__mode=blurred_ts_mask__ts_threshold=0.832__sigma=0.661__mix=0.998.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935766"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+
+#### **ACE of continuous sounds: Vowel sounds class a vs. ä**
+
+##### **S4.0-vowel-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935767"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S4.1-vowel__spectral__mode=tanh_gained_ts__order=4.25__medfilt=39__nlgain=0.09.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935768"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S4.2-vowel__spectral__mode=median_filtered_ts__order=10.75__medfilt=39__nlgain=0.01.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935769"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S4.3-vowel__spectrotemporal__mode=only_highest_ts__ts_threshold=2.291__sigma=0.912__mix=1.0.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935770"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S4.4-vowel-a-ae-transition-orig.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935771"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S4.5-vowel-a-ae-transition-aced.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935772"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+#### **ACE of time series sonifications: daily energy consumption profiles of a building**
+
+##### **S5.0-building-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935773"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S5.1-building__spectral__mode=median_filtered_ts__medfilt=5__order=1.0__nlgain=0.01.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935774"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S5.2-building__spectral__mode=tanh_gained_ts__medfilt=3__order=0.5__nlgain=0.01.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935775"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S5.3-building__temporal__mode=median_filtered_ts__medfilt=7__order=2.75__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935776"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S5.4-building__spectrotemporal__mode=only_highest_ts__ts_threshold=3.981__sigma=0.603__mix=0.995.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935777"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+#### **ACE of manipulated music recordings: Temporal ACE gives condensed difference thumbnails**
+
+##### **S6.0-miles-stimuli.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935778"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S6.1-miles__temporal__mode=median_filtered_ts__order=0.5__medfilt=7__nlgain=0.3.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935779"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+
+##### **S6.2-miles__temporal__mode=tanh_gained_ts__order=0.5__medfilt=7__nlgain=0.12.wav**
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2935744/2935780"&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.0-table-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935745/S1.0-table-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.1-table__spectral__mode=median_filtered_ts__order=2.5__medfilt=9__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935746/S1.1-table__spectral__mode=median_filtered_ts__order=2.5__medfilt=9__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.2-table__spectral__mode=tanh_gained_ts__order=6.25__medfilt=25__nlgain=0.16.wav">https://pub.uni-bielefeld.de/download/2935744/2935747/S1.2-table__spectral__mode=tanh_gained_ts__order=6.25__medfilt=25__nlgain=0.16.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.3-table__spectral__mode=tanh_gained_ts__order=26.75__medfilt=17__nlgain=0.17.wav">https://pub.uni-bielefeld.de/download/2935744/2935748/S1.3-table__spectral__mode=tanh_gained_ts__order=26.75__medfilt=17__nlgain=0.17.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.4-table__spectral__mode=db_median_filtered_ps__order=47.5__medfilt=25__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935749/S1.4-table__spectral__mode=db_median_filtered_ps__order=47.5__medfilt=25__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.5-table__temporal__mode=median_filtered_ts__order=3.5__medfilt=5__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935750/S1.5-table__temporal__mode=median_filtered_ts__order=3.5__medfilt=5__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.6-table__spectrotemporal__mode=only_highest_ts__ts_threshold=3.311__sigma=0.316__mix=1.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935751/S1.6-table__spectrotemporal__mode=only_highest_ts__ts_threshold=3.311__sigma=0.316__mix=1.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.7-table__spectrotemporal__mode=only_highest_ts__ts_threshold=13.18__sigma=0.316__mix=1.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935752/S1.7-table__spectrotemporal__mode=only_highest_ts__ts_threshold=13.18__sigma=0.316__mix=1.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.8-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.331__mix=1.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935753/S1.8-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.331__mix=1.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.9-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.871__mix=0.998.wav">https://pub.uni-bielefeld.de/download/2935744/2935754/S1.9-table__spectrotemporal__mode=blurred_ts_mask__ts_threshold=6.0256__sigma=0.871__mix=0.998.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.0-snap-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935755/S2.0-snap-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.1-snap__spectral__mode=median_filtered_ts__order=1.0__medfilt=1__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935756/S2.1-snap__spectral__mode=median_filtered_ts__order=1.0__medfilt=1__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.2-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935757/S2.2-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.3-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.12.wav">https://pub.uni-bielefeld.de/download/2935744/2935758/S2.3-snap__spectral__mode=tanh_gained_ts__order=4.5__medfilt=1__nlgain=0.12.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.4-snap__spectral__mode=median_filtered_ts__order=4.5__medfilt=1__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935759/S2.4-snap__spectral__mode=median_filtered_ts__order=4.5__medfilt=1__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.5-snap__spectrotemporal__mode=only_highest_ts__ts_threshold=3.02__sigma=0.316__mix=1.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935760/S2.5-snap__spectrotemporal__mode=only_highest_ts__ts_threshold=3.02__sigma=0.316__mix=1.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.0-klanks-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935761/S3.0-klanks-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.1-klanks__spectral__mode=median_filtered_ts__medfilt=15__order=1.75__nlgain=0.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935762/S3.1-klanks__spectral__mode=median_filtered_ts__medfilt=15__order=1.75__nlgain=0.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.2-klanks__spectral__mode=tanh_gained_ts__order=3.0__medfilt=9__nlgain=0.21.wav">https://pub.uni-bielefeld.de/download/2935744/2935763/S3.2-klanks__spectral__mode=tanh_gained_ts__order=3.0__medfilt=9__nlgain=0.21.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.3-klanks__spectral__mode=tanh_gained_ts__medfilt=27__order=7.0__nlgain=0.23.wav">https://pub.uni-bielefeld.de/download/2935744/2935764/S3.3-klanks__spectral__mode=tanh_gained_ts__medfilt=27__order=7.0__nlgain=0.23.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.4-klanks__spectral__mode=median_filtered_ts__order=9.0__medfilt=1__nlgain=0.04.wav">https://pub.uni-bielefeld.de/download/2935744/2935765/S3.4-klanks__spectral__mode=median_filtered_ts__order=9.0__medfilt=1__nlgain=0.04.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.5-klanks__spectrotemporal__mode=blurred_ts_mask__ts_threshold=0.832__sigma=0.661__mix=0.998.wav">https://pub.uni-bielefeld.de/download/2935744/2935766/S3.5-klanks__spectrotemporal__mode=blurred_ts_mask__ts_threshold=0.832__sigma=0.661__mix=0.998.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.0-vowel-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935767/S4.0-vowel-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.1-vowel__spectral__mode=tanh_gained_ts__order=4.25__medfilt=39__nlgain=0.09.wav">https://pub.uni-bielefeld.de/download/2935744/2935768/S4.1-vowel__spectral__mode=tanh_gained_ts__order=4.25__medfilt=39__nlgain=0.09.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.2-vowel__spectral__mode=median_filtered_ts__order=10.75__medfilt=39__nlgain=0.01.wav">https://pub.uni-bielefeld.de/download/2935744/2935769/S4.2-vowel__spectral__mode=median_filtered_ts__order=10.75__medfilt=39__nlgain=0.01.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.3-vowel__spectrotemporal__mode=only_highest_ts__ts_threshold=2.291__sigma=0.912__mix=1.0.wav">https://pub.uni-bielefeld.de/download/2935744/2935770/S4.3-vowel__spectrotemporal__mode=only_highest_ts__ts_threshold=2.291__sigma=0.912__mix=1.0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.4-vowel-a-ae-transition-orig.wav">https://pub.uni-bielefeld.de/download/2935744/2935771/S4.4-vowel-a-ae-transition-orig.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.5-vowel-a-ae-transition-aced.wav">https://pub.uni-bielefeld.de/download/2935744/2935772/S4.5-vowel-a-ae-transition-aced.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.0-building-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935773/S5.0-building-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.1-building__spectral__mode=median_filtered_ts__medfilt=5__order=1.0__nlgain=0.01.wav">https://pub.uni-bielefeld.de/download/2935744/2935774/S5.1-building__spectral__mode=median_filtered_ts__medfilt=5__order=1.0__nlgain=0.01.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.2-building__spectral__mode=tanh_gained_ts__medfilt=3__order=0.5__nlgain=0.01.wav">https://pub.uni-bielefeld.de/download/2935744/2935775/S5.2-building__spectral__mode=tanh_gained_ts__medfilt=3__order=0.5__nlgain=0.01.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.3-building__temporal__mode=median_filtered_ts__medfilt=7__order=2.75__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935776/S5.3-building__temporal__mode=median_filtered_ts__medfilt=7__order=2.75__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.4-building__spectrotemporal__mode=only_highest_ts__ts_threshold=3.981__sigma=0.603__mix=0.995.wav">https://pub.uni-bielefeld.de/download/2935744/2935777/S5.4-building__spectrotemporal__mode=only_highest_ts__ts_threshold=3.981__sigma=0.603__mix=0.995.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.0-miles-stimuli.wav">https://pub.uni-bielefeld.de/download/2935744/2935778/S6.0-miles-stimuli.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.1-miles__temporal__mode=median_filtered_ts__order=0.5__medfilt=7__nlgain=0.3.wav">https://pub.uni-bielefeld.de/download/2935744/2935779/S6.1-miles__temporal__mode=median_filtered_ts__order=0.5__medfilt=7__nlgain=0.3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.2-miles__temporal__mode=tanh_gained_ts__order=0.5__medfilt=7__nlgain=0.12.wav">https://pub.uni-bielefeld.de/download/2935744/2935780/S6.2-miles__temporal__mode=tanh_gained_ts__order=0.5__medfilt=7__nlgain=0.12.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2935744</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2935743</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hermann, T.; Weger, M. (2019): Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications". Bielefeld University.</wels>
+<bio1>Hermann T, Weger M (2019) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., &amp;amp; Weger, M., 2019. &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., &amp;amp; Weger, M. (2019).  &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935744&lt;/div&gt;</apa_indent>
+<angewandte-chemie>T.  Hermann, and M.  Weger, &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<ama>Hermann T, Weger M. &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University; 2019.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. &amp;amp; Weger, M. (2019). &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935744.&lt;/div&gt;</dgps>
+<frontiers>Hermann, T., and Weger, M. (2019). Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications". Bielefeld University.</frontiers>
+<apa>Hermann, T., &amp;amp; Weger, M. (2019).  &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2935744</apa>
+<ieee> T. Hermann and M. Weger, &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;, Bielefeld University, 2019.</ieee>
+<lncs> Hermann, T., Weger, M.: Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications". Bielefeld University (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, and Weger, Marian. 2019. &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hermann, Thomas, and Weger, Marian. &lt;em&gt;Supplementary Material for "Data-driven Auditory Contrast Enhancement for Everyday Sounds and Sonifications"&lt;/em&gt;. Bielefeld University, 2019.</mla>
+<default>Hermann T, Weger M (2019) &lt;br /&gt;Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2935744</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-05-27T07:53:02Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-01-30T19:43:15Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2581910">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Incremental spoken dialogue processing : architecture and lower-level components</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timo</namePart>
+                        <namePart type="family">Baumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Schlangen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-05-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Diese Arbeit befasst sich mit Sprachdialogsystemen, also Mensch-Maschine-Schnittstellen die (primär) über gesprochene Sprache genutzt werden. Sprachdialogsysteme sind vor allem deshalb attraktiv, weil Sprache eine besonders natürliche und intuitive Interaktionsform darstellt.
+
+Der Nutzen von Sprachdialogsystemen ergibt sich jedoch bisher daraus, dass sie helfen, relativ einfache Aufgaben sinnvoll zu erfüllen – denn tatsächlich ist die Natürlichkeit bisheriger Sprachdialogsysteme stark durch das vereinfachende Verarbeitungsschema der Ping-Pong-Interaktion eingeschränkt: Übliche Dialogsysteme erwarten einen vollständigen und abgeschlossenen Redebeitrag, auf den das System (nach einer gewissen Verarbeitungszeit) mit einem gleichfalls vollständigen, oft ununterbrechbaren Redebeitrag antwortet. Die Redebeiträge von System und Nutzer sind also überlappungsfrei, was nicht den tatsächlichen Gegebenheiten natürlichsprachlicher Interaktion entspricht, die von einem beiderseitigen Geben und Nehmen lebt, und bei der auch der jeweilige Zuhörer hilft, den Redebeitrag des jeweiligen Sprechers durch Mimik, kurze Einwürfe, und dergleichen mitzugestalten.
+
+Schritthaltende Verarbeitung ist ein Konzept, bei der die Verarbeitung bereits während der Eingabephase abläuft und Zwischenergebnisse bereits erzeugt werden bevor die Eingabe abgeschlossen ist. Einem Dialogsystem erlaubt schritthaltende Verarbeitung Reaktionen zu erzeugen die zeitgleich zur noch laufenden Eingabe erfolgen, oder entgegengebrachte Nutzerrückmeldungen in laufende Systemausgaben zu integrieren.
+
+Dadurch erlaubt schritthaltende Verarbeitung eine schnellere Rückkopplung zwischen Nutzer und System, was zu höherer Interaktivität und besserem gegenseitigen Verständnis führen kann. Das Ziel dieser Arbeit ist, den Nutzen schritthaltender Verarbeitung auf die Interaktionsqualität von Sprachdialogsystemen zu untersuchen. Dabei beschränkt sich die detaillierte Analyse auf signalnahe Komponenten (Spracherkennung und -synthese); Module übergeordneter Abstraktionsgrade sind in den Beispielsystemen teilweise weniger ausgefeilt, oder nur simuliert.
+
+Die Leitfrage der Arbeit ist, inwieweit feingliedrig schritthaltende Verarbeitung technisch realisierbar ist und auf natürlichere Weise interagierende Sprachdialogsysteme ermöglicht. Darüber hinaus wird argumentiert, dass Dialog proaktives Handeln verlangt, also nicht rein auf Basis bereits vorliegender Erkenntnis, sondern außerdem auf Grundlage von Schätzungen über die (nähere) Zukunft.
+
+Bei schritthaltender Verarbeitung werden sehr viele Zwischenergebnisse erzeugt und da diese jeweils nur aus einem begrenzten Kontext heraus erzeugt werden, ergibt sich die Erfordernis, sie auch verwerfen zu können; dies erfordert Anpassungen der Systemarchitektur gegenüber bisherigen Systemen.
+
+Kapitel 2 gibt einen Überblick über Fragen der gesprochensprachlichen Interaktion, des Dialogs und Dialogsystemen.
+
+Kapitel 3 vertieft dann die Thematik der schritthaltenden (inkrementellen) Verarbeitung und führt einen Formalismus für die Darstellung von Hypothesen ein, anhand dessen Qualitätsmaße schritthaltender Verarbeitung definiert werden, die ausführlich diskutiert werden.
+
+Kapitel 4 stellt die Architektur des im Rahmen der Arbeit entwickelten Softwaretoolkits für schritthaltende Verarbeitung (engl. incremental processing), InproTK vor und diskutiert Daten- und Verarbeitungsschemata.
+
+Kapitel 5 betrachtet inkrementelle Spracherkennung. Die ‚inkrementelle Qualität’ der Spracherkennung wird intensiv auf mehreren Korpora und für unterschiedliche Varianten in all ihren Aspekten untersucht. Schließlich werden Optimierungsmethoden vorgestellt, welche Qualitätsaspekte gegeneinander abwägen. Der Nutzen inkrementeller Spracherkennung wird beispielhaft in einer Spielanwendung gezeigt.
+
+Kapitel 6 geht den Schritt von möglichst reaktiver zu proaktiver Verarbeitung, welche erlaubt, den Dialogverlauf aktiv zu steuern. Eine Beispielanwendung zeigt, wie durch schritthaltende Verarbeitung die Rückkopplung zwischen Nutzer und System beschleunigt und dadurch Nutzeräußerungen gemeinschaftlich gestaltet werden können. Schließlich wird ein System gezeigt, welches Nutzeräußerungen synchron mitspricht. Dieses System zeigt, dass inkrementelle und proaktive Verarbeitung synchrone Interaktionsfähigkeiten in Echtzeit ermöglichen, indem alle Systemverzögerungen an anderer Stelle durch Prädiktion ausgeglichen werden. 
+
+Kapitel 7 betrachtet inkrementelle Sprachsynthese, bei der die Spezifikation der Äußerung noch während der Synthese erweitert oder abgeändert werden kann. Der Nutzen dieser Fähigkeit wird in einer hochdynamischen Umgebung demonstriert, in der Inkrementalität Reaktionen ermöglicht die als deutlich natürlicher im Vergleich zu einem nicht-inkrementellen System eingeschätzt werden. Schließlich wird die Integration inkrementeller Sprachsynthese mit einem Sprachgenerierungsmodul demonstriert, und der Einfluss auf die resultierende Prosodiequalität des Systems bewertet.
+
+Kapitel 8 fasst die Ergebnisse der Arbeit zusammen: feingliedrig schritthaltende Verarbeitung ist technisch möglich und so erfolgreich, dass dadurch für Sprachdialogsysteme vormals unerreichbare Interaktionsmodi ermöglicht werden (u. a. gemeinschaftliche Äußerungsgestaltung, synchrones Sprechen, Berücksichtigung von Änderungen während Systemäußerungen). Schritthaltende Verarbeitung sollte deshalb die Basis für zukünftige Sprachdialogsysteme bilden.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25819101</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2581910</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2581910">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2581910/2584067/Dissertation_TimoBaumann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2581910" DMDID="DMD2581910">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2581910"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

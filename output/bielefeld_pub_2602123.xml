@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2602123">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using SPIN to formalise Accounting Regulations on the Semantic Web</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dennis</namePart>
+                        <namePart type="family">Spohr</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">John</namePart>
+                        <namePart type="family">McCrae</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7227-1331</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sean</namePart>
+                        <namePart type="family">O&apos;Riain</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The eXtensible Business Reporting Language (XBRL) has
+standardised nancial reporting and provide a machine-interpretable for-
+mat that makes nancial and business reports easier to access and con-
+sume. Leveraging XBRL with Open Linked Data for purposes such as
+multi-dimensional regulatory querying and investigation requires XBRL
+formalisation as RDF. This paper investigates the use of o-the-shelf Se-
+mantic Web technologies to formalise accounting regulations specied in
+XBRL jurisdictional taxonomies. Specically the use of the SPARQL In-
+ferencing Notation (SPIN) with RDF to represent these accounting reg-
+ulations as rule constraints, not catered for in the RDF abstract model is
+investigated. We move beyond previous RDF to XBRL transformations
+and investigate how SPIN enhanced formalisation enables inferencing
+of nancial statement facts associated with nancial reporting concepts
+and sophisticated consistency checks, which evaluate the correctness of
+reported nancial data with respect to the calculation requirements im-
+posed by accounting regulation. The approach illustrated through two
+use cases demonstrates the use of SPIN to meet central requirements for
+nancial data and regulatory modelling.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26021238</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2602123</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2602123">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2602123/2650489/FEOSWp1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2602123" DMDID="DMD2602123">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2602123"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

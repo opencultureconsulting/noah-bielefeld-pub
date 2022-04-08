@@ -1,0 +1,113 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2517110">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Meta-Model and Toolchain for Improved Interoperability of Robotic Frameworks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Wienke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4517-5368</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Arne</namePart>
+                        <namePart type="family">Nordmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Itsuki</namePart>
+                        <namePart type="family">Noda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Noriaki</namePart>
+                        <namePart type="family">Ando</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Davide</namePart>
+                        <namePart type="family">Brugali</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">James</namePart>
+                        <namePart type="family">Kuffner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The emerging availability of high-quality software repositories for robotics promises to speed up the construction process of robotic systems through systematic reuse of software components. However, to reuse components without modification, compatibility at the interface level needs to be created, which is particularly hard if components were implemented in different robotic frameworks. In this paper we propose an approach using model-based techniques for improving component reusability. We specifically address data type compatibility in a structured way through the development of a generic meta-model capable of representing data types from different frameworks and their relations. Based on this model a code generator emits serialization code which makes it possible to seamlessly reuse the existing data types of different frameworks. The application of this approach is exemplified by connecting the YARP-based iCub simulation with a component architecture using a current robotics middleware. Based on our experiences we describe requirements on robotics frameworks to further increase the level of interoperability between available components.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Simulation, Modeling, and Programming for Autonomous Robots</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7628</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>323</start>
+                                <end>334</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-642-34326-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25171102</identifier>
+                    <identifier type="doi">10.1007/978-3-642-34327-8_30</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2517110</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2517110">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2517110/2912323/main.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2517110" DMDID="DMD2517110">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2517110"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

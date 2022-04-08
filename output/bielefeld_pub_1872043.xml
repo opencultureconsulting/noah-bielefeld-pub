@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1872043">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Empirisch-kulturdiagnostische Aspekte von Tillichs Symboltheorie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heinz</namePart>
+                        <namePart type="family">Streib</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3633-4785</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Danz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Werner</namePart>
+                        <namePart type="family">Schüßler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Erdmann</namePart>
+                        <namePart type="family">Sturm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">200</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Das Symbol als Sprache der Religion</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>181</start>
+                                <end>196</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-8258-9499-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-43464</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1872043</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1872043">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1872043/2315018/Empirisch_kulturdiagnostische_Aspekte_in_Tillichs_Symboltheorie.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1872043">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1872043/2226135/Streib-2006-Empirisch-kulturdiagnostische_Aspekte_in_Tillichs_Symboltheorie.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1872043" DMDID="DMD1872043">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1872043"/>
+            <mets:div TYPE="part" ID="PART1_1872043" LABEL="Streib-2006-Empirisch-kulturdiagnostische_Aspekte_in_Tillichs_Symboltheorie.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1872043"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2464989">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Semi-Supervised Neural Gas for Adaptive Brain-Computer Interfaces</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hannes</namePart>
+                        <namePart type="family">Riechmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andrea</namePart>
+                        <namePart type="family">Finke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4325-9202</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Non-stationarity is inherent in EEG data. We propose a concept for an adaptive brain computer interface (BCI) that adapts a classifier to the changes in EEG data. It combines labeled and unlabeled data acquired during normal operation of the system. The classifier is based on Fuzzy Neural Gas (FNG), a prototype-based classifier. Based on four data sets we show that retraining the classifier significantly increases classification accuracy. Our approach smoothly adapts to the session-to-session variations in the data.</abstract>
+                    <subject>
+                        <topic>Neural Gas</topic>
+                        <topic>Semi-Supervised Learning</topic>
+                        <topic>Adaptive</topic>
+                        <topic>EEG</topic>
+                        <topic>Motor Imagery</topic>
+                        <topic>Fuzzy</topic>
+                        <topic>Brain-Computer Interface</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="issn">978-2-87419-047-6</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24649894</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2464989</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2464989">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2464989/2517163/ESANN2012-140_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2464989" DMDID="DMD2464989">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2464989"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

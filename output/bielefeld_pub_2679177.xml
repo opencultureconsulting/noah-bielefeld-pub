@@ -1,0 +1,117 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2679177">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Spatial references with gaze and pointing in shared space of humans and robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Renner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9640-8291</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Freksa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Nebel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mary</namePart>
+                        <namePart type="family">Hegarty</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Barkowsky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">For solving tasks cooperatively in close interaction with humans, robots need to have timely updated spatial representations. However, perceptual information about the current position of interaction partners is often late. If robots could anticipate the targets of upcoming manual actions, such as pointing gestures, they would have more time to physically react to human movements and could consider prospective space allocations in their planning. Many findings support a close eye-hand coordination in humans which could be used to predict gestures by observing eye gaze. However, effects vary strongly with the context of the interaction. We collect evidence of eye-hand coordination in a natural route planning scenario in which two agents interact over a map on a table. In particular, we are interested if fixations can predict pointing targets and how target distances affect the interlocutor&apos;s pointing behavior. We present an automatic method combining marker tracking and 3D modeling that provides eye and gesture measurements in real-time.</abstract>
+                    <subject>
+                        <topic>gestures</topic>
+                        <topic>robotics</topic>
+                        <topic>eye tracking</topic>
+                        <topic>multimodal interaction</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Spatial Cognition IX</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8684</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>121</start>
+                                <end>136</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-319-11214-5</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26791778</identifier>
+                    <identifier type="doi">10.1007/978-3-319-11215-2_9</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2679177</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2679177">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2679177/2679181/spacog.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2679177" DMDID="DMD2679177">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2679177"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

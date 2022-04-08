@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305907">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Image analysis methods for location proteomics</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Bildanalysemethoden für die Lokalisierungsproteomik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marko</namePart>
+                        <namePart type="family">Tscherepanow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-05-05</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Proteine spielen eine herausragende Rolle für die Existenz aller lebenden Organismen, da sie an praktisch jeder Art von biologischem Prozess beteiligt sind. Leider sind die Funktionen und Interaktionen der überwiegenden Mehrheit der Proteine unbekannt. Das Wissen über diese Funktionen könnte essentielle Informationen für die Simulation von Zellverhalten liefern, was wiederum die Untersuchung von Krankheiten sowie die Entwicklung neuartiger Medikamente und Impfstoffe erleichtert.
+Es gibt verschiedene Techniken, die sich mit diesem Problem befassen. Eine besonders vielversprechende Art von Ansätzen wird unter dem Namen Lokalisierungsproteomik zusammengefasst. Sie analysiert den Auftrittsort von Proteinen, um Informationen über ihre Funktionen abzuleiten. Da spezifische Zellkompartimente spezifische Aufgaben erfüllen, ist ein betrachtetes Protein wahrscheinlich an der Ausführung der Funktion der Zellkompartimente, in denen es sich befindet, beteiligt. Da aber die Auftrittsorte von Proteinen vom Zellzustand und den Umgebungsbedingungen abhängen, sind sie hochdynamisch. Es ist daher vorteilhaft, sie in lebenden Zellen zu beobachten. Dies kann mit Hilfe der Fluoreszenzmikroskopie realisiert werden; die fraglichen Proteine werden mit einem Fluoreszenzfarbstoff markiert und anschließend mit einem Fluoreszenzmikroskop visualisiert. Sogar Ko-Lokalisierungen und zeitweilige Interaktionen verschiedener Proteine werden beobachtbar. Damit könnte die Lokalisierungsproteomik wichtige Details von Zellprozessen enthüllen.
+Aber selbst wenn markierte Proteine in lebenden Zellen beobachtet werden können, ist ihre Untersuchung schwierig. Ein Fluoreszenzbild enthält typischerweise mehrere oder sogar zahlreiche Zellen. Diese Zellen können in unterschiedlichen Zuständen sein, wodurch sich verschiedene Auftrittsorte der markierten Proteine ergeben. Weiterhin sind die Zellen selbst nicht notwendigerweise sichtbar. Es sind also zusätzliche Informationen erforderlich.
+Diese Dissertation stellt Bildanalysemethoden bereit, die die automatische Lokalisierung von Proteinen in lebenden Zellen vereinfachen: Erstens wird ein Verfahren vorgestellt, das die Erkennung von Zellen in Hellfeld-Mikroskopbildern ermöglicht. Hierbei wird die Position der Zellen mit Hilfe morphologischer Operatoren automatisch bestimmt. Die darauf folgende Segmentierung erfolgt mittels eines erweiterten Algorithmus zur Berechnung aktiver Konturen. Die resultierenden Segmente werden dann mit Hilfe eines inkrementellen neuronalen Netzwerks und von Support-Vektor-Maschinen bewertet. Diese Technik kann gemeinsam mit Ansätzen zur Proteinlokalisierung verwendet werden, ohne Probleme zu verursachen.
+Zweitens werden Methoden diskutiert, die eine Untersuchung von Proteinverteilungsmustern innerhalb der erkannten Zellen zulassen. Hierfür wurde eine Menge angemessener Merkmale ausgewählt, die eine Unterscheidung zwischen zehn Auftrittsorten von Proteinen zulässt. Die Klassifikation erfolgt mittels eines inkrementellen neuronalen Netzes. Somit können zusätzliche Proteinverteilungsmuster und Auftrittsorte integriert werden.
+Abschließend wurden beide Techniken kombiniert, was in einem automatischen System resultierte, das für Hochdurchsatzanwendungen geeignet ist. Solch ein System stellt einen innovativen Beitrag zu aktuellen Forschungen im Bereich der Proteomik dar, insbesondere da inkrementelle Ansätze verwendet werden, die die Integration neuer Informationen während ihrer Nutzung ermöglichen.</abstract>
+                    <abstract lang="eng">Proteins play a major role for the existence of all living organisms, since they are virtually involved in every kind of biological process. Unfortunately, the functions and interactions of the vast majority of proteins are unknown. The knowledge of these functions could provide crucial information for the simulation of cell behaviour, which facilitates the investigation of diseases as well as the development of innovative drugs and vaccines.
+There are several techniques dealing with this problem. One kind of very promising approaches is subsumed under the term location proteomics. It analyses the location of proteins in order to derive information about their function. As specific cell compartments fulfil specific tasks, a protein under consideration is likely to be involved in performing the function of the cell compartments it occurs in. But since the locations of proteins depend on the cell state and the environmental conditions, they are highly dynamic. Therefore, it is beneficial to examine them in living cells. This can be realised by means of fluorescence microscopy; the proteins in question are tagged by a fluorescent dye and subsequently rendered visible using a fluorescence microscope. Even co-localisations and temporary interactions of multiple proteins become observable. Therefore, location proteomics could reveal crucial details of cell processes.
+But even if tagged proteins can be observed in live cells, their analysis is difficult. A fluorescence image typically contains multiple or even numerous cells. These cells may be in various states resulting in different locations of the tagged proteins. Furthermore, the cells themselves are not necessarily visible. Hence, additional information is required.
+This thesis provides image analysis methods that facilitate the automatic localisation of proteins in living cells: Firstly, a procedure is introduced, which is able to recognise cells in bright-field microscope images. Here, the cells are automatically localised based on morphological operators and segmented by means of an enhanced active contour algorithm. The final segments are evaluated using an incremental neural network and support vector machines. This technique can be applied in conjunction with protein localisation approaches without causing any problems.
+Secondly, methods allowing the examination of protein distribution patterns within the recognised cells are discussed. Here, a set of appropriate features was selected, which enables a differentiation between ten protein locations. The classification is performed by an incremental neural network. So, additional protein location patterns and protein locations can be incorporated.
+Finally, both techniques were combined, which resulted in an automated system that is amenable to high-throughput processing. Such a system constitutes an innovative contribution to the current proteomic research, in particular, as incremental approaches are employed, which enable the integration of new information during their application.</abstract>
+                    <subject>
+                        <topic>Mustererkennung</topic>
+                        <topic>Zellerkennung</topic>
+                        <topic>Bildsegmentierung</topic>
+                        <topic>Cell recognition</topic>
+                        <topic>Soft Computing</topic>
+                        <topic>Proteomanalyse</topic>
+                        <topic>Bildauswertung</topic>
+                        <topic>Fluoreszenzmikroskopie</topic>
+                        <topic>Proteome analysis</topic>
+                        <topic>Image segmentation</topic>
+                        <topic>Pattern recognition</topic>
+                        <topic>Image analysis</topic>
+                        <topic>Fluorescence microscopy</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-13846</identifier>
+                    <identifier type="sys">HT016058090</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305907</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305907">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305907/2305910/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305907" DMDID="DMD2305907">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305907"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

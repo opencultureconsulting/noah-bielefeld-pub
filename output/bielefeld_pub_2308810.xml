@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2308810">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Identifying metabolites with integer decomposition techniques, using only their mass spectrometric isotope patterns</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Böcker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Letzel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Zsuzsanna</namePart>
+                        <namePart type="family">Lipták</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anton</namePart>
+                        <namePart type="family">Pervukhin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Metabolites, small molecules that are intermediates and products of the metabolism, participate in almost all cellular processes such as signal transduction and stress response. There exist several thousand metabolites for every species, the overwhelming majority still being uncharacterized. Mass spectrometry has become a method of choice to analyze the metabolites of a cell. High resolution mass spectrometry allows us to determine the mass and isotopic distribution of sample molecules with outstanding accuracy. Here, we provide a method to determine the sum formula of an unidentified metabolite (or, more generally, any chemical compound) solely from its mass and isotopic pattern. This is a crucial step in the identification of an unknown metabolite, as it reduces its possible structures to a finite and, hopefully, manageable set.
+In Part I, we show how to use integer decomposition techniques, introduced earlier by two of the authors, for decomposing real valued molecule masses, with large improvements over naïve methods that are currently best known for this problem. We then show how to rapidly match and rank simulated spectra against the measured spectrum. Our method is computationally efficient and can be applied to metabolites and other chemical compounds with mass up to 1000 Dalton. First results on experimental data indicate good identification rates for chemical compounds up to 700 Dalton.
+In Part II, we present our method for rapid computation of isotope distributions and mean masses of isotope peaks, i.e., for simulation of isotopic spectra, improving on best-known results. Fast simulation of isotope patterns is vital due to the large search space. Above 1000 Dalton, however, the number of molecules with a certain mass increases rapidly. Since the size of the search space thus becomes prohibitive, generating all potential solutions, simulating their isotope patterns, and matching them against the input is often not feasible. Instead, we define several &quot;additive invariants&quot; extracted from the input and then propose to solve a &quot;joint decomposition problem&quot;: Given a finite weighted alphabet with character masses {a_1,...,a_sigma} and a query &quot;m&quot;, a &quot;decomposition&quot; of &quot;m&quot; is a non-negative integer vector (c_1,..., c_sigma) such that sum_i c_i a_i = m. Here, we have the problem of finding a &quot;joint&quot; decomposition &quot;c&quot; for a set of queries, where each query has to be decomposed over a different weighted alphabet. We present an efficient algorithm for producing all joint decompositions of the query vector and demonstrate its fitness on real data extracted from a metabolite database.</abstract>
+                    <subject>
+                        <topic>Metabolomics</topic>
+                        <topic>Efficient algorithms</topic>
+                        <topic>Mass spectrometry</topic>
+                        <topic>Integer decomposition</topic>
+                        <topic>Isotopic pattern</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="issn">0946-7831</identifier>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11040</identifier>
+                    <identifier type="sys">HT016396489</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2308810</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2308810">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2308810/2319775/2007.01.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2308810" DMDID="DMD2308810">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2308810"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

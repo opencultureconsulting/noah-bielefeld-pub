@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2455753">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>RAMTaB: Robust Alignment of Multi-Tag Bioimages</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Shan-E-Ahmed</namePart>
+                        <namePart type="family">Raza</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Epstein</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nasir</namePart>
+                        <namePart type="family">Rajpoot</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In recent years, new microscopic imaging techniques have evolved to allow us to visualize several different proteins (or other biomolecules) in a visual field. Analysis of protein co-localization becomes viable because molecules can interact only when they are located close to each other. We present a novel approach to align images in a multi-tag fluorescence image stack. The proposed approach is applicable to multi-tag bioimaging systems which (a) acquire fluorescence images by sequential staining and (b) simultaneously capture a phase contrast image corresponding to each of the fluorescence images. To the best of our knowledge, there is no existing method in the literature, which addresses simultaneous registration of multi-tag bioimages and selection of the reference image in order to maximize the overall overlap between the images.</abstract>
+                    <subject>
+                        <topic>bioimage informatics</topic>
+                        <topic>image registration</topic>
+                        <topic>MELC</topic>
+                        <topic>toponomics</topic>
+                        <topic>TIS</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="MEDLINE">22363510</identifier>
+                    <identifier type="ISI">000302730100030</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24557530</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0030894</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2455753</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2455753">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2455753/2480137/journal.pone.nattkemper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2455753" DMDID="DMD2455753">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2455753"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

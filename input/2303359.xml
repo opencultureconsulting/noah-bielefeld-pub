@@ -1,0 +1,102 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303359</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Suffix arrays in theory and practice</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Klaus-Bernd</namePart>
+  <namePart type="family">Schürmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The suffix array of a string is a permutation of all starting positions of the string's suffixes in lexicographical order. In this thesis, we investigate mathematical and algorithmical aspects of suffix arrays.
+The first part mainly deals with combinatorial properties of suffix arrays and their enumeration. For a fixed alphabet size and string length, we divide the set of all strings into equivalence classes of strings that share the same suffix array. For each such equivalence class, we count the number of strings contained in it and enumerate those strings. We also give exact formulas for computing the number of equivalence classes and efficient algorithms for enumerating them. Alternatively, we count the number of suffix arrays and enumerate them. Our methods yield lower bounds for the compressibility of suffix arrays and build the foundation for the efficient generation of appropriate test data sets for suffix-array-based algorithms. We also show that summing up the elements of all equivalence classes forms a particular instance for some summation identities of Eulerian numbers.
+The second part of the thesis deals with suffix array construction. We first present a new classification of suffix array construction algorithms and provide an in-depth review of the classified algorithms. We classify the algorithms regarding two different categories: the progress in the suffix sorting process and the usage of dependencies among suffixes. After the survey of the previous algorithms, we present our new practical algorithm for suffix array construction that consists of two easy-to-implement components. It first sorts the suffixes with respect to a fixed length prefix; then it refines each bucket of suffixes sharing the same prefix using the order of already sorted suffixes. Other suffix array construction algorithms follow more complex strategies. We achieve a very fast construction for common strings as well as for worst-case strings by enhancing our algorithm with further techniques; this is shown by an in-depth experimental study that compares our algorithm to other fast suffix array construction algorithms.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Klaus-Bernd_Schuermann.pdf">https://pub.uni-bielefeld.de/download/2303359/2303362/Dissertation_Klaus-Bernd_Schuermann.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Suffix Array</topic><topic>Permutation</topic><topic>Kombinatorik</topic><topic>Zeichenkette</topic><topic>Abzählen</topic><topic>Theoretische Informatik</topic><topic>Volltextindex</topic><topic>Full-text index</topic><topic>String</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-11799</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-09-23</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Schürmann K-B. &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schürmann, K.-B. (2007). &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Schürmann, K. - B. (2007). Suffix arrays in theory and practice. Bielefeld (Germany): Bielefeld University.</frontiers>
+<apa>Schürmann, K. - B. (2007).  &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> K.-B. Schürmann, &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<wels>Schürmann, K. - B. (2007): Suffix arrays in theory and practice. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Schürmann K-B (2007) &lt;br /&gt;&lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schürmann, K. - B. (2007).  &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Schürmann, K.-B., 2007. &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>K. - B.  Schürmann, &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Schürmann, K.-B.: Suffix arrays in theory and practice. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schürmann, Klaus-Bernd. 2007. &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Schürmann, Klaus-Bernd. &lt;em&gt;Suffix arrays in theory and practice&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<default>Schürmann K-B (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303359</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-10-29T08:11:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:52Z</recordChangeDate>
+</recordInfo>
+</mods>

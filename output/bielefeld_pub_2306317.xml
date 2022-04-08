@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306317">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Quell- und Transportverhalten von thermosensitiven Hydrogelen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Stechemesser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Eimer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-04-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die in dieser Arbeit untersuchten Hydrogele bestehen aus Wasser und einem Polymernetzwerk aus Poly(N-isopropylacrylamid) bzw. Copolymeren aus N-isopropylacrylamid und Acrylsäure. Im ersten Teil der Arbeit wird das Quellverhalten der Hydrogele untersucht, also die Abhängigkeit des Quellvolumens von Temperatur, Polymerzusammensetzung und der Ionenstärke des Lösungsmittels. Der zweite Teil der Arbeit beschäftigt sich mit dem Transportverhalten der Gele. Dazu wurde die Diffusion von synthetischen Makromolekülen, PAMAM-Dendrimeren, im Gelnetzwerk mit Hilfe der Holographischen Relaxationsspektroskopie (HRS) gemessen. Durch die Verwendung von Dendrimeren unterschiedlicher Größe können Rückschlüsse auf die innere dynamische Porenstruktur der Gele gezogen werden.</abstract>
+                    <subject>
+                        <topic>Polyacrylamide , Hydrogel , Quellbarkeit , Diffusion , Forced Rayleigh scattering , Gele , N-Isopropylacrylamid (NIPAA) , Diffusion , Dendrimere ,</topic>
+                    </subject>
+                    <classification authority="ddc">540</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1728</identifier>
+                    <identifier type="sys">HT014239804</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306317</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE0_bielefeld_pub_2306317">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306317/2306323/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE1_bielefeld_pub_2306317">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306317/2306322/0057.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2306317">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306317/2306321/0057.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2306317">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306317/2306320/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306317" DMDID="DMD2306317">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306317"/>
+            <mets:div TYPE="part" ID="PART1_2306317" LABEL="0057.ps">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2306317"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2306317" LABEL="0057.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2306317"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2306317" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2306317"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

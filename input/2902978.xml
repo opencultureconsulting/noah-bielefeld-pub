@@ -1,0 +1,133 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2902978</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:000</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+<name type="personal">
+  <namePart type="given">Hendrik</namePart>
+  <namePart type="family">ter Horst</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">36764835</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-3244-6595</description></name>
+<name type="personal">
+  <namePart type="given">Soufian</namePart>
+  <namePart type="family">Jebbara</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">61955542</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4483-0933</description></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Hartung</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955539</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-6549-066X</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Named Entity Linking (NEL) is the task of disambiguating named entities in a natural language text by linking them to their corresponding entities in a knowledge base such as DBpedia. Thus, it is an important step in transforming unstructured text into structured knowledge.
+Previous work on this task has proven a strong impact of graph-based methods such as PageRank on entity linking. Other approaches rely on distributional similarity between an article and the textual description of a candidate entity. However, the combined impact of these different feature groups has not been explored to a sufficient extent. In this paper, we present a novel approach that exploits a unified probabilistic model based on undirected probabilistic models to combine different types of features for named entity linking. Capitalizing on Markov Chain Monte Carlo sampling, our model is capable of exploiting complementary strengths between both graph-based and textual features.
+We analyze the impact of these features and their combination on named entity linking to enhance our understanding of the task.
+In an evaluation on several data sets from the GERBIL benchmark, our model compares favourably with the current state-of-the-art. On the AIDA/CoNLL data set, in particular, we outperform previous approaches.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dbpediaProperties.txt">https://pub.uni-bielefeld.de/download/2902978/2902979/dbpediaProperties.txt</url>
+  </location>
+  <physicalDescription><internetMediaType>text/plain</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dbpediaDatasets.txt">https://pub.uni-bielefeld.de/download/2902978/2902980/dbpediaDatasets.txt</url>
+  </location>
+  <physicalDescription><internetMediaType>text/plain</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MentionEntity.ttl.zip">https://pub.uni-bielefeld.de/download/2902978/2906859/MentionEntity.ttl.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="pagerank.csv.zip">https://pub.uni-bielefeld.de/download/2902978/2906860/pagerank.csv.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="tspr.all.zip">https://pub.uni-bielefeld.de/download/2902978/2906861/tspr.all.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="tsprPageIDs.keys.zip">https://pub.uni-bielefeld.de/download/2902978/2906862/tsprPageIDs.keys.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opendatacommons.org/licenses/pddl/summary/index.html</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+
+<subject><topic>entity disambiguation</topic><topic>page rank data</topic><topic>dbpedia surface forms</topic><topic>entity linking</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2902978</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Hakimov S, ter Horst H, Jebbara S, Hartung M, Cimiano P (2016) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hakimov, Sherzod, ter Horst, Hendrik, Jebbara, Soufian, Hartung, Matthias, and Cimiano, Philipp. &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University, 2016.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod, ter Horst, Hendrik, Jebbara, Soufian, Hartung, Matthias, and Cimiano, Philipp. 2016. &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hakimov, S., ter Horst, H., Jebbara, S., Hartung, M., Cimiano, P.: Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models. Bielefeld University (2016).</lncs>
+<ieee> S. Hakimov, et al., &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;, Bielefeld University, 2016.</ieee>
+<apa>Hakimov, S., ter Horst, H., Jebbara, S., Hartung, M., &amp;amp; Cimiano, P. (2016).  &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2902978</apa>
+<frontiers>Hakimov, S., ter Horst, H., Jebbara, S., Hartung, M., and Cimiano, P. (2016). Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., ter Horst, H., Jebbara, S., Hartung, M. &amp;amp; Cimiano, P. (2016). &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2902978.&lt;/div&gt;</dgps>
+<ama>Hakimov S, ter Horst H, Jebbara S, Hartung M, Cimiano P. &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University; 2016.</ama>
+<angewandte-chemie>S.  Hakimov, H.  ter Horst, S.  Jebbara, M.  Hartung, and P.  Cimiano, &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., ter Horst, H., Jebbara, S., Hartung, M., &amp;amp; Cimiano, P. (2016).  &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2902978&lt;/div&gt;</apa_indent>
+<harvard1>Hakimov, S., et al., 2016. &lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hakimov S, ter Horst H, Jebbara S, Hartung M, Cimiano P (2016) &lt;br /&gt;&lt;em&gt;Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<wels>Hakimov, S.; ter Horst, H.; Jebbara, S.; Hartung, M.; Cimiano, P. (2016): Research Data - Combining Textual and Graph-based Features for Named Entity Disambiguation Using Undirected Probabilistic Graphical Models. Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2902978</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-04-29T17:18:21Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:43Z</recordChangeDate>
+</recordInfo>
+</mods>

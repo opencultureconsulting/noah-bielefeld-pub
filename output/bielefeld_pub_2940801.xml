@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2940801">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Polygon Laplacian Made Simple</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Astrid</namePart>
+                        <namePart type="family">Bunge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Herholz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Misha</namePart>
+                        <namePart type="family">Kazhdan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario Ulrich</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9954-120X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The discrete Laplace-Beltrami operator for surface meshes is a fundamental building block for many (if not most) geometry processing algorithms. While Laplacians on triangle meshes have been researched intensively, yielding the cotangent discretization as the de-facto standard, the case of general polygon meshes has received much less attention. We present a discretization of the Laplace operator which is consistent with its expression as the composition of divergence and gradient operators, and is applicable to general polygon meshes, including meshes with non-convex, and even non-planar, faces. By virtually inserting a carefully placed point we implicitly refine each polygon into a triangle fan, but then hide the refinement within the matrix assembly. The resulting operator generalizes the cotangent Laplacian, inherits its advantages, and is empirically shown to be on par or even better than the recent polygon Laplacian of Alexa and Wardetzky [AW11] - while being simpler to compute.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Computer Graphics Forum</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>39</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>303</start>
+                                <end>313</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0167-7055</identifier>
+                    <identifier type="ISI">000548709600025</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29408014</identifier>
+                    <identifier type="doi">10.1111/cgf.13931</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2940801</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2940801">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2940801/2951731/cgf.13931.bunge.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2940801" DMDID="DMD2940801">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2940801"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

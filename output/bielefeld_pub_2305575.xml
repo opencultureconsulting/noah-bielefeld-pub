@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305575">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Index-based algorithms for motif search and their integration in a system for differential genome analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Beckstette</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-12-13</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis, we present new efficient index-based algorithms for searching with position specific scoring matrices (PSSMs for short), a well known motif model, in large sequence sets, and their integration into an interactive system capable for large-scale differential comparative genome analyses. The newly developed and implemented index-based algorithms for searching with PSSMs clearly outperform existing methods in terms of running time. We also demonstrate how index based PSSM searching in combination with a fragment chaining approach can be used for efficient protein family classification, and for speeding up computation intensive database searching with hidden Markov models. With the PoSSuM software distribution, we also provide implementations of the presented algorithms in form of a flexible command line tool.
+We further integrated our newly developed algorithm possumsearch as a database search method in our integrated high-throughput sequence analysis system GENLIGHT, which is also a contribution of this work. GENLIGHT offers an interactive, biologist compatible, and user friendly environment for a variety of large-scale sequence analysis tasks with a special focus on (differential) comparative genome analyses. It employs a set oriented operational model, that allows to reuse generated results, and to perform complete analysis workflows in an interactive way. The system integrates several widely used sequence analysis methods and databases in a common environment, and is capable to perform analyses on a complete genome or proteome scale by employing a distributed client server approach, even for non index-based analysis methods. We demonstrate the practical usability of GENLIGHT with different case studies in which the system was used and which lead to substantial new scientific findings.</abstract>
+                    <subject>
+                        <topic>Genomprojekt , Mustervergleich , Algorithmus , Annotation , Bioinformatik , Sequenzanalyse , Vergleichende Genomanalyse , Position specific scoring matrice (PSSM) , Pattern matching , Annotation , Classification , Comparative genomics</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-13258</identifier>
+                    <identifier type="sys">HT015937026</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305575</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305575">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305575/2305578/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305575" DMDID="DMD2305575">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305575"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

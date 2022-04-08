@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2509818">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Fully massive tadpoles at 5-loop : reduction and difference equations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">York</namePart>
+                        <namePart type="family">Schröder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-06-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Loop integrals are essential for the computation of predictions in quantum field theories like the Standard Model of elementary particle physics. For instance, in the case of anomalous dimensions of QCD or the pressure in thermal QCD we face so-called tadpole loop integrals. In this thesis we study an important subset of these integrals, the fully massive vacuum (bubble) integrals. For the first time, we consider fully massive tadpoles at the 5-loop level pioneering the way for future high-precision calculations. We have implemented a Laporta algorithm in the algebraic manipulator \texttt{FORM} using generalized recurrence relations, a combination of integration-by-parts and space-time dimensional identities. This enabled us to perform the reduction of fully massive tadpoles up to the 5-loop level to a basis of master integrals. We modified the implementation in such a way that difference equations are obtained for a large number of the yet unknown master integrals. We started to solve the system of difference equations by means of factorial series expansions.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25098185</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2509818</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2509818">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2509818/2509822/phd_thesis_jm_v12.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2509818" DMDID="DMD2509818">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2509818"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

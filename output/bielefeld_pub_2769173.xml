@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2769173">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Discriminating Liquids Using a Robotic Kitchen Assistant</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christof</namePart>
+                        <namePart type="family">Elbrechter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jonathan</namePart>
+                        <namePart type="family">Maycock</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A necessary skill when using liquids in the preparation of food is to be able to estimate viscosity, e.g. in order to control the pouring velocity or to determine the thickness of a sauce. We introduce a method to allow a robotic kitchen assistant discriminate between different but visually similar liquids. Using a Kinect depth camera, surface changes, induced by a simple pushing motion, are recorded and used as input to nearest neighbour and polynomial regression classification models. Results reveal that even when the classifier is trained on a relatively small dataset it generalises well to unknown containers and liquid fill rates. Furthermore, the regression model allows us to determine the approximate viscosity of
+unknown liquids.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27691732</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2769173</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2769173">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2769173/2769174/ElbrechterMaycock-2015-Viscosity.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2769173" DMDID="DMD2769173">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2769173"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

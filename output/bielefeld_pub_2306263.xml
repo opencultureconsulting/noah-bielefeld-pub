@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306263">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reconstruction and analysis of intercellular signaling networks</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Rekonstruktion und Analyse interzellulärer Signalnetzwerke</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andre</namePart>
+                        <namePart type="family">Skusa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Prank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-05-31</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Cells in the human body communicate over long distances via two systems, the humoral system and the neuronal system. The humoral system works via first messenger substances, such as hormones, cytokines and neurotransmitters, which are released into the blood. Biomedical knowledge on this kind of intercellular signaling is well established, but in contrast to signaling processes inside cells, not much of this knowledge exists in a form that is easily accessible for automated approaches, such as databases or ontologies. Most of what is known about extracellular signaling is stored in terms of natural language text in the scientific literature.
+The present study aims at the reconstruction and analysis of cell-cell signaling pathways by applying automated approaches. Therefore, relevant data is extracted from molecular databases as well as from biomedical literature by applying concept based text mining. For this purpose, models and corresponding graph representations are developed to assemble intercellular signals from partial information since available data sources are scattered and incomplete. The resulting information is finally applied to generate hypotheses on cell-cell signaling in the context of neurodegenerative diseases.
+More specifically, from the few molecular databases containing appropriate data, one database is tested in a preliminary study and reconstruction approaches accessing the specific structure of this database are developed. To reconstruct information from natural language text, ONDEX, a framework for ONtological text inDEXing and data integration has been developed in a collaborative work. ONDEX supports concept based approaches, i.e. databases and ontologies are integrated into a standardized graph-based framework, where biological entities as concepts are linked by relations (i.e., &quot;is-a&quot;, &quot;part-of&quot; or &quot;synonym&quot;). A major part of this thesis is the development and the integration of concept based text indexing and concept based co-occurrence searches into ONDEX. On this basis, MEDLINE abstracts are mapped to concepts of a number of ontologies (e.g., Gene Ontology, MeSH terms and Cell Ontology) and mined for relevant parts of intercellular signaling. From these relations finally, cell-cell signaling hypotheses are assembled.
+Whereas the networks resulting from the database reconstruction are not sufficient for reasonable analysis and further use, evaluations of the text mining results show that a significant number of known facts can be found by applying concept based co-occurrences searches. Finally, the text extraction results are reduced to a manageable amount of concept based co-occurrence hits and hypotheses for cell types involved in neurodegenerative diseases. In this case a number of known facts are reconstructed and suggestions for further improvements are made.
+The text extraction results demonstrate the possibility to reconstruct relations between biological entities from text by applying a concept based framework and thus, how a large text set can be reduced to a number of hypotheses allowing manual examination.</abstract>
+                    <subject>
+                        <topic>Bioinformatik , Systembiologie , Text Mining , Biologische Netzwerke , Zell-Zell-Signale , Interzelluläre Signalnetzwerke , Biological networks , Cell-cell signaling , Intercellular signaling networks</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8844</identifier>
+                    <identifier type="sys">HT014976235</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306263</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306263">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306263/2306266/thesis_andre_skusa.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306263" DMDID="DMD2306263">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306263"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

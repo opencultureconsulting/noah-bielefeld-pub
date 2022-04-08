@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900555">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automatische Sacherschließung elektronischer Dokumente</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mathias</namePart>
+                        <namePart type="family">Lösch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2845-7072</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Repositorien sind nun schon seit einiger Zeit aus der Bibliotheksinfrastruktur nicht mehr wegzudenken. Ein ungelöstes Problem ist jedoch die uneinheitliche Sacherschließung der in ihnen abgelegten Dokumente: Die in der Praxis beobachtbare Palette reicht von freien Schlagwörtern über kontrollierte Vokabulare bis hin zu unterschiedlichen Fach- und Universalklassifikationen. Dadurch wird aktuell ein repositorienübergreifender, sachbezogener Zugang verhindert. Der Vortrag stellt das DFG-Projekt Automatische Anreicherung von OAI-Metadaten vor. In Kooperation mit dem Institut für Texttechnologie an der Universität Bielefeld und dem Institut für Informatik (Abteilung Automatische Sprachverarbeitung) der Universität Leipzig werden im Rahmen des Projekts die Sacherschließungsinformationen in OAI-Metadaten normalisiert. Erreicht wird die Normalisierung durch die automatische Vergabe von Klassifikationsnotationen -- zunächst aus der Dewey Dezimalklassifikation. Ziele des Projekts sind unter anderem die Weiterentwicklung der Bielefelder Wissenschaftssuchmaschine Bielefeld Academic Search Engine (BASE) sowie die semantische Vernetzung von Repositorien. Letzteres soll ermöglicht werden, indem die angereicherten Metadaten den Ursprungsrepositorien bzw. virtuellen Fachbibliotheken zur Nachnutzung wieder zur Verfügung gestellt werden.</abstract>
+                    <subject>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Textkategorisierung Dewey Decimal Classification</topic>
+                        <topic>Machine learning</topic>
+                        <topic>Text categorization</topic>
+                        <topic>Bielefeld Academic Search Engine</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29005552</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900555</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900555">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900555/2900557/loesch_autosacherschl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900555" DMDID="DMD2900555">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900555"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

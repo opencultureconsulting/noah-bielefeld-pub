@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1782806">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Wie finden interreligiöse Lernprozesse bei Kindern und Jugendlichen statt?: Skizze einer xenosophischen Religionsdidaktik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heinz</namePart>
+                        <namePart type="family">Streib</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3633-4785</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Schreiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ursula</namePart>
+                        <namePart type="family">Sieg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Elsenbast</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>inter-religiöses Lernen</topic>
+                    </subject>
+                    <classification authority="ddc">200</classification>
+                    <identifier type="isbn">3-579-05574-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-33358</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1782806</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1782806">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1782806/2314003/OCT3335.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1782806">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1782806/2212847/Interrel-Lernprozesse" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1782806" DMDID="DMD1782806">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1782806"/>
+            <mets:div TYPE="part" ID="PART1_1782806" LABEL="Interrel-Lernprozesse">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1782806"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

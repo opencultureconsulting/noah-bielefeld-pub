@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1606393">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Abstract shapes of RNA</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Björn</namePart>
+                        <namePart type="family">Voss</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Rehmsmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The function of a non-protein-coding RNA is often determined by its structure. Since experimental determination of RNA structure is time-consuming and expensive, its computational prediction is of great interest, and efficient solutions based on thermodynamic parameters are known. Frequently, however, the predicted minimum free energy structures are not the native ones, leading to the necessity of generating suboptimal solutions. While this can be accomplished by a number of programs, the user is often confronted with large outputs of similar structures, although he or she is interested in structures with more fundamental differences, or, in other words, with different abstract shapes. Here, we formalize the concept of abstract shapes and introduce their efficient computation. Each shape of an RNA molecule comprises a class of similar structures and has a representative structure of minimal free energy within the class. Shape analysis is implemented in the program RNAshapes. We applied RNAshapes to the prediction of optimal and suboptimal abstract shapes of several RNAs. For a given energy range, the number of shapes is considerably smaller than the number of structures, and in all cases, the native structures were among the top shape representatives. This demonstrates that the researcher can quickly focus on the structures of interest, without processing up to thousands of near-optimal solutions. We complement this study with a large-scale analysis of the growth behaviour of structure and shape spaces. RNAshapes is available for download and as an online version on the Bielefeld Bioinformatics Server.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Nucleic Acids Research</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>32</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>16</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>4843</start>
+                                <end>4851</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0305-1048</identifier>
+                    <identifier type="eIssn">1362-4962</identifier>
+                    <identifier type="MEDLINE">15371549</identifier>
+                    <identifier type="ISI">000224207500014</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16063931</identifier>
+                    <identifier type="doi">10.1093/nar/gkh779</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1606393</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1606393">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1606393/2311125/4843.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1606393" DMDID="DMD1606393">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1606393"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

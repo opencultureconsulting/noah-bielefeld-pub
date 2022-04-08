@@ -1,0 +1,112 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902981">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Heterogeneous Agent Macroeconomic Model for Policy Evaluation: Improving Transparency and Reproducibility</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Herbert</namePart>
+                        <namePart type="family">Dawid</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8536-9960</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Harting</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8865-7466</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sander</namePart>
+                        <namePart type="family">van der Hoog</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2348-3194</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Neugart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper provides a detailed description of the Eurace@Unibi model, which has been developed as a
+versatile tool for economic policy analysis. The model explicitly incorporates the decentralized
+interaction of heterogeneous agents across different sectors and regions. The modeling of individual
+behavior is based on heuristics with empirical microfoundations. Although Eurace@Unibi has been
+applied successfully to different policy domains, the complexity of the structure of the model, which is
+similar to other agent-based macroeconomic models, has given rise to concerns about the reproducibility
+and robustness of the obtained insights. This paper addresses these concerns by describing the exact
+details of all decision rules, interaction protocols and balance sheets used in the model. Furthermore, we
+discuss the use of a virtual appliance as a tool allowing third parties to reproduce and verify the
+simulation results. The paper provides a systematic and extensive sensitivity analysis of the simulation
+output with respect to a set of key parameters. Particular emphasis is put on the question which
+parameter constellations give rise to strong economic fluctuations and high frequencies of sudden
+downturns in economic activity.</abstract>
+                    <subject>
+                        <topic>Eurace@Unibi</topic>
+                        <topic>agent-based economics</topic>
+                        <topic>agent-based macroeconomics</topic>
+                        <topic>policy analysis</topic>
+                        <topic>reproducibility</topic>
+                        <topic>virtual appliance</topic>
+                        <topic>etace_agent_based_modelling</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>06-2016</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>66</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29029819</identifier>
+                    <identifier type="doi">10.4119/unibi/2902981</identifier>
+                    <identifier type="sys">HT020614888</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902981</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902981">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902981/2902982/WP_UNIBI_06_2016-Dawid_etal_Heterogeneous+Agent+Macroeconomic+Model_with_appendix.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902981" DMDID="DMD2902981">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902981"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

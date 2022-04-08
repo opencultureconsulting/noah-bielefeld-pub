@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305885">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computational methods for splice site prediction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Leila</namePart>
+                        <namePart type="family">Taher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-03-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Completing the genome sequence of a given organism is just the beginning of a series of subsequent tasks, namely, the discovery of the corresponding sequence complexities. For eukaryotic organisms, this refers especially to the documentation of the coding exons of each gene, as well as non-coding and regulatory sequences. In spite of the extensive research done in the area, the production of genomic data remains far ahead of the ability to reliably predict such features computationally.
+Eukaryotic genes consist predominantly of exons and introns; while the introns are non-coding regions that are removed from the primary transcript during RNA splicing, the exons are the coding regions that are spliced together during the mRNA maturation process. The borders between exons and introns present conserved dinucleotides, and are called splice sites; the intron-exon boundary is referred to as acceptor splice site and the exon-intron boundary as donor splice site.
+Accurate eukaryotic gene prediction clearly requires exact splice site prediction methods. There are different pattern recognition techniques available to assess the quality of candidate splice sites; most of them proceed by computing a score derived from models about the distribution of the nucleotides in the neighbourhood of a splice site consensus sequence. Using Support Vector Machines (SVM) and a kernel particularly designed for the study of biological sequences, we investigate which pattern occurrences in which positions are relevant for splice site prediction. In addition, we propose a splice site prediction method that improves traditional position-specific weight matrices. Finally, we contribute with an intron model that relies on secondary structure information and demonstrates the ability to distinguish intron sequences from random data.</abstract>
+                    <subject>
+                        <topic>,  ,</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8389</identifier>
+                    <identifier type="sys">HT014856367</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305885</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305885">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305885/2305888/Taher_Leila_Thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305885" DMDID="DMD2305885">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305885"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

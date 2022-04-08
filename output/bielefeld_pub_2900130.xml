@@ -1,0 +1,109 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900130">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Shifts of Attention During Spatial Language Comprehension: A Computational Investigation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michele</namePart>
+                        <namePart type="family">Burigo</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2068-9936</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Pia</namePart>
+                        <namePart type="family">Knoeferle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jaap</namePart>
+                        <namePart type="family">van den Herik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joaquim</namePart>
+                        <namePart type="family">Filipe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Regier and Carlson (2001) have investigated the processing of spatial prepositions and developed a cognitive model that formalizes how spatial prepositions are evaluated against depicted spatial relations between objects. In their Attentional Vector Sum (AVS) model, a population of vectors is weighted with visual attention, rooted at the reference object and pointing to the located object. The deviation of the vector sum from a reference direction is then used to evaluate the goodness-of-fit of the spatial preposition. Crucially, the AVS model assumes a shift of attention from the reference object to the located object. The direction of this shift has been challenged by recent psycholinguistic and neuroscientific findings. We propose a modified version of the AVS model (the rAVS model) that integrates these findings. In the rAVS model, attention shifts from the located object to the reference object in contrast to the attentional shift from the reference object to the located object implemented in the AVS model. Our model simulations show that the rAVS model accounts for both the data that inspired the AVS model and the most recent findings.</abstract>
+                    <subject>
+                        <topic>spatial language</topic>
+                        <topic>cognitive modeling</topic>
+                        <topic>AVS</topic>
+                        <topic>rAVS</topic>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the 8th International Conference on Agents and Artificial Intelligence (ICAART 2016)</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>213</start>
+                                <end>222</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-989-758-172-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29001309</identifier>
+                    <identifier type="doi">10.5220/0005851202130222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900130</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900130">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900130/2900781/cosli2016.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2900130">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900130/2901758/icaart2016slides.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900130" DMDID="DMD2900130">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900130"/>
+            <mets:div TYPE="part" ID="PART1_2900130" LABEL="icaart2016slides.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2900130"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

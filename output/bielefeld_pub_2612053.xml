@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2612053">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Structuring and modules for knowledge bases: Motivation for a new model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Grigoris</namePart>
+                        <namePart type="family">Antoniou</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Brezillon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vadim</namePart>
+                        <namePart type="family">Stefanuk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1993</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Evolving out of theoretic and practical work, this paper presents the motivation and basic ideas for the construction and use of modular knowledge bases. The approach bears upon earlier work by the two authors done separately from each other. We introduce a model which attempts to merge two previous approaches while maintaining their benefits: Modules for logical knowledge bases, and ordered by generality domains. Central aims are reusability, restriction of memory search, and management of inconsistent (competing) knowledge within one knowledge base. We explain the model by motivational examples and discuss the formal semantics of structured, modular knowledge bases for knowledge representations that are based on logic programming.</abstract>
+                    <subject>
+                        <topic>modules</topic>
+                        <topic>knowledge representation in the large</topic>
+                        <topic>knowledge sharing</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26120539</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2612053</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2612053">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2612053/2678332/EWAIC-93.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2612053" DMDID="DMD2612053">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2612053"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

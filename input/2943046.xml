@@ -1,0 +1,124 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2943046</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:006</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Cung</namePart>
+  <namePart type="family">Lian Sang</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">63769223</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-6144-9544</description></name>
+<name type="personal">
+  <namePart type="given">Bastian</namePart>
+  <namePart type="family">Steinhagen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">174564037</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7905-513X</description></name>
+<name type="personal">
+  <namePart type="given">Jonas Dominik</namePart>
+  <namePart type="family">Homburg</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">176439380</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4760-8510</description></name>
+<name type="personal">
+  <namePart type="given">Michael</namePart>
+  <namePart type="family">Adams</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">56669997</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4986-3654</description></name>
+<name type="personal">
+  <namePart type="given">Marc</namePart>
+  <namePart type="family">Hesse</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">23665617</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-9500-3284</description></name>
+<name type="personal">
+  <namePart type="given">Ulrich</namePart>
+  <namePart type="family">Rückert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15438821</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In Ultra-wideband (UWB)-based wireless ranging or distance measurement, differentiation between line-of-sight (LOS), non-line-of-sight (NLOS), and multi-path (MP) conditions are important for precise indoor localization. This is because the accuracy of the reported measured distance in UWB ranging systems is directly affected by the measurement conditions (LOS, NLOS or MP). However, the major contributions in literature only address the binary classification between LOS and NLOS in UWB ranging systems. The MP condition is usually ignored. In fact, the MP condition also has a significant impact on the ranging errors of the UWB compared to the direct LOS measurement results. Though, the magnitudes of the error contained in MP conditions are generally lower than completely blocked NLOS scenarios. This paper addresses machine learning techniques for identification of the mentioned three classes (LOS, NLOS, and MP) in the UWB indoor localization system using an experimental data-set. The data-set was collected in different conditions at different scenarios in indoor environments. Using the collected real measurement data, we compare three machine learning (ML) classifiers, i.e., support vector machine (SVM), random forest (RF) based on an ensemble learning method, and multilayer perceptron (MLP) based on a deep artificial neural network, in terms of their performance. The results show that applying ML methods in UWB ranging systems are effective in identification of the above-mentioned three classes. In specific, the overall accuracy reaches up to 91.9% in the best-case scenario and 72.9%  in the worst-case scenario. Regarding the F1-score, it is 0.92 in the best-case and 0.69 in the worst-case scenario. For reproducible results and further exploration, we provide the publicly accessible experimental research data discussed in this paper at PUB - Publications at Bielefeld University. The evaluations of the three classifiers are conducted using the open-source python machine learning library scikit-learn.
+</abstract>
+<abstract lang="eng">Appl. Sci. 2020, 10(11), 3980; https://doi.org/10.3390/app10113980</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="applsci-10-03980_ks_uni_bielefeld.pdf">https://pub.uni-bielefeld.de/download/2943046/2943837/applsci-10-03980_ks_uni_bielefeld.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>MDPI</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>UWB</topic><topic>NLOS identification</topic><topic>multi-path detection</topic><topic>NLOS and MP discrimination</topic><topic>machine learning</topic><topic>SVM</topic><topic>random forest</topic><topic>multilayer perceptron</topic><topic>LOS</topic><topic>DWM1000</topic><topic>indoor localization</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Applied Sciences</title></titleInfo>
+  <identifier type="ISI">000543385900317</identifier><identifier type="urn">urn:nbn:de:0070-pub-29430468</identifier><identifier type="doi">10.3390/app10113980</identifier>
+<part><detail type="volume"><number>10</number></detail><detail type="issue"><number>11</number></detail>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2943719</url>  </location>
+</relatedItem>
+
+<relatedItem type="Supplementary material">
+  <location>
+  
+     <url>https://www.mdpi.com/2076-3417/10/11/3980</url>
+  
+  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Lian Sang, C.; Steinhagen, B.; Homburg, J. D.; Adams, M.; Hesse, M.; Rückert, U. (2020): Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods &lt;em&gt;Applied Sciences&lt;/em&gt;,10:(11):3980</wels>
+<harvard1>Lian Sang, C., et al., 2020. Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt;, 10(11): 3980.</harvard1>
+<bio1>Lian Sang C, Steinhagen B, Homburg JD, Adams M, Hesse M, Rückert U (2020) &lt;br /&gt;Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods.&lt;br /&gt;Applied Sciences 10(11): 3980.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lian Sang, C., Steinhagen, B., Homburg, J. D., Adams, M., Hesse, M., &amp;amp; Rückert, U. (2020). Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(11), 3980. doi:10.3390/app10113980&lt;/div&gt;</apa_indent>
+<angewandte-chemie>C.  Lian Sang, B.  Steinhagen, J. D.  Homburg, M.  Adams, M.  Hesse, and U.  Rückert, “Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods”, &lt;em&gt;Applied Sciences&lt;/em&gt;, &lt;strong&gt;2020&lt;/strong&gt;, &lt;em&gt;10&lt;/em&gt;, : 3980.</angewandte-chemie>
+<ama>Lian Sang C, Steinhagen B, Homburg JD, Adams M, Hesse M, Rückert U. Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt;. 2020;10(11): 3980.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lian Sang, C., Steinhagen, B., Homburg, J.D., Adams, M., Hesse, M. &amp;amp; Rückert, U. (2020). Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(11): 3980. MDPI. doi:10.3390/app10113980.&lt;/div&gt;</dgps>
+<frontiers>Lian Sang, C., Steinhagen, B., Homburg, J. D., Adams, M., Hesse, M., and Rückert, U. (2020). Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt; 10:3980.</frontiers>
+<apa>Lian Sang, C., Steinhagen, B., Homburg, J. D., Adams, M., Hesse, M., &amp;amp; Rückert, U. (2020). Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. &lt;em&gt;Applied Sciences&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(11), 3980. doi:10.3390/app10113980</apa>
+<ieee> C. Lian Sang, et al., “Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods”, &lt;em&gt;Applied Sciences&lt;/em&gt;,  vol. 10, 2020, : 3980.</ieee>
+<lncs> Lian Sang, C., Steinhagen, B., Homburg, J.D., Adams, M., Hesse, M., Rückert, U.: Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods. Applied Sciences. 10, : 3980 (2020).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lian Sang, Cung, Steinhagen, Bastian, Homburg, Jonas Dominik, Adams, Michael, Hesse, Marc, and Rückert, Ulrich. 2020. “Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods”. &lt;em&gt;Applied Sciences&lt;/em&gt; 10 (11): 3980.&lt;/div&gt;</chicago>
+<mla>Lian Sang, Cung, Steinhagen, Bastian, Homburg, Jonas Dominik, Adams, Michael, Hesse, Marc, and Rückert, Ulrich. “Identification of NLOS and Multi-path Conditions in UWB Localization using Machine Learning Methods”. &lt;em&gt;Applied Sciences&lt;/em&gt; 10.11 (2020): 3980.</mla>
+<default>Lian Sang C, Steinhagen B, Homburg JD, Adams M, Hesse M, Rückert U (2020) &lt;br /&gt;&lt;em&gt;Applied Sciences&lt;/em&gt; 10(11): 3980.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2943046</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-04-30T08:38:45Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-11T13:26:54Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302753</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Flexible object recognition based on invariant theory and agent technology</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thorsten</namePart>
+  <namePart type="family">Graf</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Alois</namePart>
+  
+  
+  <namePart type="family">Knoll</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Die Fähigkeit zur Wahrnehmung der Umwelt stellt eine essentielle Voraussetzung für moderne Robotikanwendungen dar. Dieses gilt insbesondere für Systeme, die in natürlichen Umgebungen agieren, da im allgemeinen keine vollständige Beschreibung der Umwelt angegeben werden kann. Um solche Systeme dennoch in die Lage zu versetzen, auch komplexe Aufgaben lösen zu können, müssen zahlreiche Bedingungen an ein Bildverarbeitungssystem gestellt werden. So muss das Bildverarbeitungssystem trotz unvollständiger, unsicherer und ungenauer Information eine robuste Objekterkennung erlauben. Zusätzlich muss die Bildverarbeitung die Fähigkeit besitzen, sich an verschiedene, sich ändernde Umgebungsbedingungen und Aufgabenstellungen anzupassen.
+Herkömmliche Bildverarbeitungssysteme können solche Anforderungen im allgemeinen nicht erfüllen, da die verwendeten Methoden häufig für spezielle Anwendungen konzipiert werden und starre monolithische Strukturen besitzen. Um einen Ausweg aus dieser Problematik zu finden, wird in dieser Arbeit ein Ansatz verfolgt, der moderne flexible und robuste Objekterkennungsmethoden mit einer flexiblen Systemarchitektur vereint.
+So werden in der Arbeit zunächst zwei verschiedene Verfahren zur Hypothesengenerierung entwickelt: ein geometrisches und ein ansichtenbasiertes Verfahren. Beide Verfahren basieren dabei hauptsächlich auf der sogenannten Invariantentheorie, die es erlaubt, Objektbeschreibungen zu definieren, die nicht durch die intrinsischen und extrinsischen Kameraparameter beeinflusst werden. Das bedeutet, dass die Invariantentheorie Objektbeschreibungen ermöglicht, die unabhängig von den verwendeten Kameras und der jeweiligen Kamerasicht sind.
+Das geometrische Verfahren verbindet dabei zusätzlich die Vorteile von invarianten Objektbeschreibungen mit den Modellierungseigenschaften der Fuzzy-Mengen-Theorie. Im Gegensatz zu anderen geometrisch-basierten Verfahren zur Hypothesengenerierung lässt sich das vorgestellte Verfahren auf eine sehr große Bandbreite von geometrischen Invarianten anwenden. Zusätzlich besitzt es, wie anhand von Beispielen gezeigt werden konnte, ein besseres Diskriminationsverhalten gegenüber sehr ähnlichen Objekten und ist dabei noch leicht erweiterbar, indem zusätzliche (auch nicht invariante) Merkmale in die Hypothesengenerierung integriert werden können. Das ansichtenbasierte Verfahren setzt auf der etablierten Hauptachsentransformation zur Musterklassifikation auf. Hier wird die Hauptachsentransformation jedoch nicht direkt auf extrahierte Bildausschnitte angewendet, sondern auf deren invarianten Repräsentationen. Der Vorteil im Gegensatz zu herkömmlichen Verfahren dabei ist, dass der aus unterschiedlichen Perspektiven resultierende Einfluss reduziert wird und weniger Hauptachsen für eine Objektklassifizierung ausreichen. Ebenso wird eine geringere Menge von Bildern zum Training des Systems benötigt. Wie zahlreiche Erkennungsbeispiele demonstrieren, sind die beiden entwickelten Methoden in der Lage, (auch) partiell-verdeckte Objekte in unterschiedlichsten Kamerabildern zu erkennen, ohne dass ein Nachtraining bei Verwendung verschiedener unkalibrierter Kameras notwendig ist.
+Zusätzlich zu den Erkennungsverfahren wird in der Arbeit eine agentbasierte Systemstruktur vorgeschlagen, die eine effiziente, parallel arbeitende und dezentralisierte Systemmodellierung erlaubt. Im Gegensatz zu den wenigen vergleichbaren Systemen, besitzt die entwickelte Agentenarchitektur eine übersichtliche Struktur, wobei die einzelnen Agenten mittels einer verständlichen Kommunikationssprache kommunizieren, über die sich die Agenten sogar programmieren lassen, so dass auch zur Laufzeit neue Funktionalität implementiert werden kann. Anhand von Beispielen wird gezeigt, dass das realisierte System in der Lage ist, sich anhand einer gegebenen Aufgabenstellung selbst zu organisieren und generell bessere Erkennungsergebnisse liefert als die zuvor monolithisch implementierten Objekterkennungssysteme.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.pdf">https://pub.uni-bielefeld.de/download/2302753/2302756/diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2000</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Mehragentensystem</topic><topic>Autonomer Agent</topic><topic>Object recognition</topic><topic>Agents</topic><topic>Objekterkennung</topic><topic>Fuzzy-Menge</topic><topic>Geometrische Invariantentheorie</topic><topic>Bildsegmentierung</topic><topic>Invariant theory</topic><topic>Multi-agent-system</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-1408</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2000-12-20</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> T. Graf, &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;,  Bielefeld: Bielefeld University, 2000.</ieee>
+<apa>Graf, T. (2000).  &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Graf, T. (2000). &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Graf, T. (2000). Flexible object recognition based on invariant theory and agent technology. Bielefeld: Bielefeld University.</frontiers>
+<ama>Graf T. &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University; 2000.</ama>
+<angewandte-chemie>T.  Graf, &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2000&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Graf, T., 2000. &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<bio1>Graf T (2000) &lt;br /&gt;&lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Graf, T. (2000).  &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Graf, T. (2000): Flexible object recognition based on invariant theory and agent technology. Bielefeld: Bielefeld University.</wels>
+<default>Graf T (2000) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Graf, Thorsten. &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University, 2000.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Graf, Thorsten. 2000. &lt;em&gt;Flexible object recognition based on invariant theory and agent technology&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Graf, T.: Flexible object recognition based on invariant theory and agent technology. Bielefeld University, Bielefeld (2000).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302753</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-03-25T13:58:54Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:49:23Z</recordChangeDate>
+</recordInfo>
+</mods>

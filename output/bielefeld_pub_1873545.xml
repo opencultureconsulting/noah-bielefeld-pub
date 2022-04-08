@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1873545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On lot streaming with multiple products</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Feldmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Biskup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we study the multi-product lot streaming problem in a permutation flow shop. The problem involves splitting given order quantities of different products into sublots and determining their optimal sequence. Each sublot has to be processed successively on all machines. The sublots of the particular products are allowed to intermingle, that is sublots of different jobs may be interleaved. A mixed integer programming formulation is presented which enables us to find optimal sublot sizes as well as the optimal sequence simultaneously. With this formulation small and medium sized instances can be solved in a reasonable time. The model is further extended to deal with different settings and objectives. As no lot streaming instances are available in the literature, LSGen, a problem generator is presented, facilitating valid and reproducible instances. First results about average benefit of lot streaming with multiple products are presented, which are based on a computational study with 160 small and medium sized instances.</abstract>
+                    <subject>
+                        <topic>Mixed integer programming</topic>
+                        <topic>Production planning</topic>
+                        <topic>Lot streaming</topic>
+                        <topic>Scheduling</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>542</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7720</identifier>
+                    <identifier type="sys">HT014509395</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1873545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1873545">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1873545/2315318/Diskussionspapier_542.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1873545" DMDID="DMD1873545">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1873545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

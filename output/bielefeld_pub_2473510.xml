@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2473510">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Real-time inference in a VLSI spiking neural network</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dane</namePart>
+                        <namePart type="family">Corneil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Sonnleithner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Emre</namePart>
+                        <namePart type="family">Neftci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthew</namePart>
+                        <namePart type="family">Cook</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giacomo</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Rodney</namePart>
+                        <namePart type="family">Douglas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The ongoing motor output of the brain depends on its remarkable ability to rapidly transform and fuse a variety of sensory streams in real-time. The brain processes these data using networks of neurons that communicate by asynchronous spikes, a technology that is dramatically different from conventional electronic systems. We report here a step towards constructing electronic systems with analogous performance to the brain. Our VLSLI spiking neural network combines in real-time three distinct sources of input data; each is place-encoded on an individual neuronal population that expresses soft Winner-Take-All dynamics. These arrays are combined according to a user-specified function that is embedded in the reciprocal connections between the soft Winner-Take-All populations and an intermediate shared population. The overall network is able to perform function approximation (missing data can be inferred from the available streams) and cue integration (when all input streams are present they enhance one another synergistically). The network performs these tasks with about 80% and 90% reliability, respectively. Our results suggest that with further technical improvement, it may be possible to implement more complex probabilistic models such as Bayesian networks in neuromorphic electronic systems.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-1-4673-0218-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24735102</identifier>
+                    <identifier type="doi">10.1109/ISCAS.2012.6271788</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2473510</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2473510">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2473510/2553142/Real-time_inference_in_a_VLSI_spiking_neural_network.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2473510">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2473510/2934807/Corneil_etal12.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2473510" DMDID="DMD2473510">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2473510"/>
+            <mets:div TYPE="part" ID="PART1_2473510" LABEL="Corneil_etal12.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2473510"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

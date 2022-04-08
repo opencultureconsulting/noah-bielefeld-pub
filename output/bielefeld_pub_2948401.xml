@@ -1,0 +1,125 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948401">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ConCysFind: a pipeline tool to predict conserved amino acids of protein sequences across the plant kingdom</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marten</namePart>
+                        <namePart type="family">Moore</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Corinna</namePart>
+                        <namePart type="family">Wesemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nikolaj</namePart>
+                        <namePart type="family">Gossmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Arne</namePart>
+                        <namePart type="family">Sahm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Krüger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4405-3847</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karl-Josef</namePart>
+                        <namePart type="family">Dietz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Post-translational modifications (PTM) of amino acid (AA) side chains in peptides control protein structure and functionality. PTMs depend on the specific AA characteristics. The reactivity of cysteine thiol-based PTMs are unique among all proteinaceous AA. This pipeline aims to ease the identification of conserved AA of polypeptides or protein families based on the phylogenetic occurrence in the plant kingdom. The tool is customizable to include any species. The degree of AA conservation is taken as indicator for structural and functional significance, especially for PTM-based regulation. Further, this pipeline tool gives insight into the evolution of these potentially regulatory important peptides.
+Results
+
+The web-based or stand-alone pipeline tool Conserved Cysteine Finder (ConCysFind) was developed to identify conserved AA such as cysteine, tryptophan, serine, threonine, tyrosin and methionine. ConCysFind evaluates multiple alignments considering the proteome of 21 plant species. This exemplar study focused on Cys as evolutionarily conserved target for multiple redox PTM. Phylogenetic trees and tables with the compressed results of the scoring algorithm are generated for each Cys in the query polypeptide. Analysis of 33 translation elongation and release factors alongside of known redox proteins from Arabidopsis thaliana for conserved Cys residues confirmed the suitability of the tool for identifying conserved and functional PTM sites. Exemplarily, the redox sensitivity of cysteines in the eukaryotic release factor 1-1 (eRF1-1) was experimentally validated.
+Conclusion
+
+ConCysFind is a valuable tool for prediction of new potential protein PTM targets in a broad spectrum of species, based on conserved AA throughout the plant kingdom. The identified targets were successfully verified through protein biochemical assays. The pipeline is universally applicable to other phylogenetic branches by customization of the database.</abstract>
+                    <subject>
+                        <topic>Biochemistry</topic>
+                        <topic>Applied Mathematics</topic>
+                        <topic>Molecular Biology</topic>
+                        <topic>Structural Biology</topic>
+                        <topic>Computer Science Applications</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">33129266</identifier>
+                    <identifier type="ISI">000588098400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29484014</identifier>
+                    <identifier type="doi">10.1186/s12859-020-03749-2</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948401</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2948401">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948401/2949055/s12859-020-03749-2.dietz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948401" DMDID="DMD2948401">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948401"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1777122">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Electrotransformation of culture cells</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Eberhard</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elvira</namePart>
+                        <namePart type="family">Boldt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1988</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">572</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Modern methods in protein chemistry: review articles</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>vol. 3: Conference on &quot;Modern Methods in Protein Chemistry&quot; held at ... Bielefeld, November 6 - 8, 1986</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>359</start>
+                                <end>376</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-11-011216-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-13914</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1777122</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1777122">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1777122/2312318/Neumann_B_36.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1777122" DMDID="DMD1777122">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1777122"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

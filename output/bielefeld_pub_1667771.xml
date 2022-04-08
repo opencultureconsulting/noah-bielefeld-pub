@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1667771">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Multiple sequence alignment with the Divide-and-Conquer method.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">An improved algorithm for the simultaneous alignment of multiple protein and nucleic acid sequences, the Divide-and-Conquer Alignment procedure (DCA), is presented. The basic method described in Tonges,et al. (1996) (Tonges, U., Perrey, S.W., Stoye, J., Dress, A.W.M., 1996. A general method for fast multiple sequence alignment. Gene, 172, GC33-GC41) is generalized to align any number of sequences to work arbitrary (e.g. affine linear) gap penalty functions. Also, the practical efficiency of the method is improved so that families of more than 10 sequences can now be aligned simultaneously within a few seconds or minutes. After a brief description of the general method, we assess the time and memory requirements of our implementation of DCA. We present several examples showing that the program is able to deal with real-world alignment problems.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Gene</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>211</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>GC45</start>
+                                <end>GC56</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0378-1119</identifier>
+                    <identifier type="MEDLINE">9669886</identifier>
+                    <identifier type="ISI">000073798600026</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16677719</identifier>
+                    <identifier type="doi">10.1016/S0378-1119(98)00097-3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1667771</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1667771">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1667771/2311168/mulseq.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1667771" DMDID="DMD1667771">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1667771"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

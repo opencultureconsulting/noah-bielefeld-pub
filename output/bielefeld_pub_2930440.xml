@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2930440">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Optimal Dividend Problem with Capital Injections over a Finite Horizon</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Schuhmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we propose and solve an optimal dividend problem with capital
+injections over a finite time horizon. The surplus dynamics obeys a linearly controlled drifted
+Brownian motion that is reflected at zero, dividends give rise to time-dependent instantaneous
+marginal profits, whereas capital injections are subject to time-dependent instantaneous marginal
+costs. The aim is to maximize the sum of a liquidation value at terminal time and of the
+total expected profits from dividends, net of the total expected costs for capital injections.
+Inspired by the study in [13] on reflected follower problems, we relate the optimal dividend
+problem with capital injections to an optimal stopping problem for a drifted Brownian motion
+that is absorbed at zero. We show that whenever the optimal stopping rule is triggered
+by a time-dependent boundary, the value function of the optimal stopping problem gives
+the derivative of the value function of the optimal dividend problem. Moreover, the optimal
+dividends&apos; distribution strategy is also triggered by the moving boundary of the associated
+stopping problem. The properties of this boundary are then investigated in a case study
+in which instantaneous marginal profits and costs from dividends and capital injections are
+constants discounted at a constant rate.</abstract>
+                    <subject>
+                        <topic>optimal dividend problem</topic>
+                        <topic>capital injections</topic>
+                        <topic>singular stochastic control</topic>
+                        <topic>optimal stopping</topic>
+                        <topic>free boundary</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>595</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>30</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29304408</identifier>
+                    <identifier type="sys">HT019950316</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2930440</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2930440">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2930440/2930441/IMW_working_paper_595.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2930440" DMDID="DMD2930440">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2930440"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

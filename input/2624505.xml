@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2624505</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:006</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Human Activity Classification with Online Growing Neural Gas</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Maximilian</namePart>
+  <namePart type="family">Panzner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">21452864</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-5607-6168</description></name>
+<name type="personal">
+  <namePart type="given">Oliver</namePart>
+  <namePart type="family">Beyer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020743</identifier></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this paper we present an online approach to human ac-
+tivity classification based on Online Growing Neural Gas (OGNG). In contrast to state-of-the-art approaches that perform training in an offline fashion, our approach is online in the sense that it circumvents the need
+to store any training examples, processing the data on the fly and in one pass. The approach is thus particularly suitable in life-long learning settings where never-ending streams of data arise. We propose an archi-
+tecture that consists of two layers, allowing the storage of human actions in a more memory efficient structure. While the first layer (feature map) dynamically clusters Space-Time Interest Points (STIP) and serves as basis for the creation of histogram-based signatures of human actions,
+the second layer (class map) builds a classification model that relies on these human action signatures. We present experimental results on the KTH activity dataset showing that our approach has comparable per- formance to a Support Vector Machine (SVM) while performing online and avoiding to store examples explicitly.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ogng_act_recog.pdf">https://pub.uni-bielefeld.de/download/2624505/2697989/ogng_act_recog.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2013</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Workshop on New Challenges in Neural Computation (NC2)</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-26245056</identifier>
+<part><extent unit="pages">106-113</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<wels>Panzner, M.; Beyer, O.; Cimiano, P. (2013): Human Activity Classification with Online Growing Neural Gas. In: Workshop on New Challenges in Neural Computation (NC2).  S. 106-113.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Panzner, M., Beyer, O., &amp;amp; Cimiano, P. (2013). Human Activity Classification with Online Growing Neural Gas. &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;, 106-113.&lt;/div&gt;</apa_indent>
+<bio1>Panzner M, Beyer O, Cimiano P (2013) &lt;br /&gt;Human Activity Classification with Online Growing Neural Gas. &lt;br /&gt;In:  Workshop on New Challenges in Neural Computation (NC2).  106-113.</bio1>
+<harvard1>Panzner, M., Beyer, O., &amp;amp; Cimiano, P., 2013. Human Activity Classification with Online Growing Neural Gas. In &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;. pp. 106-113.</harvard1>
+<angewandte-chemie>M.  Panzner, O.  Beyer, and P.  Cimiano, in &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;, &lt;strong&gt;2013&lt;/strong&gt;, p. 106-113.</angewandte-chemie>
+<ama>Panzner M, Beyer O, Cimiano P. Human Activity Classification with Online Growing Neural Gas. In:  &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;. 2013: 106-113.</ama>
+<frontiers>Panzner, M., Beyer, O., and Cimiano, P. (2013). “Human Activity Classification with Online Growing Neural Gas” in &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt; 106-113.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Panzner, M., Beyer, O. &amp;amp; Cimiano, P. (2013). Human Activity Classification with Online Growing Neural Gas. &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt; (S. 106-113).&lt;/div&gt;</dgps>
+<apa>Panzner, M., Beyer, O., &amp;amp; Cimiano, P. (2013). Human Activity Classification with Online Growing Neural Gas. &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;, 106-113.</apa>
+<ieee> M. Panzner, O. Beyer, and P. Cimiano, “Human Activity Classification with Online Growing Neural Gas”, &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;, 2013,  pp.106-113.</ieee>
+<lncs> Panzner, M., Beyer, O., Cimiano, P.: Human Activity Classification with Online Growing Neural Gas. Workshop on New Challenges in Neural Computation (NC2). p. 106-113. (2013).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Panzner, Maximilian, Beyer, Oliver, and Cimiano, Philipp. 2013. “Human Activity Classification with Online Growing Neural Gas”. In &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;, 106-113.&lt;/div&gt;</chicago>
+<mla>Panzner, Maximilian, Beyer, Oliver, and Cimiano, Philipp. “Human Activity Classification with Online Growing Neural Gas”. &lt;em&gt;Workshop on New Challenges in Neural Computation (NC2)&lt;/em&gt;. 2013. 106-113.</mla>
+<default>Panzner M, Beyer O, Cimiano P (2013)  &lt;br /&gt;In:  Workshop on New Challenges in Neural Computation (NC2).  106-113.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2624505</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-09-26T18:34:32Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:12Z</recordChangeDate>
+</recordInfo>
+</mods>

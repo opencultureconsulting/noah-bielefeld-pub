@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2934879">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Supplementary Material for: Satisficing Mentalizing: Bayesian Theory of Mind Reasoning in Scenarios with varying Uncertainty</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Pöppel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9677-2755</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">This data publication contains supplementary material such as the code, data and additional results for the paper &quot;Satisficing Mentalizing: Bayesian Theory-of-Mind Reasoning in Scenarios with varying Uncertainty&quot; by Pöppel &amp; Kopp 2019. 
+This supplementary material is an extension of an earlier version (published at http://doi.org/10.4119/unibi/2918529) for an earlier version of the paper.</abstract>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2934879</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2934879</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2934879">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934879/2934887/data.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2934879">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934879/2934893/DescriptionAppendix.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE2_bielefeld_pub_2934879">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934879/2934894/complete.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE3_bielefeld_pub_2934879">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934879/2934895/src.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2934879" DMDID="DMD2934879">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2934879"/>
+            <mets:div TYPE="part" ID="PART1_2934879" LABEL="DescriptionAppendix.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2934879"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2934879" LABEL="complete.zip">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2934879"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2934879" LABEL="src.zip">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2934879"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

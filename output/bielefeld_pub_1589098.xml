@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1589098">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>WebCARMA: a web application for the functional and taxonomic classification of unassembled metagenomic reads</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Gerlach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Jünemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Tille</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7086-2568</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background Metagenomics is a new field of research on natural microbial communities. High-throughput sequencing techniques like 454 or Solexa-Illumina promise new possibilities as they are able to produce huge amounts of data in much shorter time and with less efforts and costs than the traditional Sanger technique. But the data produced comes in even shorter reads (35-100 basepairs with Illumina, 100-500 basepairs with 454-sequencing). CARMA is a new software pipeline for the characterisation of species composition and the genetic potential of microbial samples using short, unassembled reads.  Results In this paper, we introduce WebCARMA, a refined version of CARMA available as a web application for the taxonomic and functional classification of unassembled (ultra-)short reads from metagenomic communities. In addition, we have analysed the applicability of ultra-short reads in metagenomics.  Conclusions We show that unassembled reads as short as 35 bp can be used for the taxonomic classification of a metagenome. The web application is freely available at http://webcarma.cebitec.uni-bielefeld.de</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>430</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">20021646</identifier>
+                    <identifier type="ISI">000273333000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-15890984</identifier>
+                    <identifier type="doi">10.1186/1471-2105-10-430</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1589098</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1589098">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1589098/2311104/Gerlach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1589098" DMDID="DMD1589098">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1589098"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

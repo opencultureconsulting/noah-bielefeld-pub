@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2904773">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Gregor</namePart>
+                        <namePart type="family">Sievers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-07-20</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Eingebettete mikroelektronische Systeme finden in vielen Bereichen des täglichen Lebens Anwendung. Die Integration von zunehmend mehr Prozessorkernen auf einem einzelnen Mikrochip (On-Chip-Multiprozessor, MPSoC) erlaubt eine Steigerung der Rechenleistung und der Ressourceneffizienz dieser Systeme. In der AG Kognitronik und Sensorik der Universität Bielefeld wird das CoreVA-MPSoC entwickelt, welches ressourceneffiziente VLIW-Prozessorkerne über eine hierarchische Verbindungsstruktur koppelt. Eine enge Kopplung mehrerer Prozessorkerne in einem Cluster ermöglicht hierbei eine breitbandige Kommunikation mit geringer Latenz.&lt;br /&gt;&lt;br /&gt;
+
+Der Hauptbeitrag der vorliegenden Arbeit ist die Entwicklung und Entwurfsraumexploration eines ressourceneffizienten CPU-Clusters für den Einsatz im CoreVA-MPSoC. Eine abstrakte Modellierung der Hardware- und Softwarekomponenten des CPU-Clusters sowie ein hoch automatisierter Entwurfsablauf ermöglichen die schnelle Analyse eines großen Entwurfsraums. Im Rahmen der Entwurfsraumexploration werden verschiedene Topologien, Busstandards und Speicherarchitekturen untersucht. Insbesondere das Zusammenspiel der Hardware-Architektur mit Programmiermodell und Synchronisierung ist evident für eine hohe Ressourceneffizienz und eine gute Ausnutzung der verfügbaren Rechenleistung durch den Anwendungsentwickler. Dazu wird ein an die Hardwarearchitektur angepasstes blockbasiertes Synchronisierungsverfahren vorgestellt. Dieses Verfahren wird von Compilern für die Sprachen StreamIt, C sowie OpenCL verwendet, um Anwendungen auf verschiedenen Konfigurationen des CPU-Clusters abzubilden. Neun repräsentative Streaming-Anwendungen zeigen bei der Abbildung auf einem Cluster mit 16 CPUs eine durchschnittliche Beschleunigung um den Faktor 13,3 gegenüber der Ausführung auf einer CPU. Zudem wird ein eng gekoppelter gemeinsamer L1-Datenspeicher mit mehreren Speicherbänken in den CPU-Cluster integriert, der allen CPUs einen Zugriff mit geringer Latenz erlaubt. Des Weiteren wird die Verwendung verschiedener Instruktionsspeicher und -caches evaluiert sowie der Energiebedarf für Kommunikation und Synchronisierung im CPU-Cluster betrachtet.&lt;br /&gt;&lt;br /&gt;
+
+Es wird in dieser Arbeit gezeigt, dass ein CPU-Cluster mit 16 CPU-Kernen einen guten Kompromiss in Bezug auf den Flächenbedarf der Cluster-Verbindungsstruktur sowie die Leistungsfähigkeit des Clusters darstellt. Ein CPU-Cluster mit 16 2-Slot-VLIW-CPUs und insgesamt 512 kB Speicher besitzt bei einer prototypischen Implementierung in einer 28-nm-FD-SOI-Standardzellenbibliothek einen Flächenbedarf von 2,63 mm². Bei einer Taktfrequenz von 760 MHz liegt die durchschnittliche Leistungsaufnahme bei 440 mW. Eine FPGA-basierte Emulation auf einem Xilinx Virtex-7-FPGA erlaubt die Evaluierung eines CoreVA-MPSoCs mit bis zu 24 CPUs bei einer maximalen Taktfrequenz von bis zu 124 MHz. Als weiteres Anwendungsszenario wird ein CoreVA-MPSoC mit bis zu vier CPUs auf das FPGA des autonomen Miniroboters AMiRo abgebildet.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29047738</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2904773</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2904773">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2904773/2904774/2016_07_22_Dissertation_online_Gregor_Sievers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2904773" DMDID="DMD2904773">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2904773"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

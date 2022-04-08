@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2695869">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ATOLL - A framework for the automatic induction of ontology lexica</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Walter</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8589-8715</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christina</namePart>
+                        <namePart type="family">Unger</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7306-3262</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">There is a range of large knowledge bases, such as Freebase and DBpedia, as well as linked data sets available on the web, but they typically lack lexical information stating how the properties and classes they comprise are realized lexically. Often only one label is attached, if at all, thus lacking rich linguistic information, e.g. about morphological forms, syntactic arguments or possible lexical variants and paraphrases. While ontology lexicon models like lemon allow for defining such linguistic information with respect to a given ontology, the cost involved in creating and maintaining such lexica is substantial, requiring a high manual effort. Towards lowering this effort we present ATOLL, a framework for the automatic induction of ontology lexica, based both on existing labels and dependency paths extracted from a text corpus. We instantiate ATOLL\ with respect to DBpedia\ as dataset and Wikipedia as corresponding corpus, and evaluate it by comparing the automatically generated lexicon with a manually constructed one. Our results clearly corroborate that our approach shows a high potential to be applied in a semi-automatic fashion in which a lexicon engineer can validate, reject or refine the automatically generated lexical entries, thus having a clear potential to contributing to the reduction the overall cost of creating ontology lexica.</abstract>
+                    <subject>
+                        <topic>natural language processing</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Data &amp; Knowledge Engineering</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>94</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>148</start>
+                                <end>162</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0169-023X</identifier>
+                    <identifier type="ISI">000347758000003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26958695</identifier>
+                    <identifier type="doi">10.1016/j.datak.2014.09.003</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2695869</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2695869">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2695869/2695881/paper_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2695869" DMDID="DMD2695869">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2695869"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

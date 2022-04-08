@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303749">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Biologically inspired visual navigation in indoor and outdoor environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Röben</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-09-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Diese Doktorarbeit beschäftigt sich mit vier Themen: dem Polarisations-Licht-Kompass, lokalen visuellen Homing-Methoden, Outdoor-Navigation mit Farbkontrasten sowie der Reinigungsrobotersteuerung.
+Insekten, speziell Bienen und Ameisen, sind in der Lage, das Polarisationsmuster des Himmels, welches erzeugt wird durch das Auftreffen der Sonnenstrahlen auf die Atmosphäre der Erde, zu nutzen, um sich zu orientieren. Hierbei ist es unerheblich, ob der Himmel klar oder teilweise wolkenbedeckt ist; Insekten sind in der Lage, eine Orientierung relativ zur Sonne abzuleiten. Dieser Teil der Arbeit konzentriert sich auf den Bau eines Polarisations-Licht-Kompasses und dem Vergleich mit einem elektromagnetischen Kompass. Des Weiteren wird versucht, das Polarisationsmuster des Himmels mithilfe einer Schwenk-Neige-Einheit und eines darauf montierten Polarisations-Licht-Kompasses zu detektieren.
+Insekten sind hervorragende Navigatoren, d.h. sie sind in der Lage, ihr Nest wiederzufinden, nachdem sie sich mehrere hundert Meter von selbigem entfernt haben. Forscher erklären sich diese Fähigkeit anhand cleverer Navigationsstrategien. Lokale visuelle Homing-Methoden spielen hierbei eine große Rolle. In der Literatur existieren bereits etliche Ansätze. Diese Arbeit verwendet &quot;Scale Invariant Feature Transformation&quot; (SIFT)-Merkmale, um eine Homing-Methode mit Merkmalsextraktion zu implementieren. Des Weiteren wird untersucht, ob Homing-Methoden, die auf Parameterrepräsentationen aufbauen, ebenfalls gute Homing-Ergebnisse liefern. Beide Ansätze werden ausführlich getestet und mit einem etablierten Verfahren (2D-Warping) verglichen.
+Der Aufbau des Insektenauges sowie die ermittelte spektrale Sensitivität desselben legen die Vermutung nahe, dass Insekten Farbkontraste nutzen könnten um zu navigieren. Diese Arbeit analysiert die unterschiedlichen Farbkontraste, welche aus den Farbkanälen UV, Blau, Grün, Rot und Infrarot abgeleitet werden können. Es wird gezeigt, wie Insekten ihre Umwelt sehen könnten und wie diese Information verwendet werden könnte, um sich in selbiger zu bewegen und zu navigieren.
+Die Reinigungsrobotersteuerung dient in dieser Arbeit als technische Anwendung visueller Homing-Methoden. Es wird ein Ansatz zur Steuerung präsentiert, welcher es dem Reinigungsroboter ermöglicht, mäandrierende Bahnen zu fahren. Das Hauptaugenmerk liegt hierbei bei einer möglichst geringen Überlappung der Bahnen und das bei möglichst absoluter Abdeckung einer zu reinigenden rechteckigen Fläche.</abstract>
+                    <abstract lang="eng">This thesis deals with four topics: the polarized-light compass, local visual homing methods, outdoor navigation with color contrasts, and cleaning robot control.
+Insects like bees and ants are able to detect the pattern of polarized light of the sky. The polarization pattern of the sky is formed because the sunlight is scattered at the atmosphere. Insects make use of the pattern of skylight polarization to compute their current orientation relative to the sun. For this purpose, it is insignificant if the sky is clear or partly covered with clouds. The construction of a polarized-light compass and the comparison of a polarized-light compass versus an electromagnetic compass is presented in this part of the thesis. Furthermore, a polarized-light compass mounted on a pan-tilt unit was used to measure the pattern of polarization of the sky.
+Insects have admirable navigational abilities; they are able to return to their hive even if they are hundreds of meters away. Thus, clever homing methods are used by the insects. Several local visual homing methods have already been published. A local visual homing method with feature preselection is presented. The features are computed using the &quot;scale invariant feature transformation&quot; (SIFT). Furthermore, it is tested whether holistic local visual homing methods that make use of parameters are competitive. The presented methods are tested, and a 2D-warping method is used as reference.
+The spectral sensitivity of the compound eye of the insects allows the assumption that insects might use color contrasts for landmark navigation. This thesis focuses on contrasts that are computed from UV, blue, green, red, and IR. Furthermore, it is presented how insects might see the world and how they might use this information for movement and navigation.
+A technical application for local visual homing methods is presented by the cleaning robot control approach, which enables the robot to move in meandering lanes for cleaning a rectangular area. To achieve a good cleaning result, a cleaning strategy with a small overlap of cleaned areas and a full coverage of the space are needed.</abstract>
+                    <subject>
+                        <topic>Polarisationslichtkompass</topic>
+                        <topic>Visuelles Homing</topic>
+                        <topic>Reinigungsrobotersteuerung</topic>
+                        <topic>Polarisiertes Licht</topic>
+                        <topic>Kompass</topic>
+                        <topic>Heimkehrfähigkeit</topic>
+                        <topic>Navigation</topic>
+                        <topic>Farbkontrast</topic>
+                        <topic>Mobiler Roboter</topic>
+                        <topic>Bahnsteuerung</topic>
+                        <topic>Polarized-light compass</topic>
+                        <topic>Local visual homing methods</topic>
+                        <topic>Outdoor navigation</topic>
+                        <topic>Color contrasts</topic>
+                        <topic>Cleaning robot control</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16477</identifier>
+                    <identifier type="sys">HT016375632</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303749</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303749">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303749/2303752/diss_froeben.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303749" DMDID="DMD2303749">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303749"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

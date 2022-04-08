@@ -1,0 +1,187 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2936848</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:580</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Daniel</namePart>
+  <namePart type="family">Dörr</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">22396833</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3720-6227</description></name>
+<name type="personal">
+  <namePart type="given">Diego</namePart>
+  <namePart type="family">Rubert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Data for: Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants&lt;br /&gt;
+
+This dataset contains the main computed data used in that work. Find below a list of packages and a summary of their content. Next, each package is described in detail.
+&lt;ul&gt;
+&lt;li&gt;extant_eudicot_genomes.tar.bz2 : Genome sequence files.&lt;/li&gt;
+&lt;li&gt;atoms.tar.bz2 : Computed atoms.&lt;/li&gt;
+&lt;li&gt;syntenic_blocks.tar.bz2 : Files related to syntenic blocks found.&lt;/li&gt;
+&lt;li&gt;syntenic_blocks_refined.tar.bz2 : Files related to syntenic blocks found after the family refinement process.&lt;/li&gt;
+&lt;li&gt;ancestor.tar.bz2 : Files related to the reconstructed ancestor.&lt;/li&gt;
+&lt;/ul&gt;
+
+#### extant_eudicot_genomes.tar.bz2 
+artichoke.gbk&lt;br /&gt; 
+coffee.gbk&lt;br /&gt;
+grape.gbk &lt;br /&gt;
+lettuce.gbk&lt;br /&gt;
+sunflower.gbk&lt;br /&gt;
+  Customized/filtered genbank files of species.
+  
+
+#### atoms.tar.bz2
+
+ag100_ai30_al13_m100.atoms : Computed atoms, that is, a list of genes and their families.
+
+
+#### syntenic_blocks.tar.bz2 
+
+ag100_ai30_al13_m100.cog :  Sequence of genes in each chromosome (Gecko3-DCJ input genomes format).&lt;br /&gt;
+
+rgrape_q3_dcj_dcjBorderline8_dcjPenality0.25_dcjUseHeuristics_dT0_0_0_2__1_0_1_3 ... .gckz : Sequence of genes in each chromosome with computed syntenic blocks and local DCJ similarity (Gecko3-DCJ session format).&lt;br /&gt;
+
+rgrape_q3_dcj_dcjBorderline8_dcjPenality0.25_dcjUseHeuristics_dT0_0_0_2__1_0_1_3 ... .clusters :  Syntenic blocks found by Gecko3-DCJ (Gecko3-DCJ clusters export format). &lt;br /&gt;
+
+
+#### syntenic_blocks_refined.tar.bz2 
+
+refoverlap_refsim.genesmap : Map of new refined gene families. Each line contains two values, the first one is the new (refined) family number and the second one is the old family number.
+
+refoverlap_refsim_refined.cog : Sequence of genes in each chromosome (Gecko3-DCJ input genomes format).
+
+refoverlap_refsim_refined.gckz : Sequence of genes in each chromosome with computed syntenic blocks and local DCJ similarity (Gecko3-DCJ session format).
+
+refoverlap_refsim_refined.clusters : Syntenic blocks found by Gecko3-DCJ (Gecko3-DCJ clusters export format).
+
+refoverlap_refsim_refined.acs : Syntenic blocks as ACSs (ANGES format).
+
+refoverlap_refsim_refined.clustersmap : Map of syntenic blocks IDs. Each line maps an ID in the refoverlap_refsim_refined.acs file to an ID in the refoverlap_refsim_refined.clusters file.
+
+
+#### ancestor.tar.bz2 
+
+eudicots_ACS_C1P_HEUR : ACSs selected to compose the reconstructed ancestor.
+
+eudicots_PQTREE_HEUR : PQ-tree representing the reconstructed ancestor.
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ancestor.tar.bz2">https://pub.uni-bielefeld.de/download/2936848/2936864/ancestor.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-bzip2</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="atoms.tar.bz2">https://pub.uni-bielefeld.de/download/2936848/2936865/atoms.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-bzip2</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="syntenic_blocks_refined.tar.bz2">https://pub.uni-bielefeld.de/download/2936848/2936866/syntenic_blocks_refined.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-bzip2</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="syntenic_blocks.tar.bz2">https://pub.uni-bielefeld.de/download/2936848/2936867/syntenic_blocks.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-bzip2</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="extant_eudicot_genomes.tar.bz2">https://pub.uni-bielefeld.de/download/2936848/2936878/extant_eudicot_genomes.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-bzip2</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="README.md">https://pub.uni-bielefeld.de/download/2936848/2936880/README.md</url>
+  </location>
+  <physicalDescription><internetMediaType>text/markdown</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ANGORA.zip">https://pub.uni-bielefeld.de/download/2936848/2937088/ANGORA.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+
+<subject><topic>eudicot ancestor</topic><topic>plant evolution</topic><topic>ancestral reconstruction</topic><topic>comparative genomics</topic><topic>computational biology</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2936848</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<relatedItem type="Supplementary material">
+  <location>
+  
+     <url>https://gitlab.ub.uni-bielefeld.de/gi/angora</url>
+  
+  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<mla>Dörr, Daniel, and Rubert, Diego. &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University, 2019.</mla>
+<default>Dörr D, Rubert D (2019) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Dörr, D., Rubert, D.: Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants". Bielefeld University (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, Daniel, and Rubert, Diego. 2019. &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, D., &amp;amp; Rubert, D. (2019).  &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936848&lt;/div&gt;</apa_indent>
+<harvard1>Dörr, D., &amp;amp; Rubert, D., 2019. &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Dörr D, Rubert D (2019) &lt;br /&gt;&lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<angewandte-chemie>D.  Dörr, and D.  Rubert, &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<wels>Dörr, D.; Rubert, D. (2019): Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants". Bielefeld University.</wels>
+<apa>Dörr, D., &amp;amp; Rubert, D. (2019).  &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936848</apa>
+<ieee> D. Dörr and D. Rubert, &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;, Bielefeld University, 2019.</ieee>
+<ama>Dörr D, Rubert D. &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University; 2019.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Dörr, D. &amp;amp; Rubert, D. (2019). &lt;em&gt;Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936848.&lt;/div&gt;</dgps>
+<frontiers>Dörr, D., and Rubert, D. (2019). Supplementary Data for "Analysis of local genome rearrangement improves resolution of ancestral genomic maps in plants". Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2936848</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-08-12T12:29:20Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-08-30T12:29:54Z</recordChangeDate>
+</recordInfo>
+</mods>

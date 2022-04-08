@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2396509">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Genomic distance under gene substitutions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marília</namePart>
+                        <namePart type="family">Dias Vieira Braga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Raphael</namePart>
+                        <namePart type="family">Machado</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leonardo C.</namePart>
+                        <namePart type="family">Ribeiro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background:
+
+The distance between two genomes is often computed by comparing only the common markers between them. Some approaches are also able to deal with non-common markers, allowing the insertion or the deletion of such markers. In these models, a deletion and a subsequent insertion that occur at the same position of the genome count for two sorting steps.
+Results:
+
+Here we propose a new model that sorts non-common markers with substitutions, which are more powerful operations that comprehend insertions and deletions. A deletion and an insertion that occur at the same position of the genome can be modeled as a substitution, counting for a single sorting step.
+Conclusions:
+
+Comparing genomes with unequal content, but without duplicated markers, we give a linear time algorithm to compute the genomic distance considering substitutions and double-cut-and-join (DCJ) operations. This model provides a parsimonious genomic distance to handle genomes free of duplicated markers, that is in practice a lower bound to the real genomic distances. The method could also be used to refine orthology assignments, since in some cases a substitution could actually correspond to an unannotated orthology.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 9: Proc. of RECOMB-CG 2011</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">22151231</identifier>
+                    <identifier type="ISI">000303933100008</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-23965098</identifier>
+                    <identifier type="doi">10.1186/1471-2105-12-S9-S8</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2396509</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2396509">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2396509/2467247/1471-2105-12-S9-S8.stoye.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2396509" DMDID="DMD2396509">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2396509"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,436 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2703142</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Jan M.</namePart>
+  <namePart type="family">Drees</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper reports on a pilot project between our research department and and a local radio station, investigating the use of sonification to render and present auditory weather forecasts. The sonifications include auditory markers for certain relevant time points, expected weather events like thunder, snow or fog and several auditory streams to summarize the temporal weather changes during the day. To our knowledge, this is the first utilization of sonification in a regular radio program. We introduce the sonification concept and present our design of the sonification which is oriented at combined perceptional salience and emotional truthfulness. Sound examples are given for typical weather situations in Germany and several prototypical weather conditions which tune to be connected with emotional value. We will report first experiences with this pilot project and feedback of the audience on ICAD since broadcast started in February 2003.
+
+# Examples of typical (german) weather situations
+Here are the sonifiations of some typical german weather situations. They are selected introduce the listener by presenting sounds for weather conditions spread all over the multi dimensional weather vector room. For each day there is a graphical plot of the important parameters that might be helpful for lerning.
+
+Additionally we provide examples of one of our very early sonification prototypes for comparison. Note that not all parameters are represented in these sounds. 
+
++ **chilly but nice springtime** 
+A bit of fog and clound in the morning, but perfectly dry and shiny the hole second half of the day. 
+
+    [spring (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703158)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703156)
+
++ **dry summer day** 
+ideal day for a swimm 
+
+    [dry summer (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703153)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703150)
+
++ **hot and humid summer day** 
+with upcoming rain and thunder storm
+
+    [summer storm (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703159)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703157)
+
++ **cold wet autumn day** 
+Better not go out. Sit at the fireplace and have a warm drink.
+
+    [autumn storm (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703145)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703143)
+
++ **cold but shiny winter day** 
+have a walk and enjoy the snow decorated landscape
+
+    [winter dry (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703165)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703163)
+
++ **stormy winter day with snow** &lt;br&gt;
+    what more to say
+    
+    [winter snow storm (mp3)](https://pub.uni-bielefeld.de/download/2703142/2703167)
+    [Plot (gif)](https://pub.uni-bielefeld.de/download/2703142/2703164)
+
+# step by step
+Lets take a closer look at the hot and humid summer day. The auditory streams are introduces by one starting with the time markers. 
+
++ time marker only
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703170)
++ +temperature 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703168)
++ +temperature/humidity 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703169)
++ +rain 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703171)
++ +wind 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703172)
++ +clouds 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703173)
++ +emos (complete) 
+    [mp3 (204k)](https://pub.uni-bielefeld.de/download/2703142/2703149)
+    
+# used samples
+The sonification was made using these samples of natural weather sounds and other real sounds.
+&lt;table&gt;
+  &lt;tr bgcolor="silver"&gt;
+    &lt;td&gt;&lt;b&gt;sound&lt;/b&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;b&gt;comment&lt;/b&gt;&lt;/td&gt;
+	    &lt;td&gt;&lt;b&gt;mp3&lt;/b&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;alarm clock&lt;/td&gt;
+    &lt;td&gt;morning and evening&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703162"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;church bell&lt;/td&gt;
+    &lt;td&gt;noon&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703152"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;thunder&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703160"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;fog horn&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703151"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;rain&lt;/td&gt;
+    &lt;td&gt;real rain sample&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703154"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;snow&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703155"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;temperature - normal&lt;/td&gt;
+    &lt;td&gt;pitched to represend different values&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703161"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;temperature - low&lt;/td&gt;
+    &lt;td&gt;alternative sound to be used for frost&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703166"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td valign="top"&gt;temperature - click&lt;/td&gt;
+    &lt;td&gt;played along with the temperature for better&lt;br&gt;
+      perceptuability of the reverb
+    &lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703146"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;clouds&lt;/td&gt;
+    &lt;td&gt;low pitched sound&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703147"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;bird&lt;/td&gt;
+    &lt;td&gt;Balduin anounces a dry sunshiny day&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703144"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;cough&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td align="center"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2703142/2703148"&gt;mp3&lt;/a&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fog.mp3">https://pub.uni-bielefeld.de/download/2703142/2703151/fog.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Gong.mp3">https://pub.uni-bielefeld.de/download/2703142/2703152/Gong.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dry_summer.mp3">https://pub.uni-bielefeld.de/download/2703142/2703153/dry_summer.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="summer_storm.mp3">https://pub.uni-bielefeld.de/download/2703142/2703159/summer_storm.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="rain.mp3">https://pub.uni-bielefeld.de/download/2703142/2703154/rain.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="snow.mp3">https://pub.uni-bielefeld.de/download/2703142/2703155/snow.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="spring.gif">https://pub.uni-bielefeld.de/download/2703142/2703156/spring.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="summer_storm.gif">https://pub.uni-bielefeld.de/download/2703142/2703157/summer_storm.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dry_summer.gif">https://pub.uni-bielefeld.de/download/2703142/2703150/dry_summer.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="autumn_storm.gif">https://pub.uni-bielefeld.de/download/2703142/2703143/autumn_storm.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Balduin.mp3">https://pub.uni-bielefeld.de/download/2703142/2703144/Balduin.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="autumn_storm.mp3">https://pub.uni-bielefeld.de/download/2703142/2703145/autumn_storm.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Claves.wav">https://pub.uni-bielefeld.de/download/2703142/2703146/Claves.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="clouds.mp3">https://pub.uni-bielefeld.de/download/2703142/2703147/clouds.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Cough.mp3">https://pub.uni-bielefeld.de/download/2703142/2703148/Cough.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="complete.mp3">https://pub.uni-bielefeld.de/download/2703142/2703149/complete.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="spring.mp3">https://pub.uni-bielefeld.de/download/2703142/2703158/spring.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="3-time-temp-humid.mp3">https://pub.uni-bielefeld.de/download/2703142/2703169/3-time-temp-humid.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="1-time.mp3">https://pub.uni-bielefeld.de/download/2703142/2703170/1-time.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="4-time-temp-humid-rain.mp3">https://pub.uni-bielefeld.de/download/2703142/2703171/4-time-temp-humid-rain.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="5-time-temp-humid-rain-wind.mp3">https://pub.uni-bielefeld.de/download/2703142/2703172/5-time-temp-humid-rain-wind.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="6-time-temp-humid-rain-wind-clouds.mp3">https://pub.uni-bielefeld.de/download/2703142/2703173/6-time-temp-humid-rain-wind-clouds.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2-time-temp.mp3">https://pub.uni-bielefeld.de/download/2703142/2703168/2-time-temp.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thunder.mp3">https://pub.uni-bielefeld.de/download/2703142/2703160/thunder.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Vibe.mp3">https://pub.uni-bielefeld.de/download/2703142/2703161/Vibe.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Wecker.mp3">https://pub.uni-bielefeld.de/download/2703142/2703162/Wecker.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="winter_snow_storm.gif">https://pub.uni-bielefeld.de/download/2703142/2703164/winter_snow_storm.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="winter_snow_storm.mp3">https://pub.uni-bielefeld.de/download/2703142/2703167/winter_snow_storm.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="WoodSequence.mp3">https://pub.uni-bielefeld.de/download/2703142/2703166/WoodSequence.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="winter_dry.mp3">https://pub.uni-bielefeld.de/download/2703142/2703165/winter_dry.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="winter_dry.gif">https://pub.uni-bielefeld.de/download/2703142/2703163/winter_dry.gif</url>
+  </location>
+  <physicalDescription><internetMediaType>image/gif</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2703142</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017309</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hermann, T.; Drees, J. M.; Ritter, H. (2003): Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project". Bielefeld University.</wels>
+<angewandte-chemie>T.  Hermann, J. M.  Drees, and H.  Ritter, &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2003&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Drees, J. M., &amp;amp; Ritter, H. (2003).  &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703142&lt;/div&gt;</apa_indent>
+<harvard1>Hermann, T., Drees, J.M., &amp;amp; Ritter, H., 2003. &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hermann T, Drees JM, Ritter H (2003) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<frontiers>Hermann, T., Drees, J. M., and Ritter, H. (2003). Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Drees, J.M. &amp;amp; Ritter, H. (2003). &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703142.&lt;/div&gt;</dgps>
+<ama>Hermann T, Drees JM, Ritter H. &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University; 2003.</ama>
+<ieee> T. Hermann, J.M. Drees, and H. Ritter, &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;, Bielefeld University, 2003.</ieee>
+<apa>Hermann, T., Drees, J. M., &amp;amp; Ritter, H. (2003).  &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2703142</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Drees, Jan M., and Ritter, Helge. 2003. &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T., Drees, J.M., Ritter, H.: Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project". Bielefeld University (2003).</lncs>
+<default>Hermann T, Drees JM, Ritter H (2003) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas, Drees, Jan M., and Ritter, Helge. &lt;em&gt;Supplementary Material for "Broadcasting Auditory Weather Reports – A Pilot Project"&lt;/em&gt;. Bielefeld University, 2003.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2703142</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-06T14:25:14Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:27Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1785512">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Fine-tuning structural RNA alignments in the twilight zone</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Bremges</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefanie</namePart>
+                        <namePart type="family">Schirmer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background A widely used method to find conserved secondary structure in RNA is to first construct a multiple sequence alignment, and then fold the alignment, optimizing a score based on thermodynamics and covariance. This method works best around 75% sequence similarity. However, in a &quot;twilight zone&quot; below 55% similarity, the sequence alignment tends to obscure the covariance signal used in the second phase. Therefore, while the overall shape of the consensus structure may still be found, the degree of conservation cannot be estimated reliably.  Results Based on a combination of available methods, we present a method named planACstar for improving structure conservation in structural alignments in the twilight zone. After constructing a consensus structure by alignment folding, planACstar abandons the original sequence alignment, refolds the sequences individually, but consistent with the consensus, aligns the structures, irrespective of sequence, by a pure structure alignment method, and derives an improved sequence alignment from the alignment of structures, to be re-submitted to alignment folding, etc.. This circle may be iterated as long as structural conservation improves, but normally, one step suffices.  Conclusions Employing the tools ClustalW, RNAalifold, and RNAforester, we find that for sequences with 30-55% sequence identity, structural conservation can be improved by 10% on average, with a large variation, measured in terms of RNAalifold&apos;s own criterion, the structure conservation index.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">20433706</identifier>
+                    <identifier type="ISI">000278361400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17855124</identifier>
+                    <identifier type="doi">10.1186/1471-2105-11-222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1785512</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1785512">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1785512/2314956/Bremges.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1785512" DMDID="DMD1785512">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1785512"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900019">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient and intuitive teaching of redundant robots in task and configuration space</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Emmerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-11-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A major goal of current robotics research is to enable robots to become co-workers that learn from and collaborate with humans efficiently. This is of particular interest for small and medium-sized enterprises where small batch sizes and frequent changes in production needs demand a high flexibility in the manufacturing processes. A commonly adopted approach to accomplish this goal is the utilization of recently developed lightweight, compliant and kinematically redundant robot platforms in combination with state-of-the-art human-robot interfaces.
+However, the increased complexity of these robots is not well reflected in most interfaces as the work at hand points out. Plain kinesthetic teaching, a typical attempt to enable lay users programming a robot by physically guiding it through a motion demonstration, not only imposes high cognitive load on the tutor, particularly in the presence of strong environmental constraints. It also neglects the possible reuse of (task-independent) constraints on the redundancy resolution as these have to be demonstrated repeatedly or are modeled explicitly reducing the efficiency of these methods when targeted at non-expert users.
+In contrast, this thesis promotes a different view investigating human-robot interaction schemes not only from the learner’s but also from the tutor’s perspective. A two-staged interaction structure is proposed that enables lay users to transfer their implicit knowledge about task and environmental constraints incrementally and independently of each other to the robot, and to reuse this knowledge by means of assisted programming controllers. In addition, a path planning approach is derived by properly exploiting the knowledge transfer enabling autonomous navigation in a possibly confined workspace without any cameras or other external sensors. All derived concept are implemented and evaluated thoroughly on a system prototype utilizing the 7-DoF KUKA Lightweight Robot IV. Results of a large user study conducted in the context of this thesis attest the staged interaction to reduce the complexity of teaching redundant robots and show that teaching redundancy resolutions is feasible also for non-expert users.
+Utilizing properly tailored machine learning algorithms the proposed approach is completely data-driven. Hence, despite a required forward kinematic mapping of the manipulator the entire approach is model-free allowing to implement the derived concepts on a variety of currently available robot platforms.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29000197</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900019</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900019">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900019/2900323/thesis-emmerich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900019" DMDID="DMD2900019">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900019"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

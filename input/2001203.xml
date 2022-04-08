@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2001203</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:004</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>3D Scene Segmentation and Object Tracking in Multiocular Image Sequences</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Joachim</namePart>
+  <namePart type="family">Schmidt</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Christian</namePart>
+  <namePart type="family">Wöhler</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">3874597</identifier></name>
+<name type="personal">
+  <namePart type="given">Lars</namePart>
+  <namePart type="family">Krüger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tobias</namePart>
+  <namePart type="family">Gövert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Christoph</namePart>
+  <namePart type="family">Hermes</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">8412095</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>5th International Conference on Computer Vision Systems (ICVS 2007)</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">In this contribution we describe a vision-based system for the 3D detection and tracking of moving persons and objects in complex scenes. A 3D point cloud of the scene is extracted by a combined stereo technique consisting of a correlation-based block-matching approach and a spacetime stereo approach based on spatio-temporally local intensity modelling, resulting in a 3D point cloud attributed with motion information. For localising persons and objects in the scene the point cloud is segmented into clusters by applying a hierarchical clustering algorithm, using velocity information as an additional discrimination criterion. Initial object hypotheses are obtained by partitioning the observed scene with cylinders, including the tracking results of the previous frame. Multidimensional unconstrained nonlinear minimisation is then applied to refine the initial object hypotheses, such that neighbouring clusters with similar velocity vectors are grouped to form a compact object. A particle filter is applied to select hypotheses which generate consistent trajectories. The described system is evaluated based on real-world sequences acquired in an industrial production environment and from a tabletop scene, using manually obtained ground truth data. We find that even in the presence of moving objects closely neighbouring the person, all objects are detected and tracked in a robust and stable manner. The average tracking accuracy is of the order of several percent of the distance to the scene.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="168-Artikeltext-258-1-10-20190603_neu.pdf">https://pub.uni-bielefeld.de/download/2001203/2956945/168-Artikeltext-258-1-10-20190603_neu.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued><place><placeTerm type="text">Bielefeld, Germany</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)</title></titleInfo>
+  <identifier type="isbn">978-3-00-020933-8</identifier><identifier type="urn">urn:nbn:de:0070-pub-20012030</identifier><identifier type="doi">10.2390/biecoll-icvs2007-95</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<wels>Schmidt, J.; Wöhler, C.; Krüger, L.; Gövert, T.; Hermes, C. (2007): 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. In: Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007). Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>J.  Schmidt, C.  Wöhler, L.  Krüger, T.  Gövert, and C.  Hermes, in &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Schmidt J, Wöhler C, Krüger L, Gövert T, Hermes C (2007) &lt;br /&gt;3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. &lt;br /&gt;In:  Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007).  Bielefeld: Bielefeld University.</bio1>
+<harvard1>Schmidt, J., et al., 2007. 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. In &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;.  Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, J., Wöhler, C., Krüger, L., Gövert, T., &amp;amp; Hermes, C. (2007). 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt; Bielefeld: Bielefeld University. &lt;a href="https://doi.org/10.2390/biecoll-icvs2007-95" target="_blank"&gt;https://doi.org/10.2390/biecoll-icvs2007-95&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, J., Wöhler, C., Krüger, L., Gövert, T. &amp;amp; Hermes, C. (2007). 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;. Gehalten auf der 5th International Conference on Computer Vision Systems (ICVS 2007), Bielefeld: Bielefeld University. doi:10.2390/biecoll-icvs2007-95.&lt;/div&gt;</dgps>
+<frontiers>Schmidt, J., Wöhler, C., Krüger, L., Gövert, T., and Hermes, C. (2007). “3D Scene Segmentation and Object Tracking in Multiocular Image Sequences” in &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt; (Bielefeld: Bielefeld University).</frontiers>
+<ama>Schmidt J, Wöhler C, Krüger L, Gövert T, Hermes C. 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. In:  &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;. Bielefeld: Bielefeld University;  2007.</ama>
+<ieee> J. Schmidt, et al., “3D Scene Segmentation and Object Tracking in Multiocular Image Sequences”, &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;,  Bielefeld: Bielefeld University, 2007.</ieee>
+<apa>Schmidt, J., Wöhler, C., Krüger, L., Gövert, T., &amp;amp; Hermes, C. (2007). 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt; Bielefeld: Bielefeld University. &lt;a href="https://doi.org/10.2390/biecoll-icvs2007-95" target="_blank"&gt;https://doi.org/10.2390/biecoll-icvs2007-95&lt;/a&gt;</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, Joachim, Wöhler, Christian, Krüger, Lars, Gövert, Tobias, and Hermes, Christoph. 2007. “3D Scene Segmentation and Object Tracking in Multiocular Image Sequences”. In &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Schmidt, J., Wöhler, C., Krüger, L., Gövert, T., Hermes, C.: 3D Scene Segmentation and Object Tracking in Multiocular Image Sequences. Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007).  Bielefeld University, Bielefeld (2007).</lncs>
+<default>Schmidt J, Wöhler C, Krüger L, Gövert T, Hermes C (2007)  &lt;br /&gt;In:  Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007). Bielefeld: Bielefeld University.</default>
+<mla>Schmidt, Joachim, Wöhler, Christian, Krüger, Lars, Gövert, Tobias, and Hermes, Christoph. “3D Scene Segmentation and Object Tracking in Multiocular Image Sequences”. &lt;em&gt;Proceedings of the 5th International Conference on Computer Vision Systems (ICVS 2007)&lt;/em&gt;. Bielefeld: Bielefeld University, 2007.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2001203</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-03-02T10:10:25Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-08-24T10:45:31Z</recordChangeDate>
+</recordInfo>
+</mods>

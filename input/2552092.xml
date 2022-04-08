@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2552092</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Unraveling overlapping deletions by agglomerative clustering</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Roland</namePart>
+  <namePart type="family">Wittler</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">3721521</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-2249-9880</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+Structural variations in human genomes, such as deletions, play an important role in cancer development. Next-Generation Sequencing technologies have been central in providing ways to detect such variations. Methods like paired-end mapping allow to simultaneously analyze data from several samples in order to, e.g., distinguish tumor from patient specific variations. However, it has been shown that, especially in this setting, there is a need to explicitly take overlapping deletions into consideration. Existing tools have only minor capabilities to call overlapping deletions, unable to unravel complex signals to obtain consistent predictions.
+Result
+
+We present a first approach specifically designed to cluster short-read paired-end data into possibly overlapping deletion predictions. The method does not make any assumptions on the composition of the data, such as the number of samples, heterogeneity, polyploidy, etc. Taking paired ends mapped to a reference genome as input, it iteratively merges mappings to clusters based on a similarity score that takes both the putative location and size of a deletion into account.
+Conclusion
+
+We demonstrate that agglomerative clustering is suitable to predict deletions. Analyzing real data from three samples of a cancer patient, we found putatively overlapping deletions and observed that, as a side-effect, erroneous mappings are mostly identified as singleton clusters. An evaluation on simulated data shows, compared to other methods which can output overlapping clusters, high accuracy in separating overlapping from single deletions.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="1471-2164-14-S1-S12.wittler.pdf">https://pub.uni-bielefeld.de/download/2552092/2552096/1471-2164-14-S1-S12.wittler.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="correctedArticle.pdf">https://pub.uni-bielefeld.de/download/2552092/2576631/correctedArticle.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>BioMed Central</publisher><dateIssued encoding="w3cdtf">2013</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Genomics</title></titleInfo>
+  <identifier type="eIssn">1471-2164</identifier>
+  <identifier type="MEDLINE">23369161</identifier>
+  <identifier type="ISI">000314471000012</identifier><identifier type="urn">urn:nbn:de:0070-pub-25520927</identifier><identifier type="doi">10.1186/1471-2164-14-S1-S12</identifier>
+<part><detail type="volume"><number>14</number></detail><detail type="issue"><number>Suppl 1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<ieee> R. Wittler, “Unraveling overlapping deletions by agglomerative clustering”, &lt;em&gt;BMC Genomics&lt;/em&gt;,  vol. 14, 2013, : S12.</ieee>
+<apa>Wittler, R. (2013). Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(Suppl 1), S12. doi:10.1186/1471-2164-14-S1-S12</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittler, R. (2013). Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(Suppl 1): S12. BioMed Central. doi:10.1186/1471-2164-14-S1-S12.&lt;/div&gt;</dgps>
+<frontiers>Wittler, R. (2013). Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt; 14:S12.</frontiers>
+<ama>Wittler R. Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt;. 2013;14(Suppl 1): S12.</ama>
+<angewandte-chemie>R.  Wittler, “Unraveling overlapping deletions by agglomerative clustering”, &lt;em&gt;BMC Genomics&lt;/em&gt;, &lt;strong&gt;2013&lt;/strong&gt;, &lt;em&gt;14&lt;/em&gt;, : S12.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittler, R. (2013). Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(Suppl 1), S12. doi:10.1186/1471-2164-14-S1-S12&lt;/div&gt;</apa_indent>
+<harvard1>Wittler, R., 2013. Unraveling overlapping deletions by agglomerative clustering. &lt;em&gt;BMC Genomics&lt;/em&gt;, 14(Suppl 1): S12.</harvard1>
+<bio1>Wittler R (2013) &lt;br /&gt;Unraveling overlapping deletions by agglomerative clustering.&lt;br /&gt;BMC Genomics 14(Suppl 1): S12.</bio1>
+<wels>Wittler, R. (2013): Unraveling overlapping deletions by agglomerative clustering &lt;em&gt;BMC Genomics&lt;/em&gt;,14:(Suppl 1):S12</wels>
+<default>Wittler R (2013) &lt;br /&gt;&lt;em&gt;BMC Genomics&lt;/em&gt; 14(Suppl 1): S12.</default>
+<mla>Wittler, Roland. “Unraveling overlapping deletions by agglomerative clustering”. &lt;em&gt;BMC Genomics&lt;/em&gt; 14.Suppl 1 (2013): S12.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittler, Roland. 2013. “Unraveling overlapping deletions by agglomerative clustering”. &lt;em&gt;BMC Genomics&lt;/em&gt; 14 (Suppl 1): S12.&lt;/div&gt;</chicago>
+<lncs> Wittler, R.: Unraveling overlapping deletions by agglomerative clustering. BMC Genomics. 14, : S12 (2013).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2552092</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-01-29T12:41:33Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-06-03T11:31:20Z</recordChangeDate>
+</recordInfo>
+</mods>

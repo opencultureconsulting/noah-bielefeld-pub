@@ -1,0 +1,121 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301975</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Clustering biological data by unraveling hidden transitive substructures</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Clusterung von biologischen Daten durch Aufdecken verborgener transitiver Strukturen</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Tobias</namePart>
+  <namePart type="family">Wittkop</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Sven</namePart>
+  
+  
+  <namePart type="family">Rahmann</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Clustering is a computational technique for the assignment of objects into groups of similar elements. Generally, it is widely used for business data interpretation, natural language analyses, and image processing, just to name a few. Typical bioinformatic applications are: (1) detection of homologous proteins; single and multi domain, (2) prediction of protein complexes in protein-protein interaction networks, (3) identification of overrepresented DNA sequence patterns, and (4) gene co-expression studies.
+Traditionally, we distinguish between partitional, overlapping, and hierarchical approaches. Partitional and overlapping approaches follow two different strategies: (1) center-based approaches for the detection of appropriate cluster representatives, such as k-means and (2) methods for the identification of homogeneous clusters, such as Markov Clustering. Hierarchical approaches allow for the construction of a tree structure; single linkage agglomerative clustering may serve as an example here.
+Solving the following problems is crucial for a successful cluster analysis: (1) Probably most challenging is the identification of a problem-specific similarity function. (2) Every clustering approach incorporates at least one parameter that influences the size and number of the clusters. Determining such a density parameter strongly depends on the problem and the chosen similarity function. Preferably, one can even prove certain attributes of a clustering result, given a similarity function and the density parameter. (3) Currently, high throughput experiments produce huge amounts of data. Hence, a clustering environment has to be capable of processing hundreds of thousands of data objects. (4) The integration of existing knowledge into a cluster analysis is highly valuable for improving the clustering output. The integration of known assignments may serve as an example here. (5) It is clear that the method needs to be robust against noise and outliers. (6) From an end-user's point of view, integration with standard software, appropriate visualization capabilities, and easy-to-use evaluation methods are highly beneficial.
+This thesis introduces Transitivity Clustering (TC) and its accompanying software framework TransClust, a method which addresses all of the aforementioned problems. It is a homogeneous partitioning method based on Weighted Transitive Graph Projection (WTGP), which aims for unraveling hidden transitive substructures in a given similarity graph deduced from a pairwise similarity measure. TC solves the aforementioned problems (2-5). The software implementation TransClust is an easy-to-use standalone and online application that solves the problems mentioned in (1,6). Furthermore, in TC, the density parameter can be chosen intuitively and the underlying weighted transitive graph projection model allows certain criteria of the clustering results to be proven. In addition, the model has been extended in order to allow for the following advanced features: (1) The integration of existing knowledge, for instance, by means of upper and lower bounds, (2) the computation of an hierarchical clustering, and (3) the calculation of overlapping clusterings. These extensions widen the applicability of TC and provide features that distinguish TC from other bioinformatics alternatives.
+The flexibility of TC makes it suitable for various real-world applications. In this work, we concentrate on protein sequence clustering and the detection of protein complexes in protein-protein interaction networks, showing that TC outperforms the most-commonly used bioinformatics clustering techniques.
+The software implementation of TC, TransClust, is available online at http://transclust.cebitec.uni-bielefeld.de as web application, as standalone tool, and as plugin for the standard network analysis tool Cytoscape. It provides results of similar or superior accuracy to those of alternative approaches. It is unique in that it features an easy-to-use clustering environment that contributes to all the important steps in a cluster analysis: (1) the choice and evaluation of a meaningful similarity function, (2) the detection of an appropriate density parameter, (3) the efficient computation of a clustering, and (4) the interpretation and evaluation of the clustering results.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis.pdf">https://pub.uni-bielefeld.de/download/2301975/2301978/thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Cluster-Analyse</topic><topic>Dichtebasiertes Clusterverfahren</topic><topic>Fuzzy-Clusteranalyse</topic><topic>Transitivität</topic><topic>Cluster editing</topic><topic>Transitivity clustering</topic><topic>Homology detection</topic><topic>Weighted transitive graph projection (WTGP)</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-16145</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-01-25</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Wittkop, T.: Clustering biological data by unraveling hidden transitive substructures. Bielefeld University, Bielefeld (Germany) (2010).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittkop, Tobias. 2010. &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Wittkop, Tobias. &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2010.</mla>
+<default>Wittkop T (2010) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<ama>Wittkop T. &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2010.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittkop, T. (2010). &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Wittkop, T. (2010). Clustering biological data by unraveling hidden transitive substructures. Bielefeld (Germany): Bielefeld University.</frontiers>
+<apa>Wittkop, T. (2010).  &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> T. Wittkop, &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2010.</ieee>
+<wels>Wittkop, T. (2010): Clustering biological data by unraveling hidden transitive substructures. Bielefeld (Germany): Bielefeld University.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wittkop, T. (2010).  &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Wittkop T (2010) &lt;br /&gt;&lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Wittkop, T., 2010. &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>T.  Wittkop, &lt;em&gt;Clustering biological data by unraveling hidden transitive substructures&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301975</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-01-27T12:15:31Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:30Z</recordChangeDate>
+</recordInfo>
+</mods>

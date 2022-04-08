@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945588">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Single-cell transcriptome analyses on developmental transitions in mouse pluripotent stem cells</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Böttcher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Noll</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-08-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We used an in vitro model of Pluripotent Stem Cell (PSC) development
+in mice to analyze dynamic changes in transcriptomes of hundreds
+of individual cells which were undergoing an induced transition from
+naïve mouse Embryonic Stem Cells (mESC) towards primed pluripotent
+Epiblast Stem Cells (EpiSC). &lt;br /&gt;
+The diﬀerentiation of mESCs to EpiSC-like cells takes about ﬁve
+days after induction. We collected cell samples in 24-hour intervals
+for four days after induction as well as untreated mESCs and primed
+state EpiSCs. Single-cell isolation and scRNA-seq library preparation for
+each time point were done on the commercial Fluidigm C1 platform. In
+addition, we sampled C1-Cap Analysis of Gene Expression (C1-CAGE)
+libraries for the same set of time points to enable detection of non-
+coding RNAs (ncRNAs) such as anti-sense RNAs or enhancer RNAs. &lt;br /&gt;
+This C1-CAGE protocol was new and still undergoing optimization
+at the beginning of our experiments. C1-CAGE was ﬁrst published
+by Kouno *et al.* (2019) and the author of this thesis contributed as a
+co-author. Throughout the work on this project a data management
+platform called SCPortalen was developed to share all data among
+project collaborators. SCPortalen’s publication was also co-authored
+by the author of this thesis (Abugessaisa et al., 2018). &lt;br /&gt;
+The combination of transcriptome datasets from two diﬀerent
+protocols allowed the elucidation of expression dynamics of the naïve-
+to-primed stem cell conversion. We independently identiﬁed two
+subpopulations of cells during the transition process with both the
+Fluidigm scRNA-seq and C1-CAGE dataset. Pseudotime analysis
+revealed the developmental trajectory of cells and is a powerful tool to
+reliably identify developmental stages of cells without prior knowledge
+of their actual stage. Among these two transition phase subpopu-
+lations, one showed wide-spread repression of gene expression. The
+small nuclear RNA (snRNA) *Rn7sk* was identiﬁed as one potential
+regulator of this population speciﬁc phenomenon. The second subpop-
+ulation shared some characteristics with primed EpiSCs such as cell
+morphology and the expression of known primed state marker genes, but
+it could be shown that cells from this population were still undergoing
+Epithelial-Mesenchymal Transition (EMT). That is a clear sign that
+these cells have not yet fully transitioned to primed pluripotent stem
+cells. Interestingly, the characteristics of this subpopulation largely
+match a predicted third pluripotency state called “formative” (Smith,
+2017). Therefore, we believe that our dataset not only contains naïve
+and primed pluripotent stem cells, but also formative pluripotent stem
+cells. Thus, our dataset represents a unique resource to compare and
+study this proposed formative pluripotency state. Last but not least,
+we found several marker gene candidates for all developmental stages
+of the naïve-to-primed transition, which will facilitate classiﬁcation of
+cells in future experiments. For example, we propose *Cd59a* as a highly
+speciﬁc marker gene for primed EpiSCs. &lt;br /&gt;
+The results of this thesis project have also been compiled into
+a manuscript for publication in a peer reviewed journal and will be
+submitted soon after the submission of this thesis.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29455884</identifier>
+                    <identifier type="doi">10.4119/unibi/2945588</identifier>
+                    <identifier type="sys">HT020653496</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945588</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945588">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945588/2945589/Dissertation_MichaelBoettcher_20200825.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945588" DMDID="DMD2945588">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945588"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

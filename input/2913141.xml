@@ -1,0 +1,127 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2913141</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:006</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+<name type="personal">
+  <namePart type="given">Soufian</namePart>
+  <namePart type="family">Jebbara</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">61955542</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4483-0933</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Claudia</namePart><namePart type="family">d'Amato</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Miriam</namePart><namePart type="family">Fernandez</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Valentina</namePart><namePart type="family">Tamma</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>16th International Semantic Web Conference (ISWC 2017)</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">The task of answering natural language questions over RDF data has
+received wIde interest in recent years, in particular in the context of the series
+of QALD benchmarks. The task consists of mapping a natural language question
+to an executable form, e.g. SPARQL, so that answers from a given KB can
+be extracted. So far, most systems proposed are i) monolingual and ii) rely on
+a set of hard-coded rules to interpret questions and map them into a SPARQL
+query. We present the first multilingual QALD pipeline that induces a model
+from training data for mapping a natural language question into logical form as
+probabilistic inference. In particular, our approach learns to map universal syntactic
+dependency representations to a language-independent logical form based
+on DUDES (Dependency-based Underspecified Discourse Representation Structures)
+that are then mapped to a SPARQL query as a deterministic second step.
+Our model builds on factor graphs that rely on features extracted from the dependency
+graph and corresponding semantic representations.We rely on approximate
+inference techniques, Markov Chain Monte Carlo methods in particular, as well
+as Sample Rank to update parameters using a ranking objective. Our focus lies on
+developing methods that overcome the lexical gap and present a novel combination
+of machine translation and word embedding approaches for this purpose. As
+a proof of concept for our approach, we evaluate our approach on the QALD-6
+datasets for English, German &amp; Spanish.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="paper.pdf">https://pub.uni-bielefeld.de/download/2913141/2913142/paper.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer</publisher><dateIssued encoding="w3cdtf">2017</dateIssued><place><placeTerm type="text">Vienna</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>question answering</topic><topic>multilinguality</topic><topic>QALD</topic><topic>probabilistic graphical models</topic><topic>factor graphs</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-29131414</identifier><identifier type="doi">10.1007/978-3-319-68288-4_20</identifier>
+<part><detail type="volume"><number>10587</number></detail><extent unit="pages">329-346</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<bio1>Hakimov S, Jebbara S, Cimiano P (2017) &lt;br /&gt;AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. &lt;br /&gt;In:  The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings. d'Amato C, Fernandez M, Tamma V (Eds); Lecture Notes in Computer Science, 10587. Cham: Springer:  329-346.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P. (2017). AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In C.  d'Amato, M.  Fernandez, &amp;amp; V.  Tamma (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 10587&lt;/em&gt;&lt;em&gt;. The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt; (pp. 329-346). Cham: Springer. doi:10.1007/978-3-319-68288-4_20&lt;/div&gt;</apa_indent>
+<harvard1>Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P., 2017. AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In C.  d'Amato, M.  Fernandez, &amp;amp; V.  Tamma, eds. &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;. Lecture Notes in Computer Science. no.10587  Cham: Springer, pp. 329-346.</harvard1>
+<angewandte-chemie>S.  Hakimov, S.  Jebbara, and P.  Cimiano, in &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt; (Eds.: C. d'Amato, M. Fernandez, V. Tamma), Springer, Cham, &lt;strong&gt;2017&lt;/strong&gt;, p. 329-346.</angewandte-chemie>
+<wels>Hakimov, S.; Jebbara, S.; Cimiano, P. (2017): AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In: Claudia d'Amato; Miriam Fernandez; Valentina Tamma (Hrsg.):  The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings. Cham: Springer. (Lecture Notes in Computer Science, 10587).  S. 329-346.</wels>
+<apa>Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P. (2017). AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In C.  d'Amato, M.  Fernandez, &amp;amp; V.  Tamma (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 10587&lt;/em&gt;&lt;em&gt;. The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt; (pp. 329-346). Cham: Springer. doi:10.1007/978-3-319-68288-4_20</apa>
+<ieee> S. Hakimov, S. Jebbara, and P. Cimiano, “AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data”, &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;, C. d'Amato, M. Fernandez, and V. Tamma, eds., Lecture Notes in Computer Science, vol. 10587,  Cham: Springer, 2017,  pp.329-346.</ieee>
+<ama>Hakimov S, Jebbara S, Cimiano P. AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In: d'Amato C, Fernandez M, Tamma V, eds. &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;. Lecture Notes in Computer Science. Vol 10587. Cham: Springer;  2017: 329-346.</ama>
+<frontiers>Hakimov, S., Jebbara, S., and Cimiano, P. (2017). “AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data” in &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;, d'Amato, C., Fernandez, M., and Tamma, V. eds. Lecture Notes in Computer Science, vol. 10587, (Cham: Springer), 329-346.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Jebbara, S. &amp;amp; Cimiano, P. (2017). AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data (Lecture Notes in Computer Science). In C. d'Amato, M. Fernandez &amp;amp; V. Tamma (Hrsg.), &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt; (S. 329-346). Gehalten auf der 16th International Semantic Web Conference (ISWC 2017), Cham: Springer. doi:10.1007/978-3-319-68288-4_20.&lt;/div&gt;</dgps>
+<mla>Hakimov, Sherzod, Jebbara, Soufian, and Cimiano, Philipp. “AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data”. &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;. Ed. Claudia d'Amato, Miriam Fernandez, and Valentina Tamma. Cham: Springer, 2017.Vol. 10587. Lecture Notes in Computer Science. 329-346.</mla>
+<default>Hakimov S, Jebbara S, Cimiano P (2017)  &lt;br /&gt;In:  The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings. d'Amato C, Fernandez M, Tamma V (Eds);  Lecture Notes in Computer Science, 10587.  Cham: Springer:  329-346.</default>
+<lncs> Hakimov, S., Jebbara, S., Cimiano, P.: AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data. In: d'Amato, C., Fernandez, M., and Tamma, V. (eds.) The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings. Lecture Notes in Computer Science. 10587, p. 329-346. Springer, Cham (2017).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod, Jebbara, Soufian, and Cimiano, Philipp. 2017. “AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data”. In &lt;em&gt;The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings&lt;/em&gt;, ed. Claudia d'Amato, Miriam Fernandez, and Valentina Tamma, 10587:329-346. Lecture Notes in Computer Science. Cham: Springer.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2913141</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-08-05T17:37:26Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-20T08:30:51Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2960543">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Design of low-power digital circuits in the sub-threshold domain</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Saikat</namePart>
+                        <namePart type="family">Chatterjee</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-09-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The demand of low power consumption in microelectronics circuits has increased
+significantly as submicron technologies scale down. Battery operated portable
+applications are in high demand across the industries such as automotive, medical,
+MEMS, telecommunication and so on. Subthreshold operations provides the
+potential solution to the energy consumption problem. However, it comes at
+the price of significant degradation of performance. Since, it needs to reduce
+the maximum operating clock frequency in subthreshold operation. An effective
+solution proposed to such problem was to have different voltage islands. Here, the
+non-critical power constrained blocks could run in subthreshold domain with the
+critical ones operating in above threshold domain. Our work proposes a solution
+to combat such a problem.
+Our work consists of three parts; 1) a standard cell library optimized for subthreshold
+operation, 2) couple of level shifter circuits capable of sub-threshold to
+above threshold voltage conversion and 3) a subthreshold memory array. We have
+used the 28nm FD-SOI technology from ST Microelectronics.
+The standard cell library contains basic design cell units, whose dimensions are
+optimized for subthreshold operation at a low fixed frequency. The optimization
+process is based upon a multiobjective optimization methodology. Propagation
+delay, switching power, static power dissipation and, noise margin are the parameters,
+chosen for multiobjective optimization. We generated separate sets of
+dimensions for each cells due to the optimization algorithm, which helped us
+to design the parametric cell (p-cell). We used the p-cell approach as it helps to
+standardize the cell design reducing the development time. The library is ready
+for the synthesis of low power blocks. The library is developed with two different
+variants of transistors, namely RVT and LVT. They have different threshold voltages.
+The RVT library has 21 combinatorial logic cells, 4 sequential logic cells and
+11 clock circuits. The LVT library has only combinatorial cells.
+We designed two different level shifter circuits, which are performance optimized
+with the library cells in terms of voltage and frequency. The leakage current
+loss was kept in mind while doing the design. We have followed the circuit mirror
+topology for one of the circuits. This circuit can operate convert an input of 250mV
+to 1V output. The leakage power of this circuit is 37pW. The second level shifter
+circuit is a combination of both circuit mirror and cross-coupled PMOS topologies.
+This particular circuit can operate even at 150mV supply, with the leakage power
+being 107pW.
+Memory circuits consume a lot of energy. Although it is difficult to reduce the
+operating voltage of memory cells, without diminishing the performance. Here,
+we proposed a 4x8 SRAM array, which can operate with a minimum supply of
+250mV and a maximum frequency of 3.3 MHz. During the read operation, the
+energy consumption of the memory cell is 0.107 fJ at 3.33MHZ.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29605435</identifier>
+                    <identifier type="doi">10.4119/unibi/2960543</identifier>
+                    <identifier type="sys">HT021219773</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2960543</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2960543">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2960543/2960544/DissSaikat_Saikat_Chatterjee.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2960543" DMDID="DMD2960543">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2960543"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

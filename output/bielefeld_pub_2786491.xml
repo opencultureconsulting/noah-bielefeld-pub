@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2786491">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Bio-inspired Collision Avoidance Model Based on Spatial Information Derived from Motion Detectors Leads to Common Routes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Olivier</namePart>
+                        <namePart type="family">Bertrand</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0889-4550</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5441-7931</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Avoiding collisions is one of the most basic needs of any mobile agent, both biological and technical, when searching around or aiming toward a goal. We propose a model of collision avoidance inspired by behavioral experiments on insects and by properties of optic flow on a spherical eye experienced during translation, and test the interaction of this model with goal-driven behavior. Insects, such as flies and bees, actively separate the rotational and translational optic flow components via behavior, i.e. by employing a saccadic strategy of flight and gaze control. Optic flow experienced during translation, i.e. during intersaccadic phases, contains information on the depth-structure of the environment, but this information is entangled with that on self-motion. Here, we propose a simple model to extract the depth structure from translational optic flow by using local properties of a spherical eye. On this basis, a motion direction of the agent is computed that ensures collision avoidance. Flying insects are thought to measure optic flow by correlation-type elementary motion detectors. Their responses depend, in addition to velocity, on the texture and contrast of objects and, thus, do not measure the velocity of objects veridically. Therefore, we initially used geometrically determined optic flow as input to a collision avoidance algorithm to show that depth information inferred from optic flow is sufficient to account for collision avoidance under closed-loop conditions. Then, the collision avoidance algorithm was tested with bio-inspired correlation-type elementary motion detectors in its input. Even then, the algorithm led successfully to collision avoidance and, in addition, replicated the characteristics of collision avoidance behavior of insects. Finally, the collision avoidance algorithm was combined with a goal direction and tested in cluttered environments. The simulated agent then showed goal-directed behavior reminiscent of components of the navigation behavior of insects.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS Computational Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1553-734X</identifier>
+                    <identifier type="eIssn">1553-7358</identifier>
+                    <identifier type="MEDLINE">26583771</identifier>
+                    <identifier type="ISI">000365801600001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27864913</identifier>
+                    <identifier type="doi">10.1371/journal.pcbi.1004339</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2786491</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2786491">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2786491/2786501/journal.pcbi.1004339.bertrand.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2786491" DMDID="DMD2786491">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2786491"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

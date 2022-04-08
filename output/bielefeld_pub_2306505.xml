@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306505">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Konzept für eine lernende Healthcare-Organisation : Erfolgsfaktoren von Lern- und Veränderungsprozessen in stationären Gesundheitseinrichtungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Silke</namePart>
+                        <namePart type="family">Kühnle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard J.</namePart>
+                        <namePart type="family">Güntert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1999</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">1999-12-13</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Arbeit ermittelt im Rahmen der Analyse von organisations- und verhaltenstheoretischen Ansätzen in der Organisationslehre Gestaltungsparameter, die die anstehenden Veränderungs- und Lernprozesse im Gesundheitswesen effizienter und zielgerichteter steuern können und letztlich zur Schaffung einer lernenden Organisation führen.</abstract>
+                    <subject>
+                        <topic>Deutschland</topic>
+                        <topic>Gesundheitswesen</topic>
+                        <topic>Organisatorisches Lernen</topic>
+                        <topic>Krankenhausmanagement</topic>
+                        <topic>Lernende Organisation</topic>
+                        <topic>Veränderungsmanagement</topic>
+                        <topic>Krankenhausberatung</topic>
+                    </subject>
+                    <classification authority="ddc">360</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1338</identifier>
+                    <identifier type="sys">HT014236053</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306505</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306505">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306505/2306511/3_Lebenslauf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2306505">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306505/2306510/2_Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2306505">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306505/2306509/1_Titel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2306505">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306505/2306508/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306505" DMDID="DMD2306505">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306505"/>
+            <mets:div TYPE="part" ID="PART1_2306505" LABEL="2_Dissertation.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2306505"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2306505" LABEL="1_Titel.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2306505"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2306505" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2306505"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

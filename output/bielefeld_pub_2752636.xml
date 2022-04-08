@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2752636">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bernhard-Andreas</namePart>
+                        <namePart type="family">Brüning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-02-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der Biologie, Linguistik, Psychologie und Soziologie wird versucht, (menschliches) Interaktionsverhalten zu verstehen und zu beschreiben. In der Robotik ist ein Schwerpunkt, dieses (menschliche) Interaktionsverhalten zu modellieren, damit eine natürliche Interaktion mit Robotern möglich ist. Ein Bestandteil der natürlichen Interaktion ist unter anderem, zu erkennen, wann ein Interaktionspartner die Sprecherrolle übernehmen darf, ohne unfreundlich zu wirken und den anderen Interaktionspartner zu unterbrechen. Ein weiterer Schwerpunkt ist die Analyse, wie verschiedene Menschen beim Sprechen gestikulieren, um z. B. gleiche Sachinhalte mittels Sprache und sprachbezogener Gesten zu beschreiben. Sind aus solchen Analysen Verhaltensmuster erkannt worden und wurden diese Interaktionsverhaltensweisen implementiert, muss verifiziert werden, ob Menschen das z. B. von einem Roboter oder sozialen Agenten ausgeführte Verhalten als natürlich empfinden. Eine gängige Methode, ein solches Verhalten zu analysieren, ist die Aufzeichnung in verschiedenen multimedialen Daten wie Audio und Video, sodass diese anschließend im Detail analysiert werden können. Leider ist dieser Videoanalyseprozess sehr zeitintensiv, da er manuell durch Menschen durchgeführt werden muss. Um eine Bewegung in einem Video analysieren zu können, muss diese erst aus dem Video extrahiert werden, wobei dieses nicht immer genau durchgeführt werden kann. Dieses kann der Fall sein, wenn Gelenk- und andere Körperteilepositionen nicht genau bekannt sind, da diese Körperteile verdeckt sein können. Da diese Analyse ein zeitintensiver Prozess ist, der durch viele Arbeitsstunden teuer wird, gibt es Bemühungen, möglichst Mechanismen zu finden, durch die diese Arbeiten automatisch durchgeführt werden können. Als erstes Problem muss bei einer Analyse von Videodaten ermittelt werden, was Personen sind und in welcher Körperhaltung sie sich befinden. Allgemein funktioniert dieses, ist allerdings fehleranfällig. Um genauere Daten der Interaktionen zu erhalten und um auch automatische Analysen durchführen zu können, geht ein Trend dazu über, weitere modale Daten wie Motion-Capture-Daten zusätzlich aufzuzeichnen. Dadurch kann die Bewegung der interagierenden Personen viel genauer in räumlicher Relation zueinander analysiert werden. Um dieses durchführen zu können, stellen sich die Fragen, &quot;wie die Motion-Capture-Daten sinnvoll mit angemessenem Arbeitsaufwand für die Untersuchungen genutzt werden können&quot; und &quot;wie die Interaktionen mehrerer Personen über eine längere Zeitspanne robust aufgezeichnet werden können&quot;. Beim Motion-Capturing ist eine lange Aufnahme mit einem Vielfachen dieser Zeit als Nachbearbeitungsphase verbunden. In dieser Nachbearbeitungsphase werden die Daten aufgearbeitet, damit einzelne Marker immer den zugehörigen Körperteilen zugeordnet werden können. Um einen deutlichen Nutzen aus dem Motion-Capturing ziehen zu können, darf die Zeit, die für das zusätzliche Motion-Capturing aufgewendet wird, nicht höher sein als die Zeit, die für das Annotieren der Video-Analyse aufgewendet würde. In dieser Arbeit wird gezeigt, wie das Motion-Capturing mit einem angemessenen Zeiteinsatz verwendet werden kann, um automatische Analysemöglichkeiten nutzbringend durchführen zu können. Dabei wird auf die Fragestellung eingegangen, &quot;was die Motion-Capture-Daten für Möglichkeiten bei der Verhaltensforschung bei Interaktionen bieten&quot;. Dazu wird gezeigt, dass diese neuen Möglichkeiten in einer automatischen detaillierten Analyse liegen, die eine standardisierte Basis für Analysen mit einer immer gleichbleibend guten Qualität liefern. 
+Um die Nützlichkeit der Motion-Capture-Daten hervorzuheben, wird gezeigt, wie diese im Forschungsalltag eingesetzt werden können. Die hierbei gesammelten Erfahrungen sind in die Entwicklung eines Annotationstools &quot;PAMOCAT&quot; eingegangen, bei dem verschiedene elementare Verhaltensbestandteile als abstrakte Kategorien (wie z.B. Bewegung in elementaren Gelenken, etwas angucken, Handbewegungen oder Posen) automatisch annotiert werden können. Dabei haben sich verschiedene elementare Kategorien herauskristallisiert, die ein breites Spektrum von möglichen Einsatzbereichen in der Verhaltensforschung bieten. Dazu wird eine Basis von elementaren Interaktionsphänomenen bereitgestellt, die durch Kombinationen mit anderen Interaktionsphänomenen als Suche nach Zeitpunkten, bei denen diese zusammen auftreten, angesetzt werden kann. Dadurch ist eine detailliertere Analyse komplexen Verhaltens einfacher und schneller möglich, als es zuvor möglich war. Um diese Analysefunktionalität einem möglichst großen Anwenderkreis bereitzustellen, ist ein Graphical User Interface - GUI entwickelt worden, welches in Zusammenarbeit mit Endnutzern optimiert wurde. Damit ergeben sich neue Möglichkeiten bei der Analyse großer Korpora und es kann viel Zeit eingespart werden, sodass die Aufmerksamkeit auf eine detaillierte Analyse fokussiert werden kann.</abstract>
+                    <subject>
+                        <topic>Bewegungssegmentation</topic>
+                        <topic>Konversation-Analyse</topic>
+                        <topic>Posturerkennung</topic>
+                        <topic>Elementarbewegung</topic>
+                        <topic>Bewegungsanalyse</topic>
+                        <topic>Annotation</topic>
+                        <topic>Verhaltensanalyse</topic>
+                        <topic>Multi Personen-Motion-Capturing</topic>
+                        <topic>PAMOCAT</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27526368</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2752636</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2752636">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2752636/2752637/ThesisBAB_00222V.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2752636" DMDID="DMD2752636">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2752636"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

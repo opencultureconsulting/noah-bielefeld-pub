@@ -1,0 +1,120 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2306287</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Efficient algorithms for gene cluster detection in prokaryotic genomes</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Schmidt</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Jörn</namePart>
+  
+  
+  <namePart type="family">Kalinowski</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33070724</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The research in genomics science rapidly emerged in the last few years, and the availability of completely sequenced genomes continuously increases due to the use of semi-automatic sequencing machines. Also these sequences, mostly prokaryotic ones, are well annotated, which means that the positions of their genes and parts of their regulatory or metabolic pathways are known. A new task in the field of bioinformatics now is to gain gene or protein information from the comparison of genomes on a higher level.
+In the approach of "comparative genomics" researchers in bioinformatics are attempting to locate groups or clusters of orthologous genes that may have the same function in multiple genomes. These researches are often anchored on the simple, but biologically verified fact, that functionally related proteins are usually coded by genes placed in a region of close genomic neighborhood, in different species.
+From an algorithmic and combinatorial point of view, the first descriptions of the concept of "closely placed genes" were only fragmentary, and sometimes confusing. The given algorithms often lack the necessary grounds to prove their correctness, or assess their complexity.
+Within the first formal models of a conserved genomic neighborhood, genomes are often represented as permutations of their genes, and common intervals, i.e. intervals containing the same set of genes, are interpreted as gene clusters. But here the major disadvantage of representing genomes as permutations is the fact that paralogous copies of the same gene inside one genome can not be modelled. Since especially large genomes contain numerous paralogous genes, this model is insufficient to be used on real genomic data.
+In this work, we consider a modified model of gene clusters that allows paralogs, simply by representing genomes as sequences rather than permutations of genes. We define common intervals based on this model, and we present a simple algorithm that finds all common intervals of two sequences in [Theta](n2) time using [Theta](n2) space. Another, more complicated algorithm runs in [Omikron](n2) time and uses only linear space. We also show how to extend these algorithms to more than two genomes and present the implementation of the algorithms as well as the visualization of the located clusters in the tool Gecko. Since the creation of the string representation of a set of genomes is a non-trivial task, we also present the data preparation tool GhostFam that groups all genes from the given set of genomes to their families of homologs. In the evaluation on a set of 20 bacterial genomes, we show that with the presented approach it is possible to correctly locate gene clusters that are known from the literature, and to successfully predict new groups of functionally related genes.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation.pdf">https://pub.uni-bielefeld.de/download/2306287/2306290/Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-7497</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-07-20</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> T. Schmidt, &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+<apa>Schmidt, T. (2005).  &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Schmidt, T. (2005). Efficient algorithms for gene cluster detection in prokaryotic genomes. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, T. (2005). &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Schmidt T. &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<angewandte-chemie>T.  Schmidt, &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Schmidt, T., 2005. &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Schmidt T (2005) &lt;br /&gt;&lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, T. (2005).  &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Schmidt, T. (2005): Efficient algorithms for gene cluster detection in prokaryotic genomes. Bielefeld (Germany): Bielefeld University.</wels>
+<default>Schmidt T (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Schmidt, Thomas. &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schmidt, Thomas. 2005. &lt;em&gt;Efficient algorithms for gene cluster detection in prokaryotic genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Schmidt, T.: Efficient algorithms for gene cluster detection in prokaryotic genomes. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2306287</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-08-26T09:45:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:00Z</recordChangeDate>
+</recordInfo>
+</mods>

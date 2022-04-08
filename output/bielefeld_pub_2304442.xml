@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304442">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Gruppierung von Kontursegmenten mit Mechanismen perzeptiver Gruppierung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Anke</namePart>
+                        <namePart type="family">Maßmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Posch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-07-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Das menschliche visuelle System ist in der Lage, spontan die Dinge des Sehfeldes zu strukturieren. Diese Strukturbildung verleiht dem visuellen System die Fähigkeit, die wichtige Information in einer Szene von ihren unwichtigen Bestandteilen zu trennen. Die zugrunde liegenden Mechanismen dieser Strukturbildung sind von großem Interesse für die digitale Bildverarbeitung. Die vorliegende Arbeit hat daher zwei wesentliche Schwerpunkte: zum einen aus den Forschungsergebnissen der Gestaltpsychologie geeignete Mechanismen des menschlichen visuellen Systems zur Strukturbildung abzuleiten, zum anderen geeignete Methoden der digitalen Bildverarbeitung zu finden, um diese Mechanismen an ein automatisiertes System zu adaptieren. Ausgehend von den durch die Gestaltpsychologie postulierten Gruppierungsgesetzen wurde ihre Anwendung in einem konturbasierten Ansatz eingehend untersucht. Zu beachten ist, dass die aufgestellten Gesetze Tendenzen wie beispielsweise Nähe oder Ähnlichkeit beschreiben, die genaue Wirkung dieser Faktoren aber nicht quantifiziert wurde. Gleichzeitig muss die Anwendbarkeit der verschiedenen Gruppierungsgesetze auf die untersuchten Primitiva, wie beispielsweise Kanten oder Regionen, geprüpft werden. 
+Als initiale Primitiva des Gruppierungsprozesses dienen Kontursegmente, die in Geradenstücke und Ellipsensegmente unterschieden werden. Der Gruppierungsprozess ist in drei hierarchisch angeordneten Ebenen eingeteilt. Auf der untersten 1D Ebene werden kollineare, kurvilineare und Nähe Gruppen generiert. In der mittleren 2x1D Ebene werden parallele Gruppenhypothesen und in der höchsten 2D Ebene Geschlossenheiten generiert. Das Problem mangelnder Quantifizierbarkeit gestalttheoretischer Faktoren wurde durch die Untersuchung einer repräsentativen Stichprobe der Domäne angegangen. Als Ergebnis entstanden Suchbereiche, die den Charakteristika der unterschiedlichen Gruppentypen Rechnung tragen. Die Bereiche wurden in Anlehnung an die Gestaltgesetze mit dem Begriff Bereich perzeptiver Aufmerksamkeit benannt. 
+Die Generierung der Gruppenhypothesen mit Hilfe der Bereiche perzeptiver Aufmerksamkeit ist lokal orientiert. Durch diese lokale Betrachtungsweise entstehen mehrdeutige Gruppenhypothesen, die eine unerwünschte inkonsistente Interpretation der Szene bedeuten. Die Verifikation der erzeugten Hypothesen erfolgt durch ihre Bewertung. Ein geeigneter Bewertungsmechanismus muss dabei gleichzeitig die lokale Interaktion der benachbarten Gruppenhypothesen sowie die Ermittlung einer global optimalen Interpretation berücksichtigen. Aus diesem Grund wurde der Formalismus eines Markov Random Field gewählt.</abstract>
+                    <subject>
+                        <topic>Konturfindung , Bildsegmentierung , Rezeptive Gruppierung , Markov-Zufallsfeld , Digitale Bildverarbeitung , Perzeptive Gruppierung , Markov Random Fields , Gestaltgesetze ,</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1000</identifier>
+                    <identifier type="sys">HT014234097</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304442</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304442">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304442/2304447/dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE1_bielefeld_pub_2304442">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304442/2304446/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2304442">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304442/2304445/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE3_bielefeld_pub_2304442">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304442/2304448/dissertation.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304442" DMDID="DMD2304442">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304442"/>
+            <mets:div TYPE="part" ID="PART1_2304442" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2304442"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2304442" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2304442"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2304442" LABEL="dissertation.ps">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2304442"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

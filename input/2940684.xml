@@ -1,0 +1,210 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2940684</id><setSpec>software</setSpec><setSpec>doc-type:Software</setSpec><setSpec>softwareFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>programmed text</genre>
+
+<titleInfo><title>HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Hanno Gerd</namePart>
+  <namePart type="family">Meyer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">22855001</identifier></name>
+<name type="personal">
+  <namePart type="given">Daniel</namePart>
+  <namePart type="family">Klimeck</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">23351026</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Embodied Interaction as a Core of Cognitive Interaction: A holistic approach towards autonomous walking system (LSP-04)</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng"># HDL and software sources for bio-inspired visual collision avoidance on the hexapod walking robot HECTOR
+
+CITEC - Center of Excellence Cognitive Interaction Technology, Bielefeld University, 2020
+
+__Developers:__ 
+
+    * Daniel Klimeck - dklimeck@cit-ec.uni-bielefeld.de
+    * Hanno Gerd Meyer - hanno_gerd.meyer@fh-bielefeld.de 
+
+__Description:__
+
+The repository contains the VHDL-based cores realizing bio-inspired visual processing on a Xilinx-based Zynq-7000 SoC as well as the complementary software sources to enable the hexapod walking robot HECTOR to perform bio-inspired visual collision avoidance. The vision-based direction controller used is based upon:
+
+    [1] Bertrand et al. (2015)
+        A Bio-inspired Collision Avoidance Model Based on Spatial Information Derived from Motion Detectors Leads to Common Routes
+        PLoS Comput Biol. 2015; 11(11):e1004339
+        doi: 10.1371/journal.pcbi.1004339
+
+    [2] Meyer et al. (2016)
+        A Bio-Inspired Model for Visual Collision Avoidance on a Hexapod Walking Robot.
+        In: Biomimetic and Biohybrid Systems: 5th International Conference, Living Machines 2016, Edinburgh, UK, July 19-22, 2016. Proceedings; 2016. p. 167--178.
+        doi: 10.1007/978-3-319-42417-0_16
+
+    [3] Klimeck et al. (2018)
+        Resource-efficient Reconfigurable Computer-on-Module for Embedded Vision Applications.
+        In: 2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP); 2018. p. 1--4.
+        doi: 10.1109/ASAP.2018.8445091
+
+The interfaces for the image data transmission between the VHDL-based cores are based on the AXI4-Stream protocol specification. Xilinx-based cores that are used for realizing the processing within the Zynq device are marked in the VHDL code. The sources of the Xilinx-based cores are not included within this repository.
+
+The processing pipeline for the resource-efficient insect-inspired visual processing within the FPGA looks like the following:
+
+				ReMap - SA - HPF - LPF - EMD - ME - ANV
+
+After processing of the camera images by the Zynq hardware, the Average Nearness Vector (ANV) is used to control the walking direction of the hexapod walking robot HECTOR. In the experimental setup HECTOR obtains its absolute position and orientation within the arena using a system for tracking visual markers. Based on the direction to a goal location location and the ANV the walking direction is computed. See [1-3] for further details.  
+
+The content of this repository is structured as follows:
+
+
+```
+- VHDL
+	-- ANV (Average Nearness Vector)
+		--- anv.vhd
+		
+	-- EMD (Elementary Motion Detector)
+		--- emd.vhd
+		
+	-- HPF (High Pass Filter)
+		--- AXI4-Lite.vhd
+		--- hpf.vhd
+		
+	-- LPF (Low Pass Filter)
+		--- AXI4-Lite.vhd
+		--- lpf.vhd
+		
+	-- ME (Motion Energy)
+		--- me.vhd
+		
+	-- ReMap (Remapping and Scaling)
+		--- mem_init_files
+			---- ORDERout_bin_ROM.coe
+			---- ORDERx_bin_ROM.M#coe
+			---- ORDERydiff_bin_ROM.coe
+		--- AXI4-Lite.vhd
+		--- remap.vhd
+		
+	-- SA (Sensitivity Adaption)
+		--- sa.vhd
+
+- python
+    -- __init.py__
+    -- auto_visionmodule_twb.ini (Configuration file)
+    -- auto_visionmodule_twb.py (Main script)
+    
+    -- behavior (Computation of heading direction)
+        --- __init.py__
+        --- CollisionAvoidance.py
+
+    -- camera (Communication with Zynq hardware)
+        --- __init.py__
+        --- vision_module
+            ---- __init.py__
+            ---- VisionModuleClient.py
+
+    -- control (Control of HECTOR's walking direction)
+        --- __init.py__
+        --- Control.py
+
+    -- joystick (Manual control of HECTOR's walking direction)
+        --- __init.py__
+        --- client
+            ---- __init.py__
+            ---- JoystickClient.py
+        --- server
+            ---- JoystickServer.py
+        --- standalone
+            ---- __init.py__
+            ---- JoystickStandalone.py
+    
+    -- logging (Logging of runtime data)
+        --- __init.py__
+        --- logclient_demo.py
+        --- client
+            ---- __init.py__
+            ---- LogClient.py
+        --- server
+            ----__init.py__
+            ---- LogServer.py
+
+    -- twb (Interface to the marker tracking of the teleworkbench)
+        --- __init.py__
+        --- bridge_client
+            ---- __init.py__
+            ---- TWBBridgeClient.py
+        --- twb_bridge
+            ---- (...)
+    
+    -- visualization (Visualization of the processed camera images and walking directions)
+        --- __init.py__
+        --- client
+            ---- __init.py__
+            ---- VisualizationClient.py
+        --- server
+            ---- __init.py__
+            ____ VisualizationServer.py
+```</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="visual_collision_avoidance_on_hector.tar">https://pub.uni-bielefeld.de/download/2940684/2940687/visual_collision_avoidance_on_hector.tar</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-tar</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opensource.org/licenses/MIT</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2940684</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<harvard1>Meyer, H.G., &amp;amp; Klimeck, D., 2020. &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Meyer HG, Klimeck D (2020) &lt;br /&gt;&lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meyer, H. G., &amp;amp; Klimeck, D. (2020).  &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2940684&lt;/div&gt;</apa_indent>
+<angewandte-chemie>H. G.  Meyer, and D.  Klimeck, &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2020&lt;/strong&gt;.</angewandte-chemie>
+<wels>Meyer, H. G.; Klimeck, D. (2020): HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR. Bielefeld University.</wels>
+<apa>Meyer, H. G., &amp;amp; Klimeck, D. (2020).  &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2940684</apa>
+<ieee> H.G. Meyer and D. Klimeck, &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;, Bielefeld University, 2020.</ieee>
+<ama>Meyer HG, Klimeck D. &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University; 2020.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meyer, H.G. &amp;amp; Klimeck, D. (2020). &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2940684.&lt;/div&gt;</dgps>
+<frontiers>Meyer, H. G., and Klimeck, D. (2020). HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR. Bielefeld University.</frontiers>
+<mla>Meyer, Hanno Gerd, and Klimeck, Daniel. &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University, 2020.</mla>
+<default>Meyer HG, Klimeck D (2020) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Meyer, H.G., Klimeck, D.: HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR. Bielefeld University (2020).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Meyer, Hanno Gerd, and Klimeck, Daniel. 2020. &lt;em&gt;HDL and Software Sources for Bio-Inspired Visual Collision Avoidance on the Hexapod Robot HECTOR&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2940684</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-02-03T08:36:25Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T13:05:13Z</recordChangeDate>
+</recordInfo>
+</mods>

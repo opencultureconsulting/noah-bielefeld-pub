@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773425">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Population coding of self-motion: applying Bayesian analysis to a population of visual interneurons in the fly</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Katja</namePart>
+                        <namePart type="family">Karmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holger G.</namePart>
+                        <namePart type="family">Krapp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Coding of sensory information often involves the activity of neuronal populations. We demonstrate how the accuracy of a population code depends on integration time, the size of the population, and noise correlation between the participating neurons. The population we study consists of 10 identified visual interneurons in the blowfly Calliphora vicina involved in optic flow processing. These neurons are assumed to encode the animal&apos;s head or body rotations around horizontal axes by means of graded potential changes. From electrophysiological experiments we obtain parameters for modeling the neurons&apos; responses. From applying a Bayesian analysis on the modeled population response we draw three major conclusions. First, integration of neuronal activities over a time period of only 5 ms after response onset is sufficient to decode accurately the rotation axis. Second, noise correlation between neurons has only little impact on the population&apos;s performance. And third, although a population of only two neurons would be sufficient to encode any horizontal rotation axis, the population of 10 vertical system neurons is advantageous if the available integration time is short. For the fly, short integration times to decode neuronal responses are important when controlling rapid flight maneuvers.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of neurophysiology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>94</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>2182</start>
+                                <end>2194</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0022-3077</identifier>
+                    <identifier type="eIssn">1522-1598</identifier>
+                    <identifier type="MEDLINE">15901759</identifier>
+                    <identifier type="ISI">000231259400052</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17734259</identifier>
+                    <identifier type="doi">10.1152/jn.00278.2005</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773425</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773425">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773425/2311252/Karmeier_etal_JNeurophysiol_2005.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773425" DMDID="DMD1773425">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773425"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

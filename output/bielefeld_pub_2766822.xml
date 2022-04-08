@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2766822">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Using Discriminative Dimensionality Reduction to Visualize Classifiers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0739-612X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andrej</namePart>
+                        <namePart type="family">Gisbrecht</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Albeit automated classifiers offer a standard tool in many application areas, there exists hardly a generic possibility to directly inspect their behavior, which goes beyond the mere classification of (sets of) data points. In this contribution, we propose a general framework how to visualize a given classifier and its behavior as concerns a given data set in two dimensions. More specifically, we use modern nonlinear dimensionality reduction (DR) techniques to project a given set of data points and their relation to the classification decision boundaries. Furthermore, since data are usually intrinsically more than two-dimensional and hence cannot be projected to two dimensions without information loss, we propose to use discriminative DR methods which shape the projection according to given class labeling as is the case for a classification setting. With a given data set, this framework can be used to visualize any trained classifier which provides a probability or certainty of the classification together with the predicted class label. We demonstrate the suitability of the framework in the context of different dimensionality reduction techniques, in the context of different attention foci as concerns the visualization, and as concerns different classifiers which should be visualized.</abstract>
+                    <subject>
+                        <topic>Visualization</topic>
+                        <topic>metric</topic>
+                        <topic>t-SNE</topic>
+                        <topic>Fisher</topic>
+                        <topic>Model interpretation</topic>
+                        <topic>Non-linear dimensionality reduction</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Neural Processing Letters</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>42</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>27</start>
+                                <end>54</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1370-4621</identifier>
+                    <identifier type="ISI">000357726600003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27668229</identifier>
+                    <identifier type="doi">10.1007/s11063-014-9394-1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2766822</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2766822">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2766822/2901070/Schulz.et.al_ClassifierVis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2766822" DMDID="DMD2766822">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2766822"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

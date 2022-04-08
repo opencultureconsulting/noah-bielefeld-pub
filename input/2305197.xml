@@ -1,0 +1,105 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305197</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:530</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Brownian dynamics simulation of migration of DNA in structured microchannels</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Brownsche-Dynamik-Simulation der Migration von DNA in strukturierten Mikrokanälen</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Martin Andreas</namePart>
+  <namePart type="family">Streek</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Friederike</namePart>
+  
+  
+  <namePart type="family">Schmid</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10028</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Elektrophorese ist eine der Haupttechniken, um DNA-Stränge nach Länge zu trennen. Die Mobilität von DNA in freier Lösung ist unabhängig von der Größe des Moleküls. Daher wird diese normalerweise in Polymergelen durchgeführt. Leider sind diese nicht in der Lage, lange DNA-Stränge effektiv zu trennen. Ein neuer Ansatz besteht darin, die Fortschritte in der Mikroelektronik zur Herstellung neuer Trennstrukturen zu nutzen. In dieser Arbeit wurden diese Strukturen mittels Computersimulation eines Kugel-Feder-Ketten-Modells untersucht.
+Eine Struktur, die bereits weitgehend untersucht wurde, sind sogenannte "entropische Fallen". Diese bestehen aus einer periodischen Folge von breiten und engen Regionen. Die Engstellen haben eine Breite, die mit der Persistenzlänge vergleichbar ist. Daher ist für das Passieren der Engstellen eine Entknäuelung der DNA notwendig. Dieses reduziert die entropische freie Energie, daher der Name. Die Entknäuelung wird eingeleitet durch eine initiale Schlaufe, die in den engen Bereich reicht und dann das Polymer nachzieht. Da größere Ketten eine größere Wahrscheinlichkeit haben, diese Schlaufe zu bilden, migrieren diese schneller. Bislang wurde ein Einfang ausschließlich an der plötzlichen Verengung angenommen. Anhand der Simulationsdaten konnte ein neuer Einfangmechanismus identifiziert werden: Ketten können in die weiten Bereiche der Struktur diffundieren und dort aufgrund des fehlenden elektrischen Feldes verharren. Auch dieser Effekt bewirkt eine schnelle Migration der langen Ketten, da die Diffusion längenabhängig ist. Ein Vergleich der Simulationsdaten mit einem einfachen Modell zeigt, dass dieser Effekt mindestens ebenso wichtig ist wie das Hängenbleiben an der Verengung.
+Eine andere Struktur, die bislang wenig untersucht wurde, sind geometrisch strukturierte Mikrokanäle. Diese sind sehr ähnlich den entropischen Fallen, allerdings ist die Breite der Engstelle vergleichbar mit dem Gyrationsradius und damit wesentlich breiter. Ein Entknäueln ist nicht mehr erforderlich, um diese Region zu passieren. Trotzdem kann der neue Einfangmechanismus aus entropischen Fallen hier ebenfalls auftreten. Die Simulationsdaten zeigen jedoch eine Umkehrung der Mobilität als Funktion der Kettenlänge bei schwachen Feldern. Bei starken Feldern treten zwei Migrationszustände auf, ein langsamer und ein schneller, die unter geeigneten Bedingungen auch experimentell beobachtet werden konnten. Die Gründe für das Auftreten der zwei Zustände sowie der Übergangsmechanismus wurden untersucht.
+Zur Untersuchung von Ratscheneffekten wurde ein gepulstes elektrisches Feld an die geometrisch strukturierten Mikrokanäle angelegt. Zunächst wurden die Driftweiten in einem symmetrischen gepulsten Feld analysiert. Dabei zeigte sich, dass der langsame Zustand eine Orientierung besitzt: Ein Teil der Kette ist verknäuelt in der breiten Region, der andere ist in der Verengung und zieht das Knäuel in die Verengung. Bei der Umkehr des Feldes benötigt der langsame Zustand also eine gewisse Zeit, um sich an die neue Migrationsrichtung anzupassen. In einem zweiten Schritt wurde ein asymmetrisches Feld angelegt, um Ratscheneffekte bei schnellem Antrieb zu untersuchen. Eine Ausnutzung der zwei Migrationszustände als solche ist nicht möglich, da die Lebensdauer der zwei Zustände zu lang ist. Da der schnelle Zustand weder Orientierung noch Wechselwirkungen mit der Wand hat, zeigt dieser keine Ratscheneffekte. Dennoch existieren Ratscheneffekte im langsamen Zustand, welche diskutiert werden.</abstract>
+<abstract lang="eng">DNA electrophoresis is one of the main techniques to separate DNA molecules by size. Since the mobility of DNA molecules does not depend on its size in free solution, it is usually performed in gels. Unfortunately, electrophoresis in gels becomes ineffective for long DNA strands. Therefore, effort is being spent on the separation in microfluidic devices, which can be produced very easily due to the advances in microelectronics. In this work, I investigated these structures by a computer simulation of a simple bead-spring model.
+One device, that has already been investigated thoroughly before, is called "entropic traps". These consist of a periodic sequence of narrow and wide regions. The narrow regions exhibit a width which is comparable to the persistence length and therefore force the polymer into an uncoiled state when passing through. The process of uncoiling reduces the entropic free energy, hence the name. The escape process is initiated by a loop in the narrow region, which drags the remaining polymer through the constriction. As larger polymers exhibit a larger probability of forming the initial loop, they migrate faster. Up to now, this was the only trapping mechanism reported. With the simulation data, a new trapping mechanism was identified: polymers may also diffuse into the wide regions of the device, where the electric field is low and remain there for a long time. This effect also favors the fast migration of long chains, as these exhibit a much less pronounced diffusion. A comparison of the simulation data to a simple model shows that this effect is at least as important as trapping at the sudden narrowing of the device.
+Another device, which is very similar to entropic traps, is a geometrically structured microchannel. These have not been investigated in detail before. The main difference, compared to entropic traps, is that the width of the narrow region is comparable to the radius of gyration. Therefore a passing of that region does not require an uncoiling of the polymer. Nevertheless, the new trapping mechanism presented above is still applicable. However, the simulation data show a reversal of the mobility as a function of the chain length at weak fields. At strong electric fields, two states of migration occur, one of which is fast and the other one slow, which can be observed experimentally under appropriate conditions. The reasons for the occurence of the two states as well as the transition mechanism are discussed.
+To investigate ratchet effects, a pulsed electric field was applied to the geometrically structured microchannels. At first, drift lengths during a single pulse in a symmetric field were investigated. It showed that the slow state exhibits an orientation: one part of the chain is coiled in the wide region, and the other is located in the narrow region, pulling the coil into the narrowing. At a sudden reversal of the electric field the slow state needs some time to adapt to the migration direction. In a second step, an asymmetric field was applied to investigate ratchet effects with a fast driving force. A direct usage of the two states turned out to be not useful as a ratchet mechanism, because the two states exhibit a long life time. Additionally, the fast state does not exhibit an orientation or interact with the walls, and therefore does not exhibit any ratchet effects. However, ratchet effects do occur in the slow state, which are discussed.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis.pdf">https://pub.uni-bielefeld.de/download/2305197/2305200/thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>DNS , Doppelhelix , Brownsche Bewegung , Mikrochip-Elektrophorese , Molekulardynamik , Polymere , Biopolymere , Entropische Falle , Polymerdynamik , Ratsche (Physik) , Computersimulation , Computer simulation , Microchip electrophoresis , Entropic trap , Polymer dynamics , DNA</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-6358</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-01-26</dateOther>
+<extension>
+<bibliographicCitation>
+<apa>Streek, M. A. (2005).  &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> M.A. Streek, &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+<ama>Streek MA. &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<frontiers>Streek, M. A. (2005). Brownian dynamics simulation of migration of DNA in structured microchannels. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Streek, M.A. (2005). &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Streek, M. A. (2005).  &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Streek MA (2005) &lt;br /&gt;&lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Streek, M.A., 2005. &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>M. A.  Streek, &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+<wels>Streek, M. A. (2005): Brownian dynamics simulation of migration of DNA in structured microchannels. Bielefeld (Germany): Bielefeld University.</wels>
+<mla>Streek, Martin Andreas. &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<default>Streek MA (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Streek, M.A.: Brownian dynamics simulation of migration of DNA in structured microchannels. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Streek, Martin Andreas. 2005. &lt;em&gt;Brownian dynamics simulation of migration of DNA in structured microchannels&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305197</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-02-03T14:06:51Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:42:01Z</recordChangeDate>
+</recordInfo>
+</mods>

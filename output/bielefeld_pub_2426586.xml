@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2426586">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>VLSI array of low-power spiking neurons and bistable synapses with spike-timing dependent plasticity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">R. J.</namePart>
+                        <namePart type="family">Douglas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a mixed-mode analog/digital VLSI device comprising an array of leaky integrate-and-fire (I&amp;F) neurons, adaptive synapses with spike-timing dependent plasticity, and an asynchronous event based communication infrastructure that allows the user to (re)con figure networks of spiking neurons with arbitrary topologies. The asynchronous communication protocol used by the silicon neurons to transmit spikes (events) off-chip and the silicon synapses to receive spikes from the outside is based on the &quot;address-event representation&quot; (AER). We describe the analog circuits designed to implement the silicon neurons and synapses and present experimental data showing the neuron&apos;s response properties and the synapses characteristics, in response to AER input spike trains. Our results indicate that these circuits can be used in massively parallel VLSI networks of I&amp;F neurons to simulate real-time complex spike-based learning algorithms.</abstract>
+                    <subject>
+                        <topic>spike-based learning</topic>
+                        <topic>address-event representation (AER)</topic>
+                        <topic>neuromorphic circuits</topic>
+                        <topic>spike-timing</topic>
+                        <topic>analog VLSI</topic>
+                        <topic>integrate-and-fire (I &amp;</topic>
+                        <topic>F) neurons</topic>
+                        <topic>dependent plasticity (STDP)</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IEEE Transactions on Neural Networks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>17</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>211</start>
+                                <end>221</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1045-9227</identifier>
+                    <identifier type="MEDLINE">16526488</identifier>
+                    <identifier type="ISI">000235536300018</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24265864</identifier>
+                    <identifier type="doi">10.1109/TNN.2005.860850</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2426586</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2426586">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2426586/2459959/_A_VLSI_array_of_low-power_spiking_neurons_and_bistable_synapses_with_spike-timing_dependent_plasticity.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2426586" DMDID="DMD2426586">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2426586"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

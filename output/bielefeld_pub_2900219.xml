@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900219">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Deep Learning in Agent-Based Models: A Prospectus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sander</namePart>
+                        <namePart type="family">van der Hoog</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2348-3194</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A very timely issue for economic agent-based models (ABMs) is their empirical estimation. This paper describes a line of research that could resolve the issue by using machine learning techniques, using multi-layer artificial neural networks (ANNs), or so called Deep Nets. The seminal contribution by Hinton et al. (2006) introduced a fast and efficient training algorithm called Deep Learning, and there have been major breakthroughs in machine learning ever since. Economics has not yet benefited from these developments, and therefore we believe that now is the right time to apply Deep Learning and multi-layered neural networks to agent-based models in economics.</abstract>
+                    <subject>
+                        <topic>Deep Learning</topic>
+                        <topic>Agent-Based Models</topic>
+                        <topic>Estimation</topic>
+                        <topic>Meta-modelling</topic>
+                        <topic>etace_agent_based_modelling</topic>
+                        <topic>etace_WP</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>02-2016</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>19</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29002192</identifier>
+                    <identifier type="doi">10.4119/unibi/2900219</identifier>
+                    <identifier type="sys">HT020614800</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900219</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900219">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900219/2900900/2016_VanderHoog_Deep_Learning_in_ABM_WP2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900219" DMDID="DMD2900219">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900219"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

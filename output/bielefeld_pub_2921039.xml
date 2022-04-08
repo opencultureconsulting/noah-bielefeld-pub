@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2921039">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Strategies for Tackling the Class Imbalance Problem in Marine Image Classification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Langenkämper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1857-5040</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robin</namePart>
+                        <namePart type="family">van Kevelaer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Abstract. Research of deep learning algorithms, especially in the field of convolutional neural networks (CNN), has shown significant progress. The application of CNNs in image analysis and pattern recognition has earned a lot of attention in this regard and few applications to classify a small number of common taxa in marine image collections have been reported yet.
+In this paper, we address the problem of class imbalance in marine image data, i.e. the common observation that 80%-90% of the data belong to a small subset of L′ classes among the total number of L observed classes, with L′ &lt;&lt; L. A small number of methods to compensate for the class imbalance problem in the training step have been proposed for the common computer vision benchmark datasets. But marine image collections (showing for instance megafauna as considered in this study) pose a greater challenge as the observed imbalance is more extreme as habitats can feature a high biodiversity but a low species density.
+In this paper, we investigate the potential of various over-/undersampling methods to compensate for the class imbalance problem in marine imag- ing. In addition, five different balancing rules are proposed and analyzed to examine the extent to which sampling should be used, i.e. how many samples should be created or removed to gain the most out of the sam- pling algorithms. We evaluate these methods with AlexNet trained for classifying benthic image data recorded at the Porcupine Abyssal Plain (PAP) and use a Support Vector Machine as baseline classifier. We can report that the best of our proposed strategies in combination with data augmentation applied to AlexNet results in an increase of thirteen basis points compared to AlexNet without sampling. Furthermore, examples are presented, which show that the combination of oversampling and augmentation leads to a better generalization than pure augmentation.</abstract>
+                    <subject>
+                        <topic>class imbalance</topic>
+                        <topic>CNN</topic>
+                        <topic>marine imaging</topic>
+                        <topic>deep learning</topic>
+                        <topic>taxonomic classification</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29210395</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2921039</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2921039">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2921039/2921192/CVAUI2018-dlangenk.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2921039" DMDID="DMD2921039">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2921039"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

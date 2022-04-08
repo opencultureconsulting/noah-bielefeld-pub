@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305135">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Zeitabhängige Formulierung des Mehr-Elektronen-Problems in Atomen</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Time-dependent formulation of the many-electron problem in atoms</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martina</namePart>
+                        <namePart type="family">Rosenberger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jürgen (Prof.</namePart>
+                        <namePart type="family">Hinze</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1997</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">1997-06-05</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Method development of the time-dependent numerical MCSCF and CI method for atoms, without and with inclusion of an oscillating electric field, linearly polarized (electric dipole approximation for light). In the CI method, the numerical orbitals are kept fixed (not time-dependent), and only the CI coefficients are propagated, whereas in the MCSCF method both the CI coefficients and the numerical orbitals in the CSFs are propagated. The basis for this work were the non-relativistic numerical atomic structure codes for free atoms and for atoms in a static electric field developed at Bielefeld.</abstract>
+                    <abstract lang="ger">In der vorliegenden Arbeit wird eine allgemeine Formulierung des zeitabhängigen, numerischen MCSCF-Verfahrens zur Beschreibung der Dynamik atomarer Mehr-Elektronen-Systeme präsentiert. Die Entwicklung der Konfigurationsfunktionen in numerische Ein-Elektronen-Funktionen erlaubt gegenüber den Basis-Funktionsansätzen eine uneingeschränkte Variation während der Zeitpropagation und damit eine optimale Bestimmung der Konfigurationsfunktionen.
+Das zeitabhängige MCSCF-Verfahren lässt sich durch die Verwendung zeitunabhängiger Konfigurationsfunktionen auf ein CI-Verfahren reduzieren. Als Basisfunktionen in dem hier vorgestellten CI-Verfahren können entweder Zustandsfunktionen oder optimierte Konfigurations-Zustandsfunktionen verwendet werden. Der CI-Ansatz erlaubt damit die Interpretation der Propagationsergebnisse anhand der aus der stationären Theorie vertrauten Eigenzustände des Atoms.
+Beide Verfahren wurden in Computerprogrammen realisiert und am Beispiel von Helium im Laserfeld getestet.</abstract>
+                    <subject>
+                        <topic>Heliumatom , Vielelektronenproblem , MCSCF-Verfahren , Zeitabhängige Schrödinger-Gleichung , Elektromagnetische Welle , CI-Methode ,</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15199</identifier>
+                    <identifier type="sys">HT016058401</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305135</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305135">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305135/2305138/1997_RosenbergerM_Dis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305135" DMDID="DMD2305135">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305135"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

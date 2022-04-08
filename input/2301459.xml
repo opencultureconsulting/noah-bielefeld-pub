@@ -1,0 +1,111 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301459</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:400</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Bilingual word and chunk alignment : a hybrid system for Amharic and English</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Bilinguales Wort und Chunk Alignment : ein hybrides System für Amharisch und Englisch</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Saba Amsalu</namePart>
+  <namePart type="family">Teserra</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Dafydd</namePart>
+  
+  
+  <namePart type="family">Gibbon</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10019</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">In dieser Arbeit werden effiziente Wort- und Wortteil-Alignmentalgorithmen von satzweise alignierten Parallelkorpora vorgestellt. Es werden hauptsächlich Verfahren der statistischen Übersetzungsmodellierung verwendet, die Termverteilungsmatrizen nutzen, um Korrelationen zwischen Termen zu identifizieren. Des Weiteren werden linguistische Regeln der Morphologie und Syntax genutzt, um die statistischen Methoden zu ergänzen. Es werden zwei Modelle entwickelt:
+Modell I ist ein Modell, das in einem Zieldokument die Übersetzung eines Ausgangswortes sucht, während Modell II die Worte eines Ausgangssatzes und die Worte des übersetzten Zielsatzes aligniert. Beide Modelle werden anhand von amharisch-englischen Parallelkorpora evaluiert. Außerdem wird Modell II mit der Implementierung des IBM Alignment-Modells (GIZA++) verglichen.</abstract>
+<abstract lang="eng">This thesis presents efficient word alignment algorithms for sentence-aligned parallel corpora. For the most part, procedures for statistical translation modelling are employed that make use of measures of term distribution as the basis for finding correlations between terms. Linguistic rules of morphology and syntax have also been used to complement the statistical methods. Two models have been developed which are briefly described as follows:
+Alignment Model I.
+For this first model a statistical global alignment method has been designed in which the entire target document is searched for the translation of a source word. The term in the target language that has the highest similarity in distribution with the source term is taken as the best translation. The output of this algorithm is a 1:1 alignment of a complex Amharic word with simple English words.
+In reality, one word in one language is not necessarily translated into a single word in the other language and vice versa. This phenomenon is even more pronounced in disparate languages such as English and Amharic. Therefore, an enhancement method, relaxing routine, that would scale up the 1:1 alignments into 1:m alignments is devised. This approach that synthesises English chunks that are equivalent to Amharic words from parallel corpora is also described in this study. The procedure allows several words in the simpler language to be brought together and form a chunk equivalent to the complex word in the other language.
+The relaxing procedure may resolve the shortcomings of a 1:1 alignment but it does not solve the distortion in the statistics of words created by morphological variants, hence finite-state shallow stemmers that strip salient affixes in both languages have also been developed.
+Alignment Model II.
+Model II performs local alignment of a source word in a source sentence in the source language to a word in the target sentence in the target language. The search for a translation of a word in a sentence is only limited to the corresponding sentences instead of the entire document. This is a step towards achieving an increased recall, which is vital when dealing with languages that have scarcity of translation texts. This procedure, however, results in a drop in precision. To improve the diminished precision, two procedures have been integrated into it:
+1. Reuse of the lexicon from model I, that is, known translations are excluded from the search space, leaving a limited number of words from which to choose the most likely translation; and
+2. a pattern recognition approach for recognising morphological and syntactic features that allows the guessing of translations in sentences has also been developed.
+A comparative study of the performance of Model I across Amharic, English, Hebrew and German was also part of the study. The impact of the complexities and typological disparities on the performance of the alignment method has been observed.
+Another attempt to exploit translation texts that has been made in the course of this research was an attempt to recognise nouns in Amharic by transfer from German translation. Since nouns in German are recognised by their initial capital, aligning nouns leads to the recognition of nouns in Amharic, which do not have special features that distinguish them from words in other word classes.
+All the components of the system have been evaluated on text aligned at sentence level. On the same data, a comparison with the IBM alignment model implementation (GIZA++) has also been made.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissertation.pdf">https://pub.uni-bielefeld.de/download/2301459/2301462/dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Amharisch</topic><topic>Automatische Übersetzung</topic><topic>Automatische Worterkennung</topic><topic>Bilinguales Alignment</topic><topic>Bilingual alignment</topic><topic>Amharic</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-11352</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-06-25</dateOther>
+<extension>
+<bibliographicCitation>
+<frontiers>Teserra, S. A. (2007). Bilingual word and chunk alignment : a hybrid system for Amharic and English. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Teserra, S.A. (2007). &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Teserra SA. &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University; 2007.</ama>
+<ieee> S.A. Teserra, &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;,  Bielefeld: Bielefeld University, 2007.</ieee>
+<apa>Teserra, S. A. (2007).  &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<wels>Teserra, S. A. (2007): Bilingual word and chunk alignment : a hybrid system for Amharic and English. Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>S. A.  Teserra, &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Teserra, S.A., 2007. &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Teserra, S. A. (2007).  &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Teserra SA (2007) &lt;br /&gt;&lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Teserra, Saba Amsalu. 2007. &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Teserra, S.A.: Bilingual word and chunk alignment : a hybrid system for Amharic and English. Bielefeld University, Bielefeld (2007).</lncs>
+<default>Teserra SA (2007) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Teserra, Saba Amsalu. &lt;em&gt;Bilingual word and chunk alignment : a hybrid system for Amharic and English&lt;/em&gt;. Bielefeld: Bielefeld University, 2007.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301459</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-07-27T09:53:37Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T09:03:57Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,114 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959764">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Information Extraction from German Clinical Care Documents in Context of Alzheimer&apos;s Disease</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lisa</namePart>
+                        <namePart type="family">Langnickel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6356-6760</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kilian</namePart>
+                        <namePart type="family">Krockauer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mischa</namePart>
+                        <namePart type="family">Uebachs</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Schaaf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sumit</namePart>
+                        <namePart type="family">Madan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Klockgether</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Juliane</namePart>
+                        <namePart type="family">Fluck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Dementia affects approximately 50 million people in the world today, the majority suffering from Alzheimer&apos;s disease (AD). The availability of long-term patient data is one of the most important prerequisites for a better understanding of diseases. Worldwide, many prospective, longitudinal cohort studies have been initiated to understand AD. However, this approach takes years to enroll and follow up with a substantial number of patients, resulting in a current lack of data. This raises the question of whether clinical routine datasets could be utilized to extend collected registry data. It is, therefore, necessary to assess what kind of information is available in memory clinic routine databases. We did exactly this based on the example of the University Hospital Bonn. Whereas a number of data items are available in machine readable formats, additional valuable information is stored in textual documents. The extraction of information from such documents is only applicable via text mining methods. Therefore, we set up modular, rule-based text mining workflows requiring minimal sets of training data. The system achieves F1-scores over 95% for the most relevant classes, i.e., memory disturbances from medical reports and quantitative scores from semi-structured neuropsychological test protocols. Thus, we created a machine-readable core dataset for over 8000 patient visits over a ten-year period.</abstract>
+                    <subject>
+                        <topic>clinical text mining</topic>
+                        <topic>data standardization</topic>
+                        <topic>semantic interoperability</topic>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Applied Sciences</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>22</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2076-3417</identifier>
+                    <identifier type="ISI">000723839200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29597644</identifier>
+                    <identifier type="doi">10.3390/app112210717</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959764</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959764">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959764/2959937/applsci-11-10717-v2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959764" DMDID="DMD2959764">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959764"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

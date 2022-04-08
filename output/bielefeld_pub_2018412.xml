@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2018412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Genome feature exploration using hyperbolic Self-Organizing Maps</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Naryttza Namelly</namePart>
+                        <namePart type="family">Díaz Solórzano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörg</namePart>
+                        <namePart type="family">Ontrup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The advent of sequencing technologies allows to reassess the relationship between species in the hierarchically organized tree of life. Self-Organizing Maps (SOM) in Euclidean and hyperbolic space are applied to genomic signatures of 350 different organisms of the two superkingdoms Bacteria and Archaea to link the sequence signature space to pre-defined taxonomic levels, i.e. the tree of life. In the hyperbolic space the SOMs are trained by either the standard algorithm (HSOM) or in a hierarchical manner (H²SOM). For evaluating the SOM performances, distances between organisms in the feature space, on the SOM grid and in the taxonomy tree are compared pair-wise. We show that the structure recovered using the different SOMs reflects the gold standard of current taxonomy. The distances between species are better preserved when using the HSOM or H²SOM which makes the hyperbolic space better suited for embedding the high dimensional genomic signatures.</abstract>
+                    <subject>
+                        <topic>hyperbolic SOM</topic>
+                        <topic>Metagenomics</topic>
+                        <topic>information visualization</topic>
+                        <topic>phylogenetics</topic>
+                        <topic>self organization</topic>
+                        <topic>tree of life</topic>
+                        <topic>whole genome analysis</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-3-00-022473-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20184123</identifier>
+                    <identifier type="doi">10.2390/biecoll-wsom2007-140</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2018412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2018412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2018412/2956452/282-Artikeltext-372-1-10-20190603.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2018412" DMDID="DMD2018412">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2018412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

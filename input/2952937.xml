@@ -1,0 +1,110 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2952937</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Efficient Reject Options for Particle Filter Object Tracking in Medical Applications</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Johannes</namePart>
+  <namePart type="family">Kummert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">164297339</identifier></name>
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Schulz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">34943216</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0739-612X</description></name>
+<name type="personal">
+  <namePart type="given">Tim</namePart>
+  <namePart type="family">Redick</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Nassim</namePart>
+  <namePart type="family">Ayoub</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Ali</namePart>
+  <namePart type="family">Modabber</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Dirk</namePart>
+  <namePart type="family">Abel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Reliable object tracking that is based on video data constitutes an important challenge in diverse areas, including, among others, assisted surgery. Particle filtering offers a state-of-the-art technology for this challenge. Becaise a particle filter is based on a probabilistic model, it provides explicit likelihood values; in theory, the question of whether an object is reliably tracked can be addressed based on these values, provided that the estimates are correct. In this contribution, we investigate the question of whether these likelihood values are suitable for deciding whether the tracked object has been lost. An immediate strategy uses a simple threshold value to reject settings with a likelihood that is too small. We show in an application from the medical domain—object tracking in assisted surgery in the domain of Robotic Osteotomies—that this simple threshold strategy does not provide a reliable reject option for object tracking, in particular if different settings are considered. However, it is possible to develop reliable and flexible machine learning models that predict a reject based on diverse quantities that are computed by the particle filter. Modeling the task in the form of a regression enables a flexible handling of different demands on the tracking accuracy; modeling the challenge as an ensemble of classification tasks yet surpasses the results, while offering the same flexibility.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="sensors-21-02114-v2.kummert.pdf">https://pub.uni-bielefeld.de/download/2952937/2953013/sensors-21-02114-v2.kummert.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>MDPI </publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>secure object tracking</topic><topic>reject option</topic><topic>particle filtering</topic><topic>assisted surgery</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Sensors</title></titleInfo>
+  <identifier type="eIssn">1424-8220</identifier>
+  <identifier type="MEDLINE">33803030</identifier>
+  <identifier type="ISI">000652732100001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29529376</identifier><identifier type="doi">10.3390/s21062114</identifier>
+<part><detail type="volume"><number>21</number></detail><detail type="issue"><number>6</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Kummert, J., Schulz, A., Redick, T., Ayoub, N., Modabber, A., Abel, D., Hammer, B.: Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. Sensors. 21, : 2114 (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kummert, Johannes, Schulz, Alexander, Redick, Tim, Ayoub, Nassim, Modabber, Ali, Abel, Dirk, and Hammer, Barbara. 2021. “Efficient Reject Options for Particle Filter Object Tracking in Medical Applications”. &lt;em&gt;Sensors&lt;/em&gt; 21 (6): 2114.&lt;/div&gt;</chicago>
+<mla>Kummert, Johannes, Schulz, Alexander, Redick, Tim, Ayoub, Nassim, Modabber, Ali, Abel, Dirk, and Hammer, Barbara. “Efficient Reject Options for Particle Filter Object Tracking in Medical Applications”. &lt;em&gt;Sensors&lt;/em&gt; 21.6 (2021): 2114.</mla>
+<default>Kummert J, Schulz A, Redick T, Ayoub N, Modabber A, Abel D, Hammer B (2021) &lt;br /&gt;&lt;em&gt;Sensors&lt;/em&gt; 21(6): 2114.</default>
+<ama>Kummert J, Schulz A, Redick T, et al. Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt;. 2021;21(6): 2114.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kummert, J., Schulz, A., Redick, T., Ayoub, N., Modabber, A., Abel, D. &amp;amp; Hammer, B. (2021). Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt;, &lt;em&gt;21&lt;/em&gt;(6): 2114. MDPI . doi:10.3390/s21062114.&lt;/div&gt;</dgps>
+<frontiers>Kummert, J., Schulz, A., Redick, T., Ayoub, N., Modabber, A., Abel, D., and Hammer, B. (2021). Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt; 21:2114.</frontiers>
+<apa>Kummert, J., Schulz, A., Redick, T., Ayoub, N., Modabber, A., Abel, D., &amp;amp; Hammer, B. (2021). Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt;, &lt;em&gt;21&lt;/em&gt;(6), 2114. &lt;a href="https://doi.org/10.3390/s21062114" target="_blank"&gt;https://doi.org/10.3390/s21062114&lt;/a&gt;</apa>
+<ieee> J. Kummert, et al., “Efficient Reject Options for Particle Filter Object Tracking in Medical Applications”, &lt;em&gt;Sensors&lt;/em&gt;,  vol. 21, 2021, : 2114.</ieee>
+<wels>Kummert, J.; Schulz, A.; Redick, T.; Ayoub, N.; Modabber, A.; Abel, D.; Hammer, B. (2021): Efficient Reject Options for Particle Filter Object Tracking in Medical Applications &lt;em&gt;Sensors&lt;/em&gt;,21:(6):2114</wels>
+<harvard1>Kummert, J., et al., 2021. Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt;, 21(6): 2114.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kummert, J., Schulz, A., Redick, T., Ayoub, N., Modabber, A., Abel, D., &amp;amp; Hammer, B. (2021). Efficient Reject Options for Particle Filter Object Tracking in Medical Applications. &lt;em&gt;Sensors&lt;/em&gt;, &lt;em&gt;21&lt;/em&gt;(6), 2114. &lt;a href="https://doi.org/10.3390/s21062114" target="_blank"&gt;https://doi.org/10.3390/s21062114&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Kummert J, Schulz A, Redick T, Ayoub N, Modabber A, Abel D, Hammer B (2021) &lt;br /&gt;Efficient Reject Options for Particle Filter Object Tracking in Medical Applications.&lt;br /&gt;Sensors 21(6): 2114.</bio1>
+<angewandte-chemie>J.  Kummert, A.  Schulz, T.  Redick, N.  Ayoub, A.  Modabber, D.  Abel, and B.  Hammer, “Efficient Reject Options for Particle Filter Object Tracking in Medical Applications”, &lt;em&gt;Sensors&lt;/em&gt;, &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;21&lt;/em&gt;, : 2114.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2952937</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-03-19T11:58:02Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-06-14T10:55:42Z</recordChangeDate>
+</recordInfo>
+</mods>

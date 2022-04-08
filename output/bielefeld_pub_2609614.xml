@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2609614">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dynamic conceptualization in a mechanical-object assembly environment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Jung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1996</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In an experimental setting of mechanical-object assembly, the CODY (“Concept Dynamics”) project is concerned with the development of knowledge representations and inference methods that are able to dynamically conceptualize the situation in the task environment. A central aim is to enable an artificial agent to understand and process natural-language instructions of a human partner. Instructions may build on the current perception of the assembly environment on the one hand, and on the other on the knowledge-based understanding of grouped structures in the developing construct. To this end, a dynamic conceptualization must integrate information not only describing the types of the objects involved, but also their changing functional roles when becoming part of structured assemblies.
+We have developed an operational knowledge representation formalism, COAR (“Concepts for Objects, Assemblies, and Roles”), by which processes of dynamic conceptualization in sequences of assembly steps can be formally reconstructed. Inferences concern the assertion or retraction of aggregate representations in a dynamic knowledge base, as well as the computation of role changes for individual objects associated herewith. The structural representations integrate situated spatial features and relations, such as position, size, distance, or orthogonality, which are inferred on need from a geometry description of the task environment. The capacity of our approach has been evaluated in a 3D computergraphics simulation environment.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Artificial Intelligence Review</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3-4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>345</start>
+                                <end>368</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0269-2821</identifier>
+                    <identifier type="eIssn">1573-7462</identifier>
+                    <identifier type="ISI">A1996VG07800011</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26096142</identifier>
+                    <identifier type="doi">10.1007/BF00127686</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2609614</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2609614">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2609614/2633074/aire96.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2609614" DMDID="DMD2609614">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2609614"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301237">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Die </nonSort>
+                        <title>vorschnelle Ablehnung des dinglichen Konsenses : Abstraktions- und Trennungsprinzip im ZGB der DDR</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hauke G.</namePart>
+                        <namePart type="family">Sieverts</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Otte</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-10-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>Deutschland (DDR) / Zivilgesetzbuch , Eigentumsübertragung , Abstraktionsprinzip , Trennungsprinzip , Dinglicher Konsens ,</topic>
+                    </subject>
+                    <classification authority="ddc">340</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12736</identifier>
+                    <identifier type="sys">HT015591458</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301237</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301241/01_Titel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301242/02_Vorwort.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301244/04_Literaturverzeichnis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301240/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE4_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301243/03_Inhaltsverzeichnis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE5_bielefeld_pub_2301237">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301237/2301245/05_Text.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301237" DMDID="DMD2301237">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301237"/>
+            <mets:div TYPE="part" ID="PART1_2301237" LABEL="02_Vorwort.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2301237"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2301237" LABEL="04_Literaturverzeichnis.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2301237"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2301237" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2301237"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2301237" LABEL="03_Inhaltsverzeichnis.pdf">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2301237"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2301237" LABEL="05_Text.pdf">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2301237"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

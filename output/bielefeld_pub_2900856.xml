@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900856">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the distribution of cycles and paths in multichromosomal breakpoint graphs and the expected value of rearrangement distance</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Pedro</namePart>
+                        <namePart type="family">Feijão</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fábio</namePart>
+                        <namePart type="family">Martinez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Annelyse</namePart>
+                        <namePart type="family">Thévenin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Finding the smallest sequence of operations to transform one genome into another is an important problem in comparative genomics. The breakpoint graph is a discrete structure that has proven to be effective in solving distance problems, and the number of cycles in a cycle decomposition of this graph is one of the remarkable parameters to help in the solution of related problems. For a fixed k, the number of linear unichromosomal genomes (signed or unsigned) with n elements such that the induced breakpoint graphs have k disjoint cycles, known as the Hultman number, has been already determined. In this work we extend these results to multichromosomal genomes, providing formulas to compute the number of multichromosal genomes having a fixed number of cycles and/or paths. We obtain an explicit formula for circular multichromosomal genomes and recurrences for general multichromosomal genomes, and discuss how these series can be used to calculate the distribution and expected value of the rearrangement distance between random genomes.</abstract>
+                    <subject>
+                        <topic>Hultman number</topic>
+                        <topic>multichromosomal genomes</topic>
+                        <topic>genome rearrangement</topic>
+                        <topic>breakpoint graph</topic>
+                        <topic>double cut and join</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 19</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">26695008</identifier>
+                    <identifier type="ISI">000367881400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29008561</identifier>
+                    <identifier type="doi">10.1186/1471-2105-16-s19-s1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900856</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900856">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900856/2900857/1471-2105-16-S19-S1.feijao.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900856" DMDID="DMD2900856">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900856"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

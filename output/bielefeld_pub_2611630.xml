@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2611630">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the Inversion-Indel Distance</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Eyla</namePart>
+                        <namePart type="family">Willing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Simone</namePart>
+                        <namePart type="family">Zaccaria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marília</namePart>
+                        <namePart type="family">Dias Vieira Braga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+The inversion distance, that is the distance between two unichromosomal genomes with the same content allowing only inversions of DNA segments, can be computed thanks to a pioneering approach of Hannenhalli and Pevzner in 1995. In 2000, El-Mabrouk extended the inversion model to allow the comparison of unichromosomal genomes with unequal contents, thus insertions and deletions of DNA segments besides inversions. However, an exact algorithm was presented only for the case in which we have insertions alone and no deletion (or vice versa), while a heuristic was provided for the symmetric case, that allows both insertions and deletions and is called the inversion-indel distance. In 2005, Yancopoulos, Attie and Friedberg started a new branch of research by introducing the generic double cut and join (DCJ) operation, that can represent several genome rearrangements (including inversions). Among others, the DCJ model gave rise to two important results. First, it has been shown that the inversion distance can be computed in a simpler way with the help of the DCJ operation. Second, the DCJ operation originated the DCJ-indel distance, that allows the comparison of genomes with unequal contents, considering DCJ, insertions and deletions, and can be computed in linear time.
+Results
+
+In the present work we put these two results together to solve an open problem, showing that, when the graph that represents the relation between the two compared genomes has no bad components, the inversion-indel distance is equal to the DCJ-indel distance. We also give a lower and an upper bound for the inversion-indel distance in the presence of bad components.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 15: Proc. of RECOMB-CG 2013</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">24564182</identifier>
+                    <identifier type="ISI">000328316700003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26116309</identifier>
+                    <identifier type="doi">10.1186/1471-2105-14-S15-S3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2611630</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2611630">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2611630/2632018/1471-2105-14-S15-S3.willing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2611630" DMDID="DMD2611630">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2611630"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

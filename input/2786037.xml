@@ -1,0 +1,129 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2786037</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Rolf</namePart>
+  <namePart type="family">Hilker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">27433075</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Alexander</namePart>
+  
+  
+  <namePart type="family">Goesmann</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29609402</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In times of multi-resistant pathogenic bacteria, their detailed study is of utmost importance. Their comparative analysis can even aid the emerging field of personalized medicine by enabling optimized treatment depending on the presence of virulence factors and antibiotic resistances in the infection concerned. The weaknesses and functionality of these pathogenic bacteria can be investigated using modern computer science and novel sequencing technologies. One of these methods is the bioinformatics evaluation of high-throughput sequencing data.
+A pathogenic bacterium posing severe health care issues is the ubiquitous Pseudomonas aeruginosa. It is involved in a wide range of infections mainly affecting the pulmonary or urinary tract, open wounds and burns. The prevalence of chronic obstructive pulmonary disease cases with P. aeruginosa in Germany alone is ~600,000 per year. Within the framework of this dissertation, computational comparative genomics experiments were conducted with a panel of 20 of the most abundant Pseudomonas aeruginosa strains. 15 of these strains were isolated from clinical cases, while the remaining 5 were strains without a known infection history isolated from the environment. This division was chosen to enable direct comparison of the pathogenic potential of clinical and environmental strains and identification of their possible characteristic differences.
+When designing the bioinformatics experiments and searching for an efficient visualization and automatic analysis platform for read alignment (mapping) data, it became evident that no adequate solution was available that included all required functionalities. On these grounds, the decision was made to define two main subjects for this dissertation.
+Besides the P. aeruginosa pan genome analysis, a novel read mapping visualization and analysis software was developed and published in the journal Bioinformatics. This software - ReadXplorer - is partly based upon a prototype, which was developed during a preceding master's thesis at the Center for Biotechnology of the Bielefeld University under the name VAMP. The software was developed into a comprehensive user-friendly platform augmented with several newly developed and implemented automatic bioinformatics read mapping analyses. Two examples of these are the transcription start site detection and the single nucleotide polymorphism detection. Moreover, new intuitive visualizations were added to the existent ones and existing visualizations were greatly enhanced. ReadXplorer is designed to support not only DNA-seq data as accrued in the P. aeruginosa experiments, but also any kind of standard read mapping data as obtained from RNA-seq or ChIP-seq experiments. The data management was designed to comply with the latest performance and efficiency needs emerging from the large next generation sequencing data sets. Finally, ReadXplorer was empowered to deal with eukaryotic read mapping data as well.
+Amongst other software, ReadXplorer was then used to analyze different comparative genomics aspects of P. aeruginosa and to draw conclusions regarding the development of their pathogenicity. The list of conducted experiments includes phylogeny and gene set determination, analysis of regions of genomic plasticity and identification of single nucleotide polymorphisms. The achieved results were published in the journal Environmental Biology.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Rolf_Hilker-publish.pdf">https://pub.uni-bielefeld.de/download/2786037/2786040/Dissertation_Rolf_Hilker-publish.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Supplemental-Material-Dissertation-Rolf-Hilker.zip">https://pub.uni-bielefeld.de/download/2786037/2786042/Supplemental-Material-Dissertation-Rolf-Hilker.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Pseudomonas aeruginosa</topic><topic>Software Development</topic><topic>Read Mapping Analysis</topic><topic>Bioinformatics</topic><topic>Computational Biology</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27860377</identifier>
+<part><extent unit="pages">166</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-10-27</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Hilker, Rolf. &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University, 2015.</mla>
+<default>Hilker R (2015) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<lncs> Hilker, R.: Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains. Bielefeld University, Bielefeld (2015).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hilker, Rolf. 2015. &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<harvard1>Hilker, R., 2015. &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hilker, R. (2015).  &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Hilker R (2015) &lt;br /&gt;&lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<angewandte-chemie>R.  Hilker, &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<wels>Hilker, R. (2015): Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains. Bielefeld: Bielefeld University.</wels>
+<apa>Hilker, R. (2015).  &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<ieee> R. Hilker, &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;,  Bielefeld: Bielefeld University, 2015.</ieee>
+<ama>Hilker R. &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University; 2015.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hilker, R. (2015). &lt;em&gt;Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Hilker, R. (2015). Development of a read mapping analysis software and computational pan genome analysis of 20 Pseudomonas aeruginosa strains. Bielefeld: Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2786037</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-11-16T08:54:24Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:57Z</recordChangeDate>
+</recordInfo>
+</mods>

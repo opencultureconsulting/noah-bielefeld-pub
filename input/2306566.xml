@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2306566</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:530</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Numerical simulations of a smectic lamellar phase of amphiphilic molecules</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Claire</namePart>
+  <namePart type="family">Loison</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Friederike</namePart>
+  
+  
+  <namePart type="family">Schmid</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10028</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Diese Arbeit behandelt die flüssig-kristalline lamellare Phase (die sogenannte $L_[alpha]$ Phase), die amphiphile Moleküle in wässriger Lösung ausbilden. Diese lamellare Phase besteht aus mehrere Lagen paralleler amphiphiler Doppelschichten, die durch Lösungsmittel voneinander getrennt sind. Wir studieren mittels Molekulardynamiksimulationen die thermischen Fluktuationen der Doppelschichten und die Defekte, die in der lamellaren Phase auftreten können, und die Auswirkungen eines Makromoleküls, das zwischen die Doppelschichten gesetzt wird.
+In dem zugrundeliegenden, idealisierten "coarse-grained" Modell werden das Lösungsmittel als weiche Kugeln und die Amphiphile als Tetramere (zwei hydrophile Kugeln und zwei hydrophobe Kugeln) repräsentiert. Der Algorithmus, der in dieser Arbeit verwendet wird, beschreibt die lamellare Phase im isobaren isothermen Ensemble ohne Oberflächenspannung ($NPT,[gamma] = 0$).
+Zuerst verifizieren wir, dass das Modell tatsächlich eine stabile $L_[alpha]$ Phase bildet, und charakterisieren ihre flüssig-kristalline Struktur.
+Um die Elastizität der lamellaren Phase zu untersuchen, berechnen wir die Fluktuationsspektren der Positionen von den Doppelschichten und vergleichen sie mit den Vorhersagen der "Discrete Harmonic Theory" (DH) für die Elastizität der smektischen Phasen. Die Ergebnisse der Simulation, die mit einem Stapel von fünfzehn Doppelschichten durchgeführt wurde, stimmen mit der DH Theorie überein. Daher können die elastischen Konstanten (Steifigkeitsmodul $K_c$ und smektischer Kompressionsmodul $B$) berechnet werden.
+Nachfolgend betrachten wir lokale Defekte, die auf Grund thermischer Fluktuationen erscheinen. Kurzlebige Poren treten spontan in den Doppelschichten der lamellaren Phase auf. Im Gegensatz dazu werden Verbindungen oder Durchgänge zwischen den Doppelschichten selten beobachtet. Die Verteilungen von Größe und Form der Poren werden bestimmt. Das Verhältnis zwischen Fläche der Poren $a$ und ihrer Konturlänge $c$ wird durch das Skalengesetz $a [propto] c^(2/3)$ beschrieben (ein analoges Skalengesetz gilt für zweidimensionale geschlossene Irrfahrten). Zusätzlich ist die Oberflächenspannung null. Wir nehmen dann an, dass die Energie einer einzelnen Pore nur von ihrer Konturlänge abhängt. Diese Energie und die Linienspannung des Porenrandes werden mittels der Verteilung für die Konturlänge geschätzt. Zusätzlich zeigt eine zeitabhängige Analyse, dass die Poren innerhalb ihrer Lebensdauer nicht nennenswert diffundieren.
+Schließlich wird eine lamellare Phase untersucht, in der ein hydrophiles, flexibles, lineares Polymer zwischen zwei Doppelschichten eingesetzt wurde. Zwei Typen von Polymeren werden simuliert: adsorbierende und nicht-adsorbierende. In beiden Fällen werden die Wechselwirkungen zwischen den Doppelschichten in Anwesenheit des Polymers verändert. Die Konformation des Polymers hängt allerdings stark von den Wechselwirkungen zwischen dem Polymer und den Amphiphilen ab: Ein adsorbierendes Polymer verbleibt während der gesamten Simulation in der dünnen Lösungsmittelschicht zwischen den beiden Doppelschichten. Ein nicht-adsorbierendes Polymer dagegen kondensiert in einen kompakten "Tropfen". Im Gegensatz zu den üblichen Annahmen ändert ein nicht-adsorbierendes Polymer lokal den interlamellaren Abstand und erzeugt Poren in der Doppelschicht in seiner Nähe.</abstract>
+<abstract lang="eng">This thesis deals with the liquid crystalline lamellar phase $L_[alpha]$ built by amphiphilic molecules in aqueous solutions, and its interaction with macromolecules. We perform molecular dynamics simulations to study thermal fluctuations and defects appearing in a stack of parallel amphiphilic bilayers separated by layers of solvent. The idealized, coarse-grained model represents the solvent with soft spheres and the amphiphiles with bead-and-spring tetramers (two solvophilic beads and two solvophobic beads). The algorithm used for this thesis describes the lamellar phase in the isobaric isothermal ensemble without surface tension ($N,P,T,[gamma] = 0$).
+First, we verify that the model exhibits a liquid-crystalline lamellar phase, which we characterize. In a second part, we study the elasticity of this smectic lamellar phase. The position fluctuation spectra of the bilayers are computed, and compared to the predictions of the "Discrete Harmonic" (DH) theory for the elasticity of smectic phases. The bilayer fluctuations observed in the simulation of a stack of fifteen bilayers are well described by the DH-theory, so that the two elastic constants - the bending rigidity $K_c$ and the smectic compressibility modulus $B$ - can be computed.
+Then, we investigate the point defects appearing in the smectic because of thermal fluctuations. It turns out that transient pores spontaneously nucleate in the bilayers of the lamellar phase. On the contrary, necks and passages between the bilayers are rarely detected. The size and shape distributions of the pores are investigated. The relationship between their area $a$ and their contour length $c$ is well described by the scaling law $a [propto] c^(2/3)$ - the same scaling as two dimensional closed random walks. Additionally, the surface tension is zero. Therefore we consider that the energy of a pore depends explicitly only on the contour length of the pore. The effective free energy of individual pores and the line tension of the pore edge are then estimated from the contour-length distribution. Besides, a time-dependent analysis shows that the displacement of the pores within the bilayers during their life-time is very limited.
+In the last chapter of this thesis, we investigate a lamellar phase doped by a solvent-soluble flexible linear polymer inserted between two bilayers. Two polymer types were simulated: adsorbing or non-adsorbing. In both cases, the interactions between the bilayers are softened in the presence of a polymer. However, the conformations of the chain strongly depend on the interactions between the polymer and the bilayers: An adsorbing polymer remains aligned with the bilayers and confined in the thin solvent layer, whereas a non-adsorbing polymer condenses into a globule. Contrarily to standard hypothesis, a non-adsorbing polymer locally modifies the interlamellar spacing, and triggers the formation of pores in its vicinity.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="loison_phd.pdf">https://pub.uni-bielefeld.de/download/2306566/2306569/loison_phd.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Amphiphile Verbindungen , Lamellare Phase , Smektische Phase , Molekulardynamik ,  , Soft matter , Liquid crystals , Smectics , Membranes , Defects</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-4995</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2003-06-26</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Loison C (2003) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Loison, Claire. &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2003.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Loison, Claire. 2003. &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Loison, C.: Numerical simulations of a smectic lamellar phase of amphiphilic molecules. Bielefeld University, Bielefeld (Germany) (2003).</lncs>
+<angewandte-chemie>C.  Loison, &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2003&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Loison, C., 2003. &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Loison C (2003) &lt;br /&gt;&lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Loison, C. (2003).  &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Loison, C. (2003): Numerical simulations of a smectic lamellar phase of amphiphilic molecules. Bielefeld (Germany): Bielefeld University.</wels>
+<ieee> C. Loison, &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2003.</ieee>
+<apa>Loison, C. (2003).  &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Loison, C. (2003). &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Loison, C. (2003). Numerical simulations of a smectic lamellar phase of amphiphilic molecules. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Loison C. &lt;em&gt;Numerical simulations of a smectic lamellar phase of amphiphilic molecules&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2003.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2306566</recordIdentifier><recordCreationDate encoding="w3cdtf">2004-03-18T14:03:04Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T09:01:12Z</recordChangeDate>
+</recordInfo>
+</mods>

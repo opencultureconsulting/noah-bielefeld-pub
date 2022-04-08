@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2560386">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Noise and delays in adaptive interacting oscillatory systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julio</namePart>
+                        <namePart type="family">Rodriguez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philippe</namePart>
+                        <namePart type="family">Blanchard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-03-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis, we explore the global behavior of complex systems composed of interacting local dynamical systems, each set on a vertex of a network which characterizes the mutual interactions. We consider heterogeneous arrangements, meaning that for each vertex the local dynamics can be different. To better match potential applications we allow mutual interactions to be time delayed and subject to noise sources affecting either the orbits of the local dynamics and/or the connectivity of the network. Within this very general dynamical context, we construct and focus on interactions enabling a certain level of adaptation between the local dynamical systems. By propagation of information via the coupling network, the local parameters are adaptively tuned and ultimately reach a set of consensual values. This is explicitly and analytically carried out for frequency- and radius-adapting HOPF oscillators. We then consider adapting the time scale and the shape of periodic signals. We also study how adaptive mechanisms can be implemented in heterogeneous networks formed by a couple of subnetworks, the first one with adaptive capability and the second one without. The first  subnetwork defines interactions between phase oscillators with adaptive frequency capability, the other subnetwork connects damped vibrating systems without adaptation. Next, noise sources are introduced into the dynamics via stochastic switchings of the network connections. This extra time-dependence in the network opens the possibility for parametric resonance and destabilization of a consensual oscillatory state, found for purely static networks. Finally, we introduce external noise environments which corrupt the orbits of the local systems. For &apos;&apos;All-to-All&apos;&apos; network topology, we analytically derive the effects of Gaussian and non-Gaussian noise sources  and unveil noise induced emergent oscillating patterns of the relevant order parameter that characterizes this dynamics. Although in this thesis the emphasis is made on deriving analytical results, we systematically supplement our findings  with extensive numerical simulations. They not only corroborate and illustrate our theoretical assertions but provide additional insights where analytical results could not be found.</abstract>
+                    <subject>
+                        <topic>heterogenous complex networks</topic>
+                        <topic>time-dependent Laplacian matrices</topic>
+                        <topic>coupled phase oscillators</topic>
+                        <topic>damped vibrating systems</topic>
+                        <topic>periodic signal generator and HOPF oscillators</topic>
+                        <topic>LIAPOUNOV functions</topic>
+                        <topic>super-diffusive stochastic processes</topic>
+                        <topic>non-Gaussian noise</topic>
+                        <topic>order parameter</topic>
+                        <topic>adaptive frequency and attractor-shaping mechanisms</topic>
+                        <topic>second-order DDE</topic>
+                        <topic>second-order ODE with time-dependent parameters</topic>
+                        <topic>KURAMOTO dynamics</topic>
+                        <topic>noise-induced global bifurcation diagram</topic>
+                        <topic>self-propelled agents</topic>
+                        <topic>synchronization</topic>
+                        <topic>stochastic parametric resonance</topic>
+                        <topic>time-oscillating order parameter</topic>
+                        <topic>adaptation</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25603864</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2560386</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2560386">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2560386/2560388/Thesis_BI_JR_NOI_DEL_ADA_INT_OSC_SYS__final_.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2560386" DMDID="DMD2560386">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2560386"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

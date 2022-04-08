@@ -1,0 +1,117 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2304920</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Lernen von Montagestrategien in einer verteilten Multiroboterumgebung</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Markus C.</namePart>
+  <namePart type="family">Ferch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jianwei</namePart>
+  
+  
+  <namePart type="family">Zhang</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Forschungen im Bereich der Montage blicken auf eine lange Tradition zurück. Klassische Verfahren beschreiten meist den Weg der Demontage, wobei sie zunächst ein bereits bestehendes Aggregat zerlegen und dabei alle möglichen Zerlegungssequenzen generieren, um aus ihnen mittels einer Heuristik die optimale Montagesequenz auszuwählen. Diese Methoden garantieren das Auffinden einer Lösung auch bei sehr komplexen Konstruktionen. Dafür werden dann allerdings bereits recht ausgeklügelte Suchverfahren (A* oder AA*) verwendet. Hinzu kommt, dass die Einzelbauteile gewisse geometrische Bedingungen erfüllen müssen.
+Beobachtet man jedoch die Vorgehensweise eines Menschen bei der Montage von Aggregaten, stellt man fest, dass hier weitestgehend vorwärts gerichtete Strategien verfolgt werden. Damit ist gemeint, dass eine Person, ein endgültiges Ziel vor Augen, schrittweise beginnt, die Einzelteile zusammenzufügen, und wenn sie feststellt, dass sie einen Fehler gemacht hat, diesen zu korrigieren versucht. Es wird also in abgewandelter Form das Prinzip des Versuchs und Irrtums verfolgt, wobei sich der Versuch meist an dem gewünschten Ziel orientiert und nicht völlig dem Zufall überlassen wird.
+Jeder einzelne Montageschritt wird von einer Vielzahl unbewusster Handlungen wie Umgreifen, Umorientieren, Fixieren etc. begleitet, die durch langjähriges Training erworben wurden. In technischen Systemen, deren haptische Fähigkeiten weit eingeschränkter sind als die des Menschen, muss deshalb beim Erlernen von Montagestrategien mit langen Lernphasen gerechnet werden, besonders wenn man nicht nur einen Aspekt, z.B. das Finden einer Montagesequenz mit Lernmechanismen, realisieren möchte, sondern wenn sich das gesamte System, wie in dieser Arbeit, auf lernende Methoden abstützt. In solchen Fällen bieten sich besondere Architekturen an wie z.B. Layered-Learning oder AA-learning.
+In der vorliegenden Arbeit wurden verschiedene Aspekte lernender Systeme auf ein reales Mehrrobotersystem übertragen. Dabei wurden sowohl Einzelfähigkeiten mit Hilfe von Lernmechanismen antrainiert als auch das globale Verhalten, hier die Montage von Aggregaten aus Spielzeug, durch ein vorwärtsgerichtetes, zielorientiertes Verstärkungslernen untersucht.
+Zur Realisation wurden unterschiedlichste Verfahren wie Funktionsapproximation, PCA, Markovsche Entscheidungsprozesse, Graphrepräsentation und -vergleich etc. verwendet. Darüber hinaus wurde ein Objektmodell zur mentalen Simulation der zu konstruierenden Bauteile realisiert und eine neue Repräsentation unendlicher Zustands-/Aktionsräume entwickelt. Neben der Fragestellung des Lernens wurde eine verteilte Roboteransteuerung verwirklicht, die es erlaubt, mehrere Manipulatoren gleichzeitig in einem sich überschneidenden Arbeitsbereich unabhängig voneinander zu betreiben. Besonderer Wert wurde dabei auf die Kooperation gelegt. Die Kommunikation der beteiligten Anwendungen beruht auf einem serverlosen Agentennetzwerk, in dem Objekte ausgetauscht werden können.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.pdf">https://pub.uni-bielefeld.de/download/2304920/2304925/diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="biblio2.css">https://pub.uni-bielefeld.de/download/2304920/2304924/biblio2.css</url>
+  </location>
+  <physicalDescription><internetMediaType>text/css</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="container.tgz">https://pub.uni-bielefeld.de/download/2304920/2304923/container.tgz</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-gzip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.ps">https://pub.uni-bielefeld.de/download/2304920/2304926/diss.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2001</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Objektmodell</topic><topic>Automatische Handlungsplanung</topic><topic>Montage</topic><topic>Agenten</topic><topic>Montageroboter</topic><topic>Mehrarmroboter</topic><topic>Ansteuerung</topic><topic>Umweltmodell (Informatik)</topic><topic>Reinforcement learning</topic><topic>Robotic</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-3722</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2002-05-23</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Ferch, M. C. (2001): Lernen von Montagestrategien in einer verteilten Multiroboterumgebung. Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>M. C.  Ferch, &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2001&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Ferch MC (2001) &lt;br /&gt;&lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ferch, M. C. (2001).  &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Ferch, M.C., 2001. &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<frontiers>Ferch, M. C. (2001). Lernen von Montagestrategien in einer verteilten Multiroboterumgebung. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ferch, M.C. (2001). &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Ferch MC. &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University; 2001.</ama>
+<ieee> M.C. Ferch, &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;,  Bielefeld: Bielefeld University, 2001.</ieee>
+<apa>Ferch, M. C. (2001).  &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ferch, Markus C. 2001. &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Ferch, M.C.: Lernen von Montagestrategien in einer verteilten Multiroboterumgebung. Bielefeld University, Bielefeld (2001).</lncs>
+<default>Ferch MC (2001) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Ferch, Markus C. &lt;em&gt;Lernen von Montagestrategien in einer verteilten Multiroboterumgebung&lt;/em&gt;. Bielefeld: Bielefeld University, 2001.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2304920</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-10-24T09:30:51Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:40:57Z</recordChangeDate>
+</recordInfo>
+</mods>

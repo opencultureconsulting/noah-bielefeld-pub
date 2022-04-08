@@ -1,0 +1,100 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2933161</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>GOTrapper. A tool to navigate through branches of gene ontology hierarchy</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Hezha</namePart>
+  <namePart type="family">Hassan</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">134248845</identifier></name>
+<name type="personal">
+  <namePart type="given">Siba</namePart>
+  <namePart type="family">Shanak</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+Gene Ontology (GO) is a useful resource of controlled vocabulary that provides information about annotated genes. Based on such resource, finding the biological function is useful for biologists to come up with different hypotheses and help further investigations of an experiment. The biological function for desired genes and gene associations is picked up from a randomly chosen list or through the analysis of differential gene expression. Many tools have been developed to utilize GO knowledge and cluster genes according to relevant biological functions. The retrieved GO terms include both specific and non-specific terms, which is not user-friendly in terms of data analysis. Thus one approach is still missing, which allows navigating through different levels of GO hierarchy manually.
+Result
+
+We developed a tool, GOTrapper, which allows moving up or down to the very bottom of the GO hierarchy. This is performed manually by the user, based on an assigned threshold. This tool grabs the shared terms by the desired set of input genes of Homo sapiens. Here, two inputs are possible. “Within” is to find associated terms within one gene list, and “Between” is to find associated terms between two lists. The tool also provides the option to return the terms with the pre-selected evidence codes.
+Conclusion
+
+GOTrapper is a user-friendly Java tool that helps the user move up and down the ontology tree, which leads to new hypotheses and devising new association of the input genes. It also allows returning terms of associated genes based on selected evidence codes. This tool can be accessed and is freely available at https://github.com/BioGeneTools/GOTrapper.
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="s12859-018-2581-8.hassan.pdf">https://pub.uni-bielefeld.de/download/2933161/2933163/s12859-018-2581-8.hassan.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Nature</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Gene ontology     GO term refinement     Gene association</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="eIssn">1471-2105</identifier>
+  <identifier type="MEDLINE">30634902</identifier>
+  <identifier type="ISI">MEDLINE:30634902</identifier><identifier type="urn">urn:nbn:de:0070-pub-29331617</identifier><identifier type="doi">10.1186/s12859-018-2581-8</identifier>
+<part><detail type="volume"><number>20</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>H.  Hassan, and S.  Shanak, “GOTrapper. A tool to navigate through branches of gene ontology hierarchy”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2019&lt;/strong&gt;, &lt;em&gt;20&lt;/em&gt;, : 20.</angewandte-chemie>
+<harvard1>Hassan, H., &amp;amp; Shanak, S., 2019. GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 20(1): 20.</harvard1>
+<bio1>Hassan H, Shanak S (2019) &lt;br /&gt;GOTrapper. A tool to navigate through branches of gene ontology hierarchy.&lt;br /&gt;BMC Bioinformatics 20(1): 20.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hassan, H., &amp;amp; Shanak, S. (2019). GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;20&lt;/em&gt;(1), 20. doi:10.1186/s12859-018-2581-8&lt;/div&gt;</apa_indent>
+<wels>Hassan, H.; Shanak, S. (2019): GOTrapper. A tool to navigate through branches of gene ontology hierarchy &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,20:(1):20</wels>
+<ieee> H. Hassan and S. Shanak, “GOTrapper. A tool to navigate through branches of gene ontology hierarchy”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 20, 2019, : 20.</ieee>
+<apa>Hassan, H., &amp;amp; Shanak, S. (2019). GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;20&lt;/em&gt;(1), 20. doi:10.1186/s12859-018-2581-8</apa>
+<frontiers>Hassan, H., and Shanak, S. (2019). GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 20:20.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hassan, H. &amp;amp; Shanak, S. (2019). GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;20&lt;/em&gt;(1): 20. Springer Nature. doi:10.1186/s12859-018-2581-8.&lt;/div&gt;</dgps>
+<ama>Hassan H, Shanak S. GOTrapper. A tool to navigate through branches of gene ontology hierarchy. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2019;20(1): 20.</ama>
+<default>Hassan H, Shanak S (2019) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 20(1): 20.</default>
+<mla>Hassan, Hezha, and Shanak, Siba. “GOTrapper. A tool to navigate through branches of gene ontology hierarchy”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 20.1 (2019): 20.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hassan, Hezha, and Shanak, Siba. 2019. “GOTrapper. A tool to navigate through branches of gene ontology hierarchy”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 20 (1): 20.&lt;/div&gt;</chicago>
+<lncs> Hassan, H., Shanak, S.: GOTrapper. A tool to navigate through branches of gene ontology hierarchy. BMC Bioinformatics. 20, : 20 (2019).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2933161</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-01-18T13:04:43Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:46:54Z</recordChangeDate>
+</recordInfo>
+</mods>

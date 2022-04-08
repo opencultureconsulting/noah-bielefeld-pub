@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943400">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient Processing of Spatio-Temporal Data Streams With Spiking Neural Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Kugele</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Pfeil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Spiking neural networks (SNNs) are potentially highly efficient models for inference on fully parallel neuromorphic hardware, but existing training methods that convert conventional artificial neural networks (ANNs) into SNNs are unable to exploit these advantages. Although ANN-to-SNN conversion has achieved state-of-the-art accuracy for static image classification tasks, the following subtle but important difference in the way SNNs and ANNs integrate information over time makes the direct application of conversion techniques for sequence processing tasks challenging. Whereas all connections in SNNs have a certain propagation delay larger than zero, ANNs assign different roles to feed-forward connections, which immediately update all neurons within the same time step, and recurrent connections, which have to be rolled out in time and are typically assigned a delay of one time step. Here, we present a novel method to obtain highly accurate SNNs for sequence processing by modifying the ANN training before conversion, such that delays induced by ANN rollouts match the propagation delays in the targeted SNN implementation. Our method builds on the recently introduced framework of streaming rollouts, which aims for fully parallel model execution of ANNs and inherently allows for temporal integration by merging paths of different delays between input and output of the network. The resulting networks achieve state-of-the-art accuracy for multiple event-based benchmark datasets, including N-MNIST, CIFAR10-DVS, N-CARS, and DvsGesture, and through the use of spatio-temporal shortcut connections yield low-latency approximate network responses that improve over time as more of the input sequence is processed. In addition, our converted SNNs are consistently more energy-efficient than their corresponding ANNs.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1662-453X</identifier>
+                    <identifier type="MEDLINE">32431592</identifier>
+                    <identifier type="ISI">000536174500001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29434009</identifier>
+                    <identifier type="doi">10.3389/fnins.2020.00439</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943400</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943400">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943400/2943401/fnins-14-00439.kugele.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943400" DMDID="DMD2943400">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943400"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

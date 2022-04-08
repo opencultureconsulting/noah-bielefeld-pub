@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1775489">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Remarks on Shannon&apos;s secrecy systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Rudolf</namePart>
+                        <namePart type="family">Ahlswede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1982</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The paper contains three improvements of Shannon&apos;s theory of secrecy systems: 1. By a very simple construction we obtain ciphers which are with respect to natural security measures as good as Shannon&apos;s &apos;random ciphers&apos;. 2. For this construction it is unnecessary to assume that the messages are essentially equally likely. Shannon made this assumption in order to the make his &apos;random cipher&apos; approach work. 3. Furthermore we construct optimal ciphers under the rather robust assumption that only a bound on the entropy of the source is known to the communicators and that the cryptanalyst is still granted to know the message statistic exactly. Finally we construct worst codes for the binary symmetric channel and emphasize the importance of this &apos;dual coding problem&apos; for cryptography.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Problems of Control and Information Theory</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>301</start>
+                                <end>318</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0370-2529</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-9076</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1775489</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1775489">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1775489/2311934/Ahlswede_41.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1775489" DMDID="DMD1775489">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1775489"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

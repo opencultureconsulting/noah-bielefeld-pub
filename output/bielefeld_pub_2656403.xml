@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2656403">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reliability of Extreme Learning Machines</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-12-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The reliable application of machine learning methods becomes increasingly important in challenging engineering domains. In particular, the application of extreme
+learning machines (ELM) seems promising because of their apparent simplicity and the capability of very efficient processing of large and high-dimensional data sets.
+However, the ELM paradigm is based on the concept of single hidden-layer neural networks with randomly initialized and fixed input weights and is thus inherently
+unreliable. This black-box character usually repels engineers from application in potentially safety critical tasks. The problem becomes even more severe since, in
+principle, only sparse and noisy data sets can be provided in such domains. The goal of this thesis is therefore to equip the ELM approach with the abilities to perform in a reliable manner.
+This goal is approached in three aspects by enhancing the robustness of ELMs to initializations, make ELMs able to handle slow changes in the environment (i.e. input drifts), and allow the incorporation of continuous constraints derived from prior knowledge. It is shown in several diverse scenarios that the novel ELM approach proposed in this thesis ensures a safe and reliable application while simultaneously sustaining the full modeling power of data-driven methods.</abstract>
+                    <subject>
+                        <topic>random projection</topic>
+                        <topic>Machine learning</topic>
+                        <topic>artificial neural network</topic>
+                        <topic>extreme learning machine</topic>
+                        <topic>reliability</topic>
+                        <topic>cognitive robotics</topic>
+                        <topic>continuum robotics</topic>
+                        <topic>dynamical system</topic>
+                        <topic>copper wire bonding.</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26564035</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2656403</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2656403">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2656403/2656405/PhDThesis_kneumann_130214.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2656403" DMDID="DMD2656403">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2656403"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

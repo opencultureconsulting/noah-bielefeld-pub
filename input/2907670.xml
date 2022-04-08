@@ -1,0 +1,110 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2907670</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Fast ancestral gene order reconstruction of genomes with unequal gene content</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Pedro</namePart>
+  <namePart type="family">Feijão</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">38801322</identifier></name>
+<name type="personal">
+  <namePart type="given">Francisco Eloi</namePart>
+  <namePart type="family">Soares de Araujo</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">63003255</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">89815</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>14th Annual Research in Computational Molecular Biology (RECOMB) Comparative Genomics Satellite Workshop</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+During evolution, genomes are modified by large scale structural events, such as rearrangements, deletions or insertions of large blocks of DNA. Of particular interest, in order to better understand how this type of genomic evolution happens, is the reconstruction of ancestral genomes, given a phylogenetic tree with extant genomes at its leaves. One way of solving this problem is to assume a rearrangement model, such as Double Cut and Join (DCJ), and find a set of ancestral genomes that minimizes the number of events on the input tree. Since this problem is NP-hard for most rearrangement models, exact solutions are practical only for small instances, and heuristics have to be used for larger datasets. This type of approach can be called event-based. Another common approach is based on finding conserved structures between the input genomes, such as adjacencies between genes, possibly also assigning weights that indicate a measure of confidence or probability that this particular structure is present on each ancestral genome, and then finding a set of non conflicting adjacencies that optimize some given function, usually trying to maximize total weight and minimizing character changes in the tree. We call this type of methods homology-based.
+Results
+
+In previous work, we proposed an ancestral reconstruction method that combines homology- and event-based ideas, using the concept of intermediate genomes, that arise in DCJ rearrangement scenarios. This method showed better rate of correctly reconstructed adjacencies than other methods, while also being faster, since the use of intermediate genomes greatly reduces the search space. Here, we generalize the intermediate genome concept to genomes with unequal gene content, extending our method to account for gene insertions and deletions of any length. In many of the simulated datasets, our proposed method had better results than MLGO and MGRA, two state-of-the-art algorithms for ancestral reconstruction with unequal gene content, while running much faster, making it more scalable to larger datasets.
+Conclusion
+
+Studing ancestral reconstruction problems under a new light, using the concept of intermediate genomes, allows the design of very fast algorithms by greatly reducing the solution search space, while also giving very good results. The algorithms introduced in this paper were implemented in an open-source software called RINGO (ancestral Reconstruction with INtermediate GenOmes), available at https://github.com/pedrofeijao/RINGO.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="BMCINF.art%3A10.1186%2Fs12859-016-1261-9.feijao.pdf">https://pub.uni-bielefeld.de/download/2907670/2907671/BMCINF.art%3A10.1186%2Fs12859-016-1261-9.feijao.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Nature</publisher><dateIssued encoding="w3cdtf">2016</dateIssued><place><placeTerm type="text">Montreal, Canada</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Ancestral reconstruction Small parsimony problem Genome rearrangement Double-cut-and-join InDels Gene insertions and deletions</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">28185578</identifier>
+  <identifier type="ISI">000392515100003</identifier><identifier type="urn">urn:nbn:de:0070-pub-29076708</identifier><identifier type="doi">10.1186/s12859-016-1261-9</identifier>
+<part><detail type="volume"><number>17</number></detail><detail type="issue"><number>S14</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Feijão, P., Soares de Araujo, F.E.: Fast ancestral gene order reconstruction of genomes with unequal gene content. BMC Bioinformatics. 17, : 413 (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Feijão, Pedro, and Soares de Araujo, Francisco Eloi. 2016. “Fast ancestral gene order reconstruction of genomes with unequal gene content”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17 (S14): 413.&lt;/div&gt;</chicago>
+<mla>Feijão, Pedro, and Soares de Araujo, Francisco Eloi. “Fast ancestral gene order reconstruction of genomes with unequal gene content”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17.S14 (2016): 413.</mla>
+<default>Feijão P, Soares de Araujo FE (2016) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17(S14): 413.</default>
+<ama>Feijão P, Soares de Araujo FE. Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2016;17(S14): 413.</ama>
+<frontiers>Feijão, P., and Soares de Araujo, F. E. (2016). Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 17:413.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Feijão, P. &amp;amp; Soares de Araujo, F.E. (2016). Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(S14): 413. Gehalten auf der 14th Annual Research in Computational Molecular Biology (RECOMB) Comparative Genomics Satellite Workshop, Springer Nature. doi:10.1186/s12859-016-1261-9.&lt;/div&gt;</dgps>
+<apa>Feijão, P., &amp;amp; Soares de Araujo, F. E. (2016). Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(S14), 413. doi:10.1186/s12859-016-1261-9</apa>
+<ieee> P. Feijão and F.E. Soares de Araujo, “Fast ancestral gene order reconstruction of genomes with unequal gene content”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 17, 2016, : 413.</ieee>
+<wels>Feijão, P.; Soares de Araujo, F. E. (2016): Fast ancestral gene order reconstruction of genomes with unequal gene content &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,17:(S14):413</wels>
+<bio1>Feijão P, Soares de Araujo FE (2016) &lt;br /&gt;Fast ancestral gene order reconstruction of genomes with unequal gene content.&lt;br /&gt;BMC Bioinformatics 17(S14): 413.</bio1>
+<harvard1>Feijão, P., &amp;amp; Soares de Araujo, F.E., 2016. Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 17(S14): 413.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Feijão, P., &amp;amp; Soares de Araujo, F. E. (2016). Fast ancestral gene order reconstruction of genomes with unequal gene content. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;17&lt;/em&gt;(S14), 413. doi:10.1186/s12859-016-1261-9&lt;/div&gt;</apa_indent>
+<angewandte-chemie>P.  Feijão, and F. E.  Soares de Araujo, “Fast ancestral gene order reconstruction of genomes with unequal gene content”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2016&lt;/strong&gt;, &lt;em&gt;17&lt;/em&gt;, : 413.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2907670</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-12-23T09:37:29Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:46:07Z</recordChangeDate>
+</recordInfo>
+</mods>

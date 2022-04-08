@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2687903">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Real-time Sonification in Swimming – from pressure changes of displaced water to sound</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bodo</namePart>
+                        <namePart type="family">Ungerechts</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Cesarini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bruce</namePart>
+                        <namePart type="family">Mason</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="isbn">978-0-646-91868-6</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26879037</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2687903</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2687903">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2687903/2687906/BMS2014_Sonification_hydrodyn_Pressure_BUng_etal__PROC.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE1_bielefeld_pub_2687903">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2687903/2687908/BMS14_REAL_TIME_soni-pressure_changes_Audvid_BUng.pptx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2687903">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2687903/2906628/BMS14_REAL_TIME_sonification_of_pressure_changes_swim_Ton.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2687903" DMDID="DMD2687903">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2687903"/>
+            <mets:div TYPE="part" ID="PART1_2687903" LABEL="BMS14_REAL_TIME_soni-pressure_changes_Audvid_BUng.pptx">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2687903"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2687903" LABEL="BMS14_REAL_TIME_sonification_of_pressure_changes_swim_Ton.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2687903"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,128 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2426595">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">D.</namePart>
+                        <namePart type="family">Badoni</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">V.</namePart>
+                        <namePart type="family">Dante</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">M.</namePart>
+                        <namePart type="family">D&apos;Andreagiovanni</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Salina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">L.</namePart>
+                        <namePart type="family">Carota</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">S.</namePart>
+                        <namePart type="family">Fusi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">P.</namePart>
+                        <namePart type="family">Del Giudice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Electronic neuromorphic devices with on-chip, on-line learning should be able to modify quickly the synaptic couplings&apos; to acquire information about new patterns to be stored (synaptic plasticity) and, at the same time, preserve this information on very long time scales (synaptic stability). Here, we illustrate the electronic implementation of a simple solution to this stability-plasticity problem, recently proposed and studied in various contexts. It is based on the observation that reducing the analog depth of the synapses to the extreme (bistable synapses) does not necessarily disrupt the performance of the device as an associative memory, provided that 1) the number of neurons is large enough; 2) the transitions between stable synaptic states are stochastic; and 3) learning is slow. The drastic reduction of the analog depth of the synaptic variable also makes this solution appealing from the point of view of electronic implementation and offers a simple methodological alternative to the technological solution based on floating gates. We describe the full custom analog very large-scale integration (VLSI) realization of a small network of integrate-and-fire neurons connected by bistable deterministic plastic synapses which can implement the idea of stochastic learning. In the absence of stimuli, the memory is preserved indefinitely. During the stimulation the synapse undergoes quick temporary changes through the activities of the pre- and postsynaptic neurons; those changes stochastically result in a long-term modification of the synaptic efficacy. The intentionally disordered pattern of connectivity allows the system to generate a randomness suited to drive the stochastic selection mechanism. We check by a suitable stimulation protocol that the stochastic synaptic plasticity produces the expected pattern of potentiation and depression in, the electronic network. The proposed implementation requires only 69 x 83 mum(2) for the neuron and 68 x 47 mum(2) for the synapse (using a 0.6 mum, three metals, CMOS technology) and, hence, it is particularly suitable for the integration, of a large number of plastic synapses on a single chip.</abstract>
+                    <subject>
+                        <topic>synaptic plasticity</topic>
+                        <topic>neuromorphic a VLSI</topic>
+                        <topic>integrate-and-fire neurons</topic>
+                        <topic>learning systems</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IEEE Transactions on Neural Networks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>5</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1297</start>
+                                <end>1307</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1045-9227</identifier>
+                    <identifier type="MEDLINE">18244578</identifier>
+                    <identifier type="ISI">000186478900027</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24265955</identifier>
+                    <identifier type="doi">10.1109/TNN.2003.816367</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2426595</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2426595">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2426595/2457504/A_VLSI_recurrent_network_of_integrate-and-fire_neurons_connected_by_plastic_synapses_with_long-term_memory.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2426595" DMDID="DMD2426595">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2426595"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

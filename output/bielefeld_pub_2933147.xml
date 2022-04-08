@@ -1,0 +1,106 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933147">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Superhedging prices of European and American options in a non-linear incomplete market with default</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Miryana</namePart>
+                        <namePart type="family">Grigorova</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marie-Claire</namePart>
+                        <namePart type="family">Quenez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Agnès</namePart>
+                        <namePart type="family">Sulem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper studies the superhedging prices and the associated superhedging strategies
+for European and American options in a non-linear incomplete market with default.
+We present the seller&apos;s and the buyer&apos;s point of view. The underlying market
+model consists of a risk-free asset and a risky asset driven by a Brownian motion and
+a compensated default martingale. The portfolio process follows non-linear dynamics
+with a non-linear driver ƒ. By using a dynamic programming approach, we first
+provide a dual formulation of the seller&apos;s (superhedging) price for the European option
+as the supremum over a suitable set of equivalent probability measures *Q* ∈ $\mathcal{Q}$  of
+the ƒ-evaluation/expectation under *Q* of the payoff. We also provide an infinitesimal
+characterization of this price as the minimal supersolution of a constrained BSDE with
+default. By a form of symmetry, we derive corresponding results for the buyer. We also
+give a dual representation of the seller&apos;s (superhedging) price for the American option
+associated with an irregular payoff (ξ&lt;sub&gt;*t*&lt;/sub&gt;) (not necessarily càdlàg) in terms of the value of
+a non-linear mixed control/stopping problem. We also provide an infinitesimal characterization
+of this price in terms of a constrained reflected BSDE. When ξ is càdlàg,
+we show a duality result for the buyer&apos;s price. These results rely on first establishing a
+non-linear optional decomposition for processes which are $\mathcal{E}$&lt;sup&gt;ƒ&lt;/sup&gt; -strong supermartingales
+under *Q*, for all *Q* ∈ $\mathcal{Q}$ .</abstract>
+                    <subject>
+                        <topic>European options</topic>
+                        <topic>American options</topic>
+                        <topic>incomplete markets</topic>
+                        <topic>non-linear pricing</topic>
+                        <topic>BSDEs with constraints</topic>
+                        <topic>constrained re ected BSDEs</topic>
+                        <topic>ƒ-expectation</topic>
+                        <topic>control problems with non-linear expectation</topic>
+                        <topic>optimal stopping with non-linear expectation</topic>
+                        <topic>non-linear optional decomposition</topic>
+                        <topic>pricing-hedging duality</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>607</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29331479</identifier>
+                    <identifier type="sys">HT019954866</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933147</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933147">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933147/2933148/IMW_working_paper_607.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933147" DMDID="DMD2933147">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933147"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

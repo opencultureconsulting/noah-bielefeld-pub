@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945451">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>genetic algorithm for finding realistic sea routes considering the weather</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kuhlemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kevin</namePart>
+                        <namePart type="family">Tierney</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5931-4907</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The weather has a major impact on the profitability, safety, and environmental sustainability of the routes sailed by seagoing vessels. The prevailing weather strongly influences the course of routes, affecting not only the safety of the crew, but also the fuel consumption and therefore the emissions of the vessel. Effective decision support is required to plan the route and the speed of the vessel considering the forecasted weather. We implement a genetic algorithm to minimize the fuel consumption of a vessel taking into account the two most important influences of weather on a ship: the wind and the waves. Our approach assists route planners in finding cost minimal routes that consider the weather, avoid specified areas, and meet arrival time constraints. Furthermore, it supports ship speed control to avoid areas with weather conditions that would result in high fuel costs or risk the safety of the vessel. The algorithm is evaluated for a variety of instances to show the impact of weather routing on the routes and the fuel and travel time savings that can be achieved with our approach. Including weather into the routing leads to a savings potential of over 10% of the fuel consumption. We show that ignoring the weather when constructing routes can lead to routes that cannot be sailed in practice. Furthermore, we evaluate our algorithm with stochastic weather data to show that it can provide high-quality routes under real conditions even with uncertain weather forecasts.</abstract>
+                    <subject>
+                        <topic>Weather routing</topic>
+                        <topic>Ship routing</topic>
+                        <topic>Genetic algorithm</topic>
+                        <topic>Uncertain weather</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of heuristics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>26</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>801–825</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1381-1231</identifier>
+                    <identifier type="eIssn">1572-9397</identifier>
+                    <identifier type="ISI">000551743300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29454510</identifier>
+                    <identifier type="doi">10.1007/s10732-020-09449-7</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945451</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945451">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945451/2946700/Kuhlemann-Tierney2020_Article_AGeneticAlgorithmForFindingRea.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945451" DMDID="DMD2945451">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945451"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

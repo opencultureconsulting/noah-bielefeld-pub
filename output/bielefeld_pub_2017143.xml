@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017143">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Local Heat Exploration Model for Interactive Sonification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Till</namePart>
+                        <namePart type="family">Bovermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Eoin</namePart>
+                        <namePart type="family">Brazil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents a new sonification model for the exploration of topographically ordered high-dimensional data (multi-parameter maps, volume data) where each data item consists of a position and feature vector. The sonification model implements a common metaphor from thermodynamics that heat can be interpreted as stochastic motion of &apos;molecules&apos;. The latter are determined by the data under examination, and &apos;live&apos; only in the feature space. Heat-induced interactions cause acoustic events that fuse to a granular sound texture which conveys meaningful information about the underlying distribution in feature space. As a second ingredient of the model, data selection is achieved by a separated navigation process in position space using a dynamic aura model, such that heat can be induced locally. Both, a visual and an auditory display are driven by the underlying model. We exemplify the sonification by means of interaction examples for different high-dimensional distributions.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">1-874653-81X</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20171431</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017143</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017143">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017143/2760917/BovermannHermannRitter2005-TLH.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017143" DMDID="DMD2017143">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017143"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

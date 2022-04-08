@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2954372">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Simulating digital micromirror devices for patterning coherent excitation light in structured illumination microscopy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Lachetta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hauke</namePart>
+                        <namePart type="family">Sandmeyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alice</namePart>
+                        <namePart type="family">Sandmeyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Schulte Am Esch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Huser</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2348-7416</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marcel</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Digital micromirror devices (DMDs) are spatial light modulators that employ the electro-mechanical movement of miniaturized mirrors to steer and thus modulate the light reflected off a mirror array. Their wide availability, low cost and high speed make them a popular choice both in consumer electronics such as video projectors, and scientific applications such as microscopy. High-end fluorescence microscopy systems typically employ laser light sources, which by their nature provide coherent excitation light. In super-resolution microscopy applications that use light modulation, most notably structured illumination microscopy (SIM), the coherent nature of the excitation light becomes a requirement to achieve optimal interference pattern contrast. The universal combination of DMDs and coherent light sources, especially when working with multiple different wavelengths, is unfortunately not straight forward. The substructure of the tilted micromirror array gives rise to a blazed grating, which has to be understood and which must be taken into account when designing a DMD-based illumination system. Here, we present a set of simulation frameworks that explore the use of DMDs in conjunction with coherent light sources, motivated by their application in SIM, but which are generalizable to other light patterning applications. This framework provides all the tools to explore and compute DMD-based diffraction effects and to simulate possible system alignment configurations computationally, which simplifies the system design process and provides guidance for setting up DMD-based microscopes. This article is part of the Theo Murphy meeting &apos;Super-resolution structured illumination microscopy (part 1)&apos;.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Philosophical transactions. Series A, Mathematical, physical, and engineering sciences</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>379</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2199</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1471-2962</identifier>
+                    <identifier type="MEDLINE">33896207</identifier>
+                    <identifier type="ISI">000644937400006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29543722</identifier>
+                    <identifier type="doi">10.1098/rsta.2020.0147</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2954372</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2954372">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2954372/2957115/Lachetta+DMD-SIM+RSTA+2021.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2954372" DMDID="DMD2954372">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2954372"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

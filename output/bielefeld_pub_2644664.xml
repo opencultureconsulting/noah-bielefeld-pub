@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2644664">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Life-long learning with Growing Conceptual Maps</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Beyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-12-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A number of challenges arise when transferring the concept of life-long learning to technical systems. This thesis addresses the challenges of learning with continuous data streams, learning with weak supervision, learning with non-stationary data and learning with multi-view data. We introduce the Growing Conceptual Maps Framework as a solution to these challenges, allowing the incremental online learning of a classification model without the requirement of storing training data explicitly. The framework is based on topological feature maps, \emph{i.e.} Growing Neural Gas, and therefore allows a straight forward visualization of the trained model.
+
+With the rapidly increasing amount of data in many domains, such as news feeds, social media, or sensory networks \emph{etc.}, nowadays, assistive systems are required to process a theoretically infinite stream of data in order to help us in our daily tasks. While existing approaches coming from data mining mostly do not scale up to such large and complex tasks, new paradigms are required which allow the model to grow task-dependently and adapt to a changing environment, in order to learn in a life-long fashion.
+
+In this thesis we thus stepwise extend Growing Neural Gas with appropriate novel online labeling and prediction strategies, as well as novel neuron insertion strategies, according to meet these challenges. We evaluate the introduced approaches on benchmarking, artificial and real stream datasets, showing the benefit of our architecture and proving that the Growing Conceptual Maps Framework renders itself ideal for life-long learning by outperforming similar existing approach, and delivering comparable results to other well established classifiers such as a Support Vector Machine. As an application for our framework, we furthermore develop an online human activity classifier based on two Growing Conceptual Maps that can compete with state-of-the-art (offline) human activity classifiers. 
+
+As a final contribution, we introduce a straight forward visualization schema for Growing Conceptual Maps that allows the user to track emerging categories and their relation according to the underlying map, and furthermore demonstrate its usability of identifying trends and events in stream data.</abstract>
+                    <subject>
+                        <topic>labeling</topic>
+                        <topic>online learning</topic>
+                        <topic>conceptual maps</topic>
+                        <topic>Life-long learning</topic>
+                        <topic>growing neural gas</topic>
+                        <topic>stream data</topic>
+                        <topic>clustering</topic>
+                        <topic>neural networks</topic>
+                        <topic>topological feature maps</topic>
+                        <topic>incremental learning</topic>
+                        <topic>classification</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26446640</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2644664</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2644664">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2644664/2644665/Beyer_PhDThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2644664" DMDID="DMD2644664">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2644664"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

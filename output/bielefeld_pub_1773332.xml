@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Simple and flexible detection of contiguous repeats using a suffix tree</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dan</namePart>
+                        <namePart type="family">Gusfield</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study the problem of detecting all occurrences of (primitive) tandem repeats and tandem arrays in a string. We first give a simple time- and space-optimal algorithm to find all tandem repeats, and then modify it to become a time and space-optimal algorithm for finding only the primitive tandem repeats. Both of these algorithms are then extended to handle tandem arrays. The contribution of this paper is both pedagogical and practical, giving simple algorithms and implementations based on a suffix tree, using only standard tree traversal techniques.</abstract>
+                    <subject>
+                        <topic>Sequence analysis</topic>
+                        <topic>Tandem repeats</topic>
+                        <topic>Suffix tree</topic>
+                        <topic>Tandem arrays</topic>
+                        <topic>Repeats</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Theoretical Computer Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>270</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1-2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>843</start>
+                                <end>856</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0304-3975</identifier>
+                    <identifier type="ISI">000173012000033</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17733325</identifier>
+                    <identifier type="doi">10.1016/S0304-3975(01)00121-9</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773332">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773332/2311227/science.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773332" DMDID="DMD1773332">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773332"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

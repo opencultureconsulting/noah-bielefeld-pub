@@ -1,0 +1,115 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2932990">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Distributional regression for demand forecasting in e-grocery</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Ulrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hermann</namePart>
+                        <namePart type="family">Jahnke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roland</namePart>
+                        <namePart type="family">Langrock</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Pesch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robin</namePart>
+                        <namePart type="family">Senge</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">E-grocery offers customers an alternative to traditional brick-and-mortar
+grocery retailing. Customers select e-grocery for convenience, making use of
+the home delivery at a selected time slot. In contrast to brick-and-mortar
+retailing, in e-grocery on-stock information for stock keeping units (SKUs)
+becomes transparent to the customer before substantial shopping effort has
+been invested, thus reducing the personal cost of switching to another
+supplier. As a consequence, compared to brick-and-mortar retailing, on-stock
+availability of SKUs has a strong impact on the customer’s order decision,
+resulting in higher strategic service level targets for the e-grocery retailer. To
+account for these high service level targets, we propose a suitable model for
+accurately predicting the extreme right tail of the demand distribution, rather
+than providing point forecasts of its mean. Specifically, we propose the
+application of distributional regression methods— so-called Generalised
+Additive Models for Location, Scale and Shape (GAMLSS)—to arrive at the
+cost-minimising solution according to the newsvendor model. As benchmark
+models we consider linear regression, quantile regression, and some popular
+methods from machine learning. The models are evaluated in a case study,
+where we compare their out-of-sample predictive performance with regard to
+the service level selected by the e-grocery retailer considered.</abstract>
+                    <subject>
+                        <topic>Forecasting</topic>
+                        <topic>Inventory</topic>
+                        <topic>E-commerce</topic>
+                        <topic>Retailing</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>09-2018</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2196-2723</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29329909</identifier>
+                    <identifier type="doi">10.4119/unibi/2932990</identifier>
+                    <identifier type="sys">HT020610319</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2932990</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2932990">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2932990/2932991/wpaper_09_2018.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2932990" DMDID="DMD2932990">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2932990"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

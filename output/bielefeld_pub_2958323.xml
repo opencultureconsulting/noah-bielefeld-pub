@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2958323">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Intent inference in shared-control teleoperation system in consideration of user behavior</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Liangliang</namePart>
+                        <namePart type="family">Wang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Qiang</namePart>
+                        <namePart type="family">Li</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4315-0864</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">James</namePart>
+                        <namePart type="family">Lam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Zheng</namePart>
+                        <namePart type="family">Wang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Zhengyou</namePart>
+                        <namePart type="family">Zhang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">**Abstract**&lt;br&gt;
+In shared-control teleoperation, rather than directly executing a user’s input, a robot system assists the user via part of autonomy to reduce user’s workload and improve efficiency. Effective assistance is challenging task as it requires correctly inferring the user intent, including predicting the user goal from all possible candidates as well as inferring the user preferred movement in the next step. In this paper, we present a probabilistic formulation for inferring the user intent by taking consideration of user behavior. In our approach, the user behavior is learned from demonstrations, which is then incorporated in goal prediction and path planning. Using maximum entropy principle, two goal prediction methods are tailored according to the similarity metrics between user’s short-term movements and the learned user behavior. We have validated the proposed approaches with a user study—examining the performance of our goal prediction methods in approaching tasks in multiple goals scenario. The results show that our approaches perform well in user goal prediction and are able to respond quickly to dynamic changing of the user’s goals. Comparison analysis shows that the proposed approaches outperform the existing methods especially in scenarios with goal ambiguity.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="issn">2199-4536</identifier>
+                    <identifier type="eIssn">2198-6053</identifier>
+                    <identifier type="ISI">000705808900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29583235</identifier>
+                    <identifier type="doi">10.1007/s40747-021-00533-4</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2958323</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2958323">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2958323/2958324/Intent+inference+in+shared%E2%80%91control+teleoperation+system+in+consideration+of+human+behaviour.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2958323" DMDID="DMD2958323">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2958323"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

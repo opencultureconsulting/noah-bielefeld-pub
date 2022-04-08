@@ -1,0 +1,56 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2653104">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Path planning for a redundant robot manipulator using sparse demonstration data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Seidel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The ability to plan and execute of movements to accomplish tasks is a fundamental requirement for all types of robot, whether in industrial or in research applications.  This Master Thesis addresses path planning for redundant robot platforms. The research targets two major goals. The first is to bypass the need for an explicit representation of a robot&apos;s environment, which is strained with sophisticated computations as well as required expert knowledge. This bypass allows for a considerably more flexible use of a robot, being able to adapt its path planning data to an arbitrary new environment within minutes. The second goal is to provide a real-time capable path planning method, that utilizes the advantages of redundant robot platforms and handles the increased complexity of such systems. These goals are achieved by introducing kinesthetic teaching into path planning, which has already proven to be a successful improvement for single task methods dealing with redundancy resolution.
+
+The thesis proposes an approach utilizing a topological neural network algorithm to construct an internal representation of a robot&apos;s workspace based on input
+data obtained from physical guidance of the robot by a user. In order to create feasible and safe movements, information from both configuration space of the robot and task space are employed. The algorithm is extended by
+heuristics to improve its results for the intended scenario.  This modified network construction algorithm constructs a navigation graph similar to classical approaches with explicit modeling. It can be processed by means of conventional search algorithms from graph theory to generate paths between two arbitrary points in the workspace.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26531041</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2653104</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2653104">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2653104/2653106/ma-seidel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2653104" DMDID="DMD2653104">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2653104"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

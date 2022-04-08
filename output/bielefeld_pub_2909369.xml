@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909369">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An EM transfer learning algorithm with applications in bionic hand prostheses</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0739-612X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Janne</namePart>
+                        <namePart type="family">Hahne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michel</namePart>
+                        <namePart type="family">Verleysen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Modern bionic hand prostheses feature unprecedented functionality, permitting motion in multiple degrees of freedom (DoFs). However, conventional user interfaces allow for contolling only one DoF at a time. An intuitive, direct and simultaneous control of multiple DoFs requires machine learning models. Unfortunately, such models are not yet sufficiently robust to real-world disturbances, such as electrode shifts. We propose a novel expectation maximization approach for transfer learning to rapidly recalibrate a machine learning model if disturbances occur.
+In our experimental evaluation we show that even if few data points are available which do not cover all classes, our proposed approach finds a viable transfer mapping which improves classification accuracy significantly and outperforms all tested baselines.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-2-87587-038-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29093690</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909369</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909369">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909369/2910588/paassen_schulz_hahne_hammer_esann_2017_vector_quantization_transfer_learning_preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909369" DMDID="DMD2909369">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909369"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

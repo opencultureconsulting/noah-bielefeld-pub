@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933813">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal Control of Debt-To-GDP Ratio in an N-State Regime Switching Economy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Neofytos</namePart>
+                        <namePart type="family">Rodosthenous</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We solve an infinite time-horizon bounded-variation stochastic control problem with regime
+switching between *N* states. This is motivated by the problem of a government that wants to control
+the country&apos;s debt-to-GDP (gross domestic product) ratio. In our formulation, the debt-to-GDP ratio
+evolves stochastically in continuous time, and its drift - given by the interest rate on government debt,
+net of the growth rate of GDP - is affected by an exogenous macroeconomic risk process modelled by a
+continuous-time Markov chain with *N* states. The government can act on the public debt by increasing
+or decreasing its level, and it aims at minimising a net expected cost functional. Without relying on a
+guess-and-verify approach, but performing a direct probabilistic study, we show that it is optimal to keep
+the debt-to-GDP ratio in an interval, whose boundaries depend on the states of the risk process. These
+boundaries are given through a zero-sum optimal stopping game with regime switching with *N* states and
+we completely characterise them as solutions to a system of nonlinear algebraic equations with constraints.
+To the best of our knowledge, such a result appears here for the first time. Finally, we put in practice our
+methodology in a case study of a Markov chain with *N* = 2 states; we provide a thorough analysis and
+we complement our theoretical results by a detailed numerical study on the sensitivity of the optimal debt
+ratio management policy with respect to the problem&apos;s parameters.</abstract>
+                    <subject>
+                        <topic>singular stochastic control</topic>
+                        <topic>zero-sum optimal stopping game</topic>
+                        <topic>free-boundary problem</topic>
+                        <topic>regime switching</topic>
+                        <topic>debt-to-GDP ratio</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>589</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29338135</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933813</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933813">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933813/2933814/IMW_working_paper_589a.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933813" DMDID="DMD2933813">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933813"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

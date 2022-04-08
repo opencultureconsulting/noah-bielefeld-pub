@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1681378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evolutionary optimization of echo state networks: multiple motor pattern learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">André Frank</namePart>
+                        <namePart type="family">Krause</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Dürr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9239-4964</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bettina</namePart>
+                        <namePart type="family">Bläsing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Schack</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Echo State Networks are a special class of recurrent neural networks, that are well suited for attractor based learning of motor patterns. Using structural multiobjective optimization, the tradeoff between network size and accuracy can be identified. This allows to choose a feasible model capacity for a follow-up full weight optimization. Both optimization steps can be combined into a nested, hierarchical optimization procedure. It is shown to produce small and efficient networks, that are capable of storing multiple motor patterns in a single net. Especially the smaller networks can interpolate between learned patterns using bifurcation inputs.</abstract>
+                    <subject>
+                        <topic>Echo State Network</topic>
+                        <topic>Neural network</topic>
+                        <topic>motor pattern</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="isbn">978-989-8425-03-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16813780</identifier>
+                    <identifier type="doi">10.5220/0003027500630071</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1681378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1681378">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1681378/2285047/Krause_EtAl_2010_VD09485.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1681378" DMDID="DMD1681378">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1681378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

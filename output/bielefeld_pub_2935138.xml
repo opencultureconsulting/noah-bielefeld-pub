@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935138">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Indices to Evaluate Self-Organizing Maps for Structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Sperduti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Self-Organizing  Maps  for   Structures (SOM-SD) are neural networks models capable of processing structured data, such as sequences and trees. The evaluation of the encoding quality achieved by these maps can neither be measured exclusively by the quantization error as in the standard SOM, which fails to capture the structural aspects, nor by indices measuring topology preservation, because often there are no measures available for discrete structures. We propose new indices for the evaluation of encoding quality which are customized to the structural nature of input data. These indices are used to evaluate the quality of SOM-SDs trained on a benchmark dataset introduced earlier  in  [2].  We  show that the  proposed indices capture relevant structural features of the tree encoding additional to the statistical features of the training data vectors associated with the tree vertices.</abstract>
+                    <subject>
+                        <topic>SOM-SD</topic>
+                        <topic>structured data</topic>
+                        <topic>classification</topic>
+                        <topic>performance measure</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29351387</identifier>
+                    <identifier type="doi">10.2390/BIECOLL-WSOM2007-156</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935138</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935138">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935138/2956451/285-Artikeltext-375-1-10-20190603.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935138" DMDID="DMD2935138">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935138"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

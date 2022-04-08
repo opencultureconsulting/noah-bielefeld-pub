@@ -1,0 +1,125 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2706029">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ALLocator: An Interactive Web Platform for the Analysis of Metabolomic LC-ESI-MS Datasets, Enabling Semi-Automated, User-Revised Compound Annotation and Mass Isotopomer Ratio Analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nikolas</namePart>
+                        <namePart type="family">Kessler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frederik</namePart>
+                        <namePart type="family">Walter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marcus</namePart>
+                        <namePart type="family">Persicke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Albaum</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-1827-9914</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörn</namePart>
+                        <namePart type="family">Kalinowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Niehaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Adduct formation, fragmentation events and matrix effects impose special challenges to the identification and quantitation of metabolites in LC-ESI-MS datasets. An important step in compound identification is the deconvolution of mass signals. During this processing step, peaks representing adducts, fragments, and isotopologues of the same analyte are allocated to a distinct group, in order to separate peaks from coeluting compounds. From these peak groups, neutral masses and pseudo spectra are derived and used for metabolite identification via mass decomposition and database matching. Quantitation of metabolites is hampered by matrix effects and nonlinear responses in LC-ESI-MS measurements. A common approach to correct for these effects is the addition of a U-13C-labeled internal standard and the calculation of mass isotopomer ratios for each metabolite. Here we present a new web-platform for the analysis of LC-ESI-MS experiments. ALLocator covers the workflow from raw data processing to metabolite identification and mass isotopomer ratio analysis. The integrated processing pipeline for spectra deconvolution “ALLocatorSD” generates pseudo spectra and automatically identifies peaks emerging from the U-13C-labeled internal standard. Information from the latter improves mass decomposition and annotation of neutral losses. ALLocator provides an interactive and dynamic interface to explore and enhance the results in depth. Pseudo spectra of identified metabolites can be stored in user- and method-specific reference lists that can be applied on succeeding datasets. The potential of the software is exemplified in an experiment, in which abundance fold-changes of metabolites of the l-arginine biosynthesis in C. glutamicum type strain ATCC 13032 and l-arginine producing strain ATCC 21831 are compared. Furthermore, the capability for detection and annotation of uncommon large neutral losses is shown by the identification of (γ-)glutamyl dipeptides in the same strains. ALLocator is available online at: https://allocator.cebitec.uni-bielefeld.​de. A login is required, but freely available.</abstract>
+                    <subject>
+                        <topic>Biodata Mining</topic>
+                        <topic>Web Tool</topic>
+                        <topic>Metabolomics</topic>
+                        <topic>Bioinformatics</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="MEDLINE">25426929</identifier>
+                    <identifier type="ISI">000349145400100</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27060293</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0113909</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2706029</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2706029">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2706029/2713034/journal.pone.0113909.walter.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2706029" DMDID="DMD2706029">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2706029"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

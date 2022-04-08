@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1961997">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>minimal control schema for goal-directed arm movements based on physiological inter-joint coupling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Till</namePart>
+                        <namePart type="family">Bockemühl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Dürr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9239-4964</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Substantial evidence suggests that nervous systems simplify motor control of complex body geometries by use of higher level functional units, so called motor primitives or synergies. Although simpler, such high level functional units still require an adequate controller. In a previous study, we found that kinematic inter-joint couplings allow the extraction of simple movement synergies during unconstrained 3D catching movements of the human arm and shoulder girdle. Here, we show that there is a bijective mapping between movement synergy space and 3D Cartesian hand coordinates within the arm&apos;s physiological working range. Based on this mapping, we propose a minimal control schema for a 10-DoF arm and shoulder girdle. All key elements of this schema are implemented as artificial neural networks (ANNs). For the central controller, we evaluate two different ANN architectures: a feed-forward network and a recurrent Elman network. We show that this control schema is capable of controlling goal-directed movements of a 10-DoF arm with as few as five hidden units. Both controller variants are sufficient for the task. However, end-point stability is better in the feed-forward controller.</abstract>
+                    <subject>
+                        <topic>movement primitive</topic>
+                        <topic>principal component analysis</topic>
+                        <topic>artificial neural network</topic>
+                        <topic>modelling</topic>
+                        <topic>Arm movement</topic>
+                        <topic>inter-joint coupling</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19619977</identifier>
+                    <identifier type="doi">10.5220/0003084102200226</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1961997</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1961997">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1961997/2285035/Bockemuhl_and_Durr_2010_VD09484.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1961997" DMDID="DMD1961997">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1961997"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

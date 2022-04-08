@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305099">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Die </nonSort>
+                        <title>Brille mit Gedächtnis : Interaktives Lernen mit einem mobilen Augmented-Reality-System</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Bekel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-10-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Informatische Forschung beschäftigt sich zumeist mit der Spezialisierung auf einen bestimmten Bereich und der Entwicklung optimierter Verfahren für eine bestimmte Aufgabe. Innerhalb des Projektes VAMPIRE wurde das ehrgeizige Ziel verfolgt, ein umfassendes Gesamtsystem in Form eines computergestützten Assistentensystems zu entwickeln, welches eine Vielzahl an Funktionalitäten bieten soll. Bei dieser Entwicklung wurden ebenfalls die zu lösenden Aufgaben auf verschiedene Arbeitsgruppen aufgeteilt und von den jeweiligen Experten bearbeitet.
+In dieser Arbeit lag der Hauptfokus darauf, ein hochgradig integriertes und vor allem lernfähiges Gesamtsystem in Form eines Demonstrators zu konstruieren, welcher bereits eine Vielzahl von Funktionen des späteren Assistentensystems integrieren sollte. Der Schwerpunkt lag hier nicht auf der Spezialisierung in einem bestimmten Bereich, sondern vielmehr darauf, eine Vielzahl von benötigten Verfahren zu finden, für die Aufgabe zu modifizieren und gemeinsam in ein System zu integrieren, um eine Brille mit Gedächtnis überhaupt realisieren zu können.
+Technische Basis für die Realisierung einer Brille mit Gedächtnis ist eine Augmented-Reality-Apparatur, deren Kernstück aus zwei Kameras und einem 3-D-Display besteht und welche für die akustische Kommunikation über ein Mikrophon und über Kopfhörer verfügt. Dies ermöglicht, dass die visuelle Perzeption von Mensch und Maschine identisch ist und Systeminformationen sowohl visuell als auch akustisch mitgeteilt werden können.
+Auf dieser Hardwareplattform wurde ein System entwickelt, das eine Vielzahl von Funktionen so integriert, dass es auf natürliche Weise mit dem Benutzer interagieren und Gedächtnislücken des Benutzers in Bezug auf verlegte Gegenstände schließen kann. Das System kann einerseits Objekte erlernen und andererseits dem Benutzer sein erlangtes Wissen mitteilen.
+Bei der Entwicklung eines solchen Systems ist die große Herausforderung in der Kombination von Echtzeitfähigkeit und der komplexen Funktionsweise in einem mobilen System zu sehen. Um ein System zu entwickeln, welches zur Laufzeit Wissen durch möglichst natürliche Mensch-Maschine-Kommunikation erlangen und wiedergeben kann, mussten Wege gefunden werden, mit denen bei der Verarbeitung Rechenzeit gespart werden kann. Eine der Kernideen für die Lösung dieses Problems bestand darin, den Benutzer als Experten für die Korrektur bzw. die Steuerung des Systems zu verwenden. In dieser Arbeit wird aufgezeigt, dass erst die Integration des menschlichen Experten in die Verarbeitungsprozesse des künstlichen Systems die Verwendung von Verfahren ermöglicht, welche zwar eine geringere Leistungsfähigkeit bieten als vergleichbare komplexere Algorithmen, dafür aber einen sehr geringen Rechenaufwand benötigen und somit überhaupt erst für ein mobiles System in Frage kommen. Die fehlende Robustheit und Fehlerfreiheit der informatischen Verfahren wird durch die enge Interaktion mit dem menschlichen Experten kompensiert.
+Um den Benutzer eines solchen Systems als Experten für die Korrektur von Systemungenauigkeiten oder gar -fehlern mit einbeziehen zu können, wurde in dieser Arbeit ein System entwickelt, mit dem über die natürliche Kommunikation durch Sprache und Gestik ein gemeinsames Verständnis von Mensch und Maschine im gegebenen Kontext erlangt werden konnte. Dabei kann der Benutzer sowohl durch Zeigegesten die Aufmerksamkeit des Systems lenken als auch durch natürliche Bewegungen mit dem Finger die Systemfunktionen über ein virtuelles Menü steuern. Alternativ kann die Steuerung des Systems verbal erfolgen.
+Für den Fall, dass die visuelle Erkennung der Gestik durch geänderte Lichtverhältnisse oder die akustische Erkennung der Sprache durch Störgeräusche fehlerhaft sind, gewährleistet die Kombination dieser beiden Kommunikationsmöglichkeiten, dass der Benutzer das System über den alternativen Kommunikationsweg an die veränderten Bedingungen anpassen kann, so dass in beiden Fällen die Funktionalität erhalten bleibt. Das System kann dem Benutzer sowohl durch akustische Signale als auch über das Display Informationen, wie beispielsweise über die Systemzustände oder Verarbeitungsergebnisse, mitteilen; auf diese kann der Benutzer bei Bedarf reagieren und damit das System steuern.
+Neben der Funktion zur Systemsteuerung ist die natürliche Kommunikation eine weitere wesentliche Voraussetzung für die Entwicklung eines online trainierbaren und somit lernfähigen Objekterkenners. Dem Objekterkenner des entwickelten Demonstrators kann neues Objektwissen einerseits durch Präsentation von Objekten vermittelt werden. Andererseits kann das System selbstständig, von einem Aufmerksamkeitssystem gesteuert,Bilddaten aufnehmen und diese interaktiv durch Kommunikation mit dem Benutzer für den Objekterkenner verfügbar machen.
+Die erste Möglichkeit interaktiven Objektlernens besteht darin, dass dem System durch den Benutzer neue Objekte in natürlicher Art und Weise aus mehreren Ansichten präsentiert werden. Das System nimmt dabei die Bilddaten auf und erlernt die Objekte nach Nennung des Namens. Diese Variante eignet sich insbesondere für das Erlernen von solchen Objekten, mit denen der Benutzer hantiert.
+Dagegen ermöglicht die zweite Variante, dass auch Objekte aus der Umgebung des Benutzers komfortabel gelernt werden. Dazu werden, von einem Aufmerksamkeitssystem gesteuert, Bilddaten aufgenommen, während sich der Benutzer ganz natürlich in seiner Umgebung bewegt. Diese Bilddaten können anschließend unter Zuhilfenahme Selbstorganisierender Karten strukturiert, im Display visualisiert und anschließend komfortabel gelabelt werden. Die so nach Objekten getrennten Bilddaten werden dem Klassifikator zum Erlernen übertragen. Für die Strukturierung der Daten wurden Bildmerkmale nach dem MPEG-7 Standard in der originalen oder in einer für die Aufgabe optimierten Version verwendet. Diese entsprechen dabei grob zwei unterschiedlichen Kategorien, einerseits Farbmerkmalen und andererseits kanten- oder strukturbasierten Merkmalen. Die Gewichtung der Merkmale kann der Benutzer je nach Charakteristik der Bilddaten variieren. In der Arbeit wird an zwei unterschiedlichen Datensätzen aufgezeigt, dass es die Clusterung der Bilddaten durch die SOM ermöglicht, dass eine große Anzahl an Bildausschnitten in wenigen Schritten nach Objekten getrennt werden und interaktiv vom Benutzer gelabelt werden kann. Dabei erhöht die Möglichkeit, die Gewichtung der Merkmale zu variieren, die Trennungseffizienz der Bilddaten.
+Für beide Arten des online-Lernens von Objekten wurde ein kognitiv motiviertes Lernverfahren entwickelt, bei dem einerseits, wie beim menschlichen Kurzzeitgedächtnis,Wissen über eine kleine Menge von Objekten nahezu unmittelbar zur Verfügung stehen kann und andererseits nach längerer Zeit eine Vielzahl von Objekten in einer Art Langzeitgedächtnis gespeichert werden kann.
+Diese zwei Lerngeschwindigkeiten werden dabei von der in drei Verarbeitungsebenen unterteilten Architektur des verwendeten VPL-Klassifikators ermöglicht. Dazu wird beim schnellen Erlernen von Objektwissen nur die letzte Schicht neu trainiert, was zu einer geringeren Robustheit führt und wodurch die Erkennungperformanz nur bei einer geringen Anzahl von Objekten zufriedenstellend ist. Zu einem Zeitpunkt, an dem das System nicht ausgelastet ist und somit Ressourcen frei sind, findet das robustere und zeitaufwändigere Erlernen über alle Schichten statt. Wie sich die Performanz der beiden Verfahren bei variierender Objektanzahl im Hinblick auf die Rechenzeit verhält, wurde an Standarddatensätzen ermittelt.
+Der Objekterkenner ist die Basis für das Wiederfinden von Objekten. Dazu enthält das System eine Vorstufe des VAMs in Form eines Bildergedächtnisses, in welchem die zuletzt wahrgenommenen Aufenthaltsorte jedes Objektes abgelegt werden und auf Nachfrage vom Benutzer visuell präsentiert werden können. Somit können verlegte Objekte vom Benutzer erfragt werden. Das Bild von dem gesuchten Objekt in seiner zuletzt vom System wahrgenommenen Position wird eingeblendet und ermöglicht so ein leichtes Wiederfinden.</abstract>
+                    <subject>
+                        <topic>SOM</topic>
+                        <topic>Object recognition</topic>
+                        <topic>Augmented Reality</topic>
+                        <topic>Computer Vision</topic>
+                        <topic>Neural networks</topic>
+                        <topic>Interaktives Lernen</topic>
+                        <topic>Kognition</topic>
+                        <topic>Neuroinformatik</topic>
+                        <topic>Selbstorganisierende Karten</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18042</identifier>
+                    <identifier type="sys">HT016990523</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305099</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305099">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305099/2305102/DissHolgerBekel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305099" DMDID="DMD2305099">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305099"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

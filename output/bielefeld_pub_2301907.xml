@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301907">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>framework for integrating object recognition strategies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Elke</namePart>
+                        <namePart type="family">Braun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-04-27</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We experience our environment through different sensors that deliver large amounts of visual, acoustic, and other sensory data. Humans as well as computer systems that aim at extracting knowledge from sensory data and/or communicating with a human user or a second computer system need some kind of symbolic representation. The visual sensory data that is available for a computer system is constituted by digital images and the task of assigning symbolic knowledge to them is called object recognition.
+Due to the significance of the object recognition task in computer science there exist many approaches and implementations addressing this problem area. Thereby the general procedure is calculating features and groups from the data and matching them to some kind of represented object knowledge for assigning labels. Existing implementations can be roughly distinguished by their processing strategy following either the data driven or the conceptually driven approach. Furtheron, many different knowledge representation schemes exist. For example, knowledge about objects is either concerned with examples or with categories, or objects are either described based on their appearance or based on geometric or functional features. Within the variety of approaches, each individual provides special strengths and weaknesses leading to the conclusion that the integration of complement approaches is promising.
+In this thesis I propose a general framework for equitably integrating available complementary object segmentation and recognition strategies based on either image data or higherlevel knowledge. Central part of the framework is the integration module that realizes a representation scheme for flexibly storing available segment and object label information and an interpretation process generating object hypotheses based on the represented data. The available information is structured by classifying spatial relations between segments and assigning object label information. The representation scheme is open for belated extension of the data basis with additional information originating from long running processes or higherlevel knowledge. The interpretation process selects probable object regions and label hypotheses from the amount of uncertain and partly contradictory information. The applied strategy is selecting probable object regions based on spatial relations to other segments and probabilistically integrated object label information. For avoiding premature decisions in the presence of uncertain and perhaps incompletely available information the interpretation process generates competing hypotheses that serve for integrating additional higherlevel knowledge conserving the same representation and interpretation mechanisms. For finally ranking competing results for further processing a flexible evaluation scheme supports the application of one or more general and task specific evaluation methods.
+Based on the general integrating framework I realized application systems addressing two different object recognition tasks. The analysis of the two systems shows the flexibility of the integrating framework as well as the improvements achieved by the integrated system.
+The proposed integrating framework offers the feasibility of efficiently realizing integrated systems for a given object recognition task based on available modules.</abstract>
+                    <subject>
+                        <topic>Integration</topic>
+                        <topic>Objekterkennung</topic>
+                        <topic>Regionenorientierte Segmentierung</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8880</identifier>
+                    <identifier type="sys">HT014800583</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301907</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301907">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301907/2301910/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301907" DMDID="DMD2301907">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301907"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

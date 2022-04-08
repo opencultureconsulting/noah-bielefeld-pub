@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2777762">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Insect-Inspired Self-Motion Estimation with Dense Flow Fields-An Adaptive Matched Filter Approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Strübbe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Stürzl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The control of self-motion is a basic, but complex task for both technical and biological systems. Various algorithms have been proposed that allow the estimation of self-motion from the optic flow on the eyes. We show that two apparently very different approaches to solve this task, one technically and one biologically inspired, can be transformed into each other under certain conditions. One estimator of self-motion is based on a matched filter approach; it has been developed to describe the function of motion sensitive cells in the fly brain. The other estimator, the Koenderink and van Doorn (KvD) algorithm, was derived analytically with a technical background. If the distances to the objects in the environment can be assumed to be known, the two estimators are linear and equivalent, but are expressed in different mathematical forms. However, for most situations it is unrealistic to assume that the distances are known. Therefore, the depth structure of the environment needs to be determined in parallel to the self-motion parameters and leads to a non-linear problem. It is shown that the standard least mean square approach that is used by the KvD algorithm leads to a biased estimator. We derive a modification of this algorithm in order to remove the bias and demonstrate its improved performance by means of numerical simulations. For self-motion estimation it is beneficial to have a spherical visual field, similar to many flying insects. We show that in this case the representation of the depth structure of the environment derived from the optic flow can be simplified. Based on this result, we develop an adaptive matched filter approach for systems with a nearly spherical visual field. Then only eight parameters about the environment have to be memorized and updated during self-motion.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLoS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>8</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="MEDLINE">26308839</identifier>
+                    <identifier type="ISI">000360069400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27777628</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0128413</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2777762</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2777762">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2777762/2780767/journal.pone.0128413.struebbe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2777762" DMDID="DMD2777762">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2777762"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

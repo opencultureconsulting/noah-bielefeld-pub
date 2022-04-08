@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2958083">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Model-Assisted Labeling and Self-Training for Label Noise Reduction in the Detection of Stains on Images of Laundry</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Tamino</namePart>
+                        <namePart type="family">Huxohl</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8865-2895</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">n this work, the creation of a dataset labeled in a pixel-wise manner for the uncommon domain of stain detection on patterned laundry is described. The unique properties of images in this dataset—stains are small and sometimes occur in large amounts—led to the creation of noisy labels. Indeed, the training of a fully convolutional neural network for salient object detection with this dataset revealed that the model predicts stains missed by human labelers. Thus, the reduction in label noise by adding overlooked regions with the help of the model’s predictions is examined in two different experiments. In the model-assisted labeling experiment, a simulation is ran where a human selects correct regions from the predictions. In the self-training experiment, regions of high certainty are automatically selected from the predictions. Re-training the model with the revised labels shows that model-assisted labeling leads to an average improvement in performance by 8.52%. In contrast, with self-training, the performance increase is generally lower (2.58% on average) and a decrease is even possible since regions of high certainty are often false positives.</abstract>
+                    <subject>
+                        <topic>self-training</topic>
+                        <topic>model-assisted labeling</topic>
+                        <topic>salient object detection</topic>
+                        <topic>surface defect detection</topic>
+                        <topic>stain detection</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Mathematics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>19</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>2498</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2227-7390</identifier>
+                    <identifier type="ISI">000709621200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29580838</identifier>
+                    <identifier type="doi">10.3390/math9192498</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2958083</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2958083">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2958083/2958225/mathematics-09-02498-v4.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2958083" DMDID="DMD2958083">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2958083"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,181 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2637265</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>From local visual homing towards navigation of autonomous cleaning robots</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Lorenz</namePart>
+  <namePart type="family">Gerstmayr-Hillen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">178054</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ralf</namePart>
+  
+  
+  <namePart type="family">Möller</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10040</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis deals with the implementation of navigation strategies for a domestic floor-cleaning robot operating on omnidirectional images as primary sensory information. Such navigation strategies enable the robot to efficiently
+cover its entire workspace while avoiding both uncleaned areas and repeated coverage. This is accomplished (i) by systematically guiding the robot along meandering lanes, i.e. along straight lanes placed next to each other at a
+predefined and constant distance and (ii) by building a map of the robot's environment to distinguish cleaned and uncleaned areas. Since domestic cleaning robots are considered consumer goods, they can only be equipped with a limited number of cheap sensors and restricted computational power. This fact poses additional challenges onto the design of navigation strategies for domestic
+floor-cleaning robots. 
+The navigation strategies described in this thesis use omnidirectional images, in our case panoramic images with a full 360° horizontal field of view. We consider omnidirectional cameras an appropriate choice because they (i) are relatively cheap sensors, (ii) provide dense sensory information about the robot's environment, and (iii) are multi-purpose sensors applicable to further
+aspects of cleaningrobot navigation beyond the scope of this thesis (e.g. obstacle detection, visual odometry, or user interaction). We characterize a position in space by the entire omnidirectional image acquired at this place
+(hence the methods belong to the class of appearance-based navigation methods) without detecting visible features in the image. Several places are integrated into a dense topo-metric map of the robot's environment. Such maps (i) offer a metrical position estimate required for guiding the robot along meandering lanes, (ii) have a spatial resolution which is fine enough for accurate
+navigation, (iii) can be easily built from the available sensor data, and (iv) allow for efficiently operating on the maps. Spatial relations between places stored in the map are estimated by applying a local visual homing method. Such methods are parsimonious yet robust and accurate methods for partial ego-motion estimation from visual information. They recover the direction (but not the
+distance) of the translation and the rotation of the robot's motion between two images acquired in direct vicinity of each other without physically moving
+between places. As far as we know, our navigation methods are the first application of omnidirectional vision, dense topo-metric maps, and local visual homing for the control of cleaning robots. Hence, this thesis is also a
+feasibility study to prove the applicability of these concepts for navigation of cleaning robots. Since a complete control scheme for a cleaning robot is beyond
+the scope of this thesis, we propose two essential substrategies of such a control scheme: (i) vision-based trajectory control and mapping and (ii) visual
+detection of already cleaned areas.
+Regarding trajectory control and mapping, we propose a mostly vision-based controller for covering a rectangular area of the entire workspace by meandering
+lanes. While moving along a lane (and cleaning), the robot adds snapshots at regular distances to its dense topo-metric map, which are used on the subsequent
+lane to estimate the robot's current distance to the previous lane. For this purpose, the bearing from the current position towards at least two snapshots
+stored along the previous lane is taken by applying local visual homing. The bearing information and an odometry-based estimate of the distance between the
+two considered snapshots are fused in order to estimate the robot's current distance to the previous lane. The robot is kept on a lane parallel to the previous one by keeping the distance to the previous lane at a predefined value. Instead of estimating the robot's full pose as performed by common navigation strategies, we only estimate the distance to the previous lane and the robot's
+current orientation to avoid unnecessary computations. The results obtained from real-robot experiments reveal that the algorithm is capable of guiding the robot
+along parallel and meandering cleaning lanes with only a small portion of gaps or overlap between lanes.
+Detecting already cleaned areas is essential in order to avoid repeated coverage or uncleaned areas between neighboring cleaning segments. This detection is a
+special instance of the loop-closure detection problem usually occurring during map-building whenever the robot approaches an already mapped area. We solve the loop-closure problem by two different approaches both incorporating pairwise image comparisons between the robot's currently perceived image and several images stored in the map. The first approach, referred to as holistic approach, relies on pixel-by-pixel comparisons of the considered images. The second, referred to as signature-based approach, computes low-dimensional signatures extracted from the entire image and compares these instead of the images themselves.
+Pixel-based approaches require the application of a compass to align images prior to image comparison. The standard compass method rotates one of the images
+step-by-step while keeping the other fixed and repeatedly compares the images to search for the best match. We propose an accelerated variant of this method
+operating in the Fourier domain. This method is capable of computing the best match without repeatedly shifting and comparing images. In order to achieve robustness against illumination changes, we preprocess images prior to
+comparison and apply illumination-tolerant comparison functions. Loop-closure detection and compass accuracy were assessed by image-database experiments
+systematically evaluating a wide range of different preprocessing and comparison techniques. Regarding loop-closure detection, holistic methods achieve very good
+detection results even for strong illumination changes. The proposed Fourier-based compass is more efficient than the standard method, but does not achieve its accuracy. Due to their computational complexity, the tested holistic
+approaches to loop-closure detection are --at least with the current implementation-- not suitable for a real-robot application.
+Signature-based approaches allow for efficient image comparisons because they rely on lowdimensional and rotation-invariant image descriptors. Due to their
+rotational invariance, signatures can be compared without prior compass alignment as required by holistic methods. To measure the accuracy of loop-closure detection, we performed image-database experiments which systematically tested different combinations of signatures and comparison
+functions operating on the images' intensity information without prior preprocessing. The tested methods allow for accurate loopclosure detection under constant illumination. However, detection is likely to fail under moderate or strong illumination changes. For the most promising combination of signature and comparison function, real-robot experiments were conducted leading to similar results. These results are surprising because we tested several combinations of signatures and comparison functions which should theoretically tolerate
+illumination changes better than the combination performing best in our experiments. Despite their low tolerance against illumination changes, which
+need to be increased in future work, we favor the application of signature-based approaches because of their low computational complexity.
+The overall results of this thesis clearly reveal that omnidirectional vision, dense topo-metric maps, and local visual homing are appropriate building blocks for visual control of cleaning robots because they allow for efficient, accurate, and robust navigation. We conclude that dense topo-metric maps are suitable representations of space --both for trajectory control and for detecting already cleaned areas. Thus, the navigation strategies proposed in this thesis can be used as a basis for a more complex control architecture enabling the robot to completely cover complex-shaped areas. This includes
+mechanisms to detect and approach uncleaned areas based on map information and to combine several segments of meandering lanes as obtained from our trajectory
+controller. Using omnidirectional vision not only for navigation but also for obstacle detection, odometry, or user interaction could be a promising means to
+reduce hardware costs of a potential product by avoiding dedicated sensors.</abstract>
+<abstract lang="ger">Diese Dissertation beschreibt die Implementation von Navigationsstrategien für einen mobilen Bodenreinigungsroboter für den Haushaltsgebrauch, der
+omnidirektionale Bilder als primäre Sensorinformation verwendet. Die Navigationsstrategien ermöglichen die vollständige und effiziente Reinigung der gesamten dem Roboter zugänglichen Fläche unter gleichzeitiger Vermeidung von nicht oder mehrfach befahrenen Flächen. Die Anforderungen lassen sich durch die Wahl einer geeigneten Fahrstrategie und den Aufbau einer Karte der Umgebung
+erfüllen. Als Fahrstrategie zur systematischen Überdeckung des Raumes werden dazu häufig mäandrierende Bahnen gewählt, also gerade Bahnen, die in einem vorgegebenen, konstanten Abstand zueinander verlaufen. Die Karte ermöglicht eine Unterscheidung zwischen bereits befahrenen und noch nicht befahrenen Gebieten. Reinigungsroboter für den Haushaltsgebrauch sind Konsumgüterartikel. Sie können
+folglich nur mit einer begrenzen Anzahl an kostengünstigen Sensoren und mit kostengünstiger und daher leistungsschwacher Hardware ausgestattet werden.
+Dadurch entstehen zusätzliche Herausforderungen für die Umsetzung von Reinigungsstrategien.
+Die in dieser Arbeit vorgestellten Navigationsstrategien für Bodenreinigungsroboter verwenden als primäre Sensorinformation omnidirektionale Bilder. In unserem Fall handelt es sich dabei um Panoramabilder mit einem
+horizontalen Sichtbereich von 360°. Wir betrachten omnidirektionale Kameras als geeignete Wahl, weil es sich dabei um relativ günstige Sensoren handelt und weil
+sie dichte Sensorinformation über die Umwelt des Roboters liefern. Über die im Rahmen dieser Arbeit betrachteten Aspekte hinaus können solche Kameras beispielsweise auch zur Hinderniserkennung, für visuelle Odometrieberechnungen
+oder zur Benutzerinteraktion angewendet werden. In dieser Arbeit werden Orte durch Panoramabilder charakterisiert wie sie am jeweiligen Ort aufgenommen wurden. Bildinformationen von mehreren Orten werden in eine dichte
+topo-metrische Karte integriert, welche die Umgebung des Roboters repräsentiert. Für unseren Anwendungsfall bieten diese Karten die folgenden vier Vorteile: (i)
+sie speichern metrische Positionsinformation, die benötigt wird, um parallele Bahnen abzufahren, (ii) sie haben eine ausreichend feine räumliche Auflösung, die eine präzise Navigation des Roboters ermöglicht, (iii) sie können einfach aus der zur Verfügung stehenden visuellen Information aufgebaut werden, und (iv) die Nutzung solcher Karten ist ohne großen Rechenaufwand möglich. Räumliche
+Beziehungen zwischen gespeicherten Orten werden durch Verfahren zur visuellen Zielanfahrt geschätzt. Solche Verfahren sind effiziente und trotzdem genaue und zuverlässige Algorithmen zur partiellen Eigenbewegungsschätzung aus visueller Information. Aus zwei Bildern, die an zwei nahe beieinander liegenden Orten
+aufgenommen wurden, werden die Richtung der Translationskomponente (nicht jedoch deren absolute Länge) und die Rotationskomponente der dazwischenliegenden
+Roboterbewegung geschätzt (für die Schätzung muss keine Zielanfahrt erfolgen).
+Nach unserem Kenntnisstand sind die von uns entwickelten Navigationsstrategien die erste Anwendung dieser Konzepte zur Navigation von mobilen autonomen Reinigungsrobotern für den Haushaltsgebrauch. Die vorliegende Arbeit stellt
+daher auch eine Machbarkeitsstudie dar, welche die Anwendbarkeit dieser Konzepte zur Navigation von Reinigungsrobotern zeigen soll. Die Arbeit beschränkt sich
+auf zwei wesentliche Bestandteile einer Kontrollarchitektur für einen Reinigungsroboter: (i) visuelle Bahnsteuerung mit gleichzeitigem Kartenaufbau
+und (ii) visuelle Erkennung bereits befahrener Gebiete.
+Zur visuellen Bahnsteuerung mit gleichzeitigem Kartenaufbau schlagen wir einen Regelungsalgorithmus vor, der es ermöglicht ein einzelnes Reinigungssegment mit
+mäandrierenden Bahnen zu überdecken. Als Reinigungssegment wird einen rechteckiger Bereich der Umgebung bezeichnet; eine vollständige Überdeckung der Umgebung kann durch aneinandersetzen mehrerer Reinigungssegmente erfolgen.
+Während sich der Roboter auf einer Reinigungsbahn bewegt, werden in regelmäßigen Abständen Kamerabilder aufgenommen und zur Karte hinzugefügt. Diese Bilder werden auf der nachfolgenden Bahn verwendet, um den Abstand des Roboters zur Vorgängerbahn zu schätzen. Dazu werden von der aktuellen Roboterposition aus mindestens zwei Kamerabilder, die entlang der Vorgängerbahn gespeichert wurden, angepeilt. Die so berechnete Richtungsinformation und eine odometriebasierte Abstandsschätzung zwischen den Kamerabildern werden fusioniert, um so den aktuellen Abstand des Roboters zur Vorgängerbahn zu schätzen. Durch Regelung dieses Abstandes auf einen vorgegebenen und konstanten Wert kann der Roboter entlang einer Bahn gesteuert werden, die parallel zu ihrer Vorgängerbahn ist.
+Die Mehrzahl der in der Literatur vorgeschlagenen Navigationsalgorithmen schätzt die vollständige Pose (also Position und Orientierung im Raum) des Roboters. Im
+Gegensatz zu diesen Ansätzen, werden durch unser Verfahren nur der Abstand zur Vorgängerbahn und die Orientierung des Roboters geschätzt. Dies vermeidet die Berechnung nicht erforderlicher Information. Das Verfahren wurde in
+Roboterexperimenten getestet, deren Ergebnisse zeigen, dass das Verfahren geeignet ist, um eine Fläche mit mäandrierenden Bahnen so zu überdecken. Dabei entsteht nur ein geringer Anteil an Lücken oder mehrfach befahrener Fläche.
+Die visuelle Erkennung bereits befahrener Gebiete ist von Bedeutung, weil dadurch Mehrfachbefahrung und nicht befahrene Gebiete zwischen benachbarten Reinigungssegmenten vermieden werden können. Zur visuellen Erkennung bereits befahrener Gebiete werden zwei unterschiedliche Verfahren betrachtet, die beide
+auf einem Vergleich des aktuellen Kamerabildes mit mehreren in der Karte gespeicherten Bildern beruhen. Der erste Ansatz wird als holistischer Ansatz bezeichnet und vergleicht Bilder Pixel für Pixel. Der zweite Ansatz wird als signaturbasierter Ansatz bezeichnet und vergleicht anstelle der Bilder niedrigdimensionale Bildsignaturen, die global aus dem gesamten Bild berechnet werden.
+
+Pixelbasierte Ansätze benötigen ein Kompassverfahren, das die Bilder an einer gemeinsamen Referenzrichtung ausrichtet, bevor diese verglichen werden können.
+Das Standardverfahren hierzu rotiert eines der Bilder schrittweise, während das zweite Bild konstant gehalten wird. Durch Vergleiche der rotierten Bilder mit
+dem zweiten Bild wird die beste Übereinstimmung berechnet. Wir schlagen ein Kompassverfahren vor, das im Fourierraum arbeitet und das die beste Übereinstimmung ohne schrittweise Rotation und mit nur einem Bildvergleich
+berechnen kann. Um Robustheit gegen Beleuchtungsänderungen zu erlangen, wenden wir Bildvorverarbeitungsmethoden und beleuchtungstolerante Bilddistanzfunktionen
+an. Die Genauigkeit der vorgeschlagenen Verfahren wurde durch Experimente mit Bilddatenbanken ermittelt, in denen systematisch eine Vielzahl an verschiedenen
+Vorverarbeitungsmethoden und Bilddistanzfunktionen verglichen wurde. Zur Erkennung bereits befahrener Bereiche erzielen die vorgeschlagenen Verfahren
+sogar unter extremen Beleuchtungsänderungen sehr gute Erkennungsraten. Das vorgeschlagene Kompassverfahren kann effizienter berechnet werden als das Standardverfahren; es erzielt aber nicht dessen Genauigkeit. Aufgrund des
+Rechenaufwandes sind die vorgeschlagenen Verfahren --zumindest in der derzeit verwendeten Implementierung-- nicht für einen Echtzeiteinsatz auf einem Roboter
+geeignet.
+Signaturbasierte Ansätze ermöglichen effiziente Bildvergleiche, weil sie auf niedrigdimensionalen und rotationsinvarianten Bilddeskriptoren beruhen. Auf
+Grund ihrer Rotationsinvarianz benötigen signaturbasierte Ansätze im Gegensatz zu holistischen Ansätzen keinen Kompass. Um die Erkennungsgenauigkeit von signaturbasierten Ansätzen zu bestimmen wurden Bilddatenbankexperimente durchgeführt, die systematisch verschiedene Kombinationen aus Signaturen und
+Distanzfunktionen vergleichen. Die Signaturen werden dabei auf den unvorverarbeiteten Intensitätsbildern berechnet. Unter konstanten Beleuchtungsbedingungen erreichen die getesteten Verfahren sehr zuverlässige Erkennungsraten; moderate oder starke Beleuchtungsänderungen führen allerdings zu einer großen Anzahl an Fehlklassifikationen. Diese Ergebnisse sind überraschend, weil eine Reihe an Kombinationen aus Signaturen und Distanzfunktionen getestet wurde, die in der Theorie deutlich robuster sein
+sollten als die Kombination, die in unseren Experimenten am besten abgeschnitten hat. Trotz ihrer geringen Toleranz gegen Beleuchtungsänderungen, die Nachbesserungen erfordert, bevorzugen wir für weiterführende Arbeiten
+signaturbasierte Ansätze. Der Hauptgrund hierfür liegt in ihrer effizienten Berechenbarkeit.
+Die Gesamtergebnisse dieser Arbeit zeigen, dass omnidirektionale Bildinformation, dichte topometrische Karten und visuelle Zielanfahrt geeignete Grundbausteine für die Entwicklung von visuell gesteuerten Reinigungsrobotern sind. Diese Komponenten ermöglichen die Entwicklung effizienter, genauer und zuverlässiger Navigationsstrategien. Darüber hinaus schließen wir, dass dichte topo-metrische Karten eine geeignete Repräsentation für die visuelle Bahnregelung und die visuelle Erkennung bereits befahrener Gebiete sind. Aus diesem Grund können die im Rahmen dieser Arbeit entwickelten Navigationsalgorithmen als Grundlage für weiterführende Navigationstrategien dienen, die es dem Roboter ermöglichen komplexe Umgebungen wie Wohnräume
+vollständig zu befahren. Solch komplexere Strategien sind beispielsweise die Erkennung und das Anfahren noch nicht gereinigter Gebiete und die Kombination verschiedener Segmente aus mäandrierenden Bahnen. Die Verwendung
+omnidirektionaler Bildinformation nicht nur zur Navigation sondern auch zur Hinderniserkennung, Odometrieberechnung oder zur Nutzerinteraktion erscheint uns ein vielversprechender Ansatz, um die Hardwarekosten eines möglichen Produktes dadurch zu senken, dass dedizierte Sensoren für diese Anwendungen eingespartwerden können.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissertation_lhillen.pdf">https://pub.uni-bielefeld.de/download/2637265/2637266/dissertation_lhillen.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2013</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Cleaning Robot Navigation</topic><topic>Local Visual Homing</topic><topic>Mapping</topic><topic>Appearance-based Navigation</topic><topic>Omnidirectional Vision</topic><topic>Loop Closure Detection</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-26372652</identifier>
+<part><extent unit="pages">306</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2013-08-28</dateOther>
+<extension>
+<bibliographicCitation>
+<frontiers>Gerstmayr-Hillen, L. (2013). From local visual homing towards navigation of autonomous cleaning robots. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Gerstmayr-Hillen, L. (2013). &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Gerstmayr-Hillen L. &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University; 2013.</ama>
+<ieee> L. Gerstmayr-Hillen, &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;,  Bielefeld: Bielefeld University, 2013.</ieee>
+<apa>Gerstmayr-Hillen, L. (2013).  &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<wels>Gerstmayr-Hillen, L. (2013): From local visual homing towards navigation of autonomous cleaning robots. Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>L.  Gerstmayr-Hillen, &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2013&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Gerstmayr-Hillen, L. (2013).  &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Gerstmayr-Hillen L (2013) &lt;br /&gt;&lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<harvard1>Gerstmayr-Hillen, L., 2013. &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Gerstmayr-Hillen, Lorenz. 2013. &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Gerstmayr-Hillen, L.: From local visual homing towards navigation of autonomous cleaning robots. Bielefeld University, Bielefeld (2013).</lncs>
+<default>Gerstmayr-Hillen L (2013) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Gerstmayr-Hillen, Lorenz. &lt;em&gt;From local visual homing towards navigation of autonomous cleaning robots&lt;/em&gt;. Bielefeld: Bielefeld University, 2013.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2637265</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-11-24T16:00:16Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:40Z</recordChangeDate>
+</recordInfo>
+</mods>

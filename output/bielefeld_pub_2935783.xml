@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935783">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Real-time Auditory Contrast Enhancement</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marian</namePart>
+                        <namePart type="family">Weger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Höldrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Every day, we rely on the information that is encoded in the auditory feedback of our physical interactions. With the goal to perceptually enhance those sound characteristics that are relevant to us -- especially within professional practices such as percussion and auscultation, we introduce the method of real-time Auditory Contrast Enhancement (ACE). The method is derived from algorithms for speech enhancement as well from the remarkable sound processing mechanisms of our ears. ACE is achieved by individual sharpening of spectral as well as temporal structures contained in a sound. It is designed for real-time application with low latency. The discussed examples illustrate that the proposed algorithms are able to significantly enhance spectral and temporal contrast.
+
+### Sound examples and interaction examples
+
+#### **ACE of Impact Sounds**
+
+##### **S1.0-xxx.wav**
+&lt;center&gt;&lt;audio controls preload=&quot;auto&quot; src=&quot;https://pub.uni-bielefeld.de/download/2935783/29357xx&quot;&gt;&lt;/audio&gt;&lt;/center&gt;
+see article for further details.</abstract>
+                    <subject>
+                        <topic>sonification</topic>
+                        <topic>auditory display</topic>
+                        <topic>sound processing</topic>
+                        <topic>auditory contrast</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29357830</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935783</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935783/2936198/WegerHermannHo%CC%88ldrich-ICAD2019-RTACE.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935783" DMDID="DMD2935783">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935783"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

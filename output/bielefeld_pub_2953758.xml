@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2953758">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>De Nobilitate : Begriff, Ethos und Selbstverständnis des Adels im Spiegel spätmittelalterlicher Adelstraktate</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Schreiner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1968</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Habilitationsschrift, Univ. Tübingen, 1968. Handexemplar des Verfassers mit Korrekturen und Randbemerkungen. &lt;br&gt;
+Das Werk besteht aus einem Hauptband und einem Anmerkungsteil sowie einem posthum (2021) verfassten Vorwort von Prof. Dr. em. Ulrich Meier (Bielefeld).</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">940</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29537584</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2953758</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2953758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953758/2954562/Meier_Einleitung+zur+Habilitation+von+Klaus+Schreiner+%281968%29.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2953758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953758/2954561/Schreiner_Habil-Textband.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2953758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953758/2954560/Schreiner_Habil-Anmerkungen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2953758" DMDID="DMD2953758">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2953758"/>
+            <mets:div TYPE="part" ID="PART1_2953758" LABEL="Schreiner_Habil-Textband.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2953758"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2953758" LABEL="Schreiner_Habil-Anmerkungen.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2953758"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

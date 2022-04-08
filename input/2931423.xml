@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2931423</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:530</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Oliver</namePart>
+  <namePart type="family">Hanebaum</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">19291014</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jürgen</namePart>
+  
+  
+  <namePart type="family">Schnack</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Thomas</namePart>
+  
+  
+  <namePart type="family">Dahm</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10028</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Magnetic molecules promise progress in a wide variety of fields ranging from high density memory storage to quantum computing as well as magnetic cooling. In order to gain better insight this work aims at the study of theoretical models and evaluation of thermodynamic observables by implementing and testing a new numerical approximation method - the Finite-Temperature Lanczos-Method (FTLM).&lt;br /&gt;&lt;br /&gt;
+
+Magnetic centres of molecules are modelled as spins of fixed quantum number, position and interactions. The model is specified in a spin Hamiltonian consisting of three parts: Heisenberg exchange, single ion anisotropy and Zeeman interaction. Although finite, the dimension of the Hilbert space grows exponentially with the number of spin sites, so full diagonalisation of the Hamiltonian is rendered infeasible: Even for a small number of spins the Hilbert space dimension exceeds several millions, which is beyond exact diagonalisation techniques. In order to calculate observables yet, it is necessary to implement approximation methods.&lt;br /&gt;&lt;br /&gt;
+  
+Following previous work, where the Hilbert space could be partitioned into invariant subspaces with respect to magnetic quantum numbers, now systems with anisotropy are studied. These anisotropic terms generally do not commute with total spin operators, therefore partitioning no longer helps reducing the problem size.&lt;br /&gt;&lt;br /&gt;
+  
+There are several techniques for approximate solutions to eigenvalue equations, among these adaptations of the original Lanczos method. As a Krylov subspace method, its main advantage is that the most complex operations required are matrix-vector multiplications. When matrix elements are calculated on-the-fly, the most economical version requires storage of only two vectors.&lt;br /&gt;&lt;br /&gt;
+  
+The second ingredient for FTLM is a typicality based Monte Carlo approach: Traces are estimated as an average over a tiny set of initial vectors compared to the full Hilbert space. &lt;br /&gt;&lt;br /&gt;
+  
+First tests revealed a major flaw due to numerical instability of traces that normally are zero. By partitioning with respect to magnetic quantum numbers, especially exploiting their inversion symmetry, this problem was unknowingly dodged in previous calculations. It was solved while preserving the advantage of minimal computational effort: An arbitrary set of initial vectors would regain this time-reversal symmetry only, if a substantial number of initial vectors where used. Instead, a doubling of the initial vectors by inverting them with respect to magnetic quantum numbers yields the desired effect. Time-consuming evaluations of matrix elements were also avoided by calculating the magnetisation as a difference quotient.&lt;br /&gt;&lt;br /&gt;
+  
+Finally FTLM is implemented and tested for several magnetic molecules. Analogues of the hour glass molecules synthesised by Glaser et al. were first model systems, showing good agreement of exact diagonalisation results and approximations.&lt;br /&gt;&lt;br /&gt;
+
+The method can be applied to any Hamiltonian, given that matrix-vector products in the underlying Hilbert space can be calculated. Here limiting factors are memory usage and computing time. As a proof of principle observables in a Hilbert space consisting of d=100,000,000 states were calculated using the parameter set suggested by Mazurenko et al. for the Mn12-acetate molecule. Single crystal as well as powder averaged results are compared to experimental data. So this previously impossible calculation is now executed within hours by use of FTLM.
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Hanebaum.pdf">https://pub.uni-bielefeld.de/download/2931423/2931424/Dissertation_Hanebaum.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29314233</identifier><identifier type="doi">10.4119/unibi/2931423</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-10-04</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hanebaum, Oliver. 2018. &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Hanebaum, O.: Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems. Universität Bielefeld, Bielefeld (2018).</lncs>
+<default>Hanebaum O (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Hanebaum, Oliver. &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<wels>Hanebaum, O. (2018): Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>O.  Hanebaum, &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hanebaum O (2018) &lt;br /&gt;&lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Hanebaum, O., 2018. &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hanebaum, O. (2018).  &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931423&lt;/div&gt;</apa_indent>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hanebaum, O. (2018). &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931423.&lt;/div&gt;</dgps>
+<frontiers>Hanebaum, O. (2018). Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Hanebaum O. &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<ieee> O. Hanebaum, &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<apa>Hanebaum, O. (2018).  &lt;em&gt;Implementation of FTLM for full Hilbert space investigation of anisotropic quantum spin systems&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931423</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2931423</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-10-05T11:07:58Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-20T08:30:58Z</recordChangeDate>
+</recordInfo>
+</mods>

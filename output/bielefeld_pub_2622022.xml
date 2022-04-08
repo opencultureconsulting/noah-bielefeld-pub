@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2622022">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Multiple imputation of incomplete ordinary and overdispersed count data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kristian</namePart>
+                        <namePart type="family">Kleinke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2007-6128</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roel</namePart>
+                        <namePart type="family">de Jong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Spiess</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jost</namePart>
+                        <namePart type="family">Reinecke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Throughout the last couple of years multiple imputation (MI) has become a popular and widely accepted method to address the missing data problem. However, MI solutions for incomplete count data are still not available in most statistical packages. We present count data imputation add-ons for the popular mice software in R (van
+Buuren &amp; Groothuis-Oudshoorn, 2011). Our add-on functions allow to create multiple imputations of incomplete ordinary and overdispersed count data following the chained equations approach of creating multiple imputations (cf. Raghunathan, Lepkowski, van Hoewyk, &amp; Solenberger, 2001; van Buuren &amp; Groothuis-Oudshoorn, 2011). We furthermore present evaluations of these solutions regarding their ability to produce unbiased parameter estimates and standard errors as well as their ability to cope with missing not at random mechanisms.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26220222</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2622022</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2622022">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2622022/2622025/2011_Kleinke_et_al.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2622022" DMDID="DMD2622022">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2622022"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

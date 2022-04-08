@@ -1,0 +1,104 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303733</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:610</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Datengetriebene Analyse dynamischer Magnet-Resonanz-Tomographie-Aufnahmen für die Brustkrebsdiagnostik</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thorsten</namePart>
+  <namePart type="family">Twellmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">177120</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Tim Wilhelm</namePart>
+  
+  
+  <namePart type="family">Nattkemper</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In the European Union, breast cancer is the most common type of cancer affecting women. If diagnosed in an early stage, breast cancer has an encouraging cure rate. Thus, early detection of breast cancer continues to be the key for an effective treatment. Recently, Dynamic Contrast-Enhanced Magnetic Resonance Imaging (DCE-MRI) has been identified as a valuable complementary technique for breast imaging. DCE-MRI has demonstrated to be highly sensitive for the detection of cancer, motivating the initiation of several ongoing studies evaluating the potential of DCE-MRI as a screening tool for young women or women at high risk by virtue of genetic predispositions. In DCE-MRI, a temporal sequence of 3D MRI images of the female breast is recorded, depicting the temporal course of the concentration of a contrast agent in breast tissue. The temporal dynamics of the concentration enable radiologists to infer valuable information not only for differentiating between healthy and pathologically affected tissue, but also for distinguishing innocuous benign disorders from life-threatening carcinoma. This new type of information is inherent in the multi-temporal image sequence, but does not become evident to the observer by means of the individual images. For detecting and characterising pathological disorders of tiny tissue regions, radiologists are required to simultaneously consider the entire data; a challenging task due to the multi-temporal nature and the huge amount of 3D image data. Hence, there is a substantial demand for Computer-Aided Diagnosis (CAD) systems for supporting radiologists in the time consuming diagnosis process.
+The aim of the work as presented in this thesis is to develop computational approaches for DCE-MRI data analysis in breast cancer diagnosis. Central component of the presented approaches will be techniques from the field of artificial neural networks (ANN) and machine learning. ANNs allow for analysing DCE-MRI data from a data-driven and initially model-free perspective differing from the model-based perspective predominant in clinical practice.
+A central concept of the data-driven approaches to DCE-MRI analysis is example-based learning: Training signals reflecting the temporal courses of contrast agent concentrations in single voxels are exposed to unsupervised ANNs which in turn autonomously reveal categories of similar signals by virtue of their statistical features. Supervised ANNs are able to derive knowledge for the distinction of predetermined classes of signals from a sequence of training examples which were assigned by e.g. a human expert to one of the considered classes. After adaptation, the trained predictor is able to generalise from the seen to unseen examples and can be applied for detecting signals of the corresponding classes in DCE-MRI sequences of new cases.
+The initial identification of tissue masses affected by pathological disorders is considered as a binary classification problem. Linear discriminant analysis as well as state-of-the-art support vector machines for kernel-based learning are applied for voxel-by-voxel classification of temporal kinetic signals or textural features. The outcome is visualised as a new grey value image, enabling radiologists to identify suspicious tissue masses by means of a single 3D image.
+Analysis of the tumour masses themselves is supported by pseudo-colour representation of the DCE-MRI data. A hierarchical architecture of an ANN as well as a multi-class support vector machine with dedicated post-processing of the output is trained to distinguish temporal kinetic signals of healthy, benign and malignant tissue. The visual presentation of the outcome as a 3D RGB image reveals the heterogeneity of tumour tissue and provides valuable information about the tumour architecture. For further examination of the relation between pseudo-colour and multi-temporal signals, the adaptive colour-scale technique is proposed for simultaneous presentation of signal and colour space.
+In the last application, efficient visualisation of DCE-MRI data is considered as a dimensionality reduction problem. Principal component analysis and the non-linear kernel principal component analysis are applied to reduce the dimension of the signal space of temporal kinetic signals. The depiction of the reduced signal data allows for displaying DCE-MRI sequences by a reduced number of images and reveals information which is inherent in the data but not perceivable in the original images.
+The applicability of the different modules is demonstrated by means of DCE-MRI sequences recorded during routine examinations at the City Centre Hospital of the University of Munich, Germany, as well as sequences recorded within the MARIBS breast cancer screening study by the Institute of Cancer Research, UK. The validity of the results is demonstrated by means of ROC analyses as well as detailed qualitative comparison with established model-based techniques.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Twellmann2005.pdf">https://pub.uni-bielefeld.de/download/2303733/2303736/Twellmann2005.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Neuronale Netze</topic><topic>Dynamische Magnet-Resonanz-Tomographie</topic><topic>Pattern recognition</topic><topic>Computer-aided diagnosis</topic><topic>Breast cancer</topic><topic>Dynamic contrast-enhanced magnetic resonance imaging</topic><topic>Visualization</topic><topic>Mustererkennung</topic><topic>Maschinelles Lernen</topic><topic>Signalverarbeitung</topic><topic>Brustkrebs</topic><topic>Detektion</topic><topic>Visualisierung</topic><topic>Medizinische Bildverarbeitung</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-7993</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-11-28</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Twellmann, T.: Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Twellmann, Thorsten. 2005. &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Twellmann, Thorsten. &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<default>Twellmann T (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<ama>Twellmann T. &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Twellmann, T. (2005). &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Twellmann, T. (2005). Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis. Bielefeld (Germany): Bielefeld University.</frontiers>
+<apa>Twellmann, T. (2005).  &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> T. Twellmann, &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+<wels>Twellmann, T. (2005): Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Twellmann T (2005) &lt;br /&gt;&lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Twellmann, T., 2005. &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Twellmann, T. (2005).  &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>T.  Twellmann, &lt;em&gt;Data-driven analysis of dynamic contrast-enhanced magnetic resonance imaging data in breast cancer diagnosis&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303733</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-12-02T10:38:52Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:55:49Z</recordChangeDate>
+</recordInfo>
+</mods>

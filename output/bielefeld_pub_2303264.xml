@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303264">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An information-driven architecture for cognitive systems research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Bauckhage</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-11-27</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">With computer science more and more leaving the traits of solitary algorithms and distinct disciplines towards complex intelligent and integrated systems, challenging research questions are in reach to be explored in novel application scenarios. Under the term &quot;cognitive systems&quot; and its subfields of &quot;cognitive robotics&quot; and &quot;cognitive vision&quot;, research recently made a significant leap forward regarding these challenges. Experimental cognitive systems research is thus characterized by a flexible composition of different algorithms and the development of interdisciplinary models for artificial cognition.
+Integrated cognitive systems allow us to address scientific questions that go far beyond what can be achieved with solitary algorithms. For example, such systems include personal robot &quot;companions&quot; or assistance systems that are embedded in the world and permit interaction with humans and their environment. Integrated cognitive systems allow us to test hypothetical models of cognition in the &quot;real&quot; world. Owing to the innate complexity of these systems, questions of software integration and software architecture have become research activities in their own right. Consequently, topics and methods known from software and systems engineering need to be adopted for research on experimental cognitive systems.
+This thesis addresses the questions how the complexity in software architectures for cognitive systems can be reduced and how joint integration in large-scale research projects can be facilitated. It approaches these questions from three viewpoints: the functional, collaborative, and engineering viewpoint. Acknowledging their importance leads to the design of a coherent and comprehensive architectural concept that is introduced with this dissertation. This approach fuses paradigms of event-driven and service-oriented architectures with domain-specific support for cognitive systems, yielding a novel concept: information-driven integration.
+The resulting software architecture facilitates joint development and integration by providing on the one hand good support for the functional requirements of experimental cognitive systems and on the other hand by explicitly considering the peculiarities of research environments as integration contexts.
+The application of the information-driven integration architecture in various cognitive systems projects is presented as strong evidence for the appropriateness of its design and implementation. This thesis bridges the gap between single algorithms and their respective component developers on the one side, and system integration and evaluation on the other by means of a novel integrating approach supporting the collaborative construction of experimental cognitive systems.</abstract>
+                    <subject>
+                        <topic>Software engineering</topic>
+                        <topic>Cognitive vision</topic>
+                        <topic>Robotik</topic>
+                        <topic>Middleware</topic>
+                        <topic>Assistenzsystem</topic>
+                        <topic>Lernendes System</topic>
+                        <topic>Systemintegration</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Assistance systems</topic>
+                        <topic>Event-driven architecture</topic>
+                        <topic>Vampire</topic>
+                        <topic>Integration</topic>
+                        <topic>Event-based systems</topic>
+                        <topic>Active memory</topic>
+                        <topic>Architecture</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15357</identifier>
+                    <identifier type="sys">HT016057568</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303264</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303264">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303264/2303267/phdthesis_swrede.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303264" DMDID="DMD2303264">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303264"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

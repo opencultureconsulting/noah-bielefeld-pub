@@ -1,0 +1,1274 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2689483">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Translational sequences of panoramic high dynamic range images in natural environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schwegmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5441-7931</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This database contains 37 sequences of panoramic high dynamic range images recorded in natural environments with a wide range of depth structures. Each sequence consists of up to 100 images that were subsequently recorded on a straight path of one meter, with 1 or 2 cm distance between the images depending on the sequence. Therefore, the image sequences reflect a translational movement. The images are panoramic in full 360° in azimuth and between -58° below and 47° above the horizon in elevation. Any rotational yaw movement can, thus, be calculated via software from individual images.
+We used a spectral filter to limit the camera’s spectral sensitivity to a wavelength range of 480-560 nm (green). This filtering mimics the spectral sensitivity of photoreceptors R1-R6 that provide the input of the fly motion vision system. As a consequence, the mapping of colors to gray values in these images is similar to the green color channel in RGB images.
+The raw images have a resolution of approximately 1 megapixel (928x928) and 12-bit. The images have a high dynamic range covering the entire brightness range encountered in natural environments (excluding the solar disc) After linearization the resulting image values had a dynamic range of 1:23,900 covering 3,955 intensity steps. Note, however, that the pixel brightness values cannot be recalculated to a SI unit like candela, though the values are proportional to luminance in the green spectral range. For more technical details about the recording of the image sequences see Schwegmann et al. (2014b).
+In addition to the raw camera images, unwrapped and linearized panorama images are provided with a resolution of 927 x 250.
+Additionally, the distance map of the environment for each frame of the image sequences is provided within this database given as distance in cm for every pixel. See Schwegmann et al. (2014a) for detailed information on how the distance maps were obtained.
+Additional Matlab .m scripts that can be used for processing the data in this archive is provided in: Schwegmann, A., Lindemann, J. P., Egelhaaf, M. (2014) Matlab .m scripts for processing panoramic HDR images. doi:10.4119/unibi/2693180
+Please refer to the readme.pdf contained in the data archives for detailed usage information.
+Note: The .rar files are archives that can be opened with programs as Winrar or Winzip, for example.
+Ref.:
+Schwegmann, A; Lindemann, JP; &amp; Egelhaaf, M (2014a): Depth information in natural environments derived from optic flow by insect motion detection system: a model analysis. Front. Comput. Neurosci. 8: 83. doi: 10.3389/fncom.2014.00083
+Schwegmann, A., Lindemann, J. P., &amp; Egelhaaf, M. (2014b). Temporal statistics of natural image sequences generated by movements with insect flight characteristics. PLoS ONE</abstract>
+                    <subject>
+                        <topic>high dynamic range images</topic>
+                        <topic>panoramic images</topic>
+                        <topic>image sequence</topic>
+                        <topic>natural images</topic>
+                        <topic>green spectrum</topic>
+                        <topic>natural environments</topic>
+                        <topic>grayscale</topic>
+                        <topic>HDR</topic>
+                        <topic>image statistics</topic>
+                        <topic>video data</topic>
+                        <topic>translational movement</topic>
+                        <topic>depth</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="doi">10.4119/unibi/2689483</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/by/summary/index.html">ODC-By</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2689483</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE0_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689512/HDRSequence08.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE1_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689518/HDRSequence09raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE2_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693166/HDRSequence36_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE3_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689559/HDRSequence20.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE4_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689546/HDRSequence16.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE5_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689560/HDRSequence18raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE6_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689534/HDRSequence07.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE7_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689548/HDRSequence17.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE8_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689566/HDRSequence21raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE9_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689609/HDRSequence31raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE10_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693140/HDRSequence10_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE11_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693161/HDRSequence31_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE12_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693162/HDRSequence32_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE13_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689506/HDRSequence06raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE14_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689491/HDRSequence02.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE15_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693164/HDRSequence34_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE16_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689499/HDRSequence03.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE17_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689502/HDRSequence05raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE18_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689519/HDRSequence10.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE19_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689523/HDRSequence11.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE20_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689511/HDRSequence08.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE21_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693160/HDRSequence29_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE22_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689510/HDRSequence07raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE23_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689508/HDRSequence07.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE24_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689507/HDRSequence06.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE25_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689500/HDRSequence05.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE26_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689498/HDRSequence04raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE27_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693163/HDRSequence33_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE28_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689495/HDRSequence04.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE29_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689494/HDRSequence03raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE30_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689492/HDRSequence03.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE31_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689496/HDRSequence04.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE32_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693158/HDRSequence27_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE33_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689550/HDRSequence17raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE34_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689562/HDRSequence20.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE35_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689486/HDRSequence01.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE36_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689487/HDRSequence01raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE37_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689504/HDRSequence05.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE38_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689503/HDRSequence06.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE39_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689598/HDRSequence28raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE40_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693139/HDRSequence09_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE41_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689596/HDRSequence28.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE42_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689580/HDRSequence25.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE43_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693143/HDRSequence13_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE44_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689582/HDRSequence25raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE45_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689583/HDRSequence26.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE46_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689489/HDRSequence02raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE47_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689490/HDRSequence02.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE48_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689547/HDRSequence17.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE49_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689563/HDRSequence21.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE50_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693154/HDRSequence23_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE51_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689528/HDRSequence12.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE52_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693156/HDRSequence26_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE53_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689530/HDRSequence12raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE54_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689597/HDRSequence29.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE55_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689611/HDRSequence32.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE56_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689532/HDRSequence13.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE57_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693155/HDRSequence25_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE58_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693134/HDRSequence04_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE59_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689515/HDRSequence09.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE60_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689516/HDRSequence09.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE61_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689634/HDRSequence37.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE62_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689520/HDRSequence10.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE63_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689514/HDRSequence08raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE64_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693136/HDRSequence05_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE65_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689615/HDRSequence33.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE66_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689613/HDRSequence32raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE67_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689614/HDRSequence33.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE68_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693135/HDRSequence06_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE69_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689617/HDRSequence29.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE70_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689618/HDRSequence33raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE71_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689619/HDRSequence34.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE72_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689610/HDRSequence32.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE73_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689522/HDRSequence10raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE74_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693146/HDRSequence15_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE75_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693145/HDRSequence16_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE76_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689555/HDRSequence19.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE77_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689542/HDRSequence15raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE78_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693153/HDRSequence24_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE79_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689571/HDRSequence23.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE80_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689554/HDRSequence18.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE81_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693150/HDRSequence20_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE82_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689543/HDRSequence16.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE83_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689570/HDRSequence22.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE84_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693149/HDRSequence19_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE85_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689556/HDRSequence19.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE86_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693152/HDRSequence21_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE87_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693151/HDRSequence22_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE88_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689544/HDRSequence14raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE89_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689572/HDRSequence23.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE90_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689558/HDRSequence19raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE91_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689540/HDRSequence15.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE92_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689527/HDRSequence12.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE93_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693159/HDRSequence30_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE94_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693388/readme.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE95_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689526/HDRSequence11raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE96_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689524/HDRSequence11.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE97_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693157/HDRSequence28_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE98_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689531/HDRSequence13.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE99_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693147/HDRSequence17_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE100_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693148/HDRSequence18_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE101_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689564/HDRSequence21.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE102_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689536/HDRSequence14.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE103_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689535/HDRSequence13raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE104_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689567/HDRSequence22.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE105_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689551/HDRSequence18.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE106_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689539/HDRSequence15.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE107_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689538/HDRSequence14.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE108_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689568/HDRSequence20raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE109_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689552/HDRSequence16raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE110_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689574/HDRSequence23raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE111_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689484/HDRSequence01.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE112_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693138/HDRSequence07_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE113_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689605/HDRSequence31.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE114_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689604/HDRSequence30raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE115_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689607/HDRSequence31.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE116_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693137/HDRSequence08_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE117_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689622/HDRSequence35.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE118_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689623/HDRSequence35.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE119_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693133/HDRSequence03_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE120_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689621/HDRSequence34.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE121_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689626/HDRSequence36.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE122_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689625/HDRSequence35raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE123_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689627/HDRSequence34raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE124_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693132/HDRSequence02_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE125_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689629/HDRSequence36raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE126_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689630/HDRSequence37.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE127_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689631/HDRSequence36.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE128_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693131/HDRSequence01_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE129_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689602/HDRSequence30.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE130_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689601/HDRSequence30.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE131_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693167/HDRSequence37_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE132_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693165/HDRSequence35_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE133_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689575/HDRSequence24.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE134_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689576/HDRSequence22raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE135_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693144/HDRSequence14_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE136_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689578/HDRSequence24.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE137_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689579/HDRSequence25.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE138_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693142/HDRSequence12_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE139_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689586/HDRSequence26.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE140_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689584/HDRSequence24raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE141_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689587/HDRSequence27.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE142_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689588/HDRSequence26raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE143_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2693141/HDRSequence11_preview_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE144_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689590/HDRSequence27raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/gif" ID="FILE145_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689591/HDRSequence28.gif" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE146_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689592/HDRSequence27.mat" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE147_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689600/HDRSequence29raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE148_bielefeld_pub_2689483">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689483/2689633/HDRSequence37raw.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2689483" DMDID="DMD2689483">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2689483"/>
+            <mets:div TYPE="part" ID="PART1_2689483" LABEL="HDRSequence09raw.rar">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2689483" LABEL="HDRSequence36_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2689483" LABEL="HDRSequence20.gif">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2689483" LABEL="HDRSequence16.mat">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2689483" LABEL="HDRSequence18raw.rar">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2689483" LABEL="HDRSequence07.mat">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2689483" LABEL="HDRSequence17.mat">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2689483" LABEL="HDRSequence21raw.rar">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2689483" LABEL="HDRSequence31raw.rar">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2689483" LABEL="HDRSequence10_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2689483" LABEL="HDRSequence31_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2689483" LABEL="HDRSequence32_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART13_2689483" LABEL="HDRSequence06raw.rar">
+                <mets:fptr FILEID="FILE13_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART14_2689483" LABEL="HDRSequence02.mat">
+                <mets:fptr FILEID="FILE14_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART15_2689483" LABEL="HDRSequence34_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE15_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART16_2689483" LABEL="HDRSequence03.mat">
+                <mets:fptr FILEID="FILE16_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART17_2689483" LABEL="HDRSequence05raw.rar">
+                <mets:fptr FILEID="FILE17_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART18_2689483" LABEL="HDRSequence10.gif">
+                <mets:fptr FILEID="FILE18_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART19_2689483" LABEL="HDRSequence11.gif">
+                <mets:fptr FILEID="FILE19_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART20_2689483" LABEL="HDRSequence08.gif">
+                <mets:fptr FILEID="FILE20_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART21_2689483" LABEL="HDRSequence29_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE21_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART22_2689483" LABEL="HDRSequence07raw.rar">
+                <mets:fptr FILEID="FILE22_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART23_2689483" LABEL="HDRSequence07.gif">
+                <mets:fptr FILEID="FILE23_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART24_2689483" LABEL="HDRSequence06.mat">
+                <mets:fptr FILEID="FILE24_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART25_2689483" LABEL="HDRSequence05.gif">
+                <mets:fptr FILEID="FILE25_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART26_2689483" LABEL="HDRSequence04raw.rar">
+                <mets:fptr FILEID="FILE26_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART27_2689483" LABEL="HDRSequence33_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE27_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART28_2689483" LABEL="HDRSequence04.gif">
+                <mets:fptr FILEID="FILE28_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART29_2689483" LABEL="HDRSequence03raw.rar">
+                <mets:fptr FILEID="FILE29_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART30_2689483" LABEL="HDRSequence03.gif">
+                <mets:fptr FILEID="FILE30_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART31_2689483" LABEL="HDRSequence04.mat">
+                <mets:fptr FILEID="FILE31_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART32_2689483" LABEL="HDRSequence27_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE32_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART33_2689483" LABEL="HDRSequence17raw.rar">
+                <mets:fptr FILEID="FILE33_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART34_2689483" LABEL="HDRSequence20.mat">
+                <mets:fptr FILEID="FILE34_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART35_2689483" LABEL="HDRSequence01.mat">
+                <mets:fptr FILEID="FILE35_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART36_2689483" LABEL="HDRSequence01raw.rar">
+                <mets:fptr FILEID="FILE36_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART37_2689483" LABEL="HDRSequence05.mat">
+                <mets:fptr FILEID="FILE37_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART38_2689483" LABEL="HDRSequence06.gif">
+                <mets:fptr FILEID="FILE38_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART39_2689483" LABEL="HDRSequence28raw.rar">
+                <mets:fptr FILEID="FILE39_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART40_2689483" LABEL="HDRSequence09_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE40_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART41_2689483" LABEL="HDRSequence28.mat">
+                <mets:fptr FILEID="FILE41_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART42_2689483" LABEL="HDRSequence25.mat">
+                <mets:fptr FILEID="FILE42_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART43_2689483" LABEL="HDRSequence13_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE43_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART44_2689483" LABEL="HDRSequence25raw.rar">
+                <mets:fptr FILEID="FILE44_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART45_2689483" LABEL="HDRSequence26.gif">
+                <mets:fptr FILEID="FILE45_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART46_2689483" LABEL="HDRSequence02raw.rar">
+                <mets:fptr FILEID="FILE46_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART47_2689483" LABEL="HDRSequence02.gif">
+                <mets:fptr FILEID="FILE47_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART48_2689483" LABEL="HDRSequence17.gif">
+                <mets:fptr FILEID="FILE48_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART49_2689483" LABEL="HDRSequence21.gif">
+                <mets:fptr FILEID="FILE49_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART50_2689483" LABEL="HDRSequence23_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE50_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART51_2689483" LABEL="HDRSequence12.mat">
+                <mets:fptr FILEID="FILE51_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART52_2689483" LABEL="HDRSequence26_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE52_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART53_2689483" LABEL="HDRSequence12raw.rar">
+                <mets:fptr FILEID="FILE53_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART54_2689483" LABEL="HDRSequence29.gif">
+                <mets:fptr FILEID="FILE54_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART55_2689483" LABEL="HDRSequence32.mat">
+                <mets:fptr FILEID="FILE55_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART56_2689483" LABEL="HDRSequence13.mat">
+                <mets:fptr FILEID="FILE56_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART57_2689483" LABEL="HDRSequence25_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE57_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART58_2689483" LABEL="HDRSequence04_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE58_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART59_2689483" LABEL="HDRSequence09.gif">
+                <mets:fptr FILEID="FILE59_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART60_2689483" LABEL="HDRSequence09.mat">
+                <mets:fptr FILEID="FILE60_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART61_2689483" LABEL="HDRSequence37.mat">
+                <mets:fptr FILEID="FILE61_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART62_2689483" LABEL="HDRSequence10.mat">
+                <mets:fptr FILEID="FILE62_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART63_2689483" LABEL="HDRSequence08raw.rar">
+                <mets:fptr FILEID="FILE63_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART64_2689483" LABEL="HDRSequence05_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE64_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART65_2689483" LABEL="HDRSequence33.mat">
+                <mets:fptr FILEID="FILE65_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART66_2689483" LABEL="HDRSequence32raw.rar">
+                <mets:fptr FILEID="FILE66_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART67_2689483" LABEL="HDRSequence33.gif">
+                <mets:fptr FILEID="FILE67_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART68_2689483" LABEL="HDRSequence06_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE68_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART69_2689483" LABEL="HDRSequence29.mat">
+                <mets:fptr FILEID="FILE69_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART70_2689483" LABEL="HDRSequence33raw.rar">
+                <mets:fptr FILEID="FILE70_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART71_2689483" LABEL="HDRSequence34.gif">
+                <mets:fptr FILEID="FILE71_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART72_2689483" LABEL="HDRSequence32.gif">
+                <mets:fptr FILEID="FILE72_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART73_2689483" LABEL="HDRSequence10raw.rar">
+                <mets:fptr FILEID="FILE73_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART74_2689483" LABEL="HDRSequence15_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE74_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART75_2689483" LABEL="HDRSequence16_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE75_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART76_2689483" LABEL="HDRSequence19.gif">
+                <mets:fptr FILEID="FILE76_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART77_2689483" LABEL="HDRSequence15raw.rar">
+                <mets:fptr FILEID="FILE77_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART78_2689483" LABEL="HDRSequence24_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE78_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART79_2689483" LABEL="HDRSequence23.gif">
+                <mets:fptr FILEID="FILE79_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART80_2689483" LABEL="HDRSequence18.mat">
+                <mets:fptr FILEID="FILE80_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART81_2689483" LABEL="HDRSequence20_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE81_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART82_2689483" LABEL="HDRSequence16.gif">
+                <mets:fptr FILEID="FILE82_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART83_2689483" LABEL="HDRSequence22.mat">
+                <mets:fptr FILEID="FILE83_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART84_2689483" LABEL="HDRSequence19_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE84_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART85_2689483" LABEL="HDRSequence19.mat">
+                <mets:fptr FILEID="FILE85_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART86_2689483" LABEL="HDRSequence21_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE86_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART87_2689483" LABEL="HDRSequence22_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE87_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART88_2689483" LABEL="HDRSequence14raw.rar">
+                <mets:fptr FILEID="FILE88_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART89_2689483" LABEL="HDRSequence23.mat">
+                <mets:fptr FILEID="FILE89_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART90_2689483" LABEL="HDRSequence19raw.rar">
+                <mets:fptr FILEID="FILE90_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART91_2689483" LABEL="HDRSequence15.mat">
+                <mets:fptr FILEID="FILE91_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART92_2689483" LABEL="HDRSequence12.gif">
+                <mets:fptr FILEID="FILE92_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART93_2689483" LABEL="HDRSequence30_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE93_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART94_2689483" LABEL="readme.pdf">
+                <mets:fptr FILEID="FILE94_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART95_2689483" LABEL="HDRSequence11raw.rar">
+                <mets:fptr FILEID="FILE95_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART96_2689483" LABEL="HDRSequence11.mat">
+                <mets:fptr FILEID="FILE96_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART97_2689483" LABEL="HDRSequence28_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE97_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART98_2689483" LABEL="HDRSequence13.gif">
+                <mets:fptr FILEID="FILE98_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART99_2689483" LABEL="HDRSequence17_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE99_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART100_2689483" LABEL="HDRSequence18_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE100_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART101_2689483" LABEL="HDRSequence21.mat">
+                <mets:fptr FILEID="FILE101_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART102_2689483" LABEL="HDRSequence14.gif">
+                <mets:fptr FILEID="FILE102_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART103_2689483" LABEL="HDRSequence13raw.rar">
+                <mets:fptr FILEID="FILE103_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART104_2689483" LABEL="HDRSequence22.gif">
+                <mets:fptr FILEID="FILE104_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART105_2689483" LABEL="HDRSequence18.gif">
+                <mets:fptr FILEID="FILE105_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART106_2689483" LABEL="HDRSequence15.gif">
+                <mets:fptr FILEID="FILE106_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART107_2689483" LABEL="HDRSequence14.mat">
+                <mets:fptr FILEID="FILE107_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART108_2689483" LABEL="HDRSequence20raw.rar">
+                <mets:fptr FILEID="FILE108_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART109_2689483" LABEL="HDRSequence16raw.rar">
+                <mets:fptr FILEID="FILE109_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART110_2689483" LABEL="HDRSequence23raw.rar">
+                <mets:fptr FILEID="FILE110_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART111_2689483" LABEL="HDRSequence01.gif">
+                <mets:fptr FILEID="FILE111_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART112_2689483" LABEL="HDRSequence07_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE112_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART113_2689483" LABEL="HDRSequence31.gif">
+                <mets:fptr FILEID="FILE113_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART114_2689483" LABEL="HDRSequence30raw.rar">
+                <mets:fptr FILEID="FILE114_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART115_2689483" LABEL="HDRSequence31.mat">
+                <mets:fptr FILEID="FILE115_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART116_2689483" LABEL="HDRSequence08_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE116_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART117_2689483" LABEL="HDRSequence35.gif">
+                <mets:fptr FILEID="FILE117_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART118_2689483" LABEL="HDRSequence35.mat">
+                <mets:fptr FILEID="FILE118_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART119_2689483" LABEL="HDRSequence03_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE119_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART120_2689483" LABEL="HDRSequence34.mat">
+                <mets:fptr FILEID="FILE120_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART121_2689483" LABEL="HDRSequence36.gif">
+                <mets:fptr FILEID="FILE121_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART122_2689483" LABEL="HDRSequence35raw.rar">
+                <mets:fptr FILEID="FILE122_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART123_2689483" LABEL="HDRSequence34raw.rar">
+                <mets:fptr FILEID="FILE123_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART124_2689483" LABEL="HDRSequence02_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE124_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART125_2689483" LABEL="HDRSequence36raw.rar">
+                <mets:fptr FILEID="FILE125_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART126_2689483" LABEL="HDRSequence37.gif">
+                <mets:fptr FILEID="FILE126_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART127_2689483" LABEL="HDRSequence36.mat">
+                <mets:fptr FILEID="FILE127_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART128_2689483" LABEL="HDRSequence01_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE128_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART129_2689483" LABEL="HDRSequence30.mat">
+                <mets:fptr FILEID="FILE129_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART130_2689483" LABEL="HDRSequence30.gif">
+                <mets:fptr FILEID="FILE130_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART131_2689483" LABEL="HDRSequence37_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE131_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART132_2689483" LABEL="HDRSequence35_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE132_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART133_2689483" LABEL="HDRSequence24.gif">
+                <mets:fptr FILEID="FILE133_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART134_2689483" LABEL="HDRSequence22raw.rar">
+                <mets:fptr FILEID="FILE134_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART135_2689483" LABEL="HDRSequence14_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE135_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART136_2689483" LABEL="HDRSequence24.mat">
+                <mets:fptr FILEID="FILE136_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART137_2689483" LABEL="HDRSequence25.gif">
+                <mets:fptr FILEID="FILE137_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART138_2689483" LABEL="HDRSequence12_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE138_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART139_2689483" LABEL="HDRSequence26.mat">
+                <mets:fptr FILEID="FILE139_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART140_2689483" LABEL="HDRSequence24raw.rar">
+                <mets:fptr FILEID="FILE140_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART141_2689483" LABEL="HDRSequence27.gif">
+                <mets:fptr FILEID="FILE141_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART142_2689483" LABEL="HDRSequence26raw.rar">
+                <mets:fptr FILEID="FILE142_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART143_2689483" LABEL="HDRSequence11_preview_tonemapped.jpg">
+                <mets:fptr FILEID="FILE143_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART144_2689483" LABEL="HDRSequence27raw.rar">
+                <mets:fptr FILEID="FILE144_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART145_2689483" LABEL="HDRSequence28.gif">
+                <mets:fptr FILEID="FILE145_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART146_2689483" LABEL="HDRSequence27.mat">
+                <mets:fptr FILEID="FILE146_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART147_2689483" LABEL="HDRSequence29raw.rar">
+                <mets:fptr FILEID="FILE147_bielefeld_pub_2689483"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART148_2689483" LABEL="HDRSequence37raw.rar">
+                <mets:fptr FILEID="FILE148_bielefeld_pub_2689483"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

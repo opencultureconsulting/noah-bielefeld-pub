@@ -1,0 +1,209 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2689637">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Panoramic high dynamic range images in diverse environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hanno Gerd</namePart>
+                        <namePart type="family">Meyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schwegmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5441-7931</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This database contains 421 panoramic high dynamic range images recorded in diverse environments. The Images are panoramic in full 360° in azimuth and between -58° below and 47° above the horizon in elevation. 
+We used a spectral filter to limit the camera’s spectral sensitivity to wavelengths in the range of 480-560 nm (green). This filtering mimics the spectral sensitivity of photoreceptors R1-R6 of the fly that provide the input of the motion vision system. As a consequence, the mapping of colors to gray values in these images is similar to the green color channel in RGB images.
+The raw images have a resolution of approximately 1 Megapixel (928x928) and 12-bit. The images have high dynamic range covering the entire brightness range encountered in natural environments (excluding the solar disc) After linearization the resulting image values had a dynamic range of 1:23,900 covering 3,955 intensity steps. Note, however, that the pixel brightness values cannot be recalculated to a SI unit like candela, though the values are proportional to luminance in the green spectral range. For more technical details about the recording of the image sequences see Meyer et al. (2014)
+In addition to the raw camera images, unwrapped and linearized panorama images are provided with a resolution of 927 x 250.
+Please refer to the readme.pdf contained in the data archive for detailed usage information.
+Note: The .rar files are archives that can be opened with programs as Winrar or Winzip, for example.
+Ref.:
+Meyer, H. G., Schwegmann, A., Warzecha, A. K., &amp; Egelhaaf, M. (2014). The textural principal components of natural scenes driving the pattern-dependent response modulations in motion-sensitive interneurons. Frontiers in Neuroscience (In Review)</abstract>
+                    <subject>
+                        <topic>grayscale</topic>
+                        <topic>diverse environments</topic>
+                        <topic>HDR</topic>
+                        <topic>green spectrum</topic>
+                        <topic>image statistics</topic>
+                        <topic>panoramic images</topic>
+                        <topic>high dynamic range images</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="doi">10.4119/unibi/2689637</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/by/summary/index.html">ODC-By</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2689637</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE0_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693613/preview_sample_0101_tonemapped..jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE1_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693614/preview_sample_0106_tonemapped..jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE2_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693615/preview_sample_0164_tonemapped..jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE3_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693616/preview_sample_0024_tonemapped.jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE4_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693389/readme.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE5_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693617/preview_sample_0022_tonemapped..jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/jpeg" ID="FILE6_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693618/preview_sample_0133_tonemapped..jpg" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE7_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690330/data_301-421.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE8_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690325/data_001-100.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE9_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690327/data_101-200.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE10_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2693130/preview_images.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE11_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690329/data_201-300.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE12_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690331/originals_001-100.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE13_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690333/originals_201-300.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE14_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690334/originals_301-421.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-rar" ID="FILE15_bielefeld_pub_2689637">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689637/2690332/originals_101-200.rar" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2689637" DMDID="DMD2689637">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2689637"/>
+            <mets:div TYPE="part" ID="PART1_2689637" LABEL="preview_sample_0106_tonemapped..jpg">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2689637" LABEL="preview_sample_0164_tonemapped..jpg">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2689637" LABEL="preview_sample_0024_tonemapped.jpg">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2689637" LABEL="readme.pdf">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2689637" LABEL="preview_sample_0022_tonemapped..jpg">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2689637" LABEL="preview_sample_0133_tonemapped..jpg">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART7_2689637" LABEL="data_301-421.rar">
+                <mets:fptr FILEID="FILE7_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART8_2689637" LABEL="data_001-100.rar">
+                <mets:fptr FILEID="FILE8_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART9_2689637" LABEL="data_101-200.rar">
+                <mets:fptr FILEID="FILE9_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART10_2689637" LABEL="preview_images.rar">
+                <mets:fptr FILEID="FILE10_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART11_2689637" LABEL="data_201-300.rar">
+                <mets:fptr FILEID="FILE11_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART12_2689637" LABEL="originals_001-100.rar">
+                <mets:fptr FILEID="FILE12_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART13_2689637" LABEL="originals_201-300.rar">
+                <mets:fptr FILEID="FILE13_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART14_2689637" LABEL="originals_301-421.rar">
+                <mets:fptr FILEID="FILE14_bielefeld_pub_2689637"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART15_2689637" LABEL="originals_101-200.rar">
+                <mets:fptr FILEID="FILE15_bielefeld_pub_2689637"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

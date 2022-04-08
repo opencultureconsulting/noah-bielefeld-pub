@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2304811</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Advanced tools for RNA secondary structure analysis</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Björn</namePart>
+  <namePart type="family">Voß</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The analysis of RNA secondary structure has become more and more important throughout the last decades after it was recognised that RNA does not only serve as a passive messenger (mRNA), but also as a functional compound of the cell. Furthermore, it was elucidated that mainly the structure rather than the sequence determines the function of such non-protein-coding RNA. This means that two RNA molecules which have low sequence similarity but high structure similarity are likely to have a similar function. 
+The prediction of RNA secondary structure is based on parameters that have been measured in vitro. This results in rather static parameters, that do not incorporate the dynamic change of environment occurring in living organisms. Nevertheless, the use of these parameters, that are summarised in the energy model, gave valuable results, especially for short sequences. Several refinements throughout the years improved the predictions, but still the calculated optimal structure is not guaranteed to correspond to the native one. In this case, and due to the fact that the native structure is feasible under the energy model, it is common practice to additionally calculate suboptimal structures and incorporate these in the study. The set of all suboptimal structures is referred to as the structure space, which actually holds the information needed to answer questions such as: Is the optimal structure also the native one? Are there more than one structure an RNA molecule can adopt? How well-defined is the optimal structure?
+Major problems in the analysis of the structure space are its size and its shape. The number of suboptimal structures is exponential in the sequence length, which means that for sequences of moderate length the size quickly exceeds several billion. Besides the size, the appearance of the structure space complicates its study. The structure space can be imagined as a rough landscape with valleys, holding local optimal structures, separated by mountains and saddles. This landscape is not smooth but cliffy and complex, which prevents the development of a practical and still intuitive visualisation.
+In general, the intention of structure space analysis is not its visualisation, but its complexity also hampers approaches to derive specific features hidden in the structure space. Despite these problems, several tools exist that analyse the complete structure space or at least a part of it to answer the aforementioned questions. Among these are MFOLD which produces a subset of all possible structures according to a threshold of structural similarity, SFOLD which samples the structures in a probabilistic fashion and provides a method to identify alternating structures, RNAsubopt to produce all suboptimal structures within a given energy threshold, barriers to identify valleys, mountains and saddles of the structure landscape, and others.
+My contribution to this area of research is twofold: First, I present paRNAss (prediction of alternating RNA secondary structures) which focuses on the detection of conformational switches and analyses the structure space based on pairwise comparisons. paRNAss has been available since 1997 and I could improve its predictive power as well as its speed which made possible a systematic evaluation. During this evaluation it turned out that paRNAss can even be used to identify more than two competing structures and hence get a deeper insight into the structure space. The second tool I introduce is RNAshapes which facilitates different kinds of analyses. The algorithm makes use of abstract representations of the secondary structure to compute only those that are morphologically dissimilar, i.e. are composed of different structural elements. Structures being morphologically similar are pooled in a class of structures and each class is represented by its best member. The list of these representatives gives a general overview of what is there in the structure space. In addition to this, I introduce an algorithm to compute probabilities of the aforementioned classes of structures. This gives hints to properties such as alternating secondary structures (two classes with similar probabilities) and structural well-definedness (one class with very high probability).</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Diss.pdf">https://pub.uni-bielefeld.de/download/2304811/2304814/Diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>RNS</topic><topic>Sekundärstruktur</topic><topic>Molekulare Bioinformatik</topic><topic>RNA secondary structure</topic><topic>Conformational switches</topic><topic>RNA shapes</topic><topic>Folding</topic><topic>Dynamic programming</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-6644</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-03-22</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Voß B (2004) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Voß, Björn. &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2004.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Voß, Björn. 2004. &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Voß, B.: Advanced tools for RNA secondary structure analysis. Bielefeld University, Bielefeld (Germany) (2004).</lncs>
+<angewandte-chemie>B.  Voß, &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Voß, B., 2004. &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Voß, B. (2004).  &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Voß B (2004) &lt;br /&gt;&lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<wels>Voß, B. (2004): Advanced tools for RNA secondary structure analysis. Bielefeld (Germany): Bielefeld University.</wels>
+<ieee> B. Voß, &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2004.</ieee>
+<apa>Voß, B. (2004).  &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Voß, B. (2004). Advanced tools for RNA secondary structure analysis. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Voß, B. (2004). &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Voß B. &lt;em&gt;Advanced tools for RNA secondary structure analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2004.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2304811</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-04-19T11:06:26Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:31Z</recordChangeDate>
+</recordInfo>
+</mods>

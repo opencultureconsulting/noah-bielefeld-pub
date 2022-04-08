@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2953751">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Asymptotic properties of estimators for seasonally cointegrated state space Models obtained using the CVA Subspace Method</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dietmar</namePart>
+                        <namePart type="family">Bauer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2920-7032</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Rainer</namePart>
+                        <namePart type="family">Buschmeier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1125-8122</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper investigates the asymptotic properties of estimators obtained from the so called CVA (canonical variate analysis) subspace algorithm proposed by Larimore (1983) in the case when the data is generated using a minimal state space system containing unit roots at the seasonal frequencies such that the yearly difference is a stationary vector autoregressive moving average (VARMA) process. The empirically most important special cases of such data generating processes are the I(1) case as well as the case of seasonally integrated quarterly or monthly data. However, increasingly also datasets with a higher sampling rate such as hourly, daily or weekly observations are available, for example for electricity consumption. In these cases the vector error correction representation (VECM) of the vector autoregressive (VAR) model is not very helpful as it demands the parameterization of one matrix per seasonal unit root. Even for weekly series this amounts to 52 matrices using yearly periodicity, for hourly data this is prohibitive. For such processes estimation using quasi-maximum likelihood maximization is extremely hard since the Gaussian likelihood typically has many local maxima while the parameter space often is high-dimensional. Additionally estimating a large number of models to test hypotheses on the cointegrating rank at the various unit roots becomes practically impossible for weekly data, for example. This paper shows that in this setting CVA provides consistent estimators of the transfer function generating the data, making it a valuable initial estimator for subsequent quasi-likelihood maximization. Furthermore, the paper proposes new tests for the cointegrating rank at the seasonal frequencies, which are easy to compute and numerically robust, making the method suitable for automatic modeling. A simulation study demonstrates by example that for processes of moderate to large dimension the new tests may outperform traditional tests based on long VAR approximations in sample sizes typically found in quarterly macroeconomic data. Further simulations show that the unit root tests are robust with respect to different distributions for the innovations as well as with respect to GARCH-type conditional heteroskedasticity. Moreover, an application to Kaggle data on hourly electricity consumption by different American providers demonstrates the usefulness of the method for applications. Therefore the CVA algorithm provides a very useful initial guess for subsequent quasi maximum likelihood estimation and also delivers relevant information on the cointegrating ranks at the different unit root frequencies. It is thus a useful tool for example in (but not limited to) automatic modeling applications where a large number of time series involving a substantial number of variables need to be modelled in parallel.</abstract>
+                    <subject>
+                        <topic>cointegration</topic>
+                        <topic>subspace algorithms</topic>
+                        <topic>VARMA models</topic>
+                        <topic>seasonality</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Entropy</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>23</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1099-4300</identifier>
+                    <identifier type="MEDLINE">33918005</identifier>
+                    <identifier type="ISI">000642995100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29537512</identifier>
+                    <identifier type="doi">10.3390/e23040436</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2953751</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2953751">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953751/2953941/bauer202104entropy.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2953751" DMDID="DMD2953751">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2953751"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

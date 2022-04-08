@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2610373">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Aktionserkennung und -prädiktion mittels Trajektorienklassifikation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Hermes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-08-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die vorliegenden Dissertationsschrift stellt ein Systemkonzept zur Schätzung unmittelbarer, zukünftiger Bewegungsabläufe von Fahrzeugen im Straßenverkehr vor. Das Szenario besteht aus der Klasse der Abbiegesituationen, in denen das Abbiegeverhalten eines Fahrzeugs an einer Kreuzung möglichst frühzeitig im Rahmen eines Zeithorizonts mehrerer Sekunden im Voraus erkannt werden muss. Eine adäquate und verlässliche Erkennung bildet die Grundlage vieler Anwendungen im Fahrzeugbereich, z.B. in Sicherheitsanwendungen (Kollisionserkennung und -vermeidung) und der Fahrerassistenz (visuell, haptische oder auditive Informationen an den Fahrer). Bisherige Verfahren zur Bewegungsprädiktion nutzen entweder lineare Bewegungsmodelle, welche nicht das Fahrverhalten berücksichtigen, oder wenden ein gelerntes Bewegungsmodell beschränkt auf bekannte Kreuzungen an, für die eine große Anzahl Trainingsbeispiele existiert. Die vorliegende Arbeit stellt Konzepte zur Bewegungsprädiktion auf bisher nicht observierten Kreuzungen vor.</abstract>
+                    <subject>
+                        <topic>UKR</topic>
+                        <topic>situation classes</topic>
+                        <topic>unsupervised kernel regression</topic>
+                        <topic>time series</topic>
+                        <topic>QRLCS</topic>
+                        <topic>prediction</topic>
+                        <topic>trajectories</topic>
+                        <topic>vehicle motion</topic>
+                        <topic>quaternion-based longest common subsequence</topic>
+                        <topic>intersection</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26103730</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2610373</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2610373">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2610373/2610374/thesis_chermes.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2610373" DMDID="DMD2610373">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2610373"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2724431">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>DELPHI - fast and adaptive computational laser point detection and visual footprint quantification for arbitrary underwater image collections</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timm</namePart>
+                        <namePart type="family">Schoening</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kuhn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Melanie</namePart>
+                        <namePart type="family">Bergmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Marine researchers continue to create large quantities of benthic images e.g. using AUVs (Autonomous Underwater Vehicles). In order to quantify the size of sessile objects in the images, a pixel-to-centimetre ratio is required for each image, often indirectly provided through a geometric laser point (LP) pattern, projected onto the seafloor. Manual annotation of these LPs in all images is too time-consuming and thus infeasible for nowadays data volumes. Because of the technical evolution of camera rigs, the LP&apos;s geometrical layout and colour features vary for different expeditions and projects. This makes the application of one algorithm, tuned to a strictly defined LP pattern, also ineffective.
+Here we present the web-tool DELPHI, that efficiently learns the LP layout for one image transect / collection from just a small number of hand labelled LPs and applies this layout model to the rest of the data. The efficiency in adapting to new data allows to compute the LPs and the pixel-to-centimetre ratio fully automatic and with high accuracy. DELPHI is applied to two real-world examples and shows clear improvements regarding reduction of tuning effort for new LP patterns as well as increasing detection performance.</abstract>
+                    <subject>
+                        <topic>Image Footprint Quantification</topic>
+                        <topic>Web-based Image Annotation</topic>
+                        <topic>Arbitrary Image Collections</topic>
+                        <topic>laser point detection</topic>
+                        <topic>Annotation Enhancement</topic>
+                        <topic>Marine Imaging</topic>
+                        <topic>Underwater image analysis</topic>
+                        <topic>Remote Sensing Technology</topic>
+                        <topic>image processing</topic>
+                        <topic>computational learning</topic>
+                        <topic>Intelligent systems</topic>
+                        <topic>pattern recognition</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Marine Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2296-7745</identifier>
+                    <identifier type="ISI">000485324300024</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27244313</identifier>
+                    <identifier type="doi">10.3389/fmars.2015.00020</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2724431</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2724431">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2724431/2735245/fmars-02-00020.schoening.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2724431" DMDID="DMD2724431">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2724431"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

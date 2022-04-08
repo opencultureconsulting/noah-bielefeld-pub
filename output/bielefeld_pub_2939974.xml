@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2939974">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Numerical Appromixation of the Value of a Stochastic Differential Game with Asymmetric Information</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lubomir</namePart>
+                        <namePart type="family">Banas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tsiry Avisoa</namePart>
+                        <namePart type="family">Randrianasolo</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9413-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a convexity constrained Hamilton-Jacobi-Bellman-type obstacle
+problem for the value function of a zero-sum differential game with asymmetric
+information. We propose a convexity-preserving probabilistic numerical scheme for
+the approximation of the value function which is discrete w.r.t. the time and convexity
+variables, and show that the scheme converges to the unique viscosity solution
+of the considered problem. Furthermore, we generalize the semi-discrete scheme to
+obtain an implementable fully discrete numerical approximation of the value function
+and present numerical experiments to demonstrate the properties of the proposed
+numerical scheme.</abstract>
+                    <abstract lang="eng">1991 Mathematics Subject Classiffication. 65K15,65C20,49N70,49L25,35F21,52A27,52B55</abstract>
+                    <subject>
+                        <topic>zero-sum stochastic differential games</topic>
+                        <topic>asymmetric information</topic>
+                        <topic>probabilistic numerical approximation</topic>
+                        <topic>discrete convex envelope</topic>
+                        <topic>convexity constrained Hamilton-Jacobi- Bellmann equation</topic>
+                        <topic>viscosity solution</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>630</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>28</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29399744</identifier>
+                    <identifier type="sys">HT020409148</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2939974</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2939974">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939974/2939975/IMW_working_paper_630.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2939974" DMDID="DMD2939974">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2939974"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

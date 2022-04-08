@@ -1,0 +1,95 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305411</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Rare event simulation for probabilistic models of T-cell activation</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Florian</namePart>
+  <namePart type="family">Lipsmeier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">163007</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ellen</namePart>
+  
+  
+  <namePart type="family">Baake</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">201230</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">One of the central questions in immunobiology is: How does the immune system reliably distinguish between antigens of our own body and foreign antigens? This ability is critical for our survival. One of the major cell types involved in these decisions are the so called T-cells, which are specialized white blood cells with a detection mechanism that is not fully explained until now. There is not a one to one specificity between T-cells and antigens. T-cells have to be cross-reactive, that is they have to be able to be activated by several antigens.
+The usual mathematical models in immunobiology are deterministic ones and therefore not applicable to the given problem. We need probabilistic approaches in order to describe the problem properly, because of the huge amount of possible receptor-antigen-combinations and the fact that a given T-cell is not confronted with individual antigens but has to make its decision when being in contact with so called antigen presenting cells (APC) which present a huge amount of antigens on their surface.
+This thesis deals with the probabilistic modeling and efficient simulation of models which describe the mechanism of T-cell activation and foreign-self discrimination. Because of the complexity of the topic, the first part of the thesis forms a review of the recent experimental findings with regard to T-cell immunology. Afterwards we introduce the already existing first probabilistic model of T-cell activation developed by van den Berg, Rand and Burroughs (BRB).
+The second part of this thesis is concerned with the simulation and analysis of this model. As T-cell activation is a rare event, that is the probability of T-cell activation is very low, we cannot analyze the model with the usual simple sampling strategies, but rely on the so-called importance sampling approach. With the help of large deviation theory we are able to construct an efficient simulation algorithm, which uses special alternative distributions for sampling for which we can proof asymptotic efficiency.
+In our analysis of the BRB model we are able to show that it can explain foreign-self discrimination and explain how this comes about in the model. We are also able to show where the defects of the model are, especially with regard to the biological relevance.
+Consequently, in the third part of this thesis we develop a new model of T-cell activation. One major improvement in this model is, that we are able to integrate negative selection which is a process during T-cell maturation where T-cells that are to self-reactive are induced to die. Again, we have to adapt and develop new simulation algorithms for the analysis of this model. We are then able to show that our new model is able to explain foreign-self discrimination with parameters that are biologically much more plausible than in the BRB model.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="lipsmeier_dissertation.pdf">https://pub.uni-bielefeld.de/download/2305411/2305414/lipsmeier_dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-17386</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-07-18</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Lipsmeier F (2010) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Lipsmeier, Florian. &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2010.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipsmeier, Florian. 2010. &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Lipsmeier, F.: Rare event simulation for probabilistic models of T-cell activation. Bielefeld University, Bielefeld (Germany) (2010).</lncs>
+<ieee> F. Lipsmeier, &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2010.</ieee>
+<apa>Lipsmeier, F. (2010).  &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Lipsmeier, F. (2010). Rare event simulation for probabilistic models of T-cell activation. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipsmeier, F. (2010). &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Lipsmeier F. &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2010.</ama>
+<angewandte-chemie>F.  Lipsmeier, &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Lipsmeier, F., 2010. &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Lipsmeier F (2010) &lt;br /&gt;&lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipsmeier, F. (2010).  &lt;em&gt;Rare event simulation for probabilistic models of T-cell activation&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>Lipsmeier, F. (2010): Rare event simulation for probabilistic models of T-cell activation. Bielefeld (Germany): Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305411</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-07-22T13:08:35Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:03Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2920783">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Research Data Management Course: Survey Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2528-5391</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">This dataset contains data from a survey that was conducted among participants of the course  &quot;Research Data Management&quot; at Bielefeld University in the years 2013 to 2017. The survey was conducted online with the Unipark/Questback system. 128 students were invited by e-mail, of which 31 students participated in the survey.</abstract>
+                    <subject>
+                        <topic>Research Data Management</topic>
+                        <topic>Teaching</topic>
+                        <topic>Open Science</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="doi">10.4119/unibi/2920783</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2920783</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE0_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2931678/LICENSE.txt" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/plain" ID="FILE1_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2931683/README.txt" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2931679/rdm-course_survey_questions.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.ms-excel" ID="FILE3_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2931684/rdm-course_survey_results.csv" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ID="FILE4_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2931685/rdm-course_survey_results.xlsx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/gzip" ID="FILE5_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2936373/rdm-course-survey.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/gzip" ID="FILE6_bielefeld_pub_2920783">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2920783/2937960/rdm-course-survey.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2920783" DMDID="DMD2920783">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2920783"/>
+            <mets:div TYPE="part" ID="PART1_2920783" LABEL="README.txt">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2920783"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2920783" LABEL="rdm-course_survey_questions.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2920783"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2920783" LABEL="rdm-course_survey_results.csv">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2920783"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2920783" LABEL="rdm-course_survey_results.xlsx">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2920783"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2920783" LABEL="rdm-course-survey.zip">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2920783"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2920783" LABEL="rdm-course-survey.zip">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2920783"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

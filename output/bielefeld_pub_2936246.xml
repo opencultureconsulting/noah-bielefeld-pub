@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936246">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Two-Part Models and Quantile Regression for the Analysis of Survey Data With a Spike. The Example of Satisfaction With Health Care</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Odile</namePart>
+                        <namePart type="family">Sauzet</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Razum</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Teresia</namePart>
+                        <namePart type="family">Widera</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Brzoska</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Results of patient satisfaction questionnaires can contain a spike at the value corresponding to a complete satisfaction. A possible interpretation is that there are two types of respondents, those who are willing to provide a negative evaluation to one or more items proposed in the questionnaire and those who will always provide a completely positive evaluation irrespective of the item. The aim of the present study is to compare various statistical approaches to the analysis of such data using data from a rehabilitation patient survey of the German Statutory Pension Insurance Scheme as an example.
+
+Method: We used data from 272,806 respondents who participated in the survey from 2008 to 2011. We illustrate four models: linear regression, logistic regression, a two-part model based on the assumption of two underlying populations and quantile regression, which does not require any distributional assumptions. For each model we consider the relationship of the satisfaction score with two covariates.
+
+Results: While providing correct estimates of the mean values (marginal effects), the assumptions of the linear model are violated which can lead to false interpretations. A two-part regression which consists of a logistic regression followed by a linear regression conditional on not being fully satisfied is a useful alternative. For research questions focusing on specific parts of the distribution, logistic regression as well as quantile regression are to be considered.
+
+Discussion: Data with a spike represents a statistical challenge but a range of modeling approaches is available to provide sound interpretations and correct answers to research questions.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Public Health</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2296-2565</identifier>
+                    <identifier type="eIssn">2296-2565</identifier>
+                    <identifier type="MEDLINE">31245346</identifier>
+                    <identifier type="ISI">000472666600002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29362462</identifier>
+                    <identifier type="doi">10.3389/fpubh.2019.00146</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936246</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936246">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936246/2936249/fpubh-07-00146.sauzet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936246" DMDID="DMD2936246">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936246"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

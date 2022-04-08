@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2944758">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Gear-Induced Concept Drift in Marine Images and Its Effect on Deep Learning Classification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Langenkämper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1857-5040</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robin</namePart>
+                        <namePart type="family">van Kevelaer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Autun</namePart>
+                        <namePart type="family">Purser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In marine research, image data sets from the same area but collected at different times allow seafloor fauna communities to be monitored over time. However, ongoing technological developments have led to the use of different imaging systems and deployment strategies. Thus, instances of the same class exhibit slightly shifted visual features in images taken at slightly different locations or with different gear. These shifts are referred to as concept drift in the domains computational image analysis and machine learning as this phenomenon poses particular challenges for these fields. In this paper, we analyse four different data sets from an area in the Peru Basin and show how changes in imaging parameters affect the classification of 12 megafauna morphotypes with a 34-layer ResNet. Images were captured using the ocean floor observation system, a traditional sled-based system, or an autonomous underwater vehicle, which is used as an imaging platform capable of surveying larger regions. ResNet applied on separate individual data sets, i.e., without concept drift, showed that changing object distance was less important than the amount of training data. The results for the image data acquired with the ocean floor observation system showed higher performance values than data collected with the autonomous underwater vehicle. The results from this concept drift studies indicate that collecting image data from many dives with slightly different gear may result in training data well-suited for learning taxonomic classification tasks and that data volume can compensate for light concept drift.</abstract>
+                    <subject>
+                        <topic>Aquatic Science</topic>
+                        <topic>Global and Planetary Change</topic>
+                        <topic>Ocean Engineering</topic>
+                        <topic>Oceanography</topic>
+                        <topic>Water Science and Technology</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Marine Science</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2296-7745</identifier>
+                    <identifier type="ISI">000548591200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29447584</identifier>
+                    <identifier type="doi">10.3389/fmars.2020.00506</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2944758</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2944758">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944758/2944759/fmars-07-00506.nattkemper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2944758" DMDID="DMD2944758">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2944758"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

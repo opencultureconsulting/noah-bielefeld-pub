@@ -1,0 +1,114 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2918485</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Pan-genome Search and Storage</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Guillaume</namePart>
+  <namePart type="family">Holley</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">42765115</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">High Throughput Sequencing (HTS) technologies are constantly improving and making genome sequencing more affordable. However, HTS sequencers can only produce short overlapping genome fragments that are erroneous and cover the sequenced genomes unevenly. These genome fragments are assembled based on their overlaps to produce larger contiguous sequences. Since de novo genome assembly is computationally intensive, some species have a reference genome used as a guide for assembling genome fragments from the same species or as a basis for comparative genomics methods. Yet, assembling a genome is an error-prone process depending on the quality of the sequencing data and the heuristics used during the assembly. Furthermore, analyses based on a reference are biased towards the reference. Finally, a single reference cannot reflect the dynamics and diversity of a population of genomes. Overcoming these issues requires to move away from the single-genome reference-centric paradigm and take advantage of the multiple sequenced genomes available for each species. For this purpose, pan-genomes were introduced as sets of genomes from different strains of the same species. A pan-genome is represented by a multi-genome index exploiting the similarity and redundancy of the genomes it contains. Still, pan-genomes are more difficult to analyze than single genomes because of the large amount of data to be stored and indexed.&lt;br /&gt;&lt;br /&gt;
+
+Current data structures for pan-genome indexing do not fulfill all requirements for pan-genome analysis. Indeed, these data structures are often immutable while the size of a pan-genome grows constantly with newly sequenced genomes. Frequently, these data structures consider only assemblies as input, while unassembled genome fragments abound in databases. Also, indexing variants and similarities between the genomes of a pan-genome usually requires time and memory consuming algorithms such as sequence alignments. Sometimes, pan-genome analysis tools just assume variants and similarities are provided as input.
+While data structures already exist for pan-genome indexing, no solution is currently proposed for genome fragment compression in a pan-genome context. Indeed, it is often of interest to transmit and store all genome fragments of a pan-genome. However, HTS-specific compression tools are not dynamic and cannot update a compressed archive of genome fragments with new fragments of a genome without decompression. Hence, those tools are poorly adapted to the transmission and storage of genome fragments in a pan-genome context.&lt;br /&gt;&lt;br /&gt;
+
+In this thesis, we aim to provide scalable solutions for pan-genome indexing and storage. We first address the problem of pan-genome indexing by proposing a new alignment-free, reference-free and incremental data structure that considers genome fragments as well as assemblies in input: the Bloom Filter Trie (BFT). The BFT is a tree data structure representing a colored de Bruijn graph in which k-mers, words of length k from the input genomes, are associated with sets of colors representing the genomes in which they occur. The BFT makes extensive use of Bloom filters to navigate in the tree and optimize the graph traversal. A "bursting" method is employed to perform an efficient path and level compaction of the tree. We show that the BFT outperforms a data structure that has similar features but is based on an approximation of the set of indexed k-mers.&lt;br /&gt;&lt;br /&gt;
+
+Secondly, we address the problem of genome fragments compression in a pan-genome context by proposing a new abstract data structure, the guided de Bruijn graph. It augments the de Bruijn graph with k-mer partitions such that the graph traversal is guided to reconstruct exactly the genome fragments when decompressing. Different techniques are proposed to optimize the storage of fragments in the graph and the partition encoding. We show that the BFT described previously has all features required to index a guided de Bruijn graph and is used in the implementation of our compression method named DARRC. The evaluation of DARRC on a large pan-genome dataset compared to state-of-the-art HTS-specific and general purpose compression tools shows a 30% compression ratio improvement over the second best performing tool of this evaluation.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis_Holley.pdf">https://pub.uni-bielefeld.de/download/2918485/2918486/thesis_Holley.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29184858</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2017-04-25</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Holley, G.: Pan-genome Search and Storage. Universität Bielefeld, Bielefeld (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, Guillaume. 2018. &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Holley, Guillaume. &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<default>Holley G (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<aps> G.  Holley, Pan-genome Search and Storage, (Universität Bielefeld, Bielefeld, 2018).</aps>
+<wels>Holley, G. (2018): Pan-genome Search and Storage. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Holley, G., 2018. &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, G. (2018).  &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Holley G (2018) &lt;br /&gt;&lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<angewandte-chemie>G.  Holley, &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<ama>Holley G. &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, G. (2018). &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Holley, G. (2018). Pan-genome Search and Storage. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Holley, G. (2018).  &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> G. Holley, &lt;em&gt;Pan-genome Search and Storage&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2918485</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-03-12T09:40:17Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:28Z</recordChangeDate>
+</recordInfo>
+</mods>

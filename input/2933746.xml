@@ -1,0 +1,116 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2933746</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:150</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation </title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Peter</namePart>
+  <namePart type="family">Fuchs</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">32001587</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Fridtjof W.</namePart>
+  
+  
+  <namePart type="family">Nussbeck</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10026</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis compares several statistical modeling techniques for interactions between
+two persons across time, in which the dependent variable is categorical (*dyadic sequence
+data*). This is done by linking each presented model to prototypical research questions that
+might arise in psychological research, applying it to example datasets, and then translating
+the results back into the context of psychological research. Finally, simulation studies are
+conducted so that recommendations on sample size can be made. Moreover, potential biases were detected, and post-hoc simulations were used for investigating when biases occur and how those can be avoided. An R package along with an R script is provided in the appendix so that results can be reproduced.
+
+Two empirical datasets were used for demonstrating how to apply the presented models. One, the couples-cope dataset, stems from the field of relationship research and the
+other, the give-some dataset, stems from the field of social dilemmas. The couples-cope
+dataset is used as the leading example and contains observational data about romantically
+involved couples right after stress was induced to one partner. The data describes whether,
+and when, the stressed partner communicates his or her stress, and also whether, and when, the other partner reacts with a certain type of coping response. The following research questions were investigated: A) How to get an overview of dyadic sequence data? B) How long does a certain behavior such as stress communication last, and does it depend on time-independent or time-dependent covariates? C) Is it possible to describe the observed behavior of both partners by a not directly observable process (latent process), such as stress solving, that might explain the observed behavior? D) What is the stability of a behavior? E) Does the behavior of one partner trigger immediate responses of the other, and vice versa? F) And finally, is it possible to identify subgroups that might differ regarding their interaction patterns? The following models and approaches were compared: Data visualization and descriptive statistics for research question (A); time-to-event analysis such as Cox regressions and a shared frailty model for (B); aggregated logit models, multilevel models, and basic Markov models for (D) and (E); OM-clustering and mixture Markov models were compared for (F). A hidden Markov model was used for answering research question \(C\).
+
+
+
+The frailty model performed badly in the simulation studies, the rest, however, per-
+formed overall well. All models could be applied to datasets with N &lt; 100 under the right
+conditions. The multilevel model is recommended for most applications regarding research
+question (D) and (E). OM-clustering worked better for detecting latent groups than mix-
+ture Markov models when sequences were long and the sample sizes were big (both &gt; 100).
+
+Markov modeling proved to be the most versatile modeling technique, but also, the most
+challenging one because estimations might become unstable when models are too complex
+or when true values are near their natural boundary. In these cases, careful consideration
+must be made regarding model specification and optimization. A summary of all findings
+regarding the model applications and regarding insides about the couples-cope data can be
+found in the final chapter.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dis_ISO_Hinweis.pdf">https://pub.uni-bielefeld.de/download/2933746/2933747/dis_ISO_Hinweis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://creativecommons.org/publicdomain/zero/1.0/</accessCondition>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29337464</identifier><identifier type="doi">10.4119/unibi/2933746</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-02-12</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Fuchs, P. (2019): Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation . Bielefeld: Universität Bielefeld.</wels>
+<bio1>Fuchs P (2019) &lt;br /&gt;&lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Fuchs, P., 2019. &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fuchs, P. (2019).  &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2933746&lt;/div&gt;</apa_indent>
+<angewandte-chemie>P.  Fuchs, &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<ama>Fuchs P. &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fuchs, P. (2019). &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2933746.&lt;/div&gt;</dgps>
+<frontiers>Fuchs, P. (2019). Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation . Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Fuchs, P. (2019).  &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2933746</apa>
+<ieee> P. Fuchs, &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<lncs> Fuchs, P.: Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation . Universität Bielefeld, Bielefeld (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fuchs, Peter. 2019. &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Fuchs, Peter. &lt;em&gt;Analyzing Dyadic Sequence Data - Comparing Different Statistical Models with Respect to their Applicability and Interpretation &lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+<default>Fuchs P (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2933746</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-02-13T11:44:49Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-15T11:07:27Z</recordChangeDate>
+</recordInfo>
+</mods>

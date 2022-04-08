@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2907706">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Generation of multilingual ontology lexica with M-ATOLL :  a corpus-based approach for the induction of ontology lexica</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Walter</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8589-8715</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-12-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">There is an increasing interest in providing common web users with access to structured knowledge bases such as DBpedia, for example by means of question answering systems.&lt;br /&gt;
+All such question answering systems have in common that they have to map a natural language input, be it spoken or written, to a formal representation in order to extract the correct answer from the target knowledge base.
+This is also the case for systems which generate natural language text from a given knowledge base.
+The main challenge is how to map natural language (spoken or written) to structured data and vice versa.
+To this end, question answering systems require knowledge about how the vocabulary elements used in the available datasets are verbalized in natural language, covering different verbalization variants.
+Multilinguality of course increases the complexity of this challenge.&lt;br /&gt;
+In this thesis we introduce M-ATOLL, a framework for automatically inducing ontology lexica in multiple languages, to find such verbalization variants.&lt;br /&gt;
+We have instantiated the system for three languages, English, German and Spanish, by exploiting a set of language-specific dependency patterns for finding lexicalizations in text corpora. Additionally, we extended our framework to extract complex adjective lexicalizations with a machine-learning-based approach.&lt;br /&gt;
+M-ATOLL is the first open-source and multilingual approach for the generation of ontology lexica. In this thesis we present grammatical patterns for three different languages, on which the extraction of lexicalization relies.
+ We provide an analysis of these patterns as well as a comparison with those proposed by other state-of-the-art systems. Additionally, we present a detailed evaluation comparing the different approaches with different settings on a publicly available goldstandard, and discuss their potential and limitations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29077066</identifier>
+                    <identifier type="sys">HT019252096</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2907706</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2907706">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2907706/2907707/sebastian_walter_dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2907706" DMDID="DMD2907706">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2907706"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

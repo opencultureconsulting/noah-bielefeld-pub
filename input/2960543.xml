@@ -1,0 +1,137 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2960543</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Design of low-power digital circuits in the sub-threshold domain</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Saikat</namePart>
+  <namePart type="family">Chatterjee</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">51819550</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">44327394</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The demand of low power consumption in microelectronics circuits has increased
+significantly as submicron technologies scale down. Battery operated portable
+applications are in high demand across the industries such as automotive, medical,
+MEMS, telecommunication and so on. Subthreshold operations provides the
+potential solution to the energy consumption problem. However, it comes at
+the price of significant degradation of performance. Since, it needs to reduce
+the maximum operating clock frequency in subthreshold operation. An effective
+solution proposed to such problem was to have different voltage islands. Here, the
+non-critical power constrained blocks could run in subthreshold domain with the
+critical ones operating in above threshold domain. Our work proposes a solution
+to combat such a problem.
+Our work consists of three parts; 1) a standard cell library optimized for subthreshold
+operation, 2) couple of level shifter circuits capable of sub-threshold to
+above threshold voltage conversion and 3) a subthreshold memory array. We have
+used the 28nm FD-SOI technology from ST Microelectronics.
+The standard cell library contains basic design cell units, whose dimensions are
+optimized for subthreshold operation at a low fixed frequency. The optimization
+process is based upon a multiobjective optimization methodology. Propagation
+delay, switching power, static power dissipation and, noise margin are the parameters,
+chosen for multiobjective optimization. We generated separate sets of
+dimensions for each cells due to the optimization algorithm, which helped us
+to design the parametric cell (p-cell). We used the p-cell approach as it helps to
+standardize the cell design reducing the development time. The library is ready
+for the synthesis of low power blocks. The library is developed with two different
+variants of transistors, namely RVT and LVT. They have different threshold voltages.
+The RVT library has 21 combinatorial logic cells, 4 sequential logic cells and
+11 clock circuits. The LVT library has only combinatorial cells.
+We designed two different level shifter circuits, which are performance optimized
+with the library cells in terms of voltage and frequency. The leakage current
+loss was kept in mind while doing the design. We have followed the circuit mirror
+topology for one of the circuits. This circuit can operate convert an input of 250mV
+to 1V output. The leakage power of this circuit is 37pW. The second level shifter
+circuit is a combination of both circuit mirror and cross-coupled PMOS topologies.
+This particular circuit can operate even at 150mV supply, with the leakage power
+being 107pW.
+Memory circuits consume a lot of energy. Although it is difficult to reduce the
+operating voltage of memory cells, without diminishing the performance. Here,
+we proposed a 4x8 SRAM array, which can operate with a minimum supply of
+250mV and a maximum frequency of 3.3 MHz. During the read operation, the
+energy consumption of the memory cell is 0.107 fJ at 3.33MHZ.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DissSaikat_Saikat_Chatterjee.pdf">https://pub.uni-bielefeld.de/download/2960543/2960544/DissSaikat_Saikat_Chatterjee.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2022</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29605435</identifier><identifier type="doi">10.4119/unibi/2960543</identifier>
+<part><extent unit="pages">184</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2021-09-10</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Chatterjee, Saikat. &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2022.</mla>
+<default>Chatterjee S (2022) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<lncs> Chatterjee, S.: Design of low-power digital circuits in the sub-threshold domain. Universität Bielefeld, Bielefeld (2022).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chatterjee, Saikat. 2022. &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<apa>Chatterjee, S. (2022).  &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2960543" target="_blank"&gt;https://doi.org/10.4119/unibi/2960543&lt;/a&gt;</apa>
+<ieee> S. Chatterjee, &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2022.</ieee>
+<ama>Chatterjee S. &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2022.</ama>
+<frontiers>Chatterjee, S. (2022). Design of low-power digital circuits in the sub-threshold domain. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chatterjee, S. (2022). &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2960543.&lt;/div&gt;</dgps>
+<harvard1>Chatterjee, S., 2022. &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chatterjee, S. (2022).  &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2960543" target="_blank"&gt;https://doi.org/10.4119/unibi/2960543&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Chatterjee S (2022) &lt;br /&gt;&lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<angewandte-chemie>S.  Chatterjee, &lt;em&gt;Design of low-power digital circuits in the sub-threshold domain&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2022&lt;/strong&gt;.</angewandte-chemie>
+<wels>Chatterjee, S. (2022): Design of low-power digital circuits in the sub-threshold domain. Bielefeld: Universität Bielefeld.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2960543</recordIdentifier><recordCreationDate encoding="w3cdtf">2022-01-12T16:48:17Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2022-02-03T12:03:46Z</recordChangeDate>
+</recordInfo>
+</mods>

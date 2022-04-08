@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302005">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>From single genomes to natural microbial communities : novel methods for the high-throughput analysis of genomic sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lutz</namePart>
+                        <namePart type="family">Krause</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alfred</namePart>
+                        <namePart type="family">Pühler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-10-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Advances in sequencing technologies provide the opportunity to rapidly produce vast genomic data sets at a low price. In particular, the recently developed, ultra-fast 454 pyrosequencing has dramatically reduced the cost and time requirements per sequenced base pair. Furthermore, novel methods have been developed that enable sequencing of the 99 percent of microbes that are difficult to access with conventional, culture-dependent approaches. These culture-independent methods launch the exciting field of metagenomics - the study of the collective genomes (metagenomes) of free-living microbial communities.
+In light of the immense data sets produced, sequence analysis is still a contemporary, ongoing challenge in computational biology. Additionally, new demands arise from the short length of sequence reads produced by ultra-fast sequencing techniques. In the field of whole-genome research, accurate methods are required for identifying and functionally characterizing the gene content of organisms, thus reducing the required manual effort while at the same time producing high-quality annotations. On the other hand, metagenomes are nowadays routinely sequenced, and an increasing number of metagenomic projects is expected in the near future (Pennisi, 2007), but their computational analysis is still in its infancy.
+In the presented thesis, state-of-the-art machine learning techniques as well as algorithmic and statistical methods are employed for the high-throughput analysis and characterization of large genomic data sets. First, the gene finding software GISMO was developed, which combines the search for protein domains using profile hidden Markov models (pHMMs) with a sequence composition-based classification using a Support Vector Machine. This combined strategy is able to unveil almost the complete gene content of prokaryotic genomes in a fully automated manner. GISMO has already been extensively employed in the international effort to &quot;Annotate a Thousand Genomes&quot; as well as in various genome annotation and re-annotation projects.
+Furthermore, a novel gene finding algorithm for metagenomic data sets was developed. It is robust for most problems encountered when predicting genes in metagenomes, including short sequence length and low sequence quality. Thereby, the algorithm allows to hunt for novel, unknown genes carried by organisms that cannot be sequenced using conventional, culture dependent techniques.
+Finally, methods were devised for characterizing short-read metagenomes obtained by pyrosequencing. Following the pHMM-based identification of gene fragments, the latter are categorized into functional groups. Additionally, the source organisms (taxonomic origins) of gene fragments are predicted. The resulting genetic and taxonomic profiles can in turn be used to unveil important trends in the gene content, metabolism, and species composition of the underlying microbial communities.</abstract>
+                    <subject>
+                        <topic>Genanalyse</topic>
+                        <topic>Sequenzdaten</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>Metagenomics</topic>
+                        <topic>Gene finding</topic>
+                        <topic>GISMO</topic>
+                        <topic>CARMA (Pipeline for characterizing short-read metagenomes)</topic>
+                        <topic>Support Vector Machine (SVM)</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12082</identifier>
+                    <identifier type="sys">HT015737467</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302005</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302005">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302005/2302008/LutzKrausePhDThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302005" DMDID="DMD2302005">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302005"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

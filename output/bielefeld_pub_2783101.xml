@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2783101">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reconstruction of ancestral gene orders using intermediate genomes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Pedro</namePart>
+                        <namePart type="family">Feijão</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+The problem of reconstructing ancestral genomes in a given phylogenetic tree arises in many different comparative genomics fields. Here, we focus on reconstructing the gene order of ancestral genomes, a problem that has been largely studied in the past 20 years, especially with the increasing availability of whole genome DNA sequences. There are two main approaches to this problem: event-based methods, that try to find the ancestral genomes that minimize the number of rearrangement events in the tree; and homology-based, that look for conserved structures, such as adjacent genes in the extant genomes, to build the ancestral genomes.
+Results
+
+We propose algorithms that use the concept of intermediate genomes, arising in optimal pairwise rearrangement scenarios. We show that intermediate genomes have combinatorial properties that make them easy to reconstruct, and develop fast algorithms with better reconstructed ancestral genomes than current event-based methods. The proposed framework is also designed to accept extra information, such as results from homology-based approaches, giving rise to combined algorithms with better results than the original methods.</abstract>
+                    <subject>
+                        <topic>Ancestral Reconstruction</topic>
+                        <topic>Small Parsimony Problem</topic>
+                        <topic>Genome Rearrangement</topic>
+                        <topic>Double-Cut-and-Join</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 14</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">26451811</identifier>
+                    <identifier type="ISI">000367880100003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27831016</identifier>
+                    <identifier type="doi">10.1186/1471-2105-16-S14-S3</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2783101</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2783101">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2783101/2783106/1471-2105-16-S14-S3.feijao.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2783101" DMDID="DMD2783101">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2783101"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

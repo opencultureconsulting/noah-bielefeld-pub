@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2310522</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:006</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Learning Similarity Functions for Event Identification using Support Vector Machines</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Timo</namePart>
+  <namePart type="family">Reuter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15477912</identifier></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">Every clustering algorithm requires a similarity measure, ideally optimized for the task in question. In this paper we are concerned with the task of identifying events in social media data and address the question of how a suitable similarity function can be learned from training data for this task. The task consists essentially in grouping social media documents by the event they belong to. In order to learn a similarity measure using machine learning techniques, we extract relevant events from last.fm and match the unique machine tags for these events to pictures uploaded to Flickr, thus getting a gold standard were each picture is assigned to its corresponding event. We evaluate the similarity measure with respect to accuracy on the task of assigning a picture to its correct event. We use SVMs to train an appropriate similarity measure and investigate the performance of different types of SVMs (Ranking SVMs vs. Standard SVMs), different strategies for creating training data as well as the impact of the amount of training data and the kernel used. Our results show that a suitable similarity measure can be learned from a few examples only given a suitable strategy for creating training data. We also show that i) Ranking SVMs can learn from fewer examples, ii) are more robust compared to standard SVMs in the sense that their performance does not vary significantly for different sizes and samples of training data and iii) are not as prone to overfitting as standard SVMs.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2310522_Reuter_LearningSimilarityFunctions.pdf">https://pub.uni-bielefeld.de/download/2310522/2686731/2310522_Reuter_LearningSimilarityFunctions.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>SupportVector Machine</topic><topic>data mining.</topic><topic>weight adjustment</topic><topic>event identification</topic><topic>similarity function</topic><topic>machine learning</topic><topic>Clustering/classification</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-23105222</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<mla>Reuter, Timo, and Cimiano, Philipp. “Learning Similarity Functions for Event Identification using Support Vector Machines”. &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;. 2011.</mla>
+<default>Reuter T, Cimiano P (2011)  &lt;br /&gt;In:  Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011).</default>
+<lncs> Reuter, T., Cimiano, P.: Learning Similarity Functions for Event Identification using Support Vector Machines. Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011).  (2011).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, Timo, and Cimiano, Philipp. 2011. “Learning Similarity Functions for Event Identification using Support Vector Machines”. In &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;.&lt;/div&gt;</chicago>
+<bio1>Reuter T, Cimiano P (2011) &lt;br /&gt;Learning Similarity Functions for Event Identification using Support Vector Machines. &lt;br /&gt;In:  Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011). .</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, T., &amp;amp; Cimiano, P. (2011). Learning Similarity Functions for Event Identification using Support Vector Machines. &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Reuter, T., &amp;amp; Cimiano, P., 2011. Learning Similarity Functions for Event Identification using Support Vector Machines. In &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;.</harvard1>
+<angewandte-chemie>T.  Reuter, and P.  Cimiano, in &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;, &lt;strong&gt;2011&lt;/strong&gt;.</angewandte-chemie>
+<wels>Reuter, T.; Cimiano, P. (2011): Learning Similarity Functions for Event Identification using Support Vector Machines. In: Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011).</wels>
+<apa>Reuter, T., &amp;amp; Cimiano, P. (2011). Learning Similarity Functions for Event Identification using Support Vector Machines. &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;</apa>
+<ieee> T. Reuter and P. Cimiano, “Learning Similarity Functions for Event Identification using Support Vector Machines”, &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;, 2011.</ieee>
+<ama>Reuter T, Cimiano P. Learning Similarity Functions for Event Identification using Support Vector Machines. In:  &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;. 2011.</ama>
+<frontiers>Reuter, T., and Cimiano, P. (2011). “Learning Similarity Functions for Event Identification using Support Vector Machines” in &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, T. &amp;amp; Cimiano, P. (2011). Learning Similarity Functions for Event Identification using Support Vector Machines. &lt;em&gt;Proceedings of the International Conference on Knowledge Discovery and Information Retrieval (KDIR2011)&lt;/em&gt;. Gehalten auf der International Conference on Knowledge Discovery and Information Retrieval (KDIR2011).&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2310522</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-08-09T09:01:07Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:20Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2954832">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Natural family-free genomic distance.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Diego P</namePart>
+                        <namePart type="family">Rubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fabio V</namePart>
+                        <namePart type="family">Martinez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marília</namePart>
+                        <namePart type="family">Dias Vieira Braga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND: A classical problem in comparative genomics is to compute the rearrangement distance, that is the minimum number of large-scale rearrangements required to transform a given genome into another given genome. The traditional approaches in this area are family-based, i.e., require the classification of DNA fragments of both genomes into families. Furthermore, the most elementary family-based models, which are able to compute distances in polynomial time, restrict the families to occur at most once in each genome. In contrast, the distance computation in models that allow multifamilies (i.e., families with multiple occurrences) is NP-hard. Very recently, Bohnenkamper et al. (J Comput Biol 28:410-431, 2021) proposed an ILP formulation for computing the genomic distance of genomes with multifamilies, allowing structural rearrangements, represented by the generic double cut and join (DCJ) operation, and content-modifying insertions and deletions of DNA segments. This ILP is very efficient, but must maximize a matching of the genes in each multifamily, in order to prevent the free lunch artifact that would otherwise let empty or almost empty matchings give smaller distances.; RESULTS: In this paper, we adopt the alternative family-free setting that, instead of family classification, simply uses the pairwise similarities between DNA fragments of both genomes to compute their rearrangement distance. We adapted the ILP mentioned above and developed a model in which pairwise similarities are used to assign weights to both matched and unmatched genes, so that an optimal solution does not necessarily maximize the matching. Our model then results in a natural family-free genomic distance, that takes into consideration all given genes, without prior classification into families, and has a search space composed of matchings of any size. In spite of its bigger search space, our ILP seems to be boosted by a reduction of the number of co-optimal solutions due to the weights. Indeed, it converged faster than the original one by Bohnenkamper et al. for instances with the same number of multiple connections. We can handle not only bacterial genomes, but also fungi and insects, or sets of chromosomes of mammals and plants. In a comparison study of six fruit fly genomes, we obtained accurate results.</abstract>
+                    <subject>
+                        <topic>Comparative genomics</topic>
+                        <topic>Genome rearrangement</topic>
+                        <topic>DCJ-indel distance</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms for molecular biology : AMB</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1748-7188</identifier>
+                    <identifier type="MEDLINE">33971908</identifier>
+                    <identifier type="ISI">000649041300002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29548325</identifier>
+                    <identifier type="doi">10.1186/s13015-021-00183-8</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2954832</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2954832">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2954832/2960650/Natural+family-free+s13015-021-00183-8.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2954832" DMDID="DMD2954832">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2954832"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

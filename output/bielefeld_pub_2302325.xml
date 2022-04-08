@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302325">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Field theories for copolymer blends : self-consistent approaches and Monte Carlo simulations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dominik</namePart>
+                        <namePart type="family">Düchs</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Friederike</namePart>
+                        <namePart type="family">Schmid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-04-01</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der vorliegenden Arbeit wird auf der Basis der selbstkonsistenten Feldtheorie (SCFT) für Polymermischungen eine neue Simulationsmethode eingeführt, die mittels eines Monte-Carlo-Algorithmus die Berücksichtigung von thermischen Fluktuationen erlaubt. Diese Methode wird auf das ternäre System aus AB-Kopolymeren sowie A- und B-Homopolymeren angewandt. In Übereinstimmung mit Experimenten wird ein Mikroemulsionskanal im Phasendiagramm gefunden. Für die Auswertung werden eigens entwickelte graphische Analysemethoden benutzt. Eine zweite Erweiterung von SCFT, nämlich für Stab-Knäuel-Polymere, wird ebenfalls vorgestellt.</abstract>
+                    <subject>
+                        <topic>Polymer-Blend , Copolymere , Mean-Field-Theorie , Monte-Carlo-Simulation , Kopolymere , Mikroemulsion , Feldtheorie , Monte-Carlo-Simulation ,</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3755</identifier>
+                    <identifier type="sys">HT014305973</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302325</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2302325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302325/2302330/0031.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2302325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302325/2302329/0031.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2302325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302325/2302328/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE3_bielefeld_pub_2302325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302325/2302331/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302325" DMDID="DMD2302325">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302325"/>
+            <mets:div TYPE="part" ID="PART1_2302325" LABEL="0031.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2302325"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2302325" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2302325"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2302325" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2302325"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

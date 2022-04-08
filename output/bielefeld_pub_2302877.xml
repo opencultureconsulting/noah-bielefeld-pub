@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302877">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Diabetes mellitus and quality of life of the Palestinian diabetic refugees in the refugee camps in Gaza Strip</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ashraf Yaqoub</namePart>
+                        <namePart type="family">Eljedi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Laaser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-10-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Objectives: To examine the effect of the refugee life and diabetes on the health-related quality of life (HRQOL) of the diabetic refugees in Gaza Strip.
+Design and methods: A cross-sectional 1:1 paired matched case-control design was used. One case (diabetic refugees) and two age- and sex-matched control groups (diabetic non-refugees and non-diabetic refugees) were recruited from three refugee camps and their neighboring cities to complete the WHOQOL-BREF (World Health Organization Quality of Life - brief form) questionnaire and to conduct the interviews.
+Results: Refugees with diabetes had significantly poorer HRQOL than diabetic non-refugees and healthy refugees in the physical, psychological, social and environmental domains. Older age, female sex, longer duration of diabetes and presence of complications were associated with a lower HRQOL of the refugees.</abstract>
+                    <subject>
+                        <topic>Gazastreifen</topic>
+                        <topic>Palästinensischer Flüchtling</topic>
+                        <topic>Diabetes mellitus</topic>
+                        <topic>Lebensqualität</topic>
+                        <topic>Diabetes mellitus</topic>
+                        <topic>Health-related quality of life</topic>
+                        <topic>WHOQOL-BREF (World Health Organization Quality of Life - brief form)</topic>
+                        <topic>Palestinian refugees</topic>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7802</identifier>
+                    <identifier type="sys">HT014566796</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302877</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302877">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302877/2302883/Part_3.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2302877">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302877/2302882/Part_2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2302877">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302877/2302881/Part_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE3_bielefeld_pub_2302877">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302877/2302880/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302877" DMDID="DMD2302877">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302877"/>
+            <mets:div TYPE="part" ID="PART1_2302877" LABEL="Part_2.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2302877"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2302877" LABEL="Part_1.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2302877"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2302877" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2302877"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

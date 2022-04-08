@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Social Motorics - a predictive processing model for efficient embodied communication</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Kahl</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8468-2808</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-08-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Human communication often seems effortless. We tend to quickly have an idea of our interaction partner’s intentions that enable us to predict their future behavior. How is such efficient communication possible which, despite uncertainty, allows us to quickly attribute beliefs to one another? Also, when and how are beliefs corrected if necessary? By investigating how action and perception influence and are influenced by prior beliefs during non-verbal communication, this work tackles the question of how and when the two subnetworks of the social brain interact.
+A computational modeling approach is proposed, based on principles of predictive processing and active inference. The model’s hierarchy consists of sensorimotor- and mentalizing levels. Their processes influence each other in a way that allows their embodied representations to be used efficiently. It is explored how uncertainty is handled in human communication, before examining the neuroscientific details of social cognition. Both inform the assumptions underlying the proposed model, which is evaluated in a number of simulations. These test the model’s abilities to minimize uncertainty during action and perception, to differentiate between its own and other’s actions, and also its ability to coordinate beliefs between multiple agents in a non-verbal communication game.
+The simulations not only show that the proposed mechanisms quickly infer action intentions, able to influence future perception and action. Simulations also highlight the importance of weighting new evidence against prior beliefs, so that it is able to detect false beliefs and repair them during social interaction. The proposed computational model demonstrates a mechanistic account of the interplay within the social brain that allows for efficient non-verbal communication between similar agents, with implications for the notion of subjective direct access to other’s minds.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29457180</identifier>
+                    <identifier type="doi">10.4119/unibi/2945718</identifier>
+                    <identifier type="sys">HT020653608</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945718">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945718/2945728/skahl_thesis_public.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945718" DMDID="DMD2945718">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

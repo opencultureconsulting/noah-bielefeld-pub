@@ -1,0 +1,2907 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2920448</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Sonification for Exploratory Data Analysis"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">### Sonification for Exploratory Data Analysis
+
+#### Chapter 8: Sonification Models
+In Chapter 8 of the thesis, 6 sonification models are presented to give some examples for the framework of Model-Based Sonification, developed in Chapter 7.  Sonification models determine the rendering of the sonification and possible interactions. The "model in mind" helps the user to interprete the sound with respect to the data. 
+
+##### **8.1 Data Sonograms**
+
+Data Sonograms use spherical expanding shock waves to excite linear oscillators which are represented by point masses in model space. 
+
+* Table 8.2, page 87: Sound examples for Data Sonograms
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;Iris dataset: started in plot &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920454"&gt;(a)
+at S0&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920455"&gt;(b) at S1&lt;/a&gt;&amp;nbsp;&amp;nbsp;
+
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920456"&gt;(c) at S2&lt;/a&gt;
+&lt;br&gt;10d noisy circle dataset: started in plot (c) at &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920451"&gt;S0
+(mean) &lt;/a&gt;(d) at &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920452"&gt;S1 (edge)&lt;/a&gt;
+&lt;br&gt;10d Gaussian: plot (d) started at &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920453"&gt;S0&lt;/a&gt;
+&lt;br&gt;3 clusters: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920449"&gt;Example 1&lt;/a&gt;
+&lt;br&gt;3 clusters: invisible columns used as output variables: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920450"&gt;Example
+2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Data Sonogram Sound examples for synthetic datasets and the Iris dataset&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;about 5 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+##### **8.2    Particle Trajectory Sonification Model**
+
+This sonification model explores features of a data distribution by computing the trajectories of test particles which are injected into model space and move according to Newton's laws of motion in a potential given by the dataset.
+
+* Sound example: page 93,  [PTSM-Ex-1](https://pub.uni-bielefeld.de/download/2920448/2920459/trj_singleparticle.mp3)  Audification of 1 particle in the potential of phi(x).
+* Sound example: page 93,  [PTSM-Ex-2](https://pub.uni-bielefeld.de/download/2920448/2920460/trj_seq1_15_2clust.mp3)  Audification of a sequence of 15 particles in the potential of a dataset with 2 clusters.
+* Sound example: page 94,  [PTSM-Ex-3](https://pub.uni-bielefeld.de/download/2920448/2920461/traj_25_1_2cl.mp3)  Audification of 25 particles simultaneous in a potential of a dataset with 2 clusters.
+* Sound example: page 94,  [PTSM-Ex-4](https://pub.uni-bielefeld.de/download/2920448/2920462/traj_25_1_1cl.mp3)  Audification of 25 particles simultaneous in a potential of a dataset with 1 cluster.
+* Sound example: page 95,  [PTSM-Ex-5](https://pub.uni-bielefeld.de/download/2920448/2920463/PTSM-Ex-5-3clusters.mp3)  sigma-step sequence for a mixture of three Gaussian clusters
+* Sound example: page 95,  [PTSM-Ex-6](https://pub.uni-bielefeld.de/download/2920448/2920464/PTSM-Ex-6-1Gaussian.mp3)  sigma-step sequence for a Gaussian cluster
+* Sound example: page 96,  [PTSM-Iris-1](https://pub.uni-bielefeld.de/download/2920448/2920465/PTSM-ExIris.mp3) Sonification for the Iris Dataset with 20 particles per step.
+* Sound example: page 96,  [PTSM-Iris-2](https://pub.uni-bielefeld.de/download/2920448/2920466/PTSM-ExIris3P.mp3) Sonification for the Iris Dataset with   3 particles per step.
+* Sound example: page 96,  [PTSM-Tetra-1](https://pub.uni-bielefeld.de/download/2920448/2920467/PTSM-ExTetra4D.mp3) Sonification for a 4d tetrahedron clusters dataset.
+
+
+
+##### **8.3    Markov chain Monte Carlo Sonification**
+
+The McMC Sonification Model defines a exploratory process in the domain of a given density p such that the acoustic representation summarizes features of p, particularly concerning the modes of p by sound.
+
+* Sound Example: page 105, [MCMC-Ex-1](https://pub.uni-bielefeld.de/download/2920448/2920516/MCMCampl.mp3)  McMC Sonification, stabilization of amplitudes.
+* Sound Example: page 106, [MCMC-Ex-2](https://pub.uni-bielefeld.de/download/2920448/2920517/mcmc_audification_3cl.mp3)  Trajectory Audification for 100 McMC steps in 3 cluster dataset
+* McMC Sonification for Cluster Analysis, dataset with three clusters, page 107
+    * Stream 1 [MCMC-Ex-3.1](https://pub.uni-bielefeld.de/download/2920448/2920518/E2a_stream1.mp3)
+    * Stream 2 [MCMC-Ex-3.2](https://pub.uni-bielefeld.de/download/2920448/2920519/E2a_stream2.mp3)
+    * Stream 3 [MCMC-Ex-3.3](https://pub.uni-bielefeld.de/download/2920448/2920520/E2a_stream3.mp3)
+    * Mix [MCMC-Ex-3.4](https://pub.uni-bielefeld.de/download/2920448/2920521/E2a_mix.mp3)
+* McMC Sonification for Cluster Analysis, dataset with three clusters, T =0.002s, page 107
+    * Stream 1 [MCMC-Ex-4.1 (stream 1)](https://pub.uni-bielefeld.de/download/2920448/2920522/E2b_stream1.mp3)
+    * Stream 2 [MCMC-Ex-4.2 (stream 2)](https://pub.uni-bielefeld.de/download/2920448/2920523/E2b_stream2.mp3)
+    * Stream 3 [MCMC-Ex-4.3 (stream 3)](https://pub.uni-bielefeld.de/download/2920448/2920524/E2b_stream3.mp3)
+    * Mix  [MCMC-Ex-4.4](https://pub.uni-bielefeld.de/download/2920448/2920525/E2b_mix.mp3)
+* McMC Sonification for Cluster Analysis, density with 6 modes, T=0.008s, page 107
+    * Stream 1 [MCMC-Ex-5.1 (stream 1)](https://pub.uni-bielefeld.de/download/2920448/2920526/E2c_stream1.mp3)
+    * Stream 2 [MCMC-Ex-5.2 (stream 2)](https://pub.uni-bielefeld.de/download/2920448/2920527/E2c_stream2.mp3)
+    * Stream 3 [MCMC-Ex-5.3 (stream 3)](https://pub.uni-bielefeld.de/download/2920448/2920528/E2c_stream3.mp3)
+    * Mix  [MCMC-Ex-5.4](https://pub.uni-bielefeld.de/download/2920448/2920529/E2c_mix.mp3)
+* McMC Sonification for the Iris dataset, page 108
+    * [MCMC-Ex-6.1](https://pub.uni-bielefeld.de/download/2920448/2920530/mcmc_iris1_bw0p5.mp3)
+    * [MCMC-Ex-6.2](https://pub.uni-bielefeld.de/download/2920448/2920531/mcmc_iris1_bw0p25.mp3)
+    * [MCMC-Ex-6.3](https://pub.uni-bielefeld.de/download/2920448/2920532/mcmc_iris1_bw0.mp3)
+    * [MCMC-Ex-6.4](https://pub.uni-bielefeld.de/download/2920448/2920533/mcmc_iris1_bw-0p25.mp3)
+    * [MCMC-Ex-6.5](https://pub.uni-bielefeld.de/download/2920448/2920534/mcmc_iris1_bw-0p5.mp3)
+    * [MCMC-Ex-6.6](https://pub.uni-bielefeld.de/download/2920448/2920535/mcmc_iris1_bw-0p75.mp3)
+    * [MCMC-Ex-6.7](https://pub.uni-bielefeld.de/download/2920448/2920536/mcmc_iris1_bw-1.mp3)
+    * [MCMC-Ex-6.8](https://pub.uni-bielefeld.de/download/2920448/2920537/mcmc_iris1_bw-1p25.mp3)
+
+##### **8.4    Principal Curve Sonification**
+
+Principal Curve Sonification represents data by synthesizing the soundscape while a virtual listener moves along the principal curve of the dataset through the model space.
+
+* Noisy Spiral dataset,  [PCS-Ex-1.1](https://pub.uni-bielefeld.de/download/2920448/2920588/PCS_Ex-1_1-noisyspiral.mp3) , page 113
+* Noisy Spiral dataset with variance modulation [PCS-Ex-1.2](https://pub.uni-bielefeld.de/download/2920448/2920589/PCS_Ex-1_2-noisyspiralmod.mp3) , page 114
+* 9d tetrahedron cluster dataset (10 clusters)  [PCS-Ex-2](https://pub.uni-bielefeld.de/download/2920448/2920590/PCS_Ex-2-tetra9d.mp3) , page 114
+* Iris dataset, class label used as pitch of auditory grains  [PCS-Ex-3](https://pub.uni-bielefeld.de/download/2920448/2920591/PCS_Ex-3-iris.mp3) , page 114
+
+##### **8.5    Data Crystallization Sonification Model**
+
+* Table 8.6, page 122: Sound examples for Crystallization Sonification for 5d Gaussian distribution
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;DCS started &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920592/CS_1gs_1a.mp3"&gt;at center&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920593/CS_1gs_1b.mp3"&gt;in
+tail&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920594/CS_1gs_1c.mp3"&gt;from far outside&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for dataset sampled from&amp;nbsp; N{0, I_5} excited at different locations&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Mixture of 2 Gaussians, page 122
+    * DCS started at point A  [DCS-Ex1A](https://pub.uni-bielefeld.de/download/2920448/2920595/Ex2gs_1.mp3)
+    *  DCS started at point B  [DCS-Ex1B](https://pub.uni-bielefeld.de/download/2920448/2920596/Ex2gs_2.mp3)
+
+*  Table 8.7, page 124: Sound examples for DCS on variation of the harmonics factor
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;h_omega =&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920595/Ex2gs_1.mp3"&gt;1&lt;/a&gt;,&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920597/Ex2gs_3.mp3"&gt;2&lt;/a&gt;,&amp;nbsp;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920598/Ex2gs_4.mp3"&gt;3&lt;/a&gt;,&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920599/Ex2gs_5.mp3"&gt;4&lt;/a&gt;,&amp;nbsp;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920600/Ex2gs_6.mp3"&gt;5&lt;/a&gt;,&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920601/Ex2gs_7.mp3"&gt;6&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of two Gaussians with varying harmonics factor&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.8, page 124: Sound examples for DCS on variation of the energy decay time
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;tau_(1/2) =&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920602/Ex2gs_8.mp3"&gt;0.001&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920603/Ex2gs_9.mp3"&gt;0.005&lt;/a&gt;,&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920604/Ex2gs_10.mp3"&gt;0.01&lt;/a&gt;,&amp;nbsp;
+
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920605/Ex2gs_11.mp3"&gt;0.05&lt;/a&gt;,&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920606/Ex2gs_12.mp3"&gt;0.1&lt;/a&gt;,&amp;nbsp;
+
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920607/Ex2gs_13.mp3"&gt;0.2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of two Gaussians varying the energy decay time tau_(1/2)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/center&gt;
+
+* Table 8.9, page 125: Sound examples for DCS on variation of the sonification time
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;T = &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920608/Ex2gs_14.mp3"&gt;0.2&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920609/Ex2gs_15.mp3"&gt;0.5&lt;/a&gt;,
+
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920610/Ex2gs_16.mp3"&gt;1&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920611/Ex2gs_17.mp3"&gt;2&lt;/a&gt;,
+
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920612/Ex2gs_18.mp3"&gt;4&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920613/Ex2gs_19.mp3"&gt;8&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of two Gaussians on varying the duration T&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;0.2s -- 8s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.10, page 125: Sound examples for DCS on variation of model space dimension
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;selected columns of the dataset: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920614/Ex2gs_20.mp3"&gt;(x0)&lt;/a&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920615/Ex2gs_21.mp3"&gt;(x0,x1)&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920616/Ex2gs_22.mp3"&gt;(x0,...,x2)&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920617/Ex2gs_23.mp3"&gt;(x0,...,x3)&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920618/Ex2gs_24.mp3"&gt;(x0,...,x4)&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920619/Ex2gs_25.mp3"&gt;(x0,...,x5)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;Description:&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of two Gaussians varying the dimension&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.11, page 126: Sound examples for DCS for different excitation locations
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;starting point:&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920620/Ex3gs_1.mp3"&gt;C0&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920621/Ex3gs_2.mp3"&gt;C1&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920622/Ex3gs_3.mp3"&gt;C2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;Description:&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of three Gaussians in 10d space with different rank(&lt;b&gt;S&lt;/b&gt;)
+= {2,4,8}&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.9 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.12, page 126: Sound examples for DCS for the mixture of a 2d distribution and a 5d cluster
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;condensation nucleus in (x0,x1)-plane at: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920623/Ex_saturn_1.mp3"&gt;(-6,0)=C1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920624/Ex_saturn_2.mp3"&gt;(-3,0)=C2&lt;/a&gt;,&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920625/Ex_saturn_3.mp3"&gt;(
+0,0)=C0&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of a uniform 2d and a 5d Gaussian&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;2.16 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.13, page 127: Sound examples for DCS for the cancer dataset
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;condensation nucleus in (x0,x1)-plane at:&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920626/Ex_cancer1.mp3"&gt;benign
+1&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920627/Ex_cancer2.mp3"&gt;benign 2&lt;/a&gt;
+&lt;br&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920628/Ex_cancer3.mp3"&gt;malignant 1&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920629/Ex_cancer4.mp3"&gt;malignant
+2&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;DCS for a mixture of a uniform 2d and a 5d Gaussian&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;2.16 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+##### **8.6    Growing Neural Gas Sonification**
+
+* Table 8.14, page 133: Sound examples for GNGS Probing
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;Cluster C0 (2d): &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920634/gng3cl_1a.mp3"&gt;a&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920635/gng3cl_1b.mp3"&gt;b&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920636/gng3cl_1c.mp3"&gt;c&lt;/a&gt;
+&lt;br&gt;Cluster C1 (4d): &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920637/gng3cl_2a.mp3"&gt;a&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920638/gng3cl_2b.mp3"&gt;b&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920639/gng3cl_2c.mp3"&gt;c&lt;/a&gt;
+&lt;br&gt;Cluster C2 (8d): &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920640/gng3cl_3a.mp3"&gt;a&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920641/gng3cl_3b.mp3"&gt;b&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920642/gng3cl_3c.mp3"&gt;c&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;GNGS for a mixture of 3 Gaussians in 10d space&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.15, page 134: Sound examples for GNGS for the noisy spiral dataset
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;(a) GNG with 3 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920649/gng_2sp3N_1.mp3"&gt;1&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920650/gng_2sp3N_2.mp3"&gt;2&lt;/a&gt;
+&lt;br&gt;(b) GNG with 20 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920651/gng_2sp20N_1.mp3"&gt;end&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920652/gng_2sp20N_2.mp3"&gt;middle&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920653/gng_2sp20N_3.mp3"&gt;inner
+end&lt;/a&gt;
+&lt;br&gt;(c) GNG with 45 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920654/gng_2sp45N_1.mp3"&gt;outer end&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920655/gng_2sp45N_2.mp3"&gt;middle&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920656/gng_2sp45N_3.mp3"&gt;close
+to inner end&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920657/gng_2sp45N_4.mp3"&gt;at inner end&lt;/a&gt;
+&lt;br&gt;(d) GNG with 150 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920658/gng_2sp150N_1.mp3"&gt;outer
+end&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920659/gng_2sp150N_2.mp3"&gt;in the middle&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920660/gng_2sp150N_3.mp3"&gt;inner
+end&lt;/a&gt;
+&lt;br&gt;(e) GNG with 20 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920643/gng_2sp1rot20N_1.mp3"&gt;outer
+end&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920644/gng_2sp1rot20N_2.mp3"&gt;in the middle&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920645/gng_2sp1rot20N_3.mp3"&gt;inner
+end&lt;/a&gt;
+&lt;br&gt;(f) GNG with 45 neurons &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920646/gng_2sp1rot45N_1.mp3"&gt;outer
+end&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920647/gng_2sp1rot45N_2.mp3"&gt;in the middle&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920648/gng_2sp1rot45N_3.mp3"&gt;inner
+end&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;GNG probing sonification for 2d noisy spiral dataset&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+* Table 8.16, page 136: Sound examples for GNG Process Monitoring Sonification for different data distributions
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align=right&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td NOSAVE&gt;Noisy spiral with 1 rotation:&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920663/GNGProcSpiral2d1rot.mp3"&gt;sound&lt;/a&gt;
+&lt;br&gt;Noisy spiral with 2 rotations: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920664/GNGProcSpiral2d2rot.mp3"&gt;sound&lt;/a&gt;
+&lt;br&gt;Gaussian in 5d: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920661/GNGProcgaussian5d.mp3"&gt;sound&lt;/a&gt;
+&lt;br&gt;Mixture of 5d and 2d distributions:&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920662/GNGProcsaturn.mp3"&gt;sound&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;GNG process sonification examples&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align=right&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;5 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+
+#### Chapter 9: Extensions ####
+In this chapter, two extensions for Parameter Mapping Sonification are
+introduced. The first is the Auditory Legend, which provides the limits
+and an average sonification for the attributes of an instrument. The second
+is Multidimensional Perceptual Scaling, a technique to combine MDS and
+PCA in such a way that sonifications are obtained that reveal groupings
+in the data without the need for extensive parameter tuning.
+
+##### **9.1: Auditory Legends for Parameter Mapping Sonification**
+
+
+* Table 9.1, page 140: Sound examples for Auditory Legends and Sonic Scatter
+Plots
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;Iris dataset:&amp;nbsp;
+&lt;br&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920799/EXT_iris_Foff.mp3"&gt;raw sonification&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920800/EXT_iris_Fon.mp3"&gt;with
+frame markers&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920801/EXT_iris_Legend.mp3"&gt;Auditory Legend&lt;/a&gt;
+&lt;br&gt;&amp;nbsp;Cancer dataset:&amp;nbsp;
+&lt;br&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920802/EXT_cancer_Foff.mp3"&gt;raw sonification&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920803/EXT_cancer_Fon.mp3"&gt;with
+frame markers&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920804/EXT_cancer_Legend.mp3"&gt;Auditory Legend&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Auditory Legend, Frame and Tick marks&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+##### **9.2: Multi-dimensional Perceptual Scaling**
+
+
+* Table 9.2, page 142: Sound examples for MPS Sonifications&lt;/li&gt;
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;FM instrument: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920809/MPS_FMLegend.mp3"&gt;Auditory Legend&lt;/a&gt;
+&lt;div align="right"&gt;Iris Dataset: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920808/MPS_iris.mp3"&gt;MPS (PCA)&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920807/MPS_iris_MDS.mp3"&gt;MPS (MDS/PCA)&lt;/a&gt;
+&lt;br&gt;Cancer dataset: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920813/MPS_cancer.mp3"&gt;MPS (PCA)&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920812/MPS_cancer_MDS.mp3"&gt;MPS
+(MDS/PCA)&lt;/a&gt;
+&lt;br&gt;7d tetrahedron: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920806/MPS_tetra7d.mp3"&gt;MPS (PCA)&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920805/MPS_tetra7d_MDS.mp3"&gt;MPS
+(MDS/PCA)&lt;/a&gt;
+&lt;br&gt;10d noisy circle: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920811/MPS_circle.mp3"&gt;MPS (PCA)&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2920810/MPS_circle_MDS.mp3"&gt;MPS
+(MDS/PCA)&lt;/a&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;MPS Sonification using MDS and PCA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+##### Chapter 10: Applications ####
+
+In this chapter, sonification is applied in 3 domains.&amp;nbsp; Two of them
+are concerned with the analysis of data which is ordered in time. Sonification
+is here devoloped to assist the monitoring of dynamical features. The third
+application is concerned with identification and comparison of high-dimensional
+patterns.&amp;nbsp; Here sonifications are developed that allow a user to interact
+with an auditory map by browsing elements of a visual display to query
+an auditory presentation.
+ 
+ 
+##### **10.1 Sonification of Psychotherapeutic Sessions**
+
+
+* Sound example, page 146, Marker for abstract words:&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930084/Cup_1.mp3"&gt;cymbal&lt;/a&gt;
+
+
+* Sound example, page 146, Marker for emptional words:&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930085/Claves_1.mp3"&gt;claves&lt;/a&gt;.
+
+
+* Table 10.1, page 146: Sound examples for Session Transcript Monitor Sonification
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930086/ma2611_15.mp3"&gt;Session 11&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930087/ma2612_15.mp3"&gt;Session
+12&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930088/ma2624_15.mp3"&gt;Session 24&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930089/ma2626_15.mp3"&gt;Session
+26&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Monitoring Session Transcripts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;15 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+* Table 10.2, page 147: Sound examples for Cycle Sonifications using AIB
+streams for the attributes abstract, emotion and CRA.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930090/mb2612_10.mp3"&gt;Session 12 (10 s)&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930091/mb2624_10.mp3"&gt;Session
+24 (10 s)&lt;/a&gt;,&amp;nbsp;
+&lt;br&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930092/mb2612_5.mp3"&gt;Session 12 (5 s)&lt;/a&gt;,&amp;nbsp;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930093/mb2624_5.mp3"&gt;Session
+24 (5 s)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;AIB sonification of session transcripts for Session 12,24&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;10 s, resp. 5 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;br&gt;&amp;nbsp;
+&lt;ul&gt;
+&lt;li&gt;
+* Table 10.3, page 149: Sound examples for Cycle Sonification using AIB streams
+and spoken markers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930094/mc2611_10.mp3"&gt;Session 11&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930095/mc2612_10.mp3"&gt;Session
+12&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930096/mc2624_10.mp3"&gt;Session 24&lt;/a&gt;, &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930097/mc2626_10.mp3"&gt;Session
+26&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;AIB sonification of session transcripts using speech marker&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;10 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;br&gt;&amp;nbsp;
+
+##### **10.2 Sonification for EEG Data Analysis**
+
+
+* Table 10.4, page 151: Audification of EEG data (2 electrodes, 3 subjects
+and all 3 conditions). Besides the dominating noise, pitched spikes can
+be heard
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;table nosave="" width="100%" border="0"&gt;
+&lt;tbody&gt;&lt;tr nosave=""&gt;
+&lt;td nosave=""&gt;S1 EEGr&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930098/EEG_aud_26_eyes_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930099/EEG_aud_26_eyes_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930100/EEG_aud_26_eyes_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr nosave=""&gt;
+&lt;td nosave=""&gt;S1 speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930101/EEG_aud_26_speech_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930102/EEG_aud_26_speech_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930103/EEG_aud_26_speech_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S1 pseudo speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930104/EEG_aud_26_pseudo_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S2 EEGr&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930105/EEG_aud_27_eyes_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930106/EEG_aud_27_eyes_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930107/EEG_aud_27_eyes_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr nosave=""&gt;
+&lt;td nosave=""&gt;S2 speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930109/EEG_aud_27_speech_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930111/EEG_aud_27_speech_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930110/EEG_aud_27_speech_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S2 pseudo speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930108/EEG_aud_27_pseudo_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S3 EEGr&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930112/EEG_aud_28_eyes_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930113/EEG_aud_28_eyes_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930114/EEG_aud_28_eyes_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S3 speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930116/EEG_aud_28_speech_fp1.mp3"&gt;Fp1&lt;/a&gt;,&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930117/EEG_aud_28_speech_t5.mp3"&gt;T5&lt;/a&gt;,&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930118/EEG_aud_28_speech_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;S3 pseudo speech&lt;/td&gt;
+
+&lt;td&gt;
+&lt;div align="right"&gt;&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930115/EEG_aud_28_pseudo_fp1-t5.mp3"&gt;Fp1/T5&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Audification of EEG Data for 2 electrodes (Fp1 and T5) for subjects
+S1-S3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+* Table 10.5, page 153: Sound examples for Spectral Mapping Sonification
+of EEG data, for the conditions&amp;nbsp; pseudo speech and speech with a short
+gap in between (2.5 s in real-time).
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+&lt;td nosave=""&gt;delta=0.4, [0-30Hz], left T3,T5, right T4,T6
+&lt;div align="right"&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930119/EEG_SPM1_26.mp3"&gt;S1&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930120/EEG_SPM1_27.mp3"&gt;S2&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930121/EEG_SPM1_28.mp3"&gt;S3&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930122/EEG_SPM1_29.mp3"&gt;S4&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930123/EEG_SPM1_30.mp3"&gt;S5&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930124/EEG_SPM1_31.mp3"&gt;S6&lt;/a&gt; 
+&lt;/div&gt; 
+delta=0, [0-30Hz], left T3,T5, right T4,T6
+&lt;div align="right"&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930125/EEG_SPM2_26.mp3"&gt;S1&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930126/EEG_SPM2_27.mp3"&gt;S2&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930127/EEG_SPM2_28.mp3"&gt;S3&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930128/EEG_SPM2_29.mp3"&gt;S4&lt;/a&gt;&amp;nbsp;  
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930129/EEG_SPM2_30.mp3"&gt;S5&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930130/EEG_SPM2_31.mp3"&gt;S6&lt;/a&gt;
+&lt;/div&gt;
+delta=0, [0-30Hz],&amp;nbsp;
+&lt;br&gt;left: F7,F3,T3,C3,T5,P3, right: F4,F8,C4,T4,T6
+&lt;div align="right"&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930131/EEG_SPM3_26.mp3"&gt;S1&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930132/EEG_SPM3_27.mp3"&gt;S2&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930133/EEG_SPM3_28.mp3"&gt;S3&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930134/EEG_SPM3_29.mp3"&gt;S4&lt;/a&gt;&amp;nbsp;  
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930135/EEG_SPM3_30.mp3"&gt;S5&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930136/EEG_SPM3_31.mp3"&gt;S6&lt;/a&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Spectral Mapping Sonification of EEG data&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+&lt;br&gt;
+
+* Table 10.6, page 154: Sound examples for Distance Matrix Sonification of
+spectral vectors. High-pitched loud tones indicate frequency selective
+couplings of long-range.
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;frequency range 8-20 Hz, subjects:&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930137/EEG_DMS1_26.mp3"&gt;S1&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930138/EEG_DMS1_27.mp3"&gt;S2&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930139/EEG_DMS1_28.mp3"&gt;S3&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930140/EEG_DMS1_29.mp3"&gt;S4&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930141/EEG_DMS1_30.mp3"&gt;S5&lt;/a&gt;&amp;nbsp; 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930142/EEG_DMS1_31.mp3"&gt;S6&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Distance Matrix Sonification for concatenated datasets for the pseudospeech
+and speech condition. A noise burst separates the two parts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;5 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+
+Sound example, page 156: &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930143/EEG_compson_stft.mp3"&gt;Ex-DiffSon-1&lt;/a&gt;
+, Differential Sonification for the example shown as spectrogram.
+
+
+* Table 10.7, page 157: Sound examples for Differential Sonifications
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;pseudospeech-speech (1s):
+&lt;div align="right"&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930144/EEG_26PS.mp3"&gt;S1&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930148/EEG_27PS.mp3"&gt;S2&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930152/EEG_28PS.mp3"&gt;S3&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930156/EEG_29PS.mp3"&gt;S4&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930160/EEG_30PS.mp3"&gt;S5&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930164/EEG_31PS.mp3"&gt;S6&lt;/a&gt;&lt;/div&gt;
+same with higher threshold (1s):
+&lt;div align="right"&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930145/EEG_26PS_b.mp3"&gt;S1&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930149/EEG_27PS_b.mp3"&gt;S2&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930153/EEG_28PS_b.mp3"&gt;S3&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930157/EEG_29PS_b.mp3"&gt;S4&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930161/EEG_30PS_b.mp3"&gt;S5&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930165/EEG_31PS_b.mp3"&gt;S6&lt;/a&gt;&lt;/div&gt;
+speech - EEGr (1s):
+&lt;div align="right"&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930147/EEG_26SE_b.mp3"&gt;S1&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930151/EEG_27SE_b.mp3"&gt;S2&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930155/EEG_28SE_b.mp3"&gt;S3&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930159/EEG_29SE_b.mp3"&gt;S4&lt;/a&gt;,
+&lt;a href="mhttps://pub.uni-bielefeld.de/download/2920448/2930163/EEG_30SE_b.mp3"&gt;S5&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930167/EEG_31SE_b.mp3"&gt;S6&lt;/a&gt;&lt;/div&gt;
+pseudospeech-speech (4s):
+&lt;div align="right"&gt;&amp;nbsp; &lt;a href="media/eeg/EEG_26PS_c.mp3"&gt;S1&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930150/EEG_27PS_c.mp3"&gt;S2&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930154/EEG_28PS_c.mp3"&gt;S3&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930158/EEG_29PS_c.mp3"&gt;S4&lt;/a&gt;,
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930162/EEG_30PS_c.mp3"&gt;S4&lt;/a&gt;, 
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930166/EEG_31PS_c.mp3"&gt;S6&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Differential Sonification of EEG Data&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1 s and 4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;
+
+
+##### **10.3 Sonification of Multi-Channel Image Data**
+
+
+* Table 10.8, page 164: Sonification of cell fluorescence patterns. Sound
+examples for rhythmical, melodic, harmonic and multitimbral sonifications
+are given.
+
+
+&lt;table BORDER WIDTH="70%" align="center" &gt;
+&lt;tr VALIGN=TOP NOSAVE&gt;
+&lt;td NOSAVE&gt;
+&lt;div align="right"&gt;File:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td nosave=""&gt;Rhythmical:
+&lt;div align="right"&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930168/cellR1.mp3"&gt;b1&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930169/cellR2.mp3"&gt;b2&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930170/cellR3.mp3"&gt;b3&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930171/cellR4.mp3"&gt;b4&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930172/cellR5.mp3"&gt;b5&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930173/cellR6.mp3"&gt;b6&lt;/a&gt;&amp;nbsp;
+&lt;a href="media/cell/cellR7.mp3"&gt;b7&lt;/a&gt;&amp;nbsp; &lt;a href="media/cell/cellR8.mp3"&gt;b8&lt;/a&gt;&amp;nbsp;
+&lt;a href="media/cell/cellR9.mp3"&gt;b9&lt;/a&gt;&lt;/div&gt;
+Harmonical:
+&lt;div align="right"&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930177/cellH1.mp3"&gt;b1&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930178/cellH2.mp3"&gt;b2&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930179/cellH3.mp3"&gt;b3&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930180/cellH4.mp3"&gt;b4&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930181/cellH5.mp3"&gt;b5&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930182/cellH6.mp3"&gt;b6&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930183/cellH7.mp3"&gt;b7&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930184/cellH8.mp3"&gt;b8&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930185/cellH9.mp3"&gt;b9&lt;/a&gt;&lt;/div&gt;
+Harmonical2:
+&lt;div align="right"&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930186/cellH21.mp3"&gt;b1&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930187/cellH22.mp3"&gt;b2&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930188/cellH23.mp3"&gt;b3&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930189/cellH24.mp3"&gt;b4&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930190/cellH25.mp3"&gt;b5&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930191/cellH26.mp3"&gt;b6&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930192/cellH27.mp3"&gt;b7&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930193/cellH28.mp3"&gt;b8&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930194/cellH29.mp3"&gt;b9&lt;/a&gt;&lt;/div&gt;
+Melodic:&amp;nbsp;
+&lt;div align="right"&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930195/cellM1.mp3"&gt;b1&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930196/cellM2.mp3"&gt;b2&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930197/cellM3.mp3"&gt;b3&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930198/cellM4.mp3"&gt;b4&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930199/cellM5.mp3"&gt;b5&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930200/cellM6.mp3"&gt;b6&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930201/cellM7.mp3"&gt;b7&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930202/cellM8.mp3"&gt;b8&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930203/cellM9.mp3"&gt;b9&lt;/a&gt;&lt;/div&gt;
+Multi-timbral:
+&lt;div align="right"&gt;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930204/cellT1.mp3"&gt;b1&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930205/cellT2.mp3"&gt;b2&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930206/cellT3.mp3"&gt;b3&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930207/cellT4.mp3"&gt;b4&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930208/cellT5.mp3"&gt;b5&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930209/cellT6.mp3"&gt;b6&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930210/cellT7.mp3"&gt;b7&lt;/a&gt;&amp;nbsp; &lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930211/cellT8.mp3"&gt;b8&lt;/a&gt;&amp;nbsp;
+&lt;a href="https://pub.uni-bielefeld.de/download/2920448/2930212/cellT9.mp3"&gt;b9&lt;/a&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Description:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;Marker Pattern Sonifications&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;div align="right"&gt;Duration:&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;td&gt;1.4 s&lt;/td&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/center&gt;</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DSiris1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920454/DSiris1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DSiris2a.mp3">https://pub.uni-bielefeld.de/download/2920448/2920455/DSiris2a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DSiris2b.mp3">https://pub.uni-bielefeld.de/download/2920448/2920456/DSiris2b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DScircle_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2920451/DScircle_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DScircle_e.mp3">https://pub.uni-bielefeld.de/download/2920448/2920452/DScircle_e.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DSgauss10d.mp3">https://pub.uni-bielefeld.de/download/2920448/2920453/DSgauss10d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DS3cluster1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920449/DS3cluster1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DS3cluster2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920450/DS3cluster2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="trj_singleparticle.mp3">https://pub.uni-bielefeld.de/download/2920448/2920459/trj_singleparticle.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="trj_seq1_15_2clust.mp3">https://pub.uni-bielefeld.de/download/2920448/2920460/trj_seq1_15_2clust.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="traj_25_1_2cl.mp3">https://pub.uni-bielefeld.de/download/2920448/2920461/traj_25_1_2cl.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="traj_25_1_1cl.mp3">https://pub.uni-bielefeld.de/download/2920448/2920462/traj_25_1_1cl.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PTSM-Ex-5-3clusters.mp3">https://pub.uni-bielefeld.de/download/2920448/2920463/PTSM-Ex-5-3clusters.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PTSM-Ex-6-1Gaussian.mp3">https://pub.uni-bielefeld.de/download/2920448/2920464/PTSM-Ex-6-1Gaussian.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PTSM-ExIris.mp3">https://pub.uni-bielefeld.de/download/2920448/2920465/PTSM-ExIris.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PTSM-ExIris3P.mp3">https://pub.uni-bielefeld.de/download/2920448/2920466/PTSM-ExIris3P.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PTSM-ExTetra4D.mp3">https://pub.uni-bielefeld.de/download/2920448/2920467/PTSM-ExTetra4D.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MCMCampl.mp3">https://pub.uni-bielefeld.de/download/2920448/2920516/MCMCampl.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_audification_3cl.mp3">https://pub.uni-bielefeld.de/download/2920448/2920517/mcmc_audification_3cl.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920518/E2a_stream1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920519/E2a_stream2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_stream3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920520/E2a_stream3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2a_mix.mp3">https://pub.uni-bielefeld.de/download/2920448/2920521/E2a_mix.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920522/E2b_stream1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920523/E2b_stream2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_stream3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920524/E2b_stream3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2b_mix.mp3">https://pub.uni-bielefeld.de/download/2920448/2920525/E2b_mix.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920526/E2c_stream1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920527/E2c_stream2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_stream3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920528/E2c_stream3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="E2c_mix.mp3">https://pub.uni-bielefeld.de/download/2920448/2920529/E2c_mix.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0p5.mp3">https://pub.uni-bielefeld.de/download/2920448/2920530/mcmc_iris1_bw0p5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0p25.mp3">https://pub.uni-bielefeld.de/download/2920448/2920531/mcmc_iris1_bw0p25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw0.mp3">https://pub.uni-bielefeld.de/download/2920448/2920532/mcmc_iris1_bw0.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0p25.mp3">https://pub.uni-bielefeld.de/download/2920448/2920533/mcmc_iris1_bw-0p25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0p5.mp3">https://pub.uni-bielefeld.de/download/2920448/2920534/mcmc_iris1_bw-0p5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-0p75.mp3">https://pub.uni-bielefeld.de/download/2920448/2920535/mcmc_iris1_bw-0p75.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920536/mcmc_iris1_bw-1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mcmc_iris1_bw-1p25.mp3">https://pub.uni-bielefeld.de/download/2920448/2920537/mcmc_iris1_bw-1p25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PCS_Ex-1_1-noisyspiral.mp3">https://pub.uni-bielefeld.de/download/2920448/2920588/PCS_Ex-1_1-noisyspiral.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PCS_Ex-1_2-noisyspiralmod.mp3">https://pub.uni-bielefeld.de/download/2920448/2920589/PCS_Ex-1_2-noisyspiralmod.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PCS_Ex-2-tetra9d.mp3">https://pub.uni-bielefeld.de/download/2920448/2920590/PCS_Ex-2-tetra9d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PCS_Ex-3-iris.mp3">https://pub.uni-bielefeld.de/download/2920448/2920591/PCS_Ex-3-iris.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CS_1gs_1a.mp3">https://pub.uni-bielefeld.de/download/2920448/2920592/CS_1gs_1a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CS_1gs_1b.mp3">https://pub.uni-bielefeld.de/download/2920448/2920593/CS_1gs_1b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CS_1gs_1c.mp3">https://pub.uni-bielefeld.de/download/2920448/2920594/CS_1gs_1c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920595/Ex2gs_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920596/Ex2gs_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920597/Ex2gs_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_4.mp3">https://pub.uni-bielefeld.de/download/2920448/2920598/Ex2gs_4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_5.mp3">https://pub.uni-bielefeld.de/download/2920448/2920599/Ex2gs_5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_6.mp3">https://pub.uni-bielefeld.de/download/2920448/2920600/Ex2gs_6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_7.mp3">https://pub.uni-bielefeld.de/download/2920448/2920601/Ex2gs_7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_8.mp3">https://pub.uni-bielefeld.de/download/2920448/2920602/Ex2gs_8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_9.mp3">https://pub.uni-bielefeld.de/download/2920448/2920603/Ex2gs_9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2920604/Ex2gs_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_11.mp3">https://pub.uni-bielefeld.de/download/2920448/2920605/Ex2gs_11.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_12.mp3">https://pub.uni-bielefeld.de/download/2920448/2920606/Ex2gs_12.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_13.mp3">https://pub.uni-bielefeld.de/download/2920448/2920607/Ex2gs_13.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_14.mp3">https://pub.uni-bielefeld.de/download/2920448/2920608/Ex2gs_14.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_15.mp3">https://pub.uni-bielefeld.de/download/2920448/2920609/Ex2gs_15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_16.mp3">https://pub.uni-bielefeld.de/download/2920448/2920610/Ex2gs_16.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_17.mp3">https://pub.uni-bielefeld.de/download/2920448/2920611/Ex2gs_17.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_18.mp3">https://pub.uni-bielefeld.de/download/2920448/2920612/Ex2gs_18.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_19.mp3">https://pub.uni-bielefeld.de/download/2920448/2920613/Ex2gs_19.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_20.mp3">https://pub.uni-bielefeld.de/download/2920448/2920614/Ex2gs_20.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_21.mp3">https://pub.uni-bielefeld.de/download/2920448/2920615/Ex2gs_21.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_22.mp3">https://pub.uni-bielefeld.de/download/2920448/2920616/Ex2gs_22.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_23.mp3">https://pub.uni-bielefeld.de/download/2920448/2920617/Ex2gs_23.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_24.mp3">https://pub.uni-bielefeld.de/download/2920448/2920618/Ex2gs_24.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex2gs_25.mp3">https://pub.uni-bielefeld.de/download/2920448/2920619/Ex2gs_25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex3gs_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920620/Ex3gs_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex3gs_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920621/Ex3gs_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex3gs_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920622/Ex3gs_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_saturn_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920623/Ex_saturn_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_saturn_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920624/Ex_saturn_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_saturn_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920625/Ex_saturn_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_cancer1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920626/Ex_cancer1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_cancer2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920627/Ex_cancer2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_cancer3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920628/Ex_cancer3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ex_cancer4.mp3">https://pub.uni-bielefeld.de/download/2920448/2920629/Ex_cancer4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_1a.mp3">https://pub.uni-bielefeld.de/download/2920448/2920634/gng3cl_1a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_1b.mp3">https://pub.uni-bielefeld.de/download/2920448/2920635/gng3cl_1b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_1c.mp3">https://pub.uni-bielefeld.de/download/2920448/2920636/gng3cl_1c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_2a.mp3">https://pub.uni-bielefeld.de/download/2920448/2920637/gng3cl_2a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_2b.mp3">https://pub.uni-bielefeld.de/download/2920448/2920638/gng3cl_2b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_2c.mp3">https://pub.uni-bielefeld.de/download/2920448/2920639/gng3cl_2c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_3a.mp3">https://pub.uni-bielefeld.de/download/2920448/2920640/gng3cl_3a.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_3b.mp3">https://pub.uni-bielefeld.de/download/2920448/2920641/gng3cl_3b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng3cl_3c.mp3">https://pub.uni-bielefeld.de/download/2920448/2920642/gng3cl_3c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp3N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920649/gng_2sp3N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp3N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920650/gng_2sp3N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920651/gng_2sp20N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920652/gng_2sp20N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp20N_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920653/gng_2sp20N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920654/gng_2sp45N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920655/gng_2sp45N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920656/gng_2sp45N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp45N_4.mp3">https://pub.uni-bielefeld.de/download/2920448/2920657/gng_2sp45N_4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920658/gng_2sp150N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920659/gng_2sp150N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp150N_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920660/gng_2sp150N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920643/gng_2sp1rot20N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920644/gng_2sp1rot20N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot20N_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920645/gng_2sp1rot20N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2920646/gng_2sp1rot45N_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_2.mp3">https://pub.uni-bielefeld.de/download/2920448/2920647/gng_2sp1rot45N_2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="gng_2sp1rot45N_3.mp3">https://pub.uni-bielefeld.de/download/2920448/2920648/gng_2sp1rot45N_3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcSpiral2d1rot.mp3">https://pub.uni-bielefeld.de/download/2920448/2920663/GNGProcSpiral2d1rot.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcSpiral2d2rot.mp3">https://pub.uni-bielefeld.de/download/2920448/2920664/GNGProcSpiral2d2rot.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcgaussian5d.mp3">https://pub.uni-bielefeld.de/download/2920448/2920661/GNGProcgaussian5d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GNGProcsaturn.mp3">https://pub.uni-bielefeld.de/download/2920448/2920662/GNGProcsaturn.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_iris_Foff.mp3">https://pub.uni-bielefeld.de/download/2920448/2920799/EXT_iris_Foff.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_iris_Fon.mp3">https://pub.uni-bielefeld.de/download/2920448/2920800/EXT_iris_Fon.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_iris_Legend.mp3">https://pub.uni-bielefeld.de/download/2920448/2920801/EXT_iris_Legend.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_cancer_Foff.mp3">https://pub.uni-bielefeld.de/download/2920448/2920802/EXT_cancer_Foff.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_cancer_Fon.mp3">https://pub.uni-bielefeld.de/download/2920448/2920803/EXT_cancer_Fon.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EXT_cancer_Legend.mp3">https://pub.uni-bielefeld.de/download/2920448/2920804/EXT_cancer_Legend.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_FMLegend.mp3">https://pub.uni-bielefeld.de/download/2920448/2920809/MPS_FMLegend.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_iris.mp3">https://pub.uni-bielefeld.de/download/2920448/2920808/MPS_iris.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_iris_MDS.mp3">https://pub.uni-bielefeld.de/download/2920448/2920807/MPS_iris_MDS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_cancer.mp3">https://pub.uni-bielefeld.de/download/2920448/2920813/MPS_cancer.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_cancer_MDS.mp3">https://pub.uni-bielefeld.de/download/2920448/2920812/MPS_cancer_MDS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_tetra7d.mp3">https://pub.uni-bielefeld.de/download/2920448/2920806/MPS_tetra7d.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_tetra7d_MDS.mp3">https://pub.uni-bielefeld.de/download/2920448/2920805/MPS_tetra7d_MDS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_circle.mp3">https://pub.uni-bielefeld.de/download/2920448/2920811/MPS_circle.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MPS_circle_MDS.mp3">https://pub.uni-bielefeld.de/download/2920448/2920810/MPS_circle_MDS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Cup_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930084/Cup_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Claves_1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930085/Claves_1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ma2611_15.mp3">https://pub.uni-bielefeld.de/download/2920448/2930086/ma2611_15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ma2612_15.mp3">https://pub.uni-bielefeld.de/download/2920448/2930087/ma2612_15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ma2624_15.mp3">https://pub.uni-bielefeld.de/download/2920448/2930088/ma2624_15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ma2626_15.mp3">https://pub.uni-bielefeld.de/download/2920448/2930089/ma2626_15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mb2612_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930090/mb2612_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mb2624_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930091/mb2624_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mb2612_5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930092/mb2612_5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mb2624_5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930093/mb2624_5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mc2611_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930094/mc2611_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mc2612_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930095/mc2612_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mc2624_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930096/mc2624_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="mc2626_10.mp3">https://pub.uni-bielefeld.de/download/2920448/2930097/mc2626_10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930098/EEG_aud_26_eyes_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930099/EEG_aud_26_eyes_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930100/EEG_aud_26_eyes_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930101/EEG_aud_26_speech_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930102/EEG_aud_26_speech_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930103/EEG_aud_26_speech_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_pseudo_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930104/EEG_aud_26_pseudo_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930105/EEG_aud_27_eyes_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930106/EEG_aud_27_eyes_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930107/EEG_aud_27_eyes_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930109/EEG_aud_27_speech_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930111/EEG_aud_27_speech_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930110/EEG_aud_27_speech_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_pseudo_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930108/EEG_aud_27_pseudo_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930112/EEG_aud_28_eyes_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930113/EEG_aud_28_eyes_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930114/EEG_aud_28_eyes_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_fp1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930116/EEG_aud_28_speech_fp1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930117/EEG_aud_28_speech_t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930118/EEG_aud_28_speech_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_pseudo_fp1-t5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930115/EEG_aud_28_pseudo_fp1-t5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_26.mp3">https://pub.uni-bielefeld.de/download/2920448/2930119/EEG_SPM1_26.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_27.mp3">https://pub.uni-bielefeld.de/download/2920448/2930120/EEG_SPM1_27.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_28.mp3">https://pub.uni-bielefeld.de/download/2920448/2930121/EEG_SPM1_28.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_29.mp3">https://pub.uni-bielefeld.de/download/2920448/2930122/EEG_SPM1_29.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_30.mp3">https://pub.uni-bielefeld.de/download/2920448/2930123/EEG_SPM1_30.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_31.mp3">https://pub.uni-bielefeld.de/download/2920448/2930124/EEG_SPM1_31.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_26.mp3">https://pub.uni-bielefeld.de/download/2920448/2930125/EEG_SPM2_26.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_27.mp3">https://pub.uni-bielefeld.de/download/2920448/2930126/EEG_SPM2_27.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_28.mp3">https://pub.uni-bielefeld.de/download/2920448/2930127/EEG_SPM2_28.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_29.mp3">https://pub.uni-bielefeld.de/download/2920448/2930128/EEG_SPM2_29.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_30.mp3">https://pub.uni-bielefeld.de/download/2920448/2930129/EEG_SPM2_30.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_31.mp3">https://pub.uni-bielefeld.de/download/2920448/2930130/EEG_SPM2_31.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_26.mp3">https://pub.uni-bielefeld.de/download/2920448/2930131/EEG_SPM3_26.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_27.mp3">https://pub.uni-bielefeld.de/download/2920448/2930132/EEG_SPM3_27.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_28.mp3">https://pub.uni-bielefeld.de/download/2920448/2930133/EEG_SPM3_28.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_29.mp3">https://pub.uni-bielefeld.de/download/2920448/2930134/EEG_SPM3_29.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_30.mp3">https://pub.uni-bielefeld.de/download/2920448/2930135/EEG_SPM3_30.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_31.mp3">https://pub.uni-bielefeld.de/download/2920448/2930136/EEG_SPM3_31.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_26.mp3">https://pub.uni-bielefeld.de/download/2920448/2930137/EEG_DMS1_26.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_27.mp3">https://pub.uni-bielefeld.de/download/2920448/2930138/EEG_DMS1_27.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_28.mp3">https://pub.uni-bielefeld.de/download/2920448/2930139/EEG_DMS1_28.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_29.mp3">https://pub.uni-bielefeld.de/download/2920448/2930140/EEG_DMS1_29.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_30.mp3">https://pub.uni-bielefeld.de/download/2920448/2930141/EEG_DMS1_30.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_31.mp3">https://pub.uni-bielefeld.de/download/2920448/2930142/EEG_DMS1_31.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_compson_stft.mp3">https://pub.uni-bielefeld.de/download/2920448/2930143/EEG_compson_stft.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930144/EEG_26PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930145/EEG_26PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930146/EEG_26PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930147/EEG_26SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930148/EEG_27PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930149/EEG_27PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930150/EEG_27PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930151/EEG_27SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930152/EEG_28PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930153/EEG_28PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930154/EEG_28PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930155/EEG_28SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930156/EEG_29PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930157/EEG_29PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930158/EEG_29PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930159/EEG_29SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930160/EEG_30PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930161/EEG_30PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930162/EEG_30PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930163/EEG_30SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS.mp3">https://pub.uni-bielefeld.de/download/2920448/2930164/EEG_31PS.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930165/EEG_31PS_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS_c.mp3">https://pub.uni-bielefeld.de/download/2920448/2930166/EEG_31PS_c.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31SE_b.mp3">https://pub.uni-bielefeld.de/download/2920448/2930167/EEG_31SE_b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930168/cellR1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR2.mp3">https://pub.uni-bielefeld.de/download/2920448/2930169/cellR2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR3.mp3">https://pub.uni-bielefeld.de/download/2920448/2930170/cellR3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR4.mp3">https://pub.uni-bielefeld.de/download/2920448/2930171/cellR4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930172/cellR5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR6.mp3">https://pub.uni-bielefeld.de/download/2920448/2930173/cellR6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR7.mp3">https://pub.uni-bielefeld.de/download/2920448/2930174/cellR7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR8.mp3">https://pub.uni-bielefeld.de/download/2920448/2930175/cellR8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellR9.mp3">https://pub.uni-bielefeld.de/download/2920448/2930176/cellR9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930177/cellH1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH2.mp3">https://pub.uni-bielefeld.de/download/2920448/2930178/cellH2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH3.mp3">https://pub.uni-bielefeld.de/download/2920448/2930179/cellH3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH4.mp3">https://pub.uni-bielefeld.de/download/2920448/2930180/cellH4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930181/cellH5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH6.mp3">https://pub.uni-bielefeld.de/download/2920448/2930182/cellH6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH7.mp3">https://pub.uni-bielefeld.de/download/2920448/2930183/cellH7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH8.mp3">https://pub.uni-bielefeld.de/download/2920448/2930184/cellH8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH9.mp3">https://pub.uni-bielefeld.de/download/2920448/2930185/cellH9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH21.mp3">https://pub.uni-bielefeld.de/download/2920448/2930186/cellH21.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH22.mp3">https://pub.uni-bielefeld.de/download/2920448/2930187/cellH22.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH23.mp3">https://pub.uni-bielefeld.de/download/2920448/2930188/cellH23.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH24.mp3">https://pub.uni-bielefeld.de/download/2920448/2930189/cellH24.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH25.mp3">https://pub.uni-bielefeld.de/download/2920448/2930190/cellH25.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH26.mp3">https://pub.uni-bielefeld.de/download/2920448/2930191/cellH26.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH27.mp3">https://pub.uni-bielefeld.de/download/2920448/2930192/cellH27.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH28.mp3">https://pub.uni-bielefeld.de/download/2920448/2930193/cellH28.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellH29.mp3">https://pub.uni-bielefeld.de/download/2920448/2930194/cellH29.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930195/cellM1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM2.mp3">https://pub.uni-bielefeld.de/download/2920448/2930196/cellM2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM3.mp3">https://pub.uni-bielefeld.de/download/2920448/2930197/cellM3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM4.mp3">https://pub.uni-bielefeld.de/download/2920448/2930198/cellM4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930199/cellM5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM6.mp3">https://pub.uni-bielefeld.de/download/2920448/2930200/cellM6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM7.mp3">https://pub.uni-bielefeld.de/download/2920448/2930201/cellM7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM8.mp3">https://pub.uni-bielefeld.de/download/2920448/2930202/cellM8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellM9.mp3">https://pub.uni-bielefeld.de/download/2920448/2930203/cellM9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT1.mp3">https://pub.uni-bielefeld.de/download/2920448/2930204/cellT1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT2.mp3">https://pub.uni-bielefeld.de/download/2920448/2930205/cellT2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT3.mp3">https://pub.uni-bielefeld.de/download/2920448/2930206/cellT3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT4.mp3">https://pub.uni-bielefeld.de/download/2920448/2930207/cellT4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT5.mp3">https://pub.uni-bielefeld.de/download/2920448/2930208/cellT5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT6.mp3">https://pub.uni-bielefeld.de/download/2920448/2930209/cellT6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT7.mp3">https://pub.uni-bielefeld.de/download/2920448/2930210/cellT7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT8.mp3">https://pub.uni-bielefeld.de/download/2920448/2930211/cellT8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="cellT9.mp3">https://pub.uni-bielefeld.de/download/2920448/2930212/cellT9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opendatacommons.org/licenses/odbl/summary/index.html</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2002</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2920448</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017263</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas. 2002. &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T.: Supplementary Material for "Sonification for Exploratory Data Analysis". Bielefeld University (2002).</lncs>
+<default>Hermann T (2002) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas. &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University, 2002.</mla>
+<wels>Hermann, T. (2002): Supplementary Material for "Sonification for Exploratory Data Analysis". Bielefeld University.</wels>
+<angewandte-chemie>T.  Hermann, &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2002&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2002).  &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920448&lt;/div&gt;</apa_indent>
+<harvard1>Hermann, T., 2002. &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hermann T (2002) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<frontiers>Hermann, T. (2002). Supplementary Material for "Sonification for Exploratory Data Analysis". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T. (2002). &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920448.&lt;/div&gt;</dgps>
+<ama>Hermann T. &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University; 2002.</ama>
+<ieee> T. Hermann, &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;, Bielefeld University, 2002.</ieee>
+<apa>Hermann, T. (2002).  &lt;em&gt;Supplementary Material for "Sonification for Exploratory Data Analysis"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920448</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2920448</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-06-08T10:40:40Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-05T12:24:55Z</recordChangeDate>
+</recordInfo>
+</mods>

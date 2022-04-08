@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2763075</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:510</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Pareto optimization in algebraic dynamic programming</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Cedric</namePart>
+  <namePart type="family">Saule</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">40841516</identifier></name>
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Giegerich</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">147565</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">89815</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Pareto optimization combines independent objectives by computing the Pareto front of its search space, defined as the set of all solutions for which no other candidate solution scores better under all objectives. This gives, in a precise sense, better information than an artificial amalgamation of different scores into a single objective, but is more costly to compute. Pareto optimization naturally occurs with genetic algorithms, albeit in a heuristic fashion. Non-heuristic Pareto optimization so far has been used only with a few applications in bioinformatics. We study exact Pareto optimization for two objectives in a dynamic programming framework. We define a binary Pareto product operator ∗Par on arbitrary scoring schemes. Independent of a particular algorithm, we prove that for two scoring schemes A and B used in dynamic programming, the scoring scheme A∗ParB correctly performs Pareto optimization over the same search space. We study different implementations of the Pareto operator with respect to their asymptotic and empirical efficiency. Without artificial amalgamation of objectives, and with no heuristics involved, Pareto optimization is faster than computing the same number of answers separately for each objective. For RNA structure prediction under the minimum free energy versus the maximum expected accuracy model, we show that the empirical size of the Pareto front remains within reasonable bounds. Pareto optimization lends itself to the comparative investigation of the behavior of two alternative scoring schemes for the same purpose. For the above scoring schemes, we observe that the Pareto front can be seen as a composition of a few macrostates, each consisting of several microstates that differ in the same limited way. We also study the relationship between abstract shape analysis and the Pareto front, and find that they extract information of a different nature from the folding space and can be meaningfully combined.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="saule.s13015-015-0051-7.pdf">https://pub.uni-bielefeld.de/download/2763075/2763119/saule.s13015-015-0051-7.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Science + Business Media</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Algebraic dynamic programming</topic><topic>Sankoff algorithm</topic><topic>RNA structure</topic><topic>Dynamic programming</topic><topic>Pareto optimization</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Algorithms for Molecular Biology</title></titleInfo>
+  <identifier type="issn">1748-7188</identifier>
+  <identifier type="MEDLINE">26150892</identifier>
+  <identifier type="ISI">000357365700001</identifier><identifier type="urn">urn:nbn:de:0070-pub-27630756</identifier><identifier type="doi">10.1186/s13015-015-0051-7</identifier>
+<part><detail type="volume"><number>10</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Saule C, Giegerich R (2015) &lt;br /&gt;&lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 10(1): 22.</default>
+<mla>Saule, Cedric, and Giegerich, Robert. “Pareto optimization in algebraic dynamic programming”. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 10.1 (2015): 22.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Saule, Cedric, and Giegerich, Robert. 2015. “Pareto optimization in algebraic dynamic programming”. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 10 (1): 22.&lt;/div&gt;</chicago>
+<lncs> Saule, C., Giegerich, R.: Pareto optimization in algebraic dynamic programming. Algorithms for Molecular Biology. 10, : 22 (2015).</lncs>
+<angewandte-chemie>C.  Saule, and R.  Giegerich, “Pareto optimization in algebraic dynamic programming”, &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;strong&gt;2015&lt;/strong&gt;, &lt;em&gt;10&lt;/em&gt;, : 22.</angewandte-chemie>
+<bio1>Saule C, Giegerich R (2015) &lt;br /&gt;Pareto optimization in algebraic dynamic programming.&lt;br /&gt;Algorithms for Molecular Biology 10(1): 22.</bio1>
+<harvard1>Saule, C., &amp;amp; Giegerich, R., 2015. Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, 10(1): 22.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Saule, C., &amp;amp; Giegerich, R. (2015). Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 22. doi:10.1186/s13015-015-0051-7&lt;/div&gt;</apa_indent>
+<wels>Saule, C.; Giegerich, R. (2015): Pareto optimization in algebraic dynamic programming &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;,10:(1):22</wels>
+<ieee> C. Saule and R. Giegerich, “Pareto optimization in algebraic dynamic programming”, &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;,  vol. 10, 2015, : 22.</ieee>
+<apa>Saule, C., &amp;amp; Giegerich, R. (2015). Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1), 22. doi:10.1186/s13015-015-0051-7</apa>
+<frontiers>Saule, C., and Giegerich, R. (2015). Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 10:22.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Saule, C. &amp;amp; Giegerich, R. (2015). Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;10&lt;/em&gt;(1): 22. Springer Science + Business Media. doi:10.1186/s13015-015-0051-7.&lt;/div&gt;</dgps>
+<ama>Saule C, Giegerich R. Pareto optimization in algebraic dynamic programming. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;. 2015;10(1): 22.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2763075</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-07-13T12:12:36Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:45:29Z</recordChangeDate>
+</recordInfo>
+</mods>

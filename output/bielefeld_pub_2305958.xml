@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305958">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Taxonomic classification of genomic sequences : from whole genomes to environmental genomic fragments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Naryttza Namelly</namePart>
+                        <namePart type="family">Díaz Solórzano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-04-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The main goal of this dissertation is to develop a classifier for assigning environmental genomic fragments to the closest known source organism. This has been achieved by the development of a novel method for the TAxonomic COmposition Analysis - TACOA - of environmental genomic fragments using a kernelized nearest neighbor approach. A combination of machine learning techniques has been employed to realize a classifier that exploits the wealth of knowledge deposited in public databases. The developed classifier uses as features oligonucleotide frequencies which carry the so called genomic signature. A key advantage of the use of genomic signatures is that they enable sequence comparison without alignment. A central assumption of the genomic signature is that oligonucleotide compositions of DNA sequences from the same or closely related organisms are prone to be more similar than those from far related ones.
+This work embodies one of the first attempts to tackle the problem of taxonomic classification of metagenomic data. Moreover, it is the first of its kind using a kernelized nearest neighbor approach. The use of the k-nearest neighbor algorithm in the TACOA strategy assures that the realized classifier is in its nature multi-class. In addition, this approach has the advantage of not making any assumptions about the distribution of the input data and the classification results can easily be interpreted. However, the traditional k-NN algorithm has the drawback of running into problems when dealing with high dimensional input data (called curse of dimensionality). In the kernelized extension presented herein, this problem is overcome by the incorporation of a Gauss kernel into its architecture.
+Furthermore, the developed software can easily be installed and run on a desktop computer offering more independence in the analysis of metagenomic data sets. The reference set used by the proposed classifier can be easily updated with newly sequenced genomes, a very desirable feature on this situation of continuing expansion of genomic databases.
+The novel strategy presented was extensively evaluated using genomic fragments of variable length (800bp &#150; 50Kbp) from 373 completely sequenced genomes. As a whole, the classification accuracy at five different taxonomic ranks was evaluated: superkingdom, phylum, class, order and genus. TACOA is able to classify genomic fragments of length 800bp and 1Kbp with high accuracy until rank class. For fragments longer than 3Kbp accurate predictions are made even at deeper taxonomic ranks (order and genus). TACOA compares well to the latest intrinsic classifier PhyloPythia. For fragments of length 800bp and 1Kbp the overall accuracy of TACOA is higher than that obtained by PhyloPythia across all taxonomic ranks. For all fragment lengths, both methods achieved comparable high specificity results up to rank class and low false negative rates.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16855</identifier>
+                    <identifier type="sys">HT016478550</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305958</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305958">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305958/2305961/ManuscriptND.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305958" DMDID="DMD2305958">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305958"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

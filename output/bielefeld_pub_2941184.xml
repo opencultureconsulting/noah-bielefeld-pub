@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2941184">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ECG Sonification to support the diagnosis and monitoring of myocardial infarction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andrea Lorena</namePart>
+                        <namePart type="family">Aldana Blanco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Steffen</namePart>
+                        <namePart type="family">Grautoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents the design and evaluation of four sonification methods to support monitoring and diagnosis in Electrocardiography (ECG). In particular we focus on an ECG abnormality called ST-elevation which is an important indicator of a myocardial infarction. Since myocardial infarction represents a life-threatening condition it is of essential value to detect an ST-elevation as early as possible. As part of the evaluated sound designs, we propose two novel sonifications: (i) Polarity sonification, a continuous parameter-mapping sonification using a formant synthesizer and (ii) Stethoscope sonification, a combination of the ECG signal and a stethoscope recording. The other two designs, (iii) the water ambience sonification and the (iv) morph sonification, were presented in our previous work about ECG sonification [ref]. The study evaluates three components across the proposed sonifications (1) detection performance, meaning if participants are able to detect a transition from healthy to unhealthy states, (2) classification accuracy, that evaluates if participants can accurately classify the severity of the pathology, and (3) aesthetics and usability (pleasantness, informativeness and long-term listening). The study results show that the polarity design had the highest accuracy rates in the detection task whereas the stethoscope sonification obtained the better score in the classification assignment. Concerning aesthetics, the water ambience sonification was regarded as the most pleasant. Furthermore, we found a significant difference between sound/music experts and non-experts in terms of the error rates obtained in the detection task using the morph sonification and also in the classification task using the stethoscope sonification. Overall, the group of experts obtained lower error rates than the group of non-experts, which means that further training could improve accuracy rates and, particularly for designs that rely mainly on pitch variations, additional training is needed in the non-experts group.</abstract>
+                    <subject>
+                        <topic>Electrocardiogram</topic>
+                        <topic>Sonification</topic>
+                        <topic>Process monitoring</topic>
+                        <topic>Myocardial infarction</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal on Multimodal User Interfaces</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>207</start>
+                                <end>218</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1783-7677</identifier>
+                    <identifier type="eIssn">1783-8738</identifier>
+                    <identifier type="ISI">000517703600001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29411844</identifier>
+                    <identifier type="doi">10.1007/s12193-020-00319-x</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2941184</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2941184">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2941184/2944670/AldanaBlanco2020_Article_ECGSonificationToSupportTheDia.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2941184" DMDID="DMD2941184">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2941184"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2473495">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Exploiting Device Mismatch in Neuromorphic VLSI Systems to Implement Axonal Delays</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">S.</namePart>
+                        <namePart type="family">Sheik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Axonal delays are used in neural computation to implement faithful models of biological neural systems, and in spiking neural networks models to solve computationally demanding tasks. While there is an increasing number of software simulations of spiking neural networks that make use of axonal delays, only a small fraction of currently existing hardware neuromorphic systems supports them. In this paper we demonstrate a strategy to implement temporal delays in hardware spiking neural networks distributed across multiple Very Large Scale Integration (VLSI) chips. This is achieved by exploiting the inherent device mismatch present in the analog circuits that implement silicon neurons and synapses inside the chips, and the digital communication infrastructure used to configure the network topology and transmit the spikes across chips. We present an example of a recurrent VLSI spiking neural network that employs axonal delays and demonstrate how the proposed strategy efficiently implements them in hardware.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <identifier type="issn">2161-4393</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24734951</identifier>
+                    <identifier type="doi">10.1109/ijcnn.2012.6252636</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2473495</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2473495">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2473495/2553139/Exploiting_Device_Mismatch_in_Neuromorphic_VLSI_Systems_to_Implement_Axonal_Delays.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2473495" DMDID="DMD2473495">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2473495"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773844">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>RNA-related tools on the Bielefeld Bioinformatics Server</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4405-3847</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Krüger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Henning</namePart>
+                        <namePart type="family">Mersch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kurtz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present four tools for the analysis of RNA secondary structure. They provide animated visualization of multiple structures, prediction of potential conformational switching, structure comparison (including local structure alignment) and prediction of structures potentially containing a certain kind of pseudoknots. All are available via the Bielefeld University Bioinformatics Server (http://bibiserv.techfak.uni-bielefeld.de).</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Nucleic Acids Research</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>31</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>13</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>3767</start>
+                                <end>3770</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0021-9193</identifier>
+                    <identifier type="eIssn">1362-4962</identifier>
+                    <identifier type="MEDLINE">12824414</identifier>
+                    <identifier type="ISI">000183832900106</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17738448</identifier>
+                    <identifier type="doi">10.1093/nar/gkg576</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773844</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_1773844">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773844/2311327/suppl.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1773844">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773844/2311326/3767.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773844" DMDID="DMD1773844">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773844"/>
+            <mets:div TYPE="part" ID="PART1_1773844" LABEL="3767.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1773844"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

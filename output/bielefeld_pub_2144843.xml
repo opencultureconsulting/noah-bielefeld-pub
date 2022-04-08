@@ -1,0 +1,124 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2144843">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>FPGA-Based Realization of Self-Optimizing Drive-Controllers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Carlos</namePart>
+                        <namePart type="family">Paiz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Hagemeyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christopher</namePart>
+                        <namePart type="family">Pohl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wilhelm</namePart>
+                        <namePart type="family">Peters</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joachim</namePart>
+                        <namePart type="family">Böcker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">An FPGA (Field Programmable Gate Array) implementation
+and suitable power electronics can lead to a fast
+torque response in motion drive applications. However, when
+the controller parameters or its structure have to be adapted
+to internal and external varying conditions, e.g., when a selfoptimizing
+control system is pursued, a static implementation
+might not lead to the best utilization of reconfigurable resources.
+This contribution outlines the implementation of a self-optimizing
+system composed of several possible hardware and software
+realizations of controllers for a permanent magnet servo motor.
+How well a specific controller realization is suited to the current
+situation is evaluated based on control quality and realization
+effort (i.e., CPU time, reconfigurable area). A System-on-Chip
+architecture is presented, which enables an on-line exchange of
+FPGA- and CPU-based realizations of controllers to optimize
+resource utilization and control quality. It is shown that by
+using dynamic hardware reconfiguration, such self-optimizing
+controller can be implemented based on FPGA technology.
+Furthermore, the design-flow including self-developed tools is
+outlined. Experimental results show that the proposed scheme
+works satisfactory.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">9781424446483</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-21448432</identifier>
+                    <identifier type="doi">10.1109/iecon.2009.5415402</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2144843</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2144843">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2144843/2407150/FPGA-Based_Realization_of_Self-Optimizing_Drive-Controllers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2144843" DMDID="DMD2144843">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2144843"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

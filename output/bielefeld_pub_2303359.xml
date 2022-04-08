@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303359">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Suffix arrays in theory and practice</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus-Bernd</namePart>
+                        <namePart type="family">Schürmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-09-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The suffix array of a string is a permutation of all starting positions of the string&apos;s suffixes in lexicographical order. In this thesis, we investigate mathematical and algorithmical aspects of suffix arrays.
+The first part mainly deals with combinatorial properties of suffix arrays and their enumeration. For a fixed alphabet size and string length, we divide the set of all strings into equivalence classes of strings that share the same suffix array. For each such equivalence class, we count the number of strings contained in it and enumerate those strings. We also give exact formulas for computing the number of equivalence classes and efficient algorithms for enumerating them. Alternatively, we count the number of suffix arrays and enumerate them. Our methods yield lower bounds for the compressibility of suffix arrays and build the foundation for the efficient generation of appropriate test data sets for suffix-array-based algorithms. We also show that summing up the elements of all equivalence classes forms a particular instance for some summation identities of Eulerian numbers.
+The second part of the thesis deals with suffix array construction. We first present a new classification of suffix array construction algorithms and provide an in-depth review of the classified algorithms. We classify the algorithms regarding two different categories: the progress in the suffix sorting process and the usage of dependencies among suffixes. After the survey of the previous algorithms, we present our new practical algorithm for suffix array construction that consists of two easy-to-implement components. It first sorts the suffixes with respect to a fixed length prefix; then it refines each bucket of suffixes sharing the same prefix using the order of already sorted suffixes. Other suffix array construction algorithms follow more complex strategies. We achieve a very fast construction for common strings as well as for worst-case strings by enhancing our algorithm with further techniques; this is shown by an in-depth experimental study that compares our algorithm to other fast suffix array construction algorithms.</abstract>
+                    <subject>
+                        <topic>Suffix Array</topic>
+                        <topic>Permutation</topic>
+                        <topic>Kombinatorik</topic>
+                        <topic>Zeichenkette</topic>
+                        <topic>Abzählen</topic>
+                        <topic>Theoretische Informatik</topic>
+                        <topic>Volltextindex</topic>
+                        <topic>Full-text index</topic>
+                        <topic>String</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11799</identifier>
+                    <identifier type="sys">HT015362415</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303359</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303359">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303359/2303362/Dissertation_Klaus-Bernd_Schuermann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303359" DMDID="DMD2303359">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303359"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

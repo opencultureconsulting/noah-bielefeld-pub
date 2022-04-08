@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948970">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>New Prototype Concepts in Classification Learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sascha</namePart>
+                        <namePart type="family">Saralajew</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-11-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Machine learning algorithms are becoming more and more important in everyday life. Applications in search engines, driver assistance systems, consumer electronics, and so on use them heavily and would not be as powerful without them. Neural Networks (NNs), for example, are state-of-the-art classification approaches and dominate the field. However, they are difficult to interpret and not fully understood. For instance, the existence of adversarial examples that are imperceptible to humans contradicts the general belief that convolutional NNs classify objects in images mainly by breaking them down into increasingly complex object shapes. In this thesis, we study prototype-based classification algorithms with the goal of improving the classification capabilities of such algorithms while simultaneously preserving robustness and interpretability properties. Moreover, we investigate how properties of prototype-based classification algorithms can be transferred to NNs in order to increase their interpretability. First, we derive the concept of set-prototypes and apply it in a Learning Vector Quantization (LVQ) framework—a well-understood classification algorithm. We examine the mathematical properties and show that the derived method is provably robust against adversarial attacks. Furthermore, the method consistently outperforms other LVQ approaches while still being interpretable. Second, we relax the class-specific prototype concept to that of components and apply it in LVQ- and NN-based classifiers. This framework provides promising interpretation techniques for NNs. For example, we use them to explain how an adversarial attack is fooling an NN. We evaluate the methods on both toy and real-world datasets, including Indian Pine, MNIST, CIFAR-10, GTSRB, and ImageNet.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29489705</identifier>
+                    <identifier type="doi">10.4119/unibi/2948970</identifier>
+                    <identifier type="sys">HT020861432</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948970</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2948970">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948970/2948971/Saralajew_sascha_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948970" DMDID="DMD2948970">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948970"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

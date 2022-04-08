@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301517">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Local Positive Velocity Feedback for the movement control of elastic joints in closed kinematic chains : a modelling and simulation study of a 2DoF arm and a 3DoF insect leg</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Josef</namePart>
+                        <namePart type="family">Schmitz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-11-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der Beinbewegungssteuerung von laufenden Tieren (z.B. in unserem Modellsystem, der indischen Stabheuschrecke Carausius morosus) unterscheidet man Stemm- und Schwingbewegungen. Während einer Schwingbewegung hat das schwingende Bein keinerlei Objektkontakt, da es vom Boden abgehoben duch die Luft nach vorne geführt wird. Das Bein kann als offene kinematische Kette betrachtet und jedes Gelenk der Kette frei bewegt werden. Während der Stemmbewegung haben alle beteiligten Beine Bodenkontakt und bilden somit geschlossene kinematische Ketten. Die Gelenkwinkel derjenigen Beine, die an diesen geschlossenen kinematischen Ketten beteiligt sind, sind nicht mehr frei wählbar. Eine beliebige Einzelbewegung eines Gelenks führt zu Verspannungen in den kinematischen Ketten, die nur durch die aktive (entspannende) Bewegung anderer Gelenke aufgelöst werden können. Ähnliche Probleme treten auch bei Bewegungen mit Armen und Händen auf, wenn diese Manipulationsaufgaben mit Objektkontakt ausführen (z.B. beim Öffnen einer Tür durch einen Menschen). Aufgabenstellungen dieser Art werden in der Robotik unter dem Begriff &quot;compliant motion tasks&quot; zusammengefasst. Beispiele hierfür sind Kontaktschweißen, kooperative Manipulation von Objekten durch mehrere Roboter, Pick-and-Place Aufgaben bei Montagerobotern und, wie erwähnt, auch Stemmbewegungen bei Laufmaschinen. Klassische Lösungsansätze für diese Art von Problemen basieren auf dem &quot;hybrid control&quot; Ansatz von Raibert und Craig (Raibert and Craig, 1981, Trans. of the ASME, 102: 126-133) oder auf dem &quot;impedance control&quot; Ansatz von Hogan (Hogan, 1985, ASME J. Dynam. Syst., Meas., Contr., 107: 1-23). Für die Ansteuerung einer sechsbeinigen Laufmaschine mit insgesamt 18 Gelenken müssen dafür die entsprechenden kinematischen und dynamischen Gleichungen bekannt sein und in jedem Regleraufruf neu berechnet werden. Es scheint unwahrscheinlich, dass Tiere diese Berechnungen explizit durchführen. Cruse und Mitarbeiter (Cruse et al., 1995, Advances in Artificial Life, 668-678) schlugen vor, dass Insekten diese Aufgabe unter Ausnutzung der in der Literatur vielfach beschriebenen Reflexumkehr (auch Unterstützungsreflex) bewältigen (siehe z.B. Bässler, 1976, Biol. Cybernetics, 24: 47-49). Bei der Reflexumkehr unterstützt ein Regelmechanismus, der im ruhenden Tier für die Beibehaltung einer Gelenksposition bei äußeren Störungen sorgt, im aktiven Tier eine passive Bewegung und verstärkt diese aktiv. Nimmt man nun im stemmenden Tier eine aktive Bewegung eines Gelenks an, so wirkt sich diese mechanisch vermittelt über die geschlossenen Ketten auf alle anderen Gelenke aus. Der Unterstützungsreflex in den anderen Gelenken führt dazu, dass diese die angeregte Bewegung mitmachen und verstärken. Das Ergebnis ist eine koordinierte Stemmbewegung, die von den lokal geregelten Gelenken gemeinsam ausgeführt wird, obwohl diese nicht neuronal miteinander kommunizieren und keine zentrale Instanz einen vorausberechneten Bewegungsplan ausgibt. In der vorliegenden Arbeit wird diese Hypothese aufgegriffen und quantitativ überprüft. Es werden verschiedene elastische Gelenkmodelle entwickelt, die als Grundlage für die Implementierung eines Unterstützungsreflex dienen. Der Unterstützungsreflex als solcher wird in Form von Lokaler Positiver Geschwindigkeitsrückkopplung (Local Positive Velocity Feedback, LPVF) hergeleitet und seine Funktionsfähigkeit mit einem Standardtest, dem einarmigen Kurbeln, getestet. Die wichtigste Eigenschaft, nämlich die Fähigkeit, verschiedene Gelenke ohne direkte Kommunikation zu koordinieren, wird damit nachgewiesen. In einem weiteren Schritt wird gezeigt, dass eine Erweiterung des Ansatzes durch Einführung einer Leistungssteuerung dazu führt, dass die Koordinationsfähigkeit selbst dann erhalten bleibt, wenn eine stemmende Gliedmaße große Kräfte, z.B. gegen eine äußere Trägheitskraft, aufbringen muss. Das Regelungskonzept wird auf einer dynamischen Einbeinsimulation getestet, die Funktionsfähigkeit demonstriert und mit den biologischen Daten von aktivierten Tieren verglichen. In einem letzten Schritt wird der LPVF-Regler mit einem Stehregler kombiniert. Der entstandene Gesamtregler erklärt biologische Befunde aus der Lauf- und aus der Stehdomäne.</abstract>
+                    <subject>
+                        <topic>Positive Rückkopplung</topic>
+                        <topic>Neurobionik</topic>
+                        <topic>Bewegungskoordination</topic>
+                        <topic>Autonomer Roboter</topic>
+                        <topic>Gliederfüßer</topic>
+                        <topic>Kurbeln</topic>
+                        <topic>Gelenkkoordination</topic>
+                        <topic>Dezentrale Regelung</topic>
+                        <topic>Positive feedback</topic>
+                        <topic>Active compliance</topic>
+                        <topic>Compliant motion</topic>
+                        <topic>Six-legged walking</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10009</identifier>
+                    <identifier type="sys">HT014976143</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301517</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301517">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301517/2301520/Dissertation_Axel_Schneider_2006.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301517" DMDID="DMD2301517">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301517"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

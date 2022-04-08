@@ -1,0 +1,119 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2931281</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:040</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Computer Vision for Marine Environmental Monitoring</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Jonas</namePart>
+  <namePart type="family">Osterloff</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">36565602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-5962-5326</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Tim Wilhelm</namePart>
+  
+  
+  <namePart type="family">Nattkemper</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Ocean exploration using imaging techniques has recently become very popular as camera systems became affordable and technique developed further. Marine imaging provides a unique opportunity to monitor the marine environment. The visual exploration using images allows to explore the variety of fauna, flora and geological structures of the marine environment.&lt;br /&gt;
+This monitoring creates a bottleneck as a manual evaluation of the large amounts of underwater image data is very time consuming. Information encapsulated in the images need to be extracted so that they can be included in statistical analyzes. Objects of interest (OOI) have to be localized and identified in the recorded images. &lt;br /&gt;
+In order to overcome the bottleneck, computer vision (CV) is applied in this thesis to extract the image information (semi-) automatically. A pre-evaluation of the images by marking OOIs manually, i.e. the manual annotation process, is necessary to provide examples for the applied CV methods.&lt;br /&gt;&lt;br /&gt;
+
+Five major challenges are identified in this thesis to apply of CV for marine environmental monitoring. 
+The challenges can be grouped into challenges caused by underwater image acquisition and by the use of manual annotations for machine learning (ML).&lt;br /&gt;
+The image acquisition challenges are the optical properties challenge, e.g. a wavelength dependent attenuation underwater, and the dynamics of these properties, as different amount of matter in the water column affect colors and illumination in the images.&lt;br /&gt;
+The manual annotation challenges for applying ML for underwater images are, the low number of available manual annotations, the quality of the annotations in terms of correctness and reproducibility and the spatial uncertainty of them. The latter is caused by allowing a spatial uncertainty to speed up the manual annotation process e.g. using point annotations instead of fully outlining OOIs on a pixel level.&lt;br /&gt;
+The challenges are resolved individually in four different new CV approaches. The individual CV approaches allow to extract new biologically relevant information from time-series images recorded underwater.&lt;br /&gt;&lt;br /&gt;
+
+Manual annotations provide the ground truth for the CV systems and therefore for the included ML. Placing annotations manually in underwater images is a challenging task. In order to assess the quality in terms of correctness and reproducibility a detailed quality assessment for manual annotations is presented. This includes the computation of a gold standard  to increase the quality of the ground truth for the ML.&lt;br /&gt;&lt;br /&gt;
+
+In the individually tailored CV systems, different ML algorithms are applied and adapted for marine environmental monitoring purposes. Applied ML algorithms cover a broad variety from unsupervised to supervised methods, including deep learning algorithms.&lt;br /&gt;
+Depending on the biologically motivated research question, systems are evaluated individually.&lt;br /&gt;&lt;br /&gt;
+
+The first two CV systems are developed for the _in-situ_ monitoring of the sessile species _Lophelia pertusa_. Visual information of the cold-water coral is extracted automatically from time-series images recorded by a fixed underwater observatory (FUO) located at 260 m depth and 22 km off the Norwegian coast. Color change of a cold water coral reef over time is quantified and the polyp activity of the imaged coral is estimated (semi-) automatically.
+The systems allow for the first time to document an _in-situ_ change of color of a _Lophelia pertusa_ coral reef and to estimate the polyp activity for half a year with a temporal resolution of one hour.&lt;br /&gt;
+The third CV system presented in this thesis allows to monitor the mobile species shrimp _in-situ_. Shrimp are semitransparent creating additional challenges for localization and identification in images using CV. Shrimp are localized and identified in time-series images recorded by the same FUO. Spatial distribution and temporal occurrence changes are observed by comparing two different time periods.&lt;br /&gt;
+The last CV system presented in this thesis is developed to quantify the impact of sedimentation on calcareous algae samples in a _wet-lab_ experiment. &lt;br /&gt;
+The size and color change of the imaged samples over time can be quantified using a consumer camera and a color reference plate placed in the field of view for each recorded image.&lt;br /&gt;&lt;br /&gt;
+
+Extracting biologically relevant information from underwater images is only the first step for marine environmental monitoring. The extracted image information, like behavior or color change, needs to be related to other environmental parameters. Therefore, also data science methods are applied in this thesis to unveil some of the relations between individual species' information extracted semi-automatically from underwater images and other environmental parameters.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PhD_Thesis_Jonas_Osterloff_small.pdf">https://pub.uni-bielefeld.de/download/2931281/2931282/PhD_Thesis_Jonas_Osterloff_small.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29312810</identifier><identifier type="doi">10.4119/unibi/2931281</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-05-07</dateOther>
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>J.  Osterloff, &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Osterloff J (2018) &lt;br /&gt;&lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Osterloff, J. (2018).  &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931281&lt;/div&gt;</apa_indent>
+<harvard1>Osterloff, J., 2018. &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<wels>Osterloff, J. (2018): Computer Vision for Marine Environmental Monitoring. Bielefeld: Universität Bielefeld.</wels>
+<ieee> J. Osterloff, &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<apa>Osterloff, J. (2018).  &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931281</apa>
+<frontiers>Osterloff, J. (2018). Computer Vision for Marine Environmental Monitoring. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Osterloff, J. (2018). &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931281.&lt;/div&gt;</dgps>
+<ama>Osterloff J. &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<default>Osterloff J (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Osterloff, Jonas. &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Osterloff, Jonas. 2018. &lt;em&gt;Computer Vision for Marine Environmental Monitoring&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Osterloff, J.: Computer Vision for Marine Environmental Monitoring. Universität Bielefeld, Bielefeld (2018).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2931281</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-09-24T19:28:29Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-20T08:30:56Z</recordChangeDate>
+</recordInfo>
+</mods>

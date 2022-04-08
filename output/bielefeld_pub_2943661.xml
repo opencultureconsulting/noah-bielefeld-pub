@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943661">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An analysis of prosodic boundary detection in German and Austrian German read speech</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Schuppler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bogdan</namePart>
+                        <namePart type="family">Ludusan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">With speech annotation being one of the most time-consuming and costly aspects of speech corpora development, there is a significant interest in the development of automatic annotation tools. The present study focuses on variant-independent prosodic boundary annotations for German. We test a previously proposed unsupervised approach, which posits prosodic boundaries based only on acoustic cues. The experiments were conducted on read speech from two corpora, one of Standard German, the Kiel Corpus of Spoken German, and the other of Austrian German, the Graz Corpus of Read and Spontaneous Speech. Averaging across all speakers in the dataset, the tool attained an area under the precision-recall curve of 0.308 and 0.215, for the Kiel corpus and the GRASS corpus, respectively. The significant differences obtained in detection across the two varieties were accompanied by large differences between speakers, as well. This was confirmed by a subsequent analysis of the acoustic cues employed in the process, which showed important differences in the way speakers make use of those cues for marking prosodic structure. We discuss these findings with respect to the current literature and their implication for variant-independent automatic annotation.</abstract>
+                    <subject>
+                        <topic>prosodic phrase boundaries</topic>
+                        <topic>automatic detection</topic>
+                        <topic>Austrian German</topic>
+                        <topic>acoustic features</topic>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29436612</identifier>
+                    <identifier type="doi">10.21437/speechprosody.2020-202</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943661</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943661">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943661/2943662/SP2020_prosodic_boundary_detection.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943661" DMDID="DMD2943661">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943661"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

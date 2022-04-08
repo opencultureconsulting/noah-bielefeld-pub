@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1636280">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wiebke</namePart>
+                        <namePart type="family">Timm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexandra</namePart>
+                        <namePart type="family">Scherbart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Boecker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Kohlbacher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Mass spectrometry is a key technique in proteomics and can be used to analyze complex samples quickly. One key problem with the mass spectrometric analysis of peptides and proteins, however, is the fact that absolute quantification is severely hampered by the unclear relationship between the observed peak intensity and the peptide concentration in the sample. While there are numerous approaches to circumvent this problem experimentally (e. g. labeling techniques), reliable prediction of the peak intensities from peptide sequences could provide a peptide-specific correction factor. Thus, it would be a valuable tool towards label-free absolute quantification. Results: In this work we present machine learning techniques for peak intensity prediction for MALDI mass spectra. Features encoding the peptides&apos; physico-chemical properties as well as string-based features were extracted. A feature subset was obtained from multiple forward feature selections on the extracted features. Based on these features, two advanced machine learning methods (support vector regression and local linear maps) are shown to yield good results for this problem (Pearson correlation of 0.68 in a ten-fold cross validation). Conclusion: The techniques presented here are a useful first step going beyond the binary prediction of proteotypic peptides towards a more quantitative prediction of peak intensities. These predictions in turn will turn out to be beneficial for mass spectrometry-based quantitative proteomics.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>443</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18937839</identifier>
+                    <identifier type="ISI">000262158200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16362806</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-443</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1636280</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1636280">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1636280/2311150/BMC_37.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1636280" DMDID="DMD1636280">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1636280"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

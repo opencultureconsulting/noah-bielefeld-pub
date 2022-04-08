@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2919356</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Eyla</namePart>
+  <namePart type="family">Willing</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">16477259</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">In der vergleichenden Genomik werden zwei oder mehrere Genome hinsichtlich ihres Verwandtschaftsgrades verglichen. Das Ziel dieser Arbeit ist die Erforschung von mathematischen Modellen, die zum einen die evolutionäre *Distanz*, zum anderen die evolutionären Vorgänge zwischen zwei Genomen bestimmen können.&lt;br /&gt;
+Neben Methoden, welche auf einer niedrigen Ebene, z. B. den Basen(paarungen), ansetzen, sind auch abstraktere Modelle, die auf einzelnen Genen oder noch größeren Abschnitten Genome vergleichen, etabliert. Handelt es sich auf niedrigerer Ebene um einzelne Basen, die eingefügt, gelöscht oder ersetzt werden, sind es auf höherer Ebene beispielsweise ganze Gene. Auf höherer Ebene können Ergebnisse sogenannter Umordnungsprozesse (*genome rearrangements*) beobachtet werden, welche in einem *Sortierszenario* beschrieben werden. Im Vergleich eines Genoms mit einem anderen können dies unter anderem Inversionen, Translokationen, aber auch Einfügungen oder Löschungen von großen Bereichen sein. Ein bekanntes Modell ist das *Inversionsmodell*, welches den Verwandtschaftsgrad zweier Genome ausschließlich durch Inversionen bestimmt. Ein weiteres ist das *double cut-and-join (DCJ)* Modell, welches neben Inversionen auch Translokationen, Chromosomenfusionen, bzw. -fissionen, sowie Integration und Extraktion von kleinen zirkulären Trägern erlaubt. Die Distanz ist hierbei die Anzahl Zwischenschritte eines Sortierszenarios von geringster Länge.&lt;br /&gt;
+Diese Dissertation ist in zwei Teile gegliedert. Der erste Teil beschäftigt sich mit dem zufälligen Ziehen eines Sortierszenarios innerhalb des DCJ-Modells. Neben einigen naiven Ansätzen interessieren wir uns im Wesentlichen dafür, jedes Szenario mit gleicher Wahrscheinlichkeit, also uniform verteilt, zu ziehen. Hierfür wird nicht nur der gesamte Sortierraum betrachtet, sondern auch Maßnahmen zur effizienten Berechnung aufgezeigt. Der vorgestellte Algorithmus ist in einer Software-suite implementiert und wird hinsichtlich seiner Erzeugung von zufälligen Szenarien evaluiert.
+Der zweite Teil der Arbeit beschäftigt sich mit dem Inversions-*indel* Modell. Dieses wenig erforschte Modell erlaubt Inversionen, sowie Einfügungen und Löschungen (kurz *indels*). Dessen Distanz soll in Abhängigkeit von der DCJ- bzw. der DCJ-*indel*-Distanz wiedergegeben werden. Wir erweitern altbekannte Datenstrukturen des Inversionsmodells um Einfügungen und Löschungen repräsentieren zu können. Hierfür benutzen wir unter anderem Ansätze aus zwei anderen Modellen: Die Erweiterung des DCJ-Modells um indels, sowie die Ermittlung der Abhängigkeit von DCJ- und Inversionsmodell.&lt;br /&gt;
+Um die minimale Anzahl an Inversionen, Einfügungen und Löschungen zu ermitteln muss beachtet werden, dass durch Inversionen zwei oder mehr getrennte Bereiche, die zur Löschung vorgesehen sind, verschmolzen werden. Diese können sodann in einem einzigen Schritt gelöscht werden. Ähnlich verhält es sich mit Einfügungen. Zunächst betrachten wir Instanzen in denen die DCJ-indel-Distanz und die Inversions-indel-Distanz identisch sind. Im Weiteren gehen wir dazu über, schwierige Instanzen, d.h. jene die mehr Schritte benötigen als die DCJ(-indel)-Distanz, zu berechnen. Zu diesen Zweck müssen die unterschiedlichen Eigenschaften der Instanzen und deren Auswirkungen ausgemacht werden. Durch geschickte Reduzierung des Lösungsraums gelangen wir zu einer Menge von Basisfällen, welche wir durch erschöpfende Aufzählung lösen können. Insgesamt bieten die unternommenen Schritte nicht nur die Lösung der Inversions-indel Distanz in Abhängigkeit zur DCJ-indel Distanz, sondern auch eine Möglichkeit des Sortierens. &lt;br /&gt;&lt;br /&gt; Die Suche nach einer exakten Lösung für das Distanz- und das  Sortierproblem im Inversions-indel Modell blieb lange unbeantwortet. Der Hauptbeitrag dieser Arbeit liegt darin diese zwei Fragen zu klären.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Willing.pdf">https://pub.uni-bielefeld.de/download/2919356/2919357/Dissertation_Willing.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29193563</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2017-04-24</dateOther>
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Willing, E. (2018). &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Willing, E. (2018). On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Willing E. &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<ieee> E. Willing, &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<apa>Willing, E. (2018).  &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<wels>Willing, E. (2018): On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>E.  Willing, &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Willing, E., 2018. &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Willing E (2018) &lt;br /&gt;&lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Willing, E. (2018).  &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Willing, Eyla. 2018. &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Willing, E.: On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model. Universität Bielefeld, Bielefeld (2018).</lncs>
+<aps> E.  Willing, On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model, (Universität Bielefeld, Bielefeld, 2018).</aps>
+<default>Willing E (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Willing, Eyla. &lt;em&gt;On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2919356</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-04-24T08:50:15Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:28Z</recordChangeDate>
+</recordInfo>
+</mods>

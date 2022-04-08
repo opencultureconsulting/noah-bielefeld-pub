@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914256">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Discriminative dimensionality reduction: variations, applications, interpretations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0739-612X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-03-31</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The amount of digital data increases rapidly as a result of advances in information and sensor technology. Because the data sets grow with respect to their size, complexity and dimensionality, they are no longer easily accessible to a human user.  The framework of dimensionality reduction addresses this problem by aiming to visualize complex data sets in two dimensions while preserving the relevant structure. While these methods can provide significant insights, the problem formulation of structure preservation is ill-posed in general and can lead to undesired effects.
+In this thesis, the concept of discriminative dimensionality reduction is investigated as a particular promising way to indicate relevant structure by specifying auxiliary data.&lt;br /&gt;
+The goal is to overcome challenges in data inspection and to investigate in how far discriminative dimensionality reduction methods can yield an improvement. The main scientific contributions are the following:&lt;br /&gt;
+(I) The most popular techniques for discriminative dimensionality reduction
+are based on the Fisher metric. However, they are restricted in their applicability as concerns complex settings: They can only be employed for fixed data sets, i.e. new data cannot be included in an existing embedding. Only data provided in vectorial representation can be processed. And they are designed for discrete-valued auxiliary data and cannot be applied to real-valued ones. We propose solutions to overcome these challenges.&lt;br /&gt;
+(II) Besides the problem that complex data are not accessible to humans, the same holds for trained machine learning models which often constitute black box models. In order to provide an intuitive interface to such models, we propose a general framework which allows to visualize high-dimensional functions, such as regression or classification functions, in two dimensions.&lt;br /&gt;
+(III) Although nonlinear dimensionality reduction techniques illustrate the structure of the data very well, they suffer from the fact that there is no explicit relationship between the original features and the obtained projection. We propose a methodology to create a connection, thus allowing to understand the
+importance of the features.&lt;br /&gt;
+(IV) Although linear mappings constitute a very popular tool, a direct interpretation of their weights as feature relevance can be misleading. We propose a methodology which enables a valid interpretation by providing relevance bounds for each feature.&lt;br /&gt;
+(V) The problem of transfer learning without given correspondence information between the source and target space and without labels is particularly challenging. Here, we utilize the structure preserving property of dimensionality reduction methods to transfer knowledge in a latent space given by dimensionality reduction.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29142565</identifier>
+                    <identifier type="sys">HT019505098</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914256</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914256">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914256/2914257/PhD_Thesis_Alexander_Schulz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914256" DMDID="DMD2914256">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914256"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

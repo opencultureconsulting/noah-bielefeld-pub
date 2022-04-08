@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301537">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Semi-automated reconstruction of biological networks based on a life science data warehouse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Kormeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-05-26</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The progress in the area of biological research in recent years leads to a multiplicity of different databases and information systems. Typically, those data is available via the World Wide Web for further investigation. Usually, biological and life science data that describe different aspects of a biological system are distributed and spread over the whole world. Moreover, molecular biology deals with complex problems and an enormous amount of versatile data will be produced by high-throughput techniques. Hence, the total number of databases, as well the data itself, is continuously increasing, whereas rises the distribution and heterogeneity of the data. For a comprehensive and efficient use of life science data it is necessary to integrate the distributed and heterogeneous data and provide them for further analysis to the researcher. Beside data integration the user has to be supported by applicable tools for navigation within the integrated data sets that supports an efficient and precise processing of the data.
+The importance of database integration has been recognized for many years. Therefore, this work describes an evolving data warehouse infrastructure for constructing life science data warehouses that integrate multiple heterogeneous biological databases within a single physical data physical database management system to facilitate queries that span multiple databases. In addition, the accurate representation of the integrated research data in a user-friendly format is highly demanded among scientists. Information must be visualized in a clear and understandable way. Otherwise important information can get lost. Therefore, a specific data warehouse approach related to cardiovascular disease and a general data warehouse approach to browse and explore life science data are presented. The systems enable intuitive search of integrated life science data, simple navigation to related information as well as visualization of biological domains and their relationships. In addition, this thesis presents a software framework for visualizing and modeling biological networks. The user is able to create a user-specific pathway without any restrictions. Moreover, the editor is connected to the data warehouse approach, so that the user can take advantage of a wide range of biomedical data sources. Additionally, an easy-to-use Web-based application for modeling of biological networks as Petri nets is motivated. The system supports semi-automatic generation of hybrid Petri net models. Then, it is possible to use generated networks in external simulation environments for qualitative and quantitative simulation. The work was funded in context of the Cardioworkbench EU project. Thus, the applications are already in use within the Cardioworkbench project as well as in ongoing in-house projects.
+As result, this work presents a powerful and flexible data warehouse infrastructure that can be used for building project specific information systems and data warehouses. Furthermore, the system is the basis for the network modeling application pathway reconstruction tool. Finally, this work shows the semi-automated reconstruction approach of biological network based on life science data integration supported by the developed tools within this thesis.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17281</identifier>
+                    <identifier type="sys">HT016589463</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301537</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301537">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301537/2301540/bk_dissertation_2010.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301537" DMDID="DMD2301537">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301537"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

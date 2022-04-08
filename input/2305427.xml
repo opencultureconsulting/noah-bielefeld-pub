@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305427</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Peak intensity prediction in mass spectra using machine learning methods</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Peakintensitätsvorhersage in Massenspektren mit maschinellen Lernmethoden</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Wiebke</namePart>
+  <namePart type="family">Timm</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Tim Wilhelm</namePart>
+  
+  
+  <namePart type="family">Nattkemper</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Massenspektrometrie ist heutzutage unersetzlich, um Proteine und Peptide in komplexen biologischen Proben schnell zu untersuchen. Das Hauptproblem bei der quantitativen Analyse mit Methoden der Massenspektrometrie ist dabei die Tatsache, dass die Empfindlichkeit von Massenspektrometern prinzipbedingt peptidabhängig ist. Daher ist die Beziehung zwischen beobachteten Peakintensitäten und den entsprechenden Peptidkonzentrationen in der Probe unklar. Es gibt verschiedene Ansätze, dieses Problem durch Labeling-Techniken zu umgehen. Allerdings sind diese Techniken extrem teuer und zeitaufwändig in der Anwendung. Wenn man die peptidabhängige Empfindlichkeit verlässlich vorhersagen könnte, dann könnte man einen peptidabhängigen Korrekturfaktor berechnen, wodurch die Genauigkeit von absoluten Quantifizierungstechniken ohne den Einsatz von Labeling-Techniken (label-free absolute quantitation) verbessert werden könnte.
+In dieser Arbeit beschäftige ich mich mit der Frage, ob es möglich ist, die peptidspezifische Empfindlichkeit eines Massenspektrometers zu modellieren. Zu diesem Zweck wird mithilfe von Datensätzen eines Matrix-Assisted Laser Desorption Ionization (MALDI)-Massenspektrometers ein Verfahren entwickelt, das Simulation und Überwachte Lernverfahren kombiniert. Der zweite Teil der Arbeit hat zum Ziel, jene Peptideigenschaften zu ermitteln, die den größten Einfluß auf die peptidspezifischen Empfindlichkeiten haben.
+Diese Arbeit stellt einen wichtigen Schritt dar, um die Genaugkeit Label-freier Quantifizierung mithilfe von Massenspektrometrie zu verbessern: Ich zeige, dass die Vorhersage der peptidabhängigen Empfindlichkeit tatsächlich möglich ist, sogar mit nur wenig Daten. Das beste hier vorgestellte Verfahren erreicht eine signifikante quadratische Pearson-Korrelation von 0,46 in einer zehnfachen Kreuzvalidierung (ten-fold cross-validation). Wissensextraktion mit Feature Selection-Methoden deckt sowohl bereits bekannte als auch neue Peptid-Eigenschaften auf, die für das Problem relevant sind. Im Zuge dessen wird Least-Angle Regression, eine moderne Feature Selection-Technik, evaluiert und als geeignet befunden, auch auf verrauschten Daten gute Ergebnisse zu erzielen.</abstract>
+<abstract lang="eng">Mass spectrometry (MS) is an indispensable technique for the fast analysis of proteins and peptides in complex biological samples. One key problem with the quantitative mass spectrometric analysis of peptides and proteins, however, is the fact that the sensitivity of MS instruments is peptide-dependent, leading to an unclear relationship between the observed peak intensity and the peptide concentration in the sample. Various labeling techniques have been developed to circumvent this problem, but are very expensive and time-consuming. A reliable prediction of peptide-specific sensitivies could provide a peptide-specific correction factor, which would be valuable for label-free absolute quantitation.
+In this work, I analyze if modeling of peptide-specific sensitivities of unkonwn proteins is feasible. For this purpose, a combined simulation and supervised learning approach is developed using datasets from matrix-assisted laser desorption ionization (MALDI). As a second main focus, I deal with the question which peptide properties have the most influence on peptide-specific sensitivities.
+This work constitutes an important step to enhance label-free quantification accuracy: I show that the prediction of peptide-specific sensitivities is indeed feasible even on a small dataset. A significant Pearson's squared correlation of 0.46 in ten-fold cross-validation is reached with support vector regression. Knowledge extraction with feature selection methods leads to the rediscovery of known as well as new properties that are relevant for this problem. Least-angle regression, a modern feature selection technique, is evaluated for this purpose among others, and is shown to perform comparatively well on noisy MS data.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Timm_PeakIntensityPrediction_Dissertation.pdf">https://pub.uni-bielefeld.de/download/2305427/2305430/Timm_PeakIntensityPrediction_Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Proteomanalyse</topic><topic>Flugzeitmassenspektrometrie</topic><topic>MALDI-MS</topic><topic>Maschinelles Lernen</topic><topic>Data Mining</topic><topic>Bioinformatik</topic><topic>Quantitative proteomics</topic><topic>Mass spectrometry</topic><topic>Machine learning</topic><topic>Feature selection</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-13706</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2008-09-01</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> W. Timm, &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2008.</ieee>
+<apa>Timm, W. (2008).  &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Timm, W. (2008). Peak intensity prediction in mass spectra using machine learning methods. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, W. (2008). &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Timm W. &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2008.</ama>
+<angewandte-chemie>W.  Timm, &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Timm, W., 2008. &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, W. (2008).  &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Timm W (2008) &lt;br /&gt;&lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<wels>Timm, W. (2008): Peak intensity prediction in mass spectra using machine learning methods. Bielefeld (Germany): Bielefeld University.</wels>
+<default>Timm W (2008) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Timm, Wiebke. &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2008.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, Wiebke. 2008. &lt;em&gt;Peak intensity prediction in mass spectra using machine learning methods&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Timm, W.: Peak intensity prediction in mass spectra using machine learning methods. Bielefeld University, Bielefeld (Germany) (2008).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305427</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-09-19T09:30:06Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:19Z</recordChangeDate>
+</recordInfo>
+</mods>

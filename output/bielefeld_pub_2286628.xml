@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2286628">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>modular design flow for very large design space explorations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Jungeblut</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7425-8766</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Lütkemeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gregor</namePart>
+                        <namePart type="family">Sievers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The design of application specific and resource efficient digital circuits, like complex multiprocessor system on chips, often requires to choose among multiple possible configurations affecting both performance and resource consumption. A design space exploration (DSE) of the different architecture configurations and multiple target libraries usually implies hundreds of syntheses. In sub-90nm-technologies place and route (P&amp;R) has to be performed to derive realistic results. This complexity makes the design space exploration interminable. To compare different implementations within a company sets of generally accepted constraints are required.
+The product family of Cadence® Design Systems Inc. offers a large variety of tools for the design of microelectronic circuits to perform, for example, RTL synthesis, power estimation, place and route or verification. To speed up the iteration steps of the DSE, we have developed a semi-automatic tool flow, using the EDA environment of Cadence. This tool flow is used to perform the exploration of very large design spaces with, for example hundreds of RTL synthesis, only limited by the computational power available at our group. To minimize the iteration time and to maximize the efficiency of our EDA hardware, we developed a load balancing system to distribute jobs to different computers.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22866280</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2286628</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2286628">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2286628/2310504/cdnlive_jungeblut_paper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2286628">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2286628/2310530/cdnlive_jungeblut_slides.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2286628" DMDID="DMD2286628">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2286628"/>
+            <mets:div TYPE="part" ID="PART1_2286628" LABEL="cdnlive_jungeblut_slides.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2286628"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

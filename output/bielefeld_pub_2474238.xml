@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2474238">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Comparing forests</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefanie</namePart>
+                        <namePart type="family">Schirmer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giegerich</namePart>
+                        <namePart type="family">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-12-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Various methods have been proposed for RNA secondary structure comparison, and new ones are still being developed. It seems that there is no appropriate distance measure for structure comparison yet.
+Such a distance measure should appropriately capture the features of the secondary structure to determine the distance. Thus, the measure also depends on the representation of the secondary structure, which may introduce artefacts in the distance computation. Our goal is to find a distance function that avoids artefacts caused by the representation, and is based on a reasonable representation of the secondary structure. After a discussion of common distance functions for RNA secondary structures, we focus on the forest alignment distance, which represents the secondary structures in a natural way with regard to the nesting and adjacency relation of substructures.
+In the main part of this work, we extend the gap model of the forest alignment distance to make it suitable for affine gap costs. This leads to a new algorithm variant, which is explained in this thesis, and is implemented in the new version of the tool RNAforester 2.0.
+In addition, we provide a mechanism to speed up the alignment process by anchoring of subalignments. The anchoring information is based on the overall shape of the molecule, and is obtained by the method of abstract shape analysis.
+Another contribution is the discussion of the well-formed RNA forest alignment concept. I adapt the case distinction in the recurrences that were designed to construct well-formed RNA forest alignment, to ensure that the deletion and insertion of a pairing relation between two bases is handled in an appropriate way.
+The affine gap scoring scheme brings an additional constant factor of ≈ 7 into the computation. It improves structure alignments in many cases, if combined with the right scoring parameters. The anchoring of subalignments leads to an average speedup of factor ≈ 3 compared to the usual computation, dependent on number and placement of the anchors.</abstract>
+                    <subject>
+                        <topic>RNA secondary structure</topic>
+                        <topic>forest alignment</topic>
+                        <topic>RNA secondary structure comparison</topic>
+                        <topic>tree alignment</topic>
+                        <topic>RNA</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24742380</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2474238</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2474238">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2474238/2474239/sschirme_diss-1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2474238" DMDID="DMD2474238">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2474238"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

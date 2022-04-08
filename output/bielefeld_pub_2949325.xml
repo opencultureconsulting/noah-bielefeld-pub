@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2949325">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Statistical Literacy &amp; Data Literacy – Grundbildung im Umgang mit empirischen Daten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cornelia</namePart>
+                        <namePart type="family">Stiller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0495-5387</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tobias</namePart>
+                        <namePart type="family">Allmers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Stockey</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Wilde</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-1630-3263</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Bereits in der Schule ist es notwendig, ein Verständnis von wissenschaftlichen Forschungsprozessen und dem Zustandekommen der daraus resultierenden Befunde, Schlüsse und Darstellungen zu fördern, um Schüler*innen so auf einen kompetenten Umgang mit Informationen im Alltag vorzubereiten. In diesem Beitrag wird ein Ansatz vorgestellt, wie diese Förderung im Rahmen eines Naturwissenschaftskurses für die Eingangsphase der Oberstufe erfolgen kann.</abstract>
+                    <subject>
+                        <topic>Data Literacy</topic>
+                        <topic>Statistical Literacy</topic>
+                        <topic>Curriculum</topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PraxisForschungLehrer*innenBildung. Zeitschrift für Schul- und Professionsentwicklung (PFLB)</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>144</start>
+                                <end>160</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2629-5628</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29493253</identifier>
+                    <identifier type="doi">10.4119/pflb-3995</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2949325</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2949325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2949325/2959395/3995-Artikeltext-19268-1-10-20201210.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2949325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2949325/2959396/3995-Artikeltext-19266-1-10-20201210.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2949325" DMDID="DMD2949325">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2949325"/>
+            <mets:div TYPE="part" ID="PART1_2949325" LABEL="3995-Artikeltext-19266-1-10-20201210.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2949325"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301859">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>structural framework for assembly modeling and recognition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Bauckhage</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2002-06-11</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Recently, scientists investigating advanced human-computer communication discovered interactive toys and game playing scenarios as a suitable setting to test their algorithms. The SFB 360 at Bielefeld University is among those projects that pioneered this idea. It aims to develop a robot that - instructed by spontaneous speech and gesture - assembles wooden toy objects. As these parts can be arbitrarily arranged in the construction cell and as its instructor should be free to decide what to assemble, the machine must be equipped with flexible algorithms to appropriately perceive and react to its surroundings.
+Emerging from the SFB 360, this thesis addresses the problem of assembly recognition from computer vision. It presents a structural approach that combines syntactic and graph-based methods for pattern recognition: simple context free grammars are well suited to model entire classes of mechanical assemblies. Implemented as semantic networks and applying parsing strategies known from discourse theory, they enable the flexible detection of arbitrary assembly structures in image data. Graph-based models are derived from syntactic structures and subsequent graph matching enables the reliable recognition of individual assemblies.
+Regarding the problem of input of varying complexity, this thesis proposes a task dependent evaluation of results. Given a set of influencing features, the difficulty of a detection task is quantified using a fuzzy classification scheme. The results obtained therefrom underline that using context free grammars for modeling, semantic networks for implementation, discourse parsing strategies for detection, and graph matching for recognition provide a reliable solution for flexible assembly recognition in an unconstrained environment.</abstract>
+                    <subject>
+                        <topic>Syntaktische Modelle</topic>
+                        <topic>Aggregaterkennung</topic>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Feature-Technologie</topic>
+                        <topic>Graph matching</topic>
+                        <topic>Produktmodell</topic>
+                        <topic>CAD</topic>
+                        <topic>Produktentwicklung</topic>
+                        <topic>Variantenkonstruktion</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3661</identifier>
+                    <identifier type="sys">HT014306621</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301859</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2301859">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301859/2301864/0062.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2301859">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301859/2301863/0062.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2301859">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301859/2301862/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE3_bielefeld_pub_2301859">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301859/2301865/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301859" DMDID="DMD2301859">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301859"/>
+            <mets:div TYPE="part" ID="PART1_2301859" LABEL="0062.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2301859"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2301859" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2301859"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2301859" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2301859"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

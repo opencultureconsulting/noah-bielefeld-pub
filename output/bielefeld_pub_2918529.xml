@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918529">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data and Analysis for: Satisficing Models of Bayesian Theory of Mind for Explaining Behavior of Differently Uncertain Agents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Pöppel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9677-2755</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2918529</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/by/summary/index.html">ODC-By</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918529</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918529">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918529/2920136/Description.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE1_bielefeld_pub_2918529">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918529/2920142/complete.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE2_bielefeld_pub_2918529">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918529/2920141/src.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE3_bielefeld_pub_2918529">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918529/2920138/data.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918529" DMDID="DMD2918529">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918529"/>
+            <mets:div TYPE="part" ID="PART1_2918529" LABEL="complete.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2918529"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2918529" LABEL="src.zip">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2918529"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2918529" LABEL="data.zip">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2918529"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

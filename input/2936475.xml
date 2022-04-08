@@ -1,0 +1,126 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2936475</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sascha</namePart>
+  <namePart type="family">Fleer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">42261125</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1606-2436</description></name>
+<name type="personal">
+  <namePart type="given">Alexandra</namePart>
+  <namePart type="family">Moringen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10117406</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-2605-1020</description></name>
+<name type="personal">
+  <namePart type="given">Roberta L.</namePart>
+  <namePart type="family">Klatzky</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">**Recorded data set**&lt;br /&gt;
+The file "objects.hdf5" contains the recorded data that was used in the experiments of this work. It is composed of 201 x 201 data points for each of the four different objects, leading to ~161000 data points in total.
+The code for generating the data set was written in ``python 2.7`` while the file itself was created using the [h5py](https://www.h5py.org/) package 
+
+**File structure**&lt;br /&gt;
+The file is built out of four containers with shapes (201, 201, 256):
+```
+objects.hdf5/
+├── object_1/
+|   └── (201, 201, 256)
+├── object_2/
+|   └── (201, 201, 256)
+├── object_3/
+|   └── (201, 201, 256)
+├── object_4/
+|   └── (201, 201, 256)
+```
+The data is provided as triples that are containing the information of the location *x* and orientation *phi* of the utilized tactile sensor, together with its corresponding flattened and normalized pressure vector *p*, i.e. (*x* ,*phi* ,*p*).</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="objects.hdf5">https://pub.uni-bielefeld.de/download/2936475/2936476/objects.hdf5</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-hdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+
+<subject><topic>haptic exploration</topic><topic>robotics simulation</topic><topic>machine learning</topic><topic>reinforcement learning</topic><topic>attention control</topic><topic>haptic glances</topic><topic>exploratory procedures</topic><topic>neural networks</topic><topic>recurrent neural networks</topic><topic>deep learning</topic><topic>object classification</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2936475</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2933895</url>     <url>https://pub.uni-bielefeld.de/record/2939850</url>  </location>
+</relatedItem>
+
+<relatedItem type="Supplementary material">
+  <location>
+  
+     <url>https://github.com/fleer/Haptic-Attention-Model</url>
+  
+  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ieee> S. Fleer, et al., &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;, Bielefeld University, 2019.</ieee>
+<apa>Fleer, S., Moringen, A., Klatzky, R. L., &amp;amp; Ritter, H. (2019).  &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936475</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fleer, S., Moringen, A., Klatzky, R.L. &amp;amp; Ritter, H. (2019). &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936475.&lt;/div&gt;</dgps>
+<frontiers>Fleer, S., Moringen, A., Klatzky, R. L., and Ritter, H. (2019). Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array. Bielefeld University.</frontiers>
+<ama>Fleer S, Moringen A, Klatzky RL, Ritter H. &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University; 2019.</ama>
+<angewandte-chemie>S.  Fleer, A.  Moringen, R. L.  Klatzky, and H.  Ritter, &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Fleer, S., et al., 2019. &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Fleer S, Moringen A, Klatzky RL, Ritter H (2019) &lt;br /&gt;&lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fleer, S., Moringen, A., Klatzky, R. L., &amp;amp; Ritter, H. (2019).  &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2936475&lt;/div&gt;</apa_indent>
+<wels>Fleer, S.; Moringen, A.; Klatzky, R. L.; Ritter, H. (2019): Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array. Bielefeld University.</wels>
+<default>Fleer S, Moringen A, Klatzky RL, Ritter H (2019) &lt;br /&gt;Bielefeld University.</default>
+<mla>Fleer, Sascha, Moringen, Alexandra, Klatzky, Roberta L., and Ritter, Helge. &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University, 2019.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fleer, Sascha, Moringen, Alexandra, Klatzky, Roberta L., and Ritter, Helge. 2019. &lt;em&gt;Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Fleer, S., Moringen, A., Klatzky, R.L., Ritter, H.: Supplementary Material - Learning efficient haptic shape exploration with a rigid tactile sensor array. Bielefeld University (2019).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2936475</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-07-15T08:42:46Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-08-20T10:25:28Z</recordChangeDate>
+</recordInfo>
+</mods>

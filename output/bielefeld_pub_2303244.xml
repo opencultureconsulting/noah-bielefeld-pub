@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303244">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Charmonium correlation and spectral functions in quenched lattice QCD at finite temperature</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hengtong</namePart>
+                        <namePart type="family">Ding</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Edwin</namePart>
+                        <namePart type="family">Laermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-10-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis, we have investigated the properties of charmonium states at finite temperature in quenched QCD on isotropic lattices. The standard Wilson plaquette action for the gauge field and the non-perturbatively $cO(a)$ improved clover fermion action for charm quarks are implemented in the simulation.
+In our investigations we used a variety of different lattice spacings to control cut-off effects in the charmonium correlators and spectral functions. In particular, our finest lattices have a very small lattice spacing, i.e. $a=0.01$ fm. Using the Maximum Entropy Method we have reconstructed the spectral functions at both temperature below and above the critical temperature. We measured charmonium correlators on our finest lattices with a relative large size of $128^3 × 96$, $128^3 × 48$, $128^3 × 32$ and $128^3 × 24$ at $0.73~T_c$, $1.46~T_c$, $2.20~T_c$ and $2.93~T_c$, respectively.
+The MEM analyses of charmonium spectral functions have been done very carefully. We utilized the improved integrand kernel to avoid the instability of MEM at very low frequency. The number of points in the accessible frequency interval is set to 8000 in order to give a relative continuous picture of the spectral function. We studied the changes of the output spectral functions when using various default models both below and above $T_c$. We also checked the dependence of the output spectral functions on the number of data points used in the MEM analysis, in particular we compared the spectral functions at $T &gt; T_c$ and $T &lt; T_c$ reconstructed by using the same number of data points. We estimated statistical errors of the spectral functions as well. The statistical errors are obtained using the Jackknife method and are calculated on every point of the extracted spectral function.</abstract>
+                    <subject>
+                        <topic>Lattice QCD</topic>
+                        <topic>Charmonium</topic>
+                        <topic>Correlation function</topic>
+                        <topic>Spectral function</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17732</identifier>
+                    <identifier type="sys">HT016741702</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303244</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303244">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303244/2303247/thesis_HengTong.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303244" DMDID="DMD2303244">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303244"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

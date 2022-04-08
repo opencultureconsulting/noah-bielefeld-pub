@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2731538">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Visuo-Tactile Control Framework for Manipulation and Exploration of Unknown Objects</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Qiang</namePart>
+                        <namePart type="family">Li</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4315-0864</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a novel hierarchical control framework
+that unifies our previous work on tactile-servoing with
+visual-servoing approaches to allow for robust manipulation
+and exploration of unknown objects, including – but not
+limited to – robust grasping, online grasp optimization, in-hand
+manipulation, and exploration of object surfaces. The control
+framework is divided into three layers: a joint-level positioncontrol
+layer, a tactile servoing control layer, and a high-level
+visual servoing control layer. While the middle layer provides
+“blind” surface exploration skills, maintaining desired contact
+patterns, the visual layer monitors and controls the actual object
+pose providing high-level finger-tip motion commands that are
+merged with the tactile-servoing control commands.
+Because the high spatial resolution tactile array and tactile
+servoing method is used, the robot end-effector can actively
+perform slide, roll and twist motion in order to improve the
+contact quality with the unknown object only depending on
+the tactile feedback. Our control method can be consider
+as another alternative option for vision-force shared control
+method and vision-force-tactile control method which heavily
+depend on the 3D force/torque sensor to perform end-effector
+fine manipulation after the contact happening.
+We illustrate the efficiency of the proposed framework using
+a series of manipulation actions performed with two KUKA
+LWR arms equipped with a tactile sensor array as a “sensitive
+fingertip”. The two considered objects are unknown to the
+robot, i.e. neither shape nor friction properties are available.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27315387</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2731538</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2731538">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2731538/2775393/ICHR15_0260_MS.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2731538" DMDID="DMD2731538">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2731538"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

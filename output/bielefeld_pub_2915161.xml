@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2915161">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Critical assessment of assembly strategies for non-model species mRNA-Seq data and application of next-generation sequencing to the comparison of C-3 and C-4 species</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andrea</namePart>
+                        <namePart type="family">Bräutigam</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5309-0527</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Mullick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Schliesky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas P. M.</namePart>
+                        <namePart type="family">Weber</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Next-generation sequencing enables the study of species without a sequenced genome at the &apos;omics&apos; level. Custom transcriptome databases are generated and global expression profiles can be compared. However, the assembly of transcriptome sequence reads into contigs remains a daunting task. In this study, five different assembly programs, both traditional overlap-based, &apos;read-centric&apos; assemblers and de Bruijn graph data structure-based assemblers, were compared. To this end, artificial read libraries with and without simulated sequencing errors were constructed from Arabidopsis thaliana, based on quantitative profiles of mature leaf tissue. The open source TGICL pipeline and the commercial CLC bio genomics workbench produced the best assemblies in terms of contig length, hybrid assemblies, redundancy reduction, and error tolerance. The mature leaf transcriptomes of the C-3 species Cleome spinosa and the C-4 species Cleome gynandra were assembled and analysed. The pathways and cellular processes tagged in the transcriptome assemblies reflect processes of a mature leaf. The databases are useful for extracting transcripts related to C-4 processes as full-length or nearly full-length sequences.</abstract>
+                    <subject>
+                        <topic>Assembly</topic>
+                        <topic>C-4</topic>
+                        <topic>next-generation sequencing</topic>
+                        <topic>transcriptome</topic>
+                    </subject>
+                    <classification authority="ddc">580</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of Experimental Botany</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>62</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>9</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>3093</start>
+                                <end>3102</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0022-0957</identifier>
+                    <identifier type="MEDLINE">21398430</identifier>
+                    <identifier type="ISI">000291526500011</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29151618</identifier>
+                    <identifier type="doi">10.1093/jxb/err029</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2915161</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2915161">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915161/2915942/Br%C3%A4utigam_et_al-2011-Journal_of_Experimental_Botany.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2915161" DMDID="DMD2915161">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2915161"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

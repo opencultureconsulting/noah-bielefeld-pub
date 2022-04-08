@@ -1,0 +1,125 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2047086">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Measuring Syntactic Priming in Dialogue Corpora</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8778-1273</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Armin</namePart>
+                        <namePart type="family">Buch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4047-9277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">de Ruiter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Stolterfoht</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sam</namePart>
+                        <namePart type="family">Featherston</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The tendency to reuse syntactic constructions is often attributed to
+syntactic priming. We devise a simple, distribution-based measure of
+priming between linguistic constructions (or syntactic
+rules/categories), and find priming in treebanks of dialogue corpora,
+both for context-free production rules and for Combinatory Categorial
+Grammar categories. It is stronger for task-oriented dialogues, and
+stronger in lexical categories than in syntactic categories.
+
+As priming cannot be measured directly in language corpora, we use the
+decay of rule repetition probability as a proxy. A limitation of the
+method presented here is that it conflates self-priming and
+other-priming. However, we consider it a great advantage that our
+method takes into account all rules or categories occurring in a given
+corpus, not just a few carefully selected constructions.</abstract>
+                    <subject>
+                        <topic>corpus</topic>
+                        <topic>syntactic alignment</topic>
+                        <topic>syntactic priming</topic>
+                        <topic>co-ordination</topic>
+                        <topic>structural priming</topic>
+                        <topic>dialog</topic>
+                        <topic>syntactic persistence</topic>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Empirical Approaches to Linguistic Theory: Studies in Meaning and Structure</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>111</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>29</start>
+                                <end>42</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-1-61451-088-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20470860</identifier>
+                    <identifier type="doi">10.1515/9781614510888.29</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2047086</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2047086">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2047086/2549965/pietsch_buch_kopp_deruiter_2012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2047086" DMDID="DMD2047086">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2047086"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

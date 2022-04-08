@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2705712">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>AKE - The Accelerated k-mer Exploration Web-Tool for Rapid Taxonomic Classification and Visualization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Langenkämper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1857-5040</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: With the advent of low cost, fast sequencing technologies metagenomic analyses are made possible. The large data volumes gathered by these techniques and the unpredictable diversity captured in them are still,
+however, a challenge for computational biology.
+Results: In this paper we address the problem of rapid taxonomic assignment with small and adaptive data models (&lt; 5 MB) and present the accelerated k-mer explorer (AKE). Acceleration in AKE&apos;s taxonomic assignments is achieved
+by a special machine learning architecture, which is well suited to model data collections that are intrinsically hierarchical. We report classification accuracy
+reasonably well for ranks down to order, observed on a study on real world data (Acid Mine Drainage, Cow Rumen).
+Conclusion: We show that the execution time of this approach is orders of magnitude shorter than competitive approaches and that accuracy is comparable.
+The tool is presented to the public as a web application.</abstract>
+                    <subject>
+                        <topic>machine learning</topic>
+                        <topic>classification</topic>
+                        <topic>genomics</topic>
+                        <topic>metagenomics</topic>
+                        <topic>big data</topic>
+                        <topic>H2SOM</topic>
+                        <topic>high performance computing</topic>
+                        <topic>web-based</topic>
+                        <topic>acceleration</topic>
+                        <topic>bioinformatics</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">25495116</identifier>
+                    <identifier type="ISI">000348472000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27057120</identifier>
+                    <identifier type="doi">10.1186/s12859-014-0384-0</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2705712</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2705712">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2705712/2716013/langenkamper.s12859-014-0384-0.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2705712" DMDID="DMD2705712">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2705712"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

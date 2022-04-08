@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2907687</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Run-time reconfigurable, fault-tolerant FPGA systems for space applications</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Dario</namePart>
+  <namePart type="family">Cozzi</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">25328264</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The aim of this thesis is to investigate the use of Dynamic Partial Reconfiguration (DPR) on Commercial Off-the-Shelf (COTS) FPGAs in space applications.&lt;br /&gt;
+Reconfigurable systems gained interest in a wide range of application fields, including aerospace, where electronic devices are exposed to a harsh working environment. COTS SRAM-based FPGA devices represent an interesting hardware platform for this kind of systems since they combine low cost with the possibility to utilize state-of-the-art processing power as well as the flexibility of reconfigurable hardware. FPGA architectures have high computational power and thanks to their ability to be reconfigured at run-time, they became interesting candidates for payload processing in space applications.&lt;br /&gt;
+The presented Dynamic Reconfigurable Processing Module (DRPM) has been developed to investigate the use of the DPR approach for satellite payload processing. This scalable platform combines dynamically reconfigurable FPGAs with the required avionic interfaces (e.g., SpaceWire, MIL-STD-1553B, and SpaceFibre). In particular, a novel communication interface has been developed, the Heterogeneous Multi Processor Communication Interface (HMPCI), which allows inter-process communication with small latency and low memory footprint.&lt;br /&gt;
+Current synthesis tools do not support fully the DPR capabilities of FPGAs. Therefore, this thesis introduces INDRA 2.0: an INtegrated Design flow for Reconfigurable Architectures. The key part of INDRA 2.0 is DHHarMa: a Design flow for Homogeneous Hard Macros, which generates homogeneous hard macros for Xilinx FPGAs starting from a high-level description (e.g., VHDL). In particular, the homogeneous DHHarMa router is explained in detail, providing novel terminologies and algorithms, which have enabled the generation of homogeneous routed designs. Results have been shown that Design flow for Homogeneous Hard Macros (DHHarMa) can route homogeneously a communication infrastructure utilizing just between 1% and 31% more resources than the Xilinx router, which cannot provide a homogeneous solution.&lt;br /&gt;
+Furthermore, the permanent faults that can occur on FPGAs have been investigated. This thesis presents OLT(RE)2: an on-line on-demand approach to testing permanent faults induced by radiation in reconfigurable systems used in space missions. The proposed approach relies on a test circuit and custom placer and router. OLT(RE)2 exploits DPR to place the test circuits at run-time. Its goal is to test unprogrammed areas of the FPGA before using them. Experimental results of OLT(RE)2 have shown that is possible to generate, place, and route the test circuits needed to detect on average more than 99 % of the physical wires and on average about 97 % of the programmable interconnection points of a large arbitrary region of the FPGA in a reasonable time. Moreover, the test can be run on the target device without interfering the functional behavior of the system.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DissDario.pdf">https://pub.uni-bielefeld.de/download/2907687/2907688/DissDario.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29076872</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2016-12-20</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Cozzi, D. (2016): Run-time reconfigurable, fault-tolerant FPGA systems for space applications. Bielefeld: Universität Bielefeld.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cozzi, D. (2016).  &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Cozzi D (2016) &lt;br /&gt;&lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Cozzi, D., 2016. &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>D.  Cozzi, &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<ama>Cozzi D. &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2016.</ama>
+<frontiers>Cozzi, D. (2016). Run-time reconfigurable, fault-tolerant FPGA systems for space applications. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cozzi, D. (2016). &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<apa>Cozzi, D. (2016).  &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> D. Cozzi, &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2016.</ieee>
+<lncs> Cozzi, D.: Run-time reconfigurable, fault-tolerant FPGA systems for space applications. Universität Bielefeld, Bielefeld (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Cozzi, Dario. 2016. &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Cozzi, Dario. &lt;em&gt;Run-time reconfigurable, fault-tolerant FPGA systems for space applications&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2016.</mla>
+<default>Cozzi D (2016) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<aps> D.  Cozzi, Run-time reconfigurable, fault-tolerant FPGA systems for space applications, (Universität Bielefeld, Bielefeld, 2016).</aps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2907687</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-12-23T12:47:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:32Z</recordChangeDate>
+</recordInfo>
+</mods>

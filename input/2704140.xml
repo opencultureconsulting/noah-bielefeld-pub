@@ -1,0 +1,262 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2704140</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Jan</namePart>
+  <namePart type="family">Krause</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper presents a new interface for controlling sonification models. A haptic controller interface is developed which allows both to manipulate a sonification model, e.g. by interacting with it and to provide a haptic data representation. A variety of input types are supported with a hand-sized interface, including shaking, squeezing, hammering, moving, rotating and accelerating. The paper presents details on the interface under development and demonstrates application of the device for controlling a sonification model. For this purpose, the Data-Solid Sonification Model is introduced, which provides an acoustic representation of the local neighborhood relations in high-dimensional datasets for binary classification problems. The model is parameterized by a reduced data representation obtained from a growing neural gas network. Sound examples are given to demonstrate the device and the sonification model.
+
+## Sound Demonstrations for the Audio-Haptic Ball Interface
+
+  * #### Sounds for atomic collisions: 
+    Each model mass is assigned a material according to the data within the neurons voronoi cell. In our situation, binary classification data is used and the object type is either A (or B) if data from class A (or B) dominates the cell.
+    + Collision between a A object with A object: [sound](https://pub.uni-bielefeld.de/download/2704140/2704141) (wood)
+    + Collision between a B object and a B object: [sound](https://pub.uni-bielefeld.de/download/2704140/2704142) (plastic)
+    + Collision between a A object and a B object: [sound](https://pub.uni-bielefeld.de/download/2704140/2704143) (glass)
+  * #### Table 1: Sound examples for synthetic datasets from binary classification problems
+    &lt;table border width="70%" align="center"&gt;
+    &lt;tbody&gt;
+    &lt;tr valign="top"&gt;
+      &lt;td&gt;File/Track:&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;A) two separated classes -- &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704144"&gt;
+          sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;B) two classes showing little overlap along one
+          axis&amp;nbsp; -- &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704145"&gt;
+          sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;C) two classes that overlap - inseparable classes
+          -- &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704146"&gt;
+          sound&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr valign="top"&gt;
+      &lt;td&gt;Description:&lt;/td&gt;
+      &lt;td&gt;The sonification model was excited by shaking the
+      interface device. The shaking activation is given by the
+      acceleration a_x(t), a_y(t) . During the first half of
+      the sound examples, the interface is shaken along the x
+      axis, during the second half along the y axis.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Duration:&lt;/td&gt;
+      &lt;td&gt;about 5 sec.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;/table&gt;
+  * #### Table 2: Sound examples for Data solid sonifications using a GNG for the dataset (B) (see above) for different network complexities.
+    &lt;table border width="70%"  align="center"&gt;
+    &lt;tbody&gt;
+    &lt;tr valign="top"&gt;
+      &lt;td&gt;File/Track:&lt;/td&gt;
+      &lt;td&gt;
+        &lt;ul&gt;
+          &lt;li&gt;A: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704147"&gt;
+          5 neurons sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;B: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704148"&gt;
+          10 neurons sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;C: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704149"&gt;
+          15 neurons sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;D: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704150"&gt;
+          20 neurons sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;E: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704152"&gt;
+          25 neurons sound&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;F: &lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704140/2704151"&gt;
+          30 neurons sound&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description:&lt;/td&gt;
+      &lt;td&gt;Shaking excitation of the dataset with increasing
+      network complexity.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Duration:&lt;/td&gt;
+      &lt;td&gt;about 2 sec / example&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;/table&gt;
+  * Sound Example for shaking while GNG adaptation proceeds, and thus while the data-solid structure changes over time: [sound example](https://pub.uni-bielefeld.de/download/2704140/2704153) . It can be heard that with ongoing GNG growth more and more neurons exist (more collisions). From the pitch it can be perceived that the number of data points that have a neuron as its nearest neighbor decreases - new neurons are added between neurons that are frequently activated.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_20.wav">https://pub.uni-bielefeld.de/download/2704140/2704150/nneurons_20.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_15.wav">https://pub.uni-bielefeld.de/download/2704140/2704149/nneurons_15.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_10.wav">https://pub.uni-bielefeld.de/download/2704140/2704148/nneurons_10.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_5.wav">https://pub.uni-bielefeld.de/download/2704140/2704147/nneurons_5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="overlap0.wav">https://pub.uni-bielefeld.de/download/2704140/2704146/overlap0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inbet0.wav">https://pub.uni-bielefeld.de/download/2704140/2704145/inbet0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="separate0.wav">https://pub.uni-bielefeld.de/download/2704140/2704144/separate0.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="plastic2.wav">https://pub.uni-bielefeld.de/download/2704140/2704142/plastic2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_30.wav">https://pub.uni-bielefeld.de/download/2704140/2704151/nneurons_30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="wood1.wav">https://pub.uni-bielefeld.de/download/2704140/2704141/wood1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="glass1.wav">https://pub.uni-bielefeld.de/download/2704140/2704143/glass1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="nneurons_25.wav">https://pub.uni-bielefeld.de/download/2704140/2704152/nneurons_25.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DataSolidGNGadapt.wav">https://pub.uni-bielefeld.de/download/2704140/2704153/DataSolidGNGadapt.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2002</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2704140</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017351</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ama>Hermann T, Krause J, Ritter H. &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University; 2002.</ama>
+<frontiers>Hermann, T., Krause, J., and Ritter, H. (2002). Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Krause, J. &amp;amp; Ritter, H. (2002). &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2704140.&lt;/div&gt;</dgps>
+<apa>Hermann, T., Krause, J., &amp;amp; Ritter, H. (2002).  &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2704140</apa>
+<ieee> T. Hermann, J. Krause, and H. Ritter, &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;, Bielefeld University, 2002.</ieee>
+<wels>Hermann, T.; Krause, J.; Ritter, H. (2002): Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface". Bielefeld University.</wels>
+<harvard1>Hermann, T., Krause, J., &amp;amp; Ritter, H., 2002. &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Krause, J., &amp;amp; Ritter, H. (2002).  &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2704140&lt;/div&gt;</apa_indent>
+<bio1>Hermann T, Krause J, Ritter H (2002) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<angewandte-chemie>T.  Hermann, J.  Krause, and H.  Ritter, &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2002&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Hermann, T., Krause, J., Ritter, H.: Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface". Bielefeld University (2002).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Krause, Jan, and Ritter, Helge. 2002. &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hermann, Thomas, Krause, Jan, and Ritter, Helge. &lt;em&gt;Supplementary Material for "Real-Time Control of Sonification Models with an Audio-Haptic Interface"&lt;/em&gt;. Bielefeld University, 2002.</mla>
+<default>Hermann T, Krause J, Ritter H (2002) &lt;br /&gt;Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2704140</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-13T12:00:13Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:27Z</recordChangeDate>
+</recordInfo>
+</mods>

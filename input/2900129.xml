@@ -1,0 +1,131 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2900129</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Guillaume</namePart>
+  <namePart type="family">Holley</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">42765115</identifier></name>
+<name type="personal">
+  <namePart type="given">Roland</namePart>
+  <namePart type="family">Wittler</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">3721521</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-2249-9880</description></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Stoye</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">65864</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4656-7155</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+High throughput sequencing technologies have become fast and cheap in the past years. As a result, large-scale projects started to sequence tens to several thousands of genomes per species, producing a high number of sequences sampled from each genome. Such a highly redundant collection of very similar sequences is called a pan-genome. It can be transformed into a set of sequences “colored” by the genomes to which they belong. A colored de Bruijn graph (C-DBG) extracts from the sequences all colored k-mers, strings of length k, and stores them in vertices.
+Results
+
+In this paper, we present an alignment-free, reference-free and incremental data structure for storing a pan-genome as a C-DBG: the bloom filter trie (BFT). The data structure allows to store and compress a set of colored k-mers, and also to efficiently traverse the graph. Bloom filter trie was used to index and query different pangenome datasets. Compared to another state-of-the-art data structure, BFT was up to two times faster to build while using about the same amount of main memory. For querying k-mers, BFT was about 52–66 times faster while using about 5.5–14.3 times less memory.
+Conclusion
+
+We present a novel succinct data structure called the Bloom Filter Trie for indexing a pan-genome as a colored de Bruijn graph. The trie stores k-mers and their colors based on a new representation of vertices that compress and index shared substrings. Vertices use basic data structures for lightweight substrings storage as well as Bloom filters for efficient trie and graph traversals. Experimental results prove better performance compared to another state-of-the-art data structure.
+
+
+Availability
+https://​www.​github.​com/​GuillaumeHolley/​BloomFilterTrie.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="holley.13015-016-0066-8.pdf">https://pub.uni-bielefeld.de/download/2900129/2902695/holley.13015-016-0066-8.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>BioMedCentral</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Pan-genome Similar genomes Population genomics Colored de bruijn graph Bloom filter Compression Trie Index Succinct data structure</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Algorithms for Molecular Biology</title></titleInfo>
+  <identifier type="issn">1748-7188</identifier>
+  <identifier type="eIssn">1748-7188</identifier>
+  <identifier type="MEDLINE">27087830</identifier>
+  <identifier type="ISI">000374519100001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29001293</identifier><identifier type="doi">10.1186/s13015-016-0066-8</identifier>
+<part><detail type="volume"><number>11</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Holley, G., Wittler, R., Stoye, J.: Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. Algorithms for Molecular Biology. 11, : 3 (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, Guillaume, Wittler, Roland, and Stoye, Jens. 2016. “Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage”. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 11 (1): 3.&lt;/div&gt;</chicago>
+<mla>Holley, Guillaume, Wittler, Roland, and Stoye, Jens. “Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage”. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 11.1 (2016): 3.</mla>
+<default>Holley G, Wittler R, Stoye J (2016) &lt;br /&gt;&lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 11(1): 3.</default>
+<ama>Holley G, Wittler R, Stoye J. Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;. 2016;11(1): 3.</ama>
+<frontiers>Holley, G., Wittler, R., and Stoye, J. (2016). Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt; 11:3.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, G., Wittler, R. &amp;amp; Stoye, J. (2016). Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1): 3. BioMedCentral. doi:10.1186/s13015-016-0066-8.&lt;/div&gt;</dgps>
+<apa>Holley, G., Wittler, R., &amp;amp; Stoye, J. (2016). Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1), 3. doi:10.1186/s13015-016-0066-8</apa>
+<ieee> G. Holley, R. Wittler, and J. Stoye, “Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage”, &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;,  vol. 11, 2016, : 3.</ieee>
+<wels>Holley, G.; Wittler, R.; Stoye, J. (2016): Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;,11:(1):3</wels>
+<bio1>Holley G, Wittler R, Stoye J (2016) &lt;br /&gt;Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage.&lt;br /&gt;Algorithms for Molecular Biology 11(1): 3.</bio1>
+<harvard1>Holley, G., Wittler, R., &amp;amp; Stoye, J., 2016. Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, 11(1): 3.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Holley, G., Wittler, R., &amp;amp; Stoye, J. (2016). Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage. &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1), 3. doi:10.1186/s13015-016-0066-8&lt;/div&gt;</apa_indent>
+<angewandte-chemie>G.  Holley, R.  Wittler, and J.  Stoye, “Bloom Filter Trie: an alignment-free and reference-free data structure for pan-genome storage”, &lt;em&gt;Algorithms for Molecular Biology&lt;/em&gt;, &lt;strong&gt;2016&lt;/strong&gt;, &lt;em&gt;11&lt;/em&gt;, : 3.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2900129</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-12-18T14:19:09Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:45:56Z</recordChangeDate>
+</recordInfo>
+</mods>

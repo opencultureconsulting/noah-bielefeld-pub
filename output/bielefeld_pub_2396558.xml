@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2396558">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the weight of indels in genomic distances</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marília</namePart>
+                        <namePart type="family">Dias Vieira Braga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Raphael</namePart>
+                        <namePart type="family">Machado</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leonardo C.</namePart>
+                        <namePart type="family">Ribeiro</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background:
+
+Classical approaches to compute the genomic distance are usually limited to genomes with the same content, without duplicated markers. However, differences in the gene content are frequently observed and can reflect important evolutionary aspects. A few polynomial time algorithms that include genome rearrangements, insertions and deletions (or substitutions) were already proposed. These methods often allow a block of contiguous markers to be inserted, deleted or substituted at once but result in distance functions that do not respect the triangular inequality and hence do not constitute metrics.
+Results:
+
+In the present study we discuss the disruption of the triangular inequality in some of the available methods and give a framework to establish an efficient correction for two models recently proposed, one that includes insertions, deletions and double cut and join (DCJ) operations, and one that includes substitutions and DCJ operations.
+Conclusions:
+
+We show that the proposed framework establishes the triangular inequality in both distances, by summing a surcharge on indel operations and on substitutions that depends only on the number of markers affected by these operations. This correction can be applied a posteriori, without interfering with the already available formulas to compute these distances. We claim that this correction leads to distances that are biologically more plausible.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 9: RECOMB-CG 2011</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">22151784</identifier>
+                    <identifier type="ISI">000303933100013</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-23965589</identifier>
+                    <identifier type="doi">10.1186/1471-2105-12-S9-S13</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2396558</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2396558">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2396558/2467273/1471-2105-12-S9-S8.stoye.2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2396558" DMDID="DMD2396558">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2396558"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2905878">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Transcriptomic SNP discovery for custom genotyping arrays: impacts of sequence data, SNP calling method and genotyping technology on the probability of validation success</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Emily</namePart>
+                        <namePart type="family">Humble</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6841-1269</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael A. S.</namePart>
+                        <namePart type="family">Thorne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jaume</namePart>
+                        <namePart type="family">Forcada</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joseph</namePart>
+                        <namePart type="family">Hoffman</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5895-8949</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Single nucleotide polymorphism (SNP) discovery is an important goal of many studies. However, the number of ‘putative’ SNPs discovered from a sequence resource may not provide a reliable indication of the number that will successfully validate with a given genotyping technology. For this it may be necessary to account for factors such as the method used for SNP discovery and the type of sequence data from which it originates, suitability of the SNP flanking sequences for probe design, and genomic context. To explore the relative importance of these and other factors, we used Illumina sequencing to augment an existing Roche 454 transcriptome assembly for the Antarctic fur seal (Arctocephalus gazella). We then mapped the raw Illumina reads to the new hybrid transcriptome using BWA and BOWTIE2 before calling SNPs with GATK. The resulting markers were pooled with two existing sets of SNPs called from the original 454 assembly using NEWBLER and SWAP454. Finally, we explored the extent to which SNPs discovered using these four methods overlapped and predicted the corresponding validation outcomes for both Illumina Infinium iSelect HD and Affymetrix Axiom arrays.
+Results
+
+Collating markers across all discovery methods resulted in a global list of 34,718 SNPs. However, concordance between the methods was surprisingly poor, with only 51.0 % of SNPs being discovered by more than one method and 13.5 % being called from both the 454 and Illumina datasets. Using a predictive modeling approach, we could also show that SNPs called from the Illumina data were on average more likely to successfully validate, as were SNPs called by more than one method. Above and beyond this pattern, predicted validation outcomes were also consistently better for Affymetrix Axiom arrays.
+Conclusions
+
+Our results suggest that focusing on SNPs called by more than one method could potentially improve validation outcomes. They also highlight possible differences between alternative genotyping technologies that could be explored in future studies of non-model organisms.</abstract>
+                    <subject>
+                        <topic>Transcriptome Roche 454 sequencing Illumina HiSeq sequencing Single nucleotide polymorphism Validation success Marine mammal Antarctic fur seal Arctocephalus gazella</topic>
+                    </subject>
+                    <classification authority="ddc">590</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Research Notes</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1756-0500</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29058785</identifier>
+                    <identifier type="doi">10.1186/s13104-016-2209-x</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2905878</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2905878">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905878/2905879/bmcgen.art%253A10.1186%252Fs13104-016-2209-x.humble.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2905878" DMDID="DMD2905878">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2905878"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

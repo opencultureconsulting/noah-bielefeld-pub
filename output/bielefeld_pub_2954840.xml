@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2954840">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ilja</namePart>
+                        <namePart type="family">Arent</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Florian Paul</namePart>
+                        <namePart type="family">Schmidt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5126-723X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9954-120X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Dürr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9239-4964</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Motion capture of unrestrained moving animals is a major analytic tool in neuroethology and behavioral physiology. At present, several motion capture methodologies have been developed, all of which have particular limitations regarding experimental application. Whereas marker-based motion capture systems are very robust and easily adjusted to suit different setups, tracked species, or body parts, they cannot be applied in experimental situations where markers obstruct the natural behavior (e.g., when tracking delicate, elastic, and/or sensitive body structures). On the other hand, marker-less motion capture systems typically require setup- and animal-specific adjustments, for example by means of tailored image processing, decision heuristics, and/or machine learning of specific sample data. Among the latter, deep-learning approaches have become very popular because of their applicability to virtually any sample of video data. Nevertheless, concise evaluation of their training requirements has rarely been done, particularly with regard to the transfer of trained networks from one application to another. To address this issue, the present study uses insect locomotion as a showcase example for systematic evaluation of variation and augmentation of the training data. For that, we use artificially generated video sequences with known combinations of observed, real animal postures and randomized body position, orientation, and size. Moreover, we evaluate the generalization ability of networks that have been pre-trained on synthetic videos to video recordings of real walking insects, and estimate the benefit in terms of reduced requirement for manual annotation. We show that tracking performance is affected only little by scaling factors ranging from 0.5 to 1.5. As expected from convolutional networks, the translation of the animal has no effect. On the other hand, we show that sufficient variation of rotation in the training data is essential for performance, and make concise suggestions about how much variation is required. Our results on transfer from synthetic to real videos show that pre-training reduces the amount of necessary manual annotation by about 50%. Copyright © 2021 Arent, Schmidt, Botsch and Durr.</abstract>
+                    <subject>
+                        <topic>insect locomotion</topic>
+                        <topic>machine learning</topic>
+                        <topic>behavioral analysis</topic>
+                        <topic>marker-less motion capture</topic>
+                        <topic>deep neural network</topic>
+                        <topic>motion tracking</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in behavioral neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1662-5153</identifier>
+                    <identifier type="MEDLINE">33967713</identifier>
+                    <identifier type="ISI">000647442300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29548400</identifier>
+                    <identifier type="doi">10.3389/fnbeh.2021.637806</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2954840</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2954840">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2954840/2955031/fnbeh-15-637806.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2954840" DMDID="DMD2954840">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2954840"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

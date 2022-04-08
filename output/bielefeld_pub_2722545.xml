@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2722545">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Network design and imperfect defense</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jakob</namePart>
+                        <namePart type="family">Landwehr</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The question how to optimally design an infrastructure network that may be subject to intelligent threats is of highest interest. We address this problem by considering a Designer-Adversary game of optimal network design for the case of imperfect node defense. In this two-stage game, first the Designer defends network connectivity
+by forming costly links and additionally protecting nodes. Then, the Adversary attacks a fixed number of nodes, aiming to disconnect the network. In contrast to the existing literature, defense is imperfect in the sense that defended nodes can still be destroyed with some fixed probability.
+We completely characterize the solution of the game for attack budgets of one and two nodes, while for larger budget we present a partial characterization of the solution. To do so, we determine the minimum number of links necessary to construct a network with any degree of connectivity and any given number of essential nodes.</abstract>
+                    <subject>
+                        <topic>Network Defense</topic>
+                        <topic>Designer-Adversary Games</topic>
+                        <topic>Network Design</topic>
+                        <topic>NodeDestruction</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>537</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27225457</identifier>
+                    <identifier type="sys">HT019027196</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2722545</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2722545">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2722545/2722546/IMW_working_paper_537.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2722545" DMDID="DMD2722545">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2722545"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

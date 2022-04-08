@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1599756">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>IsoSVM - Distinguishing isoforms and paralogs on the protein level</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">M</namePart>
+                        <namePart type="family">Spitzer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">S</namePart>
+                        <namePart type="family">Lorkowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">P</namePart>
+                        <namePart type="family">Cullen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4405-3847</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Georg</namePart>
+                        <namePart type="family">Fuellen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Recent progress in cDNA and EST sequencing is yielding a deluge of sequence data. Like database search results and proteome databases, this data gives rise to inferred protein sequences without ready access to the underlying genomic data. Analysis of this information ( e. g. for EST clustering or phylogenetic reconstruction from proteome data) is hampered because it is not known if two protein sequences are isoforms ( splice variants) or not (i.e. paralogs/orthologs). However, even without knowing the intron/exon structure, visual analysis of the pattern of similarity across the alignment of the two protein sequences is usually helpful since paralogs and orthologs feature substitutions with respect to each other, as opposed to isoforms, which do not. Results: The IsoSVM tool introduces an automated approach to identifying isoforms on the protein level using a support vector machine (SVM) classifier. Based on three specific features used as input of the SVM classifier, it is possible to automatically identify isoforms with little effort and with an accuracy of more than 97%. We show that the SVM is superior to a radial basis function network and to a linear classifier. As an example application we use IsoSVM to estimate that a set of Xenopus laevis EST clusters consists of approximately 81% cases where sequences are each other&apos;s paralogs and 19% cases where sequences are each other&apos;s isoforms. The number of isoforms and paralogs in this allotetraploid species is of interest in the study of evolution. Conclusion: We developed an SVM classifier that can be used to distinguish isoforms from paralogs with high accuracy and without access to the genomic data. It can be used to analyze, for example, EST data and database search results. Our software is freely available on the Web, under the name IsoSVM.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>110</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">16519805</identifier>
+                    <identifier type="ISI">000236547700001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-15997564</identifier>
+                    <identifier type="doi">10.1186/1471-2105-7-110</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1599756</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1599756">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1599756/2311116/1471_2105_7_110.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1599756" DMDID="DMD1599756">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1599756"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

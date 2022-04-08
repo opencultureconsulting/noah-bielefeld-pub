@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2906347">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ISSN-Matching of Gold OA Journals (ISSN-GOLD-OA)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Wohlgemuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christine</namePart>
+                        <namePart type="family">Rimmert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Winterhager</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0331-2539</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">ISSN-GOLD-OA provides a matching list of ISSN for Gold Open Access (OA) journals. The intention was to compile a matching table as complete as possible by using different publicly available sources. The dataset can help to clear various ISSN-related issues in bibliometric studies on Gold OA.     
+New release (2017): [https://pub.uni-bielefeld.de/data/2913654](https://pub.uni-bielefeld.de/data/2913654).</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="doi">10.4119/unibi/2906347</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/odbl/summary/index.html">ODbL</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2906347</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2906347">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2906347/2906350/ISSN-GOLD-OA_Documentation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/csv" ID="FILE1_bielefeld_pub_2906347">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2906347/2906349/ISSN-GOLD-OA_Dataset.csv" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2906347" DMDID="DMD2906347">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2906347"/>
+            <mets:div TYPE="part" ID="PART1_2906347" LABEL="ISSN-GOLD-OA_Dataset.csv">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2906347"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

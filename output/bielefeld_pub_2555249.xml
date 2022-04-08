@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2555249">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bedingungen wissenschaftlicher Innovation unter der Vorherrschaft von Anwendungsinteressen: Freiheit und Komplexität</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Torsten</namePart>
+                        <namePart type="family">Wilholt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Abel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="isbn">3-7873-1789-9</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25552498</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2555249</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2555249">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555249/2916102/Bedingungen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2555249">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555249/2916103/innovation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2555249" DMDID="DMD2555249">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2555249"/>
+            <mets:div TYPE="part" ID="PART1_2555249" LABEL="innovation.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2555249"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

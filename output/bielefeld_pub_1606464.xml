@@ -1,0 +1,117 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1606464">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive Computer Vision: Online Learning for Object Recognition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Bekel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ingo</namePart>
+                        <namePart type="family">Bax</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gunther</namePart>
+                        <namePart type="family">Heidemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Carl Edward</namePart>
+                        <namePart type="family">Rasmussen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heinrich H.</namePart>
+                        <namePart type="family">Bülthoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin A.</namePart>
+                        <namePart type="family">Giese</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Schölkopf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The &quot;life&quot; of most neural vision systems splits into a one-time training phase and an application phase during which knowledge is no longer acquired. This is both technically inflexible and cognitively unsatisfying. Here we propose an appearance based vision system for object recognition which can be adapted online, both to acquire visual knowledge about new objects and to correct erroneous classification. The system works in an office scenario, acquisition of object knowledge is triggered by hand gestures. The neural classifier offers two ways of training: Firstly, the new samples can be added immediately to the classifier to obtain a running system at once, though at the cost of reduced classification performance. Secondly, a parallel processing branch adapts the classification system thoroughly to the enlarged image domain and loads the new classifier to the running system when ready.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Pattern Recognition. Proceedings</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3175</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>447</start>
+                                <end>454</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-540-22945-0</identifier>
+                    <identifier type="ISI">000223798300055</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16064643</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1606464</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1606464">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1606464/2719839/bekel_bax_heidemann_ritter_DAGM04.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1606464" DMDID="DMD1606464">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1606464"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

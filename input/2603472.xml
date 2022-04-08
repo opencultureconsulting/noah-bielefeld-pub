@@ -1,0 +1,120 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2603472</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:600</setSpec><setSpec>ddc:006</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Inter-Event Dependencies support Event Extraction from Biomedical Literature</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Roman</namePart>
+  <namePart type="family">Klinger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">37260489</identifier></name>
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Riedel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Andrew</namePart>
+  <namePart type="family">McCallum</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The description of events in biomedical literature often follows discourse
+patterns. For example, authors may firstly mention the transcription of a
+gene, and then go on to describe how this transcription is regulated by another
+gene. Capturing such patterns can be beneficial when we want to extract event
+mentions from literature. For instance, detecting the mention of a transcription of
+gene A gives us a hint to actively look for mentions of regulations involving A.
+With this hint we could find such mentions even if they follow unseen lexical or
+syntactic patterns. To exploit such hints we need to perform event extraction in a
+cross sentence manner.
+It is shown that imperatively defined factor graphs (IDF) are an intuitive way to
+build Markov Networks that model inter-dependencies between mentions of events
+within sentences, and across sentence-boundaries. Small pieces of procedural code
+define the graph structure, feature functions and hooks for efficient inference.
+Empirically, this leads to an efficient cross-sentence event extractor with very
+competitive results on the BioNLP shared task. One of our inter-event features
+shows an impact of 1:94 points in F1 for the class of regulation events.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="klinger11interevent.pdf">https://pub.uni-bielefeld.de/download/2603472/2624536/klinger11interevent.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-26034724</identifier>
+<part>
+</part>
+</relatedItem>
+
+<note type="extern">yes</note>
+<extension>
+<bibliographicCitation>
+<frontiers>Klinger, R., Riedel, S., and McCallum, A. (2011). “Inter-Event Dependencies support Event Extraction from Biomedical Literature” in &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klinger, R., Riedel, S. &amp;amp; McCallum, A. (2011). Inter-Event Dependencies support Event Extraction from Biomedical Literature. &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;.&lt;/div&gt;</dgps>
+<ama>Klinger R, Riedel S, McCallum A. Inter-Event Dependencies support Event Extraction from Biomedical Literature. In:  &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;. 2011.</ama>
+<ieee> R. Klinger, S. Riedel, and A. McCallum, “Inter-Event Dependencies support Event Extraction from Biomedical Literature”, &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;, 2011.</ieee>
+<apa>Klinger, R., Riedel, S., &amp;amp; McCallum, A. (2011). Inter-Event Dependencies support Event Extraction from Biomedical Literature. &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;</apa>
+<wels>Klinger, R.; Riedel, S.; McCallum, A. (2011): Inter-Event Dependencies support Event Extraction from Biomedical Literature. In: Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD).</wels>
+<angewandte-chemie>R.  Klinger, S.  Riedel, and A.  McCallum, in &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;, &lt;strong&gt;2011&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Klinger R, Riedel S, McCallum A (2011) &lt;br /&gt;Inter-Event Dependencies support Event Extraction from Biomedical Literature. &lt;br /&gt;In:  Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD). .</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klinger, R., Riedel, S., &amp;amp; McCallum, A. (2011). Inter-Event Dependencies support Event Extraction from Biomedical Literature. &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Klinger, R., Riedel, S., &amp;amp; McCallum, A., 2011. Inter-Event Dependencies support Event Extraction from Biomedical Literature. In &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;.</harvard1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klinger, Roman, Riedel, Sebastian, and McCallum, Andrew. 2011. “Inter-Event Dependencies support Event Extraction from Biomedical Literature”. In &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;.&lt;/div&gt;</chicago>
+<lncs> Klinger, R., Riedel, S., McCallum, A.: Inter-Event Dependencies support Event Extraction from Biomedical Literature. Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD).  (2011).</lncs>
+<default>Klinger R, Riedel S, McCallum A (2011)  &lt;br /&gt;In:  Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD).</default>
+<mla>Klinger, Roman, Riedel, Sebastian, and McCallum, Andrew. “Inter-Event Dependencies support Event Extraction from Biomedical Literature”. &lt;em&gt;Mining Complex Entities from Network and Biomedical Data (MIND), European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)&lt;/em&gt;. 2011.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2603472</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-06-14T11:24:45Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:01Z</recordChangeDate>
+</recordInfo>
+</mods>

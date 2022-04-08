@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1780986">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>RELSPEZ - eine relationale Problemspezifikation - Konzept und Erfahrungsbericht</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Spitta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Antonio</namePart>
+                        <namePart type="family">Schnieder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Goos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1981</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Method, tool and experiences of the requirement specification method RELSPEZ are presented. RELSPEZ is based on a relational data model and expresses input and output of every atomic processing of an application function on parts of the data model. Processing is described in a semi-formal manner. The method RELSPEZ was developed in an industrial software project and also applied there. The tool for running it is PET/X 116o. After a pilot application of RELSPEZ – and other specification methods – was recommended only to be used for incomplete specifications of user-relevant requirements. The reasons for such a revised use of the method are discussed.</abstract>
+                    <subject>
+                        <topic>Software Engineering</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">3-540-10725-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17809860</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1780986</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1780986">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1780986/2313126/Spitta_011.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1780986" DMDID="DMD1780986">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1780986"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

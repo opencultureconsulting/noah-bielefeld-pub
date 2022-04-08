@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1944648">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal Stopping under Ambiguity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Riedel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4291-6610</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider optimal stopping problems for ambiguity averse decision makers with multiple priors. In general, backward induction fails. If, however, the class of priors is time-consistent, we establish a generalization of the classical theory of optimal stopping. To this end, we develop first steps of a martingale theory for multiple priors. We define minimax (super)martingales, provide a Doob-Meyer decomposition, and characterize minimax martingales. This allows us to extend the standard backward induction procedure to ambiguous, time-consistent preferences. The value function is the smallest process that is a minimax supermartingale and dominates the payoff process. It is optimal to stop when the current payoff is equal to the value function. Moving on, we study the infinite horizon case. We show that the value process satisfies the same backward recursion (Bellman equation) as in the finite horizon case. The finite horizon solutions converge to the infinite horizon solution. Finally, we characterize completely the set of time-consistent multiple priors in the binomial tree. We solve two classes of examples: the so-called independent and indistinguishable case (the parking problem) and the case of American Options (Cox-Ross-Rubinstein model).</abstract>
+                    <subject>
+                        <topic>Optimal stopping</topic>
+                        <topic>Uncertainty aversion</topic>
+                        <topic>Ambiguity</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>390</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10784</identifier>
+                    <identifier type="sys">HT016362346</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1944648</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1944648">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1944648/2319760/390.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1944648" DMDID="DMD1944648">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1944648"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

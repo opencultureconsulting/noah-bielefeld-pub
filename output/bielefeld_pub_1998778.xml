@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1998778">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interaktives Motion-Capturing zur Echtzeitanimation virtueller Agenten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bernhard-Andreas</namePart>
+                        <namePart type="family">Brüning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc Erich</namePart>
+                        <namePart type="family">Latoschik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Schumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Torsten</namePart>
+                        <namePart type="family">Kuhlen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Motion Capturing (MoCap) ermöglicht realistische Bewegungen virtueller Agenten. Hier wird ein System für die optische Bewegungserfassung und GPU-beschleunigte Bewegungssynthese vorgestellt. Das Verfahren berücksichtigt Clusterumgebungen heutiger VR Systeme. Mittels eines optischen Trackingsystems werden die Bewegungen eines Benutzers in einer immersiven virtuellen Umgebung auf Basis der Positions- und Ausrichtungsdaten einiger Marker an signifikanten Körperpunkten erfasst. Die Übertragung auf einen virtuellen Agenten erfolgt interaktiv und unterstützt die Anpassung unterschiedlicher Skelettproportionen. Signifikante Teile der benötigten kinematischen Berechnungen auf Basis einer Denavit- Hartenberg-Repräsentation sowie die für die Animation des Agenten notwendigen Meshdeformationen werden dabei in Echtzeit über eine GPU-basierte (GPU-Graphical Processing Unit) Implementierung der Algorithmen realisiert.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19987782</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1998778</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1998778">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1998778/2516972/VRAR08_Reviewed_Final6.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1998778" DMDID="DMD1998778">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1998778"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

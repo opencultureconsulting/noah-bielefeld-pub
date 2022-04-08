@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2906927</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Boris</namePart>
+  <namePart type="family">Hübener</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">24482378</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Peter</namePart>
+  
+  
+  <namePart type="family">Schulz</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Die Leistungsfähigkeit eingebetteter Prozessoren gewinnt in der mobilen Signalverarbeitung aufgrund der stetig steigenden Anforderungen aktueller Multimediaanwendungen immer mehr an Bedeutung. Da mobile Systeme in den meisten Fällen batteriebetrieben sind, steht zur Ausführung dieser Anwendungen jedoch nur ein stark begrenztes Energiebudget zu Verfügung. Aus diesem Grund muss die Energieeffizienz, die sowohl von der Rechenleistung als auch von der Leistungsaufnahme eines Systems abhängt, so hoch wie möglich sein. &lt;br /&gt;&lt;br /&gt;
+
+Um diesen Anforderungen gerecht zu werden, verfolgt die Arbeitsgruppe Kognitronik und Sensorik einen CPU-gestützten Ansatz auf Basis des 32-Bit VLIW-Prozessors CoreVA. Der CoreVA-Prozessor kann zur Entwurfszeit durch eine variable Anzahl parallel angeordneter Verarbeitungs- und Funktionseinheiten erweitert werden. Da sich durch das Hinzufügen der Verarbeitungseinheiten jedoch nicht nur die Rechenleistung des Prozessors sondern auch seine Ressourcenanforderungen erhöhen, müssen umfangreiche Entwurfsraumexplorationen durchgeführt werden, um diese Wechselwirkungen bewerten zu können. Dies ist angesichts der vielschichtigen Konfigurierbarkeit des CoreVA-Prozessors jedoch äußerst zeitaufwändig.&lt;br /&gt;&lt;br /&gt;
+
+Vor diesem Hintergrund wurden in dieser Arbeit verschiedene Verfahren einer modellbasierten Entwurfsraumexploration entwickelt. Die Charakterisierung der Zielanwendungen erfolgt hierbei entweder auf Basis einzelner Simulationsdurchgänge des CoreVA-Instruktionssatzsimulators oder durch statische Programmcodeanalysen. Die Ermittlung der Ressourcenanforderungen geschieht mit Hilfe eines Hardwaremodells, das aus wenigen Probesynthesen gewonnen werden kann. Die Energie, die die jeweiligen Prozessorkonfigurationen zur Ausführung der Zielanwendungen benötigen, wird schließlich durch eine Kombination dieser Modelle bestimmt. Hierbei ergibt sich ein durchschnittlicher Approximationsfehler von etwa -5%. &lt;br /&gt;&lt;br /&gt;
+
+Aufgrund dieses geringen Fehlers können die modellbasierten Verfahren die Entwurfsraumexploration des CoreVA-Prozessors maßgeblich beschleunigen. Für einen Prozessor mit bis zu vier Verarbeitungseinheiten lässt sich die Anzahl der genauer zu untersuchenden Prozessorkonfigurationen von 352 auf weniger als zehn Konfigurationen reduzieren. Bei einem Großteil der vorgestellten Anwendungen kann die modellbasierte Entwurfsraumexploration die energieeffizientesten Konfigurationen sogar direkt detektieren.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Boris_Huebener.pdf">https://pub.uni-bielefeld.de/download/2906927/2906928/Dissertation_Boris_Huebener.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-29069275</identifier>
+<part><extent unit="pages">190</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2016-11-21</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Hübener, Boris. &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2016.</mla>
+<aps> B.  Hübener, Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors, (Universität Bielefeld, Bielefeld, 2016).</aps>
+<default>Hübener B (2016) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<lncs> Hübener, B.: Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors. Universität Bielefeld, Bielefeld (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hübener, Boris. 2016. &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<bio1>Hübener B (2016) &lt;br /&gt;&lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Hübener, B., 2016. &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hübener, B. (2016).  &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>B.  Hübener, &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<wels>Hübener, B. (2016): Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors. Bielefeld: Universität Bielefeld.</wels>
+<apa>Hübener, B. (2016).  &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> B. Hübener, &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2016.</ieee>
+<ama>Hübener B. &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2016.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hübener, B. (2016). &lt;em&gt;Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Hübener, B. (2016). Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors. Bielefeld: Universität Bielefeld.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2906927</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-11-24T14:04:09Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:29Z</recordChangeDate>
+</recordInfo>
+</mods>

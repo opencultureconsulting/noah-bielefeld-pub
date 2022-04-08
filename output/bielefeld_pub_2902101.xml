@@ -1,0 +1,107 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902101">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Selecting security control portfolios: A multi-objective simulation-optimization approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Elmar</namePart>
+                        <namePart type="family">Kiesling</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Ekelhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Grill</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christine</namePart>
+                        <namePart type="family">Strauss</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Stummer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5495-5740</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Organizations’ information infrastructures are exposed to a large variety of threats. The most complex of these threats unfold in stages, as actors exploit multiple attack vectors in a sequence of calculated steps. Deciding how to respond to such serious threats poses a challenge that is of substantial practical relevance to IT security managers. These critical decisions require an understanding of the threat actors—including their various motivations, resources, capabilities, and points of access—as well as detailed knowledge about the complex interplay of attack vectors at their disposal. In practice, however, security decisions are often made in response to acute short-term requirements, which results in inefficient resource allocations and ineffective overall threat mitigation. The decision support methodology introduced in this paper addresses this issue. By anchoring IT security managers’ decisions in an operational model of the organization’s information infrastructure, we provide the means to develop a better understanding of security problems, improve situational awareness, and bridge the gap between strategic security investment and operational implementation decisions. To this end, we combine conceptual modeling of security knowledge with a simulation-based optimization that hardens a modeled infrastructure against simulated attacks, and provide a decision support component for selecting from efficient combinations of security controls. We describe the prototypical implementation of this approach, demonstrate how it can be applied, and discuss the results of an in-depth expert evaluation.</abstract>
+                    <subject>
+                        <topic>IT security analysis</topic>
+                        <topic>multi-objective portfolio selection</topic>
+                        <topic>interactive decision support</topic>
+                        <topic>simulation</topic>
+                        <topic>genetic algorithm</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>EURO Journal on Decision Processes</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1-2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>85</start>
+                                <end>117</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2193-9438</identifier>
+                    <identifier type="eIssn">2193-9446</identifier>
+                    <identifier type="ISI">000446934600006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29021018</identifier>
+                    <identifier type="doi">10.1007/s40070-016-0055-7</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902101</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902101">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902101/2954369/Preprint_KieslingEtAl+%282016%29_EJDP_4%281-2%29_85-117.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902101" DMDID="DMD2902101">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902101"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

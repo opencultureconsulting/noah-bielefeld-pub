@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302713">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Robust speech recognition using articulatory information</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Katrin</namePart>
+                        <namePart type="family">Kirchhoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1999</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">1999-08-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Current automatic speech recognition systems make use of a single source of information about their input, viz. a preprocessed form of the acoustic speech signal, which encodes the time-frequency distribution of signal energy. The goal of this thesis is to investigate the benefits of integrating articulatory information into state-of-the art speech recognizers, either as a genuine alternative to standard acoustic representations, or as an additional source of information. Articulatory information is represented in terms of abstract articulatory classes or &quot;features&quot;, which are extracted from the speech signal by means of statistical classifiers. A higher-level classifier then combines the scores for these features and maps them to standard subword unit probabilities.
+The main motivation for this approach is to improve the robustness of speech recognition systems in adverse acoustic environments, such as background noise. Typically, recognition systems show a sharp decline of performance under these conditions. We argue and demonstrate empirically that the articulatory feature approach can lead to greater robustness by enhancing the accuracy of the bottom-up acoustic modeling component in a speech recognition system.
+The second focus point of this thesis is to provide detailed analyses of the different types of information provided by the acoustic and the articulatory representations, respectively, and to develop strategies to optimally combine them. To this effect we investigate combination methods at the levels of feature extraction, subword unit probability estimation, and word recognition.
+The feasibility of this approach is demonstrated with respect to two different speech recognition tasks. The first of these is an American English corpus of telephone-bandwidth speech; the recognition domain is continuous numbers. The second is a German database of studio-quality speech consisting of spontaneous dialogues. In both cases recognition performance will be tested not only under clean acoustic conditions but also under deteriorated conditions.</abstract>
+                    <subject>
+                        <topic>Automatische Spracherkennung , Robustheit , Artikulation , Akustisches Signal , Automatische Klassifikation ,  , Speech recognition , Articulation , Pattern recognition</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1843</identifier>
+                    <identifier type="sys">HT014240236</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302713</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302713">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302713/2302716/0012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302713" DMDID="DMD2302713">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302713"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

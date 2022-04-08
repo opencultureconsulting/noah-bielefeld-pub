@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2941879">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Relaxed Kaanov iteration for the p-poisson problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Diening</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0523-3079</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">M.</namePart>
+                        <namePart type="family">Fornasier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">R.</namePart>
+                        <namePart type="family">Tomasi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">M.</namePart>
+                        <namePart type="family">Wank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this paper we introduce and analyze an iteratively re-weighted algorithm, that allows to approximate the weak solution of the p-Poisson problem for 1&lt;p2 by iteratively solving a sequence of linear elliptic problems. The algorithm can be interpreted as a relaxed Kaanov iteration, as so-called in the specific literature of the numerical solution of quasi-linear equations. The main contribution of the paper is proving that the algorithm converges at least with an algebraic rate.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Numerische Mathematik</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>145</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1</start>
+                                <end>34</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0029-599X</identifier>
+                    <identifier type="eIssn">0945-3245</identifier>
+                    <identifier type="ISI">000515969900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29418793</identifier>
+                    <identifier type="doi">10.1007/s00211-020-01107-1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2941879</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2941879">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2941879/2944425/Diening2020_Article_ARelaxedKa%C4%8DanovIterationForThe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2941879" DMDID="DMD2941879">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2941879"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

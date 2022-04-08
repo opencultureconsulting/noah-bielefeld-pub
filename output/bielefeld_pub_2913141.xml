@@ -1,0 +1,129 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913141">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>AMUSE: Multilingual Semantic Parsing for Question Answering over Linked Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sherzod</namePart>
+                        <namePart type="family">Hakimov</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7421-6213</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Soufian</namePart>
+                        <namePart type="family">Jebbara</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4483-0933</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Claudia</namePart>
+                        <namePart type="family">d&apos;Amato</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Miriam</namePart>
+                        <namePart type="family">Fernandez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Valentina</namePart>
+                        <namePart type="family">Tamma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The task of answering natural language questions over RDF data has
+received wIde interest in recent years, in particular in the context of the series
+of QALD benchmarks. The task consists of mapping a natural language question
+to an executable form, e.g. SPARQL, so that answers from a given KB can
+be extracted. So far, most systems proposed are i) monolingual and ii) rely on
+a set of hard-coded rules to interpret questions and map them into a SPARQL
+query. We present the first multilingual QALD pipeline that induces a model
+from training data for mapping a natural language question into logical form as
+probabilistic inference. In particular, our approach learns to map universal syntactic
+dependency representations to a language-independent logical form based
+on DUDES (Dependency-based Underspecified Discourse Representation Structures)
+that are then mapped to a SPARQL query as a deterministic second step.
+Our model builds on factor graphs that rely on features extracted from the dependency
+graph and corresponding semantic representations.We rely on approximate
+inference techniques, Markov Chain Monte Carlo methods in particular, as well
+as Sample Rank to update parameters using a ranking objective. Our focus lies on
+developing methods that overcome the lexical gap and present a novel combination
+of machine translation and word embedding approaches for this purpose. As
+a proof of concept for our approach, we evaluate our approach on the QALD-6
+datasets for English, German &amp; Spanish.</abstract>
+                    <subject>
+                        <topic>question answering</topic>
+                        <topic>multilinguality</topic>
+                        <topic>QALD</topic>
+                        <topic>probabilistic graphical models</topic>
+                        <topic>factor graphs</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>The Semantic Web - ISWC 2017. 16th International Semantic Web Conference. Proceedings</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10587</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>329</start>
+                                <end>346</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29131414</identifier>
+                    <identifier type="doi">10.1007/978-3-319-68288-4_20</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913141</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913141">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913141/2913142/paper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913141" DMDID="DMD2913141">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913141"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

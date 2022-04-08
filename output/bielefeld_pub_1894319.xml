@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1894319">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>MediPlEx - a tool to combine in silico and experimental gene expression profiles of the model legume Medicago truncatula.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kolja</namePart>
+                        <namePart type="family">Henckel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Küster</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leonhard</namePart>
+                        <namePart type="family">Stutz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7086-2568</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND:Expressed Sequence Tags (ESTs) are in general used to gain a first insight into gene activities from a species of interest. Subsequently, and typically based on a combination of EST and genome sequences, microarray-based expression analyses are performed for a variety of conditions. In some cases, a multitude of EST and microarray experiments are conducted for one species, covering different tissues, cell states, and cell types. Under these circumstances, the challenge arises to combine results derived from the different expression profiling strategies, with the goal to uncover novel information on the basis of the integrated datasets.FINDINGS:Using our new application, MediPlEx (MEDIcago truncatula multiPLe EXpression analysis), expression data from EST experiments, oligonucleotide microarrays and Affymetrix GeneChips can be combined and analyzed, leading to a novel approach to integrated transcriptome analysis. We have validated our tool via the identification of a set of well-characterized AM-specific and AM-induced marker genes, identified by MediPlEx on the basis of in silico and experimental gene expression profiles from roots colonized with AM fungi.CONCLUSIONS:MediPlEx offers an integrated analysis pipeline for different sets of expression data generated for the model legume Medicago truncatula. As expected, in silico and experimental gene expression data that cover the same biological condition correlate well. The collection of differentially expressed genes identified via MediPlEx provides a starting point for functional studies in plant mutants. MediPlEx can freely be used at http://www.cebitec.uni-bielefeld.de/mediplex.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Research Notes</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1756-0500</identifier>
+                    <identifier type="MEDLINE">20958970</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-18943198</identifier>
+                    <identifier type="doi">10.1186/1756-0500-3-262</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1894319</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1894319">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1894319/2471027/1756-0500-3-262.henckel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1894319" DMDID="DMD1894319">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1894319"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

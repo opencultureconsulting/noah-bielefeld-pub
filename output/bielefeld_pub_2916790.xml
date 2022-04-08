@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2916790">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Towards an Open Simulation Environment for the Pepper Robot</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Lier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9251-1075</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Softbank&apos;s Pepper robot recently gained massive traction in diverse domains. On the one hand, the robot interacts with potential customers in shopping malls, stores, at trade fairs and various social events serving as a concierge or &apos;&apos;Pepper-as-Promoter&apos;&apos;, grabbing attention and fostering customer engagement. On the other hand, the RoboCup federation opened up a completely new league in 2017: the Social Standard Platform League (SSPL). In this new league, the Pepper was chosen as the standard social platform that teams will rely on in competitions in the years to come. Lastly, Pepper is an attractive platform for academic institutions since it is, in contrast to other platforms, relatively low priced and does not require a high degree of maintenance or prior knowledge with respect to, e.g., mechanical engineering.
+
+However, designing, developing and implementing social skills for a humanoid robot is not a trivial task that is additionally subject to constant change in the robots code base and configuration parameters for instance. Thus, one of the major drawbacks of the Pepper platform is the lack of a proper simulation environment in order to test new algorithms, high-level task execution strategies, regression testing or simply to provide an additional robot ``instance&apos;&apos; to compensate peaks in utilization. In this contribution we present our work towards such a simulation environment. We focus on two major topics a) seamless integration with the robot&apos;s ecosystem, e.g., NAOqi and ROS b) basic human-robot-interaction capabilities that can foster behavior modeling and functional regression testing.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>HRI &apos;18 Companion: 2018 ACM/IEEE International Conference on Human-Robot Interaction</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29167902</identifier>
+                    <identifier type="doi">10.1145/3173386.3177088</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2916790</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2916790">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2916790/2916921/open-simulation-environment.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2916790" DMDID="DMD2916790">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2916790"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

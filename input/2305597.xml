@@ -1,0 +1,100 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305597</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Large scale clustering of protein sequences</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Clusterung großer Proteinsequenzdatenmengen</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Antje</namePart>
+  <namePart type="family">Krause</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Mit dem enormen Wachstum biologischer Sequenzdatenbanken wird die Verarbeitung dieser Daten mehr und mehr zum Problem. Proteinsequenzdatenbanken enthalten heute über eine halbe Million verschiedener Sequenzen. Es ist daher naheliegend, eine Gruppierung evolutionär verwandter Sequenzen durchzuführen. Dies bietet viele Vorteile. Eine häufig gestellte Frage ist z.B. die Identifikation ähnlicher Sequenzen zu einer bisher unbekannten Sequenz. Diese Aufgabe kann schneller durchgeführt werden, wenn nur ein Sequenzvergleich pro Gruppe (Cluster) im Gegensatz zu einem Sequenzvergleich pro Datenbanksequenz durchgeführt werden muss. Der Informationsgehalt des gefundenen Clusters ist zudem höher, da sämtliche Informationen der im Cluster enthaltenen Sequenzen herangezogen werden. Darüber hinaus kann eine geclusterte Sequenzdatenbank die Auswahl von Kandidaten für die zeit- und kostenintensive Strukturbestimmung erleichtern. Ferner können die Sequenzen eines Clusters direkt zur Analyse ihrer evolutionären Beziehung herangezogen werden. Die biologisch sinnvolle Gruppierung von Proteinsequenzen kann auf der Basis von Sequenzähnlichkeit erfolgen. Eine der einfachsten und häufig verwendeten Methoden hierzu ist Single-Linkage Clustering. Ausgehend von einem Paar von Datenpunkten mit größter Ähnlichkeit werden sukzessive Datenpunkte bzw. bereits erzeugte Cluster zusammengefasst. Die resultierende Hierarchie kann auch als Baum betrachtet werden. Die Blätter entsprechen hierbei den Datenpunkten, während die Wurzel ein großes Cluster mit allen Datenpunkten bildet. Alle Ebenen dazwischen entsprechen Clustermengen an verschiedenen Ähnlichkeitsstufen. Es ist jedoch nicht klar, welche dieser Ebenen einer sinnvollen Gruppierung der Daten entspricht bzw. ob es überhaupt eine Ebene gibt, die alle Daten sinnvoll gruppiert.
+In dieser Arbeit werden verschiedene Methoden zur automatischen Gruppierung großer Proteinsequenzdatenmengen präsentiert und evaluiert. Zunächst wird basierend auf der iterativen Datenbanksuchmethode SYSTERS (SYSTEmatic Re-Searching) eine mengentheoretische Clusterung (SYSTERS1) abgeleitet. Die nachfolgende Methode SYSTERS2 ändert die Sicht der Daten auf einen graph-basierten Ansatz. Hierbei liegt der Schwerpunkt zunächst auf der Verbesserung der Qualität der Eingabedaten, insbesondere der paarweisen Distanzen der Sequenzen. Darauf aufbauend wird dann ein Single-Linkage Clustering an verschiedenen statischen Schwellwerten durchgeführt. Es stellt sich heraus, dass es keinen eindeutigen Schwellwert für alle Proteinfamilien gibt, da der Grad an Sequenzähnlichkeit innerhalb verschiedener Proteinfamilien stark variiert. Aufgrund dieses Ergebnisses wurde die ebenfalls graph-basierte Methode SYSTERS3 entwickelt, die eine Gruppierung der Sequenzdaten in Superfamilien- und Familien-Cluster erzeugt. Hierbei werden aufgrund der inneren Struktur des Single-Linkage Baumes zunächst Superfamilien abgeleitet. Für jede Superfamilie wird anschließend der entsprechende Distanzgraph an geeigneten Stellen weiter in Familien-Cluster getrennt. SYSTERS3 ist damit völlig unabhängig von statischen benutzerdefinierten Schwellwerten.
+Der zweite Teil der Arbeit widmet sich der Rekonstruktion der Phylogenese der Wirbeltiere. Um verschiedene Hypothesen über weitreichende Gen- bzw. Genomduplikationen auf dem Weg zu den Wirbeltieren testen zu können, bedarf es zunächst wohl-separierter Proteinfamilien, die jeweils nur einen Repräsentanten in den Wirbellosen haben. Als Grundlage dienen hier die vorhergesagten Proteinsequenzen der komplett sequenzierten Genome von Fruchtfliege, Fadenwurm und Bäckerhefe. Im Gegensatz zu anderen Ansätzen ist die hier entwickelte Methode des weiteren in der Lage, auch Datensätze nicht komplett zur Verfügung stehender Genome einzubinden (z.B. Mensch, Maus, Ratte, Lanzettfischchen). Die resultierende Clustermenge COPSE (Clusters of Orthologous and Paralogous SEquences) bildet eine hilfreiche Basis zur Analyse der Wirbeltierevolution sowie zur funktionellen Annotation. Beide Clustermengen wurden zusammen mit weiteren Informationen im Internet zur Verfügung gestellt.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation.ps">https://pub.uni-bielefeld.de/download/2305597/2305600/Dissertation.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2002</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Molekülbibliothek , Proteine , Aminosäurensequenz , Numerische Taxonomie , Sequenzdatenbanken , Proteinfamilien , Hierarchische Clusterung , Wirbeltierevolution ,</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-3146</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2002-06-18</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Krause, A. (2002): Large scale clustering of protein sequences. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Krause A (2002) &lt;br /&gt;&lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Krause, A., 2002. &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Krause, A. (2002).  &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>A.  Krause, &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2002&lt;/strong&gt;.</angewandte-chemie>
+<ama>Krause A. &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2002.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Krause, A. (2002). &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Krause, A. (2002). Large scale clustering of protein sequences. Bielefeld (Germany): Bielefeld University.</frontiers>
+<apa>Krause, A. (2002).  &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> A. Krause, &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2002.</ieee>
+<lncs> Krause, A.: Large scale clustering of protein sequences. Bielefeld University, Bielefeld (Germany) (2002).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Krause, Antje. 2002. &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Krause, Antje. &lt;em&gt;Large scale clustering of protein sequences&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2002.</mla>
+<default>Krause A (2002) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305597</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-09-09T12:36:44Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:44:07Z</recordChangeDate>
+</recordInfo>
+</mods>

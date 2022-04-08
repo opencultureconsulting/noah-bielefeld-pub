@@ -1,0 +1,125 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2909213</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Phylogenetic assembly of paleogenomes integrating ancient DNA data</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Nina</namePart>
+  <namePart type="family">Luhmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">37807704</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-8112-7027</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Cedric</namePart>
+  
+  
+  <namePart type="family">Chauve</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In comparative genomics, reconstructing the genomes of ancestral species in a given phylogeny is an important problem in order to analyze genome evolution over time. The diversity of present-day genomes in terms of local mutations and genome rearrangements allows to shed light on the dynamics of evolutionary processes that led from a common ancestor to a set of extant genomes. This speciation history is depicted in a phylogenetic tree. Comparative genome reconstruction methods aim to infer genomic features such as an order of markers (e.g. genes) for extinct species at internal nodes of the tree by applying different evolutionary models, relying only on the information available for the extant genomes at the leaves of the phylogenetic tree. &lt;br /&gt;&lt;br /&gt;
+
+Recently, the steady progress in sequencing technologies led to the emergence of the field of paleogenomics, where the study of ancient DNA (aDNA) found in conserved organic material is moving rapidly towards the sequencing and analysis of complete paleogenomes. Such ''genetic time travel'' allows direct insight into specific phases of the evolution of specific genomes that are not only implicitly inferred from extant DNA sequences. However, as DNA is naturally degraded over time after the death of an organism and environmental conditions interfere with the conservation of DNA material, an assembly of these paleogenomes is usually fragmented, preventing a detailed analysis of genome rearrangements along the branches of the phylogenetic tree.&lt;br /&gt;&lt;br /&gt;
+
+In this thesis, we aim to combine the study of aDNA and comparative ancestral reconstruction in a phylogenetic framework. The comparison with extant related genomes can naturally assist in scaffolding a fragmented aDNA assembly, while the aDNA sequencing data can be included as an additional source of information for comparative reconstruction methods to improve the reconstructions of all related genomes in the phylogenetic tree. Our first focus is on integrative methods to reconstruct marker orders globally in a phylogeny under the assumption of parsimony. An underlying rearrangement model can describe the evolutionary operations that occurred along the edges of the tree. However, as much as complex rearrangement scenarios can give insights into underlying biological mechanisms during evolution, from an computational point of view the ancestral reconstruction problem under rearrangement distances is an NP-hard problem. One exception is the Single-Cut-or-Join (SCJ) distance, that uses a marker order-based representation of the involved genomes to model the cut and join of marker adjacencies as evolutionary operations.&lt;br /&gt;&lt;br /&gt;
+
+We build upon this rearrangement model and describe parsimony-based reconstruction methods aiming to minimize the SCJ distance in the tree. In addition, we require the reconstructed solutions to be consistent, such that they represent linear or circular regions of the ancestral genome. Our first polynomial-time method is based on the Sankoff-Rousseau algorithm and directly includes an aDNA assembly graph at one internal node of the tree. We show that including branch lengths in the underlying tree can avoid ambiguity in practice. Our second approach follows a more general strategy and includes the aDNA sequencing data as local weights for adjacencies next to the SCJ distance in the objective. We describe a fixed-parameter-tractable algorithm that also allows to sample co-optimal solutions. Finally, we describe an approach to fill gaps between potentially adjacent markers by aDNA data to reconstruct the complete genome sequence of a paleogenome guided by the related extant genome sequences. In addition, this approach enables us to select the adjacencies that are supported by the sequencing information from sets of conflicting adjacencies.&lt;br /&gt;&lt;br /&gt;
+
+We evaluate our proposed models and algorithms on simulated and biological data. In particular, we integrate two aDNA sequencing data sets for ancient strains of the pathogen Yersinia pestis, that is understood to be the cause of several pandemics in medieval times. We show that the combination of aDNA sequencing reads and a parsimonious reconstruction in the phylogenetic tree reduces the fragmentation of an initial aDNA assembly substantially and explore alternative reconstructions to emphasize reliably reconstructed regions of the ancient genomes.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="PhDThesis_nluhmann.pdf">https://pub.uni-bielefeld.de/download/2909213/2909214/PhDThesis_nluhmann.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2017</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29092135</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2016-12-15</dateOther>
+<extension>
+<bibliographicCitation>
+<frontiers>Luhmann, N. (2017). Phylogenetic assembly of paleogenomes integrating ancient DNA data. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Luhmann, N. (2017). &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<ama>Luhmann N. &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2017.</ama>
+<ieee> N. Luhmann, &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2017.</ieee>
+<apa>Luhmann, N. (2017).  &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<wels>Luhmann, N. (2017): Phylogenetic assembly of paleogenomes integrating ancient DNA data. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>N.  Luhmann, &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2017&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Luhmann N (2017) &lt;br /&gt;&lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Luhmann, N. (2017).  &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<harvard1>Luhmann, N., 2017. &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Luhmann, Nina. 2017. &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Luhmann, N.: Phylogenetic assembly of paleogenomes integrating ancient DNA data. Universität Bielefeld, Bielefeld (2017).</lncs>
+<aps> N.  Luhmann, Phylogenetic assembly of paleogenomes integrating ancient DNA data, (Universität Bielefeld, Bielefeld, 2017).</aps>
+<default>Luhmann N (2017) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Luhmann, Nina. &lt;em&gt;Phylogenetic assembly of paleogenomes integrating ancient DNA data&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2017.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2909213</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-03-16T10:26:49Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:28Z</recordChangeDate>
+</recordInfo>
+</mods>

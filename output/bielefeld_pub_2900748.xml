@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900748">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Development of actuated Tangible User Interfaces: new interaction concepts and evaluation methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Eckard</namePart>
+                        <namePart type="family">Riedenklau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-07-02</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Making information understandable and literally graspable is the main goal of tangible interaction research. By giving digital data physical representations (Tangible User Interface Objects, or TUIOs), they can be used and manipulated like everyday objects with the users’ natural manipulation skills. Such physical interaction is basically of uni-directional kind, directed from the user to the system, limiting the possible interaction patterns. In other words, the system has no means to actively support the physical interaction. Within the frame of tabletop tangible user interfaces, this problem was addressed by the introduction of actuated TUIOs, that are controllable by the system. Within the frame of this thesis, we present the development of our own actuated TUIOs and address multiple interaction concepts we identified as research gaps in literature on actuated Tangible User Interfaces (TUIs).
+
+Gestural interaction is a natural means for humans to non-verbally communicate using their hands. TUIs should be able to support gestural interaction, since our hands are already heavily involved in the interaction. This has rarely been investigated in literature. For a tangible social network client application, we investigate two methods for collecting user-defined gestures that our system should be able to interpret for triggering actions. Versatile systems often understand a wide palette of commands. Another approach for triggering actions is the use of menus. We explore the design space of menu metaphors used in TUIs and present our own actuated dial-based approach. Rich interaction modalities may support the understandability of the represented data and make the interaction with them more appealing, but also mean high demands on real-time precessing. We highlight new research directions for integrated feature rich and multi-modal interaction, such as graphical display, sound output, tactile feedback, our actuated menu and automatically maintained relations between actuated TUIOs within a remote collaboration application. We also tackle the introduction of further sophisticated measures for the evaluation of TUIs to provide further evidence to the theories on tangible interaction. We tested our enhanced measures within a comparative study. Since one of the key factors in effective manual interaction is speed, we benchmarked both the human hand’s manipulation speed and compare it with the capabilities of our own implementation of actuated TUIOs and the systems described in literature.
+
+After briefly discussing applications that lie beyond the scope of this thesis, we conclude with a collection of design guidelines gathered in the course of this work and integrate them together with our findings into a larger frame.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29007483</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900748</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900748">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900748/2900749/Riedenklau-PhDThesis-final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900748" DMDID="DMD2900748">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900748"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

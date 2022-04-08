@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1775168">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Large scale hierarchical clustering of protein sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Antje</namePart>
+                        <namePart type="family">Krause</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Vingron</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Searching a biological sequence database with a query sequence looking for homologues has become a routine operation in computational biology. In spite of the high degree of sophistication of currently available search routines it is still virtually impossible to identify quickly and clearly a group of sequences that a given query sequence belongs to. Results: We report on our developments in grouping all known protein sequences hierarchically into superfamily and family clusters. Our graph-based algorithms take into account the topology of the sequence space induced by the data itself to construct a biologically meaningful partitioning. We have applied our clustering procedures to a non-redundant set of about 1,000,000 sequences resulting in a hierarchical clustering which is being made available for querying and browsing at http://systers.molgen.mpg.de/. Conclusions: Comparisons with other widely used clustering methods on various data sets show the abilities and strengths of our clustering methods in producing a biologically meaningful grouping of protein sequences.</abstract>
+                    <subject>
+                        <topic>Protein Clustering</topic>
+                        <topic>Clustering</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">15663796</identifier>
+                    <identifier type="ISI">000227193800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17751684</identifier>
+                    <identifier type="doi">10.1186/1471-2105-6-15</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1775168</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1775168">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1775168/2311825/BMC_Bioinformatics_2005_Krause.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1775168" DMDID="DMD1775168">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1775168"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

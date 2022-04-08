@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2759013">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient Bootstrapping of Vocalization Skills Using Active Goal Babbling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Anja</namePart>
+                        <namePart type="family">Philippsen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5229-1661</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We use goal babbling, a recent approach to bootstrapping inverse models, for vowel acquisition. In contrast to motor babbling, goal babbling organizes exploration in a low-dimensional goal space. While such a goal space is naturally given in many motor learning tasks, the difficulty in modeling speech production lies within the complexity of acoustic features. Often, the first and second formants are used as low-dimensional features. However, formants cannot capture richer characteristics of acoustic signals.We propose to use high-dimensional acoustic features based on a cochlea model and apply dimension reduction in order to generate a low-dimensional goal space. Instead of pre-defining targets in this goal space, we estimate a target distribution from ambient speech with a Gaussian Mixture Model. We demonstrate that goal babbling can be successfully applied in this goal space in order to learn a parametric model of vowel production specialized to a set of ambient speech sounds. By augmenting the goal-directed exploration along linear paths with an active selection of targets, we achieve a significant speed up in learning.</abstract>
+                    <subject>
+                        <topic>active learning</topic>
+                        <topic>acoustic-to-articulatory inversion</topic>
+                        <topic>goal-directed exploration</topic>
+                        <topic>speech motor learning</topic>
+                        <topic>dimension reduction</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27590137</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2759013</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2759013">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2759013/2777394/IWSR15_Philippsen_Reinhart_Wrede.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2759013" DMDID="DMD2759013">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2759013"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

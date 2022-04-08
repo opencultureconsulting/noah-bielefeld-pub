@@ -1,0 +1,267 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2956821</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:590</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data and code from: Olfactory camouflage and communication in birds</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Leanne A.</namePart>
+  <namePart type="family">Grieves</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Marc</namePart>
+  <namePart type="family">Gilles</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">189499871</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4222-9754</description></name>
+<name type="personal">
+  <namePart type="given">Innes C.</namePart>
+  <namePart type="family">Cuthill</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tamas</namePart>
+  <namePart type="family">Szekely</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">39818290</identifier></name>
+<name type="personal">
+  <namePart type="given">Elizabeth A.</namePart>
+  <namePart type="family">MacDougall-Shackleton</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Caspers</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">5514336</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4380-0476</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">202491419</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">### Olfactory camouflage and communication in birds
+##### Leanne A. Grieves, Marc Gilles, Innes C. Cuthill, Tamás Székely, Elizabeth A. MacDougall-Shackleton, Barbara A. Caspers  
+
+***
+
+### Overview of the repository content
+
+##### **Supplementary tables**
+
+* **`TableS1_InclusionStudiesReview.xlsx`** *Table S1.* Studies included in the literature review of seasonal and sex differences in preen oil chemical composition.
+* **`TableS2_InclusionSpeciesAnalysis.xslx`** *Table S2.* Occurrences (i.e., sex in each species or season in each species) included in the analyses of seasonal and sex differences in preen oil chemical composition.
+
+
+##### **Data and code for comparative analyses on seasonal and sex differences in preen oil composition**
+
+* **`data_season.csv`** and **`data_sex.csv`** contain the raw data needed to re-run analyses. 
+* **`data_phylo.nex`** contains the raw phylogenetic data obtained from birdtree.org.
+* **`season_analysis_Rmd.pdf`** and **`season_analysis_Rmd.Rmd`** contain the R code to re-run the analysis on seasonal differences.
+* **`sex_analysis_Rmd.pdf`** and **`sex_analysis_Rmd.Rmd`** contains the R code to re-run the analysis on sex differences.
+
+##### **Data and code for details on the studies and species included in the review and analyses**
+
+* **`inclusion_studies_review.csv`** contains data on the review process and the studies included in the review  (i.e. Table S1). 
+* **`inclusion_species_1row1studywithinspecies.csv`** contains data on the occurrences (i.e., sex in each species or season in each species; multiple rows per species) included in the analyses (i.e. Table S2). 
+* **`inclusion_species_1row1species.csv`** contains data on the species (one row per species) included in the analyses.
+* **`review_Rscript.R`** contains the R code to get all details about the studies and species included in the review and analyses.
+
+##### **Additional files**
+
+* All Excel files ending with **`_description.xlsx`** contain an additional sheet with a detailed description of the different variables.
+* **`data_evolutionstudies.xlsx`** contains the data on the evolution of the studies on preen oil composition (i.e. Figure 1).
+
+
+***</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_species_analysis_1row1studywithinspecies_description.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956822/inclusion_species_analysis_1row1studywithinspecies_description.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_studies_review.csv">https://pub.uni-bielefeld.de/download/2956821/2956823/inclusion_studies_review.csv</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_studies_review_description.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956824/inclusion_studies_review_description.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="README.pdf">https://pub.uni-bielefeld.de/download/2956821/2956825/README.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="review_Rscript.R">https://pub.uni-bielefeld.de/download/2956821/2956826/review_Rscript.R</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="season_analysis_Rmd.pdf">https://pub.uni-bielefeld.de/download/2956821/2956827/season_analysis_Rmd.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="season_analysis_Rmd.Rmd">https://pub.uni-bielefeld.de/download/2956821/2956828/season_analysis_Rmd.Rmd</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="sex_analysis_Rmd.pdf">https://pub.uni-bielefeld.de/download/2956821/2956829/sex_analysis_Rmd.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="sex_analysis_Rmd.Rmd">https://pub.uni-bielefeld.de/download/2956821/2956830/sex_analysis_Rmd.Rmd</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="TableS1_InclusionStudiesReview.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956831/TableS1_InclusionStudiesReview.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="TableS2_InclusionSpeciesAnalysis.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956832/TableS2_InclusionSpeciesAnalysis.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_evolutionstudies.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956833/data_evolutionstudies.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_phylo.nex">https://pub.uni-bielefeld.de/download/2956821/2956834/data_phylo.nex</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_season.csv">https://pub.uni-bielefeld.de/download/2956821/2956835/data_season.csv</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_season_description.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956836/data_season_description.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_sex.csv">https://pub.uni-bielefeld.de/download/2956821/2956837/data_sex.csv</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="data_sex_description.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956838/data_sex_description.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_species_analysis_1row1species.csv">https://pub.uni-bielefeld.de/download/2956821/2956839/inclusion_species_analysis_1row1species.csv</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_species_analysis_1row1species_description.xlsx">https://pub.uni-bielefeld.de/download/2956821/2956840/inclusion_species_analysis_1row1species_description.xlsx</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="inclusion_species_analysis_1row1studywithinspecies.csv">https://pub.uni-bielefeld.de/download/2956821/2956841/inclusion_species_analysis_1row1studywithinspecies.csv</url>
+  </location>
+  <physicalDescription><internetMediaType>application/vnd.ms-excel</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2022</dateIssued>
+</originInfo>
+
+<subject><topic>Bird odor</topic><topic>chemical cues</topic><topic>infochemicals</topic><topic>mate recognition</topic><topic>olfaction</topic><topic>parental care</topic><topic>preen oil</topic><topic>scent</topic><topic>sexual selection</topic><topic>uropygial gland secretion</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2956821</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2961113</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<apa>Grieves, L. A., Gilles, M., Cuthill, I. C., Szekely, T., MacDougall-Shackleton, E. A., &amp;amp; Caspers, B. (2022).  &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2956821" target="_blank"&gt;https://doi.org/10.4119/unibi/2956821&lt;/a&gt;</apa>
+<ieee> L.A. Grieves, et al., &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;, Bielefeld University, 2022.</ieee>
+<ama>Grieves LA, Gilles M, Cuthill IC, Szekely T, MacDougall-Shackleton EA, Caspers B. &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University; 2022.</ama>
+<frontiers>Grieves, L. A., Gilles, M., Cuthill, I. C., Szekely, T., MacDougall-Shackleton, E. A., and Caspers, B. (2022). Data and code from: Olfactory camouflage and communication in birds. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grieves, L.A., Gilles, M., Cuthill, I.C., Szekely, T., MacDougall-Shackleton, E.A. &amp;amp; Caspers, B. (2022). &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2956821.&lt;/div&gt;</dgps>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grieves, L. A., Gilles, M., Cuthill, I. C., Szekely, T., MacDougall-Shackleton, E. A., &amp;amp; Caspers, B. (2022).  &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2956821" target="_blank"&gt;https://doi.org/10.4119/unibi/2956821&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Grieves LA, Gilles M, Cuthill IC, Szekely T, MacDougall-Shackleton EA, Caspers B (2022) &lt;br /&gt;&lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Grieves, L.A., et al., 2022. &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;, Bielefeld University.</harvard1>
+<angewandte-chemie>L. A.  Grieves, M.  Gilles, I. C.  Cuthill, T.  Szekely, E. A.  MacDougall-Shackleton, and B.  Caspers, &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2022&lt;/strong&gt;.</angewandte-chemie>
+<wels>Grieves, L. A.; Gilles, M.; Cuthill, I. C.; Szekely, T.; MacDougall-Shackleton, E. A.; Caspers, B. (2022): Data and code from: Olfactory camouflage and communication in birds. Bielefeld University.</wels>
+<mla>Grieves, Leanne A., Gilles, Marc, Cuthill, Innes C., Szekely, Tamas, MacDougall-Shackleton, Elizabeth A., and Caspers, Barbara. &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University, 2022.</mla>
+<default>Grieves LA, Gilles M, Cuthill IC, Szekely T, MacDougall-Shackleton EA, Caspers B (2022) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Grieves, L.A., Gilles, M., Cuthill, I.C., Szekely, T., MacDougall-Shackleton, E.A., Caspers, B.: Data and code from: Olfactory camouflage and communication in birds. Bielefeld University (2022).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grieves, Leanne A., Gilles, Marc, Cuthill, Innes C., Szekely, Tamas, MacDougall-Shackleton, Elizabeth A., and Caspers, Barbara. 2022. &lt;em&gt;Data and code from: Olfactory camouflage and communication in birds&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2956821</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-08-19T12:04:48Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2022-02-21T11:55:23Z</recordChangeDate>
+</recordInfo>
+</mods>

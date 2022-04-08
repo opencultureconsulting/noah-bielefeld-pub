@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302642">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automated visual inspection of assemblies from monocular images</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Automatisierte visuelle Inspektion von Baugruppen in monokularen Bildern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Stößel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-06-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Industrial part assembly has evolved significantly throughout the last decades. Together with more elaborated methods of part assembly, automated visual inspection has been refined as well and plays an important role in contemporary quality assurance efforts. Nevertheless, one of the key issues in automated visual inspection, the exact localization of objects under inspection, has so far seen little progress for the case of articulated assemblies with more than two or three rigid parts. This thesis proposes a system for the inspection of assemblies consisting of multiple rigid subparts. The system is envisioned to be part of a highly automated industrial manufacturing environment. In an offline stage, the system prepares models of rigid subparts and assemblies, given CAD data. Online, the system uses a novel kernel particle filter to localize all assembly subparts that are observed within images taken by a monocular camera.</abstract>
+                    <subject>
+                        <topic>Partikelfilter</topic>
+                        <topic>Visual inspection</topic>
+                        <topic>Assemblies</topic>
+                        <topic>Automatic model extraction</topic>
+                        <topic>Particle filter</topic>
+                        <topic>2D-3D pose estimation</topic>
+                        <topic>Bildverstehen</topic>
+                        <topic>Mustererkennung</topic>
+                        <topic>Maschinelles Sehen</topic>
+                        <topic>Optischer Sensor</topic>
+                        <topic>Assistenzsystem</topic>
+                        <topic>Klassifikation</topic>
+                        <topic>Qualitätssicherung</topic>
+                        <topic>Visuelle Inspektion</topic>
+                        <topic>Automatische Modellgenerierung</topic>
+                        <topic>Baugruppen</topic>
+                        <topic>2D-3D Lageschätzung</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11166</identifier>
+                    <identifier type="sys">HT015325758</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302642</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302642">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302642/2302645/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302642" DMDID="DMD2302642">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302642"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

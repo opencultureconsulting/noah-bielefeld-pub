@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2694962">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Depth information in natural environments derived from optic flow by insect motion detection system: a model analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Schwegmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5441-7931</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Knowing the depth structure of the environment is crucial for moving animals in many behavioral contexts, such as collision avoidance, targeting objects, or spatial navigation. An important source of depth information is motion parallax. This powerful cue is generated on the eyes during translatory self-motion with the retinal images of nearby objects moving faster than those of distant ones. To investigate how the visual motion pathway represents motion-based depth information we analyzed its responses to image sequences recorded in natural cluttered environments with a wide range of depth structures. The analysis was done on the basis of an experimentally validated model of the visual motion pathway of insects, with its core elements being correlation-type elementary motion detectors (EMDs). It is the key result of our analysis that the absolute EMD responses, i.e., the motion energy profile, represent the contrast-weighted nearness of environmental structures during translatory self-motion at a roughly constant velocity. In other words, the output of the EMD array highlights contours of nearby objects. This conclusion is largely independent of the scale over which EMDs are spatially pooled and was corroborated by scrutinizing the motion energy profile after eliminating the depth structure from the natural image sequences. Hence, the well-established dependence of correlation-type EMDs on both velocity and textural properties of motion stimuli appears to be advantageous for representing behaviorally relevant information about the environment in a computationally parsimonious way.</abstract>
+                    <subject>
+                        <topic>optic flow</topic>
+                        <topic>environments</topic>
+                        <topic>spatial vision</topic>
+                        <topic>computational modeling</topic>
+                        <topic>natural</topic>
+                        <topic>fly</topic>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Computational Neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>83</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5188</identifier>
+                    <identifier type="eIssn">1662-5188</identifier>
+                    <identifier type="MEDLINE">25136314</identifier>
+                    <identifier type="ISI">000340027400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26949626</identifier>
+                    <identifier type="doi">10.3389/fncom.2014.00083</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2694962</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2694962">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2694962/2698456/fncom-08-00083.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2694962" DMDID="DMD2694962">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2694962"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

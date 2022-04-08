@@ -1,0 +1,155 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2934466">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8778-1273</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Schirrwagen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0458-1004</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vitali</namePart>
+                        <namePart type="family">Peil</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6477-8992</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vidya</namePart>
+                        <namePart type="family">Ayer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3661-3277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fabian</namePart>
+                        <namePart type="family">Herrmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Rempel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0609-5621</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Johanna</namePart>
+                        <namePart type="family">Vompras</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8224-2884</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2528-5391</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Collecting and refining research data or writing software is a part of many researchers&apos; daily
+routine. As a university library, we have been encouraging researchers to add their research output
+to our institutional repository called PUB which is based on the free and open-source LibreCat
+software. Within an international collaboration, we have been able to design and program this
+institutional repository according to our own specifications fairly flexibly. This allowed us to extend
+its scope to data publications recently. However, it remains a system outside the day-to-day work
+flow of researchers who, as we all know, dislike doing what appears to be administrative burdens.
+
+To remedy this situation, we set up a local GitLab instance and loosely coupled it with our
+institutional repository. We rolled out this instance (called GitLab.UB) university-wide and added it
+to the campus single sign-on system that is also used by our institutional repository. As GitLab is
+built around a versioning software, it becomes easy to mint a DOI that refers to a certain snapshot
+of a GitLab project (even retrospectively). This approach is similar to the service jointly offered by
+GitHub and Zenodo.
+
+In addition to an effortless way to publish snapshots of research data or software, integrating GitLab
+allows our institutional repository to display the results of automatic checks on the data supplied by
+researchers. Inspired by the badges that indicate a successful continuous integration run on sites like
+GitHub, we show badges that indicate good research data quality including wellformedness for
+certain data formats and adherence to FAIR data principles as far as these can be checked
+automatically. These checks are implemented within the GitLab CI framework that comes with
+GitLab. They will be made available for re-use free of charge at the end of this project.
+
+Although news of our local GitLab instance so far has spread largely by word of mouth, there has
+been a steady influx of users from various faculties and research institutes as well as their external
+partners. GitLab has also become an integral part of some undergraduate courses. GitLab&apos;s
+additional collaboration tools such as issue trackers and wikis have proven to facilitate joint work
+across groups and institutions, and have additionally increased the quality of results.</abstract>
+                    <subject>
+                        <topic>Conquaire</topic>
+                        <topic>research data</topic>
+                        <topic>analytical replicability</topic>
+                        <topic>automatic data quality feedback</topic>
+                        <topic>data publications</topic>
+                        <topic>institutional repository</topic>
+                        <topic>version control</topic>
+                        <topic>continuous integration</topic>
+                        <topic>Git</topic>
+                        <topic>GitLab</topic>
+                        <topic>scholarly communication</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29344664</identifier>
+                    <identifier type="doi">10.5281/ZENODO.2602714</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2934466</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2934466">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934466/2934467/conquaire_poster.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2934466" DMDID="DMD2934466">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2934466"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

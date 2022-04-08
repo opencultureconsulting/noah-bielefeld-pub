@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304195">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bellman&apos;s GAP : a 2nd generation language and system for algebraic dynamic programming</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Georg</namePart>
+                        <namePart type="family">Sauthoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-02-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The dissertation describes the new Bellman&#146;s GAP which is a programming system for writing dynamic programming algorithms over sequential data. It is the second generation implementation of the algebraic dynamic programming framework (ADP). The system includes the multi-paradigm language (GAP-L), its compiler (GAP-C), functional modules (GAP-M) and a web site (GAP Pages) to experiment with GAP-L programs. GAP-L includes declarative constructs, e.g. tree grammars to model the search space, and imperative constructs for programming advanced scoring functions. The syntax of GAP-L is similar to C/Java to lower usage barriers. GAP-C translates the high-level and index-free GAP-L programs into efficient C++-Code, which is competitive with handwritten code. It includes a novel table design optimization algorithm, support for dynamic programming (DP) over multiple sequences (multi-track DP), sampling, optional top-down evaluation, various backtracing schemes etc. GAP-M includes modules for use in GAP-L programs. Examples are efficient representations of classification data types and sampling as well as filter helper functions. GAP Pages contain web dialogs for selected text book dynamic programming algorithms implemented in GAP-L. The web dialogs allow interactive ad-hoc experiments with different inputs and combinations of algebras. Several benchmarks and examples in the dissertation show the practical efficiency of Bellman&#146;s GAP in terms of program runtime and development time.</abstract>
+                    <subject>
+                        <topic>Regular Tree Grammars</topic>
+                        <topic>RNA Structure Prediction</topic>
+                        <topic>Table Design</topic>
+                        <topic>Dynamic Programming</topic>
+                        <topic>Formale Grammatik</topic>
+                        <topic>Optimierender Compiler</topic>
+                        <topic>Domänenspezifische Programmiersprache</topic>
+                        <topic>Dynamische Optimierung</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18210</identifier>
+                    <identifier type="sys">HT016989784</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304195</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304195">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304195/2304198/index.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304195" DMDID="DMD2304195">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304195"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

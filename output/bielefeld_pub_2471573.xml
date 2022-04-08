@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2471573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive traffic sign recognition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Lindner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-02-06</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis an automated video based speed limit recognition system is introduced together with the framework for adaptation of the system to the special characteristics of the signs in different countries. The system is to be used as a vehicle mounted driver assistance system. 
+
+Autonomous infrastructure detection has to be international in our globalised world. Many publications concerning the detection and recognition of traffic signs have been published. The literature does not address the challenge of extending the systems to be capable of coping with the - sometimes subtle, sometimes distinct - differences met when considering a system to be designed to recognize infrastructure in a variety of countries instead of just one. In this thesis the traffic sign recognition is given as an example application for the internationalization of an autonomous recognition system. The term internationalization is used to express the necessity to adapt the system and especially the classifiers involved to the special characteristics of the traffic signs encountered in different countries. This process of adaptation is supported by the framework developed and implemented in this thesis with the goal of reducing human intervention in this process to a minimum. 
+
+The necessity of internationalization is especially true for traffic signs since their representation in different countries is not similar even if the countries belong to the 52 states that signed the Vienna Convention on road traffic from 1968.  In addition to the internationalization, the necessary and yet in the literature still disregarded extensions to a successful traffic sign recognition will be designed and evaluated. This includes a supplementary sign recognition, a three dimensional position estimation and a scene interpretation. For system training and test a huge number of samples has to be gathered to let the conclusions be significant. To support this task bootstrapping labelling and classifier construction tools have been developed and evaluated.
+
+The following is the main contribution of this work to the topic of traffic sign recognition:
+
+   A framework for adapting classifiers on international traffic signs with a minimum 
+	of required human interaction.
+  The detection and recognition of supplementary signs using a priori knowledge 
+	and the classifier internationalization framework.
+    A three dimensional scene analysis to enhance the robustness of the system.
+  A flexible modular framework that allows traffic sign recognition to be run on 
+	general purpose hardware and embedded control units in real time without 
+	source code changes.</abstract>
+                    <subject>
+                        <topic>Autonomous systems</topic>
+                        <topic>driver assistance systems</topic>
+                        <topic>polynomial classifier</topic>
+                        <topic>histogram of oriented gradients</topic>
+                        <topic>hough detector</topic>
+                        <topic>traffic sign</topic>
+                        <topic>supplementary signs</topic>
+                        <topic>classification</topic>
+                        <topic>chamfer matching</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24715738</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2471573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2471573">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2471573/2471574/DissertationFrankLindner20120206.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2471573" DMDID="DMD2471573">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2471573"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

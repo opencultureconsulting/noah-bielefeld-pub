@@ -1,0 +1,97 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302459</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Soummaya</namePart>
+  <namePart type="family">Abdul-Hak</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">143985</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Abstrakte Shapes wurden 2004 bei der Analyse von RNA-Sekundärstrukturen eingeführt und haben seither viele Anwendungen gefunden. Abstrakte Shapes sind Abstraktionen von Strukturen, wobei eine einzelne Shape eine Klasse von ähnlichen Strukturen enthält. Weiterhin enthält eine Shape als repräsentative Struktur diejenige mit der kleinsten freien Energie.
+Das Werkzeug RNAshapes bietet 5 verschiedene Abstraktionslevel (Shape-Typen), die hierarchisch aufgebaut sind. Je niedriger das Shape-Level, desto mehr Strukturelemente - wie Bulge oder Internal-Loops - werden in die Shape-Repräsentation einbezogen. Die Anzahl der Shapes ist exponentiell in der Sequenzlänge, wächst aber langsamer als die Anzahl der Strukturen. Das Wachstumsverhalten ist aus zwei Gründen interessant: Erstens geht es in die asymptotische Laufzeit von Algorithmen zur Shape-Analyse ein. Zweitens gibt die Gesamtzahl der Shapes eine Obergrenze für die Größe von Shape-Indices an, zu denen RNA-Datenbanken für die Struktur-basierte Suche vorverarbeitet werden.
+Die offene Frage der asymptotischen Anzahl der Shapes hat einiges Interesse in der theoretischen Bioinformatik gefunden. Die Asymptotik der Anzahl der Shapes wurden durch Lorenz, Ponty und Clote (2008) für Sequenzen der Länge n (Shape Typ 3 und 5) bestimmt, während  Nebel und Scheid (2009) Shapes der Länge n untersuchten (Shape Typ 1-5).
+Das Anliegen der Arbeit war es, gewisse kombinatorische Aussagen über abstrakte Shapes zu gewinnen. Wieviel Shapes gibt es mit n Klammerpaaren? Wieviel Shapes gibt es zu Sequenzen der Länge n? Was ist die erwartete Anzahl der Shapes für eine Sequenz der Länge n? Zur letzten Frage erscheint ein theoretischer Zugang schwierig; daher wurden empirische Messungen ins Auge gefasst.
+In meinen Ergebnissen habe ich die Rekurrenzformel für die Anzahl der Shapes aller Sequenzen der Längen &lt;=n und ihrer asymptotischen Anzahl berechnet. Weiterhin habe ich die Rekurrenzformel für die Anzahl der Shapes mit n Klammerpaaren für Shape-Typ 1-5 durch Shape-Grammatik hergeleitet und die asymptotische Anzahl für Shape 3, 4 und 5 berechnet. Die Asymptotik für Shape Typen 3 und 4 ist gleich, weil die Shapes die gleichen Repräsentationen haben. Trotzdem hat eine konkrete Sequenz mehr Typ 4- als Typ 3-Shapes! Das liegt am Unterschied in den Shape-Abstraktionsabbildungen und ist auf der Ebene der Shapes-Notationen nicht mehr erkennbar. 
+Der asymptotische Wert für die Anzahl der Shapes aller Sequenzen der Länge n hat die allgemeine Formel a^n*b*n^(-3/2). Dies gilt für alle Shape-Typen. Ein solche Formel entspricht dem Erwartungswert für die Anzahl der Shapes. Mit Hilfe des Programms RNAshapes habe ich für eine große Menge Sequenzen bestimmter Länge die jeweiligen Anzahlen des Shapes-Typs 5 im Shape Raum bestimmt. Mit der statistischen Analyse habe ich die Parameter a und b der allgemeinen Formel bestimmt.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Analytische_und_empirische_Untersuchungen_ueber_abstrakte_Shapes_von_RNA_Sekundaerstrukturen.pdf">https://pub.uni-bielefeld.de/download/2302459/2302462/Analytische_und_empirische_Untersuchungen_ueber_abstrakte_Shapes_von_RNA_Sekundaerstrukturen.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Sekundärstruktur</topic><topic>RNS</topic><topic>Asymptotik</topic><topic>Erzeugende Funktion</topic><topic>RNA Shapes</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-18247</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2011-03-07</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Abdul-Hak, S. (2011): Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>S.  Abdul-Hak, &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2011&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Abdul-Hak, S. (2011).  &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Abdul-Hak S (2011) &lt;br /&gt;&lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Abdul-Hak, S., 2011. &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<frontiers>Abdul-Hak, S. (2011). Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Abdul-Hak, S. (2011). &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Abdul-Hak S. &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2011.</ama>
+<ieee> S. Abdul-Hak, &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2011.</ieee>
+<apa>Abdul-Hak, S. (2011).  &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Abdul-Hak, Soummaya. 2011. &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Abdul-Hak, S.: Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen. Bielefeld University, Bielefeld (Germany) (2011).</lncs>
+<default>Abdul-Hak S (2011) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Abdul-Hak, Soummaya. &lt;em&gt;Analytische und empirische Untersuchungen über abstrakte Shapes von RNA-Sekundärstrukturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2011.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302459</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-03-15T09:43:16Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:47:57Z</recordChangeDate>
+</recordInfo>
+</mods>

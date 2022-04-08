@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2656366">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dynamic modeling and bioinspired control of a walking piezoelectric motor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Filip</namePart>
+                        <namePart type="family">Szufnarowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-02-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Piezoelectric motors have increasingly extended their field of applications during recent years. Improved material properties and manufacturing techniques have led to a variety of designs which can achieve theoretically unlimited displacements for moderate voltage levels while retaining a relatively high stiffness. In practical terms, this leads to stronger and faster motors which become a viable alternative to electromagnetic drives, especially if compact size and small weight are important.
+The piezoelectric motor considered in this work consists of four piezoelectric bender elements which can forward a ceramic bar by means of a frictional interaction. The drive elements can be compared to &quot;legs&quot; walking on a movable plane. 
+
+The walking motor offers outstanding force generation capabilities for a motor of its size. Despite this fact, this motor has not been used in a force control scenario before and no motor models exist in the literature which can reproduce the effect of load on its performance. In this work, two dynamic motor models are developed to address the latter issue. Both of them faithfully reproduce the non-linear motor velocity decrease under load.
+
+The first model is based on an analytic approach and describes the low-level frictional interactions between the legs and the ceramic bar by means of several physically meaningful assumptions. This analytic model explains several non-linear phenomena in the operation of the walking motor within the full bandwidth of its rated operation.
+Non-linear influences due to the impact dynamics of the legs, ferroelectric hysteresis and friction are identified in the motor and new insights for an improved motor design as well as an improved motor-drive strategy gained. Moreover, the analytic model finds its application in a theoretical investigation of an alternative motor-drive strategy which is based on findings in insect walking. Specifically, it is shown that the performance of the motor can be improved by a half in terms of its force generation and doubled in terms of its maximal velocity, as compared to classical drive approaches, if the bioinspired drive strategy as proposed in this work is used.
+
+The second model is based on an experimental approach and system identification. Although less general, the second model is well-suited for a practical application in a force-control scenario. In particular, the experimental model is used in this work for the development of a load compensation strategy based on force feedback which restores the linearity of motor operation for moderate levels of loading. Based on the linearized motor model, a force controller is developed whose performance is evaluated both theoretically and experimentally.
+The developed force controller is also used in a bioinspired control scenario. Specifically, two walking motors together with their force controllers are employed in a 1-DOF antagonistic joint as force generators. The motors are supposed to partially mimic the functionality of a muscle based on the non-linear force-length relation as derived by Hill. A simple positioning task shows the feasibility of this kind of non-standard application of a piezoelectric motor.
+
+Beside the development of motor models and bioinspired control approaches, this work addresses the issue of drive-signal generation for the walking motor. Specifically, the development of motor-drive electronics is presented which supersedes the commercially available products due to its compactness and the possibility of waveform generation at much higher drive frequencies, above 50 kHz, as compared to the nominal limit of 3 kHz and commercial products. In this context, the possibility of motor operation at ultrasonic frequencies is discussed which would benefit the motor in terms of its speed and the absence of audible noises.</abstract>
+                    <subject>
+                        <topic>load compensation</topic>
+                        <topic>force control</topic>
+                        <topic>bioinspired control</topic>
+                        <topic>piezoelectric motor</topic>
+                        <topic>dynamic model</topic>
+                        <topic>virtual muscle</topic>
+                        <topic>antagonistic joint</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26563666</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2656366</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2656366">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2656366/2656367/Szufnarowski_Dissertation_web.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2656366" DMDID="DMD2656366">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2656366"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

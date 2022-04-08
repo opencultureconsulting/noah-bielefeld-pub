@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2017291">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Vocal Sonification of Pathologic EEG Features</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerold</namePart>
+                        <namePart type="family">Baier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Stephani</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tony</namePart>
+                        <namePart type="family">Stockman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">&lt;center&gt;&lt;img
+src=&quot;https://pub.uni-bielefeld.de/download/2017291/2920031&quot;
+width=&quot;300&quot; style=&quot;float:right;&quot; &gt;&lt;/center&gt;
+We introduce a novel approach in EEG data sonification for process monitoring and exploratory as well as comparative data analysis. The approach uses an excitory/articulatory speech model and a particularly selected parameter mapping to obtain auditory gestalts (or auditory objects) that correspond to features in the multivariate signals. The sonification is adaptable to patient-specific data patterns, so that only characteristic deviations from background behavior (pathologic features) are involved in the sonification rendering. Thus the approach combines data mining techniques and case-dependent sonification design to give an application-specific solution with high potential for clinical use. We explain the sonification technique in detail and present sound examples from clinical data sets.</abstract>
+                    <subject>
+                        <topic>thermann</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">0-902-23821-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20172912</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2017291</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2017291">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017291/2760905/HermannBaierStephaniRitter2006-VSO.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="image/png" ID="FILE1_bielefeld_pub_2017291">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2017291/2920031/VocalEEGSon.png" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2017291" DMDID="DMD2017291">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2017291"/>
+            <mets:div TYPE="part" ID="PART1_2017291" LABEL="VocalEEGSon.png">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2017291"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

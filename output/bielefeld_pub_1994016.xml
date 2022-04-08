@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1994016">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Advanced metric adaptation in Generalized LVQ for classification of mass spectrometry data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Biehl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank-Michael</namePart>
+                        <namePart type="family">Schleif</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7539-1283</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Metric adaptation constitutes a powerful approach to improve the performance of prototype based classication schemes. We apply extensions of Generalized LVQ based on different adaptive distance measures in the domain of clinical proteomics. The Euclidean distance in GLVQ is extended by adaptive relevance vectors and matrices of global or local influence where training follows a stochastic gradient descent on an appropriate error function. We compare the performance of the resulting learning algorithms for the classification of high dimensional mass spectrometry data from cancer research. High prediction accuracies can be obtained by adapting full matrices of relevance factors in the distance measure in order to adjust the metric to the underlying data structure. The easy interpretability of the resulting models after training of relevance vectors allows to identify discriminative features in the original spectra.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-3-00-022473-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19940162</identifier>
+                    <identifier type="doi">10.2390/biecoll-wsom2007-135</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1994016</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1994016">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1994016/2956454/261-Artikeltext-351-1-10-20190603.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1994016" DMDID="DMD1994016">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1994016"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

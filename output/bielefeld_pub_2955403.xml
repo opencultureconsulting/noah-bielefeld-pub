@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2955403">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Block-Wise Model Fit for Structural Equation Models with Experience Sampling Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julia</namePart>
+                        <namePart type="family">Norget</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3388-8873</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Columbus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Mayer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Structural equation models with intensive longitudinal data quickly become very extensive – with numerous manifest variables and parameters to be estimated. The evaluation of structural equation models relies on fit indices such as χ², CFI, TLI or RMSEA and rules of thumb when these indices imply that the data fit the model well enough. Those rules of thumb (or cut-off values) are derived from simulation studies with much smaller models, such as Hu &amp; Bentler (1999) who used models with 15 manifest variables loading on three latent constructs. However, with more variables in the model, the χ² estimate is inflated, CFI and TLI tend to worsen, while RMSEA tends to improve (Kenny &amp; McCoach, 2003). Consequently, relying on common cut-off values for structural equation models with intensive longitudinal data will likely lead more often to the rejection of models that should be acceptable.
+
+Therefore, we want to show alternative ways to evaluate model fit for large structural equation models with intensive longitudinal data. More precisely, we first suggest block-wise model fit assessment. The model-implied covariance matrix and model parameters are estimated based on the entire model. Subsequently, fit indices are calculated based on smaller blocks (e.g. days in experience sampling data) of the covariance matrix. Additionally, a simulation study is conducted to investigate how fit indices behave differently in large structural equation (latent-state-trait) models with experience sampling data compared to smaller models. The structural equation model used for the simulation study is based on the same real-data example where data was collected seven times a day on seven days. We compare how fit indices change in the simulated data for two model sizes: a smaller model for two days (28 manifest variables) and a large model for all seven days (98 manifest variables). We also compare different sample sizes and different types and degrees of misspecification (no misspecification, correlated errors within blocks, correlated errors between blocks, structural misspecification). We manage to replicate the bias of common fit indices in large models, and can show that block-wise indices to not follow this bias.</abstract>
+                    <subject>
+                        <topic>SEM</topic>
+                        <topic>fit evaluation</topic>
+                        <topic>intensive longitudinal data</topic>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29554033</identifier>
+                    <identifier type="doi">10.23668/psycharchives.4814</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2955403</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2955403">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2955403/2955405/presentation_Blockwise-fit_05-2021.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2955403" DMDID="DMD2955403">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2955403"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

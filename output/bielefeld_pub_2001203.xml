@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2001203">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>3D Scene Segmentation and Object Tracking in Multiocular Image Sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Joachim</namePart>
+                        <namePart type="family">Schmidt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Wöhler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Krüger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tobias</namePart>
+                        <namePart type="family">Gövert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Hermes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this contribution we describe a vision-based system for the 3D detection and tracking of moving persons and objects in complex scenes. A 3D point cloud of the scene is extracted by a combined stereo technique consisting of a correlation-based block-matching approach and a spacetime stereo approach based on spatio-temporally local intensity modelling, resulting in a 3D point cloud attributed with motion information. For localising persons and objects in the scene the point cloud is segmented into clusters by applying a hierarchical clustering algorithm, using velocity information as an additional discrimination criterion. Initial object hypotheses are obtained by partitioning the observed scene with cylinders, including the tracking results of the previous frame. Multidimensional unconstrained nonlinear minimisation is then applied to refine the initial object hypotheses, such that neighbouring clusters with similar velocity vectors are grouped to form a compact object. A particle filter is applied to select hypotheses which generate consistent trajectories. The described system is evaluated based on real-world sequences acquired in an industrial production environment and from a tabletop scene, using manually obtained ground truth data. We find that even in the presence of moving objects closely neighbouring the person, all objects are detected and tracked in a robust and stable manner. The average tracking accuracy is of the order of several percent of the distance to the scene.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-3-00-020933-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20012030</identifier>
+                    <identifier type="doi">10.2390/biecoll-icvs2007-95</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2001203</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2001203">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2001203/2956945/168-Artikeltext-258-1-10-20190603_neu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2001203" DMDID="DMD2001203">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2001203"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

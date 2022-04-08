@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computerkommunikation im Intranet : Aspekte und Interaktionsbedingungen computerunterstützter Gespräche am Beispiel von CSILE</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Horsmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Werner</namePart>
+                        <namePart type="family">Kummer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-02-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Intranets gewinnen langsam ihre Bedeutung. Das hängt damit zusammen, dass sich mit Intranets zum Teil sehr individuelle und eigenständige Kommunikationsformen entwickeln lassen. In dieser Arbeit geht es um benutzerbegrenzte, proprietäre Intranets, die insbesondere für das Kommunizieren und das Lernen eingesetzt werden. Diese &quot;abgeschlossenen&quot; Netzwerke sind zum Teil über das Internet zu erreichen, da sie weitestgehend auf Internet-Technologie basieren. Es gibt aber auch Intranets, die über eine eigene Kommunikationsstruktur verfügen und mit einer eigenen Datenbank-Technologie &quot;groß&quot; geworden sind. CSILE (Computer Supported Intentional Learning Environment) wäre ein Beispiel für ein gelungenes Intranet für die Wissenskommunikation. Das Wort intentional deutet es schon an: Es geht im Intranet CSILE um das Kommunizieren und Lernen mit einer Zielvorstellung, mit einer bestimmten Absicht in Form von metakognitiven Einzelschritten. Diese Kommunikationsprozesse werde ich anhand computerunterstützter schriftlicher Daten beleuchten und die Organisation von Wissen durch bestimmte computerunterstützte Kommunikationsarchitekturen bzw. Kommunikationsmuster innerhalb dieser Architekturen darstellen. Dazu möchte ich eine Grund- und Basisthese einführen, die diese Arbeit begleiten soll und den Erkenntnisgegenstand sowie meine linguistische Perspektive verdeutlicht bzw. konkretisiert: &quot;Lernen um zu kommunizieren, kommunizieren um zu lernen.&quot;</abstract>
+                    <subject>
+                        <topic>Computerunterstützte Kommunikation , Intranet , Computer Supported Cooperative Work , Computerunterstützter Unterricht , Computerkommunikation , Intranet , Lernen , CSILE ,</topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1602</identifier>
+                    <identifier type="sys">HT014238062</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE0_bielefeld_pub_2301503">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301503/2301506/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2301503">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301503/2301507/deckblatt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2301503">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301503/2301508/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301503" DMDID="DMD2301503">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301503"/>
+            <mets:div TYPE="part" ID="PART1_2301503" LABEL="deckblatt.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2301503"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2301503" LABEL="diss.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2301503"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

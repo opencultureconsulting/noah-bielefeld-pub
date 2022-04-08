@@ -1,0 +1,113 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945542">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>From Geometries to Contact Graphs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Meier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Igor</namePart>
+                        <namePart type="family">Farkas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Paolo</namePart>
+                        <namePart type="family">Masulli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Wermter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">When a robot perceives its environment, it is not only important to know what kind of objects are present in it, but also
+how they relate to each other. For example in a cleanup task in a cluttered environment, a sensible 
+strategy is to pick the objects with the least contacts to other objects first, to minimize the chance of unwanted
+movements not related to the current picking action. Estimating object contacts
+in cluttered scenes only based on passive observation is a complex problem.
+To tackle this problem, we present a deep neural network that learns physically stable object relations directly
+from geometric features. The learned relations are encoded as contact graphs between the objects. To facilitate
+training of the network, we generated a rich, publicly available dataset consisting of more than 25000 unique contact scenes,
+by utilizing a physics simulation. Different deep architectures have been evaluated and the final
+architecture, which shows good results in reconstructing contact graphs, is evaluated quantitatively and qualitatively.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Artificial Neural Networks and Machine Learning – ICANN 2020. Proceedings. Part II</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12397</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>546</start>
+                                <end>555</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-030-61615-1</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29455427</identifier>
+                    <identifier type="doi">10.1007/978-3-030-61616-8_44</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945542</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945542">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945542/2950675/icann2020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945542" DMDID="DMD2945542">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945542"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

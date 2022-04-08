@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2954840</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Ilja</namePart>
+  <namePart type="family">Arent</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Florian Paul</namePart>
+  <namePart type="family">Schmidt</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">5504453</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-5126-723X</description></name>
+<name type="personal">
+  <namePart type="given">Mario</namePart>
+  <namePart type="family">Botsch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">8250658</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-9954-120X</description></name>
+<name type="personal">
+  <namePart type="given">Volker</namePart>
+  <namePart type="family">Dürr</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">21971</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-9239-4964</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2685507</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Motion capture of unrestrained moving animals is a major analytic tool in neuroethology and behavioral physiology. At present, several motion capture methodologies have been developed, all of which have particular limitations regarding experimental application. Whereas marker-based motion capture systems are very robust and easily adjusted to suit different setups, tracked species, or body parts, they cannot be applied in experimental situations where markers obstruct the natural behavior (e.g., when tracking delicate, elastic, and/or sensitive body structures). On the other hand, marker-less motion capture systems typically require setup- and animal-specific adjustments, for example by means of tailored image processing, decision heuristics, and/or machine learning of specific sample data. Among the latter, deep-learning approaches have become very popular because of their applicability to virtually any sample of video data. Nevertheless, concise evaluation of their training requirements has rarely been done, particularly with regard to the transfer of trained networks from one application to another. To address this issue, the present study uses insect locomotion as a showcase example for systematic evaluation of variation and augmentation of the training data. For that, we use artificially generated video sequences with known combinations of observed, real animal postures and randomized body position, orientation, and size. Moreover, we evaluate the generalization ability of networks that have been pre-trained on synthetic videos to video recordings of real walking insects, and estimate the benefit in terms of reduced requirement for manual annotation. We show that tracking performance is affected only little by scaling factors ranging from 0.5 to 1.5. As expected from convolutional networks, the translation of the animal has no effect. On the other hand, we show that sufficient variation of rotation in the training data is essential for performance, and make concise suggestions about how much variation is required. Our results on transfer from synthetic to real videos show that pre-training reduces the amount of necessary manual annotation by about 50%. Copyright © 2021 Arent, Schmidt, Botsch and Durr.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fnbeh-15-637806.pdf">https://pub.uni-bielefeld.de/download/2954840/2955031/fnbeh-15-637806.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Research Foundation</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>insect locomotion</topic><topic>machine learning</topic><topic>behavioral analysis</topic><topic>marker-less motion capture</topic><topic>deep neural network</topic><topic>motion tracking</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in behavioral neuroscience</title></titleInfo>
+  <identifier type="eIssn">1662-5153</identifier>
+  <identifier type="MEDLINE">33967713</identifier>
+  <identifier type="ISI">000647442300001</identifier><identifier type="urn">urn:nbn:de:0070-pub-29548400</identifier><identifier type="doi">10.3389/fnbeh.2021.637806</identifier>
+<part><detail type="volume"><number>15</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Arent, Ilja, Schmidt, Florian Paul, Botsch, Mario, and Dürr, Volker. 2021. “Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos”. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt; 15: 637806.&lt;/div&gt;</chicago>
+<lncs> Arent, I., Schmidt, F.P., Botsch, M., Dürr, V.: Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. Frontiers in behavioral neuroscience. 15, : 637806 (2021).</lncs>
+<default>Arent I, Schmidt FP, Botsch M, Dürr V (2021) &lt;br /&gt;&lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt; 15: 637806.</default>
+<mla>Arent, Ilja, Schmidt, Florian Paul, Botsch, Mario, and Dürr, Volker. “Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos”. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt; 15 (2021): 637806.</mla>
+<frontiers>Arent, I., Schmidt, F. P., Botsch, M., and Dürr, V. (2021). Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt; 15:637806.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Arent, I., Schmidt, F.P., Botsch, M. &amp;amp; Dürr, V. (2021). Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;: 637806. Frontiers Research Foundation. doi:10.3389/fnbeh.2021.637806.&lt;/div&gt;</dgps>
+<ama>Arent I, Schmidt FP, Botsch M, Dürr V. Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;. 2021;15: 637806.</ama>
+<ieee> I. Arent, et al., “Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos”, &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;,  vol. 15, 2021, : 637806.</ieee>
+<apa>Arent, I., Schmidt, F. P., Botsch, M., &amp;amp; Dürr, V. (2021). Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;, 637806. &lt;a href="https://doi.org/10.3389/fnbeh.2021.637806" target="_blank"&gt;https://doi.org/10.3389/fnbeh.2021.637806&lt;/a&gt;</apa>
+<wels>Arent, I.; Schmidt, F. P.; Botsch, M.; Dürr, V. (2021): Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;,15:637806</wels>
+<angewandte-chemie>I.  Arent, F. P.  Schmidt, M.  Botsch, and V.  Dürr, “Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos”, &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;, &lt;strong&gt;2021&lt;/strong&gt;, &lt;em&gt;15&lt;/em&gt;, : 637806.</angewandte-chemie>
+<harvard1>Arent, I., et al., 2021. Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;, 15: 637806.</harvard1>
+<bio1>Arent I, Schmidt FP, Botsch M, Dürr V (2021) &lt;br /&gt;Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos.&lt;br /&gt;Frontiers in behavioral neuroscience 15: 637806.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Arent, I., Schmidt, F. P., Botsch, M., &amp;amp; Dürr, V. (2021). Marker-Less Motion Capture of Insect Locomotion With Deep Neural Networks Pre-trained on Synthetic Videos. &lt;em&gt;Frontiers in behavioral neuroscience&lt;/em&gt;, &lt;em&gt;15&lt;/em&gt;, 637806. &lt;a href="https://doi.org/10.3389/fnbeh.2021.637806" target="_blank"&gt;https://doi.org/10.3389/fnbeh.2021.637806&lt;/a&gt;&lt;/div&gt;</apa_indent>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2954840</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-05-17T08:17:57Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-12-17T07:56:28Z</recordChangeDate>
+</recordInfo>
+</mods>

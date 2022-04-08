@@ -1,0 +1,101 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2304908</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Gene finding and the evaluation of synonymous codon usage features in microbial genomes</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Alice Carolyn</namePart>
+  <namePart type="family">McHardy</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Diese Arbeit befasst sich mit der Vorhersage von Genen, von Genexpressionsraten und der Detektion und Charakterisierung von horizontal transferierten Genregionen in mikrobiellen Genomen. Diese Themen sind sowohl für die Annotation als auch für weiterführende, experimentelle Analysen eines Organismus von Bedeutung. Teile der Arbeit wurden bereits in verschiedenen Fachzeitschriften veröffentlicht. Der Inhalt von Kapitel 1 wird in diesem Jahr in Bioinformatics erscheinen, Kapitel 3 wurde in der ersten Ausgabe von Proteomics in 2004 veröffentlicht. Die Implementierung einer Genvorhersagekomponente für das Annotationssystem GenDB wird in der Veröffentlichung über das Annotationssystem in Nucleic Acids Research (April 2003) beschrieben. Im Folgenden werden die Ziele und Themen dieser Arbeit genauer beschrieben.
+Im ersten Kapitel wird die Entwicklung von Genvorhersage-Strategien für mikrobielle Genome, basierend auf den häufig verwendeten Programmen Glimmer und Critica, beschrieben. Aufgrund der Vielzahl von laufenden Genomprojekten verschiedener Organismen wird es zunehmend wichtiger, ein performantes Verfahren für diese Aufgabe zu haben. Hierzu wurde ursprünglich die Performanz der beiden Programme auf einem Datensatz von 114 prokaryotischen Genomsequenzen evaluiert. Anschließend wurden kombinierte Vorhersagestrategien entwickelt, die eine signifikante Performanz-Verbesserung aufweisen. Dies ist besonders für GC-reiche Genome der Fall. Die Methoden werden zur Zeit bereits in mehreren mikrobiellen Genomprojekten angewandt.
+Der zweite Teil der Arbeit beschäftigt sich mit der Evaluierung des synonymen Codongebrauchs in den Kodierregionen prokaryotischer Genome. Zur Klassifikation anhand von Eigenschaften des Codongebrauchs wird ein neues, auf log-odds ratio scores basierendes Verfahren eingeführt, welches einige vorteilhafte Eigenschaften besitzt. In Kapitel 2 wird das Verfahren und dessen Implementierung in dem Program CoBias beschrieben. 
+In Kapitel 3 wird das Verfahren angewendet, um Genexpressionsraten anhand von Expressionlevel-abhängigen Eigenschaften des Codongebrauchs vorherzusagen. Durch einen Vergleich mit Daten aus zwei Proteomstudien wird die implizite Annahme der Vorgehensweise untersucht und bestätigt. Es wird gezeigt, wie die Ergebnisse der Methode sich verwenden lassen, um die 'in silico' Simulation von 2-dimensionalen Gelelektrophoreseexperimenten zu verbessern.
+Im vierten Kapitel wird das Verfahren angewendet, um, basierend auf Unterschieden im synonymen Codongebrauch zwischen mikrobiellen Genomen, horizontal transferierte Gene zu erkennen und einen möglichen Donor für diese vorherzusagen. Die Vorhersage eines Donors ist eine Neuerung gegenüber anderen Methoden, die horizontal transferierte Gene anhand ihrer atypischen Sequenz-Zusammensetzung detektierten. Eine Evaluation des Ansatzes wird für das Genom des hyperthermophilen Bakteriums Thermotoga maritima durchgeführt, welches Genregionen von vermutlich archaebakteriellem Ursprung enthält. Die mit der neuen Methode gefundenen Ergebnisse stehen im Einklang mit den Ergebnissen von früheren phylogenetischen und strukturellen Analysen des Genomes und liefern weiteres, unabhängiges Beweismaterial für den archaebakteriellen Ursprung von Teilen des T. maritima Genoms.</abstract>
+<abstract lang="eng">This work deals with the prediction of genes, gene expression rates and the detection and characterization of horizontally aquired gene regions in microbial genomes. These topics are of relevance for genome annotation and for further experimental studies of the organism. The content of chapter 1 will appear in Bionformatics later this year, chapter 3 has been published in the first issue of Proteomics in 2004. The implementation of the gene prediction component of the GenDB genome annotation system (chapter 5) is described in the publication on GenDB which appeared in Nucleic Acids Research in April, 2003. In the following, the aims and topics of this work are explained in more detail.
+Chapter 1 describes the development of joint gene finding strategies for microbial genomes which combine the strengths of the commonly used Glimmer and Critica programs. A large number of genome projects have either recently been finished or are currently underway, and it is becoming increasingly important to have performant methods for this task. Initially, the gene finding performance of the two programs was evaluated for a data set of 114 prokaryotic genome sequences belonging to a wide variety of microbial organisms. Subsequently, joint application strategies were optimized in performance, using different parameters with relevance to the gene finding problem. The resulting combined methods are significantly improved in performance, especially for GC-rich genomes. They are already being applied in several microbial genome projects.
+The second part focuses on the evaluation of synonymous codon usage features of prokaryotic coding sequences. For classification based on such features, a novel method of log-odds ratio scoring is introduced, which has several favorable properties. Chapter 2 contains a description of the method and its implementation in the CoBias program. 
+In chapter 3, the novel method is applied to the prediction of highly expressed genes and for estimation of gene expression levels. The implicit assumption is that expression level-dependent features in codon usage can be taken as estimates of protein expression rates. This is supported by a comparison with data on protein abundance from the Escherichia coli and Bacillus subtilis exponential growth phase. It is finally demonstrated how the results can be used for 'predictive proteomics' - to improve the in silico simulation of 2-dimensional gel electrophoretic experiments.
+In chapter 4, the method is used for the detection of horizontally transferred genes contained in contemporary microbial genomes and the inference of a putative donor species. The method allows the inference of a potential donor genome based on genome-specific sequence properties, which is an innovation compared to existing methods. An in detail evaluation is performed for the genome of bacterial hyperthermophile Thermotoga maritima, which presumably contains regions of archaebacterial origin. The results found with the new method agree well with the results of previous phylogenetic and structural analyses of the genome and give additional, independent support for the archaebacterial origin of parts of the T. maritima genome.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="d.pdf">https://pub.uni-bielefeld.de/download/2304908/2304911/d.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Mikroorganismus</topic><topic>Genanalyse</topic><topic>Genexpression</topic><topic>Prokaryonten</topic><topic>Genom</topic><topic>Codon</topic><topic>Genomforschung</topic><topic>Genvorhersage</topic><topic>Horizontaler Gentransfer</topic><topic>Genexpressionsraten</topic><topic>Codongebrauch</topic><topic>Gene identification</topic><topic>Codon usage</topic><topic>Horizontal gene transfer</topic><topic>Gene expression rates</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-4988</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2004-03-11</dateOther>
+<extension>
+<bibliographicCitation>
+<default>McHardy AC (2004) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>McHardy, Alice Carolyn. &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2004.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;McHardy, Alice Carolyn. 2004. &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> McHardy, A.C.: Gene finding and the evaluation of synonymous codon usage features in microbial genomes. Bielefeld University, Bielefeld (Germany) (2004).</lncs>
+<ieee> A.C. McHardy, &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2004.</ieee>
+<apa>McHardy, A. C. (2004).  &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>McHardy, A. C. (2004). Gene finding and the evaluation of synonymous codon usage features in microbial genomes. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;McHardy, A.C. (2004). &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>McHardy AC. &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2004.</ama>
+<angewandte-chemie>A. C.  McHardy, &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>McHardy, A.C., 2004. &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>McHardy AC (2004) &lt;br /&gt;&lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;McHardy, A. C. (2004).  &lt;em&gt;Gene finding and the evaluation of synonymous codon usage features in microbial genomes&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<wels>McHardy, A. C. (2004): Gene finding and the evaluation of synonymous codon usage features in microbial genomes. Bielefeld (Germany): Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2304908</recordIdentifier><recordCreationDate encoding="w3cdtf">2004-03-17T10:34:18Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:55Z</recordChangeDate>
+</recordInfo>
+</mods>

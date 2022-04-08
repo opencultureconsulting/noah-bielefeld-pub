@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301332</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Interaktive Verhaltenssteuerung für Robot Companions</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Marcus</namePart>
+  <namePart type="family">Kleinehagenbrock</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jannik</namePart>
+  
+  
+  <namePart type="family">Fritsch</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Das Bestreben in der Robotikforschung, Roboter zu entwickeln, die dem Menschen gewisse Dienste erweisen, ist nach wie vor ungebrochen. Dabei konzentriert sich die aktuelle Entwicklung zunehmend auf den Privatgebrauch: Es ist das Ziel, persönliche Roboter zu entwickeln, die in Zukunft mit Menschen, einem Kameraden ähnlich, das Zuhause teilen können. Damit Menschen geneigt sind, sich einen solchen Robot Companion zuzulegen, muss er nützlich und einfach zugänglich sein. Somit sind einerseits Fähigkeiten, wie z.B. "Tisch abräumen" und "Blumen gießen", zu realisieren. Andererseits sind die wenigsten Menschen Experten für Robotik. Daher sollte der Roboter intuitiv bedienbar sein, so dass ein natürlicher Umgang zwischen Mensch und Robot Companion entsteht. Folglich muss der Roboter Dialoge in natürlicher Sprache führen können und Zeigegesten erkennen. Da solche Interaktionen in Privatwohnungen stattfinden, kann der Roboter weder die Umgebung noch alle dort denkbaren Gegenstände im Voraus kennen. Somit muss er dieses Wissen erlernen, um es in weiteren Interaktionen nutzen zu können.
+Um diese Herausforderungen zu lösen, war es ein Ziel dieser Arbeit, eine Software-Architektur für Robot Companions zu entwickeln. Das Konzept der Architektur sollte möglichst flexibel und erweiterbar sein, um diverse Interaktionsfähigkeiten integrieren zu können. Als weiteres Ziel sollte die Basis zur Interaktion mit Menschen geschaffen werden. Dazu wurde ein neuartiges multimodales Personen-Tracking entwickelt, das mit weiteren Interaktionsmodulen in der realisierten Architektur zu integrieren war.
+Das entwickelte Personen-Tracking ist multimodal, da es Daten von drei verschiedenen Sensorsystemen verarbeitet, um vor dem Roboter anwesende Personen robust zu verfolgen. Zur Sensordatenfusion wurde das "Multimodale Anchoring" entwickelt. Dieser neuartige Ansatz erlaubt es, gleichzeitig mehrere Personen anhand ihrer Gesichter, Oberkörper, Stimmen und Beine zu verfolgen, und sie auch voneinander zu unterscheiden. Somit kann eine Person bevorzugt betrachtet werden, indem die Sensoren auf sie gerichtet werden. Durch zugehörige Experimente wird die Leistungsfähigkeit des multimodalen Verfahrens belegt.
+Neben dem Personen-Tracking werden jeweils eine Aufmerksamkeitssteuerung für Personen und Objekte und eine Dialogsteuerung vorgestellt. Diese Module sind im Rahmen anderer Promotionsvorhaben entwickelt worden und es galt, sie ebenfalls im Gesamtsystem zu integrieren. Die Aufmerksamkeitssteuerung für Personen setzt auf dem Personen-Tracking auf und bestimmt den Interaktionspartner des Roboters. Zur sprachlichen Kommunikation mit dem Benutzer ist die Dialogsteuerung verantwortlich. Für das Erfassen von zu lernenden Gegenständen dient die Aufmerksamkeitssteuerung für Objekte, die sprachliche und gestische Informationen kombiniert.
+Zur Entwicklung der Software-Architektur wurden Architekturen bestehender Robotersysteme untersucht und funktionale und strukturelle Anforderungen an einen Robot Companion formuliert. Das daraus entwickelte Architekturkonzept ist eine besonders flexible Drei-Ebenen-Architektur, die zur Koordination des Systems einen zentralen "Execution Supervisor" (ESV) besitzt und per XML kommuniziert. Der ESV empfängt von angebundenen Modulen Nachrichten, die Aktionen auslösen, wie z.B. das Weiterleiten von Daten an andere Module und das Rekonfigurieren des Systems. Dieses Konzept wurde schließlich für den Roboter BIRON umgesetzt. Dabei wurde der ESV so implementiert, dass er äußerst generisch ist: Um ihn zu modifizieren, muss nur eine Konfigurationsdatei angepasst werden, die ebenfalls in XML spezifiziert ist. Die Kommunikation basiert dabei auf dem "XML enabled Communication Framework" und ist somit äußerst transparent.
+Außerdem wurden Benutzerexperimente mit BIRON durchgeführt, wobei dessen Interaktionsfähigkeiten als recht natürlich eingestuft wurden. Da für eine flüssige Interaktion das System nicht zu langsam reagieren darf, wurden auch gewisse Zeitmessungen vorgenommen. Diese zeigen, dass der Zeitaufwand, der durch die Architektur verursacht wird, im Vergleich zu den Berechnungen der integrierten Module gering ist und somit eine flüssige Interaktion erlaubt. Das System wurde außerdem auf der IST 2004 in Den Haag präsentiert, wo zwei BIRONs an drei Tagen insgesamt 24 Stunden lang erfolgreich präsentiert wurden.
+Folglich bietet das präsentierte Architekturkonzept eine hervorragende Basis zur Entwicklung von Robot Companions. Durch die Integration der vorgestellten Modulen ergibt sich bereits ein grundlegendes System zur natürlichen Mensch-Roboter-Interaktion. Da es auf Erweiterbarkeit ausgelegt ist, können andere Funktionalitäten einfach hinzugefügt werden. Diese Generizität wird insbesondere durch XML ermöglicht. XML wird zur Konfiguration des ESV und zur Kommunikation mit den angebundenen Modulen verwendet. Nur so kann das bereits umfangreiche System auch in Zukunft noch umfangreich erweitert werden.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="kleinehagenbrock.pdf">https://pub.uni-bielefeld.de/download/2301332/2301335/kleinehagenbrock.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Person tracking</topic><topic>Human-robot interaction</topic><topic>Mensch-Roboter-Interaktion</topic><topic>Mensch-Maschine-Kommunikation</topic><topic>Robot architecture</topic><topic>Mobile service robot</topic><topic>Systemintegration</topic><topic>Roboterarchitektur</topic><topic>Mobiler Serviceroboter</topic><topic>Personen-Tracking</topic><topic>System integration</topic><topic>Multimodales System</topic><topic>Serviceroboter</topic><topic>Person</topic><topic>Bilderkennung</topic><topic>Lokalisation</topic><topic>Objektverfolgung</topic><topic>Multisensor</topic><topic>Datenfusion</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-6849</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-04-27</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kleinehagenbrock, Marcus. 2004. &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Kleinehagenbrock, M.: Interaktive Verhaltenssteuerung für Robot Companions. Bielefeld University, Bielefeld (Germany) (2004).</lncs>
+<default>Kleinehagenbrock M (2004) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Kleinehagenbrock, Marcus. &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2004.</mla>
+<frontiers>Kleinehagenbrock, M. (2004). Interaktive Verhaltenssteuerung für Robot Companions. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kleinehagenbrock, M. (2004). &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Kleinehagenbrock M. &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2004.</ama>
+<ieee> M. Kleinehagenbrock, &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2004.</ieee>
+<apa>Kleinehagenbrock, M. (2004).  &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<wels>Kleinehagenbrock, M. (2004): Interaktive Verhaltenssteuerung für Robot Companions. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>M.  Kleinehagenbrock, &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Kleinehagenbrock, M., 2004. &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Kleinehagenbrock M (2004) &lt;br /&gt;&lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kleinehagenbrock, M. (2004).  &lt;em&gt;Interaktive Verhaltenssteuerung für Robot Companions&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301332</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-05-30T11:29:47Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:13Z</recordChangeDate>
+</recordInfo>
+</mods>

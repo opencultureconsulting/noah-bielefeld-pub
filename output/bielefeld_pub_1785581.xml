@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1785581">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>WAMI: a web server for the analysis of minisatellite maps</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mohamed</namePart>
+                        <namePart type="family">Abouelhoda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mohamed</namePart>
+                        <namePart type="family">El-Kalioby</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background Minisatellites are genomic loci composed of tandem arrays of short repetitive DNA segments. A minisatellite map is a sequence of symbols that represents the tandem repeat array such that the set of symbols is in one-to-one correspondence with the set of distinct repeats. Due to variations in repeat type and organization as well as copy number, the minisatellite maps have been widely used in forensic and population studies. In either domain, researchers need to compare the set of maps to each other, to build phylogenetic trees, to spot structural variations, and to study duplication dynamics. Efficient algorithms for these tasks are required to carry them out reliably and in reasonable time.  Results In this paper we present WAMI, a web-server for the analysis of minisatellite maps. It performs the above mentioned computational tasks using efficient algorithms that take the model of map evolution into account. The WAMI interface is easy to use and the results of each analysis task are visualized.  Conclusions To the best of our knowledge, WAMI is the first server providing all these computational facilities to the minisatellite community. The WAMI web-interface and the source code of the underlying programs are available at http://www.nubios.nileu.edu.eg/tools/wami</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Evolutionary Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2148</identifier>
+                    <identifier type="MEDLINE">20525398</identifier>
+                    <identifier type="ISI">000279830900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17855817</identifier>
+                    <identifier type="doi">10.1186/1471-2148-10-167</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1785581</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1785581">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1785581/2314992/WAMI.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1785581" DMDID="DMD1785581">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1785581"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

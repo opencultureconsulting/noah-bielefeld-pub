@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304410">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Visual navigation of a virtual blowfly</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5441-7931</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-03-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Blowflies are acrobatic flyers controlling their flight path mainly on the basis of visual motion information. Modelling the motion pathway in the fly visual system and closing the control loop to behaviour is the topic of this thesis.
+Like many other animals, the blowfly exploits the optic flow, a characteristic pattern of image movements on the eye, as an important source of information. The neuronal circuits analysing these image movements in the brain of blowflies are well known. This thesis presents a detailed algorithmic model for this neuronal module of the fly and shows that this model is capable of quantitatively reproducing the responses of an exemplary output neuron to behaviourally relevant stimulation.
+Based on the responses of this neuron, a simple controller is shown to be able to control the flight direction of a virtual fly simulated in a closed control loop. The ability of this simulated system to avoid the walls of the virtual environment is analysed under different assumptions on the physical constraints.
+The simulation system is based on behavioural analysis of the fly as well as on electrophysiological studies of the sensory neuronal elements. In addition to the simulation this thesis presents different contributions to the experimental analysis of the blowfly neuronal system. A software tool for the analysis of video recorded behavioural experiments is described and a new technical device for the panoramic presentation of computer generated image sequences to blowflies is introduced.
+This thesis presents contributions to the attempt to mimic the fly orientation behaviour and flight control in an artificial system. Building such a virtual fly is interesting on the one hand for biological research as a test-bed for hypotheses on the computational structure of the fly neuronal system, and on the other hand for engineers constructing autonomous robots as a source of more inspiration.</abstract>
+                    <subject>
+                        <topic>Blowfly</topic>
+                        <topic>Visual stimulation</topic>
+                        <topic>Model simulation</topic>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Visuelle Stimulation</topic>
+                        <topic>Computersimulation</topic>
+                        <topic>Neuroethologie</topic>
+                        <topic>Orientierungsverhalten</topic>
+                        <topic>Goldfliege</topic>
+                        <topic>Bewegungssehen</topic>
+                        <topic>Motion vision</topic>
+                        <topic>Orientation behaviour</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-8975</identifier>
+                    <identifier type="sys">HT014800557</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304410</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304410">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304410/2304413/thesis_lindemann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304410" DMDID="DMD2304410">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304410"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2634578">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Talking topically to artificial dialog partners: Emulating humanlike topic awareness in a virtual agent</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexa</namePart>
+                        <namePart type="family">Breuing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joaquim</namePart>
+                        <namePart type="family">Filipe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ana</namePart>
+                        <namePart type="family">Fred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">During dialog, humans are able to track ongoing topics, to detect topical shifts, to refer to topics via labels, and to decide on the appropriateness of potential dialog topics. As a result, they interactionally produce coherent sequences of spoken utterances assigning a thematic structure to the whole conversation. Accordingly, an artificial agent that is intended to engage in natural and sophisticated human-agent dialogs should be endowed with similar conversational abilities. This paper presents how to enable topically coherent conversations between humans and interactive systems by emulating humanlike topic awareness in the virtual agent Max. Therefore, we firstly realized automatic topic detection and tracking on the basis of contextual knowledge provided by Wikipedia and secondly adapted the agent’s conversational behavior by means of the gained topic information. As a result, we contribute to improve human-agent dialogs by enabling topical talk between human and artificial interlocutors. This paper is a revised and extended version of A. Breuing and I. Wachsmuth. Let’s talk topically with artificial agents! providing agents with humanlike topic awareness in everyday dialog situations. In Proceedings of the 4th International Conference on Agents and Artificial Intelligence (ICAART), pages 62–71, 2012.</abstract>
+                    <subject>
+                        <topic>automatic topic awareness</topic>
+                        <topic>embodied conversational agents</topic>
+                        <topic>human- agent interaction</topic>
+                        <topic>topic detection and tracking</topic>
+                        <topic>Wikipedia</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Agents and Artificial Intelligence: 4th International Conference, ICAART 2012, Vilamoura, Portugal, February 6-8, 2012. Revised Selected Papers</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>358</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>392</start>
+                                <end>406</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">978-3-642-36906-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26345785</identifier>
+                    <identifier type="doi">10.1007/978-3-642-36907-0_26</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2634578</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2634578">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2634578/2634597/BreuingWachsmuth_Springer2012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2634578" DMDID="DMD2634578">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2634578"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

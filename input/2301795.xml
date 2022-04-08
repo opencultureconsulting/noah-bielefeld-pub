@@ -1,0 +1,105 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2301795</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:800</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Amélie</namePart>
+  <namePart type="family">Zöllner-Weber</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Werner</namePart>
+  
+  
+  <namePart type="family">Kummer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18015421</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">In diesem Ansatz wurde eine Ontologie zur Modellierung von Figurentheorien entwickelt. Zentrale Idee ist dabei die Modellierung von mentalen Repräsentationen von Figuren, die durch Beschreibungskategorien angereichert wird.
+Dafür wurden mehrere bereits vorhandene literaturwissenschaftliche Ansätze genutzt, die als Basis dienen, um ein Modell zur mentalen Repräsentation von Figuren aufzubauen. Dieses Modell wird durch eine Ontologie ausgedrückt. Um Vergleiche von verschiedenen Figurenrepräsentationen durchführen zu können, wurden Kategorien der ausgewählten Figurentheorien genutzt, um Oberklassen für die Ontologie zu bestimmen. Die Hierarchie der Klassen bildet dabei nur eine generelle Struktur der Figuren. Die Beschreibung einer speziellen Eigenschaft oder Information über die Figur erfolgt durch Instanziierung.
+Mit der Ontologie wurden verschiedene Anwendungen erprobt, um die Möglichkeiten dieser Methode zu explorieren. Es wurde gezeigt, dass auch auf solch einer speziellen Ontologie logische Operationen mithilfe der Inferenzmaschine Racer und der Sprache Prolog durchgeführt werden konnten. Die meisten Anfragen, die für die Ontologie erarbeitet wurden, konnten Informationen inferieren. Dabei muss jedoch angemerkt werden, dass durch logisches Schlussfolgern keine völlig neuen Informationen generiert werden. Zusätzlich können mehr individuelle oder freie Anfragen nicht durch logikbasierte Konstrukte ausgedrückt werden, was die Abfrage etwas einschränkt.
+Außerdem wurden zwei eigene Anwendungen entwickelt, die den Zugang und Manipulation der Ontologie ermöglichen. Die erste Anwendung umfasst ein Client-Server-System, das sowohl Editierung von Figurenrepräsentationen, als auch die Suche und den Vergleich von Repräsentationen zulässt. Dieses System stellt eine Plattform für die Diskussion zu Figurenrepräsentationen dar. Die Ergebnisse werden durch verschiedene Visualisierungen der Figurenrepräsentationen dargestellt. Eine zweite Anwendung beinhaltet die semi-automatische Generierung von Vorschlägen für neue Instanzen für die Ontologie. Sie richtet sich an Anwender, die mit Textannotation vertraut sind. Es wird versucht, die Zeit einer arbeitsintensiven Editierung der Figurenrepräsentationen zu verkürzen. Für diese Anwendung wurde ein bereits vorhandenes Annotationsschema leicht angepasst, damit ein automatisches Parsen des Texts und die Generierung von Vorschlägen für neue Instanzen möglich ist. Exemplarisch wurden Repräsentationen von ausgewählten Teufelsfiguren aus der Faust-Literatur durch die Ontologie modelliert. Unterstützt durch die Ontologie und daraus erzeugte Histogramme, die die Verteilung der Instanzen der mentalen Repräsentationen auf die Klassen in der Ontologie zeigen, wurden Analysen und Vergleiche durchgeführt, um Unterschiede und Ähnlichkeiten dieser Figuren und ihrer mentalen Repräsentationen herauszufinden. So konnten Aspekte der Figuren detailliert und in visualisierter Form erfasst werden.
+Es hat sich gezeigt, dass sich eine große Entwicklung zwischen den früheren Teufelsfiguren und späteren vollzieht. Die späteren Figuren haben sich zu modernen Hauptfiguren entwickelt und weisen ein reiches Repertoire an Fähigkeiten und Aktionen auf. In ihren Eigenschaften und Motivationen erscheinen sie teilweise widersprüchlich. Diese Entwicklung vollzieht sich unabhängig vom Genre der jeweiligen Faust-Werke und es scheint, dass die Autoren Konzeptionen aus unterschiedlichen Genres für ihre eigenen übernehmen. Die Ähnlichkeiten, wie magische Fähigkeiten oder der Einsatz von Gewalt, die alle verglichenen Teufelsfiguren und ihre mentalen Repräsentationen aufweisen, führen zu der Vermutung, dass es einen traditionellen Kern einer Teufelsfigur gibt. Zusätzlich kommen die individuellen Ideen der Autoren hinzu, die den Figuren ihre eigene Qualität geben. Obwohl die Figurenkonzeptionen variieren, bewegen sich die Variationen in einem beschränkten Rahmen von akzeptierten Eigenschaften und Aktionen, die zulässig für einen literarischen Teufel zu sein scheinen.
+Beim Vergleich von mentalen Repräsentationen verschiedener Leser einer Figur kann das entwickelte System ebenfalls Aufschluss über die Meinungen und das Verständnis von Figuren geben. Bei der Untersuchung von unterschiedlichen Repräsentationen zu einer Figur erwies sich die Ontologie und besonders das entwickelte Client-Server-System als sehr gut geeignet, um die Repräsentationen zu vergleichen und Unterschiede sowie Gemeinsamkeiten zu visualisieren. Denn der Inhalt der Ontologie kann als Ergebnis von Lese- und Rezeptionsprozessen gesehen werden. Obwohl Objekte nur zu einem ganz bestimmten Zeitpunkt präsentiert werden können, können durch solch eine Ontologie mentale Repräsentationen von Figuren illustriert und festgehalten werden.
+Es hat sich gezeigt, dass die Kombination von literaturwissenschaftlicher Analyse und computergestützten Methoden sich als sehr fruchtbar erwiesen hat. Die Ergebnisse zeigen neue Perspektiven auf, die weiter verfolgt werden sollten.</abstract>
+<abstract lang="eng">In this thesis, an ontology is introduced to model theories for the description and representation of literary characters. Thereby, individual comprehensions of characters by readers are put in focus. To give examples, mostly devil characters derived from different Faust works are described in the ontology.
+Briefly, several theories of literary characters are combined to create a base of a formal description using an OWL ontology. Here, categories, which describe features and actions of characters mentioned in stories had to be adapted and applied. It is aimed at representing the mental information structure of a reader, which (s)he has in mind when reading a book. Categories describing general aspects of literary characters form the main classes of the ontology, e.g. inner and outer features, actions on subjects and objects. By using sub classes, categories can subsume features of special characters or groups of characters. In addition, so-called instances of the classes represent individual and explicit objects of the domain of literary characters. Here, direct information about a character given in a text is assigned to an instance. Together with the information of the class hierarchy and other instances, a single mental representation of a character is modelled.
+Different applications have been developed to explore possibilities of the ontology. Even on such a specific ontology, it is possible to apply logic reasoning using Racer and Prolog. But by using these applications, one was faced with problems: queries of logic reasoning can only make implicit information explicit and more individual queries, which cannot be expressed by logic constructs, cannot be retrieved. Nevertheless, one can imagine that logic reasoning is useful for approaches, which intend a usage and retrieval more by machines than by human beings.
+Furthermore, two applications have been developed to give access to the ontology. A client-server system is introduced to manipulate the ontology, to search and to compare mental representations of literary characters. The system presents a platform for the discussion and access of representations of characters. The inclusion of new subcategories and information about characters as well as different retrievals and comparisons are the core of this system. Results are mostly presented by different visualisations of character representations. This system can support comparisons of literary characters in an essential way. The second application is a method to add semi-automatically instances to the ontology. This approach aims at users well trained in text encoding but who do not have insides into ontologies. In addition, it is worked on reducing the sometimes labour-intensive work of manual insertion of a representation of a character. A TEI encoding scheme was adapted to enable automated parsing of the text and to produce assignments where the different instances might be included into the class hierarchy of the ontology. The user has just to confirm or select a different class.
+On the basis of derived character representations included in the ontology, the devil characters of the example corpus were analysed and compared to each other taking advantage of the developed client-server system. By using automatically generated histograms of the distribution of instances for certain classes and visualised representations of the characters, it was possible to examine them in detail and to detect similarities and differences.
+Regarding the literary analysis, a huge development from the first characters until the later ones can be shown. Devil characters become main and modern characters, which means that they can also vary and can be contradictory in their features and motivations. This development takes place independently from the genre. The choice of the genre depends on the single author, but it seems that they each adopted conceptions from different genres. Observed similarities support the assumption of a traditional core of a devil's conception. Although the conceptions vary, it seems that variations are restricted to a specific frame.
+In summary, one can state that the ontology is an appropriate method to provide structured overviews of characters, observe different representations, and to find information about characters easily, also in the texts, if references are included. By using the mental representations stored in the ontology, it is possible to clarify aspects and to preserve opinions about characters. Although the ontology is restricted in flexible handling of information and can only present things which are included at a particular date, here, it can illustrate mental representations of characters. By using this ontology, the result of a reading process can be shown, but not directly the action of reading and its different states. This approach demonstrates the possibilities and advantages for literature studies if combined with computer-aided approaches.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_08_06_08.pdf">https://pub.uni-bielefeld.de/download/2301795/2301798/diss_08_06_08.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Literarische Gestalt</topic><topic>Rezeptionsforschung</topic><topic>Ontologie (Wissensverarbeitung)</topic><topic>Mephisto</topic><topic>Teufel (Motiv)</topic><topic>Figurenanalyse</topic><topic>Figurenrezeption</topic><topic>Faust-Literatur</topic><topic>Computerphilologie</topic><topic>Literary characters</topic><topic>Ontology</topic><topic>OWL (Web Ontology Language)</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-13097</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2008-05-20</dateOther>
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zöllner-Weber, A. (2008). &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Zöllner-Weber, A. (2008). Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Zöllner-Weber A. &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2008.</ama>
+<ieee> A. Zöllner-Weber, &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2008.</ieee>
+<apa>Zöllner-Weber, A. (2008).  &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<wels>Zöllner-Weber, A. (2008): Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>A.  Zöllner-Weber, &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Zöllner-Weber A (2008) &lt;br /&gt;&lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Zöllner-Weber, A., 2008. &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zöllner-Weber, A. (2008).  &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zöllner-Weber, Amélie. 2008. &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Zöllner-Weber, A.: Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology. Bielefeld University, Bielefeld (Germany) (2008).</lncs>
+<default>Zöllner-Weber A (2008) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Zöllner-Weber, Amélie. &lt;em&gt;Noctua literaria : a computer-aided approach for the formal description of literary characters using an ontology&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2008.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2301795</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-07-10T08:39:29Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:50Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2711704">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>high speed sensor system for tactile interaction research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Carsten</namePart>
+                        <namePart type="family">Schürmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-12-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this work we will describe and implement the first tactile sensor system that combines the properties of modularity with a very high sensing speed, a high sensitivity and a high spatial resolution. This unique combination of features enables researchers to develop novel applications and makes it possible to replace
+task specific tactile sensors with a single system.
+
+The very high sensing speed of the system allows for slip detection during robot grasping. And as all our sensor cells are sampled with the same high frequency, our system can even enable the slip detection for multiple contact
+points at the same time. This high speed was made possible through the development of a highly integrated parallel sensor sampling architecture.
+
+The modularity of the system allows it to be employed in a multitude of applications. Tactile sensitive surfaces of various dimensions can be easily realized through a very simple ’plug and use’ principle without the need for software configuration by the user. This was made possible by developing a new bus system that allows the relative localization of the participants. Our system can be used to create tactile sensitive table surfaces with a large amount of sensor cells and due to its high speed design still provide for real time frame rates.
+
+The flexibility and high performance of the system enabled us to develop a tactile sensitive object that allows the continuous high speed monitoring of human finger forces. For this we solved the problem of integrating the tactile
+sensors to allow free movement of the object, while maintaining a constant high rate of data capture and realizing a low latency synchronization to external
+devices.
+
+The high sensitivity of the system was made possible through technical innovation in the state of the art of resistive based tactile sensors. We did so by creating an optimized sensor cell shape and investigating the behavior of different sensor materials. The knowledge gained in this process was further used to advance the existing method of sensor normalization into a real time method.
+
+We will present a range of tactile interaction scenarios that have been realized with the tactile sensor system named Myrmex. These scenarios include the investigating of human grasp force control during a pick and place task, a tactile table for integration into an intelligent household and a tactile table for the manipulation of virtual clay as a form of finger training.
+
+In addition we will present a selection of scenarios where the Myrmex system was employed by other researchers, as in using the sensor modules as (large) tactile fingertips on robot arms to implement tactile servoing or slip detection during object grasping. The system has also been used to study human finger forces as well as investigating novel methods for prosthesis control. The positive results from all the scenarios support our conclusion that the developed Myrmex system is a very valuable and reliable tool for the research of tactile interactions.</abstract>
+                    <subject>
+                        <topic>tactile table</topic>
+                        <topic>USB Video</topic>
+                        <topic>sensor array</topic>
+                        <topic>self organization</topic>
+                        <topic>modular sensor system</topic>
+                        <topic>tactile modules</topic>
+                        <topic>optimization</topic>
+                        <topic>slip detection</topic>
+                        <topic>high spatial resolution</topic>
+                        <topic>high sensitivity</topic>
+                        <topic>virtual clay</topic>
+                        <topic>human grasp force</topic>
+                        <topic>tactile book</topic>
+                        <topic>resistive sensor cells</topic>
+                        <topic>Tactile sensing</topic>
+                        <topic>tactile interaction</topic>
+                        <topic>tactile sensor</topic>
+                        <topic>Myrmex</topic>
+                        <topic>high speed</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27117040</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2711704</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2711704">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2711704/2711705/PhD_CarstenSchuermann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2711704" DMDID="DMD2711704">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2711704"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

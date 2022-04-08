@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302580">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bifurcations in discrete-time neural networks : controlling complex network behaviour with inputs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Haschke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5842-9991</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2004-09-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The goal of this thesis is to contribute to the understanding of the emergence of complex dynamical behaviour in small recurrent neural networks, which already exhibit a rich repertoire of complex dynamical behaviour. Consequently the question arises, how this repertoire of dynamical behaviour can be controlled and particularly which parameter sets cause a specific dynamics. The knowledge of these parameter sets allows to directly switch between different dynamical regimes.
+In this thesis we develop a general approach to analytically compute the bifurcation manifolds of a RNN, which separate different regimes of dynamical behaviour in the input parameter space. To this aim we consider discrete-time additive recurrent neural networks with fixed weight matrices and consider the external inputs to the neurons as free bifurcation parameters.
+In order to obtain the solution manifolds of local fixed point bifurcations, i.e. saddle-node, flip and Neimark-Sacker bifurcations, a system of nonlinear equations is solved in two steps: First the bifurcation manifolds are derived in the intermediate space of activation function derivatives and second are transformed to the original input parameter space.
+The resulting bifurcation diagrams are studied in detail for two-neuron networks and a whole class of corresponding weight matrices. Using the example of a three-neuron network the generalisation of the proposed approach to higher-dimensional neural networks is discussed. Due to an exponential growth of the number of solution branches of the bifurcation manifolds, selected slices of the parameter space as well as special cascaded networks are examined only.</abstract>
+                    <subject>
+                        <topic>Rekursives neuronales Netz</topic>
+                        <topic>Verzweigung (Mathematik)</topic>
+                        <topic>Nichtlineares dynamisches System</topic>
+                        <topic>Recurrent neural network</topic>
+                        <topic>Bifurcation manifold</topic>
+                        <topic>Input space</topic>
+                        <topic>Dynamics</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-5842</identifier>
+                    <identifier type="sys">HT014478652</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302580</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302580">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302580/2302583/haschke_diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302580" DMDID="DMD2302580">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302580"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

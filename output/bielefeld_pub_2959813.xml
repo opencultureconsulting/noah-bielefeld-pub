@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959813">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Information extraction from text for deep domain knowledge graph population. Extracting  pre-clinical outcomes in the domain of spinal cord injury</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik Roman</namePart>
+                        <namePart type="family">ter Horst</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-11-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Every year, a vast amount of unstructured medical knowledge is described in thousands
+of pre-clinical studies published on publicly available websites such as PubMed. The
+aggregation of such knowledge plays an important role in various medical applications
+such as therapy development in evidence-based medicine where decisions are made on
+the basis of the best available evidence published in the literature so far. However, due
+to their natural language format, the manual aggregation of available information is
+tedious and time-consuming and can hardly be performed by researchers. Towards this
+issue, we are concerned with the automatic information extraction of structured knowledge at a level of detail that supports evidence-based decision making. Specifically, we
+focus on automatically populating a deep domain knowledge graph with information
+from pre-clinical studies that describe experimental results in the area of spinal cord
+injury. An important challenge is that a single study contains multiple outcomes described by a total of up to 7,816 (dependent) study parameters. Since the problem of
+extracting all these parameters jointly is so far intractable, we propose a hierarchical
+architecture that predicts incrementally feasible substructures in a bottom-up fashion
+relying on statistical inference and conditional random fields at the heart of our system.
+The main contribution of this work is the development of a machine learning methods
+integrated into a holistic domain-adapted information extraction system that is capable of predicting the full details of experimental outcomes as described in pre-clinical
+studies written in natural language. We present a general methodology for the extraction of deeply nested structures rooted in the paradigm of structure prediction and
+model-complete text comprehension. We further identify domain specific challenges, and
+provide adapted solutions. We show how to efficiently evaluate complex nested structures predicted by our system and present a comprehensive evaluation to understand
+the extent to which it can be used with the depth required to support aggregation of
+evidence. We show that the information extraction results are satisfactory for many
+classes of our domain ontology and identify those which require further research.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29598139</identifier>
+                    <identifier type="doi">10.4119/unibi/2959813</identifier>
+                    <identifier type="sys">HT021204795</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959813</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959813">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959813/2959814/Dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959813" DMDID="DMD2959813">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959813"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

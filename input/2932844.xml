@@ -1,0 +1,160 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2932844</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:330</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Hötte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">158344877</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8633-4225</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng"># Updates: 
+Check out the more recent versions of the rcode here: https://gitlab.ub.uni-bielefeld.de/khoette/rcode_eurace
+
+# Description
+The data publication contains all resources (data, code and statistical output) required to reproduce the results presented in "How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity" (Hötte 2019). Objective of this publication is the transparency, reproducibility and reusability of the simulation model and statistical analysis. 
+&lt;br /&gt;&lt;br /&gt;
+The publication is composed of four directories: (1) The directory "model" allows the reader to understand the implementation of the simulation model (C-code), to reproduce the simulated data and to use the model for further studies. A conceptual description and technical documentation of the model is provided in the paper mentioned above. (2) The directory "experiment_directories_and_data" contains the simulated data that is presented and discussed in the paper. This data allows to reproduce exactly the statistical analyses presented in the paper and to check the general validity of the model. 
+(3) The directory "rcode" contains the code that was used for the statistical analyses and makes the methods transparent for the reader. (4) The directory "results" contains the output files of the statistical analyses, e.g. plots and txt-output files documenting the regression analyses. 
+&lt;br /&gt;&lt;br /&gt;
+Each directory contains a readme file with additional information about the content and instructions how to use it. 
+&lt;br /&gt;&lt;br /&gt;
+
+## Details on content of each subdirectory: 
+
+### (1) model: Simulation inputs
+
+The data provided should allow you to REPRODUCE the simulations, i.e. to produce your own simulation data that should exhibit the same patterns as those discussed in the paper. 
+Before trying to run the model, I strongly recommend to check out the introductory and explanatory material provided by the developers of the original model: http://www.wiwi.uni-bielefeld.de/lehrbereiche/vwl/etace/Eurace_Unibi/
+
+#### File content: 
+- model files: model xml files and c code
+ Extensions compared to "standard eurace@unibi": (Here only main modifications highlighted)
+- Cons_Goods_UNIBI: Production routine and investment decision modified. 
+- Government_GREQAM: Eco policy module added. 
+- Inv_Goods_Vintage: Adaptive pricing mechanism and endogenous innovation added/ modified. 
+- Labour_UNIBI: Households skill endowment and learning. 
+- Statistical_Office_UNIBI: Documentation of indicator variables. 
+- my_library_functions.c: Running order of vintages adjusted by using costs. 
+
+- its: initial population
+
+#### Acknowledgement: 
+This model is a modified version of the Eurace@Unibi model, developed by Herbert
+Dawid, Simon Gemkow, Philipp Harting, Sander van der Hoog and Michael Neugart, as
+an extension of the research within the EU 6 th Framework Project Eurace. 
+
+### (2) experiment_directories_and_data: Simulated data (raw). 
+
+This data allows you to perform STATISTICAL ANALYSES with the simulation output yourself. You may use these as input to the Rcode. 
+&lt;br /&gt;
+Experiment folders contain simulation files and simulation output: 
+- baseline
+- rand_barr
+- rand_pol34_fix_barr5
+- rand_pol34_rand_barr15
+
+In principle, you should be able to reproduce the simulated data with the code provided in "model" (Note that the model has stochastic components, hence it will not be EXACTLY the same but sufficiently similar). 
+
+### (3) rcode: 
+
+This documentation makes the STATISTICAL METHODS used in the paper transparent. Sorry for the 
+inefficient code. Check whether updates are available. 
+
+- rcode: R scripts used for statistical analysis of simulation output
+
+### (4) results: 
+
+Output of analysed data. Here you find the output of the statistical analyses, i.e. regression output and wilcoxon test results in txt format and plots that are used in the paper. These files can be reproduced by the R code. 
+The results are documented experimentwise, i.e. baseline, barrier strength, policy with fix barriers, policy with random barriers. 
+&lt;br /&gt;&lt;br /&gt;
+#### Acknowledgement
+
+Particular gratitude is owed to Cord Wiljes for extensive support accompanying this data publication. 
+
+ 
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EuraceUnibi_Eco.zip">https://pub.uni-bielefeld.de/download/2932844/2933029/EuraceUnibi_Eco.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EULA-eco.pdf">https://pub.uni-bielefeld.de/download/2932844/2933045/EULA-eco.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="permission_of_use.pdf">https://pub.uni-bielefeld.de/download/2932844/2933046/permission_of_use.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess"/>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+
+<subject><topic>Directed technological change</topic><topic>technology diffusion</topic><topic>climate  policy</topic><topic>absorptive capacity</topic><topic>agent-based model</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2932844</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2939317</url>     <url>https://pub.uni-bielefeld.de/record/2932992</url>     <url>https://pub.uni-bielefeld.de/record/2935425</url>     <url>https://pub.uni-bielefeld.de/record/2939047</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<default>Hötte K (2019) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hötte, Kerstin. &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University, 2019.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, Kerstin. 2019. &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hötte, K.: Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity. Bielefeld University (2019).</lncs>
+<ieee> K. Hötte, &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;, Bielefeld University, 2019.</ieee>
+<apa>Hötte, K. (2019).  &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2932844</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2019). &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2932844.&lt;/div&gt;</dgps>
+<frontiers>Hötte, K. (2019). Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity. Bielefeld University.</frontiers>
+<ama>Hötte K. &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University; 2019.</ama>
+<angewandte-chemie>K.  Hötte, &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hötte K (2019) &lt;br /&gt;&lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hötte, K., 2019. &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2019).  &lt;em&gt;Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2932844&lt;/div&gt;</apa_indent>
+<wels>Hötte, K. (2019): Data publication for: How to accelerate green technology diffusion? An agent-based approach to directed technological change with coevolving absorptive capacity. Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2932844</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-12-20T14:09:45Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-12-07T14:58:40Z</recordChangeDate>
+</recordInfo>
+</mods>

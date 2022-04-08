@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918218">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Novel methodology for characterizing cell subpopulations in automated time-lapse microscopy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Georges</namePart>
+                        <namePart type="family">Hattab</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4168-8254</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Veit</namePart>
+                        <namePart type="family">Wiesmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anke</namePart>
+                        <namePart type="family">Becker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tamara</namePart>
+                        <namePart type="family">Munzner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Time-lapse imaging of cell colonies in microfluidic chambers provides time series of bioimages, i.e., biomovies. They show the behavior of cells over time under controlled conditions. One of the main remaining bottlenecks in this area of research is the analysis of experimental data and the extraction of cell growth characteristics, such as lineage information. The extraction of the cell line by human observers is time-consuming and error-prone. Previously proposed methods often fail because of their reliance on the accurate detection of a single cell, which is not possible for high density, high diversity of cell shapes and numbers, and high-resolution images with high noise. Our task is to characterize subpopulations in biomovies. In order to shift the analysis of the data from individual cell level to cellular groups with similar fluorescence or even subpopulations, we propose to represent the cells by two new abstractions: the particle and the patch. We use a three-step framework: preprocessing, particle tracking, and construction of the patch lineage. First, preprocessing improves the signal-to-noise ratio and spatially aligns the biomovie frames. Second, cell sampling is performed by assuming particles, which represent a part of a cell, cell or group of contiguous cells in space. Particle analysis includes the following: particle tracking, trajectory linking, filtering, and color information, respectively. Particle tracking consists of following the spatiotemporal position of a particle and gives rise to coherent particle trajectories over time. Typical tracking problems may occur (e.g., appearance or disappearance of cells, spurious artifacts). They are effectively processed using trajectory linking and filtering. Third, the construction of the patch lineage consists in joining particle trajectories that share common attributes (i.e., proximity and fluorescence intensity) and feature common ancestry. This step is based on patch finding, patching trajectory propagation, patch splitting, and patch merging. The main idea is to group together the trajectories of particles in order to gain spatial coherence. The final result of CYCASP is the complete graph of the patch lineage. Finally, the graph encodes the temporal and spatial coherence of the development of cellular colonies. We present results showing a computation time of less than 5 min for biomovies and simulated films. The method, presented here, allowed for the separation of colonies into subpopulations and allowed us to interpret the growth of colonies in a timely manner.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Bioengineering and Biotechnology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2296-4185</identifier>
+                    <identifier type="MEDLINE">29541635</identifier>
+                    <identifier type="ISI">000440254300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29182187</identifier>
+                    <identifier type="doi">10.3389/fbioe.2018.00017</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918218</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918218">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918218/2918219/fbioe-06-00017-1.hattab.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918218" DMDID="DMD2918218">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918218"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

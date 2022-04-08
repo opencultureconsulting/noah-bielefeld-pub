@@ -1,0 +1,118 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2760642</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:006</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+<name type="personal">
+  <namePart type="given">Christina</namePart>
+  <namePart type="family">Unger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15477016</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7306-3262</description></name>
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Walter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">32983951</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8589-8715</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Chris</namePart><namePart type="family">Biemann</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Siegfried</namePart><namePart type="family">Handschuh</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Andre</namePart><namePart type="family">Freitas</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Farid</namePart><namePart type="family">Meziane</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Elsiabeth</namePart><namePart type="family">Metais</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>Natural Language Processing and Information Systems</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">Question answering over linked data has emerged in the past years as an important topic of research in order to provide natural language access to a growing body of linked open data on the Web. In this paper we focus on analyzing the lexical gap that arises as a challenge for any such question answering system. The lexical gap refers to the mismatch between the vocabulary used in a user question and the vocabulary used in the relevant dataset. We implement a semantic parsing approach and evaluate it on the QALD-4 benchmark, showing that the performance of such an approach suffers from training data sparseness. Its performance can, however, be substantially improved if the right lexical knowledge is available. To show this, we model a set of lexical entries by hand to quantify the number of entries that would be needed. Further, we analyze if a state-of-the-art tool for inducing ontology lexica from corpora can derive these lexical entries automatically. We conclude that further research and investments are needed to derive such lexical knowledge automatically or semi-automatically.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="qa_ccg_camera_ready_version.pdf">https://pub.uni-bielefeld.de/download/2760642/2760651/qa_ccg_camera_ready_version.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer International Publishing</publisher><dateIssued encoding="w3cdtf">2015</dateIssued><place><placeTerm type="text">Passau, Germany</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>CCG</topic><topic>QALD</topic><topic>question answering</topic><topic>semantic parsing</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings</title></titleInfo>
+  <identifier type="isbn">978-3-319-19580-3</identifier><identifier type="urn">urn:nbn:de:0070-pub-27606420</identifier><identifier type="doi">10.1007/978-3-319-19581-0_8</identifier>
+<part><detail type="volume"><number>9103</number></detail><extent unit="pages">103-109</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Hakimov S, Unger C, Walter S, Cimiano P (2015)  &lt;br /&gt;In:  Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings. Biemann C, Handschuh S, Freitas A, Meziane F, Metais E (Eds);  LNCS, 9103.  Springer International Publishing:  103-109.</default>
+<mla>Hakimov, Sherzod, Unger, Christina, Walter, Sebastian, and Cimiano, Philipp. “Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap”. &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;. Ed. Chris Biemann, Siegfried Handschuh, Andre Freitas, Farid Meziane, and Elsiabeth Metais. Springer International Publishing, 2015.Vol. 9103. LNCS. 103-109.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod, Unger, Christina, Walter, Sebastian, and Cimiano, Philipp. 2015. “Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap”. In &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;, ed. Chris Biemann, Siegfried Handschuh, Andre Freitas, Farid Meziane, and Elsiabeth Metais, 9103:103-109. LNCS. Springer International Publishing.&lt;/div&gt;</chicago>
+<lncs> Hakimov, S., Unger, C., Walter, S., Cimiano, P.: Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In: Biemann, C., Handschuh, S., Freitas, A., Meziane, F., and Metais, E. (eds.) Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings. LNCS. 9103, p. 103-109. Springer International Publishing (2015).</lncs>
+<angewandte-chemie>S.  Hakimov, C.  Unger, S.  Walter, and P.  Cimiano, in &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt; (Eds.: C. Biemann, S. Handschuh, A. Freitas, F. Meziane, E. Metais), Springer International Publishing, &lt;strong&gt;2015&lt;/strong&gt;, p. 103-109.</angewandte-chemie>
+<harvard1>Hakimov, S., et al., 2015. Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In C.  Biemann, et al., eds. &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;. LNCS. no.9103  Springer International Publishing, pp. 103-109.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Unger, C., Walter, S., &amp;amp; Cimiano, P. (2015). Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In C.  Biemann, S.  Handschuh, A.  Freitas, F.  Meziane, &amp;amp; E.  Metais (Eds.), &lt;em&gt;LNCS: Vol. 9103&lt;/em&gt;&lt;em&gt;. Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt; (pp. 103-109). Springer International Publishing. doi:10.1007/978-3-319-19581-0_8&lt;/div&gt;</apa_indent>
+<bio1>Hakimov S, Unger C, Walter S, Cimiano P (2015) &lt;br /&gt;Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. &lt;br /&gt;In:  Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings. Biemann C, Handschuh S, Freitas A, Meziane F, Metais E (Eds); LNCS, 9103. Springer International Publishing:  103-109.</bio1>
+<wels>Hakimov, S.; Unger, C.; Walter, S.; Cimiano, P. (2015): Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In: Chris Biemann; Siegfried Handschuh; Andre Freitas; Farid Meziane; Elsiabeth Metais (Hrsg.):  Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings. Springer International Publishing. (LNCS, 9103).  S. 103-109.</wels>
+<ieee> S. Hakimov, et al., “Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap”, &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;, C. Biemann, et al., eds., LNCS, vol. 9103, Springer International Publishing, 2015,  pp.103-109.</ieee>
+<apa>Hakimov, S., Unger, C., Walter, S., &amp;amp; Cimiano, P. (2015). Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In C.  Biemann, S.  Handschuh, A.  Freitas, F.  Meziane, &amp;amp; E.  Metais (Eds.), &lt;em&gt;LNCS: Vol. 9103&lt;/em&gt;&lt;em&gt;. Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt; (pp. 103-109). Springer International Publishing. doi:10.1007/978-3-319-19581-0_8</apa>
+<frontiers>Hakimov, S., Unger, C., Walter, S., and Cimiano, P. (2015). “Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap” in &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;, Biemann, C., Handschuh, S., Freitas, A., Meziane, F., and Metais, E. eds. LNCS, vol. 9103, (Springer International Publishing), 103-109.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Unger, C., Walter, S. &amp;amp; Cimiano, P. (2015). Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap (LNCS). In C. Biemann, S. Handschuh, A. Freitas, F. Meziane &amp;amp; E. Metais (Hrsg.), &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt; (S. 103-109). Gehalten auf der Natural Language Processing and Information Systems, Springer International Publishing. doi:10.1007/978-3-319-19581-0_8.&lt;/div&gt;</dgps>
+<ama>Hakimov S, Unger C, Walter S, Cimiano P. Applying Semantic Parsing to Question Answering Over Linked Data: Addressing the Lexical Gap. In: Biemann C, Handschuh S, Freitas A, Meziane F, Metais E, eds. &lt;em&gt;Natural Language Processing and Information Systems: 20th International Conference on Applications of Natural Language to Information Systems, NLDB 2015, Passau, Germany, June 17-19, 2015, Proceedings&lt;/em&gt;. LNCS. Vol 9103. Springer International Publishing;  2015: 103-109.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2760642</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-07-01T09:58:39Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:26Z</recordChangeDate>
+</recordInfo>
+</mods>

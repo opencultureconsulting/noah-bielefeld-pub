@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2550335">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Multimodal plan representation for adaptable BML scheduling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Herwin</namePart>
+                        <namePart type="family">van Welbergen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dennis</namePart>
+                        <namePart type="family">Reidsma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Job</namePart>
+                        <namePart type="family">Zwiers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Natural human interaction is characterized by interpersonal coordination: interlocutors converge in their speech rates, smoothly switch speaking turns with virtually no delay, provide their interlocutors with verbal and nonverbal backchannel feedback, wait for and react to such feedback, execute physical tasks in tight synchrony, etc. If virtual humans are to achieve such interpersonal coordination they require very flexible behavior plans that are adjustable on-the-fly. In this paper we discuss how such plans are represented, maintained and constructed in our BML realizer Elckerlyc. We argue that behavior scheduling for Virtual Humans can be viewed as a constraint satisfaction problem, and show how Elckerlyc uses this view in its flexible behavior plan representation that allows one to make on-the-fly adjustments to behaviors while keeping the specified constraints between them intact.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Autonomous Agents and Multi-Agent Systems</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>27</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>305</start>
+                                <end>327</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1387-2532</identifier>
+                    <identifier type="eIssn">1573-7454</identifier>
+                    <identifier type="ISI">000318297400007</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25503359</identifier>
+                    <identifier type="doi">10.1007/s10458-012-9217-6</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2550335</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2550335">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2550335/2550343/jaamas2012scheduling.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2550335" DMDID="DMD2550335">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2550335"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

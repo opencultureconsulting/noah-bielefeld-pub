@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305344">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>robot&apos;s vista space : a computational 3D scene analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Agnes</namePart>
+                        <namePart type="family">Swadzba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-03-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The space that can be explored quickly from a fixed view point without locomotion is known as the vista space. In indoor environments single rooms and room parts follow this definition. The vista space plays an important role in situations with agent-agent interaction as it is the directly surrounding environment in which the interaction takes place. A collaborative interaction of the partners in and with the environment requires that both partners know where they are, what spatial structures they are talking about, and what scene elements they are going to manipulate. This thesis focuses on the analysis of a robot&apos;s vista space. Mechanisms for extracting relevant spatial information are developed which enable the robot to recognize in which place it is, to detect the scene elements the human partner is talking about, and to segment scene structures the human is changing. These abilities are addressed by the proposed holistic, aligned, and articulated modeling approach. For a smooth human-robot interaction, the computed models should be aligned to the partner&apos;s representations. Therefore, the design of the computational models is based on the combination of psychological results from studies on human scene perception with basic physical properties of the perceived scene and the perception itself. The holistic modeling realizes a categorization of room percepts based on the observed 3D spatial layout. Room layouts have room type specific features and fMRI studies have shown that some of the human brain areas being active in scene recognition are sensitive to the 3D geometry of a room. With the aligned modeling, the robot is able to extract the hierarchical scene representation underlying a scene description given by a human tutor. Furthermore, it is able to ground the inferred scene elements in its own visual perception of the scene. This modeling follows the assumption that cognition and language schematize the world in the same way. This is visible in the fact that a scene depiction mainly consists of relations between an object and its supporting structure or between objects located on the same supporting structure. Last, the articulated modeling equips the robot with a methodology for articulated scene part extraction and fast background learning under short and disturbed observation conditions typical for human-robot interaction scenarios. Articulated scene parts are detected model-less by observing scene changes caused by their manipulation. Change detection and background learning are closely coupled because change is defined phenomenologically as variation of structure. This means that change detection involves a comparison of currently visible structures with a representation in memory. In range sensing this comparison can be nicely implement as subtraction of these two representations. The three modeling approaches enable the robot to enrich its visual perceptions of the surrounding environment, the vista space, with semantic information about meaningful spatial structures useful for further interaction with the environment and the human partner.</abstract>
+                    <subject>
+                        <topic>Dreidimensionales maschinelles Sehen</topic>
+                        <topic>Szenenanalyse</topic>
+                        <topic>Robotik</topic>
+                        <topic>ToF-Kamera</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Künstliche Intelligenz</topic>
+                        <topic>Raumwahrnehmung</topic>
+                        <topic>3D Computer Vision</topic>
+                        <topic>Semantic Scene Analysis</topic>
+                        <topic>Raumrepräsentation</topic>
+                        <topic>3D Bildverarbeitung</topic>
+                        <topic>Adaption</topic>
+                        <topic>Alignment</topic>
+                        <topic>Space Perception</topic>
+                        <topic>Space Representation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-18505</identifier>
+                    <identifier type="sys">HT016888510</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305344</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305344">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305344/2305347/phdthesis_aswadzba_online.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305344" DMDID="DMD2305344">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305344"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

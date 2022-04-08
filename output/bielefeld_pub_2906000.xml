@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2906000">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Continuous homophily and clustering in random networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Gauer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jakob</namePart>
+                        <namePart type="family">Landwehr</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We propose a random network model incorporating heterogeneity of agents
+and a continuous notion of homophily. Unlike the vast majority of the corresponding
+economic literature, we capture homophily in terms of similarity
+rather than equality by assuming that the probability of linkage between two
+agents continuously decreases in the distance of their characteristics. A homophily
+parameter directly determines the strength of this effect. As a main
+result, we show that for any positive level of homophily our model exhibits
+clustering, that is an increased probability of linkage given a common neighbor.
+As opposed to this, the seminal Bernoulli Random Graph model à la
+Erdős and Rényi (1959) is comprised as the limit case of no homophily. Moreover,
+simulations indicate that, although the average distance between agents
+increases in homophily, the well-known small-world phenomenon is preserved
+even at high homophily levels. We finally provide a possible application in form
+of a stylized labor market model, where a firm can hire a new employee via the
+social network.</abstract>
+                    <subject>
+                        <topic>Random Graphs</topic>
+                        <topic>Homophily</topic>
+                        <topic>Clustering</topic>
+                        <topic>Small-World Phenomenon</topic>
+                        <topic>Network Formation</topic>
+                        <topic>Labor Market Search</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>515</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>42</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29060002</identifier>
+                    <identifier type="sys">HT019141286</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2906000</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2906000">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2906000/2906001/IMW_working_paper_515_2016.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2906000" DMDID="DMD2906000">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2906000"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

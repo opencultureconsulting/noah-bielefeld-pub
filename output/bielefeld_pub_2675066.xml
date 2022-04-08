@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2675066">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Neuromorphic Electronic Circuits for Building Autonomous Cognitive Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fabio</namePart>
+                        <namePart type="family">Stefanini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Chiara</namePart>
+                        <namePart type="family">Bartolozzi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giacomo</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Several analog and digital brain-inspired electronic systems have been recently proposed as dedicated solutions for fast simulations of spiking neural networks. While these architectures are useful for exploring the computational properties of large-scale models of the nervous system, the challenge of building low-power compact physical artifacts that can behave intelligently in the real world and exhibit cognitive abilities still remains open. In this paper, we propose a set of neuromorphic engineering solutions to address this challenge. In particular, we review neuromorphic circuits for emulating neural and synaptic dynamics in real time and discuss the role of biophysically realistic temporal dynamics in hardware neural processing architectures; we review the challenges of realizing spike-based plasticity mechanisms in real physical systems and present examples of analog electronic circuits that implement them; we describe the computational properties of recurrent neural networks and show how neuromorphic winner-take-all circuits can implement working-memory and decision-making mechanisms. We validate the neuromorphic approach proposed with experimental results obtained from our own circuits and systems, and argue how the circuits and networks presented in this work represent a useful set of components for efficiently and elegantly implementing neuromorphic cognition.</abstract>
+                    <subject>
+                        <topic>Cognitive systemslearning systemsneuromorphic engineeringreal-time neuromorphic systemsspike-timing-dependent plasticity (STDP)spiking neural network architecturesubthreshold analog circuitsvery large-scale integration (VLSI)winner-take-all (WTA)</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the IEEE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>102</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>9</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1367</start>
+                                <end>1388</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0018-9219</identifier>
+                    <identifier type="eIssn">1558-2256</identifier>
+                    <identifier type="ISI">000344481800008</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26750665</identifier>
+                    <identifier type="doi">10.1109/JPROC.2014.2313954</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2675066</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2675066">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2675066/2675068/1403.6428v1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2675066">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2675066/2934808/Chicca_etal14b.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2675066" DMDID="DMD2675066">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2675066"/>
+            <mets:div TYPE="part" ID="PART1_2675066" LABEL="Chicca_etal14b.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2675066"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

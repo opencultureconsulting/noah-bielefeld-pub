@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2468026">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Taxonomic classification of metagenomic sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Gerlach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-02-07</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Bacteria, archaea and microeukaryotes can be found in almost every habitat present in nature, in particular in soil, sediments and sea water. They typically live in complex communities with different kinds of symbiotic associations which include relationships with larger organisms like animals or plants. Examples are microbial communities in the gut or on the skin of animals and humans, or bacteria that live in symbiosis with plants.
+The vast majority of such microbes are unculturable and thus cannot be sequenced by means of traditional methods. The recently upcoming discipline of metagenomics provides various in vivo- and in silico-tools to overcome this limitation. In particular, high-throughput sequencing techniques like 454 or Solexa-Illumina make it possible to explore those microbes by studying whole natural microbial communities and analysing their biological diversity as well as the underlying metabolic pathways. A current limitation of theses technologies is that they can sequence only DNA fragments of a limited length. With this limitation it is usually not possible to recover complete microbial genomes. In addition, the DNA fragments are drawn randomly from the microbial communities and the exact species of origin is unknown.
+Over the past few years, different methods have been developed for the taxonomic and functional characterization of metagenomic shotgun sequences. However, the taxonomic classification of metagenomic sequences from novel species without close homologues in the biological sequence databases poses a challenge due to the high number of wrong taxonomic predictions on lower taxonomic ranks.
+In this thesis we present CARMA3, a novel method for the taxonomic classification of assembled and unassembled metagenomic sequences that has been adapted to work with both BLAST and HMMER3 homology searches. CARMA3 accepts protein-encoding DNA sequences, protein sequences, and 16S-rDNA sequences as input. In addition, we present WebCARMA, a web application for the analysis of protein-encoding DNA sequences with CARMA3 without the need for a local installation.
+We evaluate our novel method in different experiments using simulated and real shotgun metagenomes and show that CARMA3 makes fewer wrong taxonomic predictions (at the same sensitivity) than other BLAST-based methods. In the last experiment we show that also very short reads can, in principle, be used to describe the taxonomic content of a metagenome.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24680261</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2468026</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2468026">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2468026/2468027/doctoral-thesis-gerlach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2468026" DMDID="DMD2468026">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2468026"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2638922">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Moran model with selection (and mutation) : fixation probabilities, ancestral lines, and an alternative particle representation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sandra</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ellen</namePart>
+                        <namePart type="family">Baake</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-11-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis is devoted to a classical model of population genetics, namely, the Moran model in continuous time with two allelic types, (fertility) selection, and mutation. We concentrate on the ancestral line and its stationary type distribution. Building on work by Fearnhead (2002) and Taylor (2007), this distribution may be characterised via the fixation probability of the offspring of all individuals of favourable type (regardless of the offspring&apos;s types). Both approaches  employ the diffusion limit from the very beginning. The resulting expression for the stationary distribution does not have an obvious interpretation in terms of the graphical representation of the model. Therefore, we concentrate on a finite population and stay with the resulting discrete setting all the way through. This way, we extend previous results and gain new insight into the underlying particle picture. 
+
+As a further approach we restrict ourselves on a Moran model with selection. We introduce a new particle representation, which we call the labelled Moran model, and which has the same distribution of type frequencies as the original Moran model, provided the initial values are chosen appropriately. In the new model, each individual is characterised by a label; neutral resampling events may take place between arbitrary labels, whereas selective events only occur in the direction of increasing labels. We recover fixation probabilities and obtain detailed insight into the number and nature of selective events that play a role in the fixation process forward in time. The distribution of these events establishes a link to the work of Fearnhead and Taylor.</abstract>
+                    <subject>
+                        <topic>ancestral line</topic>
+                        <topic>Moran model</topic>
+                        <topic>common ancestor process</topic>
+                        <topic>fixation probability</topic>
+                        <topic>defining event</topic>
+                        <topic>labelled Moran model</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26389229</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2638922</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2638922">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2638922/2638934/KluthDiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2638922" DMDID="DMD2638922">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2638922"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

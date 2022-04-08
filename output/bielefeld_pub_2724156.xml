@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2724156">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive structure metrics for automated feedback provision in Java programming</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bassam</namePart>
+                        <namePart type="family">Mokbel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michel</namePart>
+                        <namePart type="family">Verleysen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Today&apos;s learning supporting systems for programming mostly rely on pre-coded feedback provision, such that their applicability is restricted to modelled tasks. In this contribution, we investigate the suitability of machine learning techniques to automate this process by means of a presentationm of similar solution strategies from a set of stored examples.
+To this end we apply structure metric learning methods in local and global alignment which can be used to compare Java programs.
+We demonstrate that automatically adapted metrics better identify the underlying programming strategy as compared to their default counterparts in a benchmark example from programming.</abstract>
+                    <subject>
+                        <topic>intelligent tutoring systems</topic>
+                        <topic>metric learning</topic>
+                        <topic>sequence alignment</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-2-87587-014-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27241567</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2724156</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2724156">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2724156/2752725/paassen_mokbel_hammer_adaptive_structure_metrics.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2724156" DMDID="DMD2724156">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2724156"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

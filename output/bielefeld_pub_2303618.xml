@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303618">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Spinabhängige Asymmetriefunktionen in der elastischen und inelastischen Elektron-Cäsium-Streuung bei mittleren Energien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bernhard</namePart>
+                        <namePart type="family">Roth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Günter</namePart>
+                        <namePart type="family">Baum</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-05-22</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">The determination of spin-polarization effects in elastic and inelastic (6P) electron scattering from Cs atoms has provided a challenge, experimentally as well as theoretically, for many years. In a crossed-beam arrangement a polarized electron beam from a strained GaAs crystal is intersected with a polarized Cs atomic beam to measure the angular dependences of the spin-asymmetries A1, A2 and Ann as well as the relative differential cross section at selected energies in the range from 4 to 25 eV. 
+The asymmetries can be related to electron exchange processes (Ann), to relativistic/spin-orbit effects (A2), or to an interference of these two mechanisms (A1). A comparison can be made in this theoretically difficult intermediate energy regime with recent calculations, which use either the relativistic R matrix method, or the convergent close-coupling method.</abstract>
+                    <subject>
+                        <topic>Elektron-Atom-Stoß , Cäsiumatom , Atomstrahl , Atomphysik , Streuexperiment , Polarisierte Elektronen , Cäsium , Atomic physics , Scattering experiment , Polarized electrons , Cesium</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1735</identifier>
+                    <identifier type="sys">HT014239826</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303618</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2303618">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303618/2303623/0028b.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2303618">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303618/2303622/0028a.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2303618">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303618/2303621/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE3_bielefeld_pub_2303618">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303618/2303624/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303618" DMDID="DMD2303618">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303618"/>
+            <mets:div TYPE="part" ID="PART1_2303618" LABEL="0028a.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2303618"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2303618" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2303618"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2303618" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2303618"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

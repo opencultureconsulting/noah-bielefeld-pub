@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2907692">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Communication games with optional verification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Schopohl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a Sender-Receiver game in which the Sender can choose between sending
+a cheap-talk message, which is costless, but also not verified and a costly verified message.
+While the Sender knows the true state of the world, the Receiver does not have this information,
+but has to choose an action depending on the message he receives. The action then
+yields to some utility for Sender and Receiver. We only make a few assumptions about the
+utility functions of both players, so situations may arise where the Sender’s preferences are
+such that she sends a message trying to convince the Receiver about a certain state of the
+world, which is not the true one. In a finite setting we state conditions for full revelation,
+i.e. when the Receiver always learns the truth. Furthermore we describe the player’s behavior
+if only partial revelation is possible. For a continuous setting we show that additional
+conditions have to hold and that these do not hold for &quot;smooth&quot; preferences and utility, e.g.
+in the classic example of quadratic loss utilities.</abstract>
+                    <subject>
+                        <topic>cheap-talk</topic>
+                        <topic>communication</topic>
+                        <topic>costly disclosure</topic>
+                        <topic>full revelation</topic>
+                        <topic>increasing differences</topic>
+                        <topic>Sender-Receiver game</topic>
+                        <topic>verifiable information</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>569</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29076927</identifier>
+                    <identifier type="sys">HT019479235</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2907692</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2907692">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2907692/2907693/IMW_working_paper_569.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2907692" DMDID="DMD2907692">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2907692"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

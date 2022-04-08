@@ -1,0 +1,134 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2775617</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Kai Bernd</namePart>
+  <namePart type="family">Stadermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">16029742</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8036-1492</description></name>
+<name type="personal">
+  <namePart type="given">Bernd</namePart>
+  <namePart type="family">Weisshaar</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">86212</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7635-3473</description></name>
+<name type="personal">
+  <namePart type="given">Daniela</namePart>
+  <namePart type="family">Holtgräwe</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">162199</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-1062-4576</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2684836</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441929</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33070678</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441927</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">17527752</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background
+
+Third generation sequencing methods, like SMRT (Single Molecule, Real-Time) sequencing developed by Pacific Biosciences, offer much longer read length in comparison to Next Generation Sequencing (NGS) methods. Hence, they are well suited for de novo- or re-sequencing projects. Sequences generated for these purposes will not only contain reads originating from the nuclear genome, but also a significant amount of reads originating from the organelles of the target organism. These reads are usually discarded but they can also be used for an assembly of organellar replicons. The long read length supports resolution of repetitive regions and repeats within the organelles genome which might be problematic when just using short read data. Additionally, SMRT sequencing is less influenced by GC rich areas and by long stretches of the same base.
+Results
+
+We describe a workflow for a de novo assembly of the sugar beet (Beta vulgaris ssp. vulgaris) chloroplast genome sequence only based on data originating from a SMRT sequencing dataset targeted on its nuclear genome. We show that the data obtained from such an experiment are sufficient to create a high quality assembly with a higher reliability than assemblies derived from e.g. Illumina reads only. The chloroplast genome is especially challenging for de novo assembling as it contains two large inverted repeat (IR) regions. We also describe some limitations that still apply even though long reads are used for the assembly.
+Conclusions
+
+SMRT sequencing reads extracted from a dataset created for nuclear genome (re)sequencing can be used to obtain a high quality de novo assembly of the chloroplast of the sequenced organism. Even with a relatively small overall coverage for the nuclear genome it is possible to collect more than enough reads to generate a high quality assembly that outperforms short read based assemblies. However, even with long reads it is not always possible to clarify the order of elements of a chloroplast genome sequence reliantly which we could demonstrate with Fosmid End Sequences (FES) generated with Sanger technology. Nevertheless, this limitation also applies to short read sequencing data but is reached in this case at a much earlier stage during finishing.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="s12859-015-0726-6.holtgrawe.pdf">https://pub.uni-bielefeld.de/download/2775617/2780759/s12859-015-0726-6.holtgrawe.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Science + Business Media</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Chloroplast</topic><topic>Sprai</topic><topic>Sugar beet</topic><topic>SMRT sequencing</topic><topic>PacBio</topic><topic>Assembly</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">26377912</identifier>
+  <identifier type="ISI">000361278400001</identifier><identifier type="urn">urn:nbn:de:0070-pub-27756179</identifier><identifier type="doi">10.1186/s12859-015-0726-6</identifier>
+<part><detail type="volume"><number>16</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<mla>Stadermann, Kai Bernd, Weisshaar, Bernd, and Holtgräwe, Daniela. “SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 16.1 (2015): 295.</mla>
+<default>Stadermann KB, Weisshaar B, Holtgräwe D (2015) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 16(1): 295.</default>
+<lncs> Stadermann, K.B., Weisshaar, B., Holtgräwe, D.: SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. BMC Bioinformatics. 16, : 295 (2015).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stadermann, Kai Bernd, Weisshaar, Bernd, and Holtgräwe, Daniela. 2015. “SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 16 (1): 295.&lt;/div&gt;</chicago>
+<harvard1>Stadermann, K.B., Weisshaar, B., &amp;amp; Holtgräwe, D., 2015. SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 16(1): 295.</harvard1>
+<bio1>Stadermann KB, Weisshaar B, Holtgräwe D (2015) &lt;br /&gt;SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome.&lt;br /&gt;BMC Bioinformatics 16(1): 295.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stadermann, K. B., Weisshaar, B., &amp;amp; Holtgräwe, D. (2015). SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;16&lt;/em&gt;(1), 295. doi:10.1186/s12859-015-0726-6&lt;/div&gt;</apa_indent>
+<angewandte-chemie>K. B.  Stadermann, B.  Weisshaar, and D.  Holtgräwe, “SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2015&lt;/strong&gt;, &lt;em&gt;16&lt;/em&gt;, : 295.</angewandte-chemie>
+<wels>Stadermann, K. B.; Weisshaar, B.; Holtgräwe, D. (2015): SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,16:(1):295</wels>
+<apa>Stadermann, K. B., Weisshaar, B., &amp;amp; Holtgräwe, D. (2015). SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;16&lt;/em&gt;(1), 295. doi:10.1186/s12859-015-0726-6</apa>
+<ieee> K.B. Stadermann, B. Weisshaar, and D. Holtgräwe, “SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 16, 2015, : 295.</ieee>
+<ama>Stadermann KB, Weisshaar B, Holtgräwe D. SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2015;16(1): 295.</ama>
+<frontiers>Stadermann, K. B., Weisshaar, B., and Holtgräwe, D. (2015). SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 16:295.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Stadermann, K.B., Weisshaar, B. &amp;amp; Holtgräwe, D. (2015). SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;16&lt;/em&gt;(1): 295. Springer Science + Business Media. doi:10.1186/s12859-015-0726-6.&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2775617</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-09-17T06:48:58Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-20T12:45:48Z</recordChangeDate>
+</recordInfo>
+</mods>

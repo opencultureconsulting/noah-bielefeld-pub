@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2555155">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bias and values in scientific research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Torsten</namePart>
+                        <namePart type="family">Wilholt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">When interests and preferences of researchers or their sponsors cause bias in experimental design, data interpretation or dissemination of research results, we normally think of it as an epistemic shortcoming. But as a result of the debate on science and values, the idea that all extra-scientific influences on research could be singled out and separated from pure science is now widely believed to be an illusion. I argue that nonetheless, there are cases in which research is rightfully regarded as epistemologically deficient due to the influence of preferences on its outcomes. I present examples from biomedical research and offer an analysis in terms of social epistemology.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Studies in History and Philosophy of Science Part A</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>40</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>92</start>
+                                <end>101</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0039-3681</identifier>
+                    <identifier type="ISI">000264761100010</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25551553</identifier>
+                    <identifier type="doi">10.1016/j.shpsa.2008.12.005</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2555155</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2555155">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555155/2915871/Wilholt+Bias.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2555155">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2555155/2915872/bias.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2555155" DMDID="DMD2555155">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2555155"/>
+            <mets:div TYPE="part" ID="PART1_2555155" LABEL="bias.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2555155"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

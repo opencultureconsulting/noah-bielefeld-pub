@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2756424</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Event-based stream classification framework – a supervised clustering approach for social media applications</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Timo</namePart>
+  <namePart type="family">Reuter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15477912</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Philipp</namePart>
+  
+  
+  <namePart type="family">Cimiano</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Events play a very prominent role in our lifes. Therefore many social media documents describe or are related to some event. However, it is difficult for a human to gather relevant information without any structure in these documents. The organization of social media documents with respect to events thus seems to be a promising approach to better manage and organize the ever-increasing amount of content that is shared using social media applications. It is a challenge to automatize this process so that incoming documents can be assigned to their corresponding event without any user intervention.
+
+In this dissertation we present an event-based stream classification framework that is able to classify a never-ending stream of social media data into a growing and evolving set of events. By doing this, we successfully perform the assignment of a social media item newly uploaded to some social media site to its corresponding event (if it already exists) or create a new event to which future data items can be assigned. We refer to this problem as the event detection problem and propose to use machine learning techniques to tackle it.
+
+We successfully address several key challenges that arise in this context: i) handling the data in a stream-based setting, i.e. addressing the challenges arising from the need to process a never-ending stream of data, ii) scaling to the data sizes and rates usually encountered in social media applications, and iii) tackling the new event detection problem, i.e. the problem of determining whether an incoming data item belongs to a new or to an already known event. 
+
+We address these challenges through a classification approach allowing us to process the data in one single pass. Furthermore, we include a suitable candidate event retrieval step which retrieves a set of event candidates that the incoming data point is likely to belong to and we include a function trained using machine learning techniques that determines whether the incoming data point belongs to the top-scored candidate or rather to a new event. The performance of our system is maximized using different optimization strategies so that it outperforms many other state-of-the-art approaches.
+
+Further, we extend our framework so that it can be used in a multi-pass setting. Using this approach we show that we can improve the quality of the clustering significantly in comparison to the single-pass approach, while also lowering the computational time by one order of magnitude. We show that this extension can be used in a stream-based setting while reaching the quality of a computationally very expensive offline clustering algorithm.
+
+We prove that our highly efficient approach is capable of successfully clustering a real-world and non-toy dataset by introducing a new dataset consisting of user-contributed images together with associated metadata describing the events they depict. The dataset was already published earlier and is well known in the community. Our single-pass and multi-pass strategies reach an F-measure score of 88.6% and 93.9%, respectively. In conclusion, we show that our framework is not only capable of addressing the above mentioned challenging issues but also outperforms other state-of-the-art approaches in terms of quality and scalability.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Timo_Reuter.pdf">https://pub.uni-bielefeld.de/download/2756424/2756425/Dissertation_Timo_Reuter.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universitätsbibliothek</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27564242</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-06-02</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Reuter, Timo. &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek, 2015.</mla>
+<default>Reuter T (2015) &lt;br /&gt;Bielefeld: Universitätsbibliothek.</default>
+<lncs> Reuter, T.: Event-based stream classification framework – a supervised clustering approach for social media applications. Universitätsbibliothek, Bielefeld (2015).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, Timo. 2015. &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</chicago>
+<apa>Reuter, T. (2015).  &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek.</apa>
+<ieee> T. Reuter, &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;,  Bielefeld: Universitätsbibliothek, 2015.</ieee>
+<ama>Reuter T. &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek; 2015.</ama>
+<frontiers>Reuter, T. (2015). Event-based stream classification framework – a supervised clustering approach for social media applications. Bielefeld: Universitätsbibliothek.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, T. (2015). &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</dgps>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Reuter, T. (2015).  &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;. Bielefeld: Universitätsbibliothek.&lt;/div&gt;</apa_indent>
+<harvard1>Reuter, T., 2015. &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;, Bielefeld: Universitätsbibliothek.</harvard1>
+<bio1>Reuter T (2015) &lt;br /&gt;&lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universitätsbibliothek.</bio1>
+<angewandte-chemie>T.  Reuter, &lt;em&gt;Event-based stream classification framework – a supervised clustering approach for social media applications&lt;/em&gt;, Universitätsbibliothek, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<wels>Reuter, T. (2015): Event-based stream classification framework – a supervised clustering approach for social media applications. Bielefeld: Universitätsbibliothek.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2756424</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-06-05T07:40:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:03Z</recordChangeDate>
+</recordInfo>
+</mods>

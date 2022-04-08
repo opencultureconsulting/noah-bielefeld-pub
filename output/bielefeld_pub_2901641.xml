@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2901641">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Categorization based Belief formations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jörg</namePart>
+                        <namePart type="family">Bleile</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">An agent needs to determine a belief over potential outcomes for a new problem based on past
+observations gathered in her database (memory). There is a rich literature in cognitive science
+showing that human minds process and order information in categories, rather than piece by piece.
+We assume that agents are naturally equipped (by evolution) with a efficient heuristic intuition
+how to categorize. Depending on how available categorized information is activated and processed,
+we axiomatize two different versions of belief formation relying on categorizations. In one approach
+an agent relies only on the estimates induced by the single pieces of information contained in so
+called target categories that are activated by the problem for which a belief is asked for. Another
+approach forms a prototype based belief by averaging over all category-based estimates (so called
+prototypical estimates) corresponding to each category in the database. In both belief formations
+the involved estimates are weighted according to their similarity or relevance to the new problem.
+We impose normatively desirable and natural properties on the categorization of databases. On the
+stage of belief formation our axioms specify the relationship between different categorized databases
+and their corresponding induced (category or prototype based) beliefs. The axiomatization of a
+belief formation in Billot et al. (Econometrica, 2005) is covered for the situation of a (trivial)
+categorization of a database that consists only of singleton categories and agents basically do not
+process information categorical.</abstract>
+                    <subject>
+                        <topic>Belief formation</topic>
+                        <topic>prior</topic>
+                        <topic>case-based reasoning</topic>
+                        <topic>similarity</topic>
+                        <topic>categorization</topic>
+                        <topic>prototype</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>519</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>41</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29016418</identifier>
+                    <identifier type="sys">HT019026052</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2901641</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2901641">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2901641/2902674/IMW_working_paper_519.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2901641" DMDID="DMD2901641">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2901641"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

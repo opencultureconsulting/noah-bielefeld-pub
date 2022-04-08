@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935248">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Lineage-Based Subclonal Reconstruction of Cancer Samples</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Linda K.</namePart>
+                        <namePart type="family">Sundermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gunnar</namePart>
+                        <namePart type="family">Rätsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Quaid</namePart>
+                        <namePart type="family">Morris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-03-26</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Cancer is caused by the accumulation of mutations, leading to genetically heterogeneous cell populations. The characterization of a cancer sample in terms of a subclonal reconstruction is essential. The subclonal reconstruction informs about the co-occurrence of mutations per population, as well as the proportion of cells belonging to each population, and the ancestral relationships among populations. Typical mutations used to infer a subclonal reconstruction are simple somatic mutations (SSMs) and copy number aberrations (CNAs).&lt;br /&gt;
+Methods building subclonal reconstructions only with SSMs use the concept of lineages instead of populations. In contrast to a population, which comprises only cells with the same genotype, a lineage comprises all cells that are descendant from the same founder cell. In a lineage-based subclonal reconstruction, mutations are assigned to the lineage in which they arose. The lineage frequency indicates the proportion of cells in which mutations assigned to this lineage can be found.&lt;br /&gt;
+Methods building subclonal reconstructions with CNAs are population-based. In contrast to the lineage-based approach, mutations are assigned to all populations in which they occur, not just to the one in which they arose. In order to calculate the mutation frequencies, the ancestor-descendant relationships between all populations have to be inferred. Hence, multiple subclonal reconstructions are needed to model ambiguous population relationships.
+Two population-based subclonal reconstruction methods working with SSMs and CNAs are PhyloWGS and Canopy. In contrast to Canopy, PhyloWGS does not infer CNAs but needs them as input.&lt;br /&gt;&lt;br /&gt;
+
+In this thesis, we present the first lineage-based model that builds subclonal reconstructions from SSMs and CNAs of bulk-sequenced tumor samples. Modeling CNAs as relative copy numbers, so copy number changes, instead of absolute copy numbers allows us to assign them to lineages. Another special feature of our method is that we infer present or absent ancestor-descendant relationships between lineages only if they can be observed in the data, modeling them as ambiguous relationships otherwise. This enables us to combine multiple ambiguous subclonal reconstructions within a single subclonal reconstruction.&lt;br /&gt;
+As input, our method uses the variant allele frequencies of SSMs, as well as the average allele-specific major and minor copy numbers of genome segments where the genome is segmented in a way that consecutive regions with the same copy number profile belong to the same segment. Furthermore, the number of lineages needs to be given as input. We present a joint likelihood function for SSMs and CNAs and show a linear relaxation of our model as a mixed integer linear program that can be solved with state-of-the-art solvers. Given subclonal reconstructions of the same dataset inferred with different lineage numbers, we use the minimum description length principle to choose the subclonal reconstruction with the best lineage number. An extensive analysis of the chosen subclonal reconstruction allows us to classify the ancestor-descendant relationships between each pair of lineages as either present, absent or ambiguous.&lt;br /&gt;
+We implemented our method in a software called Onctopus. We evaluate Onctopus extensively on simulated data, analyzing its run time and memory usage as well as its performance when the mathematically optimal solution cannot be proved in the given time and space. We present different approaches to improve Onctopus’ performance, such as by clustering mutations, fixing CNAs or fixing lineage frequencies.&lt;br /&gt;
+Finally, we compare the performance of Onctopus against the performance of PhyloWGS and Canopy on simulated datasets and a deep sequenced breast cancer dataset. On the simulated datasets, we evaluate different aspects of the inferred subclonal reconstructions and show that Onctopus is superior in inferring the number of lineages and the lineage relationships. For the breast cancer dataset, we follow an analysis by Deshwar et al., comparing the inferred mutation assignment to a gold standard assignment. Here, Onctopus and PhyloWGS reach a comparable performance.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29352486</identifier>
+                    <identifier type="doi">10.4119/unibi/2935248</identifier>
+                    <identifier type="sys">HT020131927</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935248</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935248">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935248/2935249/PhDThesis_Sundermann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935248" DMDID="DMD2935248">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935248"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

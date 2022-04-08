@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2945084">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Taming the Spread of an Epidemic by Lockdown Policies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Salvatore</namePart>
+                        <namePart type="family">Federico</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study the problem of a policymaker who aims at taming the spread of an epidemic
+while minimizing its associated social costs. The main feature of our model lies in the fact that the
+disease&apos;s transmission rate is a diffusive stochastic process whose trend can be adjusted via costly
+confinement policies. We provide a complete theoretical analysis, as well as numerical experiments
+illustrating the structure of the optimal lockdown policy. In all our experiments the latter is characterized
+by three distinct periods: the epidemic is first let freely evolve, then vigorously tamed, and
+finally a less stringent containment should be adopted. Moreover, the optimal containment policy is
+such that the product &quot;reproduction number x percentage of susceptible&quot; is kept after a certain date
+strictly below the critical level of one, although the reproduction number is let oscillate above one in
+the last more relaxed phase of lockdown.</abstract>
+                    <abstract lang="eng">MSC2010 subject classification: 93E20, 49N90, 92D30, 97M40</abstract>
+                    <subject>
+                        <topic>SIR model</topic>
+                        <topic>optimal stochastic control</topic>
+                        <topic>viscosity solution</topic>
+                        <topic>epidemic</topic>
+                        <topic>lockdown</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>639</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>17</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29450848</identifier>
+                    <identifier type="sys">HT020669573</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2945084</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2945084">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2945084/2945683/IMW_working_paper_639.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2945084" DMDID="DMD2945084">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2945084"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,121 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2623884</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>A hexapod walker using a heterarchical architecture for action selection</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Malte</namePart>
+  <namePart type="family">Schilling</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">172354</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0849-483X</description></name>
+<name type="personal">
+  <namePart type="given">Jan</namePart>
+  <namePart type="family">Paskarbeit</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">9601444</identifier></name>
+<name type="personal">
+  <namePart type="given">Thierry</namePart>
+  <namePart type="family">Hoinville</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">28058196</identifier></name>
+<name type="personal">
+  <namePart type="given">Arne</namePart>
+  <namePart type="family">Hüffmeier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Axel</namePart>
+  <namePart type="family">Schneider</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">86689</identifier></name>
+<name type="personal">
+  <namePart type="given">Josef</namePart>
+  <namePart type="family">Schmitz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">22032</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-2054-9124</description></name>
+<name type="personal">
+  <namePart type="given">Holk</namePart>
+  <namePart type="family">Cruse</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">21923</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2685507</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Embodied Interaction as a Core of Cognitive Interaction: A holistic approach towards autonomous walking system (LSP-04)</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">Moving in a cluttered environment with a six-legged walking machine that has additional body actuators, therefore controlling 22 DoFs, is not a trivial task. Already simple forward walking on a flat plane requires the system to select between different internal states. The orchestration of these states depends on walking velocity and on external disturbances. Such disturbances occur continuously, for example due to irregular up-and-down movements of the body or slipping of the legs, even on flat surfaces, in particular when negotiating tight curves. The number of possible states is further increased when the system is allowed to walk backward or when front legs are used as grippers and cannot contribute to walking. Further states are necessary for expansion that allow for navigation. Here we demonstrate a solution for the selection and sequencing of different (attractor) states required to control different behaviors as are forward walking at different speeds, backward walking, as well as negotiation of tight curves. This selection is made by a recurrent neural network (RNN) of motivation units, controlling a bank of decentralized memory elements in combination with the feedback through the environment. The underlying heterarchical architecture of the network allows to select various combinations of these elements. This modular approach representing an example of neural reuse of a limited number of procedures allows for adaptation to different internal and external conditions. A way is sketched as to how this approach may be expanded to form a cognitive system being able to plan ahead. This architecture is characterized by different types of modules being arranged in layers and columns, but the complete network can also be considered as a holistic system showing emergent properties which cannot be attributed to a specific module.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="fncom-07-00126.2013.schilling.pdf">https://pub.uni-bielefeld.de/download/2623884/2623896/fncom-07-00126.2013.schilling.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Frontiers Media SA</publisher><dateIssued encoding="w3cdtf">2013</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Frontiers in Computational Neuroscience</title></titleInfo>
+  <identifier type="issn">1662-5188</identifier>
+  <identifier type="eIssn">1662-5188</identifier>
+  <identifier type="MEDLINE">24062682</identifier>
+  <identifier type="ISI">000324633500001</identifier><identifier type="urn">urn:nbn:de:0070-pub-26238842</identifier><identifier type="doi">10.3389/fncom.2013.00126</identifier>
+<part><detail type="volume"><number>7</number></detail><extent unit="pages">126</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Schilling M, Paskarbeit J, Hoinville T, Hüffmeier A, Schneider A, Schmitz J, Cruse H (2013) &lt;br /&gt;&lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt; 7: 126.</default>
+<mla>Schilling, Malte, Paskarbeit, Jan, Hoinville, Thierry, Hüffmeier, Arne, Schneider, Axel, Schmitz, Josef, and Cruse, Holk. “A hexapod walker using a heterarchical architecture for action selection”. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt; 7 (2013): 126.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schilling, Malte, Paskarbeit, Jan, Hoinville, Thierry, Hüffmeier, Arne, Schneider, Axel, Schmitz, Josef, and Cruse, Holk. 2013. “A hexapod walker using a heterarchical architecture for action selection”. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt; 7: 126.&lt;/div&gt;</chicago>
+<lncs> Schilling, M., Paskarbeit, J., Hoinville, T., Hüffmeier, A., Schneider, A., Schmitz, J., Cruse, H.: A hexapod walker using a heterarchical architecture for action selection. Frontiers in Computational Neuroscience. 7, 126 (2013).</lncs>
+<angewandte-chemie>M.  Schilling, J.  Paskarbeit, T.  Hoinville, A.  Hüffmeier, A.  Schneider, J.  Schmitz, and H.  Cruse, “A hexapod walker using a heterarchical architecture for action selection”, &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;, &lt;strong&gt;2013&lt;/strong&gt;, &lt;em&gt;7&lt;/em&gt;, 126.</angewandte-chemie>
+<bio1>Schilling M, Paskarbeit J, Hoinville T, Hüffmeier A, Schneider A, Schmitz J, Cruse H (2013) &lt;br /&gt;A hexapod walker using a heterarchical architecture for action selection.&lt;br /&gt;Frontiers in Computational Neuroscience 7: 126.</bio1>
+<harvard1>Schilling, M., et al., 2013. A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;, 7, p 126.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schilling, M., Paskarbeit, J., Hoinville, T., Hüffmeier, A., Schneider, A., Schmitz, J., &amp;amp; Cruse, H. (2013). A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;, 126. doi:10.3389/fncom.2013.00126&lt;/div&gt;</apa_indent>
+<wels>Schilling, M.; Paskarbeit, J.; Hoinville, T.; Hüffmeier, A.; Schneider, A.; Schmitz, J.; Cruse, H. (2013): A hexapod walker using a heterarchical architecture for action selection &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;,7: 126.</wels>
+<ieee> M. Schilling, et al., “A hexapod walker using a heterarchical architecture for action selection”, &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;,  vol. 7, 2013,  pp. 126.</ieee>
+<apa>Schilling, M., Paskarbeit, J., Hoinville, T., Hüffmeier, A., Schneider, A., Schmitz, J., &amp;amp; Cruse, H. (2013). A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;, 126. doi:10.3389/fncom.2013.00126</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Schilling, M., Paskarbeit, J., Hoinville, T., Hüffmeier, A., Schneider, A., Schmitz, J. &amp;amp; Cruse, H. (2013). A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;, &lt;em&gt;7&lt;/em&gt;, 126. Frontiers Media SA. doi:10.3389/fncom.2013.00126.&lt;/div&gt;</dgps>
+<frontiers>Schilling, M., Paskarbeit, J., Hoinville, T., Hüffmeier, A., Schneider, A., Schmitz, J., and Cruse, H. (2013). A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt; 7, 126.</frontiers>
+<ama>Schilling M, Paskarbeit J, Hoinville T, et al. A hexapod walker using a heterarchical architecture for action selection. &lt;em&gt;Frontiers in Computational Neuroscience&lt;/em&gt;. 2013;7:126.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2623884</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-09-23T08:37:47Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T12:52:51Z</recordChangeDate>
+</recordInfo>
+</mods>

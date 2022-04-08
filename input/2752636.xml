@@ -1,0 +1,111 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2752636</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Bernhard-Andreas</namePart>
+  <namePart type="family">Brüning</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">8052516</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Sven</namePart>
+  
+  
+  <namePart type="family">Wachsmuth</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Philipp</namePart>
+  
+  
+  <namePart type="family">Cimiano</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">23136503</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">In der Biologie, Linguistik, Psychologie und Soziologie wird versucht, (menschliches) Interaktionsverhalten zu verstehen und zu beschreiben. In der Robotik ist ein Schwerpunkt, dieses (menschliche) Interaktionsverhalten zu modellieren, damit eine natürliche Interaktion mit Robotern möglich ist. Ein Bestandteil der natürlichen Interaktion ist unter anderem, zu erkennen, wann ein Interaktionspartner die Sprecherrolle übernehmen darf, ohne unfreundlich zu wirken und den anderen Interaktionspartner zu unterbrechen. Ein weiterer Schwerpunkt ist die Analyse, wie verschiedene Menschen beim Sprechen gestikulieren, um z. B. gleiche Sachinhalte mittels Sprache und sprachbezogener Gesten zu beschreiben. Sind aus solchen Analysen Verhaltensmuster erkannt worden und wurden diese Interaktionsverhaltensweisen implementiert, muss verifiziert werden, ob Menschen das z. B. von einem Roboter oder sozialen Agenten ausgeführte Verhalten als natürlich empfinden. Eine gängige Methode, ein solches Verhalten zu analysieren, ist die Aufzeichnung in verschiedenen multimedialen Daten wie Audio und Video, sodass diese anschließend im Detail analysiert werden können. Leider ist dieser Videoanalyseprozess sehr zeitintensiv, da er manuell durch Menschen durchgeführt werden muss. Um eine Bewegung in einem Video analysieren zu können, muss diese erst aus dem Video extrahiert werden, wobei dieses nicht immer genau durchgeführt werden kann. Dieses kann der Fall sein, wenn Gelenk- und andere Körperteilepositionen nicht genau bekannt sind, da diese Körperteile verdeckt sein können. Da diese Analyse ein zeitintensiver Prozess ist, der durch viele Arbeitsstunden teuer wird, gibt es Bemühungen, möglichst Mechanismen zu finden, durch die diese Arbeiten automatisch durchgeführt werden können. Als erstes Problem muss bei einer Analyse von Videodaten ermittelt werden, was Personen sind und in welcher Körperhaltung sie sich befinden. Allgemein funktioniert dieses, ist allerdings fehleranfällig. Um genauere Daten der Interaktionen zu erhalten und um auch automatische Analysen durchführen zu können, geht ein Trend dazu über, weitere modale Daten wie Motion-Capture-Daten zusätzlich aufzuzeichnen. Dadurch kann die Bewegung der interagierenden Personen viel genauer in räumlicher Relation zueinander analysiert werden. Um dieses durchführen zu können, stellen sich die Fragen, "wie die Motion-Capture-Daten sinnvoll mit angemessenem Arbeitsaufwand für die Untersuchungen genutzt werden können" und "wie die Interaktionen mehrerer Personen über eine längere Zeitspanne robust aufgezeichnet werden können". Beim Motion-Capturing ist eine lange Aufnahme mit einem Vielfachen dieser Zeit als Nachbearbeitungsphase verbunden. In dieser Nachbearbeitungsphase werden die Daten aufgearbeitet, damit einzelne Marker immer den zugehörigen Körperteilen zugeordnet werden können. Um einen deutlichen Nutzen aus dem Motion-Capturing ziehen zu können, darf die Zeit, die für das zusätzliche Motion-Capturing aufgewendet wird, nicht höher sein als die Zeit, die für das Annotieren der Video-Analyse aufgewendet würde. In dieser Arbeit wird gezeigt, wie das Motion-Capturing mit einem angemessenen Zeiteinsatz verwendet werden kann, um automatische Analysemöglichkeiten nutzbringend durchführen zu können. Dabei wird auf die Fragestellung eingegangen, "was die Motion-Capture-Daten für Möglichkeiten bei der Verhaltensforschung bei Interaktionen bieten". Dazu wird gezeigt, dass diese neuen Möglichkeiten in einer automatischen detaillierten Analyse liegen, die eine standardisierte Basis für Analysen mit einer immer gleichbleibend guten Qualität liefern. 
+Um die Nützlichkeit der Motion-Capture-Daten hervorzuheben, wird gezeigt, wie diese im Forschungsalltag eingesetzt werden können. Die hierbei gesammelten Erfahrungen sind in die Entwicklung eines Annotationstools "PAMOCAT" eingegangen, bei dem verschiedene elementare Verhaltensbestandteile als abstrakte Kategorien (wie z.B. Bewegung in elementaren Gelenken, etwas angucken, Handbewegungen oder Posen) automatisch annotiert werden können. Dabei haben sich verschiedene elementare Kategorien herauskristallisiert, die ein breites Spektrum von möglichen Einsatzbereichen in der Verhaltensforschung bieten. Dazu wird eine Basis von elementaren Interaktionsphänomenen bereitgestellt, die durch Kombinationen mit anderen Interaktionsphänomenen als Suche nach Zeitpunkten, bei denen diese zusammen auftreten, angesetzt werden kann. Dadurch ist eine detailliertere Analyse komplexen Verhaltens einfacher und schneller möglich, als es zuvor möglich war. Um diese Analysefunktionalität einem möglichst großen Anwenderkreis bereitzustellen, ist ein Graphical User Interface - GUI entwickelt worden, welches in Zusammenarbeit mit Endnutzern optimiert wurde. Damit ergeben sich neue Möglichkeiten bei der Analyse großer Korpora und es kann viel Zeit eingespart werden, sodass die Aufmerksamkeit auf eine detaillierte Analyse fokussiert werden kann.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ThesisBAB_00222V.pdf">https://pub.uni-bielefeld.de/download/2752636/2752637/ThesisBAB_00222V.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Bewegungssegmentation</topic><topic>Konversation-Analyse</topic><topic>Posturerkennung</topic><topic>Elementarbewegung</topic><topic>Bewegungsanalyse</topic><topic>Annotation</topic><topic>Verhaltensanalyse</topic><topic>Multi Personen-Motion-Capturing</topic><topic>PAMOCAT</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27526368</identifier>
+<part><extent unit="pages">183</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-02-18</dateOther>
+<extension>
+<bibliographicCitation>
+<default>Brüning B-A (2015) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Brüning, Bernhard-Andreas. &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2015.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Brüning, Bernhard-Andreas. 2015. &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Brüning, B.-A.: PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten. Universität Bielefeld, Bielefeld (2015).</lncs>
+<ieee> B.-A. Brüning, &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2015.</ieee>
+<apa>Brüning, B. - A. (2015).  &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<frontiers>Brüning, B. - A. (2015). PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Brüning, B.-A. (2015). &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<ama>Brüning B-A. &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2015.</ama>
+<angewandte-chemie>B. - A.  Brüning, &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Brüning B-A (2015) &lt;br /&gt;&lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Brüning, B. - A. (2015).  &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<harvard1>Brüning, B.-A., 2015. &lt;em&gt;PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<wels>Brüning, B. - A. (2015): PAMOCAT: Kombination von qualitativen und quantitativen Methoden zur automatischen Analyse von menschlichen Verhaltensweisen in der Kommunikation basierend auf Bewegungsdaten. Bielefeld: Universität Bielefeld.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2752636</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-05-26T20:47:05Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:03Z</recordChangeDate>
+</recordInfo>
+</mods>

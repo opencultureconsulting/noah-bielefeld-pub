@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301292">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Mild solutions of SPDE&apos;s driven by Poisson noise in infinite dimensions and their dependence on initial conditions</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Milde Lösungen von SPDEs mit Poisson-Rauschen in unendlich dimensionalen Hilberträumen und ihre Abhängigkeit vom Anfangswert</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Claudia</namePart>
+                        <namePart type="family">Knoche</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Röckner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-07-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We investigate stochastic partial differential equations in an infinite dimensional Hilbert space H of the following form: dX(t)=[AX(t)+F(X(t))]dt+B(X(t),y)q(dt,dy), X(0)=g, where q(dt,dy) is a compensated Poisson random measure associated to a stationary Poisson point process on a [sigma]-finite measure space (U,C,m), A is the generator of a strongly continuous semigroup, F is a measurable mapping from H to H, B is a measurable mapping from the product space HxU to H and g is an H-valued random variable.
+We are interested in the existence and uniqueness of a so called mild solution. But, apart from the existence and uniqueness of mild solutions our main interest is directed towards their regularity w.r.t. the initial datum g.
+Under Lipschitz assumptions on the drift and the diffusion we show that for every initial condition g, which is a p-integrable random variable, there exists a unique mild solution in the space of predictable p-integrable processes, where p&gt;=2.
+In the case that p equals two this is done by Banach&apos;s fixed point theorem and the help of the isometric property of the stochastic integral.
+The case p&gt;2 is crucial for the analysis of the dependence on the initial condition. For the proof of the existence of a unique mild solution in the space of predictable p-integrable processes, where p&gt;2, one needs an appropriate estimate for the p&apos;th moment of the stochastic integral.
+In this paper we prove a generalized Burkholder-Davis-Gundy-inequality, for estimating the p&apos;th moment of the stochastic integral. This inequality enables us to prove the existence of a unique mild solution in the space of predictable p-integrable processes, where p&gt;2.
+Under the main assumption that the coefficients F and B are Gâteaux differentiable we prove the Gâteaux differentiability of the mild solution as a mapping from the space of square integrable random variables to the space of predictable square integrable processes.
+Already the Gâteaux differentiability enables us to give, under the additional assumptions that F is dissipative, the intensity measure m of q is finite and B( ,y) is constant, an [omega]-wise estimate for the Gâteaux derivative of the mild solution and gradient estimates for the resolvent corresponding to the mild solution.
+Under stronger assumptions than needed for the statement about the Gâteaux differentiability, we prove our main results: the first and second order Fréchet differentiability of the mild solution.
+Under the main assumption that the coefficients F and B are Fréchet differentiable, twice Fréchet differentiable, respectively, we prove that the mild solution as a mapping from the space of q-integrable random variables to the space of predictable p-integrable processes is Fréchet-differentiable if q&gt;p&gt;=2, twice Fréchet-differentiable if q&gt;4p&gt;=8, respectively.</abstract>
+                    <subject>
+                        <topic>Anfangsbedingung</topic>
+                        <topic>Poisson-Prozess</topic>
+                        <topic>Stochastische partielle Differentialgleichung</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-7423</identifier>
+                    <identifier type="sys">HT014568421</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301292</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301292">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301292/2301295/cknochediss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301292" DMDID="DMD2301292">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301292"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

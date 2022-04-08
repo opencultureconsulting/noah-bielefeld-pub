@@ -1,0 +1,107 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936089">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Detection and visualization of communities in mass spectrometry imaging data.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Wüllems</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Kölling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3957-2412</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hanna</namePart>
+                        <namePart type="family">Bednarz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Niehaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volkmar H.</namePart>
+                        <namePart type="family">Hans</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND: The spatial distribution and colocalization of functionally related metabolites is analysed in order to investigate the spatial (and functional) aspects of molecular networks. We propose to consider community detection for the analysis of m/z-images to group molecules with correlative spatial distribution into communities so they hint at functional networks or pathway activity. To detect communities, we investigate a spectral approach by optimizing the modularity measure. We present an analysis pipeline and an online interactive visualization tool to facilitate explorative analysis of the results. The approach is illustrated with synthetical benchmark data and two real world data sets (barley seed and glioblastoma section).; RESULTS: For the barley sample data set, our approach is able to reproduce the findings of a previous work that identified groups of molecules with distributions that correlate with anatomical structures of the barley seed. The analysis of glioblastoma section data revealed that some molecular compositions are locally focused, indicating the existence of a meaningful separation in at least two areas. This result is in line with the prior histological knowledge. In addition to confirming prior findings, the resulting graph structures revealed new subcommunities of m/z-images (i.e. metabolites) with more detailed distribution patterns. Another result of our work is the development of an interactive webtool called GRINE (Analysis of GRaph mapped Image Data NEtworks).; CONCLUSIONS: The proposed method was successfully applied to identify molecular communities of laterally co-localized molecules. For both application examples, the detected communities showed inherent substructures that could easily be investigated with the proposed visualization tool. This shows the potential of this approach as a complementary addition to pixel clustering methods.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>20</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">31164082</identifier>
+                    <identifier type="ISI">000470281400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29360895</identifier>
+                    <identifier type="doi">10.1186/s12859-019-2890-6</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936089</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936089">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936089/2936202/s12859-019-2890-6.wuellems.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936089" DMDID="DMD2936089">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936089"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

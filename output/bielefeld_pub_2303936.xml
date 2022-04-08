@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303936">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>3D scene reconstruction by integration of photometric and geometric methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Pablo</namePart>
+                        <namePart type="family">d&apos;Angelo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-07-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this thesis, we have developed a framework for image-based 3D reconstruction of sparse point clouds and dense depth maps. The framework is based on self-consistent integration of geometric and photometric constraints on the surface shape, such as triangulation, defocus and reflectance. The reconstruction of point clouds starts by tracking object features over a range of distances from the camera with a small depth of field, leading to a varying degree of defocus for each feature.
+Information on absolute depth is obtained based on a Depth from Defocus approach. The parameters of the point spread functions estimated by Depth from Defocus are used as a regularisation term for Structure from Motion. The reprojection error obtained from bundle adjustment and the absolute depth error obtained from Depth from Defocus are simultaneously minimised for all tracked object features. The proposed method yields absolutely scaled 3D coordinates of the scene points without any prior knowledge about either scene structure or the camera motion.
+Another part of the framework is the estimation of dense depth maps based on intensity and polarisation reflectance and absolute depth data from arbitrary sources, eg. the Structure from Motion and Defocus method.
+The proposed technique performs the analysis on any combination of single or multiple intensity and polarisation images. To compute the surface gradients, we present a global optimisation method based on a variational framework and a local optimisation method based on solving a set of nonlinear equations individually for each image pixel. These approaches are suitable for strongly non-Lambertian surfaces and those of diffuse reflectance behaviour and can also be adapted to surfaces of non-uniform albedo. We describe how independently measured absolute depth data is integrated into the Shape from Photopolarimetric Reflectance (SfPR) framework in order to increase the accuracy of the 3D reconstruction result.
+We evaluate the proposed framework on both synthetic and real-world data. The Structure from Motion and Defocus algorithm yields relative errors of absolute scale of usually less than 3 percent.
+In our real-world experiments with SfPR, we regard the scenarios of 3D reconstruction of raw forged iron surfaces in the domain of industrial quality inspection and the generation of a digital elevation model of a section of the lunar surface. The obtained depth accuracy is better than the lateral pixel resolution.</abstract>
+                    <subject>
+                        <topic>Computer vision</topic>
+                        <topic>Close range photogrammetry</topic>
+                        <topic>3D reconstruction</topic>
+                        <topic>Shape from shading</topic>
+                        <topic>Polarisation</topic>
+                        <topic>Bundle adjustment</topic>
+                        <topic>Maschinelles Sehen</topic>
+                        <topic>Dreidimensionale Rekonstruktion</topic>
+                        <topic>Qualitätskontrolle</topic>
+                        <topic>Polarisation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-11458</identifier>
+                    <identifier type="sys">HT015312480</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303936</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303936">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303936/2303939/diss_dangelo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303936" DMDID="DMD2303936">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303936"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

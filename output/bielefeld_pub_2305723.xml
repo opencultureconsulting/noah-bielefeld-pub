@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305723">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>L-identification for sources</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>L-Identifikation für Quellen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Heup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ferdinando</namePart>
+                        <namePart type="family">Cicalese</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-12-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a DMS $(mathcal U^L,P^L)$ together with a so-called user $vinmathcal U$. All possible {it outputs} $u^L=(u_1,...,u_L)inmathcal U^L$ are encoded by a $q${it -ary source code} $mathcal C$ on $mathcal U$. Thus, every component $u_i$ of $u^L$ is encoded separately. The goal of $L$-identification is that every {it user} $vinmathcal U$ shall be able to distinguish whether he occurs at least once as a component of the output vector $u^L$. Therefore, we encode all users with the same code and compare sequentially the $q$-bits of the codeword $c_v$ of the user $v$ with the individual $q$-bits of the codewords $c_{u_1},...,c_{u_L}$. After every comparison we delete all output components, whose codewords did not coincide during this step with the codeword $c_v$, from the set of possible candidates. If after some steps all codewords have been eliminated, the $L$-identification process terminates with a negative answer. Otherwise we go on until the last $q$-bit of $c_v$. The $L$-identification process terminates with a positive answer if after this last comparison there still are possible candidates left. The {it running time} of $q$-ary $L$-identification for given output vector $u^L$ and user $v$ with respect to some code $mathcal C$ is defined as the number of steps until the $L$-identification process terminates. We can calculate for all $vinmathcal U$ the mean of the $L$-identification running time. We call it the {it average running time}, denoted by $mathcal L_{mathcal C}^{L,q}(P,v)$. We are interested in several behaviors of the average running time. The first is the {it worst-case (average) running time} $mathcal L_{mathcal C}^{L,q}(P)$. Here, we maximize the average running time over all users $vinmathcal U$. Suppose we have given another probability distribution $Q$ on $mathcal U$. In this case we calculate the mean of the average running time. This is called the {it expected (average) running time} and denoted by $mathcal L_{mathcal C}^{L,q}(P,Q)$. A special case of this is when $Q=P$. Then we speak of the {it symmetric (average) running time}.
+Our first result concerns the case when $L=1$ and the $q$-ary source code $mathcal C$ is a {it saturated block code}. We show that for such codes uniform distribution is optimal for the symmetric running time of (1-)identification.
+Ahlswede et al. proved that the worst-case running time of binary (1-)identification can be upper bounded by 3 no matter of how big the output space $mathcal U$ is. We improve this bound to $5/2$.
+We further provide an asymptotic theorem, where we prove that the symmetric running time for the uniform distribution of $q$-ary $L$-identification asymptotically equals a rational number $K_{L,q}$, which is an approximation of the $L$-th harmonic number.
+The main result of this thesis is the discovery of the $q$-ary identification entropy of second order $$H_{mbox{tiny ID}}^{2,q}(P)=2frac{q}{q-1}left(1-sumlimits_{uinmathcal U}p_u^2right) -frac{q^2}{q^2-1}left(1-sumlimits_{uinmathcal U}p_u^3right).$$ We show that it is a lower bound for the symmetric running time of $q$-ary 2-identification. This bound is attainable if and only if $P$ consists only of $q$-powers. Moreover, we show that this function obeys important desiderata for entropy functions. It is symmetric, normalized, decisive and expansible. It is lower bounded by the probability distribution, where all the probability is concentrated in one point, and upper bounded by the uniform distribution. Finally, we establish an interesting grouping behavior.
+We also provide an upper bound for the worst-case running time of binary 2-identification. This upper bound equals $55/16$.
+Further, we define the $q$-ary identification entropy of order $L$ by $$H_{mbox{tiny ID}}^{L,q}(P)=-sumlimits_{l=1}^L(-1)^l{Lchoose l}frac{q^l}{q^l-1} left(1-sumlimits_{uinmathcal U}p_u^{l+1}right).$$ We show that also this function is symmetric, normalized, decisive and expansible. It further obeys a grouping behavior, which is a generalized version of the previous grouping behavior for $L=2$. Unfortunately, we were not able to prove a lower and upper bound. We prove that under the natural assumption that $H_{mbox{tiny ID}}^{L,q}(P)$ is upper bounded by the uniform distribution this entropy function is a lower bound for the symmetric running time of $q$-ary $L$-identification. This lower bound is then attained if and only if $P$ consists only of $q$-powers.
+Finally, we define $L$-identification for sets and show that the symmetric running time for the uniform distribution of $q$-ary $L$-identification for sets asymptotically equals the same rational number $K_{L,q}$ as before.</abstract>
+                    <subject>
+                        <topic>, Quellenkodierung , Entropie , Identifikation , Source coding , Entropy , Identification</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10279</identifier>
+                    <identifier type="sys">HT015031779</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305723</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305723">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305723/2305726/dissertation_christian_heup.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305723" DMDID="DMD2305723">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305723"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

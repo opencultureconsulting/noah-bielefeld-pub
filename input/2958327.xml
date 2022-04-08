@@ -1,0 +1,390 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2958327</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:330</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Hötte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">158344877</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8633-4225</description></name>
+<name type="personal">
+  <namePart type="given">Su Jung</namePart>
+  <namePart type="family">Jee</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Sugandha</namePart>
+  <namePart type="family">Srivastav</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This data publication contains all data and statistical scripts (R) to reproduce the results presented and discussed in [Hötte, K., Jee, S.J., Srivastav, S.; "Knowledge for a warmer world: a patent analysis of climate change adaptation technologies"; https://arxiv.org/abs/2108.03722](https://arxiv.org/abs/2108.03722). 
+The publication also contains additional data files and information provided for the sake of transparency and for robustness checks. 
+
+### The key data sets provided here are:  
+1. Data on US patents for climate change adaptation and mitigation technologies supplemented with rich meta-information (e.g. grant year, title, CPC classes, reliance on public support, scientificness). These patents are identified through the CPC tags Y02A and Y02.  
+2. Data on science citations from adaptation and mitigation patents supplemented with meta-information on patents and cited articles (e.g. grant and publication year, patent and paper title, WoS field, CPC classes, etc.). 
+3. Data on dual-purpose technologies, i.e. patents that serve mitigation and adaptation purposes simultaneously. 
+4. Supplementary data on patent co-classifications (CPC), patent citations, patent and paper data including non-green technologies. 
+
+If you use the resources provided in this publication, please cite this data publication and the paper mentioned above. 
+
+The data is provided under a CC-BY-4.0 license. If you use the data, please give appropriate credit to the authors of this publication and to the references listed in the data description files if applicable (see data/READ.ME). 
+Please note that the raw data on public support that supplements these data is available under the less restrictive CC0 version [here](https://doi.org/10.7910/DVN/DKESRC).
+
+For any questions, please consult the corresponding [author](https://orcid.org/0000-0002-8633-4225). 
+
+--------------------------------------------------------------------------------------------
+
+## Further details and references: 
+
+This publication contains data about inventions in climate change adaptation and mitigation technologies granted by the US Patent and Trademark Office (USPTO) since 1836. 
+
+## Concepts and definitions 
+
+Adaptation and mitigation technologies are identified by Y02 tag of the Cooperative Patent Classification (CPC) system (see Veefkind et al. 2012; DOI: 10.1016/j.wpi.2011.12.004). 
+Y02 tags indicate that patents are "TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE". 
+The data are based on the CPC version from April 2021. 
+
+Climate change adaptation technologies are a subset of these data indicated by the 4-digit tag Y02A "TECHNOLOGIES FOR ADAPTATION TO CLIMATE CHANGE" which are further sub-classified by the 5-digit code into coastal (Y02A1), water conservation (Y02A2), infrastructure (Y02A3), agriculture (Y02A4), health (Y02A5) and indirect (Y02A9) adaptation technologies. 
+
+
+
+
+## File content overview 
+The publication contains 7 major data sets. The ranking of relevance is the following: 
+
+- (a) Y02A_tagged_family_based.RData -&gt; Data on adaptation patents (Y02A-tagged) with meta-information. 
+- (b) Y02A_pcs_tagged_family_based.RData -&gt; Science citation data of adpatation patents. 
+- (c) Y02_patents_family_based.RData -&gt; Data on green patents (Y02-tagged) including adaptation and mitigation technologies. 
+- (d) Y02_pcs_family_based.RData -&gt; Science citation data of green patents. 
+- (e) Y02_coclassifications_family_based.RData -&gt; Coclassification data supplemented with patent class descriptions at 1-, 3-, 4-digit level. 
+- (f) Y02_citations_family_based.RData -&gt; Patent to patent (and technology (sub)group to (sub)group) citations among green patents and from/to non-green. 
+- (g) dual_purpose.RData -&gt; Subset of patents that serve mitigation and adaptation simultaneously. 
+- (h) all_papers.RData -&gt; Data on all papers with patent grant number, family ID and all CPC classes. 
+- (i) all_papers.RData -&gt; Data on all papers (used for plotting). 
+- (j) patent_citations_family_based.RData -&gt; Patent-to-patent citation links. 
+
+
+### CSV format data
+A subset of the files provided here is available in CSV as well (only for smaller files). See folder "CSV_format". 
+
+### Patent number level data 
+A subset of the data provided here is also available at the level of patent grant numbers. 
+
+## Source data 
+Additionally, some of the source data is provided to reproduce the processed data provided here. Additional data may need to be downloaded from the primary sources as indicated in the R-code files for data compilation provided. 
+
+
+## Data sources
+
+The files combine data from different sources: 
+
+1. USPTO data on patent numbers and CPC classes downloaded from: https://bulkdata.uspto.gov/
+
+2. Complementary data on grant year and patent title from: https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data
+
+3. Data on patent assignees (name, type, location) and patent families from PATSTAT Spring version 2021 https://data.epo.org/expert-services/index.html
+
+4. Data on government support for inventions downloaded from: https://doi.org/10.7910/DVN/DKESRC (Please cite Fleming et al. 2019). 
+
+5. Data on citations from patents to science from the Reliance on Science (RoS) database v29: https://doi.org/10.5281/zenodo.4235193 (Please cite Marx and Fuegi 2020a, 2020b)
+including comprehensive meta information from Microsoft Academic Graph (MAG) (Please cite Sinha et al. 2015). 
+
+6. Tagging of adaptation benefits with public good characteristics based on authors' evaluation. 
+
+
+## File content and detail 
+
+File (a)-(e) are available as data set based on patent publication number and patent families [see subfolder "patent_number_level_data"].
+The suffix "_family_based" in the file name indicates that the data set is based on unique patent families. 
+
+(a) Y02A_tagged_family_based.RData: These data are a subset of climate change adaptation patents granted by the USPTO since 1836 supplemented by information on public good characteristics and public support. 
+The data coverage is only complete for the time period 1976-2017. 
+
+Row entries are unique by patent number/family and unique CPC-class (column 1 and column 9 (or 10)). 
+
+29 columns: 
+
+1. "DOCDB family" if "_family_based" or "Patent number": Unique invention ID.         
+2. "Patent year": Patent grant year.  For data at the family number level, the publication date of the earliest patent within a family is used if a family has &gt;1 member.    
+3. "Technology group": Broad technology group indicated by 4-digit CPC class (here only "adaptation")    
+4. "Technology subgroup": Technology subgroup indicated by 5-digit CPC class (type of adaptation technology: coastal, water, infrastructure, agriculture, health, indirect). 
+5. "CPC_unique": Unique CPC adaptation code: Patents may be classified into multiple codes which indicates a multi-purpose technology. In these cases, row entries are duplicated. 
+6. "Description": Description of the detailed Y02A-code.   
+7. "Government supported?": Binary TRUE/FALSE 
+8. "Status": Indicator for the type of adaptation good (public/private/club good).     
+9. "psn_sector": Character code indicating the sector of activity of the patent assignee (e.g. COMPANY, INDIVIDUAL, UNIVERSITY, GOV NON-PROFIT, etc.)            
+10. "CPC class": Character string that holds all CPC codes in the subset of Y02A-codes.                
+11. "Patent date": Numeric, indicating the grant date of the patent YYYYMMDD format             
+12. "Patent title": Character
+13. "Non_excludable": Binary TRUE/FALSE indicating whether the adaptation benefits from the technology are excludable (public/private good property)          
+14. "Non_rival": Binary TRUE/FALSE indicating whether the adaptation benefits are rival in consumption (public/private good property)               
+15. "Type of gov support": Character string listing all types of government support indicated in the patent document.    
+16. "owned": Binary TRUE/FALSE, is the patent owned by the government?           
+17. "acknowledging": Binary TRUE/FALSE, is public support indicated in patent acknowledgments?     
+18. "cite_owned": Binary TRUE/FALSE, does the patent cite a patent that is owned by the government?       
+19. "cite_acknowledging": Binary TRUE/FALSE, does the patent cite a patent acknowledging government support?    
+20. "cite_gov_science": Binary TRUE/FALSE, does the patent cite a scientific article from a government institution?     
+21. "cite_gov_ackn_science": Binary TRUE/FALSE, does the patent cite a scientific article that acknowledges government support? 
+22. "han_harmonized": Indicator whether PATSTAT assignee information is harmonized (see PATSTAT documentation)      
+23. "han_id": ID number of patent assignee in PATSTAT database                 
+24. "han_name": Name of patent assignee (PATSTAT)               
+25. "person_ctry_code": Country of origin of patent assignee
+26. "Assignee": Type of patent assignee grouped into 3 broader sectors: Commercial, Individual or Non-Profit based on the PATSTAT variable psn_sector.      
+27. "Patent citations count": Number of backward citations to other patents. 
+28. "Science citations count": Number of citations to science made in the patent. 
+29. "Science intensity": Measure for the relative reliance on science of the patent given by the share of science citations over the sum of patent and science citations.      
+
+
+(b) Y02_patents_family_based.RData: File that contains all patents tagged with Y02, i.e. mitigation and adaptation technologies. The same column definitions as above apply. 
+
+15 columns: 
+1. "DOCDB family"
+2. "Patent year"           
+3. "Technology group"      
+4. "Technology subgroup"   
+5. "CPC class"             
+6. "Patent date"           
+7. "Patent title"         
+8. "Government supported?" 
+9. "Type of gov support"   
+10. "owned"                 
+11. "acknowledging"         
+12. "cite_owned"            
+13. "cite_acknowledging"    
+14. "cite_gov_science"     
+15. "cite_gov_ackn_science"
+
+
+(c) Y02A_pcs_tagged_family_based.RData: Citation links between Y02A-patents (families) and scientific articles. The data are complemented with meta-information on the patent and the scientific publication cited by the patent. The meta-information originates from Microsoft Academic Graph. The same column definitions apply as above whenever a definition is not indicated here.
+
+40 columns: 
+
+1. "DOCDB family"            
+2. "Paper ID": Numeric ID of the scientific paper that is cited. 
+3. "Patent year"             
+4. "Paper year": Publication year of the paper.               
+5. "Technology group"        
+6. "Technology subgroup"    
+7. "CPC_unique"
+8. "Description"             
+9. "Government supported?"   
+10. "Status"
+11. "psn_sector"              
+12. "WoS field": Web-of-Science category (field of science) into which the scientific article is classified.              
+13. "CPC class"
+14. "Patent date"
+15. "Patent title"
+16. "Non_excludable"
+17. "Non_rival"               
+18. "Paper title": Title of the cited paper.             
+19. "Confidence Score": Confidence score that indicates the reliability of the citation link.         
+20. "Type of gov support"     
+21. "owned"
+22. "acknowledging"           
+23. "cite_owned"
+24. "cite_acknowledging"     
+25. "cite_gov_science"        
+26. "cite_gov_ackn_science"   
+27. "han_harmonized"          
+28. "han_id"    
+29. "han_name"                
+30. "person_ctry_code"       
+31. "DOI": Character, DOI of the paper if available. 
+32. "Journal ID": Numeric ID of the Journal where the paper has been published if available. 
+33. "Conference ID": Numeric ID of the Conference proceedings where the paper has been published if available.            
+34. "Journal/ Conf. name": Character, name of the journal or conference proceedings where the paper was published.      
+35. "Reference type": Character code that indicates whether the citation was added by the applicant, patent examiner or whether the origin is unknown (app: applicant, exm: examiner, unk: unknown).            
+36. "Citation type": Character code that indicates where the citation was found (frontonly: citation made on front page, bodyonly: citation made in the text body of the patent, both: citation indicate in both, frontpage and text body). 
+37. "Assignee"
+38. "Patent citations count"  
+39. "Science citations count" 
+40. "Science intensity"           
+
+
+(d) Y02_pcs_family_based.RData: Citation links between Y02-patents (families) and scientific articles. The data are complemented with meta-information on the patent and the scientific publication cited by the patent. The meta-information originates from Microsoft Academic Graph. The same column definitions apply as above.
+
+20 Columns: 
+
+1. "DOCDB family"          
+2. "Paper ID"              
+3. "Patent year"           
+4. "Paper year"            
+5. "Technology group"      
+6. "Technology subgroup"   
+7. "WoS field"            
+8. "CPC class"             
+9. "Patent title"          
+10. "Paper title"           
+11. "Confidence Score" 
+12. "DOI"
+13. "Journal ID"            
+14. "Conference ID"        
+15. "Journal/ Conf. name"   
+16. "Reference type"        
+17. "Citation type"      
+18. "Patent date"           
+19. "Government supported?" 
+20. "Type of gov support"
+
+
+
+(e) Y02_coclassifications.RData: This file contains the co-classification data of Y02 patents including the verbal description of classes at different levels of aggregation (1-digit, 3-digit, 4-digit). The co-classification are based on the master classification file from USPTO April 2021 version. Note: To use the data, you need to ensure uniqueness at the relevant level of aggregation. Data is unique by DOCDB family - cpc. 
+For overlapping column names, the same column definitions apply as above. 
+
+8 columns: 
+
+1. "DOCDB family"        
+2. "cpc": Character, full CPC code. 
+3. "Technology group"    
+4. "Technology subgroup" 
+5. "cpc4": 4-digit CPC class
+6. "class_name1": Character string that verbally describes the corresponding CPC 1-digit section. 
+7. "class_name3": Character string that verbally describes the corresponding CPC 3-digit class. 
+8. "class_name4": Character string that verbally describes the corresponding CPC 4-digit subclass. 
+
+
+
+(f) Y02_citations.RData: This file contains data on citation links between, from and to green patents. This is a subset of all patent citations. Links are only included if at least one of the two patents in the citation pair is green (i.e. citation between green patents, from green to non-green and from non-green to green patents). Non-green cited or citing patents are grouped as "non-green". 
+
+6 columns: 
+
+1. "citing": DOCDB family ID of the citing patent                     
+2. "Technology group citing": 4-digit technology group (adaptation, mitigation, non-green) of the citing patent.     
+3. "Technology subgroup citing": 6-digit technology subgroup of the citing patent 
+4. "cited": DOCDB family ID of the cited patent                      
+5. "Technology group cited": 4-digit technology group (adaptation, mitigation, non-green) of the cited patent. 
+6. "Technology subgroup cited": 6-digit technology subgroup of the cited patent 
+
+
+(g) dual_purpose.RData: This is a subset of patents that serve mitigation and adaptation purposes simultaneously, i.e. patents that have at least one classification as Y02A and one classification as any mitigation technology. 
+For overlapping column names, the same column definitions apply as above. 
+
+16 columns: 
+
+1. "DOCDB family"          
+2. "publn_nr": Patent publication (grant) number. This can be used for the search for the patent documents by number to validate the technological details of dual-purpose adaptation-mitigation complements.               
+3. "Patent year"           
+4. "Technology group"      
+5. "Technology subgroup"   
+6. "CPC class"             
+7. "Patent date" 
+8. "Patent title"          
+9. "Government supported?" 
+10. "Type of gov support"   
+11-16. "owned", "acknowledging", "cite_owned", "cite_acknowledging", "cite_gov_science", "cite_gov_ackn_science"
+
+
+(h) all_patents.RData: This file contains all patents in the database. Using the data, ensure uniqueness by the relevant level (duplicates arise from different CPC classes and family numbers). 
+For overlapping column names, the same column definitions apply as above.  
+
+7 columns: 
+
+1. "Patent number": Patent grant number     
+2. "DOCDB family"      
+3. "Patent date"       
+4. "CPC class"         
+5. "Patent title"      
+6. "Patent year"       
+7. "citing_to_science": Binary indicator whether the patent cites to science or not. 
+
+
+(i) all_papers.RData: This file contains information about all papers available in the database. 
+
+3 columns: 
+
+1. "Paper ID": Numeric ID of the paper to be mapped to other meta-data (e.g. citation links). 
+2. "Paper year": Numeric, publication year of the paper. 
+3. "cited": Binary indicator whether the paper is cited by a patent or not. 
+
+
+(j) patent_citations_family_based.RData: Patent-to-patent citation data. 
+
+2 columns: 
+
+1. "citing": DOCDB family ID of the citing patent. 
+2. "cited": DOCDB family ID of the cited patent. 
+
+
+
+## References 
+
+- [V. Veefkind, J. Hurtado-Albir, S. Angelucci, K. Karachalios, N. Thumm, "A new EPO classification scheme for climate change mitigation technologies", World Patent Information, Volume 34, Issue 2, 2012, Pages 106-111, ISSN 0172-2190.](https://doi.org/10.1016/j.wpi.2011.12.004)
+
+- [Lee Fleming; Hillary Green; Guan-Cheng Li; Matt Marx; Dennis Yao, 2019, "Replication Data for: Government-funded research increasingly fuels innovation"](https://doi.org/10.7910/DVN/DKESRC), Harvard Dataverse, V4, UNF:6:kMIqsh3DCvKiKYgMT6/H8A== [fileUNF]
+
+- [M. Marx, &amp; A. Fuegi, "Reliance on Science: Worldwide Front-Page Patent Citations to Scientific Articles" (2020a), Strategic Management Journal 41(9):1572-1594.](https://onlinelibrary.wiley.com/doi/full/10.1002/smj.3145) 
+
+- [M. Marx &amp; A. Fuegi, "Reliance on Science by Inventors: Hybrid Extraction of In-text Patent-to-Article Citations." (2020b) NBER Working Paper 27987.](https://www.nber.org/papers/w27987) 
+
+- [Sinha, A, et al. 2015. Overview of Microsoft Academic Service (MAS) and Applications. In Proceedings of the 24th International Conference on World Wide Web (WWW ’15 Companion). ACM, New York, NY, USA, 243-246.](https://doi.org/10.1145/2740908.2742839)
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Research_data_Knowledge_for_Adaptation.zip">https://pub.uni-bielefeld.de/download/2958327/2958368/Research_data_Knowledge_for_Adaptation.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+
+<subject><topic>climate change adaptation</topic><topic>technology</topic><topic>patents</topic><topic>innovation policy design</topic><topic>technology-science links</topic><topic>technological capabilities</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2958327</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2956669</url>     <url>https://pub.uni-bielefeld.de/record/2950291</url>     <url>https://pub.uni-bielefeld.de/record/2950288</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hötte, K.; Jee, S. J.; Srivastav, S. (2021): Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies. Bielefeld University.</wels>
+<angewandte-chemie>K.  Hötte, S. J.  Jee, and S.  Srivastav, &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K., Jee, S. J., &amp;amp; Srivastav, S. (2021).  &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2958327" target="_blank"&gt;https://doi.org/10.4119/unibi/2958327&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Hötte, K., Jee, S.J., &amp;amp; Srivastav, S., 2021. &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hötte K, Jee SJ, Srivastav S (2021) &lt;br /&gt;&lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<frontiers>Hötte, K., Jee, S. J., and Srivastav, S. (2021). Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K., Jee, S.J. &amp;amp; Srivastav, S. (2021). &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2958327.&lt;/div&gt;</dgps>
+<ama>Hötte K, Jee SJ, Srivastav S. &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University; 2021.</ama>
+<ieee> K. Hötte, S.J. Jee, and S. Srivastav, &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;, Bielefeld University, 2021.</ieee>
+<apa>Hötte, K., Jee, S. J., &amp;amp; Srivastav, S. (2021).  &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2958327" target="_blank"&gt;https://doi.org/10.4119/unibi/2958327&lt;/a&gt;</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, Kerstin, Jee, Su Jung, and Srivastav, Sugandha. 2021. &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hötte, K., Jee, S.J., Srivastav, S.: Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies. Bielefeld University (2021).</lncs>
+<default>Hötte K, Jee SJ, Srivastav S (2021) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hötte, Kerstin, Jee, Su Jung, and Srivastav, Sugandha. &lt;em&gt;Data publication: Knowledge for a warmer world: a patent analysis of climate change adaptation technologies&lt;/em&gt;. Bielefeld University, 2021.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2958327</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-10-15T13:14:02Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-16T10:46:54Z</recordChangeDate>
+</recordInfo>
+</mods>

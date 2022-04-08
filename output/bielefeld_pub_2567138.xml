@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2567138">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Migration and separation in structured microfluidic systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Bogunovic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dario</namePart>
+                        <namePart type="family">Anselmetti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-04-26</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Spatially structured microfluidic channels in a state far from thermal equilibrium have been developed to address three fundamental problems in modern (bio-)analytics: the usually fixed separation criterion (e.g. a gel density is not changeable on the fly), the usually unknown polarizability properties of samples for dielectrophoretic manipulation and the requirement of a specifically designed chiral selector for chiral separation.
+
+1) Typical biotechnological separation techniques like filters, chromatography, or gel electrophoresis have a fixed implemented separation criterion, e.g. defined by pore size, affinity of the steady phase, or gel density. To overcome this limit, the aim of the first project is the development and functional characterization of a microfluidic ratchet device with a dynamically changeable separation criterion. Depending on the applied voltage scheme, an arbitrarily selectable sub-group of the available species in the analyte solution is forced to migrate into opposite direction than the remaining species. Changing the voltage scheme will immediately switch the separation criterion. The device is based on a sophisticated interplay between electrophoresis and dielectrophoresis and operates with any charged and polarizable material in solution such as e.g. micro- and nanoparticles, cells, or biomolecules.
+
+2) Many microfluidic systems rely on dielectrophoresis to immobilize, manipulate, or sort a somehow polarizable sample. However, the actual polarizability value usually remains unknown and appropriate electric fields to trigger dielectrophoresis are found via trial and error. The second project uses dielectrophoretic traps in a tilted potential implemented in a microfluidic channel to automatically quantify single molecule (here DNA) polarizabilities via fluorescence video microscopy. The approach is tested by reproducing a well-known scaling law between the buffer solution’s ionic strength and the polarizability for two different DNA types. In a second experiment the influence of the required fluorescence staining on the polarizability is investigated. Besides the pure quantification of polarizability in basic research, this system could be used to automatically tune dielectrophoretic traps in a final product to broaden its range of possible analyte classes.
+
+3)When chiral molecules are about to be separated after synthesis, a chromatography setup is used which typically requires chiral selection or derivatization agents. Usually these chemicals have to be redeveloped for every new analyte. The third project’s aim is the implementation of a generic and continuously operating principle to separate chiral molecules in microfluidic channels without the need for any chiral selection or derivatization agent. Two conceptually different microfluidic approaches with excellent sorting performance were developed and experimentally evaluated. Following Curie’s principle, both approaches rely on microfluidic structures that somehow break the symmetry in the channel in every relevant dimension. Injected model enantiomers are demonstrated to split up according to their chirality and to accumulate near opposite channel walls.</abstract>
+                    <subject>
+                        <topic>Lab on a chip</topic>
+                        <topic>separation</topic>
+                        <topic>analytics</topic>
+                        <topic>chirality</topic>
+                        <topic>dielectrophoresis</topic>
+                        <topic>Microfluidics</topic>
+                        <topic>electrophoresis</topic>
+                        <topic>polarizability</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25671389</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2567138</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2567138">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2567138/2567139/diss_056_FINAL.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2567138" DMDID="DMD2567138">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2567138"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

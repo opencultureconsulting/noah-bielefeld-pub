@@ -1,0 +1,97 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2657450</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:000</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+<name type="personal">
+  <namePart type="given">Salih Atilay</namePart>
+  <namePart type="family">Oto</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Erdogan</namePart>
+  <namePart type="family">Dogdu</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Named Entity Recognition (NER) is a subtask of informationextraction and aims to identify atomic entities in text that fall intopredefined categories such as person, location, organization, etc.Recent efforts in NER try to extract entities and link them tolinked data entities. Linked data is a term used for data resourcesthat are created using semantic web standards such as DBpedia.There are a number of online tools that try to identify namedentities in text and link them to linked data resources. Althoughone can use these tools via their APIs and web interfaces, they usedifferent data resources and different techniques to identify namedentities and not all of them reveal this information. One of themajor tasks in NER is disambiguation that is identifying the rightentity among a number of entities with the same names; forexample “apple” standing for both “Apple, Inc.” the company andthe fruit. We developed a similar tool called NERSO, short forNamed Entity Recognition Using Semantic Open Data, toautomatically extract named entities, disambiguating and linkingthem to DBpedia entities. Our disambiguation method is based onconstructing a graph of linked data entities and scoring them usinga graph-based centrality algorithm. We evaluate our system bycomparing its performance with two publicly available NER tools.The results show that NERSO performs better.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2012-nerso-swim.pdf">https://pub.uni-bielefeld.de/download/2657450/2715987/2012-nerso-swim.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>SIGMOD, SWIM 2012</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-26574507</identifier>
+<part><extent unit="pages">4</extent>
+</part>
+</relatedItem>
+
+<note type="extern">yes</note>
+<extension>
+<bibliographicCitation>
+<lncs> Hakimov, S., Oto, S.A., Dogdu, E.: Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. SIGMOD, SWIM 2012. p. 4. (2012).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod, Oto, Salih Atilay, and Dogdu, Erdogan. 2012. “Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring”. In &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;, 4.&lt;/div&gt;</chicago>
+<mla>Hakimov, Sherzod, Oto, Salih Atilay, and Dogdu, Erdogan. “Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring”. &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;. 2012. 4.</mla>
+<default>Hakimov S, Oto SA, Dogdu E (2012)  &lt;br /&gt;In:  SIGMOD, SWIM 2012.  4.</default>
+<ama>Hakimov S, Oto SA, Dogdu E. Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. In:  &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;. 2012: 4.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Oto, S.A. &amp;amp; Dogdu, E. (2012). Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt; (S. 4).&lt;/div&gt;</dgps>
+<frontiers>Hakimov, S., Oto, S. A., and Dogdu, E. (2012). “Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring” in &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt; 4.</frontiers>
+<apa>Hakimov, S., Oto, S. A., &amp;amp; Dogdu, E. (2012). Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;, 4.</apa>
+<ieee> S. Hakimov, S.A. Oto, and E. Dogdu, “Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring”, &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;, 2012,  pp.4.</ieee>
+<wels>Hakimov, S.; Oto, S. A.; Dogdu, E. (2012): Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. In: SIGMOD, SWIM 2012.  S. 4.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Oto, S. A., &amp;amp; Dogdu, E. (2012). Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;, 4.&lt;/div&gt;</apa_indent>
+<harvard1>Hakimov, S., Oto, S.A., &amp;amp; Dogdu, E., 2012. Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. In &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;. pp. 4.</harvard1>
+<bio1>Hakimov S, Oto SA, Dogdu E (2012) &lt;br /&gt;Named Entity Recognition and Disambiguation using Linked Data and Graph-based Centrality Scoring. &lt;br /&gt;In:  SIGMOD, SWIM 2012.  4.</bio1>
+<angewandte-chemie>S.  Hakimov, S. A.  Oto, and E.  Dogdu, in &lt;em&gt;SIGMOD, SWIM 2012&lt;/em&gt;, &lt;strong&gt;2012&lt;/strong&gt;, p. 4.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2657450</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-02-19T11:00:01Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-05-15T12:34:24Z</recordChangeDate>
+</recordInfo>
+</mods>

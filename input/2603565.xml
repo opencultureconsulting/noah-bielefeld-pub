@@ -1,0 +1,124 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2603565</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:006</setSpec><setSpec>ddc:600</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Philippe</namePart>
+  <namePart type="family">Thomas</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tamara</namePart>
+  <namePart type="family">Bobić</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Ulf</namePart>
+  <namePart type="family">Leser</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Hofmann-Apitius</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Roman</namePart>
+  <namePart type="family">Klinger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">37260489</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Relation extraction is frequently and successfully addressed by machine learning methods. The downside of this approach is the need
+for annotated training data, typically generated in tedious manual, cost intensive work. Distantly supervised approaches make use of
+weakly annotated data, which can be derived automatically. Recent work in the biomedical domain has applied distant supervision for
+protein-protein interaction (PPI) with reasonable results, by employing the IntAct database. Training from distantly labeled corpora is
+more challenging than from manually curated ones, as such data is inherently noisy. With this paper, we make two corpora publicly
+available to the community to allow for comparison of different methods that deal with the noise in a uniform setting. The first corpus is
+addressing protein-protein interaction (PPI), based on named entity recognition and the use of IntAct and KUPS databases, the second
+is concerned with drug-drug interaction (DDI), making use of the database DrugBank. Both corpora are in addition labeled with 5
+state-of-the-art classifiers trained on annotated data, to allow for development of filter methods. Furthermore, we present in short our
+approach and results for distant supervision on these corpora as a strong baseline for future research.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ppi-ddi.pdf">https://pub.uni-bielefeld.de/download/2603565/2624540/ppi-ddi.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Distant Supervision</topic><topic>Relation Extraction</topic><topic>Silver Standard</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-26035658</identifier>
+<part>
+</part>
+</relatedItem>
+
+<note type="extern">yes</note>
+<extension>
+<bibliographicCitation>
+<ieee> P. Thomas, et al., “Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction”, &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;,  Istanbul, Turkey: 2012.</ieee>
+<apa>Thomas, P., Bobić, T., Leser, U., Hofmann-Apitius, M., &amp;amp; Klinger, R. (2012). Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt; Istanbul, Turkey.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Thomas, P., Bobić, T., Leser, U., Hofmann-Apitius, M. &amp;amp; Klinger, R. (2012). Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;. Istanbul, Turkey.&lt;/div&gt;</dgps>
+<frontiers>Thomas, P., Bobić, T., Leser, U., Hofmann-Apitius, M., and Klinger, R. (2012). “Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction” in &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt; (Istanbul, Turkey).</frontiers>
+<ama>Thomas P, Bobić T, Leser U, Hofmann-Apitius M, Klinger R. Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. In:  &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;. Istanbul, Turkey;  2012.</ama>
+<angewandte-chemie>P.  Thomas, T.  Bobić, U.  Leser, M.  Hofmann-Apitius, and R.  Klinger, in &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;, Istanbul, Turkey, &lt;strong&gt;2012&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Thomas, P., et al., 2012. Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. In &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;.  Istanbul, Turkey.</harvard1>
+<bio1>Thomas P, Bobić T, Leser U, Hofmann-Apitius M, Klinger R (2012) &lt;br /&gt;Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. &lt;br /&gt;In:  Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC).  Istanbul, Turkey.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Thomas, P., Bobić, T., Leser, U., Hofmann-Apitius, M., &amp;amp; Klinger, R. (2012). Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt; Istanbul, Turkey.&lt;/div&gt;</apa_indent>
+<wels>Thomas, P.; Bobić, T.; Leser, U.; Hofmann-Apitius, M.; Klinger, R. (2012): Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. In: Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC). Istanbul, Turkey.</wels>
+<default>Thomas P, Bobić T, Leser U, Hofmann-Apitius M, Klinger R (2012)  &lt;br /&gt;In:  Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC). Istanbul, Turkey.</default>
+<mla>Thomas, Philippe, Bobić, Tamara, Leser, Ulf, Hofmann-Apitius, Martin, and Klinger, Roman. “Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction”. &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;. Istanbul, Turkey, 2012.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Thomas, Philippe, Bobić, Tamara, Leser, Ulf, Hofmann-Apitius, Martin, and Klinger, Roman. 2012. “Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction”. In &lt;em&gt;Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC)&lt;/em&gt;. Istanbul, Turkey.&lt;/div&gt;</chicago>
+<lncs> Thomas, P., Bobić, T., Leser, U., Hofmann-Apitius, M., Klinger, R.: Weakly Labeled Corpora as Silver Standard for Drug-Drug and Protein-Protein Interaction. Proceedings of the Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM) on Language Resources and Evaluation Conference (LREC).  Istanbul, Turkey (2012).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2603565</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-06-14T11:24:46Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:18Z</recordChangeDate>
+</recordInfo>
+</mods>

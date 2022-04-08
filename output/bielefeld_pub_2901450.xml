@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2901450">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Continuous-Time Public Good Contribution under Uncertainty</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Riedel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4291-6610</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan-Henrik</namePart>
+                        <namePart type="family">Steg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study a continuous-time problem of public good contribution under uncertainty
+for an economy with a finite number of agents. Each agent aims to maximize his expected
+utility allocating his initial wealth over a given time period between private consumption and
+repeated but irreversible contributions to increase the stock of some public good. We study the
+corresponding social planner problem and the case of strategic interaction between the agents.
+These problems are set up as stochastic control problems with both monotone and classical controls
+representing the cumulative contribution into the public good and the consumption of the
+private good, respectively. We characterize the optimal investment policies by a set of necessary
+and sufficient stochastic Kuhn-Tucker conditions, which in turn allow to identify a universal signal
+process that triggers the public good investments. Further we show that our model exhibits
+a dynamic free rider effect. We explicitly evaluate it in a symmetric Black-Scholes setting with
+Cobb-Douglas utilities and we show that uncertainty and irreversibility of public good provisions
+need not affect the degree of free-riding.</abstract>
+                    <subject>
+                        <topic>irreversible investment</topic>
+                        <topic>public good contribution</topic>
+                        <topic>free-riding</topic>
+                        <topic>singular stochastic control</topic>
+                        <topic>first order conditions for optimality</topic>
+                        <topic>stochastic games</topic>
+                        <topic>Nash equilibrium</topic>
+                        <topic>Lévy processes</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>485</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>30</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29014502</identifier>
+                    <identifier type="sys">HT019023202</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2901450</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2901450">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2901450/2901451/IMW_working_paper_485a.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2901450" DMDID="DMD2901450">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2901450"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

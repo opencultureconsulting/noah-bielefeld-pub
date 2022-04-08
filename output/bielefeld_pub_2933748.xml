@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933748">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Locally Constant Model Uncertainty Risk Measure</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lazar</namePart>
+                        <namePart type="family">Obradovic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper introduces a (coherent) risk measure that describes the uncertainty of the model (represented by a probability measure $P_0$) by a set  $P_\lambda$ of probability measures each of which has a Radon-Nikodym&apos;s derivative  (with respect to $P_0$) that lies within the interval $[\lambda,\frac{1}{\lambda}]$ for some constant $\lambda\in(0,1]$. Economic considerations are discussed and an explicit representation is obtained that gives a connection to both the expected loss of the financial position and its *average value-at-risk*. Optimal portfolio analysis is performed -- different optimization criteria lead to Merton portfolio. Comparison with related problems reveals examples of extreme sensitivity of optimal portfolios to model parameters and the choice of risk measure.</abstract>
+                    <subject>
+                        <topic>Risk measure</topic>
+                        <topic>Model uncertainty</topic>
+                        <topic>Value at risk</topic>
+                        <topic>Average value at risk</topic>
+                        <topic>Optimal portfolio</topic>
+                        <topic>Merton portfolio.</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>609</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29337481</identifier>
+                    <identifier type="sys">HT020242131</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933748</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933748">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933748/2933749/IMW_working_paper_609.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933748" DMDID="DMD2933748">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933748"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

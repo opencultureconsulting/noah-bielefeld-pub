@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935456">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>FRI - Feature Relevance Intervals for Interpretable and Interactive Data  Exploration</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Pfannschmidt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5521-0326</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christina</namePart>
+                        <namePart type="family">Göpfert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2517-4907</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ursula</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dominik</namePart>
+                        <namePart type="family">Heider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Most existing feature selection methods are insufficient for analytic
+purposes as soon as high dimensional data or redundant sensor signals are dealt
+with since features can be selected due to spurious effects or correlations
+rather than causal effects. To support the finding of causal features in
+biomedical experiments, we hereby present FRI, an open source Python library
+that can be used to identify all-relevant variables in linear classification
+and (ordinal) regression problems. Using the recently proposed feature
+relevance method, FRI is able to provide the base for further general
+experimentation or in specific can facilitate the search for alternative
+biomarkers. It can be used in an interactive context, by providing model
+manipulation and visualization methods, or in a batch process as a filter
+method.</abstract>
+                    <subject>
+                        <topic>global feature relevance</topic>
+                        <topic>feature selection</topic>
+                        <topic>interpretability</topic>
+                        <topic>interactive biomarker discovery</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="arXiv">1903.00719</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29354564</identifier>
+                    <identifier type="doi">10.1109/CIBCB.2019.8791489</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935456</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935456">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935456/2935457/FRI_CIBCB_2019_preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935456" DMDID="DMD2935456">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935456"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

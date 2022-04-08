@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2950877">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ALMI - A Generic Active Learning System for Computational Object Classification in Marine Observation Images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Torben</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In recent years, an increasing number of cabled Fixed Underwater Observatories (FUOs) have been deployed, many of them equipped with digital cameras recording high-resolution digital image time series for a given period. The manual extraction of quantitative information from this data regarding resident species is necessary to link the image time series information to data from other sensors but requires computational support to overcome the bottleneck problem in manual analysis. Since a priori knowledge about the objects of interest in the images is almost never available, computational methods are required that are not dependent on the posterior availability of a large training data set of annotated images.
+
+In this paper, we propose a new strategy for collecting and using training data for machine learning-based observatory image interpretation much more efficiently. The method combines the training efficiency of a special active learning procedure with the advantages of deep learning feature representations. 
+The method is tested on two highly disparate data sets.
+In our experiments, we can show that the proposed method ALMI achieves on one data set a classification accuracy A&gt;90% with less than N=258 data samples and A&gt;80% after N=150 iterations, i.e. training samples, on the other data set outperforming the reference method regarding accuracy and training data required.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Sensors</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1424-8220</identifier>
+                    <identifier type="MEDLINE">33561961</identifier>
+                    <identifier type="ISI">000624660000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29508776</identifier>
+                    <identifier type="doi">10.3390/s21041134</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2950877</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2950877">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2950877/2953618/sensors-21-01134-v2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2950877" DMDID="DMD2950877">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2950877"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

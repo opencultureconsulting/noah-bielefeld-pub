@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909611">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Structural priming of SO vs. OS in German: Clauses with psychological verbs as a test case</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sandra</namePart>
+                        <namePart type="family">Pappert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Baumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Bader</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>structural priming</topic>
+                        <topic>word order</topic>
+                        <topic>psychological verbs</topic>
+                        <topic>German</topic>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29096111</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909611</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909611">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909611/2909612/SPMBMB_CUNY17_SOOS_poster.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2909611">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909611/2909613/CUNY2017_abstract_SOOS_MBSPMB.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909611" DMDID="DMD2909611">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909611"/>
+            <mets:div TYPE="part" ID="PART1_2909611" LABEL="CUNY2017_abstract_SOOS_MBSPMB.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2909611"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

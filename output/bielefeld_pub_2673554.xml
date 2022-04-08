@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2673554">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Adaptive distance measures for sequential data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bassam</namePart>
+                        <namePart type="family">Mokbel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michel</namePart>
+                        <namePart type="family">Verleysen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Recent extensions of learning vector quantization (LVQ) to general (dis-)similarity data have paved the way towards LVQ classifiers for possibly discrete, structured objects such as sequences addressed by classical alignment. In this contribution, we propose a metric learning scheme based on this framework which allows for autonomous learning of the underlying scoring matrix according to a given discriminative task. Besides facilitating the often crucial and problematic choice of the scoring matrix in applications, this extension offers an increased interpretability of the results by pointing out structural invariances for the given task.</abstract>
+                    <subject>
+                        <topic>learning vector quantization</topic>
+                        <topic>sequence alignment</topic>
+                        <topic>dissimilarity data</topic>
+                        <topic>metric adaptation</topic>
+                        <topic>metric learning</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="issn">9782874190957</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26735541</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2673554</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2673554">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2673554/2712748/MokbelEtAl2014-ESANN2014-AdaptiveAlignmentGLVQ.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2673554" DMDID="DMD2673554">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2673554"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

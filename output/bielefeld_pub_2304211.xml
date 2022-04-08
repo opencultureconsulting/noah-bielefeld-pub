@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304211">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Hierarchisches perzeptives Gruppieren mit Integration dualer Bildbeschreibungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Schlüter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Posch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2001-10-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Betrachtet ein Mensch seine Umwelt, so kann er spontan Objekte erkennen. Ohne spezielles Wissen über einzelne Objekte zu besitzen, können wir beispielsweise die Anordnung von zwei holzfarbenen Leisten zu einem Kreuz erkennen, obwohl nur Teile der Objekte sichtbar sind. Implizit erzeugen wir dabei Ergänzungen, die Schlussfolgerungen über die reale Form und Struktur der verdeckten Objekte ermöglichen. Wir nehmen also räumliche Strukturen und Relationen zwischen Objekten oder Objektteilen wahr und ergänzen fehlende visuelle Information weitmöglichst, um letztendlich zu einer Interpretation des Wahrgenommenen zu kommen.
+Das Ziel eines automatischen Bildanalysesystems besteht darin, die relevanten Aspekte dieser visuellen perzeptiven Fähigkeiten algorithmisch zu modellieren und so automatisch eine Beschreibung der abgebildeten Szene zu erlangen. Hierfür ist die Detektion der inhärenten Strukturen von Objekten von starkem Interesse. Denn gerade bei künstlichen Objekten erleichtert die Regelmäßigkeit und Einfachheit von Objekten deren Identifikation und Erkennung. Darüber hinaus führt eine regelmäßige Anordnung von Objekten oder Objektbestandteilen zu einer weiteren Strukturierung der betrachteten Szene und unterstützt eine Beschreibung derselben.
+Die vorliegende Arbeit befasst sich mit der Modellierung und algorithmischen Realisierung wesentlicher Aspekte dieser Strukturierungs- oder auch Gruppierungsaufgaben. Auf Basis einer geometrischen Beschreibung wird ein hierarchischer Ansatz zum Gruppieren der in einem Bild vorhandenen (Objekt-)Konturen entwickelt. Die vorgestellten Gruppierungsstrategien motivieren sich dabei aus den in der Gestalt-Psychologie beschriebenen Gesetzmäßigkeiten zur strukturierten Wahrnehmung beim Menschen. Als Ergebnis werden Hypothesen über Gruppen von Konturen generiert, die beispielsweise eine kollineare Anordnung von Geradenstücken oder einen geschlossenen Zug von Konturen beschreiben. Für diese Hypothesenbildung werden rein lokale Gruppierungseigenschaften ausgewertet und kein Domänenwissen eingesetzt. Demzufolge erfolgt zur Reduzierung redundanter und Selektion signifikanter (korrekter) Hypothesen abschließend eine Bewertung aller Gruppierungsannahmen in einem globalen Kontext. Zur Unterstützung dieses Gruppierungsprozesses und zur Steigerung einer Objekterkennungsleistung wird in der vorliegenden Arbeit zudem ein Konzept vorgeschlagen, welches eine Integration einer konturbasierten Beschreibung des Bildinhaltes und einer Beschreibung auf Basis von homogenen Regionen ähnlicher Farbe realisiert. Beide Beschreibungsformen modellieren die Projektion desselben Ereignisses im Bild und können daher als duale Beschreibungen aufgefasst werden. Dabei bilden Konturen zum einen die Begrenzung einer Region homogener Farbe oder sie modellieren inhärente Struktur innerhalb einer Region. Auch der Mensch nutzt in ähnlicher Weise unterschiedliche Verarbeitungskanäle, um letztendlich zu einer korrekten Interpretation des Wahrgenommenen zu gelangen. Die Tragfähigkeit aller vorgestellten Techniken wird zum Abschluss der Arbeit anhand mehrerer Beispielbilder demonstriert.
+Insgesamt ist die Arbeit Bestandteil eines Gesamtsystems zur Bildanalyse, das wiederum Bestandteil eines größeren Forschungsprojekts ist, dem Sonderforschungsbereich 360 &quot;Situierte künstliche Kommunikatoren&quot; an der Universität Bielefeld.</abstract>
+                    <subject>
+                        <topic>Szenenanalyse , Objekterkennung , Rezeptive Gruppierung , Mustererkennung , Bildsegmentierung , Markov-Zufallsfeld , Perzeptives Gruppieren , Bildverarbeitung , Markov Random Fields , Kontur-Regionen-Integration ,</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-4857</identifier>
+                    <identifier type="sys">HT014298630</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304211</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304211">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304211/2304214/0055.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304211" DMDID="DMD2304211">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304211"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

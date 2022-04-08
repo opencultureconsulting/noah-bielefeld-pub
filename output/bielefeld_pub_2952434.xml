@@ -1,0 +1,108 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2952434">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Large scale genomic rearrangements in selected Arabidopsis thaliana T-DNA lines are caused by T-DNA insertion mutagenesis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Boas</namePart>
+                        <namePart type="family">Pucker</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3321-7471</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nils</namePart>
+                        <namePart type="family">Kleinbölting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd</namePart>
+                        <namePart type="family">Weisshaar</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7635-3473</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: 
+Experimental proof of gene function assignments in plants is based on mutant analyses. T-DNA
+insertion lines provided an invaluable resource of mutants and enabled systematic reverse genetics-based
+investigation of the functions of Arabidopsis thaliana genes during the last decades.
+Results: 
+We sequenced the genomes of 14 A. thaliana GABI-Kat T-DNA insertion lines, which eluded flanking
+sequence tag-based attempts to characterize their insertion loci, with Oxford Nanopore Technologies (ONT) long
+reads. Complex T-DNA insertions were resolved and 11 previously unknown T-DNA loci identified, resulting in about
+2 T-DNA insertions per line and suggesting that this number was previously underestimated. T-DNA mutagenesis
+caused fusions of chromosomes along with compensating translocations to keep the gene set complete
+throughout meiosis. Also, an inverted duplication of 800 kbp was detected. About 10 % of GABI-Kat lines might be
+affected by chromosomal rearrangements, some of which do not involve T-DNA. Local assembly of selected reads
+was shown to be a computationally effective method to resolve the structure of T-DNA insertion loci. We
+developed an automated workflow to support investigation of long read data from T-DNA insertion lines. All steps
+from DNA extraction to assembly of T-DNA loci can be completed within days.
+Conclusions: 
+Long read sequencing was demonstrated to be an effective way to resolve complex T-DNA insertions
+and chromosome fusions. Many T-DNA insertions comprise not just a single T-DNA, but complex arrays of multiple
+T-DNAs. It is becoming obvious that T-DNA insertion alleles must be characterized by exact identification of both
+T-DNA::genome junctions to generate clear genotype-to-phenotype relations.</abstract>
+                    <subject>
+                        <topic>long read sequencing</topic>
+                        <topic>genome assembly</topic>
+                        <topic>structural variants</topic>
+                        <topic>translocations</topic>
+                        <topic>chromosome fusions</topic>
+                        <topic>reverse genetics</topic>
+                        <topic>chromosomal rearrangements</topic>
+                        <topic>GABI-Kat</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>22</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="MEDLINE">34362298</identifier>
+                    <identifier type="ISI">000683900400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29524342</identifier>
+                    <identifier type="doi">10.1186/s12864-021-07877-8</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2952434</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2952434">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2952434/2960373/SN_gOA_Weisshaar_s12864-021-07877-8.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2952434" DMDID="DMD2952434">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2952434"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

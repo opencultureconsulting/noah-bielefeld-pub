@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2652167">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian Hans</namePart>
+                        <namePart type="family">Held</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Wittenberg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-01-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In the past decade, automation in fluorescence microscopy has strongly increased, particularly in regards to image acquisition and sample preparation, which results in a huge volume of data. The amount of time required for manual assessment of an experiment is hence mainly determined by the amount of time required for data analysis. In addition, manual data analysis is often a task with poor reproducibility and lack of objectivity.
+Using automated image analysis software, the time required for data analysis can be reduced while quality and reproducibility of the evaluation are improved. Most image analysis approaches are based on a segmentation of the image. By arranging several image processing methods in a so-called segmentation pipeline, and by adjusting all parameters, a broad range of fluorescence image data can be segmented. The drawback of available software tools is the long time required to calibrate the segmentation pipeline for an experiment, particularly for researchers with little knowledge of image processing. As a result, many experiments that could benefit from automated image analysis are still evaluated manually. 
+In order to reduce the amount of time users have to spend in adapting automated image analysis software to their data, research was carried out on a novel image analysis concept based on hand-labeled data. Using this concept, the user is required to provide hand-labeled cells, based on which an efficient combination of image processing methods and their parameterization is automatically calibrated, without further user input. The development of a segmentation pipeline that allows high-quality segmentation of a broad range of fluorescence micrographs in short time poses a challenge. In this work, a three-stage segmentation pipeline consisting of exchangeable preprocessing, figure-ground separation and cell-splitting methods was developed. 
+These methods are mainly based on the state of the art, whereas some of them represent contributions to this status. Discretization of parameters must be performed carefully, as a broad range of fluorescence image data shall be supported. In order to allow calibration of the segmentation pipeline in a short time, discretization with equidistant as well as nonlinear step sizes was implemented. Apart from parameter discretization, quality of the calibration strongly depends on choice of the parameter optimization technique. In order to reduce calibration runtime, exploratory parameter space analysis was performed for different segmentation methods. This experiment showed that parameter spaces are mostly monotonous, but also show several local performance maxima. The comparison of different parameter optimization techniques indicated that the coordinate descent method results in a good parameterization of the segmentation pipeline in a small amount of time. 
+In order to minimize the amount of time spent by the user in calibration of the system, correlation between the number of hand-labeled reference samples and the resulting segmentation performance was investigated. This experiment demonstrates that as few as ten reference samples often result in a good parameterization of the segmentation pipeline.
+Due to the low number of cells required for automatic calibration of the segmentation pipeline, as well as its short runtime, it can be concluded that the investigated method improves automation and efficiency in fluorescence micrograph analysis.</abstract>
+                    <subject>
+                        <topic>Watershed</topic>
+                        <topic>Graph Cut</topic>
+                        <topic>Fluorescene Microscopy</topic>
+                        <topic>Image Analysis</topic>
+                        <topic>Segmentation</topic>
+                        <topic>Fast Marching</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26521679</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2652167</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2652167">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2652167/2652171/130529_PhD_held_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2652167" DMDID="DMD2652167">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2652167"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

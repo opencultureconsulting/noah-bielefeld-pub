@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2427789">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reliable Computation in Noisy Backgrounds Using Real-Time Neuromorphic Hardware</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">H.-P.</namePart>
+                        <namePart type="family">Wang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">T. J.</namePart>
+                        <namePart type="family">Sejnowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Spike-time based coding of neural information, in contrast to rate coding, requires that neurons reliably and precisely fire spikes in response to repeated identical inputs, despite a high degree of noise from stochastic synaptic firing and extraneous background inputs. We investigated the degree of reliability and precision achievable in various noisy background conditions using real-time neuromorphic VLSI hardware which models integrate-and-fire spiking neurons and dynamic synapses. To do so, we varied two properties of the inputs to a single neuron, synaptic weight and synchrony magnitude (number of synchronously firing pre-synaptic neurons). Thanks to the realtime response properties of the VLSI system we could carry out extensive exploration of the parameter space, and measure the neurons firing rate and reliability in real-time. Reliability of output spiking was primarily influenced by the amount of synchronicity of synaptic input, rather than the synaptic weight of those synapses. These results highlight possible regimes in which real-time neuromorphic systems might be better able to reliably compute with spikes despite noisy input.</abstract>
+                    <subject>
+                        <topic>stochastic processes</topic>
+                        <topic>reliability</topic>
+                        <topic>real-time systems</topic>
+                        <topic>VLSI</topic>
+                        <topic>neural chips</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-1-4244-1524-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24277896</identifier>
+                    <identifier type="doi">10.1109/BIOCAS.2007.4463311</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2427789</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2427789">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2427789/2459946/Reliable_Computation_in_Noisy_Backgrounds_Using_Real-Time_Neuromorphic_Hardware.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2427789" DMDID="DMD2427789">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2427789"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

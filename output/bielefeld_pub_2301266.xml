@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301266">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evolutionäre Optimierung eines biologisch motivierten visuellen Objekterkennungssystems</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Evolutionary optimization of a biologically motivated visual object recognition system</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Georg</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2005-01-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Ziel dieser Arbeit ist es, einen Entwurfsprozess zu entwickeln, zu implementieren und zu analysieren, der den systematischen und optimalen Aufbau eines biologisch motivierten visuellen Objekterkennungssystems erlaubt. Das optimierte visuelle System soll schnell und robust Objekte aus unterschiedlichen Bilddomänen erkennen können. Die optimierten visuellen Systeme sollen in ihrem Aufbau untersucht und in Bezug auf ihre Generalisierungsfähigkeit evaluiert werden.
+Das verwendete visuelle Verarbeitungssystem bringt gezielt Vorwissen aus dem Bereich der Neurobiologie ein. Durch die Integration von leistungsfähigen Verarbeitungsprinzipien, die durch das menschliche Sehsystem inspiriert sind, wird der große Gestaltungsraum aller möglichen Systementwürfe sinnvoll eingegrenzt. Die Festlegung der verbleibenden freien Parameter und Strukturelemente soll in dieser Arbeit mit Hilfe Evolutionärer Algorithmen erfolgen. Aus dieser Klasse von Methoden werden speziell die Evolutionsstrategien verwendet, welche sich durch eine Selbstadaption der mutativen Schrittweite auszeichnen.
+Die gängigen Evolutionären Algorithmen simulieren im Wesentlichen die Phylogenese, also die Weiterentwicklung von Individuen von Generation zu Generation. In dieser Arbeit sollen hingegen auch Elemente der Ontogenese erstmals bei der evolutionären Optimierung eines visuellen Erkenners, der ein anspruchsvolles Erkennungsproblem mit realen dreidimensionalen Objekten zu lösen vermag, verwendet werden. Hierzu sollen unterschiedliche unüberwachte Lernverfahren zum Einsatz kommen, die in den Prozess der evolutionären Optimierung eingebettet sind. Ein biologisches Prinzip, das dabei angewendet werden soll, ist das der spärlichen Kodierung. Die verwendete Kopplung von evolutionärer Optimierung und lokalen Lernverfahren wird in dieser Arbeit als indirekte Kodierung bezeichnet.
+Von besonderer Bedeutung bei der evolutionären Optimierung von neuronalen Strukturen zur Objekterkennung ist die Frage nach ihrer Generalisierungsfähigkeit. Im Allgemeinen versteht man darunter bei technischen Objekterkennungssystemen die Fähigkeit des Systems, nach dem Erlernen von Trainingsansichten auf davon unterschiedliche Testansichten eines Objektes generalisieren zu können. Ein optimaler Entwurf des Erkennungssystems soll diese Fähigkeit verbessern. Überprüft wird diese Fähigkeit meist auf problemspezifischen Objektdaten. Wünschenswert ist jedoch ein System, das nicht nur auf einer beim Entwurf verwendeten Datenbank eine gute Generalisierung aufweist, sondern diese Fähigkeit domänenübergreifend, d.h. auch auf unterschiedlichen Objektklassen, aufweist. Diese Form der Generalisierung wird in dieser Arbeit mit Generalisierung 2. Ordnung bezeichnet. Sie dient als ein weiteres Evaluierungskriterium für das evolutionär strukturierte visuelle System.
+Diese Generalisierungseigenschaft soll in Verbindung mit der Forderung nach Robustheit in die evolutionäre Optimierung eingebracht werden. Zwei Methoden werden hierzu untersucht: Zum einen soll eine Verallgemeinerung des Fitnessmaßes neben der reinen Erkennungsleistung die Konfidenz der Klassifikationsentscheidung mit aufnehmen, zum anderen wird durch die Simulation einer veränderlichen Bildumgebung die Entwicklung eines visuellen Systems mit allgemeiner einsetzbaren Merkmalen unterstützt.
+Bei der Anwendung von stochastischen Optimierungsalgorithmen wie den Evolutionsstrategien kann das Erreichen des globalen Optimums nicht garantiert werden. Wird die Aufgabe nicht vollständig gelöst, so kann das an der Lösungsstruktur (hier dem visuellen System) oder aber an der Konvergenz des Algorithmus in lokalen Optima liegen. Um die Leistungsfähigkeit des visuellen Systems im Zusammenspiel mit der vorgeschlagenen evolutionären Optimierung genauer untersuchen zu können, soll ein generatives Modell zur Erzeugung von hierarchischen Musterdatenbanken entwickelt werden. Durch die damit ermöglichte Erzeugung von Mustern können gezielt Erkennungsaufgaben konzipiert werden. Der entscheidende Vorteil hierbei ist, dass von vornherein die prinzipielle Lösbarkeit der gestellten Aufgabe mit der zu optimierenden visuellen Struktur bekannt ist.
+Zum besseren Verständnis der Wirkungsweise sowohl der direkt als auch der indirekt kodierten evolutionären Optimierung (mittels der Einbettung unüberwachter Lernverfahren in Anlehnung an die Ontogenese) werden die unterschiedlichen Entwurfsverfahren und die jeweils erzeugten visuellen Systeme vergleichend analysiert. Zur weiteren Einordnung der Güte der optimierten visuellen Systeme sollen die erzielten Erkennungsergebnisse denen anderer leistungsfähiger Erkennungssysteme gegenübergestellt werden.</abstract>
+                    <subject>
+                        <topic>Visuelles System</topic>
+                        <topic>Objekterkennung</topic>
+                        <topic>Leistungsbewertung</topic>
+                        <topic>Evolutionärer Algorithmus</topic>
+                        <topic>Lernendes System</topic>
+                        <topic>Evolutionsstrategie</topic>
+                        <topic>Globale Optimierung</topic>
+                        <topic>Evolutionärer Algorithmus</topic>
+                        <topic>Stochastische Optimierung</topic>
+                        <topic>Objekterkennung</topic>
+                        <topic>Visuelles System</topic>
+                        <topic>Evolutionary optimization</topic>
+                        <topic>Evolution strategy</topic>
+                        <topic>Object recognition</topic>
+                        <topic>Vision system</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-6342</identifier>
+                    <identifier type="sys">HT014325125</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301266</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301266">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301266/2301269/diss_letzte_fassung_papier.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301266" DMDID="DMD2301266">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301266"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

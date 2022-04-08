@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Collaborative and Robot-Based Plug &amp; Produce for Rapid Reconfiguration of Modular Production Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Wojtynek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">Oestreich</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0484-5601</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Beyer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The manufacturing of individualized products down to batch size 1 poses ongoing challenges for the design and integration of future production systems. Today’s production lines with a high degree of automation achieve high efficiency, but usually come with high costs for adaptation to product variants. In order to combine full automation with high flexibility, we propose a concept for the dynamic composition of automation components in a modular production system that facilitates the rapid adaptation of collaborative and robot-supported manufacturing processes. To achieve this, we integrate self-descriptive automation components at runtime into the control architecture of the production system using a Plug-and-Produce approach. While the location and orientation of automation components in the modular production system are derived from physical human-robot interaction, the adaptation and verification of the robot behavior is made possible through a simulation-based planning subsystem. Once this dynamic reconfiguration process by the machine setter is finished, the adapted production process is executed in a fully automated way with high efficiency. A case study carried out in an industrial collaboration project on flexible assembly demonstrates the benefits of the presented approach.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="isbn">9781538622636</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29145033</identifier>
+                    <identifier type="doi">10.1109/SII.2017.8279364</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914503">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914503/2921286/SII2017_finaldraft.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914503" DMDID="DMD2914503">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914503"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

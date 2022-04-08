@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933126">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal stopping under $\textit{G}$-expectation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hanwu</namePart>
+                        <namePart type="family">Li</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We develop a theory of optimal stopping problems under *G*-expectation framework. We first
+define a new kind of random times, called *G*-stopping times, which is suitable for this problem. For
+the discrete time case with finite horizon, the value function is defined backwardly and we show
+that it is the smallest *G*-supermartingale dominating the payoff process and the optimal stopping
+time exists. Then we extend this result both to the infinite horizon and to the continuous time
+case. We also establish the relation between the value function and solution of reflected BSDE
+driven by *G*-Brownian motion.</abstract>
+                    <subject>
+                        <topic>optimal stopping</topic>
+                        <topic>$\textit{G}$-expectation</topic>
+                        <topic>$\textit{G}$-stopping time</topic>
+                        <topic>Knightian uncertainty</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>606</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29331266</identifier>
+                    <identifier type="sys">HT019954713</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933126</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933126">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933126/2933130/IMW_working_paper_606.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933126" DMDID="DMD2933126">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933126"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

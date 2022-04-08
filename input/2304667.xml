@@ -1,0 +1,104 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2304667</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Advanced stochastic protein sequence analysis</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Neue Ansätze zur Analyse von Proteinsequenzen mit Hidden-Markov-Modellen</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Plötz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Gernot A.</namePart>
+  
+  
+  <namePart type="family">Fink</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In order to improve the effectiveness of remote homology analysis, namely probabilistic protein family models (HMMs), in this thesis new approaches for stochastic protein family modeling were developed. Therefore, the problem of protein sequence processing was consequently treated as some general pattern recognition task. Based on this more abstract point of view, various new techniques were presented which were motivated from alternative pattern classification applications like automatic speech recognition. Consequently, a generally new and very effective kind of protein sequence analysis was developed. By means of the new approaches presented here substantial improvements for remote homology analysis could be achieved.
+In order to explicitly capture the biochemical properties, the fundamental innovation of the thesis describes a paradigm shift towards processing protein data in a richer representation. Using a sliding window technique, frames based on 16 consecutive residues are created which consist of a multi-channel signal-like numerical representation of certain biochemical properties (obtained by exploiting amino-acid indices) of the amino acids covered by the local context. In order to concentrate on the corresponding relevant essentials which determine the actual protein family affiliation, features are extracted from the new signal-like representation. Therefore, pattern recognition techniques are applied, namely a Discrete Wavelet Transformation as well as a Principal Components Analysis, aiming at the extraction of meaningful feature vectors which sufficiently describe the general protein signal shape. When applying this procedure, protein sequences' residues are converted into a 99-dimensional feature vector representation which is used for remote homology analysis.
+Based on the feature representation of protein sequences, semi-continuous protein family HMMs were developed. Their basic advantage is the principle possibility to separate the estimation of a feature space representation (using a Gaussian mixture density) from the model training itself. Only for the actual model estimation moderate amounts of target specific data are required. The general feature space representation can be obtained by applying mixture density estimation techniques to large amounts of general protein data. Only small amounts of protein family specific data are required for model training. In order to specialize the mixture density based feature space representation with respect to a particular target family, adaptation techniques are applied. Using the family specific sample data for either MAP or MLLR adaptation, the focus of the general feature space can be effectively concentrated on a particular protein family which results in robust model estimation even for small training sets.
+Compared to the rather complex three-state topology of Profile HMMs required when processing discrete amino acid data, by means of the new protein sequence representation, protein family HMMs with reduced complexity become possible. Their basic advantage is the smaller number of parameters required which need to be trained using representative sample data. In addition to feature based Profile HMMs, in this thesis two variants of protein family models with reduced complexity were developed. First, global protein family models as currently used are created containing a Bounded Left-Right (BLR) architecture. The second variant represents a general paradigm shift in protein family modeling. Target family models are estimated using automatically derived building blocks, so-called Sub-Protein Units (SPUs). Similar to the BLR models, the number of parameters which needs to be trained is substantially smaller compared to state-of-the-art Profile HMMs.
+For a further reduction of the number of false positive predictions, which is especially relevant for e.g. pharmaceutical applications, in addition to the abovementioned log-odd scoring technique semi-continuous feature based protein family HMMs are evaluated competitively to a so-called Universal Background Model (UBM). Such an UBM explicitly covers general protein data and its application can thus be interpreted as some kind of pre-filtering stage.
+Furthermore, the evaluation of protein family models was accelerated algorithmically. Among others the HMM state-space which actually needs to be explored can be substantially reduced by applying pruning techniques like the Beam-Search algorithm. Additionally, the evaluation of mixture densities can also be severely pruned.
+The capabilities of the new modeling techniques were evaluated in numerous experiments. Using public data on representative tasks, it could be shown that state-of-the-art discrete Profile HMMs, which are in fact the currently most promising approach for remote homology analysis, are significantly outperformed when using the new techniques developed in this thesis.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Ploetz_2005.pdf">https://pub.uni-bielefeld.de/download/2304667/2304670/Ploetz_2005.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Pattern classification</topic><topic>Remote homology analysis</topic><topic>Musterklassifikation</topic><topic>Entfernte Homologien</topic><topic>Feature based protein representation</topic><topic>Probabilistic protein family models</topic><topic>Sequence analysis</topic><topic>Proteinfamilie</topic><topic>Sequenzanalyse (Chemie)</topic><topic>Hidden-Markov-Modell</topic><topic>Aminosäurensequenz</topic><topic>Probabilistische Proteinfamilienmodelle</topic><topic>Merkmalsbasierte Proteinrepräsentation</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-7187</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-06-13</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Plötz, Thomas. &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<default>Plötz T (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Plötz, T.: Advanced stochastic protein sequence analysis. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Plötz, Thomas. 2005. &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<apa>Plötz, T. (2005).  &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> T. Plötz, &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+<ama>Plötz T. &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<frontiers>Plötz, T. (2005). Advanced stochastic protein sequence analysis. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Plötz, T. (2005). &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Plötz, T. (2005).  &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Plötz, T., 2005. &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Plötz T (2005) &lt;br /&gt;&lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<angewandte-chemie>T.  Plötz, &lt;em&gt;Advanced stochastic protein sequence analysis&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+<wels>Plötz, T. (2005): Advanced stochastic protein sequence analysis. Bielefeld (Germany): Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2304667</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-07-11T14:25:05Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:39:30Z</recordChangeDate>
+</recordInfo>
+</mods>

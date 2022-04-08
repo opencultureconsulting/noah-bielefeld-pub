@@ -1,0 +1,116 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2935545</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Metric Learning for Structured Data</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Benjamin</namePart>
+  <namePart type="family">Paaßen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">49941564</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3899-2450</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Barbara</namePart>
+  
+  
+  <namePart type="family">Hammer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Alessandro</namePart>
+  
+  
+  <namePart type="family">Sperduti</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Lars</namePart>
+  
+  
+  <namePart type="family">Schmidt-Thieme</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Distance measures form a backbone of machine learning and information retrieval in many application fields such as computer vision, natural language processing, and biology. However, general-purpose distances may fail to capture semantic particularities of a domain, leading to wrong inferences downstream. Motivated by such failures, the field of metric learning has emerged. Metric learning is concerned with learning a distance measure from data which pulls semantically similar data closer together and pushes semantically dissimilar data further apart. Over the past decades, metric learning approaches have yielded state-of-the-art results in many applications. Unfortunately, these successes are mostly limited to vectorial data, while metric learning for structured data remains a challenge.
+
+In this thesis, I present a metric learning scheme for a broad class of sequence edit distances which is compatible with any differentiable cost function, and a scalable, interpretable, and effective tree edit distance learning scheme, thus pushing the boundaries of metric learning for structured data.
+
+Furthermore, I make learned distances more useful by providing a novel algorithm to perform time series prediction solely based on distances, a novel algorithm to infer a structured datum from edit distances, and a novel algorithm to transfer a learned distance to a new domain using only little data and computation time.
+
+Finally, I apply these novel algorithms to two challenging application domains. First, I support students in intelligent tutoring systems. If a student gets stuck before completing a learning task, I predict how capable students would proceed in their situation and guide the student in that direction via edit hints. Second, I use transfer learning to counteract disturbances for bionic hand prostheses to make these prostheses more robust in patients' everyday lives.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.pdf">https://pub.uni-bielefeld.de/download/2935545/2935546/diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29355459</identifier><identifier type="doi">10.4119/unibi/2935545</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-04-29</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Paaßen B. &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<frontiers>Paaßen, B. (2019). Metric Learning for Structured Data. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paaßen, B. (2019). &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2935545.&lt;/div&gt;</dgps>
+<apa>Paaßen, B. (2019).  &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2935545</apa>
+<ieee> B. Paaßen, &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<wels>Paaßen, B. (2019): Metric Learning for Structured Data. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Paaßen, B., 2019. &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Paaßen B (2019) &lt;br /&gt;&lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paaßen, B. (2019).  &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2935545&lt;/div&gt;</apa_indent>
+<angewandte-chemie>B.  Paaßen, &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Paaßen, B.: Metric Learning for Structured Data. Universität Bielefeld, Bielefeld (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Paaßen, Benjamin. 2019. &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Paaßen, Benjamin. &lt;em&gt;Metric Learning for Structured Data&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+<default>Paaßen B (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2935545</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-05-11T09:09:10Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-05-15T11:31:03Z</recordChangeDate>
+</recordInfo>
+</mods>

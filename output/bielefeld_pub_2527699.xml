@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2527699">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>DiSCo - A speaker and speech recognition evaluation corpus for challenging problems in the broadcast domain</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Doris</namePart>
+                        <namePart type="family">Baum</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Samlowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Winkler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Rolf</namePart>
+                        <namePart type="family">Bardeli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Systems for speech and speaker recognition already achieve low error rates when applied to high-quality audiovisual broadcast data, such as news shows recorded in a studio environment. Several evaluation corpora exist for this domain in various languages. However, in actual applications for broadcast data analysis, the data requirements are more complex. There are many data types beyond the planned speech of the news anchorperson. For example, interesting live recordings from prominent politicians are often recorded in an environment with challenging acoustic properties. Discussions typically expose highly spontaneous speech, with different speakers talking at the same time. The performance of standard approaches to speech and speaker recognition typically deteriorates under such data characteristics, and dedicated techniques have to be developed to handle these problems. Corresponding evaluation corpora are needed which reflect the challenging conditions of the actual applications.
+
+Currently, no German evaluation corpus is available which covers the required acoustic conditions and diverse language properties. This contribution describes the design of a new speaker and speech recognition evaluation corpus for the broadcast domain, reflecting the typical problems encountered in actual applications.</abstract>
+                    <subject>
+                        <topic>ASR</topic>
+                        <topic>speaker recognition</topic>
+                        <topic>speech search</topic>
+                        <topic>evaluation corpus</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25276991</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2527699</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2527699">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2527699/2629558/Baum_et_al_2009.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2527699" DMDID="DMD2527699">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2527699"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

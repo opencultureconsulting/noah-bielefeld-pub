@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902822">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Genaue und robuste Online-Kalibrierung für Stereo-Kamera-Systeme mit fester Basisbreite</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Anton</namePart>
+                        <namePart type="family">Feldmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-04-08</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">In modernen Fahrzeugen werden verschiedene Fahrerassistenzsysteme genutzt, die den Fahrer während der Fahrt unterstützen. Durch den Einsatz von Fahrerassistenzsystemen wird die Fahrt sicherer und die Anzahl der Unfälle deutlich reduziert. &lt;br /&gt;
+Um die Umgebung zu erfassen und Verkehrsteilnehmer, Hindernisse oder die Straßenoberfläche zu erkennen, werden verschiedene Sensoren genutzt. Die Kamera ist einer der Sensoren, die in diesen Fahrzeugen eingesetzt werden. In den Bilddaten können Objekte detektiert und klassifiziert werden. &lt;br /&gt;
+Durch die großen Fortschritte in der Mikroelektronik und den Einsatz kleiner, leistungsfähiger Rechner ist der Einsatz eines Stereo-Kamera-Systems für neue Fahrerassistenzsysteme möglich. Aus den Sensordaten der Stereo-Kamera kann eine dreidimensionale Rekonstruktion der Fahrzeugumgebung erstellt werden. Durch die Umgebungsrekonstruktion kann die Position und die Orientierung von Objekten relativ zum Fahrzeug bestimmt werden. Mit diesen zusätzlichen Informationen wird die Bestimmung des Typs eines Objekts in der Szene verbessert oder gar erst ermöglicht. &lt;br /&gt;&lt;br /&gt;
+Mit einer Stereo-Kamera kann eine 3D-Rekonstruktion der Fahrzeugumgebung errechnet werden. Um diese 3D-Rekonstruktion zu erstellen, wird eine Triangulierung genutzt. Selbst kleine Abweichungen in den Parametern der Stereo-Kamera führen zu merkbaren Abweichungen von der tatsachlichen Position relativ zu den Weltkoordinaten in dieser 3D-Rekonstruktion. Diese Abweichungen führen dann zu Fehlern in der Ausführung der eingesetzten Fahrerassistenzsysteme. Um diese Abweichungen minimal zu halten, wird das Stereo-Kamera-System initial kalibriert. Mit einer Initialkalibrierung eines Stereo-Kamera-Systems werden die intrinsischen Parameter (Brennweite, Bildhauptpunkt, Seitenverhältnis) und die extrinsischen Parameter (relative Positionierung und Orientierung der Kameras zueinander) bestimmt. Die Kameraparameter der Stereo-Kamera müssen während der gesamten Fahrzeit überwacht und angepasst werden, da sich diese Parameter des Kamerasystems durch die thermischen und mechanischen Einflüsse während  der Fahrt verändern. Um eine kontinuierliche Überprüfung der Kameraparameter zu sichern, wird eine Online-Kalibrierung genutzt. Die Herausforderung der Online-Kalibrierung eines Stereo-Kamera-Systems in einem Fahrzeug ist die kontinuierliche Überprüfung der Stereo-Kamera-Parameter, sodass die 3D-Rekonstruktion der Fahrzeugumgebung genau und fehlerfrei berechnet werden kann. Wissenschaftliche Untersuchungen an realen Stereo-Kamera-Systemen haben gezeigt, dass die relative Orientierung beider Kameras in einem Stereo-Kamera-System die größte Änderung durch die thermischen und mechanischen Einflüsse erfährt. Weitere Untersuchungen haben gezeigt, dass die Veränderungen der intrinsischen Parameter sehr klein sind und sich durch kleine Änderungen der Orientierungsparameter (φ1, φ2, φ3) approximieren lassen. Dabei ist&lt;br /&gt;&lt;br /&gt; 
+φj = φ_ji – φ_jo wobei j = 1, 2, 3 	(1)&lt;br /&gt;&lt;br /&gt;
+mit i dem Wert für den Winkel j, der durch die Initialkalibrierung bestimmt wurde, der Referenzwert und o dem entsprechenden Winkel aus der Online-Kalibrierung. Dabei ist φ1 die Änderung des Nick-,  φ2 die Änderung des Schiel- und φ3 die Änderung des Rollwinkels. In der Literatur ist keine Online-Kalibrierung für Stereo-Kameras bekannt, die mit den gegebenen Anforderungen die Änderungen der Kameraparameter berücksichtigt und eine hochgenaue 3D-Rekonstruktion über die Lebensdauer des Fahrzeugs sicherstellt. &lt;br /&gt;
+Im Rahmen dieser Arbeit werden zwei Methoden zur Online-Kalibrierung vorgestellt, die unter den gegebenen Bedingungen eines Fahrerassistenssystems rentabel realisiert werden können. Wissenschaftliche Untersuchungen im Rahmen dieser Arbeit haben gezeigt, dass der Schielwinkel bei kleinen Abweichungen φ2 durch mechanische oder thermische Einflüsse am Stereo-Kamera-System die größte Abweichung in der 3D-Rekonstruktion verursacht. Beide Methoden zu Online-Kalibrierung nutzen die Odometriedaten des Fahrzeugs. Diese Daten sind zum einen der Fahrzeug-Gierwinkel, der einen Einfluss auf genutzte Methoden zur Korrespondenzbestimmung hat, und zum anderen die Fahrzeug-Geschwindigkeit. Die Sensordaten aus dem Steuergerat („Elektronisches Stabilitatsprogramm“, ESP) stellen diese Odometriedaten zur Verfügung. Die Daten aus dem ESP-Steuergerät haben ein Rauschen, das bei Berechnung der Online-Kalibrierung berücksichtigt werden muss.&lt;br /&gt;
+Die erste Methode zur Online-Kalibrierung nutzt die Information über die Gierrate und über die Geschwindigkeit des Fahrzeugs bei der Bildaufnahme. Wie schon erwähnt, kann aus dem ESP-Steuergerät aus der Information über die Geschwindigkeit die Strecke zwischen zwei Bildaufnahmen bestimmt werden. So kann in der 3D-Rekonstruktion die Distanz zu den vorausfahrenden Fahrzeugen und Objekten im sichtbaren Bereich des Stereo-Kamera-Systems auf Basis der zeitlich aufeinanderfolgenden Rekonstruktionen berechnet werden. Stimmt die Distanzangabe aus den Fahrzeugdaten mit der Distanz aus den 3D-Rekonstruktionen überein, ist das Kamerasystem kalibriert, ansonsten muss das Kamerasystem neu kalibriert werden. &lt;br /&gt;
+Die zweite Methode hingegen nutzt die Fahrzeuginformation, um zu bestimmen, wann das Fahrzeug geradeaus fährt. Bei einer Fahrt geradeaus schneiden sich alle Vektoren aus der optischen Flussberechnung in einem Fluchtpunkt. Untersuchungen haben gezeigt, dass Fahrzeuge häufig geradeaus fahren und so ist das zeitliche Intervall zwischen Kalibrierungen klein. Wird der Fluchtpunkt in beiden Bildern bestimmt, so müssen die Koordinaten dieser Fluchtpunkte übereinstimmen. Diese Übereinstimmung folgt aus der Projektion der Korrespondenzen vom linken ins rechte Bild. Stimmen diese Koordinaten nicht überein, dann gibt die Differenz der Koordinaten in der horizontalen Bildausrichtung die Abweichung im Schielwinkel an. Die Fluchtpunkte in den beiden Bildern werden in der zweiten Methode mit einem Histogramm bestimmt. Dieses Histogramm bildet die Schnittpunkte der Flussvektoren über die horizontale Koordinate ab.&lt;br /&gt;&lt;br /&gt;
+Die erste Methode wurde auf der Basis von fünf Stunden Videomaterial getestet. Das entspricht rund 300 000 Bildpaaren, die für die Analyse genutzt wurden. Da das Stereo-Kamera-System, wie es ins Fahrzeug beispielhaft integriert wurde, für diese Arbeit sehr spät zur Verfügung stand, wurden rund  250 000 Bildpaare mit einem Versuchsaufbau aufgezeichnet. Abschließend wurde eine Untersuchung mit einem Nachtsicht-Stereo-Kamera-System durchgeführt, bei dem die hier vorgestellten Methoden zur Online-Kalibrierung robust eingesetzt werden konnten. Bei allen Stereo-Kamera-Systemen und allen entwickelten Methoden im Test wurde ein Fehler von weniger als 0.2 [Pix] Abweichung zwischen der Soll- und Ist-Position des Pixels auf dem Imager nach der Kalibrierung gemessen. Dabei wurde eine Standardabweichung von 0.1 [Pix] zur Ground Truth gemessen. Dies ist eine Verbesserung gegenüber allen Methoden, die in der Literatur angegeben sind und von uns getestet wurden. Dies entspricht einer Verbesserung von mehreren Metern in der 3D-Rekonstruktion in der Arbeitsdistanz jedes der drei Kamera-Systeme.&lt;br /&gt; 
+Die Methoden, die im Rahmen dieser Arbeit zu Vergleichszwecken nachimplementiert wurden, sind in [Brandt, 2006; Graf, 2007; Helmke et al., 2007; Kanatani et al., 2000; Kanatani und Sugaya, 2009; Laveau et al., 1994; Mühlich und Aach, 2007; Martos et al., 2010; Noury et al., 2007; Torr und Murray, 1997; Triggs et al., 2000; Dang et al., 2009] beschrieben. Diese nachimplementierten Methoden wurden auf den gleichen Sequenzen getestet und haben eine Abweichung zur Ground Truth von mehr als 0.8 [Pix]. Die Methoden zur Kalibrierung des Stereo-Kamera-Systems, die im Rahmen dieser Arbeit entwickelt wurden, haben eine Abweichung von 0.19 [Pix] für die erste Methode und 0.12 [Pix] für die Methode 2.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29028226</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902822</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902822">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902822/2902823/Diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902822" DMDID="DMD2902822">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902822"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

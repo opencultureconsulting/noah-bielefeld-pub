@@ -1,0 +1,113 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2907622">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Viktor</namePart>
+                        <namePart type="family">Losing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Wersing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Data Mining in non-stationary data streams is gaining more attention
+recently, especially in the context of Internet of Things and Big Data.
+It is a highly challenging task, since the fundamentally different types
+of possibly occurring drift undermine classical assumptions such as
+data independence or stationary distributions. 
+Available algorithms are either struggling with certain forms of drift or require 
+a priori knowledge in terms of a task specific setting. 
+We propose the Self Adjusting Memory (SAM) model for the k Nearest Neighbor (kNN) algorithm
+since kNN constitutes a proven classifier within the streaming setting.
+SAM-kNN can deal with heterogeneous concept drift,
+i.e different drift types and rates, using biologically inspired
+memory models and their coordination. It can be easily
+applied in practice since an optimization of the meta parameters is not necessary.
+The basic idea is to construct dedicated models for the
+current and former concepts and apply them according to
+the demands of the given situation. 
+An extensive evaluation on various benchmarks, consisting of artificial streams
+with known drift characteristics as well as real world datasets is conducted.
+Thereby, we explicitly add new benchmarks enabling a precise performance evaluation 
+on multiple types of drift. The highly competitive results throughout all 
+experiments underline the robustness of SAM-kNN as well as its capability
+to handle heterogeneous concept drift.</abstract>
+                    <subject>
+                        <topic>data mining</topic>
+                        <topic>optimisation</topic>
+                        <topic>pattern classification</topic>
+                        <topic>Big Data</topic>
+                        <topic>Internet of Things</topic>
+                        <topic>KNN classifier</topic>
+                        <topic>SAM-kNN robustness</topic>
+                        <topic>data mining</topic>
+                        <topic>k nearest neighbor algorithm</topic>
+                        <topic>metaparameter optimization</topic>
+                        <topic>nonstationary data streams</topic>
+                        <topic>performance evaluation</topic>
+                        <topic>self adjusting memory model</topic>
+                        <topic>Adaptation models</topic>
+                        <topic>Benchmark testing</topic>
+                        <topic>Biological system modeling</topic>
+                        <topic>Data mining</topic>
+                        <topic>Heuristic algorithms</topic>
+                        <topic>Prediction algorithms</topic>
+                        <topic>Predictive models</topic>
+                        <topic>Data streams</topic>
+                        <topic>concept drift</topic>
+                        <topic>data mining</topic>
+                        <topic>kNN</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-1-5090-5473-2</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29076227</identifier>
+                    <identifier type="doi">10.1109/ICDM.2016.0040</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2907622</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2907622">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2907622/2907623/Drift.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2907622" DMDID="DMD2907622">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2907622"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

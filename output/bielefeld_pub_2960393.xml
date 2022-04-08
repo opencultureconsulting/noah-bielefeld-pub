@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2960393">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Anthropomorphe Bewegungsmodelle für Roboter-Mensch-Übergaben</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Robin</namePart>
+                        <namePart type="family">Rasch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">König</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-12-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">The increasing number of robots in everyday life will lead to more interactions between
+robots and humans in the future. One interpersonal interaction that takes place in everyday
+life is the handover of an object. This interaction is a fundamental task for more complex
+collaborations between two actors. Consequently, in the future, this interaction will also be
+performed in the context of everyday robot collaborations. To hand over the object, a physical
+proximity between robot and human is necessary. This proximity can lead to rejection of the
+interaction by users, as they are unable to perceive the robot or suspect dangers that might
+be caused by the robot. Therefore, it is necessary to optimize the interaction based on user
+acceptance and the user’s sense of safety.
+Overall, three research goals are considered in this thesis. Besides investigating applicationspecific
+adaptations and extensions for feasible and user-friendly robot-to-human handovers,
+the focus is also on modeling and implementing anthropomorphic motions for robot-tohuman
+handovers. The final goal is to evaluate the impact of anthropomorphic motion
+models on user acceptance and the user’s sense of safety, in particular non-experts. For all
+three objectives, these will be executed on different types of robots.
+In order to address this goal, this thesis first presents a robot system that mimics handovers
+between two humans. For this purpose, results and approaches of related studies are used
+and adapted for the robotic system. The generation of handover configurations based on
+specific context parameters is an open question that will be answered in this thesis. To this
+end, a human-robot study is presented in which test subjects showed robots both appropriate
+and inappropriate configurations. Based on the statistical results, a model for generating
+the configurations is proposed. The user’s body size and posture, positioning, and handover
+object are taken into account.
+In the development of anthropomorphic motion models for the robot’s arm motion, the focus
+is on three different conventional motion models. The two basic models are modeled in two
+different configuration spaces. Thus, the first model is related to the Cartesian trajectory of
+the end effector and the second model is related to the joint motions of specific joints of the
+arm. Starting from the models, the recording of the baseline data is a challenge. For this,
+two studies are shown in which two subjects pass an object to each other. In the process, two
+different measurement techniques are used to collect the baseline data. Both models show
+disadvantages in the application based on the given configuration space. As a consequence,
+a third model is presented that combines the features and supposed advantages of both basic
+models. During this research objective, different requirements of the models are evaluated
+subjectively and objectively.
+The influences of the developed robot system and the modelled movements regarding the
+feeling of safety and user acceptance are investigated in a human-robot study. The evaluation
+of the motion models shows that they have no significant influence on the users’ sense
+of safety. This is applicable to non-experts as well as to experts. Other evaluation criteria,
+such as intuitiveness, human similarity or user acceptance, are positively influenced by the
+developed models, as they are mostly performing better compared to reference models. On
+average, the combined model performed better than the anthropomorphic joint motion
+model. The anthropomorphic motion model in Cartesian space does not reach an acceptable
+quality level in the evaluation of human similarity. The evaluation of the other concepts of
+the robotic system shows different results, where individual hypotheses are rejected against
+expectations.
+Further research in the field of robot-to-human handover could deal with the implementation
+of the interactions in real scenarios. In this context, the kitchen is an exciting field of
+application, since dangerous objects such as knives and hot utensils are handed over here.
+These may require extensions to the robot system as well as alternative motion models.</abstract>
+                    <abstract lang="eng">Dissertation der Fachhochschule Bielefeld und der Universität Bielefeld</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29603935</identifier>
+                    <identifier type="doi">10.4119/unibi/2960393</identifier>
+                    <identifier type="sys">HT021221100</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2960393</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2960393">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2960393/2960394/Dissertation-komprimiert.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2960393" DMDID="DMD2960393">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2960393"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

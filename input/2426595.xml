@@ -1,0 +1,122 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2426595</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:006</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Elisabetta</namePart>
+  <namePart type="family">Chicca</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">26461080</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-5518-8990</description></name>
+<name type="personal">
+  <namePart type="given">D.</namePart>
+  <namePart type="family">Badoni</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">V.</namePart>
+  <namePart type="family">Dante</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">M.</namePart>
+  <namePart type="family">D'Andreagiovanni</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">G.</namePart>
+  <namePart type="family">Salina</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">L.</namePart>
+  <namePart type="family">Carota</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">S.</namePart>
+  <namePart type="family">Fusi</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">P.</namePart>
+  <namePart type="family">Del Giudice</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">26824835</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Electronic neuromorphic devices with on-chip, on-line learning should be able to modify quickly the synaptic couplings' to acquire information about new patterns to be stored (synaptic plasticity) and, at the same time, preserve this information on very long time scales (synaptic stability). Here, we illustrate the electronic implementation of a simple solution to this stability-plasticity problem, recently proposed and studied in various contexts. It is based on the observation that reducing the analog depth of the synapses to the extreme (bistable synapses) does not necessarily disrupt the performance of the device as an associative memory, provided that 1) the number of neurons is large enough; 2) the transitions between stable synaptic states are stochastic; and 3) learning is slow. The drastic reduction of the analog depth of the synaptic variable also makes this solution appealing from the point of view of electronic implementation and offers a simple methodological alternative to the technological solution based on floating gates. We describe the full custom analog very large-scale integration (VLSI) realization of a small network of integrate-and-fire neurons connected by bistable deterministic plastic synapses which can implement the idea of stochastic learning. In the absence of stimuli, the memory is preserved indefinitely. During the stimulation the synapse undergoes quick temporary changes through the activities of the pre- and postsynaptic neurons; those changes stochastically result in a long-term modification of the synaptic efficacy. The intentionally disordered pattern of connectivity allows the system to generate a randomness suited to drive the stochastic selection mechanism. We check by a suitable stimulation protocol that the stochastic synaptic plasticity produces the expected pattern of potentiation and depression in, the electronic network. The proposed implementation requires only 69 x 83 mum(2) for the neuron and 68 x 47 mum(2) for the synapse (using a 0.6 mum, three metals, CMOS technology) and, hence, it is particularly suitable for the integration, of a large number of plastic synapses on a single chip.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="A_VLSI_recurrent_network_of_integrate-and-fire_neurons_connected_by_plastic_synapses_with_long-term_memory.pdf">https://pub.uni-bielefeld.de/download/2426595/2457504/A_VLSI_recurrent_network_of_integrate-and-fire_neurons_connected_by_plastic_synapses_with_long-term_memory.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>synaptic plasticity</topic><topic>neuromorphic a VLSI</topic><topic>integrate-and-fire neurons</topic><topic>learning systems</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>IEEE Transactions on Neural Networks</title></titleInfo>
+  <identifier type="issn">1045-9227</identifier>
+  <identifier type="MEDLINE">18244578</identifier>
+  <identifier type="ISI">000186478900027</identifier><identifier type="urn">urn:nbn:de:0070-pub-24265955</identifier><identifier type="doi">10.1109/TNN.2003.816367</identifier>
+<part><detail type="volume"><number>14</number></detail><detail type="issue"><number>5</number></detail><extent unit="pages">1297-1307</extent>
+</part>
+</relatedItem>
+
+<note type="extern">yes</note>
+<extension>
+<bibliographicCitation>
+<default>Chicca E, Badoni D, Dante V, D'Andreagiovanni M, Salina G, Carota L, Fusi S, Del Giudice P (2003) &lt;br /&gt;&lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt; 14(5): 1297-1307.</default>
+<mla>Chicca, Elisabetta, Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., and Del Giudice, P. “A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory”. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt; 14.5 (2003): 1297-1307.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chicca, Elisabetta, Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., and Del Giudice, P. 2003. “A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory”. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt; 14 (5): 1297-1307.&lt;/div&gt;</chicago>
+<lncs> Chicca, E., Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., Del Giudice, P.: A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. IEEE Transactions on Neural Networks. 14, 1297-1307 (2003).</lncs>
+<angewandte-chemie>E.  Chicca, D.  Badoni, V.  Dante, M.  D'Andreagiovanni, G.  Salina, L.  Carota, S.  Fusi, and P.  Del Giudice, “A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory”, &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;, &lt;strong&gt;2003&lt;/strong&gt;, &lt;em&gt;14&lt;/em&gt;, 1297-1307.</angewandte-chemie>
+<harvard1>Chicca, E., et al., 2003. A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;, 14(5), p 1297-1307.</harvard1>
+<bio1>Chicca E, Badoni D, Dante V, D'Andreagiovanni M, Salina G, Carota L, Fusi S, Del Giudice P (2003) &lt;br /&gt;A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory.&lt;br /&gt;IEEE Transactions on Neural Networks 14(5): 1297-1307.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chicca, E., Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., et al. (2003). A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(5), 1297-1307. &lt;a href="https://doi.org/10.1109/TNN.2003.816367" target="_blank"&gt;https://doi.org/10.1109/TNN.2003.816367&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<wels>Chicca, E.; Badoni, D.; Dante, V.; D'Andreagiovanni, M.; Salina, G.; Carota, L.; Fusi, S.; Del Giudice, P. (2003): A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;,14:(5): 1297-1307.</wels>
+<ieee> E. Chicca, et al., “A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory”, &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;,  vol. 14, 2003,  pp. 1297-1307.</ieee>
+<apa>Chicca, E., Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., et al. (2003). A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(5), 1297-1307. &lt;a href="https://doi.org/10.1109/TNN.2003.816367" target="_blank"&gt;https://doi.org/10.1109/TNN.2003.816367&lt;/a&gt;</apa>
+<frontiers>Chicca, E., Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S., and Del Giudice, P. (2003). A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt; 14, 1297-1307.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Chicca, E., Badoni, D., Dante, V., D'Andreagiovanni, M., Salina, G., Carota, L., Fusi, S. &amp;amp; Del Giudice, P. (2003). A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;, &lt;em&gt;14&lt;/em&gt;(5), 1297-1307. Institute of Electrical and Electronics Engineers (IEEE). doi:10.1109/TNN.2003.816367.&lt;/div&gt;</dgps>
+<ama>Chicca E, Badoni D, Dante V, et al. A VLSI recurrent network of integrate-and-fire neurons connected by plastic synapses with long-term memory. &lt;em&gt;IEEE Transactions on Neural Networks&lt;/em&gt;. 2003;14(5):1297-1307.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2426595</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-11-23T09:43:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:38Z</recordChangeDate>
+</recordInfo>
+</mods>

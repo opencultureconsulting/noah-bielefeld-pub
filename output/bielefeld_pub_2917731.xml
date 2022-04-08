@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2917731">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning to Put On a Knit Cap in a Head-Centric Policy Space</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Twardon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Robotic manipulation of such highly deformable objects as clothes is a challenging problem. Robot-assisted dressing adds even more complexity as the garment motions must be aligned with a human body under conditions of strong and variable occlusion. As a step toward solutions for the general task, we consider the example of a dual-arm robot with attached anthropomorphic hands that learns to put a knit cap on a styrofoam head. Our approach avoids modeling the details of the garment and its deformations. Instead, we demonstrate that a head-centric policy parameterization, combined with a suitable objective function for determining the right amount of contact between the cap and the head, enables a direct policy search algorithm to find successful trajectories for this task. We also show how a toy problem that mirrors some of the task constraints can be used to efficiently structure hyperparameter search. Additionally, we suggest a point cloud based algorithm for modeling the head as an ellipsoid which is required for defining the policy space.</abstract>
+                    <subject>
+                        <topic>Learning and adaptive systems</topic>
+                        <topic>RGB-D perception</topic>
+                        <topic>human detection and</topic>
+                        <topic>tracking</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IEEE ROBOTICS AND AUTOMATION LETTERS</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>3</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>764</start>
+                                <end>771</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2377-3766</identifier>
+                    <identifier type="ISI">000423534000010</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29177311</identifier>
+                    <identifier type="doi">10.1109/LRA.2018.2792153</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2917731</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2917731">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2917731/2933451/paper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="video/mp4" ID="FILE1_bielefeld_pub_2917731">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2917731/2933452/RA-L2018.mp4" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2917731" DMDID="DMD2917731">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2917731"/>
+            <mets:div TYPE="part" ID="PART1_2917731" LABEL="RA-L2018.mp4">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2917731"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

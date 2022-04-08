@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2776021">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interactive Online Learning for Obstacle Classification on a Mobile Robot</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Viktor</namePart>
+                        <namePart type="family">Losing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Wersing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present an architecture for incremental online learning in high-dimensional feature spaces and apply it on a mobile robot. 
+The model is based on learning vector quantization, approaching the stability-plasticity problem of incremental learning by adaptive insertions
+of representative vectors. 
+We employ a cost-function-based learning vector quantization approach and introduce a new insertion strategy optimizing a cost-function based on
+a subset of samples. 
+We demonstrate this model within a real-time application for a mobile robot scenario, where we perform interactive real-time learning of visual categories.</abstract>
+                    <subject>
+                        <topic>online learning</topic>
+                        <topic>outdoor object classification</topic>
+                        <topic>Learning Vector Quantization</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27760218</identifier>
+                    <identifier type="doi">10.1109/IJCNN.2015.7280610</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2776021</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2776021">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2776021/2776336/PID3678739.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2776021" DMDID="DMD2776021">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2776021"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

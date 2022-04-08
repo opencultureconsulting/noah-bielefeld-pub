@@ -1,0 +1,130 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2918981</id><setSpec>book_chapter</setSpec><setSpec>doc-type:bookPart</setSpec><setSpec>ddc:006</setSpec><setSpec>book_chapterFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>book chapter</genre>
+
+<titleInfo><title>Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Hendrik</namePart>
+  <namePart type="family">ter Horst</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">36764835</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-3244-6595</description></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Hartung</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955539</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-6549-066X</description></name>
+<name type="personal">
+  <namePart type="given">Roman</namePart>
+  <namePart type="family">Klinger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Nicole</namePart>
+  <namePart type="family">Brazda</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Hans Werner</namePart>
+  <namePart type="family">Müller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Max</namePart><namePart type="family">Silberztein</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Faten</namePart><namePart type="family">Atigui</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Elena</namePart><namePart type="family">Kornyshova</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Elisabeth</namePart><namePart type="family">Métais</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Farid</namePart><namePart type="family">Meziane</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>23rd International Conference on Natural Language &amp; Information Systems (NLDB)</namePart>
+</name>
+
+
+
+<name type="corporate">
+  <namePart>Automatically Populating a Preclinical Spinal Cord Injury Knowledge Base to Support Clinical Translation</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">Template-based information extraction generalizes over standard token-level binary relation extraction in the sense that it attempts to fill a complex template comprising multiple slots on the basis of information given in a text. In the approach presented in this paper, templates and possible fillers are defined by a given ontology. The information extraction task consists in filling these slots within a template with previously recognized entities or literal values. We cast the task as a structure prediction problem and propose a joint probabilistic model based on factor graphs to account for the interdependence in slot assignments. Inference is implemented as a heuristic building on Markov chain Monte
+Carlo sampling. As our main contribution, we investigate the impact of soft constraints modeled as single slot factors which measure preferences of individual slots for ranges of fillers, as well as pairwise slot factors modeling the compatibility between fillers of two slots. Instead of relying on expert knowledge to acquire such soft constraints, in our approach they are directly captured in the model and learned from training data. We show that both types of factors are effective in improving information extraction on a real-world data set of full-text papers from the biomedical domain. Pairwise factors are shown to particularly improve the performance of our extraction model by up to +0.43 points in precision, leading to an F 1 score of 0.90 for individual templates.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="obie.pdf">https://pub.uni-bielefeld.de/download/2918981/2919103/obie.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer International Publishing</publisher><dateIssued encoding="w3cdtf">2018</dateIssued><place><placeTerm type="text">Paris</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Ontology-based Information Extraction</topic><topic>Slot Filling</topic><topic>Probabilistic Graphical Models</topic><topic>Soft Constraints</topic><topic>Database Population</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Proceedings of the 23rd International Conference on Natural Language &amp; Information Systems (NLDB)</title></titleInfo>
+  <identifier type="isbn">978-3-319-91946-1</identifier><identifier type="urn">urn:nbn:de:0070-pub-29189812</identifier><identifier type="doi">10.1007/978-3-319-91947-8_18</identifier>
+<part><detail type="volume"><number>10859</number></detail><extent unit="pages">179-190</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<mla>ter Horst, Hendrik, Hartung, Matthias, Klinger, Roman, Brazda, Nicole, Müller, Hans Werner, and Cimiano, Philipp. “Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction”. &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;. Ed. Max Silberztein, Faten Atigui, Elena Kornyshova, Elisabeth Métais, and Farid Meziane. Cham: Springer International Publishing, 2018.Vol. 10859. Lecture Notes in Computer Science. 179-190.</mla>
+<default>ter Horst H, Hartung M, Klinger R, Brazda N, Müller HW, Cimiano P (2018)  &lt;br /&gt;In:  Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB). Silberztein M, Atigui F, Kornyshova E, Métais E, Meziane F (Eds);  Lecture Notes in Computer Science, 10859.  Cham: Springer International Publishing:  179-190.</default>
+<lncs> ter Horst, H., Hartung, M., Klinger, R., Brazda, N., Müller, H.W., Cimiano, P.: Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In: Silberztein, M., Atigui, F., Kornyshova, E., Métais, E., and Meziane, F. (eds.) Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB). Lecture Notes in Computer Science. 10859, p. 179-190. Springer International Publishing, Cham (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, Hendrik, Hartung, Matthias, Klinger, Roman, Brazda, Nicole, Müller, Hans Werner, and Cimiano, Philipp. 2018. “Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction”. In &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;, ed. Max Silberztein, Faten Atigui, Elena Kornyshova, Elisabeth Métais, and Farid Meziane, 10859:179-190. Lecture Notes in Computer Science. Cham: Springer International Publishing.&lt;/div&gt;</chicago>
+<bio1>ter Horst H, Hartung M, Klinger R, Brazda N, Müller HW, Cimiano P (2018) &lt;br /&gt;Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. &lt;br /&gt;In:  Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB). Silberztein M, Atigui F, Kornyshova E, Métais E, Meziane F (Eds); Lecture Notes in Computer Science, 10859. Cham: Springer International Publishing:  179-190.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H., Hartung, M., Klinger, R., Brazda, N., Müller, H. W., &amp;amp; Cimiano, P. (2018). Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In M.  Silberztein, F.  Atigui, E.  Kornyshova, E.  Métais, &amp;amp; F.  Meziane (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 10859&lt;/em&gt;&lt;em&gt;. Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt; (pp. 179-190). Cham: Springer International Publishing. doi:10.1007/978-3-319-91947-8_18&lt;/div&gt;</apa_indent>
+<harvard1>ter Horst, H., et al., 2018. Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In M.  Silberztein, et al., eds. &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;. Lecture Notes in Computer Science. no.10859  Cham: Springer International Publishing, pp. 179-190.</harvard1>
+<angewandte-chemie>H.  ter Horst, M.  Hartung, R.  Klinger, N.  Brazda, H. W.  Müller, and P.  Cimiano, in &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt; (Eds.: M. Silberztein, F. Atigui, E. Kornyshova, E. Métais, F. Meziane), Springer International Publishing, Cham, &lt;strong&gt;2018&lt;/strong&gt;, p. 179-190.</angewandte-chemie>
+<wels>ter Horst, H.; Hartung, M.; Klinger, R.; Brazda, N.; Müller, H. W.; Cimiano, P. (2018): Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In: Max Silberztein; Faten Atigui; Elena Kornyshova; Elisabeth Métais; Farid Meziane (Hrsg.):  Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB). Cham: Springer International Publishing. (Lecture Notes in Computer Science, 10859).  S. 179-190.</wels>
+<apa>ter Horst, H., Hartung, M., Klinger, R., Brazda, N., Müller, H. W., &amp;amp; Cimiano, P. (2018). Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In M.  Silberztein, F.  Atigui, E.  Kornyshova, E.  Métais, &amp;amp; F.  Meziane (Eds.), &lt;em&gt;Lecture Notes in Computer Science: Vol. 10859&lt;/em&gt;&lt;em&gt;. Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt; (pp. 179-190). Cham: Springer International Publishing. doi:10.1007/978-3-319-91947-8_18</apa>
+<ieee> H. ter Horst, et al., “Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction”, &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;, M. Silberztein, et al., eds., Lecture Notes in Computer Science, vol. 10859,  Cham: Springer International Publishing, 2018,  pp.179-190.</ieee>
+<ama>ter Horst H, Hartung M, Klinger R, Brazda N, Müller HW, Cimiano P. Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction. In: Silberztein M, Atigui F, Kornyshova E, Métais E, Meziane F, eds. &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;. Lecture Notes in Computer Science. Vol 10859. Cham: Springer International Publishing;  2018: 179-190.</ama>
+<frontiers>ter Horst, H., Hartung, M., Klinger, R., Brazda, N., Müller, H. W., and Cimiano, P. (2018). “Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction” in &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt;, Silberztein, M., Atigui, F., Kornyshova, E., Métais, E., and Meziane, F. eds. Lecture Notes in Computer Science, vol. 10859, (Cham: Springer International Publishing), 179-190.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H., Hartung, M., Klinger, R., Brazda, N., Müller, H.W. &amp;amp; Cimiano, P. (2018). Assessing the Impact of Single and Pairwise Slot Constraints in a Factor Graph Model for Template-based Information Extraction (Lecture Notes in Computer Science). In M. Silberztein, F. Atigui, E. Kornyshova, E. Métais &amp;amp; F. Meziane (Hrsg.), &lt;em&gt;Proceedings of the 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB)&lt;/em&gt; (S. 179-190). Gehalten auf der 23rd International Conference on Natural Language &amp;amp; Information Systems (NLDB), Cham: Springer International Publishing. doi:10.1007/978-3-319-91947-8_18.&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2918981</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-04-04T07:54:38Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:37Z</recordChangeDate>
+</recordInfo>
+</mods>

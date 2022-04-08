@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1880560">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Common due date scheduling with autonomous and induced learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Biskup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Simons</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Yet, the few existing models considering learning effects in scheduling concentrate on learning-by-doing (autonomous learning). But recent contributions to the literature on learning in manufacturing organizations emphasize the important impact of proactive investments in technological knowledge on the learning rate (induced learning). In the present paper, we focus on a scheduling problem where the processing times decrease according to a learning rate which can be influenced by an initial cost-inducing investment. Thus we integrate into our model both aspects of learning - autonomous and induced - and thereby highlight the management&apos;s responsibility to invest in technological knowledge enhancement. We are able to derive some structural properties of the problem and present a polynomially bounded solution procedure which solves the problem to optimality by using these properties. The optimal solution of the scheduling problem contains - of course - information on the optimal level of proactive investments in learning.</abstract>
+                    <subject>
+                        <topic>Scheduling</topic>
+                        <topic>Common due date</topic>
+                        <topic>Learning curve</topic>
+                        <topic>Knowledge transfer</topic>
+                        <topic>Proactive investments</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>491</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2720</identifier>
+                    <identifier type="sys">HT014391517</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1880560</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1880560">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1880560/2315322/Lernfinal.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1880560" DMDID="DMD1880560">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1880560"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

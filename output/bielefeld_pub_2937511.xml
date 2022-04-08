@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2937511">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Fiducial Marker based Extrinsic Camera Calibration for a Robot Benchmarking Platform</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timo</namePart>
+                        <namePart type="family">Korthals</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4297-7197</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Wolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Rudolph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hesse</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9500-3284</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Evaluation of robotic experiments requires physical robots as well as position sensing systems. Accurate systems detecting sufficiently all necessary degrees of freedom, like the famous Vicon system, are commonly too expensive. Therefore, we target an economical multi-camera based solution by following these three requirements: Using multiple cameras to track even large laboratory areas, applying fiducial marker trackers for pose identification, and fuse tracking hypothesis resulting from multiple cameras via extended Kalman filter (i.e. ROS&apos;s robot\_localization). While the registration of a multi-camera system for collaborative tracking remains a challenging issue, the contribution of this paper is as follows: We introduce the framework of Cognitive Interaction Tracking (CITrack). Then, common fiducial marker tracking systems (ARToolKit, AprilTag, ArUco) are compared with respect to their maintainability. Lastly, a graph-based camera registration approach in SE(3), using the fiducial marker tracking in a multi-camera setup, is presented and evaluated.</abstract>
+                    <subject>
+                        <topic>Marker tracking</topic>
+                        <topic>Marker</topic>
+                        <topic>Fiducial Marker</topic>
+                        <topic>publication</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29375116</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2937511</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2937511">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2937511/2937516/Korthals+-+2019+-+Fiducial+Marker+based+Extrinsic+Camera+Calibration+for+a+Robot+Benchmarking+Platform.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2937511" DMDID="DMD2937511">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2937511"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

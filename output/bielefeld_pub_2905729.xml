@@ -1,0 +1,108 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2905729">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Convergence of Multi-pass Large Margin Nearest Neighbor Metric Learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christina</namePart>
+                        <namePart type="family">Göpfert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2517-4907</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">E.P. Villa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Paolo</namePart>
+                        <namePart type="family">Masulli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Antonio Javier</namePart>
+                        <namePart type="family">Pons Rivero</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Large margin nearest neighbor classification (LMNN) is a popular technique to learn a metric that improves the accuracy of a simple k-nearest neighbor classifier via a convex optimization scheme. However, the optimization problem is convex only under the assumption that the nearest neighbors within classes remain constant. In this contribution we show that an iterated LMNN scheme (multi-pass LMNN) is a valid optimization technique for the original LMNN cost function without this assumption. We further provide an empirical evaluation of multi-pass LMNN, demonstrating that multi-pass LMNN can lead to notable improvements in classification accuracy for some datasets and does not necessarily show strong overfitting tendencies as reported before.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Artificial Neural Networks and Machine Learning – ICANN 2016: 25th International Conference on Artificial Neural Networks, Barcelona, Spain, September 6-9, 2016, Proceedings, Part II</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9887</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>510</start>
+                                <end>517</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0302-9743</identifier>
+                    <identifier type="issn">1611-3349</identifier>
+                    <identifier type="isbn">978-3-319-44777-3</identifier>
+                    <identifier type="isbn">978-3-319-44778-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29057290</identifier>
+                    <identifier type="doi">10.1007/978-3-319-44778-0_60</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2905729</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2905729">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905729/2905733/paassen_goepfert_hammer_ICANN_2016_preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2905729" DMDID="DMD2905729">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2905729"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

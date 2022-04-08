@@ -1,0 +1,95 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303538</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Alexander</namePart>
+  <namePart type="family">Sczyrba</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Robert</namePart>
+  
+  
+  <namePart type="family">Giegerich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Collections of Expressed Sequence Tags (ESTs) provide the most extensive available survey of the transcriptome of an organism and with it evidence for the existence of genes. They are indispensable for gene discovery, gene structure prediction, and genomic mapping. The price of the low-cost high-throughput data is that ESTs contain high error rates and are not very well annotated. The low quality sequence data can be improved by several processing steps and by clustering into gene-oriented clusters, which again can be assembled to contig sequences for further analyses.
+The first part of this thesis describes an EST clustering pipeline that makes use of enhanced suffix arrays as implemented in the software tool Vmatch. Enhanced suffix arrays are a data structure that has been shown to be as powerful as suffix trees, with the advantage of a reduced space requirement and reduced processing time. Further on, enhanced suffix arrays have been shown to be superior to other matching tools for a variety of applications. We will validate the clustering results based on a "gold-standard" EST data set of Arabidopsis thaliana and compare the result to other widely used clustering tools. The implemented clustering pipeline takes advantage of the underlying database and enables unique batch functionality of mapping results from other organisms to the species of interest.
+For some species, EST projects provide the only information about their gene content. One of these species is the African clawed frog Xenopus laevis. Research using this model system has provided critical insights into the mechanisms of early vertebrate development and cell biology. Despite of the interest in this model organism, no genome project is currently ongoing, and EST and cDNA sequences are the only resource available. To further improve Xenopus as a non-mammalian model system, one of the goals of highest priority is the generation of ESTs and full length cDNA collections, as they facilitate functional assays, one of the particular strengths of Xenopus.
+We have applied the EST clustering pipeline described in the first part of this thesis to Xenopus laevis ESTs, both to identify full length protein encoding sequences and full length cDNA clones. The unique database system XenDB supports comparative approaches between Xenopus laevis and other model systems, and enables the retrieval of their potential full length clones.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="asczyrba_diss.pdf">https://pub.uni-bielefeld.de/download/2303538/2303541/asczyrba_diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2006</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Glatter Krallenfrosch , Cluster-Analyse , Bioinformatik ,  , EST clustering , Suffix arrays , Full length clone prediction</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-10816</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-03-29</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sczyrba, Alexander. 2006. &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Sczyrba, A.: Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis. Bielefeld University, Bielefeld (Germany) (2006).</lncs>
+<default>Sczyrba A (2006) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Sczyrba, Alexander. &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2006.</mla>
+<wels>Sczyrba, A. (2006): Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis. Bielefeld (Germany): Bielefeld University.</wels>
+<angewandte-chemie>A.  Sczyrba, &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2006&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sczyrba, A. (2006).  &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Sczyrba, A., 2006. &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Sczyrba A (2006) &lt;br /&gt;&lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sczyrba, A. (2006). &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Sczyrba, A. (2006). Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis. Bielefeld (Germany): Bielefeld University.</frontiers>
+<ama>Sczyrba A. &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2006.</ama>
+<ieee> A. Sczyrba, &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2006.</ieee>
+<apa>Sczyrba, A. (2006).  &lt;em&gt;Genome analysis based on EST collections : a clustering pipeline and a database on Xenopus laevis&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303538</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-04-19T08:14:45Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:54:30Z</recordChangeDate>
+</recordInfo>
+</mods>

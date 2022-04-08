@@ -1,0 +1,135 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2757543</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Interpreting complex scenes using a hierarchy of prototypical scene models</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sarah</namePart>
+  <namePart type="family">Bonnin</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">26326549</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Franz</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Schmuedderich</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Thomas</namePart>
+  
+  
+  <namePart type="family">Weisswange</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">To drive safely, a good driver observes her surroundings, anticipates the actions of other traffic participants and then decides for a maneuver. But if a driver is inattentive or overloaded, she may fail to include some relevant information. This can then lead to wrong decisions and potentially result in an accident. In order to assist a driver in her decision making, Advanced Driver Assistance Systems (ADAS) are becoming more and more popular in commercial cars. The quality of these existing systems compared to an experienced driver is relatively low, because they purely rely on physical observation and thus react only shortly before an accident. To fully avoid a collision, a driver needs more time to react, therefore the driver should receive an early warning. For an earlier warning of the driver, behaviors of other traffic participants would have to be predicted. We classify existing research in this area with respect to two aspects: quality and scope. Quality means the ability
+to warn a driver early before a dangerous situation. Scope means the diversity of scenes in which the approach can work. In general we see two tendencies, methods targeting for broad scope but having low quality and those targeting for narrow scope but high quality. 
+
+Our goal is to have a system with high quality and wide scope. To achieve this, we propose a generic framework, called Context Model Tree (CMT), that combines multiple high quality classifiers to predict if an entity is coming into the way of the ego-vehicle for many scenarios. This framework is a tree structure in which context based models are ordered according to their context specificity, from the generic ones in the top nodes to the most specific ones in the leaves. We have designed a set of activation rules to activate the nodes fitting to the current situation, using sensory information like GPS, digital maps or vision.
+
+To show that a combination of general and specific classifiers is a solution to improve quality and scope, this thesis introduces the generic concept of our system
+followed by a concrete implementation for predicting if an entity is coming into the way of the ego-vehicle when changing lane for highway scenarios. On the highway,
+a driver usually changes lane for a reason. Our models use complex features based on contextual information and relations between entities. On the highway, one of the most influential indicators to predict if a vehicle is going to change lane is a slow predecessor. A CMT for highway contains in the top node a model that uses such
+general indicators. Two models to predict lane changes at entrance and giveway lanes are placed as sub-nodes. These models make use of the specific information
+inherent to these contexts. We will provide a comparison of the quality of the three models separately and the combination of the models using a CMT and show that, in general, the CMT performs better in terms of prediction time horizon and prediction errors.
+
+In order to show the flexibility and adaptability of the CMT, we also present an extension of the framework for pedestrian crossing prediction in inner-city scenarios.
+In inner-city, a pedestrian who wants to cross a road without having the priority to do so and decide not to is usually influenced by its surroundings, for example a vehicle approaching too fast and not having enough time to cross. A CMT for inner-city contains in the top node a model that uses such general indicators to predict crossing behaviors at an early time for any road, in particular roads where pedestrians do not have the priority to cross. However, there are specific locations
+such as zebra crossings, where based on expert driving experience, one would expect that a prediction can be done even earlier. Therefore, we have developed an additional specific model fitted to the context of zebra crossings. This model makes use of the specific information inherent to this context. The experiments show that this model produces both, better and earlier predictions in this specific context. Because our goal is to build a generic behavior prediction system, we finally apply the framework of the CMT to combine the two models.
+
+We demonstrate that this multi-model system is well suited to provide early predictions for realistic data, including both, generic inner-city situations and zebra crossings. This work could therefore be a step towards better  advanced Driver Assistance Systems (ADAS), through the generation of earlier warnings to increase the reaction time of a driver.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="BonninPhDThesis.pdf">https://pub.uni-bielefeld.de/download/2757543/2757544/BonninPhDThesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universitätsbibliothek Bielefeld</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Cut-in Maneuvers</topic><topic>Pedestrians</topic><topic>Contextual Scene Models</topic><topic>Context Model Tree</topic><topic>Behavior Prediction</topic><topic>ADAS</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27575435</identifier>
+<part><extent unit="pages">122</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-01-23</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> S. Bonnin, &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;,  Bielefeld: Universitätsbibliothek Bielefeld, 2015.</ieee>
+<apa>Bonnin, S. (2015).  &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.</apa>
+<frontiers>Bonnin, S. (2015). Interpreting complex scenes using a hierarchy of prototypical scene models. Bielefeld: Universitätsbibliothek Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bonnin, S. (2015). &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</dgps>
+<ama>Bonnin S. &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld; 2015.</ama>
+<angewandte-chemie>S.  Bonnin, &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;, Universitätsbibliothek Bielefeld, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bonnin, S. (2015).  &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Bonnin S (2015) &lt;br /&gt;&lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universitätsbibliothek Bielefeld.</bio1>
+<harvard1>Bonnin, S., 2015. &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;, Bielefeld: Universitätsbibliothek Bielefeld.</harvard1>
+<wels>Bonnin, S. (2015): Interpreting complex scenes using a hierarchy of prototypical scene models. Bielefeld: Universitätsbibliothek Bielefeld.</wels>
+<default>Bonnin S (2015) &lt;br /&gt;Bielefeld: Universitätsbibliothek Bielefeld.</default>
+<mla>Bonnin, Sarah. &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld, 2015.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bonnin, Sarah. 2015. &lt;em&gt;Interpreting complex scenes using a hierarchy of prototypical scene models&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Bonnin, S.: Interpreting complex scenes using a hierarchy of prototypical scene models. Universitätsbibliothek Bielefeld, Bielefeld (2015).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2757543</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-06-17T19:29:53Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:04Z</recordChangeDate>
+</recordInfo>
+</mods>

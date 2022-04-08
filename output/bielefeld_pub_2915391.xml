@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2915391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Confirmation detection in human-agent interaction using non-lexical  speech cues</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mara</namePart>
+                        <namePart type="family">Brandt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Lars</namePart>
+                        <namePart type="family">Schillingmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Even if only the acoustic channel is considered, human communication is
+highly multi-modal. Non-lexical cues provide a variety of information such as
+emotion or agreement. The ability to process such cues is highly relevant for
+spoken dialog systems, especially in assistance systems. In this paper we focus
+on the recognition of non-lexical confirmations such as &quot;mhm&quot;, as they enhance
+the system&apos;s ability to accurately interpret human intent in natural
+communication. The architecture uses a Support Vector Machine to detect
+confirmations based on acoustic features. In a systematic comparison, several
+feature sets were evaluated for their performance on a corpus of human-agent
+interaction in a setting with naive users including elderly and cognitively
+impaired people. Our results show that using stacked formants as features yield
+an accuracy of 84% outperforming regular formants and MFCC or pitch based
+features for online classification.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="arXiv">1710.00171</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29153919</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2915391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2915391">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915391/2915392/2017-AAAI-NCHRC-mbrandt-final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2915391" DMDID="DMD2915391">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2915391"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

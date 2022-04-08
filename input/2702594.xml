@@ -1,0 +1,158 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2702594</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Florian</namePart>
+  <namePart type="family">Grond</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10272795</identifier></name>
+<name type="personal">
+  <namePart type="given">Till</namePart>
+  <namePart type="family">Bovermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">143296</identifier></name>
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">&lt;center&gt;&lt;img
+src="https://pub.uni-bielefeld.de/download/2702594/2702602"
+width="300" style="float:right;" &gt;&lt;/center&gt;
+
+In this paper, we present building blocks for the synthesis of vowel sounds in the programming language SuperCollider.
+We discuss the advantages of using vowel based synthesis, and make a review where it has already been used in sonifications. Then, we describe in detail the main class Vowel which handles all parameters related to the formants that are typically used for vowel synthesis. In order to simplify the handling of the Vowel class, we introduce two auxiliary pseudo Ugens: Formants for additive synthesis, and BPFStack for subtractive synthesis. This introduction of the building blocks is followed by code examples for sound synthesis, which make use of the described classes and their specific features. We finally present sample applications, showing how these building blocks can be used in sonification.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="1.aeiou.wav">https://pub.uni-bielefeld.de/download/2702594/2702596/1.aeiou.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2.e.wav">https://pub.uni-bielefeld.de/download/2702594/2702595/2.e.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="3.blending.wav">https://pub.uni-bielefeld.de/download/2702594/2702597/3.blending.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="4.brigthen.wav">https://pub.uni-bielefeld.de/download/2702594/2702598/4.brigthen.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="5.even-odd.wav">https://pub.uni-bielefeld.de/download/2702594/2702599/5.even-odd.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="6.DynKlank_ampAt.wav">https://pub.uni-bielefeld.de/download/2702594/2702601/6.DynKlank_ampAt.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="7.one2many.wav">https://pub.uni-bielefeld.de/download/2702594/2702600/7.one2many.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="8.vocagram_short.wav">https://pub.uni-bielefeld.de/download/2702594/2702603/8.vocagram_short.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="one2many.png">https://pub.uni-bielefeld.de/download/2702594/2702602/one2many.png</url>
+  </location>
+  <physicalDescription><internetMediaType>image/png</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2011</dateIssued>
+</originInfo>
+
+<subject><topic>vowel synthesis sonification</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2702594</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2277122</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<mla>Grond, Florian, Bovermann, Till, and Hermann, Thomas. &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University, 2011.</mla>
+<default>Grond F, Bovermann T, Hermann T (2011) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Grond, F., Bovermann, T., Hermann, T.: Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification". Bielefeld University (2011).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grond, Florian, Bovermann, Till, and Hermann, Thomas. 2011. &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<apa>Grond, F., Bovermann, T., &amp;amp; Hermann, T. (2011).  &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702594</apa>
+<ieee> F. Grond, T. Bovermann, and T. Hermann, &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;, Bielefeld University, 2011.</ieee>
+<ama>Grond F, Bovermann T, Hermann T. &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University; 2011.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grond, F., Bovermann, T. &amp;amp; Hermann, T. (2011). &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702594.&lt;/div&gt;</dgps>
+<frontiers>Grond, F., Bovermann, T., and Hermann, T. (2011). Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification". Bielefeld University.</frontiers>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Grond, F., Bovermann, T., &amp;amp; Hermann, T. (2011).  &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2702594&lt;/div&gt;</apa_indent>
+<bio1>Grond F, Bovermann T, Hermann T (2011) &lt;br /&gt;&lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Grond, F., Bovermann, T., &amp;amp; Hermann, T., 2011. &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;, Bielefeld University.</harvard1>
+<angewandte-chemie>F.  Grond, T.  Bovermann, and T.  Hermann, &lt;em&gt;Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2011&lt;/strong&gt;.</angewandte-chemie>
+<wels>Grond, F.; Bovermann, T.; Hermann, T. (2011): Supplementary Material for "A SuperCollider Class for Vowel Synthesis and its Use for Sonification". Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2702594</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-03T11:46:31Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:36Z</recordChangeDate>
+</recordInfo>
+</mods>

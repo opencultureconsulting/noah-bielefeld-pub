@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2937273">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Ax</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4943-2715</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-07-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Das Ziel der vorliegenden Arbeit ist die Realisierung und Analyse einer skalierbaren
+Verbindungsstruktur für ein Multi-Prozessorsystem auf einem Chip (MPSoC). Durch
+die zunehmende Digitalisierung werden in immer mehr Geräten des täglichen Lebens
+und der Industrie mikroelektronische Systeme eingesetzt. Hierbei handelt es sich häufig
+um energiebeschränkte Systeme, die zusätzlich einen stetig steigenden Bedarf an
+Rechenleistung aufweisen. Ein Trend, diesen Bedarf zu decken ist die Integration von
+zunehmend mehr Prozessorkernen auf einem einzelnen Mikrochip. Many-Core-Systeme
+mit vielen hunderten bis tausenden ressourceneffizienten CPU-Kernen versprechen
+hierbei eine besonders hohe Energieeffizienz. Im Vergleich zu Systemen mit wenigen
+leistungsfähigen, jedoch auch komplexeren CPUs, wird bei Many-Cores die Rechenleistung
+durch massive Parallelität erzielt. In der AG Kognitronik und Sensorik der
+Universität Bielefeld wird dazu das CoreVA-MPSoC entwickelt. Um hunderte von CPUs
+auf einen Chip zu integrieren, verfügt das CoreVA-MPSoC über eine hierarchische
+Verbindungsstruktur. Diese besteht aus einem On-Chip-Netzwerk (NoC), welches eine
+Vielzahl von CPU-Cluster koppelt. In jedem CPU-Cluster sind mehrere ressourceneffiziente
+VLIW-Prozessorkerne über eine eng gekoppelte Bus-Struktur verbunden.
+Der Fokus dieser Arbeit ist die Entwicklung und Entwurfsraumexploration einer
+ressourceneffizienten NoC-Architektur für den Einsatz im CoreVA-MPSoC. Die Entwurfsraumexploration
+findet dazu auf verschiedenen Ebenen statt. Auf der Ebene der
+Verbindungsstruktur des NoCs werden verschiedene Topologien und Mechanismen der
+Flusskontrolle untersucht. Des Weiteren wird die Entwicklung und Analyse eines synchronen,
+mesochronen und asynchronen NoCs vorgestellt, um die Skalierbarkeit und
+Energieeffizienz dieser Methoden zu untersuchen. Eine weitere Ebene bildet die Schnittstelle
+zum Prozessorsystem bzw. CPU-Cluster, die einen maßgeblichen Einfluss auf die
+Softwareentwicklung und Gesamtperformanz des Systems hat. Auf Systemebene wird
+schließlich die Anbindung verschiedener Speicherarchitekturen an das NoC vorgestellt
+und deren Auswirkung auf Performanz und Energiebedarf analysiert. Ein abstraktes
+Modell des CoreVA-MPSoCs mit Fokus auf dem NoC erlaubt die Abschätzung von Fläche,
+Performanz und Energie des Systems, bzw. der Ausführung von Streaming-Anwendungen.
+Dieses Modell kann im CoreVA-MPSoC-Compiler für die automatische Abbildung
+von Anwendungen auf dem MPSoC eingesetzt werden. Zehn Streaming-Anwendungen,
+vorwiegend aus dem Bereich der Signal- und Bildverarbeitung, zeigen bei der Abbildung
+auf einem CoreVA-MPSoC mit 32 CPUs eine durchschnittliche Beschleunigung um den
+Faktor 24 gegenüber der Ausführung auf einer CPU.
+Ein CoreVA-MPSoC mit 64 CPUs und insgesamt 3MB Speicher besitzt bei einer prototypischen
+Implementierung in einer 28-nm-FD-SOI-Standardzellenbibliothek einen
+Flächenbedarf von 14,4mm2. Bei einer Taktfrequenz von 700MHz liegt die durchschnittliche
+Leistungsaufnahme bei 2W. Eine FPGA-basierte Emulation auf einem
+FPGA-Cluster aus Xilinx Virtex-5-FPGAs erlaubt zudem eine skalierbare Verifikation
+eines CoreVA-MPSoCs mit nahezu beliebig vielen CPUs.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29372738</identifier>
+                    <identifier type="doi">10.4119/unibi/2937273</identifier>
+                    <identifier type="sys">HT020287655</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2937273</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2937273">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2937273/2937274/2019_09_07_Dissertation_Johannes_Ax.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2937273" DMDID="DMD2937273">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2937273"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

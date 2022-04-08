@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935200">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Lecture Notes on Applied Optimization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Benjamin</namePart>
+                        <namePart type="family">Paaßen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3899-2450</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">André</namePart>
+                        <namePart type="family">Artelt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2426-3126</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">These lecture notes cover theory and algorithms for optimization from an application perspective. With respect to theory we cover basic definitions of optimization problems and their solutions, necessary and sufficient conditions of optimality, convex problems and optimality under convexity, Lagrange- and Wolfe dual forms, as well as Karush-Kuhn-Tucker conditions of optimality. With respect to algorithms we cover analytical optimization; numeric optimization, especially (conjugate) gradient descent, (pseudo-)Newton, trust region, log-barrier, penalty, and projection methods; probabilistic optimization, especially expectation maximization and max-product; linear and quadratic programming; and heuristics, especially the Nelder-Mead algorithm, CMA-ES, Bayesian optimization, hill climbing, simulated annealing, tabu search, branch-and-cut, and ant colony optimization. As such, this document provides a comprehensive overview of the most important optimization techniques for a wide range of application domains as well as their theoretical foundations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29352007</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935200</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935200">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935200/2935201/lecture_notes_apopt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2935200">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935200/2951218/lecture_notes_apopt_2021_02_10.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2935200">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935200/2952420/lecture_notes_apopt_2021_03_05.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935200" DMDID="DMD2935200">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935200"/>
+            <mets:div TYPE="part" ID="PART1_2935200" LABEL="lecture_notes_apopt_2021_02_10.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2935200"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2935200" LABEL="lecture_notes_apopt_2021_03_05.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2935200"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

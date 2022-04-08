@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959896">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Nonuniqueness of Laws on State and Path Space: Flow Selections and Superposition for Fokker-Planck-Kolmogorov Equations and Convex Integration for Stochastic Hypodissipative Navier-Stokes Equations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Rehmeier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Röckner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-09-28</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis is divided into three parts, which are essentially independent of each other, although the equations studied in the first two parts overlap to some degree. In Parts I and II, we study parabolic Fokker--Planck--Kolmogorov equations (FPK equations), which are second-order differential equations for measures. In both parts, we prove structural results, which are of particular interest in cases of nonuniqueness of solutions.&lt;br /&gt;&lt;br /&gt;
+
+More precisely, in Part I, we select \textit{solution flows} for FPK equations, i.e. under suitable assumptions on the coefficients, we choose a particular solution for each initial condition, such that the selected family fulfills the flow property. The selection is made either in the whole class of solutions or in suitable subclasses. Moreover, we show that such a solution flow is unique if and only if the equation is well-posed in the respective solution classes. Our results blend into results of Markovian selections for stochastic problems and, in a lose sense, are parallel to Markovian selections to martingale problems by Stroock and Varadhan. We prove our results in the case of linear and nonlinear equations for measures on $\mathbb{R}^d$, as well as for linear equations for measures on $\mathbb{R}^\infty$. &lt;br /&gt;&lt;br /&gt;
+
+In Part II, we study deterministic and stochastic nonlinear FPK equations on $\mathbb{R}^d$. In spirit of the recent work \cite{RRW20}, we use and extend the \textit{linearization} of such equations. More precisely, it is known that deterministic nonlinear FPK equations admit a naturally associated linear first-order continuity equation for curves in the space of measures $\mathcal{P}(\mathcal{P})$. In this case, we prove a \textit{superposition principle} between solutions to these equations, without imposing any regularity on the coefficients. This result is in the spirit of well-known superposition principles for ordinary and stochastic differential equations and their corresponding first- and second-order linear FPK equations. In our case, the nonlinear FPK equation replaces the ordinary differential equation, and the continuity equation for curves in $\mathcal{P}(\mathcal{P})$ replaces the linear FPK equation for measures on $\mathbb{R}^d$. Moreover, we extend the linearization to the case of \textit{stochastic} nonlinear FPK equations by showing that such equations are associated to deterministic second-order equations for curves in $\mathcal{P}(\mathcal{P})$. Also in this case, we prove a corresponding superposition principle. &lt;br /&gt;&lt;br /&gt;
+
+In Part III, which can be considered entirely independent of the previous parts, we apply the method of \textit{convex integration} to the incompressible fractional Navier--Stokes equations on the $3$D torus, with the exponent $\alpha$ of the fractional Laplacian in the range $0&lt;\alpha &lt; 1/2$, perturbed by an additive Brownian noise. Similar to comparable existing results for other stochastic equations, we prove nonuniqueness in law for analytically and probabilistically weak solutions. In comparison with the existing literature for stochastic equations, we obtain our new result by a use of simpler building blocks for the construction of a solution with anomalous energy behavior. Notably, we construct a solution, which is even probabilistically strong up to a strictly positive stopping time.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29598962</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959896</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959896">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959896/2959897/PhD_Rehmeier.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959896" DMDID="DMD2959896">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959896"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

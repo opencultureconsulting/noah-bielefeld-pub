@@ -1,0 +1,129 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2938358</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Benjamin</namePart>
+  <namePart type="family">Metka</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ute</namePart>
+  
+  
+  <namePart type="family">Bauer-Wersing</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Self-localization and navigation in outdoor environments are fundamental problems a
+mobile robot has to solve in order to autonomously execute tasks in a spatial environ-
+ment. Techniques based on the Global Positioning System (GPS) or laser-range finders
+have been well established but suffer from the drawbacks of limited satellite availability
+or high hardware effort and costs. Vision-based methods can provide an interesting al-
+ternative, but are still a field of active research due to the challenges of visual perception
+such as illumination and weather changes or long-term seasonal effects.
+This thesis approaches the problem of robust visual self-localization and navigation using
+a biologically motivated model based on unsupervised Slow Feature Analysis (SFA). It
+is inspired by the discovery of neurons in a rat’s brain that form a neural representation
+of the animal’s spatial attributes. A similar hierarchical SFA network has been shown
+to learn representations of either the position or the orientation directly from the visual
+input of a virtual rat depending on the movement statistics during training.
+An extension to the hierarchical SFA network is introduced that allows to learn an
+orientation invariant representation of the position by manipulating the perceived im-
+age statistics exploiting the properties of panoramic vision. The model is applied on
+a mobile robot in real world open field experiments obtaining localization accuracies
+comparable to state-of-the-art approaches. The self-localization performance can be fur-
+ther improved by incorporating wheel odometry into the purely vision based approach.
+To achieve this, a method for the unsupervised learning of a mapping from slow fea-
+ture to metric space is developed. Robustness w.r.t. short- and long-term appearance
+changes is tackled by re-structuring the temporal order of the training image sequence
+based on the identification of crossings in the training trajectory. Re-inserting images of
+the same place in different conditions into the training sequence increases the temporal
+variation of environmental effects and thereby improves invariance due to the slowness
+objective of SFA. Finally, a straightforward method for navigation in slow feature space
+is presented. Navigation can be performed efficiently by following the SFA-gradient,
+approximated from distance measurements between the slow feature values at the target
+and the current location. It is shown that the properties of the learned representations
+enable complex navigation behaviors without explicit trajectory planning.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis_benjamin_metka.pdf">https://pub.uni-bielefeld.de/download/2938358/2938359/thesis_benjamin_metka.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29383589</identifier><identifier type="doi">10.4119/unibi/2938358</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-09-10</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Metka, B.: Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis. Universität Bielefeld, Bielefeld (2019).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Metka, Benjamin. 2019. &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Metka, Benjamin. &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+<default>Metka B (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<ama>Metka B. &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<frontiers>Metka, B. (2019). Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Metka, B. (2019). &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2938358.&lt;/div&gt;</dgps>
+<apa>Metka, B. (2019).  &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2938358</apa>
+<ieee> B. Metka, &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<wels>Metka, B. (2019): Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis. Bielefeld: Universität Bielefeld.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Metka, B. (2019).  &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2938358&lt;/div&gt;</apa_indent>
+<bio1>Metka B (2019) &lt;br /&gt;&lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Metka, B., 2019. &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>B.  Metka, &lt;em&gt;Robust Visual Self-localization and Navigation in Outdoor Environments Using Slow Feature Analysis&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2938358</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-10-26T15:53:52Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-11-25T12:35:27Z</recordChangeDate>
+</recordInfo>
+</mods>

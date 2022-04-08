@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1784254">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>numerical computation of connecting orbits in dynamical systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolf-Jürgen</namePart>
+                        <namePart type="family">Beyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1990</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Structural changes in dynamical systems are often related to the appearance or disappearance of orbits connecting two stationary points (either heteroclinic or homoclinic). Homoclinic orbits typically arise in one-parameter problems when on a branch of periodic solutions the periods tend to infinity (e.g. Guckenheimer &amp; Holmes, 1983). We develop a direct numerical method for the computation of connecting orbits and their associated parameter values. We employ a general phase condition and truncate the boundary-value problem to a finite interval by using on both ends the technique of asymptotic boundary conditions; see, for example, de Hoog &amp; Weiss (1980), Lentini &amp; Keller (1980). The approximation error caused by this truncation is shown to decay exponentially. Based on this analysis and additional numerical investigations we set up an adaptive strategy for choosing the truncation interval.</abstract>
+                    <subject>
+                        <topic>phase condition</topic>
+                        <topic>connecting orbits</topic>
+                        <topic>stationary points</topic>
+                        <topic>iterative method</topic>
+                        <topic>dynamical systems</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IMA Journal of Numerical Analysis</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>379</start>
+                                <end>405</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0272-4979</identifier>
+                    <identifier type="eIssn">1464-3642</identifier>
+                    <identifier type="ISI">A1990DV95600006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17842543</identifier>
+                    <identifier type="doi">10.1093/imanum/10.3.379</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1784254</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1784254">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1784254/2314360/beyn_06.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1784254" DMDID="DMD1784254">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1784254"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

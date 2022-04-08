@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1970475">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Suffix Tree Construction and Storage with Limited Main Memory</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus-Bernd</namePart>
+                        <namePart type="family">Schürmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Suffix trees have been established as one of the most versatile index structures for unstructured string data like genomic sequences and other strings. In this work, our goal is the development of algorithms for the efficient construction of suffix trees for very large strings and their convenient storage regarding fast access when main memory is limited. We present a construction algorithm which, to the best of our knowledge, is currently the fastest practical construction method for large suffix trees.
+Further we propose a clustered storage scheme for the suffix tree that takes into account the locality behavior of typical query types, which leads to a significant speed-up particularly for the exact string matching problem. For very large strings the query time is faster than that of other recent index structures like the enhanced suffix array.</abstract>
+                    <subject>
+                        <topic>Sequence analysis</topic>
+                        <topic>Suffix trees</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-6014</identifier>
+                    <identifier type="sys">HT014421914</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1970475</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1970475">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1970475/2319767/report2003_06.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1970475" DMDID="DMD1970475">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1970475"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

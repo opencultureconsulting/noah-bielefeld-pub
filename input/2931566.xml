@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2931566</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Reconfigurable Vision Processing for Player Tracking in Indoor Sports</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Omar Waleed</namePart>
+  <namePart type="family">Ibraheem</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">21409633</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Madhura</namePart>
+  
+  
+  <namePart type="family">Purnaprajna</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Over the past decade, there has been an increasing growth of using vision-based systems for tracking players in sports. The tracking results are used to evaluate and enhance the performance of the players as well as to provide detailed information (e.g., on the players and team performance) to viewers. Player tracking using vision systems is a very challenging task due to the nature of sports games, which includes severe and frequent interactions (e.g., occlusions) between the players. Additionally, these vision systems have high computational demands since they require processing of a huge amount of video data based on the utilization of multiple cameras with high resolution and high frame rate. As a result, most of the existing systems based on general-purpose computers are not able to perform online real-time player tracking, but track the players offline using pre-recorded video files, limiting, e.g., direct feedback on the player performance during the game.&lt;br /&gt;&lt;br /&gt;
+
+In this thesis, a reconfigurable vision-based system for automatically tracking the players in indoor sports is presented. The proposed system targets player tracking for basketball and handball games. It processes the incoming video streams from GigE Vision cameras, achieving online real-time player tracking. The teams are identified and the players are detected based on the colors of their jerseys, using background subtraction, color thresholding, and graph clustering techniques. Moreover, the trackingby-detection approach is used to realize player tracking. FPGA technology is used to handle the compute-intensive vision processing tasks by implementing the video acquisition, video preprocessing, player segmentation, and team identification &amp; player detection in hardware, while the less compute-intensive player tracking is performed on the CPU of a host-PC.&lt;br /&gt;&lt;br /&gt;
+
+Player detection and tracking are evaluated using basketball and handball datasets. The results of this work show that the maximum achieved frame rate for the FPGA implementation is 96.7 fps using a Xilinx Virtex-4 FPGA and 136.4 fps using a Virtex-7 device. The player tracking requires an average processing time of 2.53 ms per frame in a host-PC equipped with a 2.93 GHz Intel i7-870 CPU. As a result, the proposed reconfigurable system supports a maximum frame rate of 77.6 fps using two GigE Vision cameras with a resolution of 1392x1040 pixels each. Using the FPGA implementation, a speedup by a factor of 15.5 is achieved compared to an OpenCV-based software implementation in a host-PC. Additionally, the results show a high accuracy for player tracking. In particular, the achieved average precision and recall for player detection are up to 84.02% and 96.6%, respectively. For player tracking, the achieved average precision and recall are up to 94.85% and 94.72%, respectively. Furthermore, the proposed reconfigurable system achieves a 2.4 times higher performance per Watt than a software-based implementation (without FPGA support) for player tracking in a host-PC. </abstract>
+<abstract lang="eng">Acknowledgments:
+I (Omar W. Ibraheem) would like to thank the German Academic Exchange Service (DAAD), the Congnitronics and Sensor Systems research group, and the Cluster of Excellence Cognitive Interaction Technology ‘CITEC’ (EXC 277) (Bielefeld University) not only for funding the work in this thesis, but also for all the help and support they gave to successfully finish my thesis.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_Omar_Ibraheem_Final_ver_October_2018.pdf">https://pub.uni-bielefeld.de/download/2931566/2931567/diss_Omar_Ibraheem_Final_ver_October_2018.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29315663</identifier><identifier type="doi">10.4119/unibi/2931566</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-10-12</dateOther>
+<extension>
+<bibliographicCitation>
+<apa>Ibraheem, O. W. (2018).  &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931566</apa>
+<ieee> O.W. Ibraheem, &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<ama>Ibraheem OW. &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ibraheem, O.W. (2018). &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931566.&lt;/div&gt;</dgps>
+<frontiers>Ibraheem, O. W. (2018). Reconfigurable Vision Processing for Player Tracking in Indoor Sports. Bielefeld: Universität Bielefeld.</frontiers>
+<bio1>Ibraheem OW (2018) &lt;br /&gt;&lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Ibraheem, O.W., 2018. &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ibraheem, O. W. (2018).  &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931566&lt;/div&gt;</apa_indent>
+<angewandte-chemie>O. W.  Ibraheem, &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<wels>Ibraheem, O. W. (2018): Reconfigurable Vision Processing for Player Tracking in Indoor Sports. Bielefeld: Universität Bielefeld.</wels>
+<mla>Ibraheem, Omar Waleed. &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<default>Ibraheem OW (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<lncs> Ibraheem, O.W.: Reconfigurable Vision Processing for Player Tracking in Indoor Sports. Universität Bielefeld, Bielefeld (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Ibraheem, Omar Waleed. 2018. &lt;em&gt;Reconfigurable Vision Processing for Player Tracking in Indoor Sports&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2931566</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-10-15T11:10:16Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-20T08:31:01Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2566222">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning of information gathering in modular intelligent systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cem</namePart>
+                        <namePart type="family">Karaoguz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Britta</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-03-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Research of intelligent systems aims to realize autonomous agents capable of performing various functions to ease every day life of humans. Usually, such occupations can be formalized as a collection of tasks that have to be executed in parallel or in a sequence. Since real world environments are highly dynamic and unpredictable, intelligent systems require cognitive capabilities that can learn how to execute such tasks through interactions. Considering that the system has limited resources for acquiring and processing information, a strategy is required to find and update task-relevant information sources efficiently in time.
+
+This thesis proposes a system level approach for the information gathering process and an implementation that puts this idea into work. The presented framework takes a modular systems approach where modules are defined as elementary processing units for information acquisition and processing. The modular system design helps handling scenario complexity. A module management mechanism learns which modules deliver task relevant information and how the constrained system resources are distributed among these in a reward based framework. This reduces the partial observability caused by the information gathering process and provides better support to other high level cognitive functionalities of the system. Such an adaptive approach also makes it possible to deal with variations in the scenario or environment. 
+
+Two different applications in simulation are implemented to test these hypotheses and demonstrate the utility of the proposed framework: the first implements a `reaching-while-interacting&apos; scenario for a humanoid robot and the second employing an autonomous navigation scenario for a mobile robot. Both scenarios involve dynamic objects, rendering a challenging environment close to the real-world conditions for the system. Results from experiments with these applications provide evidence for hypotheses postulated in the thesis.</abstract>
+                    <subject>
+                        <topic>reinforcement learning</topic>
+                        <topic>reward based learning</topic>
+                        <topic>large scale modular systems</topic>
+                        <topic>attention mechanisms</topic>
+                        <topic>robots with development and learning skills</topic>
+                        <topic>multi-task learning</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25662220</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2566222</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2566222">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2566222/2566223/karaoguz_dissertation_2012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2566222" DMDID="DMD2566222">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2566222"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

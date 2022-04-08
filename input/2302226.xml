@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302226</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Automatische Spracherkennung für agierende Systeme</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Sascha</namePart>
+  <namePart type="family">Hohenner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Gernot A.</namePart>
+  
+  
+  <namePart type="family">Fink</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Sprache ist ein wichtiger, wenn nicht sogar der wichtigste Bestandteil bei der zwischenmenschlichen Kommunikation. Das bedeutet wiederum, dass bei einer für den Menschen möglichst natürlichen Gestaltung der Kommunikation und Interaktion mit agierenden Systemen (Haushaltshilfen, Laborassistenten, instruierbare Montagesysteme, etc.) der automatischen Spracherkennung eine wichtige Rolle zukommt, da diese die Basis für Kommunikations- und Interaktionskomponenten wie z.B. Sprachverstehen und Dialogsysteme bildet. Dabei werden sehr vielfältige Ansprüche an eine entsprechende Sprachperzeptionskomponente gestellt. In dieser Arbeit wurden einige dieser Aspekte genauer untersucht und Verfahren entwickelt, die die "Natürlichkeit" bei der Interaktion mit solchen Systemen erhöht.
+Folgende Aspekte standen im Mittelpunkt: Die Robustheit der Spracherkennung, die Geschwindigkeit, mit der Äußerungen erkannt werden, sowie die Spracherkennung auf der Basis von zwei Mikrofonen, die sich direkt am agierenden System befinden (Distant-Talking Spracherkennung). 
+Mit Robustheit wird die Erkennungsleistung hinsichtlich der Erkennungsfehler und deren Reduktion bezeichnet. Für Systeme, die in geräuschvollen Umgebungen agieren, sinkt die Erkennungsleistung einer Sprachperzeptionskomponente deutlich, da durch Überlagerung von Sprachsignal und Störgeräuschen vermehrt Fehler bei der Erkennung des Gesprochenen auftreten. Dieses Phänomen tritt auch bei der menschlichen Sprachwahrnehmung auf: Je lauter die Umgebung, desto schwieriger ist es, einen Gesprächspartner akustisch zu verstehen. Die menschliche Sprachwahrnehmung ist dabei jedoch wesentlich robuster als aktuelle Spracherkennungssysteme. Das liegt u.a. an der akustischen Wahrnehmung des Menschen: Das Gehör verfügt über Eigenschaften, die bei der menschlichen Spracherkennung eine wichtige Rolle spielen, in Spracherkennungssystemen jedoch nur teilweise berücksichtigt werden. Da sich die Einbindung solcher Eigenschaften bereits in einigen Fällen als sehr erfolgreich erwiesen hat, wurde eine weitere Eigenschaft des menschlichen Gehörs, die Vorwärtsmaskierung, in das Spracherkennungssystem eingebunden und dadurch die Robustheit erhöht.
+Der Aspekt der Erkennungsgeschwindigkeit bezieht sich auf die Zeit, die ein Spracherkennungssystem benötigt, um Erkennungsergebnisse zu liefern. Bei komplexen Spracherkennungssystemen wird oft mehr Verarbeitungszeit benötigt als die zeitliche Länge der Äußerung beträgt, um das bestmögliche Erkennungsergebnis zu erreichen, so dass eine zeitliche Verzögerung zwischen dem Beenden einer Äußerung und dem Vorliegen des Erkennungsergebnisses auftritt. Für eine möglichst natürliche Interaktion mit agierenden Systemen sollten solchen Verzögerungen gewisse Grenzen gesetzt werden. Daneben ist zu bedenken, dass sich agierende Systeme in ihrer Umgebung bewegen oder Objekte manipulieren können. Dabei kann sich das System auch anders verhalten als gewünscht, weil z.B. eine Äußerung missverstanden wurde oder tatsächlich fehlerhaft war. In solchen Fällen ist mit einer Korrektur von Seiten des Menschen noch vor Beendigung einer fehlerhaften Aktion zu rechnen. Geschieht diese Korrektur verbal, sollte eine entsprechende Äußerung ohne nennenswerte zeitliche Verzögerungen vom System verstanden werden, damit es entsprechend schnell seine Aktion stoppen bzw. korrigieren kann. Deshalb wurde ein Verfahren entwickelt, das die Steuerung der Erkennungsgeschwindigkeit ermöglicht und dabei eine möglichst hohe Robustheit gewährleistet. 
+Der letzte Aspekt der Distant-Talking Spracherkennung bezeichnet eine Spracherkennung mit zwei Mikrofonen, die sich nicht beim Sprecher, sondern direkt am agierenden System befinden. Allgemein werden sehr gute Erkennungsergebnisse erzielt, wenn die Aufnahme des Sprachsignals über ein Nahbesprechungsmikrofon erfolgt, das sich direkt am Kommunikationspartner befindet. Soll eine Interaktion mit verschiedenen Partnern erfolgen, muss das Mikrofon entweder "weitergereicht" werde, oder jeder Partner muss über ein eigenes Mikrofon verfügen. Außerdem muss jeder Partner selbst dafür sorgen, dass das System nur dann auf Sprache reagiert, wenn es auch angesprochen wird, indem er z.B. das Mikrofon ein- bzw. ausschaltet. Solche unnatürlichen Szenarien lassen sich vermeiden, indem das agierende System selbst über ein Mikrofon verfügt. Dabei ist jedoch die Distanz zwischen Sprecher und Mikrofon entsprechend größer und das Sprachsignal kann beim Eintreffen am Mikrofon stärker mit Geräuschen überlagert sein. Daher werden zwei Mikrofone verwendet, um eine bessere Erkennungsleistung zu erreichen. Gleichzeitig können mit zwei Mikrofonen Kommunikationspartner im Raum lokalisiert werden. Bei der Distant-Talking Spracherkennung wurden also zwei Ziele verfolgt: Die Lokalisation von Kommunikationspartnern, um die Aufmerksamkeit des Systems auf diesen lenken zu können, sowie die Spracherkennung auf der Basis von Stereo-Mikrofonen.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_hohenner.ps">https://pub.uni-bielefeld.de/download/2302226/2302229/diss_hohenner.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Übertragungsfehler</topic><topic>Fehlermaskierung</topic><topic>BIRON (Bielefeld Robot Companion)</topic><topic>Störgeräusch</topic><topic>Robustheit</topic><topic>Automatische Spracherkennung</topic><topic>Mensch-Maschine-Kommunikation</topic><topic>Dialogsystem</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-6713</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-04-22</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Hohenner, S. (2004): Automatische Spracherkennung für agierende Systeme. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Hohenner S (2004) &lt;br /&gt;&lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hohenner, S. (2004).  &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Hohenner, S., 2004. &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>S.  Hohenner, &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<ama>Hohenner S. &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2004.</ama>
+<frontiers>Hohenner, S. (2004). Automatische Spracherkennung für agierende Systeme. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hohenner, S. (2004). &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Hohenner, S. (2004).  &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> S. Hohenner, &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2004.</ieee>
+<lncs> Hohenner, S.: Automatische Spracherkennung für agierende Systeme. Bielefeld University, Bielefeld (Germany) (2004).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hohenner, Sascha. 2004. &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Hohenner, Sascha. &lt;em&gt;Automatische Spracherkennung für agierende Systeme&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2004.</mla>
+<default>Hohenner S (2004) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302226</recordIdentifier><recordCreationDate encoding="w3cdtf">2005-04-29T08:51:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:46:26Z</recordChangeDate>
+</recordInfo>
+</mods>

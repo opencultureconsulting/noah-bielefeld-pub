@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2961488">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Optimal Execution with Multiplicative Price Impact and Incomplete Information on the Return</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Dammann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2022</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study an optimal liquidation problem with multiplicative price impact in which the
+trend of the asset’s price is an unobservable Bernoulli random variable. The investor aims at selling
+over an infinite time-horizon a fixed amount of assets in order to maximize a net expected profit
+functional, and lump-sum as well as singularly continuous actions are allowed. Our mathematical
+modelling leads to a singular stochastic control problem featuring a finite-fuel constraint and partial
+observation. We provide the complete analysis of an equivalent three-dimensional degenerate problem
+under full information, whose state process is composed of the asset’s price dynamics, the amount of
+available assets in the portfolio, and the investor’s belief about the true value of the asset’s trend.
+The optimal execution rule and the problem’s value function are expressed in terms of the solution to
+a truly two-dimensional optimal stopping problem, whose associated belief-dependent free boundary
+b triggers the investor’s optimal selling rule. The curve b is uniquely determined through a nonlinear
+integral equation, for which we derive a numerical solution allowing to understand the sensitivity of
+the problem’s solution with respect to the relevant model’s parameters.</abstract>
+                    <abstract lang="eng">MSC2020 subject classification: 93E20, 93C41, 49L20, 91G80</abstract>
+                    <subject>
+                        <topic>optimal execution problem</topic>
+                        <topic>multiplicative price impact</topic>
+                        <topic>singular stochastic control</topic>
+                        <topic>partial observation</topic>
+                        <topic>optimal stopping</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>663</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>38</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29614880</identifier>
+                    <identifier type="sys">HT021285506</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2961488</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2961488">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2961488/2961489/IMW_working_paper_663.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2961488" DMDID="DMD2961488">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2961488"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

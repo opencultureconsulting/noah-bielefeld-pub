@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303284">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Ein </nonSort>
+                        <title>wissensbasiertes Rahmensystem zur merkmalsbasierten Gestenerkennung für multimediale Anwendungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Fröhlich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1999</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">1999-09-03</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Es wird ein Beitrag zur Erschließung einer natürlichen Kommunikationsform - der Gestik - für die Interaktion des Menschen mit komplexen rechnerbasierten Systemen anhand eines Ansatzes geleistet, der als Ziel hat, eine instruktionsbasierte Schnittstelle mit Information über Konfigurationen der oberen Gliedmaßen zu versorgen. Über die Formanalyse der Bewegung mittels eines von Benutzerbesonderheiten befreienden Körpermodells werden Merkmale extrahiert, die auf Grund eines hierarchischen Repräsentationssystems zu Symbolen integriert werden können. Dieser Integrationsansatz abstrahiert von der Symbolquelle und kann daher Informationen verschiedener Medien verarbeiten. Diese auf einem hierarchischen Zeitmodell basierende multimodale Integration ist mittels eines Multiagentensystems implementiert, in dem die Agenten entweder als Prozesse oder feiner als nebenläufige Programmflüsse in einem Prozess (threads) realisiert sind und sich selbst aufgabenorientiert konfigurieren. Das Integrationsverfahren wird durch ein Produktionssystem realisiert, was es ermöglicht, dass der Benutzer zur Laufzeit des Systems die Integrationsregeln ändern kann. Es ist kein Training erforderlich. Durch die Trennung von Gestenwissen, Integrationswissen und der Semantikdefinitionen der einzelnen Symbole ist das vorgestellte Rahmensystem applikationsunabhängig für verschiedene Aufgaben parametrisierbar.</abstract>
+                    <subject>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Arm</topic>
+                        <topic>Gestik</topic>
+                        <topic>Mustererkennung</topic>
+                        <topic>Mehragentensystem</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2477</identifier>
+                    <identifier type="sys">HT014320593</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303284</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303284">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303284/2303287/0015.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303284" DMDID="DMD2303284">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303284"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

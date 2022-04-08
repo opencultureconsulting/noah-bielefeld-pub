@@ -1,0 +1,105 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302139</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kolja</namePart>
+  <namePart type="family">Henckel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">182436</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ralf</namePart>
+  
+  
+  <namePart type="family">Hofestädt</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48518</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">89815</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Medicago truncatula is a model plant for studying legume biology. The ability to interact with beneficial microbial organisms leading to the formation of nitrogen fixing root nodules and to phosphate-acquiring arbuscular mycorriza (AM) is one of the main distinctive features of this family of plants. The two different symbioses of Medicago truncatula are investigated by various international research projects.
+Oligonucleotide microarrays are a robust technique to examine the expression of thousands of genes in parallel. Affymetrix GeneChips®, more recently designed gene-specific chips, make it easier for the researcher to compare and evaluate gene expression and thus will most certainly lead to more accurate results. Not surprisingly, Medicago GeneChips® are moving into the focus of gene expression analysis research in this model plant. Software applications for the analysis of GeneChips® are mostly commercial, or implemented as command-line tools without a user interface. Furthermore, a comparison to the analyses of previously performed oligonucleotide microarrays is difficult, as analysis pipelines and methods differ in each application. In the scope of this thesis EMMA2, an application for the analysis of oligonucleotide microarrays, was extended to load, store and analyze Affymetrix GeneChips® as compareable as possible to oligonucleotide datasets.
+Databases for either sequence, annotation, or microarray experiment datasets are extremely beneficial to the research community, as they centrally gather information from experiments performed by different scientists. However, datasets from different sources develop their full capacities only when combined. The idea of a data warehouse directly addresses this problem and solves it by integrating all required data into one single database hence there are already many data warehouses available to genetics. For the model legume Medicago truncatula there was no such single data warehouse that integrated all freely available gene sequences, the corresponding gene expression data, and annotation information.
+The TRUNCATULIX data warehouse is created in the scope of this thesis to store Medicago truncatula sequence, annotation, and expression datasets and offer these to the legume community. Different filtersteps allow a precise query for genes and expression values in a database of over 200.000 gene sequences and over 200 hybridizations. For the first time users can now quickly search for specific genes and gene expression datasets in a huge database based on high-quality annotations. The results can be exported as Excel, HTML, or as csv files for further usage.
+A multitude of EST and microarray experiments are conducted for Medicago truncatula covering different tissues, cell states, and cell types. Under these circumstances the challenge arises to integrate the results of the different expression analysis methods with the goal to discover novel information from the combined datasets. The application MediPlEx is designed to allow an integrated expression analysis for the Medicago truncatula datasets stored in SAMS and in the TRUNCATULIX data warehouse. After selecting genes of interest by their expression conditions, expression profiles are combined for a hierarchical clustering. The results are presented in a table, as a cluster dendrogram, and in an interactive 3D application.
+The three parts of the thesis have been published by Dondrup et al. (2009), Henckel et al. (2009), or are submitted (Henckel et al. (2010)).</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Kolja_Henckel.pdf">https://pub.uni-bielefeld.de/download/2302139/2302142/Dissertation_Kolja_Henckel.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Expression profiling</topic><topic>GeneChip expression data</topic><topic>database</topic><topic>est analysis</topic><topic>comparative expression analysis</topic><topic>microarray</topic><topic>mediplex</topic><topic>truncatulix</topic><topic>medicago truncatula</topic><topic>data warehouse</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-16625</identifier>
+<part><extent unit="pages">135</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2010-03-11</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Henckel, K.: Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms. Bielefeld University, Bielefeld (Germany) (2010).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Henckel, Kolja. 2010. &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Henckel, Kolja. &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2010.</mla>
+<default>Henckel K (2010) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<wels>Henckel, K. (2010): Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Henckel K (2010) &lt;br /&gt;&lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Henckel, K. (2010).  &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Henckel, K., 2010. &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>K.  Henckel, &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2010&lt;/strong&gt;.</angewandte-chemie>
+<ama>Henckel K. &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2010.</ama>
+<frontiers>Henckel, K. (2010). Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Henckel, K. (2010). &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Henckel, K. (2010).  &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> K. Henckel, &lt;em&gt;Development of a software infrastructure to mine GeneChip expression data and to combine datasets from different Medicago truncatula expression profiling platforms&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2010.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302139</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-12T12:52:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:13Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900168">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Model-based Real-time Visualization of Realistic Three-Dimensional Heat Maps for Mobile Eye Tracking and Eye Tracking in Virtual Reality</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cem</namePart>
+                        <namePart type="family">Memili</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Heat maps, or more generally, attention maps or saliency maps are an often used technique to visualize eye-tracking data. With heat maps qualitative information about visual processing can be easily visualized and communicated between experts and laymen. They are thus a versatile tool for many disciplines, in particular for usability engineering, and are often used to get a first overview about recorded eye-tracking data.
+
+Today, heat maps are typically generated for 2D stimuli that have been presented on a computer display. In such cases the mapping of overt visual attention on the stimulus is rather straight forward and the process is well understood. However, when turning towards mobile eye tracking and eye tracking in 3D virtual environments, the case is much more complicated. 
+
+In the first part of the paper, we discuss several challenges that have to be considered in 3D environments, such as changing perspectives, multiple viewers, object occlusions, depth of fixations, or dynamically moving objects. In the second part, we present an approach for the generation of 3D heat maps addressing the above mentioned issues while working in real-time. Our visualizations provide high-quality output for multi-perspective eye-tracking recordings of visual attention in 3D environments.</abstract>
+                    <subject>
+                        <topic>Eyetracking</topic>
+                        <topic>Gaze-based Interaction</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-1-4503-4125-7/16/03</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29001685</identifier>
+                    <identifier type="doi">10.1145/2857491.2857541</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900168</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900168">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900168/2902235/Pfeiffer_Memili_-_Model-based_Real-Time_Visualization_of_Realistic_Three-Dimensional_Heat_Maps.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900168" DMDID="DMD2900168">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900168"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

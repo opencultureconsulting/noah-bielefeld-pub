@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304461">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bioinformatics approaches to large scale genome comparison, including the identification of conserved noncoding regions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jomuna Veronica</namePart>
+                        <namePart type="family">Choudhuri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-07-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The repeatitive pattern of genomic DNA reveals much about the structure and organization of genomes. REPuter is a bioinformatics tool that efficiently finds repeatitive substrings in large genomic sequences. The identification of repeats enables a wide range of biological interpretations. Here we describe how this single software is applied to many different biological problems: assembly check, localization of low copy repeats, identification of string uniqueness, matching cDNAs onto genomic sequences, and comparison of gene structure. The adaptation of REPuter to the era of comparative genomics is described considering its biologically meaningful improvements, generating the new visualization GenAlyzer.
+The ability to compare different genomes enables researchers to look for conservation and functionality of regulatory regions. Considering that sequences containing vital information are under greater evolutionary pressure than sequences without function, the former are expected to be more conserved during evolution. This clearly holds for protein coding sequences and can also be exploited in the study of regulatory or other noncoding functional sequences. Using comparative genomics, these noncoding functional sequences can be identified as conserved noncoding sequences (CNSs). Today, the functionality of CNSs is determined by very elaborate and time consuming experimental methods. Depending on the background level of similarity between the organisms being compared, the amount of conserved noncoding sequences can be very large and almost impracticable to handle in the wet-lab. Making use of available tools for genome annotation and comparison, we have developed Connosseur, a Conserved Noncoding Sequences Repository Generator. It provides bioinformatics support for generating and screening the set of CNSs between two genomic sequences. Connosseur automates several tools in a computational cascade, finally returning a repository of CNSs and associated information. For the data storage, we used the relational database system PostgreSQL. Further analyses can be carried out upon selected pCNSs. This includes determining uniqueness, overrepresented words analysis and comparison to known functional CNSs. This approach allowed us to identify several potential CNSs between mouse and human genomic sequences. Overall, Connosseur provides a flexible and extensible basis for in-depth studies of pCNSs.</abstract>
+                    <subject>
+                        <topic>Genom</topic>
+                        <topic>Repetitive DNS</topic>
+                        <topic>Identifikation</topic>
+                        <topic>Computerunterstütztes Verfahren</topic>
+                        <topic>Bioinformatics</topic>
+                        <topic>Genome</topic>
+                        <topic>Comparison</topic>
+                        <topic>Conserved noncoding sequences</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2867</identifier>
+                    <identifier type="sys">HT014317135</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304461</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304461">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304461/2304464/choudhuri.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304461" DMDID="DMD2304461">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304461"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

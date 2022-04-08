@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914039">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Predicting Disease-Gene Associations using Cross-Document Graph-based Features</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">ter Horst</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3244-6595</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Hartung</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6549-066X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Zwick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In the context of personalized medicine, text mining methods pose an interesting option for identifying disease-gene associations, as they can be used to generate novel links between diseases and genes which may complement knowledge from structured databases. The most straightforward approach to extract such links from text is to rely on a
+simple assumption postulating an association between all genes and diseases that co-occur within the same document. However, this approach (i) tends to yield a number of spurious associations, (ii) does not capture different relevant types of associations, and (iii) is incapable of aggregating knowledge that is spread across documents. Thus, we propose an approach in which disease-gene co-occurrences and gene-gene interactions are represented in an RDF graph. A machine learning-based classifier is trained that incorporates features extracted from the graph to separate disease-gene pairs into valid disease-gene associations and spurious ones. On the manually curated Genetic Testing Registry, our approach yields a 30 points increase in F 1 score over a plain co-occurrence baseline.</abstract>
+                    <subject>
+                        <topic>disease-gene associations</topic>
+                        <topic>text mining</topic>
+                        <topic>machine learning</topic>
+                        <topic>biomedical literature</topic>
+                        <topic>graph-based features</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="arXiv">https://arxiv.org/abs/1709.09239</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29140398</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914039</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914039">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914039/2914040/paper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914039" DMDID="DMD2914039">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914039"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

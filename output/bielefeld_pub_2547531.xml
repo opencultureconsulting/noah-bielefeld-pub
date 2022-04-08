@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2547531">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>QuPE - An integrated bioinformatics platform for quantitative proteomics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Albaum</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-1827-9914</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Goesmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-12-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Developments in mass spectrometry provide researchers with a comprehensive inventory of methods to gain qualitative and quantitative knowledge about proteins – the integral components of life. Techniques such as liquid chromatography coupled to tandem mass spectrometry in combination with isotopic labeling, finally, paved the way for the analysis of complete proteomes in a high-throughput manner. With the number of mass spectra that are produced in such experiments running easily into the thousands, there is, undoubtedly, a strong demand for appropriate processing and analysis strategies. 
+
+Aim of this work was to tackle this computational challenge in mass spectrometry-based quantitative proteomics. In this work, therefore, the concept of a software application for quantitative proteomics experiments was devised and put into practice. This envisaged a platform, firstly, to manage all data and meta data related to these experiments, and secondly, to ease the development and integration of novel analysis methods. Based on the capabilities of the system a variety of new methods has been designed and implemented, starting from procedures for the assessment of protein identifications, to optimized but also novel algorithms for protein quantification, to the first-time derivation of a workflow for the multivariate statistical analysis of quantitative proteomics experiments. The resulting platform named QuPE has been developed as a rich internet application to provide data management capabilities as well as analysis functionality for protein identification, quantification, and in particular statistical evaluation from any location in the world via a standard web browser. 
+
+QuPE constitutes a comprehensive platform for the analysis of quantitative proteomics experiments, especially of metabolic stable isotope labeling approaches. Due to its extensible nature, the system can easily be extended to cope with future developments in this field of research, e.g. with regard to the emerging interest in posttranslational protein modifications or novel quantification methods.</abstract>
+                    <subject>
+                        <topic>protein quantification</topic>
+                        <topic>liquid chromatography</topic>
+                        <topic>protein identification</topic>
+                        <topic>mass spectrometry</topic>
+                        <topic>Quantitative proteomics</topic>
+                        <topic>statistical evaluation</topic>
+                        <topic>data visualization</topic>
+                        <topic>data mining</topic>
+                        <topic>rich internet application</topic>
+                        <topic>data integration</topic>
+                        <topic>metabolic labeling</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25475311</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2547531</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2547531">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2547531/2547532/QuPE.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2547531" DMDID="DMD2547531">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2547531"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

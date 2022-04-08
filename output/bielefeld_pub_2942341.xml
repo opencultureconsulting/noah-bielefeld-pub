@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2942341">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Comparison of Read Mapping and Variant Calling Tools for the Analysis of Plant NGS Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hanna</namePart>
+                        <namePart type="family">Schilbert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0474-7753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Rempel</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0609-5621</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Boas</namePart>
+                        <namePart type="family">Pucker</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3321-7471</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">High-throughput sequencing technologies have rapidly developed during the past years and have become an essential tool in plant sciences. However, the analysis of genomic data remains challenging and relies mostly on the performance of automatic pipelines. Frequently applied pipelines involve the alignment of sequence reads against a reference sequence and the identification of sequence variants. Since most benchmarking studies of bioinformatics tools for this purpose have been conducted on human datasets, there is a lack of benchmarking studies in plant sciences. In this study, we evaluated the performance of 50 different variant calling pipelines, including five read mappers and ten variant callers, on six real plant datasets of the model organism Arabidopsis thaliana. Sets of variants were evaluated based on various parameters including sensitivity and specificity. We found that all investigated tools are suitable for analysis of NGS data in plant research. When looking at different performance metrics, BWA-MEM and Novoalign were the best mappers and GATK returned the best results in the variant calling step</abstract>
+                    <subject>
+                        <topic>Single Nucleotide Variants (SNVs)</topic>
+                        <topic>Single Nucleotide Polymorphisms (SNPs)</topic>
+                        <topic>Insertions/Deletions (InDels)</topic>
+                        <topic>population genomics</topic>
+                        <topic>re-sequencing</topic>
+                        <topic>mapper</topic>
+                        <topic>benchmarking</topic>
+                        <topic>Next Generation Sequencing (NGS)</topic>
+                        <topic>bioinformatics</topic>
+                        <topic>plant genomics</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Plants</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2223-7747</identifier>
+                    <identifier type="MEDLINE">32252268</identifier>
+                    <identifier type="ISI">000539578900033</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29423416</identifier>
+                    <identifier type="doi">10.3390/plants9040439</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2942341</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2942341">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2942341/2942342/Schilbert_2020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2942341" DMDID="DMD2942341">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2942341"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1893917">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Shape based indexing for faster search of RNA family databases</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Janssen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0955-0589</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Reeder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Most non-coding RNA families exert their function by means of a conserved, common secondary structure. The Rfam data base contains more than five hundred structurally annotated RNA families. Unfortunately, searching for new family members using covariance models (CMs) is very time consuming. Filtering approaches that use the sequence conservation to reduce the number of CM searches, are fast, but it is unknown to which sacrifice.
+
+Results: We present a new filtering approach, which exploits the family specific secondary structure and significantly reduces the number of CM searches. The filter eliminates approximately 85% of the queries and discards only 2.6% true positives when evaluating Rfam against itself. First results also capture previously undetected non-coding RNAs in a recent human RNAz screen.
+
+Conclusion: The RNA shape index filter (RNAsifter) is based on the following rationale: An RNA family is characterised by structure, much more succinctly than by sequence content. Structures of individual family members, which naturally have different length and sequence composition, may exhibit structural variation in detail, but overall, they have a common shape in a more abstract sense. Given a fixed release of the Rfam data base, we can compute these abstract shapes for all families. This is called a shape index. If a query sequence belongs to a certain family, it must be able to fold into the family shape with reasonable free energy. Therefore, rather than matching the query against all families in the data base, we can first (and quickly) compute its feasible shape(s), and use the shape index to access only those families where a good match is possible due to a common shape with the query.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>131</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18312625</identifier>
+                    <identifier type="ISI">000254437600001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-18939178</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-131</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1893917</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1893917">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1893917/2315029/32.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1893917">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1893917/2238794/1471-2105-9-131.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1893917" DMDID="DMD1893917">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1893917"/>
+            <mets:div TYPE="part" ID="PART1_1893917" LABEL="1471-2105-9-131.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1893917"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

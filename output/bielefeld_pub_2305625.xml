@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305625">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Expression von humanem Typ-1-Porin in Xenopus-Oozyten und Studien zu seiner Funktionalität</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Schwarzer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Bartolomaeus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-12-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die vorliegende Arbeit beinhaltet die Charakterisierung von humanem VDAC1 unter physiologischen Bedingungen im Kontext seiner Lokalisierung und Funktionalität. Das Kanalprotein wurde heterolog in Xenopus laevis Oozyten exprimiert und analysiert. Mit hVDAC1 in Wechselwirkung stehende Proteine konnten darüber hinaus durch ein Two-Hybrid System identifiziert werden und liefern weitere Erkenntnisse über das Protein in seinem biologischen Umfeld.</abstract>
+                    <subject>
+                        <topic>Porin , Heterologe Genexpression , Glatter Krallenfrosch , Oozyte , Eukaryontisches Porin , Xenopus Oozyten , Humanes VDAC , Two-Hybrid-System ,</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1598</identifier>
+                    <identifier type="sys">HT014238010</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305625</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305625">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305625/2305629/1diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2305625">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305625/2305628/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2305625">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305625/2305630/abstract.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305625" DMDID="DMD2305625">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305625"/>
+            <mets:div TYPE="part" ID="PART1_2305625" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2305625"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2305625" LABEL="abstract.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2305625"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

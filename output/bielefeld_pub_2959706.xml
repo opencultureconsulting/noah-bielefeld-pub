@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959706">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Verteilte Systemarchitektur für mobile Roboter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Uwe</namePart>
+                        <namePart type="family">Jahn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-11-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Bei mobilen Robotern gibt es zahlreiche Ansätze für Systemarchitekturen, sowohl als
+monolithisches, als auch als verteiltes System innerhalb eines Roboters. Ziel der
+vorliegenden Dissertation ist die Entwicklung einer allgemeingültigen Systemarchitektur
+für einen typischen mobilen Roboter. Zur Definition eines typischen mobilen Roboters wird
+eine Taxonomie aus Klassen, Anwendungsgebieten, Fähigkeiten und technischen
+Realisierungen von mobilen Robotern aufgrund einer umfangreichen Literaturrecherche
+erarbeitet.&lt;br /&gt;&lt;br /&gt;
+
+Die Systemarchitektur wird in Form eines konzeptionellen Modells beschrieben. Als
+grundlegende Struktur wird ein verteiltes System aus der Drei-Schichten Architektur des
+OCM verwendet. Die drei hierarchisch getrennten Schichten bestehen aus einer
+Controller-Ebene, mindestens einem reflektorischen Operator und einem kognitiven
+Operator. Die Controller sind direkt mit den Sensoren und Aktuatoren des Roboters
+verbunden, weshalb die Einhaltung von harter Echtzeit erforderlich ist. Der kognitive
+Operator hingegen wird zur Optimierung des Systems verwendet und muss nicht
+echtzeitfähig realisiert werden, sodass das konzeptionelle Modell die Ausführung des
+kognitiven Operators in der Cloud vorsieht. Neben der Struktur werden im konzeptionellen
+Modell Schnittstellen und Funktionen wie z. B. Watchdogs zur Erhöhung der Sicherheit
+(Safety) erläutert. Außerdem werden mit dem Motion, Health und Perception Controller
+typische Systemkomponenten für mobile Roboter definiert.&lt;br /&gt;&lt;br /&gt;
+
+Das konzeptionelle Modell wird zudem experimentell umgesetzt. Hierzu wird die
+Entwicklung des mobilen Roboters DAEbot gezeigt. Der Prototyp setzt die OCM-basierte
+Systemarchitektur als verteiltes System aus diversen SBCs um. Durch die Nutzung von
+vergleichsweise energieeffizienten SBCs in Kombination mit dem cloudbasierten kognitiven
+Operator, ist der DAEbot energieeffizient und kann trotzdem auf ausreichend
+Rechenkapazität zurückgreifen. Die Umsetzung enthält u. a. die Entwicklung einer Toolbox
+zur modellbasierten Entwicklung, die Erweiterung des CAN-Busses und die Einbindung der
+Cloud. Mittels eines im Rahmen dieser Arbeit entwickelten Analyse-Tools namens pulseAT
+wird die Systemauslastung aller Rechner des verteilten Systems überwacht, an zentraler
+Stelle gesammelt und analysiert. Hierbei wird u. a. die Antwortzeit der einzelnen Rechner,
+sowie die Einhaltung der Echtzeit überprüft. Dies erhöht die Zuverlässigkeit des mobilen
+Roboters.&lt;br /&gt;&lt;br /&gt;
+
+Die Evaluation des konzeptionellen Modells und die experimentelle Realisierung in Form
+des DAEbots zeigen, dass sowohl die Realisierung eines verteilten Systems, als auch die
+OCM Struktur und die Einbindung der Cloud für mobile Roboter sinnvoll sind. Zudem
+ist ein experimentelles Framework für verteilte Robotiksysteme für zukünftige Projekte
+entstanden.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29597069</identifier>
+                    <identifier type="doi">10.4119/unibi/2959706</identifier>
+                    <identifier type="sys">HT021176456</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959706</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959706">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959706/2959707/Dissertation_Uwe_Jahn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959706" DMDID="DMD2959706">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959706"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

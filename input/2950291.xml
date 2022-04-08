@@ -1,0 +1,298 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2950291</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Hötte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">158344877</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8633-4225</description></name>
+<name type="personal">
+  <namePart type="given">François</namePart>
+  <namePart type="family">Lafond</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Anton</namePart>
+  <namePart type="family">Pichler</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This data publication offers updated data about low-carbon energy technology (LCET) patents and citations links to the scientific literature. Compared to a [previous version](https://doi.org/10.4119/unibi/2941555), it also contains data on biofuels and fuels from waste technologies. The updated version also contains the code (R-scripts) that have been used to (1) compile the data and (2) to reproduce the statistical analysis including figures and tables presented in the final paper Hötte, Pichler, Lafond (2021): "The rise of science in low-carbon energy technologies", RSER. DOI: [10.1016/j.rser.2020.110654](10.1016/j.rser.2020.110654). 
+&lt;br /&gt;&lt;br /&gt;
+This data publication contains different data sets (in .RData and (long-term archivable) .tsv format). Further information about each data set is provided in more detail below. 
+
+ - "all_papers.RData" : 
+Data on scientific papers from Microsoft Academic Graph (MAG), 3 columns: Paper ID, Paper year, cited (binary 0-1, indicates whether the paper is cited by a patent).        
+              
+ - "all_patents.RData" : 
+Data on USPTO utility patents, 6 columns: Patent number, Patent year (grant year), CPC class, Patent date, Patent title, citing_to_science (binary 0-1, indicates whether the patent is citing to science). 
+
+ - "LCET_patents.RData" : 
+Subset of LCET patents, 6 columns: Patent number, Patent year (grant year), Technology type, CPC class, Patent date, Patent title. 
+               
+ - "LCET_patent_citations.RData" : 
+Citations from LCET patents to other patents, 2 columns: citing, cited (Patent numbers). 
+
+ - "LCET_subset_with_metainfo_final.RData" : 
+Citations from LCET patents to scientific papers from MAG, complemented by meta-information on patents and papers, 18 columns: Patent number, Paper ID, Patent year, Paper year, Technology type, WoS field, Patent title, Paper title, DOI, Confidence Score, Citation type, Reference type, Journal/ Conf. name, Journal ID, Conference ID, CPC class, Patent date, US patent.     
+
+- "patent:citations.RData": 
+Patent citations among all patents (not only LCET), 2 columns: citing, cited (Patent numbers). 
+&lt;br /&gt;&lt;br /&gt;
+
+
+Moreover, this data publication contains a folder "code" with 2 subfolders: 
+
+- "R_code_create_data" contains the R-scripts used to create the data sample. 
+
+- "R_code_plots_and_figures" contains all R-scripts used to make the statistical analyses presented in the text (including figures and tables). 
+&lt;br /&gt;
+Please check the read-me documents in the code folder for further detail.  
+
+
+
+### License and terms of use ### 
+
+This data is licensed under the CC BY 4.0 license. See: https://creativecommons.org/licenses/by/4.0/legalcode
+Please find the full license text below. 
+&lt;br /&gt;&lt;br /&gt;
+If you want to use the data, do not forget to give appropriate credit by citing this article: 
+&lt;br /&gt;
+Kerstin Hötte, Anton Pichler, François Lafond,
+The rise of science in low-carbon energy technologies,
+Renewable and Sustainable Energy Reviews, Volume 139, 2021. https://doi.org/10.1016/j.rser.2020.110654
+
+
+
+### LCET definition and concepts ###
+
+LCET are defined by Cooperative Patent Classification (CPC) codes. CPC offers "tags" that are assigned to patents that are useful for the adaptation and mitigation of climate chagen. 
+LCET are identified by YO2E codes, i.e. that are assigned to technologies that contribute to the "REDUCTION OF GREENHOUSE GAS [GHG] EMISSIONS, RELATED TO ENERGY GENERATION, TRANSMISSION OR DISTRIBUTION". 
+Only the subset of Y02E01 ("Energy generation through renewable energy sources"), Y02E03 ("Energy generation of nuclear origin") and Y02E5 ("Technologies for the production of fuel of non-fossil origin") technologies are used. 
+&lt;br /&gt;
+10 different LCET are distinguished: Solar PV, Wind, Solar thermal, Ocean power, Hydroelectric, Geothermal, Biofuels, Fuels from waste, Nuclear fission and Nuclear fusion. 
+&lt;br /&gt;&lt;br /&gt;
+More information about the Y02-tags can be found in: 
+Veefkind, Victor, et al. "A new EPO classification scheme for climate change mitigation technologies." World Patent Information 34.2 (2012): 106-111.
+DOI: [https://doi.org/10.1016/j.wpi.2011.12.004](https://doi.org/10.1016/j.wpi.2011.12.004)
+
+
+
+
+
+### Data sources and compilation ###
+
+The data was generated by the merge of different data sets.
+1.) Patent data from USPTO was downloaded here: https://bulkdata.uspto.gov/ 
+2.) Complementary data on grant year and patent title was taken from: https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data
+3.) Citations to science come from the Reliance on Science (RoS) data set https://zenodo.org/record/3685972 (v23, Feb. 24, 2020)
+DOI: 10.5281/zenodo.3685972
+
+The directory ("code") offers the R-scripts that were used to process MAG data and to link it to patent data. The header of the R-scripts offer additional technical information about the subsetting procedures and data retrieval.  
+
+For more information about the patent data, see: 
+Pichler, A., Lafond, F. &amp; J, F. D. (2020), Technological interdependencies predict innovation dynamics, Working paper pp. 1–33. URL: [https://arxiv.org/abs/2003.00580](https://arxiv.org/abs/2003.00580)
+
+For more information about MAG data, see: 
+Marx, Matt, and Aaron Fuegi. "Reliance on science: Worldwide front‐page patent citations to scientific articles." Strategic Management Journal 41.9 (2020): 1572-1594. DOI: [https://doi.org/10.1002/smj.3145](https://doi.org/10.1002/smj.3145)
+
+ Marx, Matt and Fuegi, Aaron, Reliance on Science: Worldwide Front-Page Patent Citations to Scientific Articles. Boston University Questrom School of Business Research Paper No. 3331686. DOI: [http://dx.doi.org/10.2139/ssrn.3331686 
+](http://dx.doi.org/10.2139/ssrn.3331686 )
+
+
+
+
+
+### Detailed information about the data ### 
+
+
+ - "all_papers.RData" : 
+Data on scientific papers from Microsoft Academic Graph (MAG), 3 columns: 
+Paper ID: Unique paper-identifier used by MAG
+Paper year: Year of publication 
+cited: binary 0-1, indicates whether the paper is cited by a patent, citation links are made in the text body and front-page of the patent, and added by examiners and applicants. 
+  
+            
+ - "all_patents.RData" : 
+Data on USPTO utility patents, 6 columns: 
+Patent number: Number given by USPTO. Can be used for manual patent search in http://patft.uspto.gov/netahtml/PTO/srchnum.htm (numeric)
+Patent year: Year when the patent was granted (numeric)
+CPC class: Detailed 8-digit CPC code (numeric)
+Patent date: Exact date of patent granting (numeric)
+Patent title: Short title (character)
+citing_to_science: binary 0-1, indicates whether the patent is citing to science as identified by citation links in RoS. (numeric)
+
+
+ - "LCET_patents.RData" : 
+Subset of LCET patents, 6 columns: 
+Patent number: (numeric)
+Patent year: (numeric)
+Technology type: Short code used to tag 10 different types of LCET (pv, (nuclear) fission, (solar) thermal, (nuclear) fusion, wind, geo(termal), sea (ocean power), hydro, biofuels, (fuels from) waste) (character)
+CPC class: Detailed 8-digit CPC code (character)
+Patent date: (numeric)
+Patent title: (numeric)
+
+               
+ - "LCET_patent_citations.RData" : 
+Citations from LCET patents to other patents, 2 columns: 
+citing: Number of citing patent (numeric)
+cited: Number of cited patent (numeric)
+
+
+ - "LCET_subset_with_metainfo_final.RData" : 
+Citations from LCET patents to scientific papers from MAG, complemented by meta-information on patents and papers, 18 columns: 
+Patent number: see above (numeric)
+Paper ID: see above (numeric)
+Patent year: see above (numeric)
+Paper year: see above (numeric)
+Technology type: see above (character)
+WoS field: Web of Science field of research, WoS fields were probabilistically assigned to papers and are used as given by RoS (character)
+Patent title: see above (character)
+Paper title: Title of scientific article (character)
+DOI: Paper DOI if available (character) 
+Confidence Score: Reliability score of citation link (numeric). Links were probabilistically assigned. See Marx and Fuegi 2019 for further detail. 
+Citation type: Indicates whether citation made in text body of patent document or its front page (character)
+Reference type: Examiner or applicant added citation link (or unknown). (character)
+Journal/ Conf. name: Name of journal or conference proceeding where the cited paper was published (character)
+Journal ID: Journal identifier in MAG (numeric)
+Conference ID: Conference identifier in MAG (numeric)
+CPC class: see above (character) 
+Patent date: see above (numeric) 
+US patent: binary US-patent indicator as provided by RoS (numeric)   
+
+- "patent:citations.RData": 
+Patent citations among all patents (not only LCET), 2 columns: 
+citing: Number of citing patent (numeric)
+cited: Number of cited patent (numeric)
+
+
+&lt;br /&gt;&lt;br /&gt;
+**Note:** The citation links were probabilistically retrieved.
+&lt;br /&gt;
+During the analysis, we identified manually some false-positives are removed them from the "LCET_subset_with_metainfo_final.RData" data set. The list is available, too: "list_of_false_positives.tsv" 
+We do not claim to have a perfect coverage, but expect a precision of &gt;98% as described by Marx and Fuegi 2019. 
+
+
+
+### Statistics about the data ### 
+
+Full data set: 
+- #papers in MAG: 179,083,029
+- #all patents: 10,160,667
+- #citing patents: 2,058,233
+- #cited papers: 4,404,088
+- #citation links from patents to papers: 34,959,193 
+
+
+LCET subset: 
+- #LCET patents: 65,305
+- #citing LCET patents: 22,017
+- #cited papers: 103,645
+- #citation links from LCET patents to papers: 396,504
+
+
+Meta-information:
+&lt;br /&gt;
+Papers: 
+- Publication year, 251 Web-of-Science (WoS) categories, Journal/ conference proceedings name, DOI, Paper title
+
+Patents: 
+- Grant year, &gt;240,000 hierarchical CPC classes, 10 LCET types
+
+Citation links: 
+- Reference type, citation type, reliability score
+
+
+
+
+&lt;br /&gt;&lt;br /&gt;
+If you have further questions about the data or suggestions, please contact: **kerstin.hotte@oxfordmartin.ox.ac.uk**
+
+
+### Acknowledgements ### 
+The authors want to thank the Center for Research Data Management of Bielefeld University and in particular Cord Wiljes for excellent support. 
+
+
+
+### License issues ### 
+
+Terms of use of the source data: 
+
+- Reliance on Science data [https://zenodo.org/record/3685972](https://zenodo.org/record/3685972), Open Data Commons Attribution License (ODC-By) v1.0, https://opendatacommons.org/licenses/by/1.0/
+	
+- "Google Patents Public Data” by IFI CLAIMS Patent Services and Google (https://cloud.google.com/blog/products/gcp/google-patents-public-datasets-connecting-public-paid-and-private-patent-data), Creative Commons Attribution 4.0 International License (CC BY 4.0), https://console.cloud.google.com/marketplace/details/google_patents_public_datasets/google-patents-public-data
+	
+- USPTO patent data (https://bulkdata.uspto.gov/), see: https://bulkdata.uspto.gov/data/2020TermsConditions.docx
+
+
+
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="LCET_knowledge_v2.zip">https://pub.uni-bielefeld.de/download/2950291/2950425/LCET_knowledge_v2.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+
+<subject><topic>Low-carbon energy</topic><topic>Patents</topic><topic>Citation networks</topic><topic>Non-patent literature</topic><topic>Science-technology relationship</topic><topic>History of technology</topic><topic>Reliance on science</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2950291</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2941555</url>     <url>https://pub.uni-bielefeld.de/record/2950288</url>     <url>https://pub.uni-bielefeld.de/record/2958327</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>K.  Hötte, F.  Lafond, and A.  Pichler, &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hötte K, Lafond F, Pichler A (2021) &lt;br /&gt;&lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hötte, K., Lafond, F., &amp;amp; Pichler, A., 2021. &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K., Lafond, F., &amp;amp; Pichler, A. (2021).  &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2950291&lt;/div&gt;</apa_indent>
+<wels>Hötte, K.; Lafond, F.; Pichler, A. (2021): Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version). Bielefeld University.</wels>
+<ieee> K. Hötte, F. Lafond, and A. Pichler, &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;, Bielefeld University, 2021.</ieee>
+<apa>Hötte, K., Lafond, F., &amp;amp; Pichler, A. (2021).  &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2950291</apa>
+<frontiers>Hötte, K., Lafond, F., and Pichler, A. (2021). Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version). Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K., Lafond, F. &amp;amp; Pichler, A. (2021). &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2950291.&lt;/div&gt;</dgps>
+<ama>Hötte K, Lafond F, Pichler A. &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University; 2021.</ama>
+<default>Hötte K, Lafond F, Pichler A (2021) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hötte, Kerstin, Lafond, François, and Pichler, Anton. &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University, 2021.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, Kerstin, Lafond, François, and Pichler, Anton. 2021. &lt;em&gt;Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version)&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hötte, K., Lafond, F., Pichler, A.: Data Publication: The scientific knowledge base of low carbon energy technologies  (updated and extended version). Bielefeld University (2021).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2950291</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-01-18T20:48:37Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-16T10:46:54Z</recordChangeDate>
+</recordInfo>
+</mods>

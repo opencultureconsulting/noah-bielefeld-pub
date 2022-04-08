@@ -1,0 +1,132 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2907622</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:004</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Viktor</namePart>
+  <namePart type="family">Losing</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">63069292</identifier></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+<name type="personal">
+  <namePart type="given">Heiko</namePart>
+  <namePart type="family">Wersing</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">54878447</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>International Conference On Data Mining</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">Data Mining in non-stationary data streams is gaining more attention
+recently, especially in the context of Internet of Things and Big Data.
+It is a highly challenging task, since the fundamentally different types
+of possibly occurring drift undermine classical assumptions such as
+data independence or stationary distributions. 
+Available algorithms are either struggling with certain forms of drift or require 
+a priori knowledge in terms of a task specific setting. 
+We propose the Self Adjusting Memory (SAM) model for the k Nearest Neighbor (kNN) algorithm
+since kNN constitutes a proven classifier within the streaming setting.
+SAM-kNN can deal with heterogeneous concept drift,
+i.e different drift types and rates, using biologically inspired
+memory models and their coordination. It can be easily
+applied in practice since an optimization of the meta parameters is not necessary.
+The basic idea is to construct dedicated models for the
+current and former concepts and apply them according to
+the demands of the given situation. 
+An extensive evaluation on various benchmarks, consisting of artificial streams
+with known drift characteristics as well as real world datasets is conducted.
+Thereby, we explicitly add new benchmarks enabling a precise performance evaluation 
+on multiple types of drift. The highly competitive results throughout all 
+experiments underline the robustness of SAM-kNN as well as its capability
+to handle heterogeneous concept drift.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Drift.pdf">https://pub.uni-bielefeld.de/download/2907622/2907623/Drift.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>IEEE</publisher><dateIssued encoding="w3cdtf">2016</dateIssued><place><placeTerm type="text">Barcelona</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>data mining</topic><topic>optimisation</topic><topic>pattern classification</topic><topic>Big Data</topic><topic>Internet of Things</topic><topic>KNN classifier</topic><topic>SAM-kNN robustness</topic><topic>data mining</topic><topic>k nearest neighbor algorithm</topic><topic>metaparameter optimization</topic><topic>nonstationary data streams</topic><topic>performance evaluation</topic><topic>self adjusting memory model</topic><topic>Adaptation models</topic><topic>Benchmark testing</topic><topic>Biological system modeling</topic><topic>Data mining</topic><topic>Heuristic algorithms</topic><topic>Prediction algorithms</topic><topic>Predictive models</topic><topic>Data streams</topic><topic>concept drift</topic><topic>data mining</topic><topic>kNN</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>2016 IEEE 16th International Conference on Data Mining (ICDM)</title></titleInfo>
+  <identifier type="isbn">978-1-5090-5473-2</identifier><identifier type="urn">urn:nbn:de:0070-pub-29076227</identifier><identifier type="doi">10.1109/ICDM.2016.0040</identifier>
+<part><extent unit="pages">291-300</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Losing, V., Hammer, B., Wersing, H.: KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. 2016 IEEE 16th International Conference on Data Mining (ICDM). p. 291-300. IEEE, Piscataway, NJ (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Losing, Viktor, Hammer, Barbara, and Wersing, Heiko. 2016. “KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift”. In &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;, 291-300. Piscataway, NJ: IEEE.&lt;/div&gt;</chicago>
+<mla>Losing, Viktor, Hammer, Barbara, and Wersing, Heiko. “KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift”. &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;. Piscataway, NJ: IEEE, 2016. 291-300.</mla>
+<default>Losing V, Hammer B, Wersing H (2016)  &lt;br /&gt;In:  2016 IEEE 16th International Conference on Data Mining (ICDM). Piscataway, NJ: IEEE:  291-300.</default>
+<wels>Losing, V.; Hammer, B.; Wersing, H. (2016): KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. In: 2016 IEEE 16th International Conference on Data Mining (ICDM). Piscataway, NJ: IEEE.  S. 291-300.</wels>
+<bio1>Losing V, Hammer B, Wersing H (2016) &lt;br /&gt;KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. &lt;br /&gt;In:  2016 IEEE 16th International Conference on Data Mining (ICDM).  Piscataway, NJ: IEEE:  291-300.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Losing, V., Hammer, B., &amp;amp; Wersing, H. (2016). KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;, 291-300. Piscataway, NJ: IEEE. doi:10.1109/ICDM.2016.0040&lt;/div&gt;</apa_indent>
+<harvard1>Losing, V., Hammer, B., &amp;amp; Wersing, H., 2016. KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. In &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;.  Piscataway, NJ: IEEE, pp. 291-300.</harvard1>
+<angewandte-chemie>V.  Losing, B.  Hammer, and H.  Wersing, in &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;, Ieee, Piscataway, NJ, &lt;strong&gt;2016&lt;/strong&gt;, p. 291-300.</angewandte-chemie>
+<ama>Losing V, Hammer B, Wersing H. KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. In:  &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;. Piscataway, NJ: IEEE;  2016: 291-300.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Losing, V., Hammer, B. &amp;amp; Wersing, H. (2016). KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt; (S. 291-300). Gehalten auf der International Conference On Data Mining, Piscataway, NJ: IEEE. doi:10.1109/ICDM.2016.0040.&lt;/div&gt;</dgps>
+<frontiers>Losing, V., Hammer, B., and Wersing, H. (2016). “KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift” in &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt; (Piscataway, NJ: IEEE), 291-300.</frontiers>
+<apa>Losing, V., Hammer, B., &amp;amp; Wersing, H. (2016). KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift. &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;, 291-300. Piscataway, NJ: IEEE. doi:10.1109/ICDM.2016.0040</apa>
+<ieee> V. Losing, B. Hammer, and H. Wersing, “KNN Classifier with Self Adjusting Memory for Heterogeneous Concept Drift”, &lt;em&gt;2016 IEEE 16th International Conference on Data Mining (ICDM)&lt;/em&gt;,  Piscataway, NJ: IEEE, 2016,  pp.291-300.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2907622</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-12-20T12:43:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:18Z</recordChangeDate>
+</recordInfo>
+</mods>

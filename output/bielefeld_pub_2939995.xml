@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2939995">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Proposal for a new model of transformative agreements: A smooth transition from subscriptions to APCs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nina</namePart>
+                        <namePart type="family">Schönfelder</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-5294-5354</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A new transformative model is needed because existing models as Publish &amp; Read and Read &amp; Publish do not best serve the needs of libraries and publishers in transforming their acquisition budgets and revenues, respectively, from subscriptions to APCs. Particularly the Publish &amp; Read model has unfavorable features regarding coordination costs, disruptive workflow adjustments, and timing. This discussion paper assesses the P&amp;R and the R&amp;P transformative models and proposes an alternative model, which is responsive to the progress in open-access transition.</abstract>
+                    <subject>
+                        <topic>scientific publishing</topic>
+                        <topic>open access</topic>
+                        <topic>transformative agreements</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29399951</identifier>
+                    <identifier type="doi">10.4119/unibi/2939995</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2939995</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE0_bielefeld_pub_2939995">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939995/2940353/Smooth_transition_model.html" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2939995">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939995/2940362/Smooth_transition_model.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE2_bielefeld_pub_2939995">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939995/2940363/Smooth_transition_model.Rmd" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE3_bielefeld_pub_2939995">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939995/2940511/presentation_smooth_transition_model.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.presentationml.presentation" ID="FILE4_bielefeld_pub_2939995">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939995/2940512/presentation_smooth_transition_model.pptx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2939995" DMDID="DMD2939995">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2939995"/>
+            <mets:div TYPE="part" ID="PART1_2939995" LABEL="Smooth_transition_model.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2939995"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2939995" LABEL="Smooth_transition_model.Rmd">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2939995"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2939995" LABEL="presentation_smooth_transition_model.pdf">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2939995"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2939995" LABEL="presentation_smooth_transition_model.pptx">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2939995"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

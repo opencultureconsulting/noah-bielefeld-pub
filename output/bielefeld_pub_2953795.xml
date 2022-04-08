@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2953795">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reproducing the analysis of an experiment in sequential visual processing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Rebecca M.</namePart>
+                        <namePart type="family">Foerster</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4632-1382</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Werner X.</namePart>
+                        <namePart type="family">Schneider</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This chapter describes a case study in reproducing work conducted by the neuro-cognitive psychology research group at Bielefeld University in the area of sequential visual processing. In particular, we describe our effort to independently reproduce the results obtained via the experiment conducted in the paper ‘Expectation violations in sensorimotor sequences: shifting from LTM-based attentional selection to visual search’ [1]. The research of the group focuses on the area of visual attention, eye movements, working memory, transsaccadic learning, and sensorimotor learning. The group works on understanding visual processing in humans via controlled behavioral experiments in laboratory environments alongside real-world studies. The main result of the article mentioned above was the finding that expectation violations in a well-learned sensorimotor sequence in humans caused a regression from LTM-based attentional selection to visual search. We describe in this paper our efforts to independently reproduce these results. We conclude that this case is a case of limited analytical reproducibility in that results are reproducible by relying on SPSS as in the original data analysis or by adapting analysis codes to open-source software packages such as R. The data and scripts for this project are available at https: //gitlab.ub.uni-bielefeld.de/conquaire/neurocognitive_psychology.</abstract>
+                    <subject>
+                        <topic>attention</topic>
+                        <topic>eye movements</topic>
+                        <topic>long-term memory (LTM)</topic>
+                        <topic>visual search</topic>
+                        <topic>sensorimotor action</topic>
+                        <topic>expectation discrepancy</topic>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <identifier type="isbn">978-3-943363-06-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29537954</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2953795</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2953795">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953795/2953806/conquaire-book+_chapter-9.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2953795" DMDID="DMD2953795">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2953795"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2921419</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:410</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Learning to Interpret and Apply Multimodal Descriptions</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Ting</namePart>
+  <namePart type="family">Han</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">60454102</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4908-1337</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">David</namePart>
+  
+  
+  <namePart type="family">Schlangen</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Petra</namePart>
+  
+  
+  <namePart type="family">Wagner</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10019</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Enabling computers to understand natural human communication is a goal researchers have been long aspired to in artificial intelligence. Since the concept demonstration of “Put-That- There” in 1980s, significant achievements have been made in developing multimodal interfaces that can process human communication such as speech, eye gaze, facial emotion, co-verbal hand gestures and pen input. State-of-the-art multimodal interfaces are able to process pointing gestures, symbolic gestures with conventional meanings, as well as gesture commands with pre-defined meanings (e.g., circling for “select”). However, in natural communication, co- verbal gestures/pen input rarely convey meanings via conventions or pre-defined rules, but embody meanings relatable to the accompanying speech.
+For example, in route given tasks, people often describe landmarks verbally (e.g., two buildings), while demonstrating the relative position with two hands facing each other in the space. Interestingly, when the same gesture is accompanied by the utterance a ball, it may indicate the size of the ball. Hence, the interpretation of such co-verbal hand gestures largely depends on the accompanied verbal content. Similarly, when describing objects, while verbal utterances are most convenient for describing colour and category (e.g., a brown elephant), hand-drawn sketches are often deployed to convey iconic information such as the exact shape of the elephant’s trunk, which is typically difficult to encode in language.
+This dissertation concerns the task of learning to interpret multimodal descriptions com- posed of verbal utterances and hand gestures/sketches, and apply corresponding interpretations to tasks such as image retrieval. Specifically, we aim to address following research questions: 1) For co-verbal gestures that embody meanings relatable to accompanied verbal content, how can we use natural language information to interpret the semantics of such co-verbal gestures, e.g., does a gesture indicate relative position or size? 2) As an integral system of commu- nication, speech and gestures not only bear close semantic relations, but also close temporal relations. To what degree and on which dimensions can hand gestures benefit the task of inter- preting multimodal descriptions? 3) While it’s obvious that iconic information in hand-drawn sketches enriches verbal content in object descriptions, how to model the joint contributions of such multimodal descriptions and to what degree can verbal descriptions compensate reduced iconic details in hand-drawn sketches?
+To address the above questions, we first introduce three multimodal description corpora: a spatial description corpus composed of natural language and placing gestures (also referred as abstract deictics), a multimodal object description corpus composed of natural language and hand-drawn sketches, and an existing corpus - the Bielefeld Speech and Gesture Alignment Corpus (SAGA).
+3
+4
+We frame the problem of learning gesture semantics as a multi-label classification task us- ing natural language information and hand gesture features. We conducted an experiment with the SAGA corpus. The results show that natural language is informative for the interpretation of hand gestures.
+Further more, we describe a system that models the interpretation and application of spatial descriptions and explored three variants of representation methods of the verbal content. When representing the verbal content in the descriptions with a set of automatically learned symbols, the system’s performance is on par with representations with manually defined symbols (e.g., pre-defined object properties). We show that abstract deictic gestures not only lead to better understanding of spatial descriptions, but also result in earlier correct decisions of the system, which can be used to trigger immediate reactions in dialogue systems.
+Finally, we investigate the interplay of semantics between symbolic (natural language) and iconic (sketches) modes in multimodal object descriptions, where natural language and sketches jointly contribute to the communications. We model the meaning of natural language and sketches two existing models and combine the meanings from both modalities with a late fusion approach. The results show that even adding reduced sketches (30% of full sketches) can help in the retrieval task. Moreover, in current setup, natural language descriptions can compensate around 30% of reduced sketches.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="TH_thesis.pdf">https://pub.uni-bielefeld.de/download/2921419/2921420/TH_thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29214197</identifier>
+<part><extent unit="pages">206</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-06-12</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Han, T.: Learning to Interpret and Apply Multimodal Descriptions. Universität Bielefeld, Bielefeld (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Han, Ting. 2018. &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Han, Ting. &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<default>Han T (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<wels>Han, T. (2018): Learning to Interpret and Apply Multimodal Descriptions. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Han, T., 2018. &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Han T (2018) &lt;br /&gt;&lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Han, T. (2018).  &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>T.  Han, &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<ama>Han T. &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<frontiers>Han, T. (2018). Learning to Interpret and Apply Multimodal Descriptions. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Han, T. (2018). &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<apa>Han, T. (2018).  &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> T. Han, &lt;em&gt;Learning to Interpret and Apply Multimodal Descriptions&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2921419</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-07-24T11:58:56Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T14:50:39Z</recordChangeDate>
+</recordInfo>
+</mods>

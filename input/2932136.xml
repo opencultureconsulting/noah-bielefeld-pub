@@ -1,0 +1,118 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2932136</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Johannes</namePart>
+  <namePart type="family">Wienke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">20991629</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-4517-5368</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Sebastian</namePart>
+  
+  
+  <namePart type="family">Wrede</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Davide</namePart>
+  
+  
+  <namePart type="family">Brugali</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">5408013</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Modern robots have evolved to complex hardware and software systems. As such, their construction and maintenance have become more challenging and the potential for failures has increased. These failures and the resulting reduction of dependability have a considerable effect on the acceptance and usefulness of robotics systems in their intended applications. Even though different software engineering techniques have been developed to control dependability-critical aspects of such complex systems, the state of the art for experimental robotics and intelligent systems is that – if at all – functional properties are systematically controlled though techniques such as unit testing and simulation runs. Yet, system dependability can also be impaired if nonfunctional properties behave unexpectedly. This thesis focuses on the utilization of system resources such as CPU, memory, or network bandwidth as an important nonfunctional aspect, which has not received much systematic treatment in robotics and intelligent systems so far. Unexpected utilizations of system resources can have effects ranging from merely wasting energy and reducing a robot’s operational time to a degradation in its function due to processing delays. Even safety-critical situations can arise, for instance, if a motion planner or obstacle avoidance component cannot react before a collision. Therefore, the systematic analysis of a system’s resource utilization, a guidance of developers regarding these aspects, and testing and fault detection for unexpected resource utilization patterns are an effective contribution of this thesis towards more reliable robots.
+
+In this work I describe a concept for integrating resource awareness into component-based robotics and intelligent systems. This concept specifically addresses the often loosely controlled development process predominant in experimental research. As such, the presented methods have to be applicable without a high overhead or large changes to the evolved development methods and system structures. Within this concept, which I termed framework-level resource awareness, I have explored methods in two directions: On the one hand, a set of tools helps developers to understand and systematically control the resource utilization while developing and testing systems. On the other hand, I have applied machine learning techniques to enable autonomous reactions at runtime based on predictions about the resource utilization of system components. With the two views, this work explores novel directions for implementing resource awareness in research systems and the conducted evaluations underline the suitability of the framework-level resource awareness concept.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis.pdf">https://pub.uni-bielefeld.de/download/2932136/2932137/thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29321366</identifier><identifier type="doi">10.4119/unibi/2932136</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-09-13</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Wienke, J.: Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources. Universität Bielefeld, Bielefeld (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wienke, Johannes. 2018. &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Wienke, Johannes. &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<default>Wienke J (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<wels>Wienke, J. (2018): Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Wienke, J., 2018. &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wienke, J. (2018).  &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2932136" target="_blank"&gt;https://doi.org/10.4119/unibi/2932136&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Wienke J (2018) &lt;br /&gt;&lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<angewandte-chemie>J.  Wienke, &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<ama>Wienke J. &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wienke, J. (2018). &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2932136.&lt;/div&gt;</dgps>
+<frontiers>Wienke, J. (2018). Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Wienke, J. (2018).  &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2932136" target="_blank"&gt;https://doi.org/10.4119/unibi/2932136&lt;/a&gt;</apa>
+<ieee> J. Wienke, &lt;em&gt;Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2932136</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-11-12T14:03:05Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-19T11:31:44Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2934897">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ultra-wideband Based Indoor Localization of Mobile Nodes in ToA and TDoA Configurations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Reza</namePart>
+                        <namePart type="family">Zandian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulf</namePart>
+                        <namePart type="family">Witkowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-12-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis discusses the utilization of ultra-wideband (UWB) technology in indoor localization scenarios and proposes system setup and evaluates different localization algorithms in order to improve the localization accuracy and stability of such systems in non-ideal conditions of the indoor environment.&lt;br /&gt;
+Recent developments and advances of technology in the areas of ubiquitous Internet, robotics and internet of things (IoT) have resulted in emerging new application areas in daily life in which localization systems are vital. The significant demand for a robust and accurate localization system that is applicable in indoor areas lacking satellites link, can be sensed. The UWB technology offers accurate localization systems with an accuracy of below 10 cm and covering the range of up to a few hundred meters thanks to their dedicated large bandwidth, modulation technique and signal power.&lt;br /&gt;
+In this thesis, the technology behind the UWB systems is discussed in detail. In terms of localization topologies, different scenarios with the focus on time-based methods are introduced. The main focus of this thesis is on the differential time of arrival localization systems (TDoA) with unilateral constellation that is suitable for robotic localization and navigation applications.&lt;br /&gt;
+A new approach for synchronization of TDoA topology is proposed and influence of clock inaccuracies in such systems are thoroughly evaluated. For localization engine, two groups of static and dynamic iterative algorithms are introduced. Among the possible dynamic methods, extended Kalman filter (EKF), H∞ and unscented Kalman filter (UKF) are discussed and meticulously evaluated.&lt;br /&gt;
+In order to tackle the non-line of sight (NLOS) problem of such systems, for detection stage several solutions which are based on parametric machine learning methods are proposed. Furthermore, for mitigation phase two solutions namely adjustment of measurement variance and innovation term are suggested. Practical results prove the efficiency and high reliability of the proposed algorithms with positive NLOS condition detection rate of more than 87%.&lt;br /&gt;
+In practical trials, the localization system is evaluated in indoor and outdoor arenas in both line of sight and non-line of sight conditions. The results show that the proposed detection and mitigation methods can be successfully applied for both small and large-scale arenas with the higher performance of the localization filters in terms of accuracy in large-scale scenarios.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29348972</identifier>
+                    <identifier type="doi">10.4119/unibi/2934897</identifier>
+                    <identifier type="sys">HT020190366</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2934897</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2934897">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934897/2934898/PhD+Thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2934897" DMDID="DMD2934897">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2934897"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

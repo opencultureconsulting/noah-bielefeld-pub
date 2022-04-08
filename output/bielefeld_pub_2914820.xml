@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914820">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ToBI - Team of Bielefeld A Human-Robot Interaction System for RoboCup@Home 2018</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Lier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9251-1075</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Meyer zu Borgsen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0887-5672</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Team of Bielefeld (ToBI) was founded in 2009. The RoboCup team’s activities are embedded in a long-term research agenda towards human-robot interaction with laypersons in regular and smart home environments. The RoboCup@Home competition is an important benchmark and milestone for this goal in terms of robot capabilities as well as the system integration effort. In order to achieve a robust and stable system performance, we apply a systematic approach for reproducible robotic experimentation including automated tests. A second focus of research is the development of reusable robot behaviors and robot skills. By re-usability we mean both, the re-use in different robot tasks as well as the reuse across different platforms. For RoboCup 2018, we plan to enhance this approach for the standard platform Pepper which comes with certain requirements and limitations, like its own runtime and development ecosystem, limited computing resources onboard, or a limited range of sensor devices. We further introduce a simulation environment for the Pepper robot that is based on MORSE and allows to define additional artificial agents as human-like interaction partners. This is one of the key features for simulating complete RoboCup@Home tasks. In this paper, we will present a generic approach to these issues. System descriptions as well as build and deployment procedures are modeled in the Cognitive Interaction Toolkit. The overall framework inherently supports the idea of open research and offers direct access to reusable components and reproducible systems via a web-based catalog</abstract>
+                    <subject>
+                        <topic>Robotics</topic>
+                        <topic>RoboCup</topic>
+                        <topic>Pepper Robot</topic>
+                        <topic>Central Lab Facilities</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29148204</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914820</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914820">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914820/2914821/Team_ToBI_TDP-2018.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914820" DMDID="DMD2914820">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914820"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

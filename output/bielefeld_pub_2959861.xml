@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959861">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Relevance learning for redundant features</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Lukas</namePart>
+                        <namePart type="family">Pfannschmidt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5521-0326</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2021-08-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Feature selection is a widely used strategy in machine learning
+for the reduction of feature sets to their relevant essence to
+improve predictions and performance. It is also employed for
+knowledge discovery in applied disciplines such as biology and
+medicine to find potentially causal factors. But machine learning
+models often do not represent a unique solution to a given problem,
+especially in high dimensional settings where redundant
+factors are likely and spurious correlations exist.&lt;br /&gt;&lt;br /&gt;
+Basing decisions about causal elements on feature selection is
+therefore inaccurate or wrong when not considering the presence
+of redundant but also relevant features. Most existing selection
+algorithms are specifically removing redundancies and not suitable
+for the task of all-relevant feature selection, or they require
+careful parametrization and are hard to interpret, which makes
+them difficult to use.&lt;br /&gt;&lt;br /&gt;
+This thesis is focused on feature selection methods for the
+analytical use case to facilitate understanding of potential causal
+factors, for linear and non-linear problems. We propose several
+new algorithms and methods for all-relevant feature selection
+to improve knowledge discovery, enabled by statistical methods
+to improve the accuracy of existing solutions and allow the differentiation
+between different types of relevance. Furthermore,
+we offer a new heuristic to automatically group related features
+together, and we analyse the definition of relevance in the context
+of privileged information, where data is only available in
+training.&lt;br /&gt;&lt;br /&gt;
+We also introduce software implementations, which were
+specifically designed to be modular, efficient and able to parallelize
+for applications in high dimensional problems. The methods
+and implementations were evaluated on a wide range of
+synthetic and real datasets to show their performance in comparison
+with existing algorithms.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29598614</identifier>
+                    <identifier type="doi">10.4119/unibi/2959861</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959861</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959861">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959861/2959862/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959861" DMDID="DMD2959861">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959861"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

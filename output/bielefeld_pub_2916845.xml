@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2916845">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computational exploration of cis-regulatory modules in rhythmic expression data using the “Exploration of Distinctive CREs and CRMs” (EDCC) and “CRM Network Generator” (CNG) programs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Pavlos Stephanos</namePart>
+                        <namePart type="family">Bekiaris</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tobias</namePart>
+                        <namePart type="family">Tekath</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dorothee</namePart>
+                        <namePart type="family">Staiger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Selahattin</namePart>
+                        <namePart type="family">Danisman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Understanding the effect of cis-regulatory elements (CRE) and clusters of CREs, which are called cis-regulatory modules (CRM), in eukaryotic gene expression is a challenge of computational biology. We developed two programs that allow simple, fast and reliable analysis of candidate CREs and CRMs that may affect specific gene expression and that determine positional features between individual CREs within a CRM. The first program, “Exploration of Distinctive CREs and CRMs” (EDCC), correlates candidate CREs and CRMs with specific gene expression patterns. For pairs of CREs, EDCC also determines positional preferences of the single CREs in relation to each other and to the transcriptional start site. The second program, “CRM Network Generator” (CNG), prioritizes these positional preferences using a neural network and thus allows unbiased rating of the positional preferences that were determined by EDCC. We tested these programs with data from a microarray study of circadian gene expression in Arabidopsis thaliana. Analyzing more than 1.5 million pairwise CRE combinations, we found 22 candidate combinations, of which several contained known clock promoter elements together with elements that had not been identified as relevant to circadian gene expression before. CNG analysis further identified positional preferences of these CRE pairs, hinting at positional information that may be relevant for circadian gene expression. Future wet lab experiments will have to determine which of these combinations confer daytime specific circadian gene expression.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLOS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>13</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="MEDLINE">29298348</identifier>
+                    <identifier type="ISI">000419185200045</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29168453</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0190421</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2916845</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2916845">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2916845/2916846/journal.pone.0190421.danisman.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2916845" DMDID="DMD2916845">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2916845"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,198 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2707114</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Hand Postures for Sonification Control"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Claudia</namePart>
+  <namePart type="family">Nölker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Sonification is a rather new technique in human-computer interaction which addresses auditory perception. In contrast to speech interfaces, sonification uses non-verbal sounds to present information. The most common sonification technique is parameter mapping where for each data point a sonic event is generated whose acoustic attributes are determined from data values by a mapping function. For acoustic data exploration, this mapping must be adjusted or manipulated by the user. We propose the use of hand postures as a particularly natural and intuitive means of parameter manipulation for this data exploration task. As a demonstration prototype we developed a hand posture recognition system for gestural controlling of sound. The presented implementation applies artificial neural networks for the identification of continuous hand postures from camera images and uses a real-time sound synthesis engine. In this paper, we present our system and first applications of the gestural control of sounds. Techniques to apply gestures to control sonification are proposed and sound examples are given. 
+
+
+#### S1: Handposture-driven soundscape control
+
+This example is a real-time synthesis of a “soundscape” which has a relaxing effect and can be thought of as playing a simple instrument just by moving the hand. Mapping of finger positions to pitch and amplitude modulation are described in the paper.
+
++ [Sound Example 1](https://pub.uni-bielefeld.de/download/2707114/2707115)
+
+#### S2: Hand postures for articulated voice control
+
+This example illustrates how the hand posture control interface is used to render complex vowel transitions using a mapping of features such as formant frequencies and bandwidths and overall gain as described in the paper.
+
++ [Sound Example 2](https://pub.uni-bielefeld.de/download/2707114/2707131)
+
+
+#### S3: Interactive sonification of parameter mappings
+
+This is a number of sonifications of the iris data set where the finger bendings control different ranges or centers of the mapping interval. In all sonifications the class label is not used. The sounds provide different auditory views to one and the same dataset.
+
++ [Sound Example 3.1](https://pub.uni-bielefeld.de/download/2707114/2707117)
++ [Sound Example 3.2](https://pub.uni-bielefeld.de/download/2707114/2707116)
++ [Sound Example 3.3](https://pub.uni-bielefeld.de/download/2707114/2707119)
++ [Sound Example 3.4](https://pub.uni-bielefeld.de/download/2707114/2707118)
++ [Sound Example 3.5](https://pub.uni-bielefeld.de/download/2707114/2707120)
+
+#### S4: Audible Contrast Explorations 
+
+This set of sonifications of the iris data set play mappings of all 3 classes of the iris data in a sequence, resulting in the perception of audible contrast between classes. The for sound example in turn are different mappings obtained by using the hand posture control interface.
+
++ [Sound Example 4.1](https://pub.uni-bielefeld.de/download/2707114/2707124)
++ [Sound Example 4.2](https://pub.uni-bielefeld.de/download/2707114/2707125)
++ [Sound Example 4.3](https://pub.uni-bielefeld.de/download/2707114/2707126)
++ [Sound Example 4.4](https://pub.uni-bielefeld.de/download/2707114/2707127)</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="amplmod.mp3">https://pub.uni-bielefeld.de/download/2707114/2707115/amplmod.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="voice.mp3">https://pub.uni-bielefeld.de/download/2707114/2707131/voice.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="o1.wav">https://pub.uni-bielefeld.de/download/2707114/2707117/o1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="o2.wav">https://pub.uni-bielefeld.de/download/2707114/2707116/o2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="o3.wav">https://pub.uni-bielefeld.de/download/2707114/2707119/o3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="o4.wav">https://pub.uni-bielefeld.de/download/2707114/2707118/o4.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="o5.wav">https://pub.uni-bielefeld.de/download/2707114/2707120/o5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="oe1.wav">https://pub.uni-bielefeld.de/download/2707114/2707124/oe1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="oe2.wav">https://pub.uni-bielefeld.de/download/2707114/2707125/oe2.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="oe3.wav">https://pub.uni-bielefeld.de/download/2707114/2707126/oe3.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="oe4.wav">https://pub.uni-bielefeld.de/download/2707114/2707127/oe4.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opendatacommons.org/licenses/odbl/summary/index.html</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2001</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2707114</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017386</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hermann, T.; Nölker, C.; Ritter, H. (2001): Supplementary Material for "Hand Postures for Sonification Control". Bielefeld University.</wels>
+<angewandte-chemie>T.  Hermann, C.  Nölker, and H.  Ritter, &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2001&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hermann T, Nölker C, Ritter H (2001) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., Nölker, C., &amp;amp; Ritter, H., 2001. &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Nölker, C., &amp;amp; Ritter, H. (2001).  &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2707114&lt;/div&gt;</apa_indent>
+<frontiers>Hermann, T., Nölker, C., and Ritter, H. (2001). Supplementary Material for "Hand Postures for Sonification Control". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Nölker, C. &amp;amp; Ritter, H. (2001). &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2707114.&lt;/div&gt;</dgps>
+<ama>Hermann T, Nölker C, Ritter H. &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University; 2001.</ama>
+<ieee> T. Hermann, C. Nölker, and H. Ritter, &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;, Bielefeld University, 2001.</ieee>
+<apa>Hermann, T., Nölker, C., &amp;amp; Ritter, H. (2001).  &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2707114</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Nölker, Claudia, and Ritter, Helge. 2001. &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T., Nölker, C., Ritter, H.: Supplementary Material for "Hand Postures for Sonification Control". Bielefeld University (2001).</lncs>
+<default>Hermann T, Nölker C, Ritter H (2001) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas, Nölker, Claudia, and Ritter, Helge. &lt;em&gt;Supplementary Material for "Hand Postures for Sonification Control"&lt;/em&gt;. Bielefeld University, 2001.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2707114</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-12-04T13:27:26Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:37Z</recordChangeDate>
+</recordInfo>
+</mods>

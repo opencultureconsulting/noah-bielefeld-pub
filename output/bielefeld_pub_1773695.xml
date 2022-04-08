@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773695">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>T-Reg Comparator: an analysis tool for the comparison of position weight matrices</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Röpcke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Steffen</namePart>
+                        <namePart type="family">Grossmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Vingron</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">T-Reg Comparator is a novel software tool designed to support research into transcriptional regulation. Sequence motifs representing transcription factor binding sites are usually encoded as position weight matrices. The user inputs a set of such weight matrices or binding site sequences and our program matches them against the T-Reg database, which is presently built on data from the Transfac [E. Wingender (2004) In Silico Biol., 4, 55-61] and Jaspar [A. Sandelin, W. Alkema, P. Engstrom, W. W. Wasserman and B. Lenhard (2004) Nucleic Acids Res., 32, D91-D94]. Our tool delivers a detailed report on similarities between user-supplied motifs and motifs in the database. Apart from simple one-to-one relationships, T-Reg Comparator is also able to detect similarities between submatrices. In addition, we provide a user interface to a program for sequence scanning with weight matrices. Typical areas of application for T-Reg Comparator are motif and regulatory module finding and annotation of regulatory genomic regions. T-Reg Comparator is available at http://treg.molgen.mpg.de.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Nucleic Acids Research</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>33</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Web Server</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>W438</start>
+                                <end>W441</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0305-1048</identifier>
+                    <identifier type="eIssn">1362-4962</identifier>
+                    <identifier type="MEDLINE">15980506</identifier>
+                    <identifier type="ISI">000230271400088</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17736958</identifier>
+                    <identifier type="doi">10.1093/nar/gki590</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773695</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773695">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773695/2311308/W438.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773695" DMDID="DMD1773695">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773695"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

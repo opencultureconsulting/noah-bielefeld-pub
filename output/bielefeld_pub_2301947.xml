@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301947">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Computer simulations of lipid bilayers</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Computersimulationen von Lipiddoppelschichten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Olaf</namePart>
+                        <namePart type="family">Lenz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-04-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Arbeit ist im Bereich &quot;Physik der weichen Materie&quot; angesiedelt und enthält einen informationstechnischen und einen physikalischen Teil.
+Zunächst wird eine neu entwickelte kollaborative Plattform namens &quot;SoftSimWiki&quot; vorgestellt, die Forschern, die im Bereich weiche Materie arbeiten, helfen soll, sich über die Methodik der Forschung zu informieren und auszutauschen. Des weiteren wird eine C++-Klassenbibliothek &quot;OLTL&quot; vorgestellt, die Klassen enthält, die bei der Implementierung von Vielteilchensimulationen nützlich sein können.
+Im physikalischen Teil wird ein vergröbertes Modell für Lipiddoppelschichten entwickelt und mittels einer Monte-Carlo-Simulation simuliert, das erfolgreich das Phasenverhalten von Lipiddoppelschichten reproduziert.
+Insbesondere ist das Modell auch in der Lage, die &quot;geriffelten&quot; Phasen (&quot;ripple phases&quot;) von Lipiddoppelschichten zu reproduzieren und damit die molekulare Struktur des Systems aufzuklären, ein seit mehr als 30 Jahren ungelöstes Problem.</abstract>
+                    <abstract lang="eng">The thesis is set in the field of soft-matter physics and employs a computer scientific part and a physics part.
+First, a newly developed collaborative platform, &quot;SoftSimWiki&quot; is introduced, that should help soft-matter researchers to exchange ideas and information about soft-matter methods.
+Furthermore, a C++-class-library &quot;OLTL&quot; is presented, that contains classes that can be employed in many-particle simulations.
+In the physics part, a coarse-grained model for lipid bilayers was developed and simulated via a Monte-Carlo-simulation, that successfully reproduces the phase behaviour of lipid bilayers.
+In particular, the model was able to reproduce the ripple phases of lipid bilayers, and thus to clarify the molecular structure of these phases, an unsolved problem since more than 30 years.</abstract>
+                    <subject>
+                        <topic>Lipid-Lipid-Wechselwirkung</topic>
+                        <topic>Phospholipidmembran</topic>
+                        <topic>Weiche Materie</topic>
+                        <topic>Monte-Carlo-Simulation</topic>
+                        <topic>Wiki</topic>
+                        <topic>Programmbibliothek</topic>
+                        <topic>Lipid bilayer</topic>
+                        <topic>Soft matter</topic>
+                        <topic>Program library</topic>
+                        <topic>Computersimulation</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-12850</identifier>
+                    <identifier type="sys">HT015592274</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301947</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301947">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301947/2301950/Lenz.thesis_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301947" DMDID="DMD2301947">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301947"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

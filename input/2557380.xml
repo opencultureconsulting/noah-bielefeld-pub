@@ -1,0 +1,118 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2557380</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Björn</namePart>
+  <namePart type="family">Sommer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">143950</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ralf</namePart>
+  
+  
+  <namePart type="family">Hofestädt</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Falk</namePart>
+  
+  
+  <namePart type="family">Schreiber</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Karl-Josef</namePart>
+  
+  
+  <namePart type="family">Dietz</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48518</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The modeling of cells is an important application area of Systems Biology. In the context of this work, three cytological levels are defined: the mesoscopic, the molecular and the functional level. A number of related approaches which are quite diverse will be introduced during this work which can be categorized into these disciplines. But none of these approaches covers all areas. In this work, the combination of all three aforementioned cytological levels is presented, realized by the CELLmicrocosmos project, combining and extending different Bioinformatics-related methods.
+The mesoscopic level is covered by CellEditor which is a simple tool to generate eukaryotic or prokaryotic cell models. These are based on cell components represented by three-dimensional shapes. Different methods to generate these shapes are discussed by using partly external tools such as Amira, 3ds Max and/or Blender; abstract, interpretative, 3D-microscopy-based and molecular-structure-based cell component modeling. To communicate with these tools, CellEditor provides import as well as export capabilities based on the VRML97 format. In addition, different cytological coloring methods are discussed which can be applied to the cell models. 
+MembraneEditor operates at the molecular level. This tool solves heterogeneous Membrane Packing Problems by distributing lipids on rectangular areas using collision detection. It provides fast and intuitive methods supporting a wide range of different application areas based on the PDB format. Moreover, a plugin interface enables the use of custom algorithms. In the context of this work, a high-density-generating lipid packing algorithm is evaluated; The Wanderer. The semi-automatic integration of proteins into the membrane is enabled by using data from the OPM and PDBTM database.
+Contrasting with the aforementioned structural levels, the third level covers the functional aspects of the cell. Here, protein-related networks or data sets can be imported and mapped into the previously generated cell models using the PathwayIntegration. For this purpose, data integration methods are applied, represented by the data warehouse DAWIS-M.D. which includes a number of established databases. This information is enriched by the text-mining data acquired from the ANDCell database. The localization of proteins is supported by different tools like the interactive Localization Table and the Localization Charts. The correlation of partly multi-layered cell components with protein-related networks is covered by the Network Mapping Problem. A special implementation of the ISOM layout is used for this purpose.
+Finally, a first approach to combine all these interrelated levels is represented; CellExplorer which integrates CellEditor as well as PathwayIntegration and imports structures generated with MembraneEditor. For this purpose, the shape-based cell components can be correlated with networks as well as molecular membrane structures using Membrane Mapping.
+It is shown that the tools discussed here can be applied to scientific as well as educational tasks: educational cell visualization, initial membrane modeling for molecular simulations, analysis of interrelated protein sets, cytological disease mapping. These are supported by the user-friendly combination of Java, Java 3D and Web Start technology.
+In the last part of this thesis the future of Integrative Cell Modeling is discussed. While the approaches discussed here represent basically three-dimensional snapshots of the cell, prospective approaches have to be extended into the fourth dimension; time.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="sommer_b_dissertation_2012.pdf">https://pub.uni-bielefeld.de/download/2557380/2557411/sommer_b_dissertation_2012.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>3D Stereoscopy</topic><topic>Microscopy</topic><topic>Cell Visualization</topic><topic>Cell Modeling</topic><topic>3D Modeling</topic><topic>Membrane Modeling</topic><topic>Network Modeling</topic><topic>Integrative Bioinformatics</topic><topic>Membrane Packing Problems</topic><topic>Visualization</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-25573804</identifier>
+<part><extent unit="pages">343</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2013-01-14</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sommer, Björn. 2012. &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Sommer, B.: CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level. Bielefeld University, Bielefeld (2012).</lncs>
+<default>Sommer B (2012) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>Sommer, Björn. &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University, 2012.</mla>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sommer, B. (2012). &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Sommer, B. (2012). CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level. Bielefeld: Bielefeld University.</frontiers>
+<ama>Sommer B. &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University; 2012.</ama>
+<ieee> B. Sommer, &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;,  Bielefeld: Bielefeld University, 2012.</ieee>
+<apa>Sommer, B. (2012).  &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<wels>Sommer, B. (2012): CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level. Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>B.  Sommer, &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2012&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Sommer B (2012) &lt;br /&gt;&lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<harvard1>Sommer, B., 2012. &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sommer, B. (2012).  &lt;em&gt;CELLmicrocosmos - Integrative cell modeling at the  molecular, mesoscopic and functional level&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2557380</recordIdentifier><recordCreationDate encoding="w3cdtf">2013-02-18T13:41:27Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:18Z</recordChangeDate>
+</recordInfo>
+</mods>

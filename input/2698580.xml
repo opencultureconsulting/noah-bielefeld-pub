@@ -1,0 +1,222 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2698580</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Gerold</namePart>
+  <namePart type="family">Baier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Ulrich</namePart>
+  <namePart type="family">Stephani</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">&lt;center&gt;&lt;img
+src="https://pub.uni-bielefeld.de/download/2698580/2702926"
+width="300" style="float:right;"&gt;&lt;/center&gt;
+
+This paper introduces kernel regression mapping sonification (KRMS) for optimized mappings between data features and the parameter space of Parameter Mapping Sonification. Kernel regression allows to map data spaces to high-dimensional parameter spaces such that specific locations in data space with pre-determined extent are represented by selected acoustic parameter vectors. Thereby, specifically chosen correlated settings of parameters may be selected to create perceptual fingerprints, such as a particular timbre or vowel. With KRMS, the perceptual fingerprints become clearly audible and separable. Furthermore, kernel regression defines meaningful interpolations for any point in between. We present and discuss the basic approach exemplified by our previously introduced vocal EEG sonification, report new sonifications and generalize the approach towards automatic parameter mapping generators using unsupervised learning approaches. 
+
+
+### Sonification examples
+
+- Sonification Example [S1 (mp3, 356k)](https://pub.uni-bielefeld.de/download/2698580/2698583):
+
+   formant transitions during absence EEG using a mapping of dipole x/y to the first two formants of a subtractive synthesizer.
+    
+- Sonification Example [S2 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698584):
+
+  formant transitions during absence EEG using a mapping of delay-embedding feature described in the paper to the first two formants.
+  
+- Sonification Example Series 3: 
+
+  In the series from S3.1 to S3.5, it can be heard that the transitions between formants become successively sharper with decreasing bandwidth sigma:
+
+  + [S3.1 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698585): sigma = 0.50 
+  + [S3.2 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698586): sigma = 0.35
+  + [S3.3 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698588): sigma = 0.25
+  + [S3.4 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698587): sigma = 0.15
+  + [S3.5 (mp3, 248k)](https://pub.uni-bielefeld.de/download/2698580/2698589): sigma = 0.05 
+  
+- Sonification Example [S4 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698590):
+
+  same as S2, here rendered at 1/4 of real-time for better discernability of formant transitions.
+
+- Sonification Example Series 5: 
+
+  In the series from S5.1 to S5.5 is exactly as in S3.1-S3.5 a series with decreasing bandwidth sigma, here rendered at 1/4 of real-time for better discernability of formant transitions 
+  
+  + [S5.1 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698591): sigma = 0.50
+  + [S5.2 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698593): sigma = 0.35
+  + [S5.3 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698592): sigma = 0.25
+  + [S5.4 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698594): sigma = 0.15
+  + [S5.5 (mp3, 496k)](https://pub.uni-bielefeld.de/download/2698580/2698595): sigma = 0.05</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.mp3">https://pub.uni-bielefeld.de/download/2698580/2698583/S1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.mp3">https://pub.uni-bielefeld.de/download/2698580/2698584/S2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.1.mp3">https://pub.uni-bielefeld.de/download/2698580/2698585/S3.1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.2.mp3">https://pub.uni-bielefeld.de/download/2698580/2698586/S3.2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.3.mp3">https://pub.uni-bielefeld.de/download/2698580/2698588/S3.3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.4.mp3">https://pub.uni-bielefeld.de/download/2698580/2698587/S3.4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.5.mp3">https://pub.uni-bielefeld.de/download/2698580/2698589/S3.5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.mp3">https://pub.uni-bielefeld.de/download/2698580/2698590/S4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.1.mp3">https://pub.uni-bielefeld.de/download/2698580/2698591/S5.1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.2.mp3">https://pub.uni-bielefeld.de/download/2698580/2698593/S5.2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.3.mp3">https://pub.uni-bielefeld.de/download/2698580/2698592/S5.3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.4.mp3">https://pub.uni-bielefeld.de/download/2698580/2698594/S5.4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.5.mp3">https://pub.uni-bielefeld.de/download/2698580/2698595/S5.5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2698580</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017285</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>T.  Hermann, G.  Baier, U.  Stephani, and H.  Ritter, &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Baier, G., Stephani, U., &amp;amp; Ritter, H. (2008).  &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2698580&lt;/div&gt;</apa_indent>
+<bio1>Hermann T, Baier G, Stephani U, Ritter H (2008) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hermann, T., et al., 2008. &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;, Bielefeld University.</harvard1>
+<wels>Hermann, T.; Baier, G.; Stephani, U.; Ritter, H. (2008): Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification". Bielefeld University.</wels>
+<ieee> T. Hermann, et al., &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;, Bielefeld University, 2008.</ieee>
+<apa>Hermann, T., Baier, G., Stephani, U., &amp;amp; Ritter, H. (2008).  &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2698580</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Baier, G., Stephani, U. &amp;amp; Ritter, H. (2008). &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2698580.&lt;/div&gt;</dgps>
+<frontiers>Hermann, T., Baier, G., Stephani, U., and Ritter, H. (2008). Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification". Bielefeld University.</frontiers>
+<ama>Hermann T, Baier G, Stephani U, Ritter H. &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University; 2008.</ama>
+<default>Hermann T, Baier G, Stephani U, Ritter H (2008) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hermann, Thomas, Baier, Gerold, Stephani, Ulrich, and Ritter, Helge. &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University, 2008.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Baier, Gerold, Stephani, Ulrich, and Ritter, Helge. 2008. &lt;em&gt;Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hermann, T., Baier, G., Stephani, U., Ritter, H.: Supplementary Material for "Kernel Regression Mapping for Vocal EEG Sonification". Bielefeld University (2008).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2698580</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-10-02T13:35:26Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:17Z</recordChangeDate>
+</recordInfo>
+</mods>

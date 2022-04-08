@@ -1,0 +1,116 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908757">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Adaptive Acknowledgement On-demand Protocol for Wireless Sensor Networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cung</namePart>
+                        <namePart type="family">Lian Sang</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6144-9544</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hesse</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9500-3284</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Zehe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Adams</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4986-3654</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Timm</namePart>
+                        <namePart type="family">Hörmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The concept of packet acknowledgement in wireless communication networks is crucial for reliable data transmission.
+However, reliability comes with the cost of an increased duty cycle of the network. This is due to the additional acknowledgement time for every single data packet sent. Therefore, energy consumption and latency of all sensor nodes is increased whilst the overall throughput in the network decreases. This paper contributes an adaptive acknowledgement on-demand protocol for wireless sensor networks with star network topology. The goal is to tackle the trade-off between energy efficiency and reliable data transmission. The proposed protocol is able to detect network congestion in real time by constantly monitoring the overall packet delivery ratio for each sensor node. In case the packet delivery ratio of any sensor nodes in the network is dropped significantly (e.g. due to environmental changes), the protocol switches automatically to a more reliable data transmission mode utilizing acknowledgements concerning the affected sensor nodes. Our proposed method is tested and evaluated based on a specific hardware implementation and the corresponding results are discussed in this paper.</abstract>
+                    <subject>
+                        <topic>Adaptive Protocol</topic>
+                        <topic>WSN</topic>
+                        <topic>ACK</topic>
+                        <topic>No-ACK</topic>
+                        <topic>Acknowledgement On-Demand</topic>
+                        <topic>TDMA</topic>
+                        <topic>Schedule-Based</topic>
+                        <topic>Wireless Sensor Network</topic>
+                        <topic>CC1101</topic>
+                    </subject>
+                    <classification authority="ddc">070</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the 6th International Confererence on Sensor Networks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>174</start>
+                                <end>181</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">421065/17</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29087576</identifier>
+                    <identifier type="doi">10.5220/0006208501740181</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908757</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2908757">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908757/2915271/SENSORNETS_2017_25_CR+_validated.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908757" DMDID="DMD2908757">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908757"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

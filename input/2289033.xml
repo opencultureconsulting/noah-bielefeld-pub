@@ -1,0 +1,124 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2289033</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:004</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Compiler-Driven Reconfiguration of Multiprocessors</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Michael</namePart>
+  <namePart type="family">Hussmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Michael</namePart>
+  <namePart type="family">Thies</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Uwe</namePart>
+  <namePart type="family">Kastens</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Madhura</namePart>
+  <namePart type="family">Purnaprajna</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Mario</namePart>
+  <namePart type="family">Porrmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">32337297</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1005-5753</description></name>
+<name type="personal">
+  <namePart type="given">Ulrich</namePart>
+  <namePart type="family">Rückert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15438821</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Multiprocessors enable parallel execution of a single large
+application to achieve a performance improvement. An application
+is split at instruction, data or task level (based on
+the granularity), such that the overhead of partitioning is
+minimal. Parallelization for multiprocessors is mostly restricted
+to a fixed granularity. Reconfiguration enables architectural
+variations to allow multiple granularities of operation
+within a multiprocessor. This adaptability optimizes
+resource utilization over a fixed organization.
+Here, a unified hardware-software approach to design a
+reconfigurable multiprocessor system called QuadroCore is
+presented. In our holistic methodology, compiler-driven reconfiguration
+selects from a fixed set of modes. Each mode
+relies on matching program analysis to exploit the architecture
+efficiently. For instance, a multiprocessor may adapt
+to different parallelization paradigms. The compiler can
+determine the best execution mode for each piece of code
+by analyzing the parallelism in a program. A fast, singlecycle,
+run-time reconfiguration between these predetermined
+modes is enabled by executing special instructions which
+switch coarse-grained components like instruction decoders,
+ALUs and register banks. Performance is evaluated in terms
+of execution cycles and achieved clock frequency. First results
+indicate suitability especially in audio and video processing
+applications.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CompilerDriven_Reconfiguration_of_Multiprocessors.pdf">https://pub.uni-bielefeld.de/download/2289033/2407124/CompilerDriven_Reconfiguration_of_Multiprocessors.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>Proceedings of the Workshop on Application Specific Processors (WASP) 2007</title></titleInfo><identifier type="urn">urn:nbn:de:0070-pub-22890330</identifier>
+<part>
+</part>
+</relatedItem>
+
+<note type="extern">yes</note>
+<extension>
+<bibliographicCitation>
+<wels>Hussmann, M.; Thies, M.; Kastens, U.; Purnaprajna, M.; Porrmann, M.; Rückert, U. (2007): Compiler-Driven Reconfiguration of Multiprocessors. In: Proceedings of the Workshop on Application Specific Processors (WASP) 2007.</wels>
+<bio1>Hussmann M, Thies M, Kastens U, Purnaprajna M, Porrmann M, Rückert U (2007) &lt;br /&gt;Compiler-Driven Reconfiguration of Multiprocessors. &lt;br /&gt;In:  Proceedings of the Workshop on Application Specific Processors (WASP) 2007. .</bio1>
+<harvard1>Hussmann, M., et al., 2007. Compiler-Driven Reconfiguration of Multiprocessors. In &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hussmann, M., Thies, M., Kastens, U., Purnaprajna, M., Porrmann, M., &amp;amp; Rückert, U. (2007). Compiler-Driven Reconfiguration of Multiprocessors. &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;&lt;/div&gt;</apa_indent>
+<angewandte-chemie>M.  Hussmann, M.  Thies, U.  Kastens, M.  Purnaprajna, M.  Porrmann, and U.  Rückert, in &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;, &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<ama>Hussmann M, Thies M, Kastens U, Purnaprajna M, Porrmann M, Rückert U. Compiler-Driven Reconfiguration of Multiprocessors. In:  &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;. 2007.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hussmann, M., Thies, M., Kastens, U., Purnaprajna, M., Porrmann, M. &amp;amp; Rückert, U. (2007). Compiler-Driven Reconfiguration of Multiprocessors. &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;.&lt;/div&gt;</dgps>
+<frontiers>Hussmann, M., Thies, M., Kastens, U., Purnaprajna, M., Porrmann, M., and Rückert, U. (2007). “Compiler-Driven Reconfiguration of Multiprocessors” in &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;.</frontiers>
+<apa>Hussmann, M., Thies, M., Kastens, U., Purnaprajna, M., Porrmann, M., &amp;amp; Rückert, U. (2007). Compiler-Driven Reconfiguration of Multiprocessors. &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;</apa>
+<ieee> M. Hussmann, et al., “Compiler-Driven Reconfiguration of Multiprocessors”, &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;, 2007.</ieee>
+<lncs> Hussmann, M., Thies, M., Kastens, U., Purnaprajna, M., Porrmann, M., Rückert, U.: Compiler-Driven Reconfiguration of Multiprocessors. Proceedings of the Workshop on Application Specific Processors (WASP) 2007.  (2007).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hussmann, Michael, Thies, Michael, Kastens, Uwe, Purnaprajna, Madhura, Porrmann, Mario, and Rückert, Ulrich. 2007. “Compiler-Driven Reconfiguration of Multiprocessors”. In &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;.&lt;/div&gt;</chicago>
+<mla>Hussmann, Michael, Thies, Michael, Kastens, Uwe, Purnaprajna, Madhura, Porrmann, Mario, and Rückert, Ulrich. “Compiler-Driven Reconfiguration of Multiprocessors”. &lt;em&gt;Proceedings of the Workshop on Application Specific Processors (WASP) 2007&lt;/em&gt;. 2007.</mla>
+<default>Hussmann M, Thies M, Kastens U, Purnaprajna M, Porrmann M, Rückert U (2007)  &lt;br /&gt;In:  Proceedings of the Workshop on Application Specific Processors (WASP) 2007.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2289033</recordIdentifier><recordCreationDate encoding="w3cdtf">2011-07-07T09:50:10Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:11Z</recordChangeDate>
+</recordInfo>
+</mods>

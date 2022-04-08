@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936581">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Memory Models for Incremental Learning Architectures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Viktor</namePart>
+                        <namePart type="family">Losing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heiko</namePart>
+                        <namePart type="family">Wersing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-07-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Technological advancement leads constantly to an exponential growth of generated data in basically every domain, drastically increasing the burden of data storage and maintenance. Most of the data is instantaneously extracted and available in form of endless streams that contain the most current information. Machine learning methods constitute one fundamental way of processing such data in an automatic way, as they generate models that capture the processes behind the data. They are omnipresent in our everyday life as their applications include personalized advertising, recommendations, fraud detection, surveillance, credit ratings, high-speed trading and smart-home devices. Thereby, batch learning, denoting the offline construction of a static model based on large datasets, is the predominant scheme. However, it is increasingly unfit to deal with the accumulating masses of data in given time and in particularly its static nature cannot handle changing patterns. In contrast, incremental learning constitutes one attractive alternative that is a very natural fit for the current demands. Its dynamic adaptation allows continuous processing of data streams, without the necessity to store all data from the past, and results in always up-to-date models, even able to perform in non-stationary environments. In this thesis, we will tackle crucial research questions in the domain of incremental learning by contributing new algorithms or significantly extending existing ones. Thereby, we consider stationary and non-stationary environments and present multiple real-world applications that showcase merits of the methods as well as their versatility. The main contributions are the following:
+One novel approach that addresses the question of how to extend a model for prototype-based algorithms based on cost minimization.
+We propose local split-time prediction for incremental decision trees to mitigate the trade-off between adaptation speed versus model complexity and run time.
+An extensive survey of the strengths and weaknesses of state-of-the-art methods that provides guidance for choosing a suitable algorithm for a given task.
+One new approach to extract valuable information about the type of change in a dataset.
+We contribute a biologically inspired architecture, able to handle different types of drift using dedicated memories that are kept consistent.
+Application of the novel methods within three diverse real-world tasks, highlighting their robustness and versatility.
+Investigation of personalized online models in the context of two real-world applications.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29365816</identifier>
+                    <identifier type="doi">10.4119/unibi/2936581</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936581</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936581">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936581/2936582/publishedThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936581" DMDID="DMD2936581">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936581"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

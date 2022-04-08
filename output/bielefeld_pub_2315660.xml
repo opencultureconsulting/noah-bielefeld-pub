@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2315660">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Single-machine scheduling against due dates with past-sequence dependent setup times</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Biskup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Herrmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Recently Koulamas and Kyparisis (2006) introduced past-sequence-dependent setup times to scheduling problems. This means that the setup time of a job is proportionate to the sum of processing times of the jobs already scheduled. Koulamas and Kyparisis (2006) were able to show for a number of single-machine scheduling problems with completion time goals that they remain polynomially solvable. In this paper we extend the analysis to problems with due dates. We were able to show that some problems remain polynomially solvable. However, for some other problems well-known polynomially solution approaches do not guarantee optimality any longer, consequently we concentrated on finding polynomially solvable special cases.</abstract>
+                    <subject>
+                        <topic>Due dates</topic>
+                        <topic>Scheduling</topic>
+                        <topic>Setup times</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10529</identifier>
+                    <identifier type="sys">HT015038638</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2315660</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2315660">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2315660/2319828/No_562.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2315660" DMDID="DMD2315660">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2315660"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2951585">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>BioDWH2: an automated graph-based data warehouse and mapping tool</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marcel</namePart>
+                        <namePart type="family">Friedrichs</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9846-7212</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Data integration plays a vital role in scientific research. In biomedical research, the OMICS fields have shown the need for larger datasets, like proteomics, pharmacogenomics, and newer fields like foodomics. As research projects require multiple data sources, mapping between these sources becomes necessary. Utilized workflow systems and integration tools therefore need to process large amounts of heterogeneous data formats, check for data source updates, and find suitable mapping methods to cross-reference entities from different databases. This article presents BioDWH2, an open-source, graph-based data warehouse and mapping tool, capable of helping researchers with these issues. A workspace centered approach allows project-specific data source selections and Neo4j or GraphQL server tools enable quick access to the database for analysis. The BioDWH2 tools are available to the scientific community at [https://github.com/BioDWH2](https://github.com/BioDWH2).</abstract>
+                    <subject>
+                        <topic>data warehousing</topic>
+                        <topic>database</topic>
+                        <topic>graph database</topic>
+                        <topic>pipeline</topic>
+                        <topic>software tools</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="eIssn">1613-4516</identifier>
+                    <identifier type="MEDLINE">33618440</identifier>
+                    <identifier type="ISI">000667230800006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29515853</identifier>
+                    <identifier type="doi">10.1515/jib-2020-0033</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2951585</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2951585">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2951585/2951586/10.1515_jib-2020-0033.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2951585" DMDID="DMD2951585">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2951585"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

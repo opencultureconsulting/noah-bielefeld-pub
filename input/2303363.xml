@@ -1,0 +1,109 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2303363</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Fuzzy-Suchmethoden im Information-Retrieval</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Fuzzy search methods in information retrieval</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Ingo R.</namePart>
+  <namePart type="family">Homann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Alois C.</namePart>
+  
+  
+  <namePart type="family">Knoll</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10040</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Im Informationszeitalter mit seinen ständig wachsenden Datenmengen ist spätestens seit dem Siegeszug des Internets nicht mehr das Fehlen, sondern das Finden von Informationen zum Problem geworden.
+Bisher stellte die boolesche Logik die Grundlage sowohl für die Indexierung als auch für das spätere Wiederauffinden von Daten. So konnte in einer Volltextdatenbank nach Dokumenten gesucht werden, die z.B. die Stichworte "boolean", "information" UND "retrieval" im Titel tragen, oder in einer Gebrauchtwagen-Datenbank nach Autos, die neuer als 5 Jahre sind, wobei das Ergebnis bestenfalls preislich sortiert ausgegeben werden konnte. Dokumente, bei denen nur zwei der drei Begriffe im Titel vorkommen, und der dritte nur im Untertitel, oder als "Schnäppchen" angebotene Autos, die nur einen Monat älter als 5 Jahre sind, wurden von derartigen Systemen nicht gefunden.
+Wenngleich die Unter- bzw. Fehl-Spezifikation der booleschen Suchanfragen als Ursache für das Scheitern einer derartigen Recherche herangezogen werden kann, so muss doch eine weitere Schlussfolgerung gezogen werden:
+Die konventionelle, boolesche Suchlogik ist in vielen Fällen nicht mehr adäquat. Sie stößt an ihre Grenzen, da sie mit ihren beiden Verknüpfungen UND und ODER nur entweder zu spezielle oder zu allgemeine Anfragen unterstützt und nur die beiden extremen, in der Realität nicht genug differenzierenden Zustände "wahr" und "falsch" kennt, weswegen sie keine strukturierten Ergebnismengen ermöglicht. 
+Für moderne Suchmaschinen stellen sich drei neue Herausforderungen:
+(1) Die Integration und Nutzbarmachung heterogener Datenquellen.
+(2) Die Definition neuartiger, semantisch sinnvoller und intuitiv nachvollziehbarer Aggregationsoperatoren und Bewertungsfunktionen.
+(3) Die Implementation effizienter Algorithmen, die trotz riesiger Datenvolumina und aufwändiger Suchlogik kurze Antwortzeiten garantieren.
+Der erste Aspekt ist besonders im Bereich der Metasuche über verschiedene Internetquellen interessant. Mittlerweile steht eine Unzahl von Online-Datenbanken verschiedenster Domänen zur Verfügung. Viele davon basieren auf der konventionellen, booleschen Logik, weil die zugrundeliegenden, kommerziellen Datenbanken nur für dieses bestens erforschte Paradigma effiziente Datenstrukturen und Retrieval-Algorithmen zur Verfügung stellen. Der Anspruch für eine Metasuchmaschine besteht also nicht nur in der Homogenisierung der heterogenen Quellen, was zu einem großen Teil ein Problem eher technischer Natur ist, sondern insbesondere auch in der Abbildung neuartiger Retrieval-Techniken auf die althergebrachten, booleschen Systeme.
+Der zweite Aspekt betrifft die mathematische Interpretation natürlichsprachlicher Anfragen wie der Suche nach einem "möglichst neuen und möglichst günstigen Gebrauchtwagen" oder "Dokumenten mit einigen der Begriffe 'boolean', 'information', 'retrieval'", die eine intuitivere und adäquatere Modellierung der Wirklichkeit liefern soll, als die, welche die boolesche Aussagenlogik zur Verfügung stellt.
+Der dritte Aspekt, auf dem das Hauptinteresse dieser Arbeit liegt, betrifft die triviale Forderung nach einer komfortablen Recherche mit kurzen System-Antwortzeiten, deren Erfüllung durch zweierlei Ansprüche erschwert wird: Die steigenden Datenvolumina ziehen unmittelbar einen höheren Aufwand bei der Indexierung und Suche nach sich, den gestiegene Rechenleistung, Netz- und Speicherkapazität nur in begrenztem Umfang kompensieren können: Durch die Metasuche über verschiedene Internetquellen liegen die Daten nicht mehr wie früher lokal - und damit sehr schnell verfügbar - vor, und können aufgrund kürzerer Halbwertzeiten und Aktualisierungs-Intervalle auch nicht einfach gespiegelt werden. Zum anderen zieht der Ansatz der gewichteten Suche einen stark erhöhten Aufwand nach sich: Die Ergebnismengen bzw. zu aggregierenden Teilmengen enthalten nicht mehr, wie bei der booleschen Logik, genau die (wenigen) Datensätze, die das gewünschte Kriterium exakt erfüllen, sondern potentiell alle Datensätze der Datenbank, wobei für jeden einzelnen Datensatz der (häufig sehr geringe) Zugehörigkeitsgrad berechnet werden muss.
+Die vorliegende Arbeit wird diese Problemstellungen näher beleuchten, bestehende Lösungsansätze vorstellen und eigene Ansätze darstellen. Als illustrierende Beispiele werden sich die bibliographische Suche und die Suche in einer Gebrauchtwagen-Datenbank, die bereits angerissen wurden, durch die Arbeit ziehen.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss.pdf">https://pub.uni-bielefeld.de/download/2303363/2303366/diss.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2004</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Datenbank</topic><topic>Online-Recherche</topic><topic>Metasuchmaschine</topic><topic>Streaming (Kommunikationstechnik)</topic><topic>Information Retrieval</topic><topic>Fuzzy-Logik</topic><topic>Algorithmen</topic><topic>Streaming</topic><topic>Fuzzy</topic><topic>Informationssuche</topic><topic>Suchmaschinen</topic><topic>Algorithms</topic><topic>Streaming</topic><topic>Fuzzy</topic><topic>Weighted retrieval</topic><topic>Search engine</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-5165</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2004-01-14</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Homann IR. &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2004.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Homann, I.R. (2004). &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Homann, I. R. (2004). Fuzzy-Suchmethoden im Information-Retrieval. Bielefeld (Germany): Bielefeld University.</frontiers>
+<apa>Homann, I. R. (2004).  &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> I.R. Homann, &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2004.</ieee>
+<wels>Homann, I. R. (2004): Fuzzy-Suchmethoden im Information-Retrieval. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Homann IR (2004) &lt;br /&gt;&lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Homann, I. R. (2004).  &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Homann, I.R., 2004. &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>I. R.  Homann, &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2004&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Homann, I.R.: Fuzzy-Suchmethoden im Information-Retrieval. Bielefeld University, Bielefeld (Germany) (2004).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Homann, Ingo R. 2004. &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Homann, Ingo R. &lt;em&gt;Fuzzy-Suchmethoden im Information-Retrieval&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2004.</mla>
+<default>Homann IR (2004) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2303363</recordIdentifier><recordCreationDate encoding="w3cdtf">2004-05-04T09:37:22Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:53:38Z</recordChangeDate>
+</recordInfo>
+</mods>

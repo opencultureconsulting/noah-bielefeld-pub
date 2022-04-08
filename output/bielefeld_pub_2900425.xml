@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900425">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dissimilarity-based learning for complex data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Bassam</namePart>
+                        <namePart type="family">Mokbel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Sperduti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-05-22</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Rapid advances of information technology have entailed an ever increasing amount of digital data, which raises the demand for powerful data mining and machine learning tools. Due to modern methods for gathering, preprocessing, and storing information, the collected data become more and more complex: a simple vectorial representation, and comparison in terms of the Euclidean distance is often no longer appropriate to capture relevant aspects in the data. Instead, problem-adapted similarity or dissimilarity measures refer directly to the given encoding scheme, allowing to treat information constituents in a relational manner.
+
+This thesis addresses several challenges of complex data sets and their representation in the context of machine learning. The goal is to investigate possible remedies, and propose corresponding improvements of established methods, accompanied by examples from various application domains. The main scientific contributions are the following:
+(I) Many well-established machine learning techniques are restricted to vectorial input data only. Therefore, we propose the extension of two popular prototype-based clustering and classification algorithms to non-negative symmetric dissimilarity matrices. 
+(II) Some dissimilarity measures incorporate a fine-grained parameterization, which allows to configure the comparison scheme with respect to the given data and the problem at hand. However, finding adequate parameters can be hard or even impossible for human users, due to the intricate effects of parameter changes and the lack of detailed prior knowledge. Therefore, we propose to integrate a metric learning scheme into a dissimilarity-based classifier, which can automatically adapt the parameters of a sequence alignment measure according to the given classification task.
+(III) A valuable instrument to make complex data sets accessible are dimensionality reduction techniques, which can provide an approximate low-dimensional embedding of the given data set, and, as a special case, a planar map to visualize the data&apos;s neighborhood structure. To assess the reliability of such an embedding, we propose the extension of a well-known quality measure to enable a fine-grained, tractable quantitative analysis, which can be integrated into a visualization. This tool can also help to compare different dissimilarity measures (and parameter settings), if ground truth is not available.
+(IV) All techniques are demonstrated on real-world examples from a variety of application domains, including bioinformatics, motion capturing, music, and education.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29004254</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900425</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2900425">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900425/2900426/Dissimilarity-based+learning+for+complex+data+-+2015+-+PhD+thesis+by+Bassam+Mokbel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900425" DMDID="DMD2900425">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900425"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,104 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2956362</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Interpretable analysis of motion data</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Babak</namePart>
+  <namePart type="family">Hosseini</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">49514363</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-3335-4289</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Barbara</namePart>
+  
+  
+  <namePart type="family">Hammer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Recent developments in motion capture technologies such as Microsoft Kinect and Vicon systems have facilitated motion data acquisition in diverse areas such as entertainment, sports, medical applications, or security systems. This type of data typically consists of recorded body parts’ movement through time, which describes a semantically meaningful action to the domain experts. Coinciding notable growth in the size of available motion datasets, it is necessary to design machine learning methods to analyze motions regarding their underlying characteristics systematically.
+
+Although many approaches have been suggested for motion analysis ranging from component analysis methods to deep learning algorithms, the majority of the state-of-the-art designs lack in providing semantically interpretable models. Such particular models for motion data contain building blocks that are connected to commonalities and particularities semantically understandable by domain experts. In
+this dissertation, I propose efficient algorithms to address the interpretable analysis of motion data from several significant aspects. These algorithms contribute to the state-of-the-art by introducing interpretable models in four specific categories of metric learning, sparse embedding, feature selection, and deep learning for the purpose of motion data analysis.
+
+I propose a novel metric learning algorithm for motion data that benefits from a flexible time-series alignment. This algorithm can transfer motion data to another space in which semantically similar motions are located in tighter neighborhoods while semantically different motions are pushed further away from each other. A post-processing regularization of the learned metric reduces the usual existing correlations between the dimensions of the motion. As a result, the proposed model is interpretable by providing a small subset of dimensions (joints) that are closely relevant to the given discriminative task.
+
+Furthermore, I present novel embedding frameworks that transfer the raw motion representation to a vector space. The resulting embeddings are non-negative vectorial representations that are sparse and semantically interpretable. They specifically carry understandable information about the encoded motions, such as the particularities of motion classes or commonalities of different motions. Additionally, I extend my proposed metric learning and embedding algorithms to different feature selection frameworks. In each framework, a sparse set of motion dimensions is selected that are semantically connected to the given overarching objective.
+
+The last designed framework in my Ph.D. project focuses on using convolutional neural networks (CNN) to perform sequence-based labeling on motion data. More specifically, my developed deep learning algorithm introduces a novel CNN-based architecture benefiting from the time-series alignment concept in its filters. This framework learns local patterns in the temporal dimensions of the data. These temporal patterns are interpreted as significant parts of motion sequences, which
+lead to better discrimination of them.
+
+I implement the above frameworks on different real-world benchmarks of motion
+data and analyze their performance from the above-discussed perspectives by
+comparing them to relevant state-of-the-art baselines.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Thesis_Babak_Hosseini.pdf">https://pub.uni-bielefeld.de/download/2956362/2956363/Thesis_Babak_Hosseini.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29563625</identifier><identifier type="doi">10.4119/unibi/2956362</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2021-06-18</dateOther>
+<extension>
+<bibliographicCitation>
+<ieee> B. Hosseini, &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2021.</ieee>
+<apa>Hosseini, B. (2021).  &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2956362" target="_blank"&gt;https://doi.org/10.4119/unibi/2956362&lt;/a&gt;</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hosseini, B. (2021). &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2956362.&lt;/div&gt;</dgps>
+<frontiers>Hosseini, B. (2021). Interpretable analysis of motion data. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Hosseini B. &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2021.</ama>
+<angewandte-chemie>B.  Hosseini, &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hosseini, B. (2021).  &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2956362" target="_blank"&gt;https://doi.org/10.4119/unibi/2956362&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Hosseini B (2021) &lt;br /&gt;&lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Hosseini, B., 2021. &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<wels>Hosseini, B. (2021): Interpretable analysis of motion data. Bielefeld: Universität Bielefeld.</wels>
+<default>Hosseini B (2021) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Hosseini, Babak. &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2021.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hosseini, Babak. 2021. &lt;em&gt;Interpretable analysis of motion data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Hosseini, B.: Interpretable analysis of motion data. Universität Bielefeld, Bielefeld (2021).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2956362</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-07-21T21:29:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-08-18T14:51:12Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1783801">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Linking Cytoscape and the corynebacterial reference database CoryneRegNet</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Baumbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Leonard</namePart>
+                        <namePart type="family">Apeltsin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Recently, the research community has seen an influx of data relating to transcriptional regulatory interactions of Corynebacteria, organisms that are highly relevant to fields of systems biology, biotechnology, and human medicine. Information derived from DNA microarray experiments, computational predictions, and literature has opened the way for the graph-based analysis, visualization, and reconstruction of transcriptional regulatory networks across entire organisms. The reference database for corynebacterial gene regulatory networks CoryneRegNet provides methods for data storage and data exchange in a well-structured manner. Additional information on the model organism Escherichia coli KI2 obtained from RegulonDB has been integrated. Generally, gene regulatory networks can be visualized as graphs by drawing directed edges between nodes, where a node represents a gene and an edge corresponds to a typed regulatory interaction. Cytoscape is an open-source software project whose aim is to provide graph-based visualization and analysis for biological networks. Its architecture allows the development and integration of user-made plugins to enhance core functionalities. Results: We introduce two novel plugins for the Cytoscape environment designed to enhance in silico studies of procaryotic transcriptional regulatory networks. Our plugins leverage the information from the cornyebacterial reference database CoryneRegNet with the graph analysis capabilities of Cytoscape. CoryneRegNet Loader queries the CoryneRegNet database to extract a gene regulatory network represented as a directed graph. Additional information is stored as node/edge attributes within the graph. COMA facilitates consistency checks for gene expression studies given a gene regulatory network. COMA tests whether all gene expression levels correlate properly with the given network topology. Conclusion: The plugins facilitate in silico studies of procaryotic transcriptional gene regulation, particularly in Corynebacteria and E. coli, by combining the knowledge from the corynebacterial reference database with the graph analysis capabilities of Cytoscape, which is one of the mostwidely used tools for biological network analyses.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2164</identifier>
+                    <identifier type="MEDLINE">18426593</identifier>
+                    <identifier type="ISI">000255709900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17838011</identifier>
+                    <identifier type="doi">10.1186/1471-2164-9-184</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1783801</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1783801">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1783801/2314263/46.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1783801" DMDID="DMD1783801">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1783801"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

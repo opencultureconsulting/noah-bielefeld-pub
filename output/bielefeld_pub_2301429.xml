@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301429">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Photochemische Acylierung von Chinonen und ihre solartechnische Anwendung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Schiel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Mattay</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2002-11-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die photochemische Acylierung von Chinonen bietet eine alternative Möglichkeit der Synthese acylierter Hydrochinone. Die Reaktionsparameter dieser Umsetzung werden mit Hinblick auf eine chemische Anwendung dieser Reaktion im Technikumsmaßstab mit der Nutzung der Sonne als Lichtquelle untersucht. Hierbei müssen die Reaktionsumstände auf unüberdachtes Gelände außerhalb von Laboratorien übertragen werden.
+Als chinoide Grundkörper werden 1,4-Benzochinon (4), Naphthochinon (29), 5-Hydroxynaphthochinon (18) und das 5,8-Dihydroxynaphthochinon (50) verwendet.
+Es wird ferner versucht, einen alternativen Reaktionsweg zur Darstellung von Calix[4]arenen zu finden, welche eine 1,4-Hydrochinoneinheit beinhalten.</abstract>
+                    <subject>
+                        <topic>Chinone , Friedel-Crafts-Reaktion , Photochemische Reaktion , Solartechnik , Photochemie , Chinone , Photo-Friedel-Crafts-Acylierung , Solare Photochemie ,</topic>
+                    </subject>
+                    <classification authority="ddc">540</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2187</identifier>
+                    <identifier type="sys">HT014243018</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301429</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE0_bielefeld_pub_2301429">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301429/2301432/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2301429">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301429/2301433/Dissertation_Schiel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2301429">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301429/2301434/Zusammenfassung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301429" DMDID="DMD2301429">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301429"/>
+            <mets:div TYPE="part" ID="PART1_2301429" LABEL="Dissertation_Schiel.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2301429"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2301429" LABEL="Zusammenfassung.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2301429"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

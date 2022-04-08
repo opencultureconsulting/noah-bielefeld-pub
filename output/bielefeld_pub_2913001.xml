@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913001">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>CardioSounds: Real-time Auditory Assistance for Supporting Cardiac Diagnostic and Monitoring</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andrea Lorena</namePart>
+                        <namePart type="family">Aldana Blanco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Steffen</namePart>
+                        <namePart type="family">Grautoff</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents a real-time sonification system for Electrocardiography (ECG) monitoring and diagnostic. We introduce two novel sonification designs: (a) Auditory magnification loupe, a method to sonify important beat-to-beat variations when doing sports activities, and (b) ST-segment water sonification,  which aims to assist clinicians in the diagnostic process by building a soundscape that exhibits ECG signal abnormalities as the analysed signal deviates from a healthy ECG.  The proposed methods were designed to assist users to unobtrusively monitor their own (or their patients&apos;) heart signal in situations when a visual-only representation is not convenient for the proper fulfilment of a given task. 
+Using CardioSounds users receive auditory feedback in order to monitor important heart rhythm disturbances (e.g. Arrhythmia) or pathologies due to a blocking of the heart&apos;s vessels.</abstract>
+                    <subject>
+                        <topic>Sonification</topic>
+                        <topic>Electrocardiogram</topic>
+                        <topic>Real-time System</topic>
+                        <topic>Biofeedback</topic>
+                        <topic>Process Monitoring</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29130017</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913001</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913001">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913001/2915351/AldanaGHAM17Pre-released.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913001" DMDID="DMD2913001">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913001"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

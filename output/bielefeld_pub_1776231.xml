@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1776231">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Theory of decomposition and bulge-chasing algorithms for the generalized eigenvalue problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David S.</namePart>
+                        <namePart type="family">Watkins</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ludwig</namePart>
+                        <namePart type="family">Elsner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1994</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A generic GZ algorithm for the generalized eigenvalue problem Ax = lambdaBx is presented. This is actually a large class of algorithms that includes multiple-step QZ and LZ algorithms, as well as QZ-LZ hybrids, as special cases. First the convergence properties of the GZ algorithm are discussed, then a study of implementations is undertaken. The notion of an elimination rule is introduced as a device for studying the QZ, LZ and other algorithms simultaneously. To each elimination rule there corresponds an explicit GZ algorithm. Through a careful study of the steps involved in executing the explicit algorithm, it is discovered how to implement the algorithm implicitly by bulge chasing. The approach taken here was introduced by Miminis and Paige in the context of the QR algorithm for the ordinary eigenvalue problem. It is more involved than the standard approach, but it yields a much clearer picture of the relationship between the implicit and explicit versions of the algorithm. Furthermore, it is more general than the standard approach, as it does not require the use of a theorem of &apos;&apos;Implicit-Q&apos;&apos; type. Finally a generalization of the implicit GZ algorithm, the generic bulge-chasing algorithm, is introduced. It is proved that the generic bulge-chasing algorithm implicitly performs iterations of the generic GZ algorithm. Thus the convergence theorems that are proved for the generic GZ algorithm hold for the generic bulge-chasing algorithm as well.</abstract>
+                    <subject>
+                        <topic>Generalized eigenvalue problem</topic>
+                        <topic>GZ algorithm</topic>
+                        <topic>QZ algorithm</topic>
+                        <topic>Chasing the bulge</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>SIAM Journal on matrix analysis and applications</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>943</start>
+                                <end>967</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0895-4798</identifier>
+                    <identifier type="eIssn">1095-7162</identifier>
+                    <identifier type="ISI">A1994NW00800016</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17762311</identifier>
+                    <identifier type="doi">10.1137/S089547989122377X</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1776231</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1776231">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1776231/2312115/Elsner_076.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1776231" DMDID="DMD1776231">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1776231"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

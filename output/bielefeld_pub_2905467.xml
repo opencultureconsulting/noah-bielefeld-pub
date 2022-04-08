@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2905467">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Continuous Regression Testing for Component Resource Utilization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Wienke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4517-5368</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0029-8188</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Unintended changes in the utilization of resources like CPU and memory can lead to severe problems for the operation of robotics and intelligent systems. Still, systematic testing for such performance regressions has largely been ignored in this domain. We present a method to specify
+and execute performance tests for individual components of component-based robotics systems based on their component interfaces. The method includes an automatic analysis of each component revision against previous ones that reports potential changes to the resource usage characteristics. This informs developers about the impact of their changes. We describe the
+design of the framework and present evaluation results for the automatic detection of performance changes based on tests for a variety of robotics components.</abstract>
+                    <subject>
+                        <topic>resource utilization</topic>
+                        <topic>testing</topic>
+                        <topic>regression testing</topic>
+                        <topic>performance</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29054670</identifier>
+                    <identifier type="doi">10.1109/SIMPAR.2016.7862407</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2905467</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2905467">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905467/2908058/simpar2016-perftest.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2905467" DMDID="DMD2905467">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2905467"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

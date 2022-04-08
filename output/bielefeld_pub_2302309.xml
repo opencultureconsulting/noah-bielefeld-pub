@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302309">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Lernen von Objektbenennungen mit visuellen Prozessen</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Learning object nouns with visual processes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Lömker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2004-07-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Denominating objects is a common task in everyday communication between humans. For the localization and identification of the objects the communication partners have mental models, which are constantly updated and improved during the communication. Both the evaluation of visual and speech information is considered at the same time for this task. If one of the communication partners references unknown objects, the appropriate models must be newly assembled. This takes place frequently interactively by means of showing and demonstrating the objects or pointing at them.
+For a service robot these are worthwhile goals, too, if it should be able to successfully act in a scenario not strongly restricted like for example the household. The human should be able to simply buy a new robot and show and describe it any objects which are encountered during normal use of the robot. This should be possible in a natural and convenient way. In this work a complete system is presented, which is taking a first step in the direction of interactive, multimodal, visual based learning of unknown objects.
+A scene is observed by a color camera. The user can use spoken language in order to reference objects in a dialog based fashion. The system tries to locate and identify the referenced objects. Deictic gestures and accomplished grasp actions of the user are integrated as additional sources of information into the analysis. In the gesture module motion and color are used for tracking the hands. For the recognition of deictic gestures and grasping actions speech information and hand trajectories are used jointly. Additionally the skin color detector can be initialized at any time with the help of the dialog component.
+Unknown objects are learned in interaction with the user. The user removes the object from the scene and thus permits the system to segment the up to now unknown object from the background. During this an appearance based representation of the objects is constructed by feature extraction. As features color and texture histograms and graphs based on color regions and their neighborhoods are used. To be independent from the background the search for objects is accomplished without previously segmenting the scene. Incorrect behavior of the system can be interactively corrected by the user, whereas the object models involved in the inquiry are improved at the same time. All successfully accomplished object recognitions lead automatically to an optimization of the learned object models.</abstract>
+                    <abstract lang="ger">Während der zwischenmenschlichen Kommunikation werden häufig physikalische Objekte sprachlich referenziert. Für die Lokalisation und Identifikation der Objekte haben die Kommunikationspartner dabei mentale Modelle, die während der Kommunikation ständig aktualisiert und verbessert werden. Sowohl die Auswertung visueller als auch sprachlicher Informationen wird dabei berücksichtigt. Werden für einen Kommunikationspartner unbekannte Objekte referenziert, müssen die entsprechenden Modelle neu aufgebaut werden. Dies geschieht häufig interaktiv durch das Zeigen und Vorführen des Objektes.
+Auch für einen Serviceroboter sind dies erstrebenswerte Ziele, wenn er beispielsweise im Haushalt oder in anderen Bereichen erfolgreich unterstützend tätig sein soll. Idealerweise kann man dem Roboter einfach neue Objekte, die während des alltäglichen Einsatzes als Arbeitshilfe immer wieder auftreten, in einer natürlichen und komfortablen Weise zeigen und sprachlich beschreiben. Im Rahmen dieser Arbeit wird ein vollständiges System vorgestellt, welches einen ersten Schritt in die Richtung interaktiven, multimodalen, visuell basierten Lernens unbekannter Objekte geht.
+Durch eine Farbkamera wird eine Szene beobachtet. Der Benutzer kann gesprochene Sprache benutzen, um dialoggestützt auf Objekte innerhalb der Szene zu referenzieren. Das System versucht, die referenzierten Objekte zu lokalisieren oder auch zu identifizieren. Deiktische Gesten und durchgeführte Greifaktionen des Benutzers werden als zusätzliche Informationsquellen in die Analyse integriert. Im Gestikmodul werden dafür Bewegung und Farbe zur Verfolgung der Hände eingesetzt. Die Erkennung von Zeigegesten und Greifaktionen erfolgt auf Basis von Sprache und den Trajektorien der verfolgten Hände. Der Hautfarbklassifikator kann zusätzlich jederzeit dialoggesteuert initiiert neu trainiert werden.
+Unbekannte Objekte werden in Interaktion mit dem Benutzer gelernt. Dabei entfernt der Benutzer das Objekt aus der Szene und erlaubt dem System dadurch eine Segmentierung des bisher unbekannten Objektes vom Hintergrund. Durch Merkmalsextraktion wird hierbei eine ansichtenbasierte Repräsentation der Objekte aufgebaut. An Merkmalen kommen Farb- und Texturhistogramme und Graphen basierend auf Farbregionen und deren Nachbarschaften zum Einsatz. Die Suche nach Objekten wird ohne vorherige Segmentierung in der kompletten Szene durchgeführt, womit eine Hintergrundunabhängigkeit erreicht wird. Fehlerhaftes Verhalten des Systems kann der Benutzer interaktiv korrigieren, wobei die in der Anfrage involvierten Objektmodelle gleichzeitig verbessert werden. Alle erfolgreich durchgeführten Objekterkennungen führen automatisch zu einer Optimierung der gelernten Objektmodelle.</abstract>
+                    <subject>
+                        <topic>Objekterkennung</topic>
+                        <topic>Benennung</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Visuomotorisches Lernen</topic>
+                        <topic>Szenenanalyse</topic>
+                        <topic>Automatische Spracherkennung</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Gesture recognition</topic>
+                        <topic>Object recognition</topic>
+                        <topic>Cognitive system</topic>
+                        <topic>multimodal</topic>
+                        <topic>Object learning</topic>
+                        <topic>Gestenerkennung</topic>
+                        <topic>Gestik</topic>
+                        <topic>Dialog</topic>
+                        <topic>Kognitives System</topic>
+                        <topic>multimodal</topic>
+                        <topic>Objektlernen</topic>
+                        <topic>Integration</topic>
+                        <topic>Lernen</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-5495</identifier>
+                    <identifier type="sys">HT014293890</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302309</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302309">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302309/2302312/Loemker2004.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302309" DMDID="DMD2302309">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302309"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

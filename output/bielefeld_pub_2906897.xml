@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2906897">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Incremental Bootstrapping of Parameterized Motor Skills</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jeffrey</namePart>
+                        <namePart type="family">Queißer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9725-6971</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Many motor skills have an intrinsic, low-dimensional parameterization, 
+e.g. reaching through a grid to different targets. Repeated policy search 
+for new parameterizations of such a skill is inefficient, because the structure 
+of the skill variability is not exploited. 
+This issue has been previously addressed by learning mappings from task 
+parameters to policy parameters. In this work, we introduce a bootstrapping 
+technique that establishes such parameterized skills incrementally.
+The approach combines iterative learning with state-of-the-art
+black-box policy optimization. We investigate the benefits of
+incrementally learning parameterized skills for efficient policy
+retrieval and show that the number of required rollouts can be
+significantly reduced when optimizing policies for novel tasks.
+The approach is demonstrated for several parameterized motor
+tasks including upper-body reaching motion generation for the
+humanoid robot COMAN.</abstract>
+                    <subject>
+                        <topic>memory</topic>
+                        <topic>parameterization</topic>
+                        <topic>optimization</topic>
+                        <topic>learning</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29068977</identifier>
+                    <identifier type="doi">10.1109/HUMANOIDS.2016.7803281</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2906897</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2906897">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2906897/2906898/queisser2016FinalDraft.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2906897" DMDID="DMD2906897">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2906897"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

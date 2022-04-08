@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948484">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interrogation of a runaway convict, Copenhagen 1776</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johan</namePart>
+                        <namePart type="family">Heinsen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2948484</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948484</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE0_bielefeld_pub_2948484">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948484/2948486/README+%28WORCK-DKAN%29_data+story+johan+heinsen" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2948484">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948484/2948861/content.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/html" ID="FILE2_bielefeld_pub_2948484">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948484/2948862/map.html" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ID="FILE3_bielefeld_pub_2948484">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948484/2948863/Bertel_Henrichsen_map.xlsx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948484" DMDID="DMD2948484">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948484"/>
+            <mets:div TYPE="part" ID="PART1_2948484" LABEL="content.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2948484"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2948484" LABEL="map.html">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2948484"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2948484" LABEL="Bertel_Henrichsen_map.xlsx">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2948484"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

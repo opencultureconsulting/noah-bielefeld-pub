@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2753189">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interactive Human-Guided Optimization for Logistics Planning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nikita</namePart>
+                        <namePart type="family">Mattar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Kulms</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4047-9277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Pielot</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Logistics planning is an important problem in industry, where goods have to be parceled appropriately to meet delivery dates or reduce shipping costs. This optimization problem is classically solved offline using standard algorithms and focused heuristics, e.g. bin packing or route planning. However, in practical work environments constraints may change flexibly (e.g. when custom-tailored goods with variable size have to be handled) and it is often not clear what an optimal solution looks like. Further, logistics planning consists of multiple steps that often are handled by different human employees in different departments. In this paper we propose an interactive approach using human-guided optimization, where solution spaces can be interactively explored, manipulated, and constrained at runtime. Based on an analysis of the problem of multi-step logistics planning, we present a system that supports users in solving this optimization problem, and we report first evaluation results obtained in the first two iterations of an user-centered design process.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27531891</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2753189</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2753189">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2753189/2906063/Beitrag184_a_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2753189" DMDID="DMD2753189">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2753189"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

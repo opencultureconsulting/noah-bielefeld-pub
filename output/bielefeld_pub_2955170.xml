@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2955170">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Decentralization and Hierarchical Organization for Control of Adaptive and Cognitive Behavior in Autonomous Robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Malte</namePart>
+                        <namePart type="family">Schilling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0849-483X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Cognition—understood as a form of planning ahead—complements adaptive behavior. It leverages knowledge about performing a specific behavior into a novel context while minimizing any harm to the behaving system itself as it is using an internal simulation to predict possible outcomes. In this thesis, I propose a minimal cognitive system that integrates these two kinds of processes in one control system for a six-legged robot. 
+On the one hand, adaptive behavior emerges from interaction of simple local control modules which allows the system to react quickly when facing disturbances. Detailed experimental findings in insects suggests that this evolved flexibility results from a hierarchical and decentralized architecture. While a lower control level coordinates muscle activation patterns and joint movements on a short timescale, a higher level handles action selection on longer timescales. 
+On the other hand, following a bottom-up approach this is extended towards a cognitive system that is able to invent new behaviors and to plan ahead. Using a grounded internal body model planning is realized as a form of internal simulation of possible actions which are applied out of their original context. Exploiting the decentralized architecture this cognitive expansion allows to test and predict properties of newly invented behaviors, while the body is decoupled from the control system.
+The thesis introduces the minimal cognitive system as it is applied on the robot Hector in a climbing task. It consecutively introduces the underlying control characteristics and relates these to findings from biology and neuroscience. First, hierarchical organization can be found in many animals and it structures control into parsimonious modules. Second, this is complemented by research on stick insects in particular which offers an even more detailed neuronal and behavioral level for analysis. This emphasizes decentralization of control structures and the importance of an embodied perspective which integrates bodily properties into the concurrent control process exploiting, for example, elasticities of muscles for simplifying the control problem. Third, internal representations are introduced in a bottom-up manner as grounded internal models—realized as recurrent neural networks—that are at first considered in the context of serving a specific behavior. Fourth, as a consequence, cognitive processing is realized as recruitment of the already existing flexible internal models in an internal simulation. The underlying architecture is applied on the hexapod robot Hector and analyzed in detail in simulation. Furthermore, learning is considered for this approach.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29551706</identifier>
+                    <identifier type="doi">10.4119/unibi/2955170</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2955170</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2955170">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2955170/2955171/schilling_2020_habilitation_summary.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2955170" DMDID="DMD2955170">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2955170"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

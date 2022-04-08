@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303508">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Exploration based on neural networks with applications in manipulator control</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ján</namePart>
+                        <namePart type="family">Jockusch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-05-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Ausgehend von der Vision von natürlicher und intuitiver Mensch-Maschine-Kommunikation und -Kooperation stellt die Arbeit eine neuartige Regelungsarchitektur für eine besondere Roboterhand vor, die eine Mischung mehrerer Sensor-Feedbacks für die Kraftregelung verwendet. Ein Zustandsautomat simuliert einfache Reflexe und Verhaltensmuster und ermöglicht die nahtlose Integration komplizierterer Vorgänge, wie Pfadplanung und Hindernisvermeidung. 
+Für die innere Darstellung des Zustandsraums wird ein neuer Typ Vektorquantisierungsnetzwerk eingeführt, das ITM (Instantaneous Topological Map), der die effiziente Adaptation sogar mit stark seriell korrellierten Daten erlaubt, wie sie von Regelungssystemen produziert werden; dort entstehen Reizmuster in der Gestalt von Trajektorien. 
+Die neuen Ansätze verschmelzen zu einem robusten, schnell lernenden Roboterregelsystem, das aktiv die eigenen Bewegungsfreiheitsgrade und die eigene Dynamik exploriert. 
+Zusätzlich wird in der Arbeit das ITM im Detail analysiert, um seine Eignung für andere Aufgaben darzustellen, insbesondere die robuste und schnelle Analyse der Dimensionalität und Struktur von großen Datensätzen.</abstract>
+                    <abstract lang="eng">Motivated by the notion of natural human-machine communication and cooperation, the thesis introduces a novel controller architecture for a special robotic hand using force control based on mixed feedback from several sensors. A finite state machine approach to reflex and behaviour simulation allows the seamless integration of higher level operations like path planning and obstacle avoidance. 
+A a means of state space representation, a new type of vector quantization network, the Instantaneous Topological Map, or ITM, is introduced, which allows efficient adaptation even with serially correlated data as produced by control systems where stimuli follow trajectories in state space. 
+These new approaches blend to produce a robust, fast learning robotics control system which performs active exploration to learn about its action space and dynamics. 
+Additionally, the ITM is analyzed in detail to exhibit its suitability for other tasks, especially robust and fast dimensionality and structure analysis of large data sets.</abstract>
+                    <subject>
+                        <topic>Vektorquantisierung</topic>
+                        <topic>Neuronales Netz</topic>
+                        <topic>Robotik</topic>
+                        <topic>Regelung</topic>
+                        <topic>Exploration</topic>
+                        <topic>Neuronale Netze</topic>
+                        <topic>Kraftsensor</topic>
+                        <topic>Roboterarm</topic>
+                        <topic>Roboterhand</topic>
+                        <topic>Taktiler Sensor</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-2978</identifier>
+                    <identifier type="sys">HT014315198</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303508</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303508">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303508/2303511/0012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303508" DMDID="DMD2303508">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303508"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

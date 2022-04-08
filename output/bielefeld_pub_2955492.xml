@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2955492">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Nonlinear Filtering of Partially Observed Systems Arising in Singular Stochastic Optimal Control</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alessandro</namePart>
+                        <namePart type="family">Calvia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper deals with a nonlinear filtering problem in which a multi-dimensional signal process is additively affected by a process $\nu$ whose components have paths of bounded variation. The presence of the process $\nu$ prevents from directly applying classical results and novel estimates need to be derived. By making use of the so-called reference probability measure approach, we derive the Zakai equation satisfied by the unnormalized filtering process, and then we deduce the corresponding Kushner-Stratonovich equation. Under the condition that the jump times of the process $\nu$ do not accumulate over the considered time horizon, we show that the unnormalized filtering process is the unique solution to the Zakai equation, in the class of measure-valued processes having a square-integrable density. Our analysis paves the way to the study of stochastic control problems where a decision maker can exert singular controls in order to adjust the dynamics of an unobservable Itô-process.</abstract>
+                    <abstract lang="eng">AMS 2020: 93E11, 60H15; 60J25, 60J76</abstract>
+                    <subject>
+                        <topic>Stochastic filtering</topic>
+                        <topic>singularly controlled systems</topic>
+                        <topic>reference probability measure</topic>
+                        <topic>Zakai equation</topic>
+                        <topic>Kushner-Stratonovich equation</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>651</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>26</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29554928</identifier>
+                    <identifier type="sys">HT020987849</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2955492</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2955492">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2955492/2955493/IMW_working_paper_651.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2955492" DMDID="DMD2955492">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2955492"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

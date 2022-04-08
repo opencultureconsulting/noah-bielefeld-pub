@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2533740">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>PDA im Praxistext – Nutzergesteuerte E-Book-Erwerbung an der UB Bielefeld</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Silvia</namePart>
+                        <namePart type="family">Herb</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7273-9707</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Pieper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6083-9348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>B.I.T.online</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>5</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>476</start>
+                                <end>480</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1435-7607</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25337402</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2533740</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2533740">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2533740/2533745/Artikel_Herb_Pieper_BI_Text.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2533740" DMDID="DMD2533740">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2533740"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

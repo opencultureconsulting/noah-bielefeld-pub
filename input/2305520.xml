@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305520</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Statistics and algorithms for peptide mass fingerprinting</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Hans-Michael</namePart>
+  <namePart type="family">Kaltenbach</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Sebastian</namePart>
+  
+  
+  <namePart type="family">Böcker</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">We investigate several mathematical and algorithmical aspects of peptide mass fingerprinting (PMF). In a PMF experiment, a purified protein sample is digested by a protease using an enzymatic cleavage reaction, the masses of the resulting peptides are measured by mass spectrometry, yielding the mass fingerprint, and compared to predicted mass fingerprints of reference protein sequences.
+In the first part, we examine several statistics of PMFs. We introduce random weighted strings over probabilistically weighted alphabets and cleavage schemes as mathematical models for random protein sequences, their molecular mass, and their mass fingerprints. We examine weighted hidden Markov models and Markov additive chains as a general computational framework for the stochastics of protein fragments and their masses. In parallel, we present recurrence equations for the description of these fragments.
+Using these models, the distribution of fragment lengths, the distribution of fragment masses and the distribution of the number of fragments in a random protein are examined under a random string model of independent, identically distributed characters. We derive the occurrence probability of a certain fragment mass in a random protein sequence of either fixed length or fixed mass.
+We present efficient dynamic programming algorithms and their time and space complexity for most of the statistics and compare all statistics with their empirical counterparts estimated from an in-silico tryptic digest of the Swiss-Prot protein sequence database.
+In the second part, we develop a general algorithmic framework for identification of PMFs with a protein sequence database search. We formalize the identification of a mass spectrum as an alignment problem and modify well-known methods developed for sequence analysis to an efficient algorithm for computing an optimal alignment of a measured spectrum and a predicted spectrum. The alignment is based on scoring schemes that allow flexible and consistent incorporation of a multitude of experimental parameters such as accuracy of the measured masses, mass error distribution, sample contamination, and ionization efficiency into the identification procedure.
+Using the fragment statistics of the first part, we estimate the significance of a protein identification under a well-defined statistical null-model.
+Finally, we present a family of scoring schemes and show how additional information such as intensity values of measured peaks can be incorporated into an alignment scoring. We demonstrate the applicability of the alignment framework on a real proteomics dataset and compare our results with the standard software MASCOT.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Kaltenbach_StatisticsAlgorithmsPMF_PhDThesis_2007.pdf">https://pub.uni-bielefeld.de/download/2305520/2305523/Kaltenbach_StatisticsAlgorithmsPMF_PhDThesis_2007.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-10803</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-03-19</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Kaltenbach, Hans-Michael. &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<default>Kaltenbach H-M (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Kaltenbach, H.-M.: Statistics and algorithms for peptide mass fingerprinting. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kaltenbach, Hans-Michael. 2007. &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<bio1>Kaltenbach H-M (2007) &lt;br /&gt;&lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kaltenbach, H. - M. (2007).  &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Kaltenbach, H.-M., 2007. &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>H. - M.  Kaltenbach, &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<wels>Kaltenbach, H. - M. (2007): Statistics and algorithms for peptide mass fingerprinting. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Kaltenbach, H. - M. (2007).  &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> H.-M. Kaltenbach, &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<ama>Kaltenbach H-M. &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Kaltenbach, H.-M. (2007). &lt;em&gt;Statistics and algorithms for peptide mass fingerprinting&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Kaltenbach, H. - M. (2007). Statistics and algorithms for peptide mass fingerprinting. Bielefeld (Germany): Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305520</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-04-17T06:37:54Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:00Z</recordChangeDate>
+</recordInfo>
+</mods>

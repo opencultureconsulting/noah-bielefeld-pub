@@ -1,0 +1,96 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2944431</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Soufian</namePart>
+  <namePart type="family">Jebbara</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">61955542</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4483-0933</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Philipp</namePart>
+  
+  
+  <namePart type="family">Cimiano</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Everyday, vast amounts of unstructured, textual data are shared online in digital form.
+Websites such as forums, social media sites, review sites, blogs, and comment sections offer platforms to express and discuss opinions and experiences. Understanding the opinions in these resources is valuable for e.g. businesses to support market research and customer service but also individuals, who can benefit from the experiences and expertise of others.&lt;br /&gt;&lt;br /&gt;
+In this thesis, we approach the topic of opinion extraction and classification with neural network models. We regard this area of sentiment analysis as a relation extraction problem in which the sentiment of some opinion holder towards a certain aspect of a product, theme, or event needs to be extracted. In accordance with this framework, our main contributions are the following:&lt;br /&gt;&lt;br /&gt;
+1. We propose a full system addressing all subtasks of relational sentiment analysis.
+2. We investigate how semantic web resources can be leveraged in a neural-network-based model for the extraction of opinion targets and the classification of sentiment labels. Specifically, we experiment with enhancing pretrained word embeddings using the lexical resource WordNet. Furthermore, we enrich a purely text-based model with SenticNet concepts and observe an improvement for sentiment classification.
+3. We examine how opinion targets can be automatically identified in noisy texts. Customer reviews, for instance, are prone to contain misspelled words and are difficult to process due to their domain-specific language. We integrate information about the character structure of a word into a sequence labeling system using character-level word embeddings and show their positive impact on the system's performance. We reveal encoded character patterns of the learned embeddings and give a nuanced view of the obtained performance differences.
+4. Opinion target extraction usually relies on supervised learning approaches. We address the lack of available annotated data for specific languages by proposing a zero-shot cross-lingual approach for the extraction of opinion target expressions. We leverage multilingual word embeddings that share a common vector space across various languages and incorporate these into a convolutional neural network architecture. Our experiments with 5 languages give promising results: We can successfully train a model on annotated data of a source language and perform accurate prediction on a target language without ever using any annotated samples in that target language. </abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Doktorarbeit_Soufian_Jebbara.pdf">https://pub.uni-bielefeld.de/download/2944431/2944432/Doktorarbeit_Soufian_Jebbara.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29444316</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2020-06-08</dateOther>
+<extension>
+<bibliographicCitation>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, Soufian. 2020. &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Jebbara, S.: Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages. Universität Bielefeld, Bielefeld (2020).</lncs>
+<default>Jebbara S (2020) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Jebbara, Soufian. &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2020.</mla>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, S. (2020). &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Jebbara, S. (2020). Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Jebbara S. &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2020.</ama>
+<ieee> S. Jebbara, &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2020.</ieee>
+<apa>Jebbara, S. (2020).  &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<wels>Jebbara, S. (2020): Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>S.  Jebbara, &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2020&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Jebbara S (2020) &lt;br /&gt;&lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Jebbara, S., 2020. &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jebbara, S. (2020).  &lt;em&gt;Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2944431</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-07-03T14:34:38Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-19T11:47:45Z</recordChangeDate>
+</recordInfo>
+</mods>

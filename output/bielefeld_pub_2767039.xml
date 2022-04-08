@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2767039">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Device Mismatch in a Neuromorphic System Implements Random Features for Regression</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ole</namePart>
+                        <namePart type="family">Richter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Reinhart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stephen</namePart>
+                        <namePart type="family">Nease</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We use a large-scale analog neuromorphic system to encode the hidden-layer activations of a single-layer feed forward network with random weights. The random activations of the network are implemented using the device mismatch inherent to analog circuits. We show that these activations produced by analog VLSI implementations of integrate and fire neurons are suited to solve multi dimensional, non linear regression tasks. Exploitation of the device mismatch eliminates the storage requirements for the random network weights.</abstract>
+                    <subject>
+                        <topic>Computer architecture</topic>
+                        <topic>Feeds</topic>
+                        <topic>Function approximation</topic>
+                        <topic>Hardware</topic>
+                        <topic>Neuromorphics</topic>
+                        <topic>Neurons</topic>
+                        <topic>Standards</topic>
+                        <topic>Extreme Learning Machine</topic>
+                        <topic>Feed Forward Neural Networks With Random Weights</topic>
+                        <topic>Neuromorphic</topic>
+                        <topic>aVLSI</topic>
+                        <topic>device mismatch</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27670399</identifier>
+                    <identifier type="doi">10.1109/BioCAS.2015.7348416</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2767039</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2767039">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2767039/2900120/biocas15_neuromorphic_rhl-mlp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2767039">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2767039/2934814/Richter_etal15.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2767039" DMDID="DMD2767039">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2767039"/>
+            <mets:div TYPE="part" ID="PART1_2767039" LABEL="Richter_etal15.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2767039"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

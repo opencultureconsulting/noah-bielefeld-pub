@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2315729">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>new heuristic for the total tardiness problem with parallel machines</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dirk</namePart>
+                        <namePart type="family">Biskup</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Herrmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Scheduling jobs against due dates is one of the most important and best examined objectives in scheduling theory and practice. In this paper the parallel machine version of the well-known total tardiness problem is considered. The objective is to minimize the total tardiness of the jobs, while for all jobs an individual due date is given. The single machine version has been proven to be NP-hard, hence it is unlikely to find polynomially bounded optimization algorithms. Consequently, we concentrate on developing an efficient heuristic. Our extensive computational results confirm that our new heuristic is capable to deliver near optimal results.</abstract>
+                    <subject>
+                        <topic>Sequencing</topic>
+                        <topic>Scheduling</topic>
+                        <topic>Parallel machines</topic>
+                        <topic>Tardiness</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10519</identifier>
+                    <identifier type="sys">HT015038609</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2315729</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2315729">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2315729/2319841/No_561.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2315729" DMDID="DMD2315729">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2315729"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2907846">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>Die </nonSort>
+                        <title>Verwendung von Autorenidentifikatoren in wissenschaftlichen Repositorien : Ansätze, konkrete Umsetzungen und Herausforderungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Friedrich</namePart>
+                        <namePart type="family">Summann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6297-3348</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Um eine Analyse der globalen Verwendung von Autoren-Identifikatoren in der Repository-Landschaft durchzuführen, wurde auf Basis der BASE-Infrastruktur der UB Bielefeld mit Hilfe von Email-Anfragen unter Vertretern der globalen Repository-Community und skript-basierter Metadaten-Analyse (auf OAI-PMH-Basis) eine breit angelegte Untersuchung durchgeführt. Mittlerweile ist die Integration von ORCID-Identifiern in den technischen Implementierungen vorbereitet und man kann sie auf verschiedenen Ebenen (Datenbankstruktur, Import, Benutzeroberfläche, Schnittstellen) in der Praxis zunehmend nachweisen. Auch wenn die Umsetzung noch nicht flächendeckend erfolgt, werden entsprechende Implementierungen zunehmend eingesetzt. Vergleichsweise große ORCID-Zahlen finden sich bei DataCite und Europe PMC, bei den Repository-Systemen fallen DIVA aus Schweden und OJS durch zahlreiche Installationen mit ORCID-Nachweisen auf. Auch einzelne DSpace-, Fedora-, Invenio-Repositorien und Lösungen wie Librecat (Univ. Bielefeld) und Brocade (Univ. Antwerpen) bedienen bereits durchgängig alle Ebenen und bei fast allen alternativen Plattformen (EPrints, Opus, Digital Commons) sind Teilbereiche realisiert.</abstract>
+                    <subject>
+                        <topic>Autorenidentifier</topic>
+                        <topic>ORCID</topic>
+                        <topic>Repositories</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29078466</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2907846</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2907846">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2907846/2907848/restored_btag_2016_orcid.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2907846" DMDID="DMD2907846">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2907846"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

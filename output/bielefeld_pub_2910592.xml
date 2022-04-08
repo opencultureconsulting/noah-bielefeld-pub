@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2910592">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>ToBI - Team of Bielefeld A Human-Robot Interaction System for RoboCup@Home 2017</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Florian</namePart>
+                        <namePart type="family">Lier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9251-1075</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Meyer zu Borgsen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0887-5672</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Luca</namePart>
+                        <namePart type="family">Lach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dominik</namePart>
+                        <namePart type="family">Sixt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Team of Bielefeld (ToBI) has been founded in 2009. The RoboCup teams’ activities are embedded in a long-term research agenda towards human-robot interaction with laypersons in regular and smart home environments. The RoboCup@Home competition is an im- portant benchmark and milestone for this goal in terms of robot capabilities as well as the system integration effort. In order to achieve a robust and stable system performance, we apply a systematic approach for reproducible robotic experimentation including automatic tests. For RoboCup 2017, we plan to enhance this approach by simulating complete RoboCup@Home tasks. We further extend it to the RoboCup@Home standard platform Pepper. Similar to the Nao platform, the Pepper comes with its own runtime and development eco-system. Thus, one of the chal- lenges will be the cross-platform transfer of capabilities between robots based on different eco-system, e.g. the utilized middleware and application layers. In this paper, we will present a generic approach to such issues: the Cognitive Interaction Toolkit. The overall framework inherently supports the idea of open research and offers direct access to reusable components and reproducible systems via a web-based catalog. A main focus of research at Bielefeld are robots as an ambient host in a smart home or for instance as a museum’s guide. Both scenarios are highly relevant for the RoboCup@Home standard platform competition. Skills developed in these domains will be transferred to the RoboCup@Home scenarios.</abstract>
+                    <subject>
+                        <topic>Robotics</topic>
+                        <topic>RoboCup</topic>
+                        <topic>Tobi</topic>
+                        <topic>RoboCup@Home</topic>
+                        <topic>Human Robot Interaction</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29105920</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2910592</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2910592">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2910592/2910593/Team_ToBI_TDP.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2910592" DMDID="DMD2910592">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2910592"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

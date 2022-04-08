@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2301987">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Internal control for autonomous open-ended acquisition of new behaviors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Inna</namePart>
+                        <namePart type="family">Mikhailova</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-07-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">With increasing demand for the autonomy and adaptivity of robots the focus of research on intelligent systems progressively moved from the direct solving of specific task to more sophisticated approach of learning task up to the highest level where the systems decide themselves what to learn when. Inspired by the example of child development modern research targets a similar process in artificial systems. The expected benefits of artificial development are higher degree of adaptivity to unforeseen situations, no necessity to redesign the system every time the task of the robot changes, and a break through the limits of the complexity of hand-designed behaviors.
+The aim of this work is the design of an initial system that can bootstrap a developmental process. We investigate which minimal internal control structures are needed in order to interact with the environment and acquire new behaviors in a task-unspecific and open-ended manner, i.e. without cancelling the development after the learning of several behaviors.
+Hence, we carefully analyze the elements of the initial bootstrapping: value system, abstraction system, and innate behaviors with respect to open-endness and sufficient grounding. We formulate the constraints and requirements for the design of these parts. We then investigate which possibilities do exist for the value system to influence the acquisition of the internal representations of the system-environment interaction. This analysis reveals a taxonomy of different ways to memorize the experience for the purpose of behavior generation. We discuss how the learning in one type supports the learning in other types thus creating a basis for an open-ended process. Inspired by brain research we propose an architecture that uses different abstraction types in parallel for the homeostatic control in a value system.
+We validate our general ideas about the system design by means of real-world experiments, which focus on the robot&apos;s behavior during learning-related interaction with a human: learning of object recognition, acquisition of gestures, and learning of speech labels. We implement a reactive layer as innate behavior for general interaction with the environment and extend it by increasingly complex types of abstraction layers. We demonstrate several methods for the stabilization of coupled dynamics of changing needs and rewards, changing internal representations and changing behavior: differentiation between long-term and short-term statistics, learning of different structures on different time-scales, and loose coupling of parallel control loops. The tested extension of the reactive layer shows a principle way for the qualitative progress from reactive to expectation-driven behavior. Exactly this task-unspecific development was the aim of this work.
+Summarizing, our work proposes a design of the initial bootstrapping system for the task-unspecific open-ended development. The design is validated by multiple implementations of real-world online learning from interaction between the robot and its environment. Several design features inspired by the brain research - homeostatic control, parallel representation structures, loose coupling between parallel control layers - contribute to the overall stability of the proposed architecture and make it attractive for further research.</abstract>
+                    <subject>
+                        <topic>Autonomer Roboter</topic>
+                        <topic>Selbstgesteuertes Lernen</topic>
+                        <topic>Automatische Handlungsplanung</topic>
+                        <topic>Autonomous learning</topic>
+                        <topic>System architecture</topic>
+                        <topic>Developmental robotics</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15493</identifier>
+                    <identifier type="sys">HT016143165</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2301987</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2301987">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2301987/2301990/disMikhailova082009.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2301987" DMDID="DMD2301987">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2301987"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

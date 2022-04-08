@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2914039</id><setSpec>working_paper</setSpec><setSpec>doc-type:workingPaper</setSpec><setSpec>ddc:000</setSpec><setSpec>working_paperFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>working Paper</genre>
+
+<titleInfo><title>Predicting Disease-Gene Associations using Cross-Document Graph-based Features</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Hendrik</namePart>
+  <namePart type="family">ter Horst</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">36764835</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-3244-6595</description></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Hartung</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955539</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-6549-066X</description></name>
+<name type="personal">
+  <namePart type="given">Roman</namePart>
+  <namePart type="family">Klinger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Matthias</namePart>
+  <namePart type="family">Zwick</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In the context of personalized medicine, text mining methods pose an interesting option for identifying disease-gene associations, as they can be used to generate novel links between diseases and genes which may complement knowledge from structured databases. The most straightforward approach to extract such links from text is to rely on a
+simple assumption postulating an association between all genes and diseases that co-occur within the same document. However, this approach (i) tends to yield a number of spurious associations, (ii) does not capture different relevant types of associations, and (iii) is incapable of aggregating knowledge that is spread across documents. Thus, we propose an approach in which disease-gene co-occurrences and gene-gene interactions are represented in an RDF graph. A machine learning-based classifier is trained that incorporates features extracted from the graph to separate disease-gene pairs into valid disease-gene associations and spurious ones. On the manually curated Genetic Testing Registry, our approach yields a 30 points increase in F 1 score over a plain co-occurrence baseline.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="paper.pdf">https://pub.uni-bielefeld.de/download/2914039/2914040/paper.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>disease-gene associations</topic><topic>text mining</topic><topic>machine learning</topic><topic>biomedical literature</topic><topic>graph-based features</topic>
+</subject>
+
+
+<relatedItem type="host">
+  <identifier type="arXiv">https://arxiv.org/abs/1709.09239</identifier><identifier type="urn">urn:nbn:de:0070-pub-29140398</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> ter Horst, H., Hartung, M., Klinger, R., Zwick, M., Cimiano, P.: Predicting Disease-Gene Associations using Cross-Document Graph-based Features. Bielefeld University, Bielefeld (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, Hendrik, Hartung, Matthias, Klinger, Roman, Zwick, Matthias, and Cimiano, Philipp. 2016. &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<mla>ter Horst, Hendrik, Hartung, Matthias, Klinger, Roman, Zwick, Matthias, and Cimiano, Philipp. &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University, 2016.</mla>
+<default>ter Horst H, Hartung M, Klinger R, Zwick M, Cimiano P (2016) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<wels>ter Horst, H.; Hartung, M.; Klinger, R.; Zwick, M.; Cimiano, P. (2016): Predicting Disease-Gene Associations using Cross-Document Graph-based Features. Bielefeld: Bielefeld University.</wels>
+<harvard1>ter Horst, H., et al., 2016. &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H., Hartung, M., Klinger, R., Zwick, M., &amp;amp; Cimiano, P. (2016).  &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>ter Horst H, Hartung M, Klinger R, Zwick M, Cimiano P (2016) &lt;br /&gt;&lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<angewandte-chemie>H.  ter Horst, M.  Hartung, R.  Klinger, M.  Zwick, and P.  Cimiano, &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<ama>ter Horst H, Hartung M, Klinger R, Zwick M, Cimiano P. &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University; 2016.</ama>
+<frontiers>ter Horst, H., Hartung, M., Klinger, R., Zwick, M., and Cimiano, P. (2016). Predicting Disease-Gene Associations using Cross-Document Graph-based Features. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H., Hartung, M., Klinger, R., Zwick, M. &amp;amp; Cimiano, P. (2016). &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<apa>ter Horst, H., Hartung, M., Klinger, R., Zwick, M., &amp;amp; Cimiano, P. (2016).  &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<ieee> H. ter Horst, et al., &lt;em&gt;Predicting Disease-Gene Associations using Cross-Document Graph-based Features&lt;/em&gt;,  Bielefeld: Bielefeld University, 2016.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2914039</recordIdentifier><recordCreationDate encoding="w3cdtf">2017-09-21T08:48:46Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:29Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,107 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1785512</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:660.6</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Fine-tuning structural RNA alignments in the twilight zone</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Andreas</namePart>
+  <namePart type="family">Bremges</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Stefanie</namePart>
+  <namePart type="family">Schirmer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">3858002</identifier></name>
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Giegerich</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">147565</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067120</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background A widely used method to find conserved secondary structure in RNA is to first construct a multiple sequence alignment, and then fold the alignment, optimizing a score based on thermodynamics and covariance. This method works best around 75% sequence similarity. However, in a "twilight zone" below 55% similarity, the sequence alignment tends to obscure the covariance signal used in the second phase. Therefore, while the overall shape of the consensus structure may still be found, the degree of conservation cannot be estimated reliably.  Results Based on a combination of available methods, we present a method named planACstar for improving structure conservation in structural alignments in the twilight zone. After constructing a consensus structure by alignment folding, planACstar abandons the original sequence alignment, refolds the sequences individually, but consistent with the consensus, aligns the structures, irrespective of sequence, by a pure structure alignment method, and derives an improved sequence alignment from the alignment of structures, to be re-submitted to alignment folding, etc.. This circle may be iterated as long as structural conservation improves, but normally, one step suffices.  Conclusions Employing the tools ClustalW, RNAalifold, and RNAforester, we find that for sequences with 30-55% sequence identity, structural conservation can be improved by 10% on average, with a large variation, measured in terms of RNAalifold's own criterion, the structure conservation index.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Bremges.pdf">https://pub.uni-bielefeld.de/download/1785512/2314956/Bremges.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Springer Science + Business Media</publisher><dateIssued encoding="w3cdtf">2010</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">20433706</identifier>
+  <identifier type="ISI">000278361400001</identifier><identifier type="urn">urn:nbn:de:0070-pub-17855124</identifier><identifier type="doi">10.1186/1471-2105-11-222</identifier>
+<part><detail type="volume"><number>11</number></detail><detail type="issue"><number>1</number></detail>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<mla>Bremges, Andreas, Schirmer, Stefanie, and Giegerich, Robert. “Fine-tuning structural RNA alignments in the twilight zone”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 11.1 (2010): 222.</mla>
+<default>Bremges A, Schirmer S, Giegerich R (2010) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 11(1): 222.</default>
+<lncs> Bremges, A., Schirmer, S., Giegerich, R.: Fine-tuning structural RNA alignments in the twilight zone. BMC Bioinformatics. 11, : 222 (2010).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bremges, Andreas, Schirmer, Stefanie, and Giegerich, Robert. 2010. “Fine-tuning structural RNA alignments in the twilight zone”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 11 (1): 222.&lt;/div&gt;</chicago>
+<harvard1>Bremges, A., Schirmer, S., &amp;amp; Giegerich, R., 2010. Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 11(1): 222.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bremges, A., Schirmer, S., &amp;amp; Giegerich, R. (2010). Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1), 222. &lt;a href="https://doi.org/10.1186/1471-2105-11-222" target="_blank"&gt;https://doi.org/10.1186/1471-2105-11-222&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Bremges A, Schirmer S, Giegerich R (2010) &lt;br /&gt;Fine-tuning structural RNA alignments in the twilight zone.&lt;br /&gt;BMC Bioinformatics 11(1): 222.</bio1>
+<angewandte-chemie>A.  Bremges, S.  Schirmer, and R.  Giegerich, “Fine-tuning structural RNA alignments in the twilight zone”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2010&lt;/strong&gt;, &lt;em&gt;11&lt;/em&gt;, : 222.</angewandte-chemie>
+<wels>Bremges, A.; Schirmer, S.; Giegerich, R. (2010): Fine-tuning structural RNA alignments in the twilight zone &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,11:(1):222</wels>
+<apa>Bremges, A., Schirmer, S., &amp;amp; Giegerich, R. (2010). Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1), 222. &lt;a href="https://doi.org/10.1186/1471-2105-11-222" target="_blank"&gt;https://doi.org/10.1186/1471-2105-11-222&lt;/a&gt;</apa>
+<ieee> A. Bremges, S. Schirmer, and R. Giegerich, “Fine-tuning structural RNA alignments in the twilight zone”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 11, 2010, : 222.</ieee>
+<ama>Bremges A, Schirmer S, Giegerich R. Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2010;11(1): 222.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bremges, A., Schirmer, S. &amp;amp; Giegerich, R. (2010). Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;11&lt;/em&gt;(1): 222. Springer Science + Business Media. doi:10.1186/1471-2105-11-222.&lt;/div&gt;</dgps>
+<frontiers>Bremges, A., Schirmer, S., and Giegerich, R. (2010). Fine-tuning structural RNA alignments in the twilight zone. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 11:222.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1785512</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-07-24T12:58:22Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:22Z</recordChangeDate>
+</recordInfo>
+</mods>

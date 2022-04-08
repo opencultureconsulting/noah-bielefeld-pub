@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773560">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Algorithmic complexity of protein identification: combinatorics of weighted strings</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mark</namePart>
+                        <namePart type="family">Cieliebak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Erlebach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Zsuzsanna</namePart>
+                        <namePart type="family">Lipták</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Emo</namePart>
+                        <namePart type="family">Welzl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We investigate a problem which arises in computational biology: Given a constant-size alphabet [Mathematical script A] with a weight function µ : [Mathematical script A] --&gt; [Double-struck N], find an efficient data structure and query algorithm solving the following problem: For a string [sigma] over [Mathematical script A] and a weight [Mathematical italic M] [element of] [Double-struck N], decide whether [sigma] contains a substring with weight [Mathematical italic M], where the weight of a string is the sum of the weights of its letters (One-String Mass Finding Problem). If the answer is yes, then we may in addition require a witness, i.e., indices i [less-than or equal to] j such that the substring beginning at position i and ending at position j has weight [Mathematical italic M]. We allow preprocessing of the string and measure efficiency in two parameters: storage space required for the preprocessed data and running time of the query algorithm for given [Mathematical italic M]. We are interested in data structures and algorithms requiring subquadratic storage space and sublinear query time, where we measure the input size as the length n of the input string [sigma]. Among others, we present two non-trivial efficient algorithms: Lookup solves the problem with O(n) storage space and O(n/log n) time; Interval solves the problem for binary alphabets with O(n) storage space in O(log n) query time. We introduce other variants of the problem and sketch how our algorithms may be extended for these variants. Finally, we discuss combinatorial properties of weighted strings.</abstract>
+                    <subject>
+                        <topic>Computational biology</topic>
+                        <topic>Weighted strings</topic>
+                        <topic>Protein identification</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Discrete Applied Mathematics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>137</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>27</start>
+                                <end>46</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0166-218X</identifier>
+                    <identifier type="ISI">000188188900003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17735609</identifier>
+                    <identifier type="doi">10.1016/S0166-218X(03)00187-2</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773560</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773560">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773560/2311288/CIE_ERL_LIP_STO_WEL_2004.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773560" DMDID="DMD1773560">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773560"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

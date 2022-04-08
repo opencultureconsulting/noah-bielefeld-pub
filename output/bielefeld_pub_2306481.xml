@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306481">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Exploration of wavelet-based feature spaces in medical image analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Birgit</namePart>
+                        <namePart type="family">Lessmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philippe</namePart>
+                        <namePart type="family">Blanchard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2007-05-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die medizinische Bildanalyse beinhaltet eine Vielzahl unterschiedlicher Fragestellungen und Anforderungen. Grundprinzip für viele Anwendungen ist es hier, den Bilddatensatz numerisch zu repräsentieren. Diese numerische Beschreibung in Form sogenannter Merkmalsvektoren kann dann dazu genutzt werden, Bilddatensätze zu analysieren, zu klassifizieren oder anderweitig zu verarbeiten. Die Herausforderung ist es demnach, geeignete numerische Merkmale zu finden, die das zu analysierende Bild und seine medizinischen Charakteristiken optimal repräsentieren. In dieser Arbeit wird eine Methodik vorgestellt, die es erlaubt, solche spezifischen Merkmale zu entwickeln, zu analysieren und an den jeweiligen medizinischen Kontext anzupassen. Die Merkmale werden mittels einer Diskreten Wavelet-Transformation erzeugt und mittels Methoden der Dimensionsreduktion analysiert und optimiert. Die Methodik wird an zwei sehr unterschiedlichen Bildatensätzen aus der klinischen Tumordiagnostik demonstriert. Für beide Datensätze werden numerische Merkmale entwickelt, die dazu geeignet sind, den Datensatz im Rahmen unterschiedlicher Anwendungen zu repräsentieren.</abstract>
+                    <abstract lang="eng">In medical image processing a wide amount of different tasks is currently under consideration. The principle in most of the developed technical solutions is the numerical representation of an image. The numerical description of the image by so called feature vectors then allows to analyse or classify the images or to process them in any different way. The important challenge here is to find numerical features, which are particularly appropriate to represent the image and its clinical characteristics. In this work a methodology is presented allowing to develop and analyse those features in order to obtain a numerical representation especially well adapted to the clinical context. The features are obtained from a Discrete Wavelet Transform and analysed and optimized by methods of dimension reduction. The methodology is demonstrated on two highly different types of datasets acquired for the purpose of tumour diagnostics. For both databases numerical features are defined suitable to represent the particular dataset in various applications.</abstract>
+                    <subject>
+                        <topic>Wavelet-Analyse , Bildverarbeitung ,  , Medical image analysis , Wavelet analysis , Dimension reduction , DCE-MRI (Dynamic contrast-enhanced magnetic resonance imaging) , Neuropathology</topic>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10953</identifier>
+                    <identifier type="sys">HT015227285</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306481</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306481">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306481/2306484/Dissertation_Lessmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306481" DMDID="DMD2306481">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306481"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

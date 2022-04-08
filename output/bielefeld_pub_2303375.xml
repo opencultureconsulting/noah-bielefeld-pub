@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303375">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Scenery reconstruction</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Szenerierekonstruktion</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Angélica Yohana</namePart>
+                        <namePart type="family">Pachón Pinzón</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heinrich</namePart>
+                        <namePart type="family">Matzinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-08-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Suppose that to each site on the integer numbers a color from the set 0, 1,..., C -1 is assigned. This defines a coloration of Z which is called scenery. Suppose a simple random walk starts to move registering the color it sees at each time t &gt; 0 and producing a new sequence of colors, i.e, at time t, the random walk sees the color where it is on. Scenery Reconstruction problem can be described by the next question: Can the original coloring be reconstructed given only one realization of the observations? This thesis presents three new results about Scenery Reconstruction. The first of them shows how to reconstruct a finite piece of scenery close to the origin. For the reconstruction we only use polynomially many observations (in the length of the piece). The scenery is taken to have 3 colors. The algorithm uses a method which is also used for DNA-reconstruction: it first obtains micro-strings which it then assembles. The micro-strings are of logarithmic order in the length of the piece to be reconstructed. The second result presents a fundamental improvement for determining times when the walker is close to the origin. A simple approach to solving this problem is presented by Hart, Machado and Matzinger 2009, but that approach fails with less than five colors. Here is boosted the proof to make it works with only 4 colors. The approach should also be useful in the future for the reconstruction of sceneries with low entropy. Finally, the third result shows how to implement practically the algorithm obtained by the first one and present computer simulations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15511</identifier>
+                    <identifier type="sys">HT016158971</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303375</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303375">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303375/2303378/TESIS.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303375" DMDID="DMD2303375">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303375"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

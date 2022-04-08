@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2289121">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Stereoscopic Camera for Autonomous Mini-Robots Applied in KheperaSot League</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Teerapat</namePart>
+                        <namePart type="family">Chinapirom</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulf</namePart>
+                        <namePart type="family">Witkowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents a stereoscopic vision system for the
+mini-robot Khepera. The vision system performs objects
+detection by using the stereo disparity and stereo
+correspondence. The stereoscopic vision system enhances
+robot’s visual perception ability by grabbing stereo images
+and analysis 3D objects, while the robot doesn’t need to
+move. The simple principle of our stereo vision is the less
+displacement of correspondence pixels shows that the
+pixels object is far away. To realize the stereo vision and
+its calculation algorithms, the mini robot needs a powerful
+FPGA and micro-controller module as well as 2D color
+cameras. An application of Khepera equipped with the
+stereoscopic camera is robot soccer in the KheperaSot
+league. In the match, the robot has to be able to detect its
+environment, i.e. the ball, walls, goals and its opponent.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22891217</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2289121</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2289121">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2289121/2407243/Steroscopic_Camera_for_Autonomous_Mini-Robots_Applied_in_KheperaSot_League.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2289121" DMDID="DMD2289121">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2289121"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

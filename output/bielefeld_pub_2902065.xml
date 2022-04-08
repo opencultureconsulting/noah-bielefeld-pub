@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902065">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Learning vector quantization for proximity data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniela</namePart>
+                        <namePart type="family">Hofmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-10-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Prototype-based classifiers such as learning vector quantization (LVQ) often display intuitive and flexible classification and learning rules. However, classical techniques are restricted to vectorial data only, and hence not suited for more complex data structures. Therefore, a few extensions of diverse LVQ variants to more general data which are characterized based on pairwise similarities or dissimilarities only have been proposed recently in the literature.&lt;br /&gt;
+In this contribution, we propose a novel extension of LVQ to similarity data which is based on the kernelization of an underlying probabilistic model: kernel robust soft LVQ (KRSLVQ). Relying on the notion of a pseudo-Euclidean embedding of proximity data, we put this specific approach as well as existing alternatives into a general framework which characterizes different fundamental possibilities how to extend LVQ towards proximity data: the main characteristics are given by the choice of the cost function, the interface to the data in terms of similarities or dissimilarities, and the way in which optimization takes place. In particular the latter strategy highlights the difference of popular kernel approaches versus so-called relational approaches.
+&lt;br /&gt;While KRSLVQ and alternatives lead to state of the art results, these extensions have two drawbacks as compared to their vectorial counterparts: (i) a quadratic training complexity is encountered due to the dependency of the methods on the full proximity matrix; (ii) prototypes are no longer given by vectors but they are represented in terms of an implicit linear combination of data, i.e. interpretability of the prototypes is lost. 
+&lt;br /&gt;We investigate different techniques to deal with these challenges: We consider a speed-up of training by means of low rank approximations of the Gram matrix by its Nyström approximation. In benchmarks, this strategy is successful if the considered data are intrinsically low-dimensional. We propose a quick check to efficiently test this property prior to training. 
+&lt;br /&gt;We extend KRSLVQ by sparse approximations of the prototypes: instead of the full coefficient vectors, few exemplars which represent the prototypes can be directly inspected by practitioners in the same way as data. We compare different paradigms based on which to infer a sparse approximation: sparsity priors while training, geometric approaches including orthogonal matching pursuit and core techniques, and heuristic approximations based on the coefficients or proximities.
+&lt;br /&gt;We demonstrate the performance of these LVQ techniques for benchmark data, reaching state of the art results. We discuss the behavior of the methods to enhance performance and interpretability as concerns quality, sparsity, and representativity, and we propose different measures how to quantitatively evaluate the performance of the approaches. 
+&lt;br /&gt;We would like to point out that we had the possibility to present our findings in international publication organs including three journal articles [6, 9, 2], four conference papers [8, 5, 7, 1] and two workshop contributions [4, 3].
+&lt;br /&gt;&lt;br /&gt;References
+&lt;br /&gt;[1] A. Gisbrecht, D. Hofmann, and B. Hammer. Discriminative dimensionality reduction mappings. Advances in Intelligent Data Analysis, 7619: 126–138, 2012.
+&lt;br /&gt;[2] B. Hammer, D. Hofmann, F.-M. Schleif, and X. Zhu. Learning vector quantization for (dis-)similarities. Neurocomputing, 131: 43–51, 2014.
+&lt;br /&gt;[3] D. Hofmann. Sparse approximations for kernel robust soft lvq. Mittweida Workshop on Computational Intelligence, 2013.
+&lt;br /&gt;[4] D. Hofmann, A. Gisbrecht, and B. Hammer. Discriminative probabilistic prototype based models in kernel space. New Challenges in Neural Computation, TR Machine Learning Reports, 2012.
+&lt;br /&gt;[5] D. Hofmann, A. Gisbrecht, and B. Hammer. Efficient approximations of kernel robust soft lvq. Workshop on Self-Organizing Maps, 198: 183–192, 2012.
+&lt;br /&gt;[6] D. Hofmann, A. Gisbrecht, and B. Hammer. Efficient approximations of robust soft learning vector quantization for non-vectorial data. Neurocomputing, 147: 96–106, 2015.
+&lt;br /&gt;[7] D. Hofmann and B. Hammer. Kernel robust soft learning vector quantization. Artificial Neural Networks in Pattern Recognition, 7477: 14–23, 2012.
+&lt;br /&gt;[8] D. Hofmann and B. Hammer. Sparse approximations for kernel learning vector quantization. European Symposium on Artificial Neural Networks, 549–554, 2013.
+&lt;br /&gt;[9] D. Hofmann, F.-M. Schleif, B. Paaßen, and B. Hammer. Learning interpretable kernelized prototype-based models. Neurocomputing, 141: 84–96, 2014.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29020658</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902065</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902065">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902065/2902066/thesis_dhofmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902065" DMDID="DMD2902065">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902065"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

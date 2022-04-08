@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2614576">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Augmented reality as a tool for linguistic research: Intercepting and manipulating multimodal interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Karola</namePart>
+                        <namePart type="family">Pitsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2190-5576</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Schnier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We suggest that an Augmented Reality (AR) system for coupled interaction partners provides a new tool for linguistic research that allows to manipulate the coparticipants’ real-time perception and action. It encompasses novel facilities for recording heterogeneous sensor-rich data sets to be accessed in parallel with qualitative/manual and quantitative/computational methods.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26145762</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2614576</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2614576">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2614576/2683568/Pitsch_2013_Augmented_Reality_as_a_Tool_for_Lingui.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2614576">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2614576/2638183/MMC2013Notification.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2614576" DMDID="DMD2614576">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2614576"/>
+            <mets:div TYPE="part" ID="PART1_2614576" LABEL="MMC2013Notification.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2614576"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

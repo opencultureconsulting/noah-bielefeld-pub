@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304000">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Belastung des Flugpersonals durch kosmische Strahlung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Gaël</namePart>
+                        <namePart type="family">Hammer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Maria</namePart>
+                        <namePart type="family">Blettner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2002-03-07</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Diese Arbeit befasst sich mit der Schätzung der Belastung von PilotInnen, FlugingenieurInnen und Kabinenpersonal durch kosmische Strahlung im Rahmen einer berufsepidemiologischen Kohortenstudie über das fliegende Personal der Deutschen Lufthansa AG. Die Kohorte umfasst alle Angestellten im Flugbetrieb, die im Zeitraum zwischen 1960 und 1997 mindestens ein halbes Jahr bei der Deutschen Lufthansa AG beschäftigt waren (ca. 20.000 Beschäftigte beim Kabinenpersonal und ca. 6000 bei der Cockpitbesatzung).
+Kosmische Strahlung unterscheidet sich von anderen Arten von ionisierender Strahlung dadurch, dass ein Großteil (ca. 60 v.H.) der Strahlendosis von Neutronen stammt und ihre Effekte bisher in epidemiologischen Studien nicht untersucht werden konnten.
+Die mittlere Strahlenbelastung einer Person an Bord eines Flugzeuges liegt je nach Flugstrecke, Flugzeugtyp (Flughöhe) und Jahr (Sonnenstrahlung) zwischen 0,5 micro Sv/h und 4,4 micro Sv/h, was zu mittleren Jahresdosiswerten um 0,5 bzw. 1 und 2 mSv bei Propeller- bzw. Kurz- und Langstreckenfliegern führt. Die Gesamtstrahlenexposition des Flugpersonals ziviler Luftfahrtunternehmen kann somit bis zum Doppelten der durchschnittlichen Belastung der Bevölkerung durch natürliche Quellen betragen. Die berufliche Exposition erreicht aber nicht die in der EU-Richtlinie 96/29/EURATOM festgelegten Grenzwerte von 20 mSv/Jahr im 5-Jahres-Mittel für beruflich Strahlenexponierte.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1684</identifier>
+                    <identifier type="sys">HT014238699</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304000</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304000">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304000/2304004/1diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2304000">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304000/2304003/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2304000">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304000/2304005/abstract.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304000" DMDID="DMD2304000">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304000"/>
+            <mets:div TYPE="part" ID="PART1_2304000" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2304000"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2304000" LABEL="abstract.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2304000"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

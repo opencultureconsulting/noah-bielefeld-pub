@@ -1,0 +1,131 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2953790</id><setSpec>book_chapter</setSpec><setSpec>doc-type:bookPart</setSpec><setSpec>ddc:570</setSpec><setSpec>book_chapterFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>book chapter</genre>
+
+<titleInfo><title>Reproducing Trajectory Analysis of Bumblebee Exploration Flights</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Vineet</namePart>
+  <namePart type="family">Sharma</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Olivier</namePart>
+  <namePart type="family">Bertrand</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">34427052</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0889-4550</description></name>
+<name type="personal">
+  <namePart type="given">Jens Peter</namePart>
+  <namePart type="family">Lindemann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">128150</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-5441-7931</description></name>
+<name type="personal">
+  <namePart type="given">Cord</namePart>
+  <namePart type="family">Wiljes</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">27436085</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-2528-5391</description></name>
+<name type="personal">
+  <namePart type="given">Martin</namePart>
+  <namePart type="family">Egelhaaf</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">156194</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-9336-4270</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+<name type="personal"><namePart type="given">Philipp</namePart><namePart type="family">Cimiano</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Christian</namePart><namePart type="family">Pietsch</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+<name type="personal"><namePart type="given">Cord</namePart><namePart type="family">Wiljes</namePart>
+  <role> <roleTerm type="text">editor</roleTerm> </role></name>
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">2684834</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Conquaire: Conquaire</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">This chapter describes a case study in using a combination of virtualization technology, Git as well as a continuous integration (CI) server to support sustainability of analytical pipelines. The case study was designed to reproduce one processing step in the analytical pipeline described in the paper “Taking a goal-centered dynamic snapshot as a possibility for local homing in initially naive bumblebees” [1]. In this paper, the researchers report their findings regarding the exploratory flights of bumblebees in unknown territories. Trajectories were recorded using two cameras and triangulated, yielding 3D trajectories of the flights. The original analytical workflow was implemented in MATLAB. As a result of Conquaire, the analytical workflow could be reproduced using Python, yielding trajectories that faithfully match the original trajectories. In Conquaire, we implemented an analytical workflow that relies on virtualization as well as on a continuous integration server. The main function of the virtualization is to preserve the computational environment so that it can be easily executed by third parties without the need to reproduce the exact computational environment nor to install any libraries. A continuous integration server was used to implement basic mechanisms for quality control over the data, leading to the discovery of some minor mistakes that could be directly corrected. The case study has demonstrated the usefulness of using a combination of virtualization and continuous integration to support analytical reproducibility in the natural sciences, neuroethology in particular. </abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="conquaire-book _chapter-4.pdf">https://pub.uni-bielefeld.de/download/2953790/2953801/conquaire-book _chapter-4.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Insect spatial locomotion</topic><topic>bumblebee flights</topic><topic>analytical reproducibility</topic><topic>virtualization</topic><topic>continuous integration</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Studies in Analytical Reproducibility: the Conquaire Project</title></titleInfo>
+  <identifier type="isbn">978-3-943363-06-7</identifier><identifier type="urn">urn:nbn:de:0070-pub-29537909</identifier>
+<part><extent unit="pages">43-56</extent>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2942780</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<ama>Sharma V, Bertrand O, Lindemann JP, Wiljes C, Egelhaaf M, Cimiano P. Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In: Cimiano P, Pietsch C, Wiljes C, eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Bielefeld: Universität Bielefeld;  2021: 43-56.</ama>
+<frontiers>Sharma, V., Bertrand, O., Lindemann, J. P., Wiljes, C., Egelhaaf, M., and Cimiano, P. (2021). “Reproducing Trajectory Analysis of Bumblebee Exploration Flights” in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, Cimiano, P., Pietsch, C., and Wiljes, C. eds. (Bielefeld: Universität Bielefeld), 43-56.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sharma, V., Bertrand, O., Lindemann, J.P., Wiljes, C., Egelhaaf, M. &amp;amp; Cimiano, P. (2021). Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In P. Cimiano, C. Pietsch &amp;amp; C. Wiljes (Hrsg.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (S. 43-56). Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<apa>Sharma, V., Bertrand, O., Lindemann, J. P., Wiljes, C., Egelhaaf, M., &amp;amp; Cimiano, P. (2021). Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 43-56). Bielefeld: Universität Bielefeld.</apa>
+<ieee> V. Sharma, et al., “Reproducing Trajectory Analysis of Bumblebee Exploration Flights”, &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, P. Cimiano, C. Pietsch, and C. Wiljes, eds.,  Bielefeld: Universität Bielefeld, 2021,  pp.43-56.</ieee>
+<wels>Sharma, V.; Bertrand, O.; Lindemann, J. P.; Wiljes, C.; Egelhaaf, M.; Cimiano, P. (2021): Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In: Philipp Cimiano; Christian Pietsch; Cord Wiljes (Hrsg.):  Studies in Analytical Reproducibility: the Conquaire Project. Bielefeld: Universität Bielefeld.  S. 43-56.</wels>
+<harvard1>Sharma, V., et al., 2021. Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes, eds. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;.  Bielefeld: Universität Bielefeld, pp. 43-56.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sharma, V., Bertrand, O., Lindemann, J. P., Wiljes, C., Egelhaaf, M., &amp;amp; Cimiano, P. (2021). Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In P.  Cimiano, C.  Pietsch, &amp;amp; C.  Wiljes (Eds.), &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (pp. 43-56). Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Sharma V, Bertrand O, Lindemann JP, Wiljes C, Egelhaaf M, Cimiano P (2021) &lt;br /&gt;Reproducing Trajectory Analysis of Bumblebee Exploration Flights. &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C (Eds); Bielefeld: Universität Bielefeld:  43-56.</bio1>
+<angewandte-chemie>V.  Sharma, O.  Bertrand, J. P.  Lindemann, C.  Wiljes, M.  Egelhaaf, and P.  Cimiano, in &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt; (Eds.: P. Cimiano, C. Pietsch, C. Wiljes), Universität Bielefeld, Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;, p. 43-56.</angewandte-chemie>
+<lncs> Sharma, V., Bertrand, O., Lindemann, J.P., Wiljes, C., Egelhaaf, M., Cimiano, P.: Reproducing Trajectory Analysis of Bumblebee Exploration Flights. In: Cimiano, P., Pietsch, C., and Wiljes, C. (eds.) Studies in Analytical Reproducibility: the Conquaire Project. p. 43-56. Universität Bielefeld, Bielefeld (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sharma, Vineet, Bertrand, Olivier, Lindemann, Jens Peter, Wiljes, Cord, Egelhaaf, Martin, and Cimiano, Philipp. 2021. “Reproducing Trajectory Analysis of Bumblebee Exploration Flights”. In &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;, ed. Philipp Cimiano, Christian Pietsch, and Cord Wiljes, 43-56. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Sharma, Vineet, Bertrand, Olivier, Lindemann, Jens Peter, Wiljes, Cord, Egelhaaf, Martin, and Cimiano, Philipp. “Reproducing Trajectory Analysis of Bumblebee Exploration Flights”. &lt;em&gt;Studies in Analytical Reproducibility: the Conquaire Project&lt;/em&gt;. Ed. Philipp Cimiano, Christian Pietsch, and Cord Wiljes. Bielefeld: Universität Bielefeld, 2021. 43-56.</mla>
+<default>Sharma V, Bertrand O, Lindemann JP, Wiljes C, Egelhaaf M, Cimiano P (2021)  &lt;br /&gt;In:  Studies in Analytical Reproducibility: the Conquaire Project. Cimiano P, Pietsch C, Wiljes C (Eds);  Bielefeld: Universität Bielefeld:  43-56.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2953790</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-04-10T20:16:19Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T13:06:39Z</recordChangeDate>
+</recordInfo>
+</mods>

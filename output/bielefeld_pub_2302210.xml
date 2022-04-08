@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302210">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>In silico systems analysis of biopathways</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>In-silico-Systemanalyse von Biopathways</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ming</namePart>
+                        <namePart type="family">Chen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Hofestädt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2004</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2004-08-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In the past decade with the advent of high-throughput technologies, biology has migrated from a descriptive science to a predictive one. A vast amount of information on the metabolism have been produced; a number of specific genetic/metabolic databases and computational systems have been developed, which makes it possible for biologists to perform in silico analysis of metabolism. With experimental data from laboratory, biologists wish to systematically conduct their analysis with an easy-to-use computational system. One major task is to implement molecular information systems that will allow to integrate different molecular database systems, and to design analysis tools (e.g. simulators of complex metabolic reactions). Three key problems are involved: 1) Modeling and simulation of biological processes; 2) Reconstruction of metabolic pathways, leading to predictions about the integrated function of the network; and 3) Comparison of metabolism, providing an important way to reveal the functional relationship between a set of metabolic pathways.
+This dissertation addresses these problems of in silico systems analysis of biopathways. We developed a software system to integrate the access to different databases, and exploited the Petri net methodology to model and simulate metabolic networks in cells. It develops a computer modeling and simulation technique based on Petri net methodology; investigates metabolic networks at a system level; proposes a markup language for biological data interchange among diverse biological simulators and Petri net tools; establishes a web-based information retrieval system for metabolic pathway prediction; presents an algorithm for metabolic pathway alignment; recommends a nomenclature of cellular signal transduction; and attempts to standardize the representation of biological pathways.
+Hybrid Petri net methodology is exploited to model metabolic networks. Kinetic modeling strategy and Petri net modeling algorithm are applied to perform the processes of elements functioning and model analysis. The proposed methodology can be used for all other metabolic networks or the virtual cell metabolism. Moreover, perspectives of Petri net modeling and simulation of metabolic networks are outlined.
+A proposal for the Biology Petri Net Markup Language (BioPNML) is presented. The concepts and terminology of the interchange format, as well as its syntax (which is based on XML) are introduced. BioPNML is designed to provide a starting point for the development of a standard interchange format for Bioinformatics and Petri nets. The language makes it possible to exchange biology Petri net diagrams between all supported hardware platforms and versions. It is also designed to associate Petri net models and other known metabolic simulators.
+A web-based metabolic information retrieval system, PathAligner, is developed in order to predict metabolic pathways from rudimentary elements of pathways. It extracts metabolic information from biological databases via the Internet, and builds metabolic pathways with data sources of genes, sequences, enzymes, metabolites, etc. The system also provides a navigation platform to investigate metabolic related information, and transforms the output data into XML files for further modeling and simulation of the reconstructed pathway.
+An alignment algorithm to compare the similarity between metabolic pathways is presented. A new definition of the metabolic pathway is proposed. The pathway defined as a linear event sequence is practical for our alignment algorithm. The algorithm is based on strip scoring the similarity of 4-hierarchical EC numbers involved in the pathways. The algorithm described has been implemented and is in current use in the context of the PathAligner system.
+Furthermore, new methods for the classification and nomenclature of cellular signal transductions are recommended. For each type of characterized signal transduction, a unique ST number is provided. The Signal Transduction Classification Database (STCDB), based on the proposed classification and nomenclature, has been established. By merging the ST numbers with EC numbers, alignments of biopathways are possible.
+Finally, a detailed model of urea cycle that includes gene regulatory networks, metabolic pathways and signal transduction is demonstrated by using our approaches. A system biological interpretation of the observed behavior of the urea cycle and its related transcriptomics information is proposed to provide new insights for metabolic engineering and medical care.</abstract>
+                    <subject>
+                        <topic>STCDB</topic>
+                        <topic>PathAligner</topic>
+                        <topic>Systembiologie</topic>
+                        <topic>In silico-Methode</topic>
+                        <topic>Biopathways</topic>
+                        <topic>Systems biology</topic>
+                        <topic>Bioinformatics</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-5566</identifier>
+                    <identifier type="sys">HT014323779</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302210</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302210">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302210/2302213/mingchen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302210" DMDID="DMD2302210">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302210"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

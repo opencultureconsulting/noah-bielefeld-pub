@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303016">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On singular control games : with applications to capital accumulation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan-Henrik</namePart>
+                        <namePart type="family">Steg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Riedel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-07-09</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The aim of this work is to establish a mathematically precise framework for studying games of capital accumulation under uncertainty. Such games arise as a natural extension from different perspectives that all lead to singular control exercised by the agents, which induces some essential formalization problems.
+Capital accumulation as a game in continuous time originates from the work of Spence (1979), where firms make dynamic investment decisions to expand their production capacities irreversibly. Spence analyses the strategic effect of capital commitment, but in a deterministic world. We add uncertainty to the model - as he suggests - to account for an important further aspect of investment. Uncertain returns induce a reluctance to invest and thus allow to abolish the artificial bound on investment rates, resulting in singular control.
+In a rather general formulation, this intention has only been achieved before for the limiting case of perfect competition, where an individual firm&apos;s action does not influence other players&apos; payoffs and decisions, see Baldursson and Karatzas (1997). The perfectly competitive equilibrium is linked via a social planner to the other extreme, monopoly, which benefits similarly from the lack of interaction. There is considerable work on the single agent&apos;s problem of sequential irreversible investment, see e.g. Pindyck (1988), Bertola (1998), Riedel and Su (2010), and all instances involve singular control. In our game, the number of players is finite and actions have a strategic effect, so this is the second line of research we extend.
+With irreversible investment, the firm&apos;s opportunity to freely choose the time of investment is a perpetual real option. It is intuitive that the value of the option is strongly affected when competitors can influence the value of the underlying by their actions. The classical option value of waiting is threatened under competition and the need arises to model option exercise games.
+While typical formulations assume fixed investment sizes and pose only the question how to schedule a single action, we determine investment sizes endogenously. Our framework is also the limiting case for repeated investment opportunities of arbitrarily small size. Since investment is allowed to take the form of singular control, its rate need not be defined even where it occurs continuously.
+We begin with open loop strategies, which condition investment only on the information concerning exogenous uncertainty. Technically, this is the multi-agent version of the sequential irreversible investment problem, since determining a best reply to open loop strategies in a rather general formulation is a monotone follower problem. The main new mathematical problem is then consistency in equilibrium. We show that it suffices to focus on the instantaneous strategic properties of capital to obtain quite concise statements about equilibrium existence and characteristics, without a need to specify the model or the underlying uncertainty in detail. Nevertheless, the scope for strategic interaction is rather limited when modelling open loop strategies.
+With our subsequent account of closed loop strategies, we enter completely new terrain. While formulating the game with open loop strategies is a quite clear extension of monopoly, we now have to propose classes of strategies that can be handled, and conceive of an appropriate (subgame perfect) equilibrium definition.
+After establishing the formal framework in a first effort, we encounter new control problems in equilibrium determination. Since the methods used for open loop strategies are not applicable, we take a dynamic programming approach and develop a suitable verification theorem. It is applied to construct different classes of Markov perfect equilibria for the model by Grenadier (2002) to study the effect of preemption on the value of the option to delay investment. In fact, there are Markov perfect equilibria with positive option values despite perfect circumstances for preemption.</abstract>
+                    <subject>
+                        <topic>Stochastic differential game</topic>
+                        <topic>Singular control</topic>
+                        <topic>Irreversible investment</topic>
+                        <topic>Oligopoly</topic>
+                        <topic>Spieltheorie</topic>
+                        <topic>Stochastische optimale Kontrolle</topic>
+                        <topic>Oligopol</topic>
+                        <topic>Kapitalakkumulation</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17560</identifier>
+                    <identifier type="sys">HT016660813</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303016</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303016">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303016/2303019/diss_steg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303016" DMDID="DMD2303016">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303016"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,121 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305571</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Flexible protein annotation with sequence- and secondary structure information</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Constantin</namePart>
+  <namePart type="family">Bannert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Ina</namePart>
+  
+  
+  <namePart type="family">Koch</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Eine Standardproblem der Sequenzanalyse in der Bioinformatik ist die Verwandtschaftssuche, bei der eine Datenbank nach verwandten Genen zu einer Anfragesequenz durchsucht wird. Obwohl es hierfür bereits verschiedene Ansätze gibt, ist noch Raum für Erweiterungen vorhanden. Eine Möglichkeit ist es, die Information in den Quelldaten besser auszunutzen. Eine andere Möglichkeit ist die Erweiterung entsprechender Software durch neue Optionen.
+Der "Jumping Alignment" Algorithmus (Jali) ist eine Methode zur Datenbanksuche. Er arbeitet auf multiplen Sequenzalignments. Im Gegensatz zu älteren Methoden kann Jali die Information in den Zeilen und den Spalten des multiplen Alignments verwenden. Erste Evaluierungen von Jali waren vielversprechend. Wir evaluieren Jali nochmals mit anderen Daten. Wir analysieren einige "Jumping alignments" mit integrierter Sekundärstrukturinformation und untersuchen, ob der Algorithmus in der Lage ist, die Sekundärstruktur zu berücksichtigen. Wir zeigen eines der seltenen Beispiele, wo dies der Fall ist. In einem zweiten Experiment simulieren wir die Evolution von zehn künstlich erzeugten Proteinfamilien und testen Jali damit. Unsere Ergebnisse zeigen, dass Jali durch seine Sprungfähigkeit an Flexibilität bei der Verwandtschaftssuche gewinnt; besonders dann, wenn die zu Grunde liegenden multiplen Alignments suboptimal sind.
+Viele Alignment-basierte Methoden zur Verwandtschaftssuche haben bestimmte Beschränkungen. Sie sind nicht darauf ausgelegt, mit Duplikationen oder Umordnungen in den Eingangssequenzen umzugehen. Außerdem ist deren Ausgabe oft nur eine wenig informative Liste mit numerischen Bewertungen der einzelnen Alignments.
+Wir entwickeln eine neue Methode "Passta", die diese Einschränkungen umgeht. Die erste Phase des Protokolls dient als Filter, der Datenbank-Targets ausfiltern soll, die nicht mit der Anfragesequenz verwandt sind. Die Kandidatenmenge wird dann an die Phase Zwei weitergegeben, die die eigentliche Annotation der Anfragesequenz mit Alignments von Sekundärstrukturelementen (SSEs) durchführt. Diese Alignments werden als Knoten in einem Graph repräsentiert, der optimale Pfad entspricht prinzipiell einer Auswahl der besten Alignments im Graph.
+Bevor wir Passta evaluieren, trainieren wir einige Parameter der Methode und besprechen interessante Ergebnisse. Wir kalibrieren ausserdem einen wichtigen Parameter der Methode und zeigen dabei identifizierte SCOP-Familien mit Duplikationen oder Umordnungen.
+Das letzte Kapitel enthält eine Evaluierung von Passta mit Jali und BLAST. Leider zeigen die Ergebnisse, dass die erste Phase von Passta nicht besonders effizient arbeitet. Der Hauptgrund ist, dass die verwendeten Sekundärstrukturalignments oft kurz und dann unspezifisch sind. Wir können aber auch das Potenzial von Phase Zwei zeigen: Wenn wir alle verwandten Sequenzen der Kandidatenmenge hinzufügen, die von Phase Eins verworfen wurden, so ist Phase Zwei in der Lage, mit etablierten Methoden wie Jali und BLAST zu konkurrieren.</abstract>
+<abstract lang="eng">The number of known gene sequences is still rising at an increasing pace. A standard task in sequence analysis is homology recognition, where a database is searched for homologous sequences. Even though already several software tools for homology recognition exist, there is still room for improvement. One possibility is to use more of the information in the source data. Another possibility is to add new features to support research on specific questions.
+The Jumping Alignment algorithm (Jali) is a method for database searching. It works on multiple sequence alignments. In contrast to previous approaches, Jali is able to consider the information in the rows and the columns of a multiple alignment. Initial evaluations of Jali showed promising results. We evaluate Jali once more to see if the good results can be reproduced and investigate the reason. We analyze a set of jumping alignments with underlying secondary structure information for cases of "structural significance", where Jali seems to recognize the secondary structure in the alignment. Even though we found a few examples, these cases are rare. In a second experiment, we simulate the evolution of ten protein superfamilies and evaluate Jali on these families. The findings suggest that jumping offers Jali more flexibility in homology recognition, especially in conjunction with suboptimal alignments.
+Many alignment-based approaches in homology recognition share certain limitations. They are not well suited to cope with duplications or rearrangements in the input sequences. In addition, their output is usually a list of scores that is not very informative.
+We develop a new method "Passta" that circumvents these limitations. The first stage of the protocol (Pass One) serves as filter. Pass One tries to find a set of targets that are related to a given query. This candidate set is then submitted to Pass Two, where the query is annotated with alignments of Secondary Structure Elements (SSEs). In a graph-based approach, we select those alignments that reproduce the query in an optimal way.
+Prior to a systematic evaluation of Passta, we train some of its parameters and discover interesting differences in the behavior of the three SSE classes coil, helix, and strand. We also calibrate the rearrangement cost parameter of Pass Two and use our method to find SCOP families with rearrangements or duplications, with nice results.
+Finally, we present a comparative evaluation of Passta with Jali and BLAST. Unfortunately the results show that Pass One is not working very well. The main reason is that SSEs are short sequence fragments and alignments with SSEs are often unspecific. We are however able to show the potential of Pass Two: When we add the true positive targets missed by Pass One, Pass Two is able to compete with Jali and BLAST.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissBieson.pdf">https://pub.uni-bielefeld.de/download/2305571/2305574/dissBieson.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Proteine , Sekundärstruktur , Annotation , Sequenzanalyse (Chemie) , Alignment (Biochemie) , Datenbank , Passta , Jumping Alignment Algorithmus (Jali) , Proteinfamilie , Sekundärstrukturelemente (SSE) , SCOP , Jumping alignment</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-15091</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2009-03-15</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Bannert, C.: Flexible protein annotation with sequence- and secondary structure information. Bielefeld University, Bielefeld (Germany) (2008).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bannert, Constantin. 2008. &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Bannert, Constantin. &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2008.</mla>
+<default>Bannert C (2008) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<ama>Bannert C. &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2008.</ama>
+<frontiers>Bannert, C. (2008). Flexible protein annotation with sequence- and secondary structure information. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bannert, C. (2008). &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Bannert, C. (2008).  &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> C. Bannert, &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2008.</ieee>
+<wels>Bannert, C. (2008): Flexible protein annotation with sequence- and secondary structure information. Bielefeld (Germany): Bielefeld University.</wels>
+<bio1>Bannert C (2008) &lt;br /&gt;&lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Bannert, C. (2008).  &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Bannert, C., 2008. &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<angewandte-chemie>C.  Bannert, &lt;em&gt;Flexible protein annotation with sequence- and secondary structure information&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305571</recordIdentifier><recordCreationDate encoding="w3cdtf">2009-06-15T11:46:12Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:55Z</recordChangeDate>
+</recordInfo>
+</mods>

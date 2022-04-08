@@ -1,0 +1,108 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2733228</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Adaptive prototype-based dissimilarity learning</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Xibin</namePart>
+  <namePart type="family">Zhu</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">20894287</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Barbara</namePart>
+  
+  
+  <namePart type="family">Hammer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this thesis we focus on prototype-based learning techniques, namely three unsuper- vised techniques: generative topographic mapping (GTM), neural gas (NG) and affinity propagation (AP), and two supervised techniques: generalized learning vector quantiza- tion (GLVQ) and robust soft learning vector quantization (RSLVQ). We extend their abilities with respect to the following central aspects:
+• Applicability on dissimilarity data: Due to the increased complexity of data, in many cases data are only available in form of (dis)similarities which describe the relations between objects. Classical methods can not directly deal with this kind of data. For unsupervised methods this problem has been studied, here we transfer the same idea to the two supervised prototype-based techniques such that they can directly deal with dissimilarities without an explicit embedding into a vector space.
+
+• Quadratic complexity issue: For dealing with dissimilarity data, due to the need of the full dissimilarity matrix, the complexity becomes quadratic which is infeasible for large data sets. In this thesis we investigate two linear approximation techniques: Nyström approximation and patch processing, and integrate them into unsupervised and supervised prototype-based techniques.
+
+• Reliability of prototype-based classifiers: In practical applications, a relia- bility measure is beneficial for evaluating the classification quality expected by the end users. Here we adopt concepts from conformal prediction (CP), which provides point-wise confidence measure of the prediction, and we combine those with supervised prototype-based techniques.
+• Model complexity: By means of the confidence values provided by CP, the model complexity can be automatically adjusted by adding new prototypes to cover low confidence data space.
+
+• Extendability to semi-supervised problems: Besides its ability to evaluate a classifier, conformal prediction can also be considered as a classifier. This opens a way that supervised techniques can be easily extended for semi-supervised settings by means of a self-training approach.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="diss_final.pdf">https://pub.uni-bielefeld.de/download/2733228/2733229/diss_final.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universitätsbibliothek Bielefeld</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>CP</topic><topic>conformal prediction</topic><topic>RSLVQ</topic><topic>LVQ</topic><topic>GLVQ</topic><topic>prototype-based learning</topic><topic>ng</topic><topic>learning vector quantization</topic><topic>GTM</topic><topic>Affinity Propagation</topic><topic>generative topographic mapping</topic><topic>neural gas</topic><topic>semi-supervised learning</topic><topic>AP</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27332287</identifier>
+<part><extent unit="pages">111</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2015-02-25</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Zhu, X. (2015): Adaptive prototype-based dissimilarity learning. Bielefeld: Universitätsbibliothek Bielefeld.</wels>
+<bio1>Zhu X (2015) &lt;br /&gt;&lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universitätsbibliothek Bielefeld.</bio1>
+<harvard1>Zhu, X., 2015. &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;, Bielefeld: Universitätsbibliothek Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zhu, X. (2015).  &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>X.  Zhu, &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;, Universitätsbibliothek Bielefeld, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<ama>Zhu X. &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld; 2015.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zhu, X. (2015). &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Zhu, X. (2015). Adaptive prototype-based dissimilarity learning. Bielefeld: Universitätsbibliothek Bielefeld.</frontiers>
+<apa>Zhu, X. (2015).  &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.</apa>
+<ieee> X. Zhu, &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;,  Bielefeld: Universitätsbibliothek Bielefeld, 2015.</ieee>
+<lncs> Zhu, X.: Adaptive prototype-based dissimilarity learning. Universitätsbibliothek Bielefeld, Bielefeld (2015).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zhu, Xibin. 2015. &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld.&lt;/div&gt;</chicago>
+<mla>Zhu, Xibin. &lt;em&gt;Adaptive prototype-based dissimilarity learning&lt;/em&gt;. Bielefeld: Universitätsbibliothek Bielefeld, 2015.</mla>
+<default>Zhu X (2015) &lt;br /&gt;Bielefeld: Universitätsbibliothek Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2733228</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-05-02T09:20:06Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:35Z</recordChangeDate>
+</recordInfo>
+</mods>

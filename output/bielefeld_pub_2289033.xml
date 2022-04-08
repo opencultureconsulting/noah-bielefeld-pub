@@ -1,0 +1,112 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2289033">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Compiler-Driven Reconfiguration of Multiprocessors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Hussmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Thies</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Uwe</namePart>
+                        <namePart type="family">Kastens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Madhura</namePart>
+                        <namePart type="family">Purnaprajna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Multiprocessors enable parallel execution of a single large
+application to achieve a performance improvement. An application
+is split at instruction, data or task level (based on
+the granularity), such that the overhead of partitioning is
+minimal. Parallelization for multiprocessors is mostly restricted
+to a fixed granularity. Reconfiguration enables architectural
+variations to allow multiple granularities of operation
+within a multiprocessor. This adaptability optimizes
+resource utilization over a fixed organization.
+Here, a unified hardware-software approach to design a
+reconfigurable multiprocessor system called QuadroCore is
+presented. In our holistic methodology, compiler-driven reconfiguration
+selects from a fixed set of modes. Each mode
+relies on matching program analysis to exploit the architecture
+efficiently. For instance, a multiprocessor may adapt
+to different parallelization paradigms. The compiler can
+determine the best execution mode for each piece of code
+by analyzing the parallelism in a program. A fast, singlecycle,
+run-time reconfiguration between these predetermined
+modes is enabled by executing special instructions which
+switch coarse-grained components like instruction decoders,
+ALUs and register banks. Performance is evaluated in terms
+of execution cycles and achieved clock frequency. First results
+indicate suitability especially in audio and video processing
+applications.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22890330</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2289033</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2289033">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2289033/2407124/CompilerDriven_Reconfiguration_of_Multiprocessors.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2289033" DMDID="DMD2289033">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2289033"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

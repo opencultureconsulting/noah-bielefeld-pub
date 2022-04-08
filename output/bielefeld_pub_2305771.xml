@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305771">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evolutionäre Systemintegration für die Entwicklung interaktiver Roboter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten Peter</namePart>
+                        <namePart type="family">Spexard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-05-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Das Ziel der Arbeit ist die Entwicklung einer evolutionären Systemintegration auf Basis einer Architektur, die in Hinblick sowohl auf einzelne Module als auch auf das durch den Benutzer wahrnehmbare Gesamtverhalten des Roboters genügend Anpassungsfähigkeit bietet, um ein System kontinuierlich weiterzuentwickeln. Auf der Ebene einzelner Module bedeutet dies, das Hinzufügen, Austauschen und Anpassen von Modulen zu erleichtern. Module erweitern den Roboter um einzelne Fähigkeiten, wie zum Beispiel Motorkontrolle oder Personendetektion. Komplexere Aktionen, wie das Folgen einer Person, sind Bestandteil des Gesamtverhaltens und werden durch Kombination von Fähigkeiten, wie Personenerkennung und Motorkontrolle, aufgebaut. Für diesen Aufbau wird ein zentrales Verfahren entwickelt, welches eine schnelle und einfache Anpassung des Gesamtverhaltens ermöglicht, ohne jedoch eine direkte und statische Kontrolle auf die anderen Komponenten auszuüben.
+Um diese sehr weitreichende Thematik auf eine feste Basis zu stellen und in einem realen System zu implementieren, wird folgenden konkreten Fragestellungen nachgegangen:
+- Wie kann ein bestehendes System mit möglichst geringem Adaptionsaufwand um neu entwickelte Fähigkeiten erweitert werden?
+- Wie können konkurrierende Anforderungen an begrenzte Ressourcen aufgelöst werden?
+- Wie werden asynchrone Modulprozesse zu einer gewünschten Roboteraktion verknüpft?
+- Wie kann ein bestehendes Systemverhalten einfach und schnell auf neue Anforderungen angepasst werden?
+Für die erfolgreiche Beantwortung dieser Fragen wird im Rahmen der präsentierten Arbeit auf eine Familie unterschiedlicher Systeme eingegangen, die sich aus einem Basis-Demonstrator und dessen Anwendungsszenario entwickelt hat. Teile dieser Familie sind Schwerpunkte zweier großer Forschungsprojekte, zum einen dem europaweiten und von der Europäischen Union geförderten Cognitive Robot Companion (COGNIRON), zum anderen dem von der DFG geförderten Sonderforschungsbereich 673, Alignment in Communication.</abstract>
+                    <subject>
+                        <topic>Serviceroboter</topic>
+                        <topic>Systemintegration</topic>
+                        <topic>Mensch-Roboter-Interaktion</topic>
+                        <topic>Interaktive Systeme</topic>
+                        <topic>Systemarchitektur</topic>
+                        <topic>Evolutionary system integration architecture (ESIA)</topic>
+                        <topic>System integration</topic>
+                        <topic>Human-robot interaction</topic>
+                        <topic>Evolutionäre Architektur zur Systemintegration (EASI)</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-17422</identifier>
+                    <identifier type="sys">HT016854350</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305771</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305771">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305771/2305774/Diss_tspexard.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305771" DMDID="DMD2305771">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305771"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

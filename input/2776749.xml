@@ -1,0 +1,124 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2776749</id><setSpec>bi_master_thesis</setSpec><setSpec>doc-type:masterThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_master_thesisFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Ranking of disease gene associations from large corpora of scientific publications</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Hendrik</namePart>
+  <namePart type="family">ter Horst</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">36764835</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-3244-6595</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Philipp</namePart>
+  
+  
+  <namePart type="family">Cimiano</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Matthias</namePart>
+  
+  
+  <namePart type="family">Hartung</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15019923</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The extraction of disease-gene associations from biomedical publications is a widely inves-
+tigated field of research. In previous work, a frequent method was to implement natural
+language processing tools that use semantic information to find such associations. How-
+ever, most of these approaches are restricted to single documents. Retrieval systems that
+predict novel associations across various documents often lack the ability to deal with the
+huge amount of resulting candidates. In this work, we present a system that aggregates
+information from a large corpora of scientific abstracts. This information is used to build a
+comprehensive gene-interaction network, which is then used to predict novel disease-gene
+associations. We tackle the problem of candidate reduction by integrating two separate
+machine learning methods. We train a support vector machine to classify genes as disease
+related or not and a support vector regression model to rank gene-candidates according to
+their importance to a specific disease. Thereto, we make use of approved methods and ex-
+tend them by a novel investigation of the gene-interaction network. In a model-evaluation
+on two gold standards as well as in a case-study in cooperation with biomedical experts,
+it is shown that the proposed methods are able to extract disease-gene-associations from
+single documents and discover disease-related candidates across multiple documents.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Master_Thesis_-_Hendrik_ter_Horst.pdf">https://pub.uni-bielefeld.de/download/2776749/2777265/Master_Thesis_-_Hendrik_ter_Horst.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>machine learning</topic><topic>text mining</topic><topic>biomedical literature</topic><topic>graph-based features</topic><topic>disease-gene associations</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-27767490</identifier>
+<part><extent unit="pages">107</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<frontiers>ter Horst, H. (2015). Ranking of disease gene associations from large corpora of scientific publications. Bielefeld: Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H. (2015). &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</dgps>
+<ama>ter Horst H. &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University; 2015.</ama>
+<ieee> H. ter Horst, &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;,  Bielefeld: Bielefeld University, 2015.</ieee>
+<apa>ter Horst, H. (2015).  &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University.</apa>
+<wels>ter Horst, H. (2015): Ranking of disease gene associations from large corpora of scientific publications. Bielefeld: Bielefeld University.</wels>
+<angewandte-chemie>H.  ter Horst, &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;, Bielefeld University, Bielefeld, &lt;strong&gt;2015&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>ter Horst, H., 2015. &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;, Bielefeld: Bielefeld University.</harvard1>
+<bio1>ter Horst H (2015) &lt;br /&gt;&lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;.&lt;br /&gt;Bielefeld: Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, H. (2015).  &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</apa_indent>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;ter Horst, Hendrik. 2015. &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> ter Horst, H.: Ranking of disease gene associations from large corpora of scientific publications. Bielefeld University, Bielefeld (2015).</lncs>
+<default>ter Horst H (2015) &lt;br /&gt;Bielefeld: Bielefeld University.</default>
+<mla>ter Horst, Hendrik. &lt;em&gt;Ranking of disease gene associations from large corpora of scientific publications&lt;/em&gt;. Bielefeld: Bielefeld University, 2015.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2776749</recordIdentifier><recordCreationDate encoding="w3cdtf">2015-09-25T08:10:22Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:08Z</recordChangeDate>
+</recordInfo>
+</mods>

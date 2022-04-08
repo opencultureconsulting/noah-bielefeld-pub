@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2918858">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>FPGA-Cluster – Anwendungsgebiete und Kommunikationsstrukturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Romoth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Schröder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-10-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Fortschritte in der Fertigungstechnik von Halbleitern in Silizium ermöglichen hohe Integrationsdichten und somit den Entwurf von leistungsstarken digitalen logikverarbeitenden Elementen. Mit Hilfe hochparalleler anpassbarer flexibler Architekturen wie im Feld programmierbare Logik-Gatter-Anordnungen (engl.: Field Programmable Gate Array, FPGA) kann eine Vielzahl an Problemstellungen gelöst werden. Aufgrund der gebotenen Parallelität ist es selbst bei den verhältnismäßig geringen Taktraten des FPGAs, die den hochspezialisierten dedizierten Schaltungen anderer Systeme gegenüberstehen, möglich, harte Echtzeitschranken bei der Lösungsberechnung einzuhalten. Darüber hinaus ist die Energieeffizienz aufgrund des proportionalen Einflusses der Taktrate auf die dynamische Verlustleistung von Schaltungen wesentlich höher. Dennoch erfordern unterschiedliche Anwendungsszenarien von FPGAs eine derart hohe Anzahl an Logikressourcen, dass nur die Bündelung mehrerer FPGAs zu einem vernetzten Cluster eine effiziente Verarbeitung gewährleistet.&lt;br /&gt;&lt;br /&gt;
+
+Im Verlauf dieser Arbeit werden die Anforderungen an eine FPGA-Cluster-Lösung herausgestellt. Anhand eines Überblicks über die typischen Anwendungsfelder rekonfigurierbarer Logiksysteme können die grundlegenden Voraussetzungen identifiziert werden, die eine universell einsetzbare FPGA-Cluster-Architektur erfüllen muss. Insbesondere an die Kommunikationsinfrastruktur zwischen den einzelnen FPGAs im Cluster werden hohe Anforderungen in Bezug auf die Flexibilität gestellt. Die Anpassbarkeit an die individuellen Anforderungen der eingesetzten Algorithmen ist somit neben der Datenrate und der Latenz ein Kernelement bei der Entwicklung des FPGA-Clusters. Zur Evaluation von Systementwürfen wird eine Modellierung erarbeitet, die einen Vergleich auf Basis der Kommunikationsstrukturen ermöglicht. Eine darüber hinausgehende Optimierung des die Verbindungen im Cluster beschreibenden Graphen führt zu einer Minimierung der Latenz von Datenübertragungen und somit zu einer Leistungssteigerung des Gesamtsystems.&lt;br /&gt;&lt;br /&gt;
+
+Die identifizierten Anforderungen an ein flexibles, modulares und skalierbares FPGA-Cluster-System werden im Rahmen der Arbeit umgesetzt, so dass der RAPTOR-XPress-FPGA-Cluster entsteht, der zudem zur Steigerung der Ressourceneffizienz auf den Mehranwenderbetrieb ausgelegt ist. Auf diese Weise lassen sich in einer Anwendung ungenutzte FPGAs parallel für andere Aufgaben verwenden. Im Zusammenspiel mehrerer Arbeiten des Fachgebiets Kognitronik und Sensorik der Universität Bielefeld ist ein Beispielaufbau mit 16 RAPTOR-XPress-Trägersystemen und 64 FPGAs mit insgesamt 44 359 680 Logikzellen-Äquivalenten und 256 GB an lokalem Arbeitsspeicher realisiert worden. Durch die Umsetzung topologieoptimierter Verbindungsstrukturen kann eine gegenüber vergleichbaren Systemen um 28% gesteigerte Logikdichte erreicht werden, die zusammen mit der erzielbaren Datenrate von 16 x 11,5 Gbit/s die Leistungsfähigkeit der Kommunikationsinfrastruktur des FPGA-Clusters verdeutlicht.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29188584</identifier>
+                    <identifier type="sys">HT019683101</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2918858</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2918858">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2918858/2918859/Dissertation_KS14_-_Johannes_Romoth_-_FPGA-Cluster_--_Anwendungsgebiete_und_Kommunikationsstrukturen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2918858" DMDID="DMD2918858">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2918858"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

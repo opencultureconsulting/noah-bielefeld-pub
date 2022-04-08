@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1890984">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Comprehensive System for 3D Modeling from Range Images Acquired from a 3D ToF Sensor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Agnes</namePart>
+                        <namePart type="family">Swadzba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bing</namePart>
+                        <namePart type="family">Liu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen</namePart>
+                        <namePart type="family">Penne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Jesorsky</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Kompe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Developing a system which generates a 3D representation of a whole scene is a difficult task. Several new technologies of 3D time-of-flight (ToF) imaging have been developed in recent years, which overcome various limitations of other 3D imaging systems, such as laser/ra­dar/sonar scanners, structured light and stereo rigs. However, only limited work got published upon computer vision applications based on such ToF sensors. We present in this paper a new complete system for 3D modeling from a sequence of range images acquired during an arbitrary flight of a 3D ToF sensor. First, comprehensive preprocessing steps are performed to improve the quality of range images. An initial estimate of the transformation between two 3D point clouds, which are computed from two consecutive range images respectively, is achieved through feature extraction and tracking based on three kinds of images delivered by the 3D sensor. During the initial estimation, a RANSAC sampling algorithm is implemented to filter out outlier correspondences. At last the transformation is further optimized through registering the two 3D point clouds using a robust variation of the Iterative Closest Point (ICP) algorithm, the so-called Picky ICP. Extensive experimental results are provided in the paper and show the efficiency and robustness of the proposed system.</abstract>
+                    <subject>
+                        <topic>3D time-of-flight sensor</topic>
+                        <topic>ICP</topic>
+                        <topic>range image registration</topic>
+                        <topic>3D surface reconstruction</topic>
+                        <topic>motion estimation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">978-3-00-020933-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-18909846</identifier>
+                    <identifier type="doi">10.2390/biecoll-icvs2007-49</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1890984</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1890984">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1890984/2678377/ICVS2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1890984" DMDID="DMD1890984">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1890984"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

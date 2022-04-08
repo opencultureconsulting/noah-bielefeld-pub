@@ -1,0 +1,298 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2952814</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:330</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Kerstin</namePart>
+  <namePart type="family">Hötte</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">158344877</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8633-4225</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">42173282</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The core data in this publication are empirical data on two coupled network layers inferred from 
+cross-industrial citation links (patent citation network) and input-output flows among industries 
+(input-output (IO) network). These data are available in quinquennial time steps for the years 
+1977, 1982, 1987, 1992, 1997, 2002, 2006. 
+The data is available at the 6-digit level. The analyses in the paper mainly refer to 4-digit 
+level results of a balanced panel of industries, i.e. industries for which both patent and IO 
+data are available for the full time horizon. 
+This publication also contains a sample of panel data on industry characteristics (mainly industry 
+size by patent stock and output and network indicators). The data are available ein RData format 
+and supplemented by the R-scripts used to compile and analyze the data. 
+
+------------------------------------------------------------------------------------------------
+
+### This data publication contains all data and R-code used for the paper: 
+
+#### Hötte, Kerstin (2021): "Demand-pull Demand-pull and technology-push: What drives the direction of technological change? An empirical network-based approach". 
+[Forthcoming. If you use the data, please cite the most recent version of the paper.]
+
+The paper also offers a description of the data and its compilation. 
+
+
+### Abstract: 
+
+Demand-pull and technology-push are linked to an empirical two-layer network based on coupled cross-industrial input-output (IO) and patent-citation links among 155 4-digit (NAICS) US-industries in 1976-2006. I study the evolution of industry hierarchies and link formation. 
+Both layers co-evolve, but differently: The patent network became denser and increasingly skewed, while market hierarchies are balanced and sluggish in change. 
+Industries became more similar by patent-citations, but less by input use. Similar R&amp;D capabilities as other big industries is beneficial for innovation providing access to knowledge but relying on the same market inputs is unfavorable if it intensifies competition. This may incite industries to explore other technological pathways. 
+Growth in the market is constrained by scarcity and competition, but knowledge as innovation input is non-rival leading to increasing returns and a skewed distribution. This may strengthen existing R&amp;D trajectories while market pressure may trigger a re-direction in both layers. 
+This work is limited by its reliance on endogenously evolving classifications. 
+
+
+-------------------------------------------------------------------------------------------------
+
+
+### To reproduce the results and the data from the raw data, you must run the code provided in the 
+following order: 
+
+(1) CREATING THE DATA: 
+(a) The patent data can not be fully reconstructed from the data that are available in this data 
+    publication because one of the intermediate steps relies on proprietary data that can not be 
+    provided here.
+    For the remainder: You can compile parts of the patent and the IO data from the raw data. To 
+    do so, please use the code and raw data provided in the folders io_data_R_files and 
+    patent_data_R_files. Further detail is provided below.      
+(b) The folder R_scripts_both provides all code needed to create the merged panel data that is 
+    used in the analysis. 
+
+(2) REPRODUCING THE ANALYSES: 
+    The folder R_script_both provides all code needed to reproduce the figures, tables, 
+    descriptive statistics and regression analyses. Further detail is provided below. 
+
+This data publication also provides additional results on the analyses at different levels 
+of data aggregation. You will find it in the folder statistical_output but you can also 
+produce additional results running the code provided. 
+
+----------------------------------------------------------------------------------------------
+
+### This data publication consists of 6 folders: 
+
+(1) patent_data_R_files
+(2) io_data_R_files
+(3) R_scripts_both
+(4) data_combined
+(5) statistical_output
+
+
+----------------------------------------------------------------------------------------------
+
+### Details: 
+
+----------------------------------------------------------------------------------------------
+
+(1) patent_data_R_files
+
+This folder contains 2 subfolders: code, data
+
+- code: This subfolder contains the R-scripts of all single steps executed to process the patent 
+        raw data. These steps are explained in detail in the Supplementary Material of the paper 
+        Hötte, K (2021): "Demand-pull and technology-push [forthcoming]"
+
+- data: This subfolder contains the processed data at different levels of aggregation and a folder
+        where to put the source files, i.e. the original NBER patent data used in this analysis 
+        that need to be downloaded from https://sites.google.com/site/patentdataproject/Home 
+        [accessed on Mar 17, 2021]. 
+        To use the data, please follow the instructions described in the readme in the source data 
+        folder and cite the paper: 
+        Bronwyn H Hall, Adam B Jaffe, and Manuel Trajtenberg. "The NBER patent citation data file:
+        Lessons, insights and methodological tools." National Bureau of Economic Research Working 
+        Paper w8498, 2001. DOI: 10.3386/w8498
+        The industry level patent data can not be fully reconstructed because the mapping from 
+        firm-level data to industry codes relies on proprietary data and can not be provided here. 
+        This subfolder also contains a folder named "temp" which is empty in this download. 
+        It will be automatically filled with intermediate data when you run the scripts in the     
+        "code" folder to reproduce the processed data from the source files. All intermediate data 
+        in this folder can be removed after having processed the data. 
+
+----------------------------------------------------------------------------------------------
+
+(2) io_data_R_files
+
+This folder contains 3 subfolders: code, data
+
+- code: This subfolder contains the R-scripts used to compile the IO data. The single steps are
+        explained in detail in the Supplementary Material of the paper Hötte, K (2021):  
+        "Demand-pull and technology-push [...]". 
+
+- data: This subfolder contains the processed and the raw data downloaded from the Bureau of
+        Economic Analysis (BEA) websites: 
+        https://www.bea.gov/industry/benchmark-input-output-data and
+        https://www.bea.gov/industry/historical-benchmark-input-output-tables [accessed on Dec 21,
+        2020] and described in Horrowitz, K and Planting, M. "Concepts and Methods of the U.S. 
+        Input-Output Accounts. Measuring the Nation’s Economy". BEA 2006, URL: 
+        https://apps.bea.gov/papers/pdf/IOmanual_092906.pdf [accessed on Mar 17, 2021]
+        Again, this subfolder also contains a folder "temp" which is empty but will be filled when
+        you run the R-scripts to reproduce the data. 
+
+----------------------------------------------------------------------------------------------
+
+(3) R_scripts_both
+
+This folder contains 1 file (settings_data.r) and 3 subfolders (create_merged_panel, descriptives, 
+regressions): 
+
+- settings_data.r: Here you can specify the data settings for the analyses. Here, it is set to the
+        default specification of 4-digit level balanced panel data. 
+        This script also sets the output directory. Potentially, you have to adjust this for your 
+        own needs. 
+
+- create_merged_panel: This subfolder contains all scripts to compile the merged panel data from
+        the data compiled before (using the code in patent_data_R_files and io_data_R_files. 
+        To create the data, run the main script. It sources functions and subscripts from the aux
+        folder. 
+
+- descriptives: This subfolder contains all scripts needed to reproduce the descriptive statistics 
+        and exports them to latex tables. It also creates all figures. 
+        To produces these statistics, run the main scripts which sources the scripts from the src
+        folder. 
+
+- regressions: This folder contains all scripts needed to reproduce the regression analyses. It 
+        additionally contains scripts that were used for purposes of data exploration and model 
+        selection. 
+        To reproduce the regressions, run the scripts regression_industrial_hierarchies.r and 
+        regression_link_formation.r. The scripts allow for many features that vary the model 
+        specifications and types of analyses (e.g. also stepGAIC for model selection). The scripts 
+        write the regression outputs to txt and save the data of the results. 
+        These data can be processed and written to latex tables running the script 
+        process_selected_regression_results.r (in the write_results_to_tex folder).         
+
+
+----------------------------------------------------------------------------------------------
+
+(4) data_combined
+
+This folder contains the merged data at different aggregation levels. These data are compiled 
+running the code in create_merged_panel explained above. 
+The data are: industry panel data, technological similarity networks, data on link formation 
+processes, data on spillovers and a sample of network metrices. Some of these data are merged in
+the regression analyses scripts. 
+
+This folder also contains a subfolder name other_data. This subfolder contain the data on trade 
+exposure downloaded from: https://sompks4.github.io/sub_data.html [accessed on Mar 17, 2021]; 
+(9. Import penetration, low-wage country competition and trade costs)
+If you want to make use of these data, please cite: Bernard, AB, Jensen, JB, Schott, PK: 
+Survival of the Best Fit: Low Wage Competition and the (Uneven) Growth of US Manufacturing Plants, 
+Journal of International Economics 68 (2006). 
+
+It also contains a second subfolder named BLS with data on multi-factor productivity and other 
+measures downloaded from the Bureau of Labor Statistics (BLS) website https://www.bls.gov/mfp/ 
+[accessed on Mar 17, 2021]. This data is not used in the publication but was used for data 
+exploration purposes. 
+
+
+----------------------------------------------------------------------------------------------
+
+(5) statistical_output
+
+This folder contains the results presented in the paper and additional results for other 
+aggregation levels and data subsets.  
+These data in this folder are overwritten when you run the R-scripts for the regressions and 
+descriptive statistics. 
+
+
+
+-----------------------------------------------------------------------------------------------
+
+LICENSE: 
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a 
+letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+To give appropriate credit, please cite the most recent version of the paper: 
+
+Hötte, Kerstin (2021): "Demand-pull Demand-pull and technology-push: What drives the direction 
+of technological change? An empirical network based approach".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="innovation_networks.zip">https://pub.uni-bielefeld.de/download/2952814/2953704/innovation_networks.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+
+<subject><topic>patent-citation network</topic><topic>input-output network</topic><topic>technological change</topic><topic>demand-pull</topic><topic>technology-push</topic><topic>duplex network</topic><topic>empirical data</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2952814</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2953893</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<wels>Hötte, K. (2021): Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network. Bielefeld University.</wels>
+<angewandte-chemie>K.  Hötte, &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Hötte K (2021) &lt;br /&gt;&lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<harvard1>Hötte, K., 2021. &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2021).  &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2952814" target="_blank"&gt;https://doi.org/10.4119/unibi/2952814&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<frontiers>Hötte, K. (2021). Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, K. (2021). &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2952814.&lt;/div&gt;</dgps>
+<ama>Hötte K. &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University; 2021.</ama>
+<ieee> K. Hötte, &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;, Bielefeld University, 2021.</ieee>
+<apa>Hötte, K. (2021).  &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2952814" target="_blank"&gt;https://doi.org/10.4119/unibi/2952814&lt;/a&gt;</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hötte, Kerstin. 2021. &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hötte, K.: Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network. Bielefeld University (2021).</lncs>
+<default>Hötte K (2021) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hötte, Kerstin. &lt;em&gt;Data publication: Demand-pull and technology-push: What drives the direction of technological change? Empirical data on a coupled two-layer input-output and patent-citation network&lt;/em&gt;. Bielefeld University, 2021.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2952814</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-03-17T08:48:40Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-07-02T08:11:18Z</recordChangeDate>
+</recordInfo>
+</mods>

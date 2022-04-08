@@ -1,0 +1,53 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2670152">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Personnel IS-Effort Collection in Industrial Environments - Data Design and Experiences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Spitta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The knowledge of development and maintenance effort is a necessary precondition for all types of software management, IS-controlling, guidance of quality and effort estimation. Data collecting systems seem to be widely used, but the data is said to be unsafe and firm-specific. The paper presents a revised concept for the collection of personnel effort and for events (e.g. faults) as a generalized data model. Integrity constraints of that model may be fitted to individual circumstances. The model was first published in 1989. This revised version is based on experience with the system used by 40 developers in five locations for many years. Design and practical use of a system based on that concept allow the collection of statistically valid effort data. This would only be possible if developers are sure to be not supervised by their data, and if they don’t need to decide upon classifications during data-entry time. Examples show applications of the data for project management, quality control and IS resource management reporting from 6« years with overall 170 PYs.</abstract>
+                    <subject>
+                        <topic>IT-Controlling</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26701526</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2670152</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2670152">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2670152/2670153/Effort-Long_WP-401.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2670152" DMDID="DMD2670152">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2670152"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

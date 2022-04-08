@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2912497">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Qualitative spatial logic descriptors from 3D indoor scenes to generate explanations in natural language</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Zoe</namePart>
+                        <namePart type="family">Falomir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The challenge of describing 3D real scenes is tackled in this paper using qualitative spatial descriptors. A key point to study is which qualitative descriptors to use and how these qualitative descriptors must be organized to produce a suitable cognitive explanation. In order to find answers, a survey test was carried out with human participants which openly described a scene containing some pieces of furniture. The data obtained in this survey are analysed, and taking this into account, the QSn3D computational approach was developed which uses a XBox 360 Kinect to obtain 3D data from a real indoor scene. Object features are computed on these 3D data to identify objects in indoor scenes. The object orientation is computed, and qualitative spatial relations between the objects are extracted. These qualitative spatial relations are the input to a grammar which applies saliency rules obtained from the survey study and generates cognitive natural language descriptions of scenes. Moreover, these qualitative descriptors can be expressed as first-order logical facts in Prolog for further reasoning. Finally, a validation study is carried out to test whether the descriptions provided by QSn3D approach are human readable. The obtained results show that their acceptability is higher than 82%.</abstract>
+                    <subject>
+                        <topic>Qualitative spatial descriptors</topic>
+                        <topic>RGB-depth data</topic>
+                        <topic>Kinect</topic>
+                        <topic>Spatial language</topic>
+                        <topic>Grammar</topic>
+                        <topic>Machine learning</topic>
+                        <topic>SVMs</topic>
+                        <topic>Spatial cognition</topic>
+                        <topic>Survey Validation</topic>
+                        <topic>Human readable</topic>
+                        <topic>Human–computer interaction</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Cognitive Processing</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>19</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>265</start>
+                                <end>284</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1612-4782</identifier>
+                    <identifier type="eIssn">1612-4790</identifier>
+                    <identifier type="MEDLINE">28647861</identifier>
+                    <identifier type="ISI">000433550000011</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29124970</identifier>
+                    <identifier type="doi">10.1007/s10339-017-0824-7</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2912497</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2912497">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2912497/2912674/ZFalomir-TKluth-COPR-preprint.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2912497">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2912497/2937807/falomir%2Ckluth2018.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2912497" DMDID="DMD2912497">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2912497"/>
+            <mets:div TYPE="part" ID="PART1_2912497" LABEL="falomir,kluth2018.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2912497"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

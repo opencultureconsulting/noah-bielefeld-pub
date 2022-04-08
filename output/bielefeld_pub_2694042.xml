@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2694042">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automation of Common Cause Analysis: monitoring improvement measure perfomance and predicting accidents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Sanders</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Ladkin Ph.D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-09-12</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Common cause analysis for accidents is a necessity for effective safety engineering.
+Modern accident databases, e.g. [7][10][1][9], offer a great number of accident reports and help safety engineers to find reports for known accidents quickly.
+The databases mainly serve as report repositories, to search and access specific reports. Some predefined commonalities of accidents can be used in search queries of databases, but there is no provision to analyse databases for common causes in accidents, especially if the common causes are yet unknown to be common causes.
+Common cause analysis, obviously, needs causal analysis. There are causal analysis methods which offer the prospect of more structure in describing cause-eect relationships in accidents. State of the art is to formulate
+accident reports as texts, which is very dfficult to parse for cause-effect relationships.
+Causal analysis methods[27] offer more explicit descriptions of cause effect relationships.
+If accident report databases must be searched automatically for common causes, the problem of finding common causes has to be solved algorithmically.
+This entails, that cause-effect denotations must be machine understandable with well defined semantics.
+AcciMaps[24], one example of a causal analysis method, has the feature to formally indicate accidents&apos; cause-effect relationships. Unfortunately it lacks well-defined semantics for what a cause-effect relationship is. That
+means that an algorithm could in principle search for patterns in AcciMaps, but the semantic evaluation of the results must be done in the head of the user/investigator. The algorithm itself cannot be used for causal reasoning.
+This thesis will show that with well-defined causal semantics, algorithms can be developed which offer causal reasoning capabilites and can be used for improved funcitonality in accident databases. The accompanying software is a proof of concept. It contains algorithms for
+-searching for causally-specified system behaviour,
+-comparing two or more accident descriptions for similarity and
+-finding previously unknown common causes of accidents automatically.</abstract>
+                    <subject>
+                        <topic>causal anaysis</topic>
+                        <topic>accident analysis</topic>
+                        <topic>automatic causal analysis</topic>
+                        <topic>why-because analysis</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26940427</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2694042</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2694042">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2694042/2694050/nmain.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2694042" DMDID="DMD2694042">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2694042"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2936599</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Liren</namePart>
+  <namePart type="family">Huang</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">51526451</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Alexander</namePart>
+  
+  
+  <namePart type="family">Sczyrba</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610095</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The increasing amount of next-generation sequencing data introduces a fundamental challenge on large scale genomic analytics. Storing and processing large amounts of sequencing data requires considerable hardware resources and efficient software that can fully utilize these resources. Nowadays, both industrial enterprises and nonprofit institutes are providing robust and easy-access cloud services for studies in life science. To facilitate genomic data analyses on such powerful computing resources, distributed bioinformatics tools are needed. However, most of existing tools have low scalability on the distributed computing cloud. Thus, in this thesis, I developed a cloud based bioinformatics framework that mainly addresses two computational challenges: (i) the run time intensive challenge in the sequence mapping process and (ii) the memory intensive challenge in the de novo genome assembly process.&lt;br /&gt;&lt;br /&gt; 
+
+For sequence mapping, I have natively implemented an Apache Spark based distributed sequence mapping tool called Sparkhit. It uses the q-gram filter and Pigeonhole principle to accelerate the speeds of fragment recruitment and short read mapping processes. These algorithms are implemented in the Spark extended MapReduce model. Sparkhit runs 92–157 times faster than MetaSpark on metagenomic fragment recruitment and 18–32 times faster than Crossbow on data pre-processing.&lt;br /&gt;&lt;br /&gt; 
+
+For de novo genome assembly, I have invented a new data structure called Reflexible Distributed K-mer (RDK) and natively implemented a distributed genome assembler called Reflexiv. Reflexiv is built on top of the Apache Spark platform, uses Spark Resilient Distributed Dataset (RDD) to distributed large amount of k-mers across the cluster and assembles the genome in a recursive way. As a result, Reflexiv runs 8-17 times faster than Ray assembler and 5-18 times faster than AbySS assembler on the clusters deployed at the de.NBI cloud. &lt;br /&gt;&lt;br /&gt;
+
+In addition, I have incorporated a variety of analytical methods into the framework. I have also developed a tool wrapper to distribute external tools and Docker containers on the Spark cluster. As a large scale genomic use case, my framework processed 100 terabytes of data across four genomic projects on the Amazon cloud in 21 hours. Furthermore, the application on the entire Human Microbiome Project shotgun sequencing data was completed in 2 hours, presenting an approach to easily associate large amounts of public datasets with reference data. &lt;br /&gt;&lt;br /&gt;
+
+Thus, my work contributes to the interdisciplinary research of life science and distributed cloud computing by improving existing methods with a new data structure, new algorithms, and robust distributed implementations. </abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Thesis_Liren_Huang.pdf">https://pub.uni-bielefeld.de/download/2936599/2936600/Thesis_Liren_Huang.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2019</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29365999</identifier><identifier type="doi">10.4119/unibi/2936599</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-06-18</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Huang, L. (2019): Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>L.  Huang, &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Huang, L., 2019. &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, L. (2019).  &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2936599" target="_blank"&gt;https://doi.org/10.4119/unibi/2936599&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Huang L (2019) &lt;br /&gt;&lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<frontiers>Huang, L. (2019). Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, L. (2019). &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2936599.&lt;/div&gt;</dgps>
+<ama>Huang L. &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2019.</ama>
+<ieee> L. Huang, &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2019.</ieee>
+<apa>Huang, L. (2019).  &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2936599" target="_blank"&gt;https://doi.org/10.4119/unibi/2936599&lt;/a&gt;</apa>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Huang, Liren. 2019. &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Huang, L.: Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data. Universität Bielefeld, Bielefeld (2019).</lncs>
+<default>Huang L (2019) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Huang, Liren. &lt;em&gt;Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2019.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2936599</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-07-19T10:16:58Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-02-19T09:56:16Z</recordChangeDate>
+</recordInfo>
+</mods>

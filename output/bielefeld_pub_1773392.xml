@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Steering a virtual blowfly: simulation of visual pursuit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Norbert</namePart>
+                        <namePart type="family">Böddeker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9336-4270</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The behavioural repertoire of male flies includes visually guided chasing after moving targets. The visuomotor control system for these pursuits belongs to the fastest found in the animal kingdom. We simulated a virtual fly, to test whether or not experimentally established hypotheses on the underlying control system are sufficient to explain chasing behaviour. Two operating instructions for steering the chasing virtual fly were derived from behavioural experiments: (i) the retinal size of the target controls the fly&apos;s forward speed and, thus, indirectly its distance to the target; and (ii) a smooth pursuit system uses the retinal position of the target to regulate the fly&apos;s flight direction. Low-pass filters implement neuronal processing time. Treating the virtual fly as a point mass, its kinematics are modelled in consideration of the effects of translatory inertia and air friction. Despite its simplicity, the model shows behaviour similar to that of real flies. Depending on its starting position and orientation as well as on target size and speed, the virtual fly either catches the target or follows it indefinitely without capture. These two behavioural modes of the virtual fly emerge from the control system for flight steering without implementation of an explicit decision maker.</abstract>
+                    <subject>
+                        <topic>Vision</topic>
+                        <topic>Model</topic>
+                        <topic>Sensorimotor control</topic>
+                        <topic>Fly</topic>
+                        <topic>Smooth pursuit</topic>
+                        <topic>Chasing</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the Royal Society B, Biological sciences</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>270</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1527</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>1971</start>
+                                <end>1978</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0962-8452</identifier>
+                    <identifier type="eIssn">1471-2954</identifier>
+                    <identifier type="MEDLINE">14561312</identifier>
+                    <identifier type="ISI">000185482500014</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17733921</identifier>
+                    <identifier type="doi">10.1098/rspb.2003.2463</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773392">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773392/2311244/Boeddeker_Egelhaaf_2003.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773392" DMDID="DMD1773392">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773392"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

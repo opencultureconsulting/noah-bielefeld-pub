@@ -1,0 +1,106 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2915541">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Simulated movies of fluorescently stained bacteria</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Veit</namePart>
+                        <namePart type="family">Wiesmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Bergler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Münzenmayer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Wittenberg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">Simulated biomovies of fluorescent cells were created by employing cell simulation based on shape, texture, growth and motion information. They are depicted in fluorescent channels where noise and other artifacts were additionally modeled. 
+While the original cell simulation software (Wiesmann et al. 2013) has been extended for biomovie simulation, the step for bacterial growth simulation is similar to image simulation. First, the cell shape is calculated. Second, the cell position on the image grid is calculated. Third, the cell texture is added. Fourth and last, imaging artifacts and noise are added to the final image.</abstract>
+                    <subject>
+                        <topic>cell</topic>
+                        <topic>simulation</topic>
+                        <topic>image</topic>
+                        <topic>time</topic>
+                        <topic>lapse</topic>
+                        <topic>time-lapse</topic>
+                        <topic>simulated</topic>
+                        <topic>in silico</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="doi">10.4119/unibi/2915541</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/by/summary/index.html">ODC-By</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2915541</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE0_bielefeld_pub_2915541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915541/2915586/simulated-data.z01" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE1_bielefeld_pub_2915541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915541/2915587/simulated-data.z02" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE2_bielefeld_pub_2915541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915541/2915588/simulated-data.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE3_bielefeld_pub_2915541">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2915541/2915635/data-description.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2915541" DMDID="DMD2915541">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2915541"/>
+            <mets:div TYPE="part" ID="PART1_2915541" LABEL="simulated-data.z02">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2915541"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2915541" LABEL="simulated-data.zip">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2915541"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2915541" LABEL="data-description.pdf">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2915541"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2648965">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Data-driven fault detection for component based robotic systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Raphael</namePart>
+                        <namePart type="family">Golombek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Heckmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hanheide</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2013-07-15</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Advancements in the field of robotics enable the creation of systems with cognitive abilities which are capable of close interaction with humans in real world scenarios.
+These systems may take over jobs previously executed by humans like house cleaning and cooking or they can be supportive and act as a helper for elderly people.
+One consequence of this progress is the increased need for dependable and fault tolerant behavior of today’s robotic systems because they share the same spaces with humans and operate in close proximity to them. Unreliable and faulty behavior may frustrate users or even endanger them resulting in poor acceptance of robotic
+systems. The contribution of this thesis is a fault detection approach called AuCom. Fault detection
+is a basis element for fault tolerant system behavior which is the ability of a system to autonomously cope with occurring faults while it is engaged in interaction. The approach is designed to tackle the specific needs of cognitive robotic systems which feature a component based hardware and software structure and are characterized by frequent changes due to research and development efforts as well as uncertain and variant behavior resulting from the interaction in real world environments. The solution presented in this thesis belongs to the class of data-driven fault detection approaches. This class of approaches assumes that fault relevant information can be
+directly derived from data gathered in the robotic system. The data exploited in this work for fault detection is the communication between the system’s components. This
+communication is represented with features which are common to all elements of the communication (i.e., they are generic). Furthermore, the approach assumes that
+the current element of the communication can be estimated from the history of the system’s communication and that a deviation from the expected estimate indicates a
+fault. This assumption is encoded in the model in terms of a novel representation of the communication as a time-series of temporal dynamic features.
+A concrete integration of the approach into a real system is exemplified on our robotic platform BIRON. In addition, exemplary integration solutions for robotic frameworks
+currently prominent in literature are discussed in this thesis. The actual capability of the approach to report faults is evaluated for several artificial systems in simulation and on BIRON in an off-line and on-line manner. The performance is compared to a histogram-based baseline approach.</abstract>
+                    <subject>
+                        <topic>Data Driven Fault Detection</topic>
+                        <topic>Fault Detection</topic>
+                        <topic>Anomaly Detection</topic>
+                        <topic>Component Based Robotic System</topic>
+                        <topic>Outlier Detection</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26489650</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2648965</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2648965">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2648965/2648966/golombek-dissertation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2648965" DMDID="DMD2648965">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2648965"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

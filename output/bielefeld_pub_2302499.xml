@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302499">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Biological applications for de Bruijn subgraphs and interval group testing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">José Augusto Amgarten</namePart>
+                        <namePart type="family">Quitzau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ferdinando</namePart>
+                        <namePart type="family">Cicalese</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2010-03-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This work is divided into two distinct and (almost) unrelated parts. The first, more practical, focuses on biological applications for de Bruijn subgraphs, while the second, more theoretical, presents a study on Interval Group Testing in the presence of erroneous test outcomes. Although the subjects of both parts are from the computational viewpoint completely distinct, their motivations are closely related: while the study of de Bruijn subgraphs was motivated by the identification of unique sequences for a better design of DNA probes, the study of the effect of errors in Interval Group Testing was motivated by the error produced by badly designed probes.
+In the first part of this thesis, we present a method for constructing compact representations of de Bruijn subgraphs without passing through the usual memory expensive step of constructing the graph in its traditional form. We further analyze the use of this compact representation in three different applications: marking repeated sequences in a set of reads, identifying new repeat families in incompletely sequenced genomes, and creating splicing graphs for a collection of transcripts.
+The second part of this text is dedicated to Interval Group Testing. Group testing is an approach for reducing the number of tests needed for identifying few elements with some rare property in a large group. Group testing finds a lot of applications in many different fields, for instance, in identifying people infected with HIV or syphilis in large populations, finding faulty unities in computer networks, or finding points in mature RNAs where introns were spliced out. The last application motivates a variant called Interval Group Testing. The traditional Interval Group Testing cannot deal with experimental errors, which cannot be ignored in a real life application. Therefore we present bounds on the number of tests needed for identifying the elements of interest when an upper bound on the number of errors in the tests&apos; outcomes is allowed.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16987</identifier>
+                    <identifier type="sys">HT016545472</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302499</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302499">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302499/2302502/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302499" DMDID="DMD2302499">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302499"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

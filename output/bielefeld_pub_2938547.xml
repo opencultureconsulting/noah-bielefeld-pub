@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2938547">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evaluation of linear and non-linear activation dynamics models for insect muscle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nalin</namePart>
+                        <namePart type="family">Harischandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anthony J.</namePart>
+                        <namePart type="family">Clare</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jure</namePart>
+                        <namePart type="family">Zakotnik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Laura M. L.</namePart>
+                        <namePart type="family">Blackburn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tom</namePart>
+                        <namePart type="family">Matheson</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Dürr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9239-4964</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In computational modelling of sensory-motor control, the dynamics of muscle contraction is an important determinant of movement timing and joint stiffness. This is particularly so in animals with many slow muscles, as is the case in insects—many of which are important models for sensory-motor control. A muscle model is generally used to transform motoneuronal input into muscle force. Although standard models exist for vertebrate muscle innervated by many motoneurons, there is no agreement on a parametric model for single motoneuron stimulation of invertebrate muscle. Although several different models have been proposed, they have never been evaluated using a common experimental data set. We evaluate five models for isometric force production of a well-studied model system: the locust hind leg tibial extensor muscle. The response of this muscle to motoneuron spikes is best modelled as a non-linear low-pass system. Linear first-order models can approximate isometric force time courses well at high spike rates, but they cannot account for appropriate force time courses at low spike rates. A linear third-order model performs better, but only non-linear models can account for frequency-dependent change of decay time and force potentiation at intermediate stimulus frequencies. Some of the differences among published models are due to differences among experimental data sets. We developed a comprehensive toolbox for modelling muscle activation dynamics, and optimised model parameters using one data set. The “Hatze-Zakotnik model” that emphasizes an accurate single-twitch time course and uses frequency-dependent modulation of the twitch for force potentiation performs best for the slow motoneuron. Frequency-dependent modulation of a single twitch works less well for the fast motoneuron. The non-linear “Wilson” model that optimises parameters to all data set parts simultaneously performs better here. Our open-access toolbox provides powerful tools for researchers to fit appropriate models to a range of insect muscles.</abstract>
+                    <subject>
+                        <topic>insect</topic>
+                        <topic>muscle</topic>
+                        <topic>activation dynamics</topic>
+                        <topic>isometric contraction</topic>
+                        <topic>force measurement</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLOS Computational Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>10</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1553-734x</identifier>
+                    <identifier type="eIssn">1553-7358</identifier>
+                    <identifier type="MEDLINE">31609992</identifier>
+                    <identifier type="ISI">000500776600063</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29385475</identifier>
+                    <identifier type="doi">10.1371/journal.pcbi.1007437</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2938547</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2938547">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938547/2941596/journal.pcbi.1007437.duerr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2938547" DMDID="DMD2938547">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2938547"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

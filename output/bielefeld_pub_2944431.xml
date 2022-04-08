@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2944431">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Neural Approaches to Relational Aspect-Based Sentiment Analysis. Exploring generalizations across words and languages</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Soufian</namePart>
+                        <namePart type="family">Jebbara</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4483-0933</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-06-08</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Everyday, vast amounts of unstructured, textual data are shared online in digital form.
+Websites such as forums, social media sites, review sites, blogs, and comment sections offer platforms to express and discuss opinions and experiences. Understanding the opinions in these resources is valuable for e.g. businesses to support market research and customer service but also individuals, who can benefit from the experiences and expertise of others.&lt;br /&gt;&lt;br /&gt;
+In this thesis, we approach the topic of opinion extraction and classification with neural network models. We regard this area of sentiment analysis as a relation extraction problem in which the sentiment of some opinion holder towards a certain aspect of a product, theme, or event needs to be extracted. In accordance with this framework, our main contributions are the following:&lt;br /&gt;&lt;br /&gt;
+1. We propose a full system addressing all subtasks of relational sentiment analysis.
+2. We investigate how semantic web resources can be leveraged in a neural-network-based model for the extraction of opinion targets and the classification of sentiment labels. Specifically, we experiment with enhancing pretrained word embeddings using the lexical resource WordNet. Furthermore, we enrich a purely text-based model with SenticNet concepts and observe an improvement for sentiment classification.
+3. We examine how opinion targets can be automatically identified in noisy texts. Customer reviews, for instance, are prone to contain misspelled words and are difficult to process due to their domain-specific language. We integrate information about the character structure of a word into a sequence labeling system using character-level word embeddings and show their positive impact on the system&apos;s performance. We reveal encoded character patterns of the learned embeddings and give a nuanced view of the obtained performance differences.
+4. Opinion target extraction usually relies on supervised learning approaches. We address the lack of available annotated data for specific languages by proposing a zero-shot cross-lingual approach for the extraction of opinion target expressions. We leverage multilingual word embeddings that share a common vector space across various languages and incorporate these into a convolutional neural network architecture. Our experiments with 5 languages give promising results: We can successfully train a model on annotated data of a source language and perform accurate prediction on a target language without ever using any annotated samples in that target language.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29444316</identifier>
+                    <identifier type="sys">HT020569280</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2944431</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2944431">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2944431/2944432/Doktorarbeit_Soufian_Jebbara.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2944431" DMDID="DMD2944431">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2944431"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

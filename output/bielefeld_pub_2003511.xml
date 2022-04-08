@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2003511">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ensemble approach combining multiple methods improves human transcription start site prediction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David G.</namePart>
+                        <namePart type="family">Dineen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Schroeder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Desmond G.</namePart>
+                        <namePart type="family">Higgins</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Padraig</namePart>
+                        <namePart type="family">Cunningham</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: The computational prediction of transcription start sites is an important unsolved problem. Some recent progress has been made, but many promoters, particularly those not associated with CpG islands, are still difficult to locate using current methods. These methods use different features and training sets, along with a variety of machine learning techniques and result in different prediction sets. Results: We demonstrate the heterogeneity of current prediction sets, and take advantage of this heterogeneity to construct a two-level classifier (&apos;Profisi Ensemble&apos;) using predictions from 7 programs, along with 2 other data sources. Support vector machines using &apos;full&apos; and &apos;reduced&apos; data sets are combined in an either/or approach. We achieve a 14% increase in performance over the current state-of-the-art, as benchmarked by a third-party tool. Conclusions: Supervised learning methods are a useful way to combine predictions from diverse sources.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Genomics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2164</identifier>
+                    <identifier type="MEDLINE">21118509</identifier>
+                    <identifier type="ISI">000285581800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20035110</identifier>
+                    <identifier type="doi">10.1186/1471-2164-11-677</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2003511</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2003511">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2003511/2471046/1471-2164-11-677.schroeder.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2003511" DMDID="DMD2003511">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2003511"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

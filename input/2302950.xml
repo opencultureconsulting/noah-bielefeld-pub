@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302950</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>The double cut and join operation and its applications to genome rearrangements</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Julia</namePart>
+  <namePart type="family">Zakotnik</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jens</namePart>
+  
+  
+  <namePart type="family">Stoye</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Das Ziel dieser Arbeit sind mathematische Modelle für den Genomvergleich, um die evolutionäre Distanz zwischen zwei gegebenen Genomen zu schätzen. Wir präsentieren ein neues Modell für den Genomvergleich und wenden die Double-Cut-and-Join Operation auf dieses Genom-Modell an.
+Im Unterschied zum traditionellen sequenzbasierten Ansatz lässt sich Evolution auf Genomebene durch Rearrangements beschreiben, die die Reihenfolge und die Richtung von Chromosomenabschnitten umordnen. Mit steigender Anzahl von entschlüsselten Genomen ist es jetzt möglich, ganze Genome statt kurzer Chromosomenabschnitte zu vergleichen. Unterschiedliche Arten haben häufig ähnliche Gene, die von gemeinsamen Vorfahren geerbt wurden, und große Veränderungen in der Reihenfolge dieser Gene lassen sich in entfernter verwandten Genomen beobachten. Daher wird angenommen, dass die Anzahl von Rearrangements der Genreihenfolge in einem Genom ein Maß für die evolutionäre Distanz zwischen zwei Arten ist.
+Ein häufig verwendeter Ansatz für die evolutionäre Rekonstruktion ist die Berechnung einer Folge von Rearrangements der Genreihenfolge. Dies motiviert das folgende kombinatorische Problem: Man berechne für zwei gegebene Genome, die dieselbe Menge an Genen enthalten, eine kürzeste Folge von Rearrangements, die erforderlich sind, um ein Genom in das andere umzugestalten. Die Länge dieser Folge ist die evolutionäre Distanz zwischen den zwei Genomen. Die gebräuchlichen Rearrangments für multichromosomale Genome sind Translokationen, Fusionen, Spaltungen, Inversionen und Block-Austausche. Bemerkenswerterweise können alle diese Rearrangements durch die Double-Cut-and-Join (DCJ) Operation modelliert werden.
+Neben Rearrangements ist die Verdopplung des gesamten Genoms eine andere wichtige Quelle für die Evolution von Genomen. Im Vergleich zur Verdopplung von Chromosomenabschnitten ist die Verdopplung eines Genoms ein seltenes Ereignis. Daraus ergibt sich das folgende kombinatorische Problem, genannt Genom-Halbierungs-Problem: Man finde für ein gegebenes, dupliziertes und durch Rearrangements umgeordnetes Genom ein prädupliziertes Genom, so dass die Entfernung zwischen diesen Genomen in Bezug auf die evolutionäre Distanz minimal ist. Die Lösung zu diesem Problem hängt vom zu Grunde liegenden Genommodell und auch von den erlaubten Rearrangements ab.
+Die Hauptbeiträge dieser Arbeit lassen sich wie folgt zusammenfassen:
+1. Ein graphenbasiertes Genommodell: Die grundlegenden Werkzeuge für unsere Darstellung von Genomen sind Graphen, die Vereinigungen von Pfaden und Zyklen sind. Auf diesem Typ von Graphen, genannt Genom-Graphen, ist es möglich, alle Rearrangements auf Genomen zu modellieren, die sowohl zirkuläre als auch lineare Chromosomen haben. Mit Hilfe von Graphen werden Genome sowie Rearrangements dargestellt.
+2. DCJ-Distanzformel und Sortier-Algorithmus: Die DCJ-Operation wird auf Genome mit zirkulären und linearen Chromosomen angewandt. Eine sehr einfache Datenstruktur, der Adjazenz-Graph, ist symmetrisch in Bezug auf die beiden Genome, deren evolutionäre Distanz berechnet wird. Außerdem vereinfacht dieser Graph die Theorie und Distanzberechnung beträchtlich und ermöglicht einen effizienten Sortier-Algorithmus, der modifiziert werden kann, um den Gebrauch von bestimmten Rearrangements zu optimieren.
+3. Einheitliche Behandlung der traditionellen HP-Distanzen: Unser Hauptergebnis ist eine Analyse der Beziehung zwischen dem allgemeinen DCJ-Modell und den drei Rearrangementmodellen, die in der traditionellen Hannenhalli-Pevzner-(HP-)Theorie betrachtet werden: das Inversions-Modell, das Translokations-Modell und das kombinierte Modell mit Inversionen, Translokationen, Fusionen und Spaltungen. Das letzte Modell motiviert die allgemeine HP-Distanz, die mit Konzepten aus dem Inversions-Modell gelöst werden kann. Mit Hilfe einer Baumstruktur können alle diffizilen Eigenschaften des allgemeinen HP-Problems dargestellt werden. Außerdem zeigen wir, dass alle drei in der HP-Theorie betrachteten Rearrangementmodelle in das allgemeine DCJ-Modell integriert werden können.
+4. Rekonstruktionsalgorithmus für duplizierte Genome: Das Genom-Halbierungs-Problem unter Betrachtung von DCJ-Operationen wird neu betrachtet, wobei das präduplizierte Genom lineare und zirkuläre Chromosome enthalten kann. Dieses Genommodell berücksichtigt Einschränkungen, die für Genome mit nur linearen Chromosomen, sowie solche für Genome mit nur zirkulären Chromosomen erforderlich sind. Ein neuer Beweis und ein einfacher Algorithmus zur Rekonstruktion des Ursprungsgenoms werden gegeben. Außerdem korrigieren wir einen Fehler in einer Analyse von Warren und Sankoff.</abstract>
+<abstract lang="eng">The aim of this thesis is to study mathematical models suitable for genome comparison in order to compute the evolutionary distance between two given genomes. We present a new model for genome comparison and apply the unifying double cut and join operation to this genome model.
+Unlike the traditional sequence-based approach, evolution on the genomic level proceeds by large scale operations which rearrange the order and the direction of chromosomal regions. With an increasing number of sequenced genomes, it is now possible to compare whole genomes instead of short sequences. Different species often share similar genes that were inherited from common ancestors, and large scale mutations are observed in more distantly related genomes. It is widely accepted that the number of genome rearrangements needed to transform one genome into another is a measure of evolutionary distance between two species.
+In the reconstruction of evolution based on genome rearrangement, the most common approach is to infer a sequence of rearrangements under the assumption of parsimony, motivating the following combinatorial problem: Given two genomes that have the same gene content, compute a shortest sequence of rearrangements that are needed to transform one genome into the other. The length of such a sequence is the genomic distance between these two genomes. For multi-chromosomal genomes, the most common operations are translocations, fusions, fissions, inversions and block interchanges. Remarkably, all these operations can be modeled by a single one, termed the double cut and join (DCJ) operation.
+Besides genome rearrangements, another important source for genome evolution is whole genome duplication. Compared to the duplication at regional level, genome-wide doubling is a rare and spectacular event. This gives rise to the following combinatorial problem, called the Genome Halving Problem: Given a rearranged duplicated genome, find a perfectly duplicated genome such that the distance between these genomes is minimal with respect to some distance measure. Clearly, solutions to this problem depend on the underlying genome model and also on the rearrangement operations that are allowed.
+The main contributions of this thesis are summarized as follows:
+1. Graph-based genome model: The basic tools for our genome representation are graphs that are unions of paths and cycles. On this type of graphs, called genome graphs, it is possible to model all rearrangement operations on the most general genome structure that mixes both circular and linear chromosomes. Thus, the graph-based representation is used for modeling genomes, as well as genome rearrangements.
+2. DCJ distance formula and sorting algorithm: With a suitable genome representation, the DCJ operation is applied to the most general type of genomes with a mixed collection of linear and circular chromosomes. A very simple data structure, the adjacency graph, is symmetric with respect to the two genomes under study and is closely related to the visual picture of the genomes themselves. Moreover, this graph simplifies the theory and distance computation considerably and yields an efficient sorting algorithm that can be tailored to optimize the use of certain types of operations.
+3. Unifying treatment of the traditional HP distances: Our main result is an analysis of the relation between the general DCJ model and the three rearrangement models considered in the traditional Hannenhalli-Pevzner (HP) theory: the inversions-only, the translocations-only and a combination of inversions and translocations. The latter model motivates the general HP distance that can be solved using similar concepts as in the unichromosomal case. A simple tree structure captures all the delicate features of the general HP problem. Moreover, we show how all three rearrangement models considered in the HP theory can be integrated in the more general DCJ model.
+4. Reconstruction algorithm for duplicated genomes: The Genome Halving Problem under the DCJ operation, where the ancestral genome may contain linear and circular chromosomes, is revisited. Our genome model takes into account constraints required for genomes with only linear chromosomes, as well as the ones for genomes with only circular chromosomes. This yields a new proof and a simple algorithm for reconstructing an ancestral genome. Moreover, using our results, we correct an error in an analysis by Warren and Sankoff.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dissZakotnik.pdf">https://pub.uni-bielefeld.de/download/2302950/2302953/dissZakotnik.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-13500</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2008-08-14</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Zakotnik, Julia. &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2008.</mla>
+<default>Zakotnik J (2008) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Zakotnik, J.: The double cut and join operation and its applications to genome rearrangements. Bielefeld University, Bielefeld (Germany) (2008).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zakotnik, Julia. 2008. &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<apa>Zakotnik, J. (2008).  &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> J. Zakotnik, &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2008.</ieee>
+<ama>Zakotnik J. &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2008.</ama>
+<frontiers>Zakotnik, J. (2008). The double cut and join operation and its applications to genome rearrangements. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zakotnik, J. (2008). &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<bio1>Zakotnik J (2008) &lt;br /&gt;&lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<harvard1>Zakotnik, J., 2008. &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Zakotnik, J. (2008).  &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>J.  Zakotnik, &lt;em&gt;The double cut and join operation and its applications to genome rearrangements&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+<wels>Zakotnik, J. (2008): The double cut and join operation and its applications to genome rearrangements. Bielefeld (Germany): Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302950</recordIdentifier><recordCreationDate encoding="w3cdtf">2008-08-26T13:03:17Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:13Z</recordChangeDate>
+</recordInfo>
+</mods>

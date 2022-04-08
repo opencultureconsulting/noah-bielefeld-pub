@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2914849">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Visual tilt estimation for planar-motion methods in indoor mobile robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">David Roman</namePart>
+                        <namePart type="family">Fleer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Visual methods have many applications in mobile robotics problems, such as localization, navigation, and mapping. Some methods require that the robot moves in a plane without tilting. This planar-motion assumption simplifies the problem, and can lead to improved results. However, tilting the robot violates this assumption, and may cause planar-motion methods to fail. Such a tilt should therefore be corrected. In this work, we estimate a robot’s tilt relative to a ground plane from individual panoramic images. This estimate is based on the vanishing point of vertical elements, which commonly occur in indoor environments. We test the quality of two methods on images from several environments: An image-space method exploits several approximations to detect the vanishing point in a panoramic fisheye image. The vector-consensus method uses a calibrated camera model to solve the tilt-estimation problem in 3D space. In addition, we measure the time required on desktop and embedded systems. We previously studied visual pose-estimation for a domestic robot, including the effect of tilts. We use these earlier results to establish meaningful standards for the estimation error and time. Overall, we find the methods to be accurate and fast enough for real-time use on embedded systems. However, the tilt-estimation error increases markedly in environments containing relatively few vertical edges.</abstract>
+                    <subject>
+                        <topic>autonomous mobile robots</topic>
+                        <topic>computer vision</topic>
+                        <topic>domestic cleaning robots</topic>
+                        <topic>visual pose estimation</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Robotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2218-6581</identifier>
+                    <identifier type="ISI">000419218500011</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29148497</identifier>
+                    <identifier type="doi">10.3390/robotics6040032</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2914849</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2914849">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2914849/2914850/robotics-06-00032-v2.fleer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2914849" DMDID="DMD2914849">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2914849"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

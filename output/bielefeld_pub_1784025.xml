@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1784025">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient computation of absent words in genomic sequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julia</namePart>
+                        <namePart type="family">Herold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kurtz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Analysis of sequence composition is a routine task in genome research. Organisms are characterized by their base composition, dinucleotide relative abundance, codon usage, and so on. Unique subsequences are markers of special interest in genome comparison, expression profiling, and genetic engineering. Relative to a random sequence of the same length, unique subsequences are overrepresented in real genomes. Shortest words absent from a genome have been addressed in two recent studies. Results: We describe a new algorithm and software for the computation of absent words. It is more efficient than previous algorithms and easier to use. It directly computes unwords without the need to specify a length estimate. Moreover, it avoids the space requirements of index structures such as suffix trees and suffix arrays. Our implementation is available as an open source package. We compute unwords of human and mouse as well as some other organisms, covering a genome size range from 109 down to 105 bp. Conclusion: The new algorithm computes absent words for the human genome in 10 minutes on standard hardware, using only 2.5 Mb of space. This enables us to perform this type of analysis not only for the largest genomes available so far, but also for the emerging pan- and meta-genome data.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>9</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">18366790</identifier>
+                    <identifier type="ISI">000255284000005</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17840255</identifier>
+                    <identifier type="doi">10.1186/1471-2105-9-167</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1784025</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1784025">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1784025/2314322/gieg_2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1784025" DMDID="DMD1784025">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1784025"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

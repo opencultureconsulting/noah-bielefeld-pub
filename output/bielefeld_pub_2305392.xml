@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Numerische Studien über Quantenchaos und Ergodizität in nicht-relativistischen Quantensystemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">K. Günther</namePart>
+                        <namePart type="family">Schlegel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Farhad H. M. (Prof.</namePart>
+                        <namePart type="family">Faisal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2002</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2002-05-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die Arbeit gibt einen Überblick über alle relevanten Maße zur Beurteilung von deterministischem Chaos in nicht-relativistischen Quantensystemen. Wir zeigen für verschränkte Zustände in einem Zweioszillatorsystem, dass es eine Abstufung von Chaos mit steigenden Quantenzahlen gibt. Das System besitzt die bemerkenswerte Eigenschaft vollständiger Ergodizität.</abstract>
+                    <subject>
+                        <topic>Quantenmechanisches System , Chaotisches System , Ergodentheorie , Quantenchaos , Ergodizität ,</topic>
+                    </subject>
+                    <classification authority="ddc">530</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3682</identifier>
+                    <identifier type="sys">HT014306544</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2305392">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305392/2305397/0054.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2305392">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305392/2305396/0054.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2305392">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305392/2305395/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE3_bielefeld_pub_2305392">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305392/2305398/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305392" DMDID="DMD2305392">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305392"/>
+            <mets:div TYPE="part" ID="PART1_2305392" LABEL="0054.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2305392"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2305392" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2305392"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2305392" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2305392"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

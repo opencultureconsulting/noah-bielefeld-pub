@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913113">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Binomial outcomes in dataset with some clusters of size two: can the dependence of twins be accounted for? A simulation study comparing the reliability of statistical methods based on a dataset of preterm infants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Odile</namePart>
+                        <namePart type="family">Sauzet</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Janet L.</namePart>
+                        <namePart type="family">Peacock</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+The analysis of perinatal outcomes often involves datasets with some multiple births. These are datasets mostly formed of independent observations and a limited number of clusters of size two (twins) and maybe of size three or more. This non-independence needs to be accounted for in the statistical analysis. Using simulated data based on a dataset of preterm infants we have previously investigated the performance of several approaches to the analysis of continuous outcomes in the presence of some clusters of size two. Mixed models have been developed for binomial outcomes but very little is known about their reliability when only a limited number of small clusters are present.
+Methods
+
+Using simulated data based on a dataset of preterm infants we investigated the performance of several approaches to the analysis of binomial outcomes in the presence of some clusters of size two. Logistic models, several methods of estimation for the logistic random intercept models and generalised estimating equations were compared.
+Results
+
+The presence of even a small percentage of twins means that a logistic regression model will underestimate all parameters but a logistic random intercept model fails to estimate the correlation between siblings if the percentage of twins is too small and will provide similar estimates to logistic regression. The method which seems to provide the best balance between estimation of the standard error and the parameter for any percentage of twins is the generalised estimating equations.
+Conclusions
+
+This study has shown that the number of covariates or the level two variance do not necessarily affect the performance of the various methods used to analyse datasets containing twins but when the percentage of small clusters is too small, mixed models cannot capture the dependence between siblings.</abstract>
+                    <subject>
+                        <topic>Binomial outcomes Small clusters Generalised mixed models Generalised estimating equations Perinatal outcomes</topic>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Medical Research Methodology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>17</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2288</identifier>
+                    <identifier type="eIssn">1471-2288</identifier>
+                    <identifier type="MEDLINE">28728549</identifier>
+                    <identifier type="ISI">000406331900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29131132</identifier>
+                    <identifier type="doi">10.1186/s12874-017-0369-6</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913113</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913113">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913113/2913115/bmc.s12874-017-0369-6.sauzet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913113" DMDID="DMD2913113">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913113"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

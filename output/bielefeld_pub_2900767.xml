@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2900767">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Eurace@Unibi Model v1.0 Source Code</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Simon</namePart>
+                        <namePart type="family">Gemkow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Harting</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8865-7466</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sander</namePart>
+                        <namePart type="family">van der Hoog</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2348-3194</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">Eurace@Unibi Model v1.0.1 Source Code is compatible with xparser-0.17.1 (GSL-2.4).</abstract>
+                    <subject>
+                        <topic>agent-based economics</topic>
+                        <topic>ETACE_Agent_Based_Modelling</topic>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2900767</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2900767</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip" ID="FILE0_bielefeld_pub_2900767">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900767/2900768/EuraceUnibi_Model_1.0_Source.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2900767">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900767/2900792/EULA.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-bzip" ID="FILE2_bielefeld_pub_2900767">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2900767/2932177/EuraceUnibi_Model_1.0.1_Source.tar.bz2" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2900767" DMDID="DMD2900767">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2900767"/>
+            <mets:div TYPE="part" ID="PART1_2900767" LABEL="EULA.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2900767"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2900767" LABEL="EuraceUnibi_Model_1.0.1_Source.tar.bz2">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2900767"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

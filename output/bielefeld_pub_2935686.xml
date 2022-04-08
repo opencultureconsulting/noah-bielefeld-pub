@@ -1,0 +1,475 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2935686">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Modeling the Contribution of Visual Attention to Spatial Language Verification</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Kluth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Pia</namePart>
+                        <namePart type="family">Knoeferle</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-05-10</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This research asks how humans connect spatial language to physical
+space. To investigate this question, the present dissertation focuses on
+the task of verifying sentences containing a projective spatial preposition (e.g., *above, below*) against a depicted spatial relation (e.g., a circle
+above a rectangle). Linguistically, the two components of a spatial relation are distinguished from each other: “The [located object (LO)] is
+above the [reference object (RO)].” That is, a spatial preposition specifies the location of an LO with respect to an RO. Typically, semantics
+do not allow to interchange RO and LO (although syntactically this is
+not a problem). For instance, compare the sentence “The bike (LO) is
+in front of the house (RO)” with “The house (LO) is behind the bike
+(RO)” (cf. Talmy, 2000, p. 183)&lt;br /&gt;&lt;br /&gt;
+For the processing of spatial relations, shifts of visual attention have
+been identified as an important mechanism (Franconeri, Scimeca, Roth,
+Helseth, &amp; Kahn, 2012; Logan &amp; Sadler, 1996; see Chapters 1 and 2).
+While Logan (1995) and Logan and Sadler (1996) claimed that attention
+should shift from the RO to the LO during the processing of spatial
+relations, recent empirical evidence suggests that the shift of attention
+might also take place in the same order as the sentence unfolds – from
+the LO to the RO (Burigo &amp; Knoeferle, 2015; Roth &amp; Franconeri, 2012).&lt;br /&gt;&lt;br /&gt;
+A computational cognitive model of spatial language verification
+is the ‘Attentional Vector Sum’ (AVS) model proposed by Regier and
+Carlson (2001). This model (implicitly) implements a shift of attention
+from the RO to the LO (see Chapter 1). It accommodates empirical
+data from a range of different spatial RO-LO configurations (Regier
+&amp; Carlson, 2001). To what extent does this good model performance
+originate from the directionality of the implemented shift (from the RO
+to the LO)? Considering the recent empirical evidence that attention
+might move in the reversed direction (from the LO to the RO) – would
+a model implementing such a reversed shift perform better or worse
+on the empirical data? These are the main questions that motivated the
+present thesis.&lt;br /&gt;&lt;br /&gt;
+To answer these questions, I developed several variations of the AVS
+model (taking into account the two important geometric properties
+‘proximal orientation’ and ‘center-of-mass orientation’; Regier, 1996;
+Regier &amp; Carlson, 2001). In all these variations, the shift of attention
+goes from the LO to the RO (instead of from the RO to the LO). This
+is why they are called ‘reversed AVS’ (rAVS) models. In Chapter 3, I
+assess the rAVS variations using empirical data (acceptability ratings for
+spatial prepositions) from Hayward and Tarr (1995), Logan and Sadler
+(1996), and Regier and Carlson (2001). More specifically, I fitted the
+models to the empirical data (separately for each experiment and for
+the whole data set from Regier &amp; Carlson, 2001). That is, I minimized
+the ‘normalized Root Mean Square Error’ (nRMSE) and thus obtained
+a ‘goodness-of-fit’ (GOF) measure. Moreover, I evaluated the ability
+of the models to generalize to unseen data (cf. Pitt &amp; Myung, 2002) by
+applying the ‘simple hold-out’ method (SHO; Schultheis, Singhaniya,
+&amp; Chaplot, 2013). The SHO is a cross-fitting method that accounts
+for potential over-fitting of empirical data. Considering these model
+benchmarks, one rAVS variation – the rAVS&lt;sub&gt;w-comb&lt;/sub&gt; model – performs as
+well as the AVS model on the tested empirical data. The rAVS&lt;sub&gt;w-comb&lt;/sub&gt;
+model implements a mechanism in which ‘relative distance’ (roughly:
+absolute distance from LO to RO divided by the dimensions of the
+RO) weights the influence of the two important geometric features
+proximal orientation and center-of-mass orientation. Based on these
+results, neither implementation of directionality of attention is able to
+accommodate the empirical findings better than the other.&lt;br /&gt;&lt;br /&gt;
+This is why I analyzed the AVS and rAVS&lt;sub&gt;w-comb&lt;/sub&gt; models in terms
+of their predictions (Chapter 4). The idea was to identify stimuli for
+which the two contrasting shift-implementations (i.e., the two models)
+predict different outcomes. Data collected with these stimuli could then
+potentially tell apart the two models (e.g., if humans follow predictions
+from one model but not from the other). I created two types of test
+cases for which the two models seemed to generate somewhat different
+outcomes: a relative distance test case and an asymmetrical ROs test
+case.&lt;br /&gt;&lt;br /&gt;
+In the relative distance test case, the critical manipulation is the height
+of the rectangular ROs. The absolute placements of the LOs remain
+equal in these stimuli. This test case is the first to investigate a potential
+influence of relative distance on human spatial language acceptability
+ratings. The predictions for the relative distance test case were that
+across different RO heights, acceptability ratings should differ (despite equal absolute LO placements). This prediction was clear for the
+rAVS&lt;sub&gt;w-comb&lt;/sub&gt; model. However, due to the averaging vector sum mechanism in the AVS model, the prediction from the AVS model remained
+unclear.&lt;br /&gt;&lt;br /&gt;
+The second test case (asymmetrical ROs) challenges the role of the
+vector sum in the AVS model. For this test case, I designed asymmetrical
+ROs. LOs are placed either above the cavity of these ROs or above the
+mass. (The RO-side that faces the LO is flat.) For these ROs, the center-of-mass does not coincide with the center-of-object (the center of the
+bounding box of the RO). Based on intuitive reasoning, the AVS model
+predicts different acceptability ratings for LOs placed (i) with equal
+distance to the center-of-mass but (ii) either above the cavity or the
+mass of the RO: the AVS model seems to predict higher ratings for
+LOs placed above the mass compared to LOs above the cavity. The
+rAVS&lt;sub&gt;w-comb&lt;/sub&gt; model predicts no difference for this test case.&lt;br /&gt;&lt;br /&gt;
+I systematically simulated the models on the created stimuli using
+the ‘Parameter Space Partitioning’ method (PSP; Pitt, Kim, Navarro,
+&amp; Myung, 2006). This method enumerates all qualitatively different
+data patterns a model is able to generate – based on evaluating the
+whole parameter space of the model. Surprisingly, the PSP analysis
+revealed that both models share some of their predictions (but the
+models do not generate equal outcomes for all stimuli and parameter
+settings). Empirical data collected with these stimuli still might help
+to distinguish between the two models in terms of performance (e.g.,
+based on different quantitative model fits)&lt;br /&gt;&lt;br /&gt;
+This is why I conducted an empirical study that tested the model predictions for both developed test cases (relative distance and asymmetrical ROs). The empirical study was designed to be as close as possible
+to the experimental setup reported in Regier and Carlson (2001). That
+is, 34 participants read the German sentence “Der Punkt ist über dem
+Objekt” (“The dot is above the object”) and afterwards had to rate its
+acceptability given a depicted spatial relation (e.g., an image of a dot
+and a rectangle) on a scale from 1 to 9. In addition to *über (above)*, I also
+tested the German preposition *unter (below)*. In total, the study tested
+448 RO-LO configurations. Moreover, I tracked the eye-movements of
+participants during inspection of the depicted spatial relation. These
+data are a measure of overt attention during spatial relation processing.&lt;br /&gt;&lt;br /&gt;
+The empirical study could generalize effects on spatial language verification from English to German (‘grazing line’ effect and lower ratings
+for *unter, below,* compared to *über, above*). Furthermore, the empirical
+study revealed an effect of relative distance on spatial language acceptability ratings, although different than predicted by the rAVS&lt;sub&gt;w-comb&lt;/sub&gt;
+model. The empirical data from the rectangular ROs suggest that lower
+relative distance weakens (i) the effect of proximal orientation and (ii)
+– for high values of proximal orientation – weakens a reversed effect
+of center-of-mass orientation. Neither the rAVS&lt;sub&gt;w-comb&lt;/sub&gt; model nor the
+AVS model can fully accommodate this finding. Future research should
+more closely investigate the effect of relative distance.&lt;br /&gt;&lt;br /&gt;
+For the asymmetrical ROs, analyses of the empirical data suggest that
+people rely on the center-of-object instead of on the center-of-mass for
+their acceptability ratings. This challenges earlier findings about the
+importance of the center-of-mass orientation. However, given that in
+earlier studies, the center-of-mass and the center-of-object most often
+coincided, the data presented in this dissertation provide additional
+information on how humans process geometry in the context of spatial
+language verification.&lt;br /&gt;&lt;br /&gt;
+In terms of eye movements, the empirical data provide evidence for
+the horizontal component of the attentional focus as defined in the AVS
+model. This focus is also an important point in the rAVS&lt;sub&gt;w-comb&lt;/sub&gt; model.
+The empirical results do not contradict the vertical component of the
+hypothesized attentional focus. However, due to the design of the study,
+it remains unclear whether the vertical fixation locations were caused
+by the used preposition or by the vertical location of the LO. In addition,
+people inspected the two types of asymmetrical ROs slightly differently.
+For the more open asymmetrical shapes (L-shaped), fixations were
+influenced by the asymmetrical distribution of mass. In contrast, for the
+less open but still asymmetrical shapes (C-shaped), fixation patterns
+could not be distinguished from fixation patterns to rectangular ROs.
+Note that for all asymmetrical ROs, the center-of-object orientation
+could predict the rating data better than the center-of-mass orientation
+– despite distinct fixation patterns.&lt;br /&gt;&lt;br /&gt;
+To further analyze the claim that people might use the center-of-object
+instead of the center-of-mass for their ratings, I developed modifications for the two cognitive models. While the AVS and rAVS&lt;sub&gt;w-comb&lt;/sub&gt;
+models rely on the center-of-mass, the two new models ‘AVS bounding
+box’ (AVS-BB) and ‘rAVS center-of-object’ (rAVS-CoO) consider the
+center-of-object instead (the rest of the models remains unchanged). To
+thoroughly analyze all four cognitive models, I applied several model
+comparison techniques (Chapter 5). Based on the stimuli and data
+from the empirical study, the goal of the model simulations was to
+distinguish between models that implement a shift from the RO to
+the LO (AVS, AVS-BB) and models that implement a shift from the
+LO to the RO (rAVS&lt;sub&gt;w-comb&lt;/sub&gt; , rAVS-CoO). Apart from fitting the models
+to the data (per GOF and SHO), I analyzed them using the ‘Model
+Flexibility Analysis’ (MFA, Veksler, Myers, &amp; Gluck, 2015) and the
+‘landscaping’ method (Navarro, Pitt, &amp; Myung, 2004). The latter two
+methods provide information on how flexible the models are. A highly
+flexible model is able to generate a vast amount of distinct output. A
+model with low flexibility generates only few distinct data patterns.
+In comparing model performances, one should consider the model
+flexibility (Roberts &amp; Pashler, 2000). This is because a more flexible
+model might even fit empirically implausible data well – due to its
+high flexibility. This renders a close fit to empirical data a necessary
+but not sufficient criteria for a “good” model. In addition to providing
+a different perspective on model flexibility, landscaping measures to
+what extent two models are mimicking each other (in which case it is
+more difficult to distinguish between them).&lt;br /&gt;&lt;br /&gt;
+Considering all model simulations, the two newly proposed models
+rAVS-CoO and AVS-BB (accounting for the center-of-object instead of
+for the center-of-mass) perform substantially better than their predecessors rAVS&lt;sub&gt;w-comb&lt;/sub&gt; and AVS. In contrast to the center-of-mass models, the
+two center-of-object models better fit the empirical data (GOF, SHO)
+while they are less flexible (MFA, landscaping) and generate rating
+patterns closer to the empirical patterns (PSP). This supports the hypothesis that people rely on the center-of-object orientation instead
+of on the center-of-mass orientation. In terms of the main research
+question, however, the model simulations do not favor any of the two
+implemented directionalities of attention over the other. That is, based
+on the existing empirical data and the cognitive models, both directionalities of attention are equally likely. The thesis closes with a model
+extension that allows cognitive modelers to analyze the models more
+fine-grained in the future. More specifically, extended models generate
+full rating distributions instead of mean ratings. This makes it possible
+to use all information available in the empirical data for future model
+assessments.&lt;br /&gt;&lt;br /&gt;
+Finally, Chapter 6 summarizes the results of this Ph.D. project. Following the seminal three-level framework proposed by Marr (1982), I
+discuss the findings and relate them to other relevant research. I sketch
+several promising possibilities to enhance the models in order to create
+a more comprehensive model of spatial language processing. Such
+a model would allow cognitive scientists to further investigate how
+humans ground their spatial language in the visual world.</abstract>
+                    <abstract lang="ger">Diese Dissertation beschäftigt sich mit der Frage, wie Menschen räumliche Sprache mit der äußeren Welt in Beziehung setzen. Um diese Frage zu beantworten, habe ich 
+untersucht, wie Menschen Sätze mit lokativen räumlichen Präpositionen (z. B. *über*) angesichts einer 
+abgebildeten räumlichen Relation (z. B. ein Punkt über einem Rechteck) verifizieren. Die lokative 
+räumliche Präposition ordnet den beiden Objekten der räumlichen Relation verschiedene Rollen zu: 
+„Das [zu-lokalisierende- Objekt (LO)] ist über dem [Referenzobjekt (RO)]“. Die räumliche 
+Präposition beschreibt also den Ort des LOs in Relation zum RO. Obwohl die Syntax es zulässt, 
+schränkt die Semantik normalerweise das Vertauschen von RO und LO ein: Während der Satz „Das 
+Fahrrad (LO) befindet sich vor dem Haus (RO)“ nicht unüblich ist, wirkt der Satz
+„Das Haus (LO) befindet sich hinter dem Fahrrad (RO)“ ungewöhnlich (vgl. Talmy, 2000, S. 183).&lt;br /&gt;&lt;br /&gt;
+Wissenschaftler haben Verschiebungen von visueller Aufmerksamkeit als einen wichtigen Mechanismus 
+zur Verarbeitung von räumlichen Relationen identifiziert (Franconeri, Scimeca, Roth, Helseth, &amp; 
+Kahn, 2012; Logan &amp; Sadler, 1996; s. Kapitel 1 und 2). Die Richtung der Aufmerksamkeitsverschiebung 
+ist allerdings umstritten. Während in älteren Arbeiten eine Aufmerksamkeitsverschiebung vom RO zum 
+LO angenommen wurde (Logan, 1995; Logan &amp; Sadler, 1996) haben jüngere empirische Befunde gezeigt, 
+dass sich Aufmerksamkeit möglicherweise eher in der Reihenfolge des Satzes verschiebt – d. h. vom 
+LO zum RO (Burigo &amp; Knoeferle, 2015; Roth &amp; Franconeri, 2012)&lt;br /&gt;&lt;br /&gt;
+Das ‚Attentional Vector Sum‘-Modell (AVS, Aufmerksamkeitsvektorensumme, Regier &amp; Carlson, 2001) 
+ist ein komputationales, kognitives Modell der Verifizierung räumlicher Sprache. Dieses Modell 
+nimmt (implizit) an, dass sich Aufmerksamkeit vom RO zum LO verschiebt (s. Kapitel 1). Das Modell 
+kann die empirischen Daten einer Reihe von verschiedenen räumlichen RO-LO Konfigurationen gut 
+abbilden (Regier &amp; Carlson, 2001). Inwieweit hängt dieser Modellerfolg von der implementierten 
+Richtung (vom RO zum LO) der Aufmerksamkeitsverschiebung ab? Wenn man die jüngsten empirischen 
+Befunde in Betracht zieht, die stattdessen eine Aufmerksamkeitsverschiebung vom LO zum RO 
+nahelegen: Würde ein Modell, welches eine Aufmerksamkeitsverschiebung vom LO zum RO 
+implementiert, die empirischen Daten besser oder schlechter abbilden? Dies sind die 
+Hauptforschungsfragen, die dieser Dissertation zu Grunde liegen&lt;br /&gt;&lt;br /&gt;
+Um diese Fragen zu beantworten, habe ich mehrere Variationen des AVS Modells entwickelt. In allen 
+Variationen ist eine Aufmerksamkeitsverschiebung vom LO zum RO implementiert – unter 
+Berücksichtigung der geometrischen Faktoren ‚proximal orientation‘ und ‚center-of-mass
+orientation‘, von denen bekannt ist, dass sie die Akzeptanz von räumlichen
+Präpositionen beeinflussen (Regier, 1996; Regier &amp; Carlson, 2001).
+Das Umkehren der Richtung der Aufmerksamkeitsverschiebung spiegelt
+sich im Namen der neuen Modellvariationen wider: Ich habe sie
+‚reversed AVS‘-Modelle (rAVS, umgekehrte AVS-Modelle) genannt. In
+Kapitel 3 habe ich alle rAVS-Variationen daraufhin untersucht, ob sie
+bereits existierende empirische Daten nachbilden können (Daten von
+Hayward &amp; Tarr, 1995; Logan &amp; Sadler, 1996; Regier &amp; Carlson, 2001).
+Diese Daten sind Akzeptanzbewertungen von räumlichen Präpositionen
+angesichts abgebildeter räumlicher Relationen.&lt;br /&gt;&lt;br /&gt;
+Ich habe alle Modelle simuliert, um zu analysieren, wie gut die Modelle
+ihre künstlichen Daten an die empirischen Daten anpassen können
+(Daten von jedem Experiment einzeln sowie den gesamten Datensatz
+von Regier &amp; Carlson, 2001). Das heißt, dass ich die Abweichung zwischen
+den empirischen und den modellgenerierten Daten minimiert
+habe (genauer: den ‚normalized Root Mean Square Error‘, nRMSE, also
+die normalisierte Wurzel aus der mittleren quadratischen Abweichung).
+Dies liefert eine Güte der Modellanpassung (‚goodness-of-fit‘, GOF).
+Darüber hinaus habe ich untersucht, wie gut die Modelle angesichts ungesehener
+Daten in der Lage sind, zu generalisieren (vgl. Pitt &amp; Myung,
+2002). Dazu habe ich die ‚simple hold-out‘-Methode genutzt (SHO,
+einfaches Weglassen; Schultheis, Singhaniya, &amp; Chaplot, 2013). Die
+SHO-Methode ist eine Kreuzvalidierungsmethode, die eine mögliche
+Überanpassung (‚over-fitting‘) berücksichtigt. Die Modellevaluation
+mithilfe dieser Methoden hat gezeigt, dass eine rAVS-Variation – das
+rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell – die getesteten Daten genauso gut abbilden kann
+wie das AVS-Modell. Das rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell benutzt dazu ‚relative
+Distanz‘ (grob: absolute Distanz zwischen LO und RO dividiert durch
+die Abmessungen des ROs), um den Einfluss der beiden geometrischen
+Faktoren ‚center-of-mass orientation‘ und ‚proximal orientation‘ zu
+gewichten. Diese Ergebnisse bedeuten, dass keine der beiden Richtungen
+der Aufmerksamkeitsverschiebung die empirischen Daten besser
+erklären kann als die andere.&lt;br /&gt;&lt;br /&gt;
+Deshalb habe ich die AVS- und rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modelle daraufhin untersucht,
+ob sie eventuell unterschiedliche Datenmuster für noch nicht
+getestete RO-LO Konfigurationen vorhersagen (Kapitel 4). Wenn das
+der Fall wäre, könnten empirische Daten für diese Stimuli dabei helfen,
+zwischen den beiden Modellen – Implementierungen gegensätzlicher
+Richtungen der Aufmerksamkeitsverschiebung – zu unterscheiden (z. B.
+indem die Vorhersage des einen Modells aber nicht die des anderen
+Modells erfüllt wird). Ich habe zwei Testfälle entwickelt, für die die
+beiden Modelle den Anschein machten, unterschiedliche Datenmuster
+vorherzusagen. Der eine Testfall betrifft die relative Distanz, der zweite
+Testfall untersucht die Rolle von asymmetrischen RO.&lt;br /&gt;&lt;br /&gt; Im Testfall zur relativen Distanz ist die kritische Manipulation, dass
+ich Rechtecke mit verschiedenen Höhen als RO genutzt habe. Die absolute
+Platzierung der LO bleibt konstant für alle Rechtecke. Die in dieser
+Arbeit präsentierte Studie ist die erste, die einen möglichen Einfluss von
+relativer Distanz auf Akzeptanzbewertungen von räumlichen Präpositionen
+untersucht. Das rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell sagt klar voraus, dass sich
+die Akzeptanzbewertungen zwischen den verschieden hohen Rechtecken
+unterscheiden sollten (trotz gleicher absoluter Platzierung der
+LO). Die Vorhersage des AVS-Modells bleibt unklar. Ein Hauptgrund
+für diese Unklarheit ist die Vektorensumme, die über die Geometrie
+des ROs mittelt.&lt;br /&gt;&lt;br /&gt;
+Der zweite Testfall untersucht den Einfluss von asymmetrischen RO.
+Hier steht insbesondere die Vektorensumme des AVS-Modells im Fokus,
+die dafür verantwortlich ist, die Geometrie des ROs abzubilden. Ich
+habe die asymmetrischen ROso entwickelt, dass LO, die über den asymmetrischen
+ROplatziertwerden, entweder über dem Hohlraum des ROs
+oder über Masse des ROs liegen. (Die Seite des ROs, die zum LO zeigt,
+ist flach.) Der Schwerpunkt des ROs (‚center-of-mass‘) stimmt nicht mit
+dem Mittelpunkt des ROs (‚center-of-object‘) überein. Der Mittelpunkt
+ist die Mitte des kleinsten Rechtecks, das alle Punkte des ROs beinhaltet
+(der sogenannten ‚bounding box‘). Intuitiv sagt das AVS-Modell
+voraus, dass zwei LOs, die mit gleicher Distanz zum Schwerpunkt aber
+entweder über dem Hohlraum oder über der Masse des asymmetrischen
+ROs platziert werden, unterschiedlich bewertet werden sollten.
+Konkreter sagt das AVS-Modell voraus, dass das LO, welches sich über
+der Masse befindet, höher bewertet werden sollte als das LO, welches
+sich über dem Hohlraum befindet. Das rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell sagt keinen
+Unterschied in Bewertungen für diesen Testfall voraus.&lt;br /&gt;&lt;br /&gt;
+Mithilfe der ‚Parameter Space Partitioning‘-Methode (PSP, Parameter-
+Raum-Aufteilung, Pitt, Kim, Navarro, &amp; Myung, 2006) habe ich die Modelle
+systematisch untersucht. Diese Methode identifiziert alle vorhergesagten
+Datenmuster eines Modells, die sich qualitativ unterscheiden.
+Dazu durchsucht die PSP-Methode den gesamten Parameterraum des
+Modells. Überraschenderweise stellte sich durch diese Methode heraus,
+dass beide Modelle (AVS und rAVS&lt;sub&gt;w-comb&lt;/sub&gt;) überlappende Vorhersagen
+treffen. (Das heißt nicht, dass beide Modelle mit allen Parametersätzen
+und für alle Stimuli genau die gleichen Vorhersagen treffen.) Trotz der
+teilweise überlappenden Vorhersagen könnten empirische Daten für
+diese Stimuli dabei helfen, die beiden Modelle voneinander zu unterscheiden
+(z. B. durch quantitativ unterschiedliche Modellanpassungen
+an die Daten).&lt;br /&gt;&lt;br /&gt;
+Deshalb habe ich eine empirische Studie mit diesen Stimuli durchgeführt,
+um die Vorhersagen der Modelle hinsichtlich der beiden vorgestellten
+Testfälle (relative Distanz und asymmetrische RO) zu überprüfen.
+Die Studie wurde so gestaltet, dass sie möglichst gut vergleichbar
+mit früheren Studien ist (insbesondere mit den Experimenten von Regier &amp; Carlson, 2001). 34 Studienteilnehmer sollten den Satz „Der Punkt
+ist über dem Objekt“ lesen und danach die Akzeptanz dieses Satzes hinsichtlich
+einer abgebildeten räumlichen Relation (also eines Bildes mit
+einem Punkt und einem Objekt) auf einer Skala von 1 bis 9 bewerten.
+Zusätzlich zur Präposition *über* habe ich die Präposition *unter* getestet.
+Die Studie beinhaltete insgesamt 448 verschiedene räumliche RO-LO
+Konfigurationen. Darüber hinaus habe ich die Augenbewegungen der
+Teilnehmer während der Präsentation der Raumrelationen aufgenommen.
+Diese stellen eine interessante Messgröße von offener visueller
+Aufmerksamkeit dar.&lt;br /&gt;&lt;br /&gt;
+Die Studie generalisiert Effekte vom Englischen ins Deutsche (‚grazingline‘-
+Effekt und niedrigere Bewertungen für *unter* im Vergleich zu *über*).
+Für den Testfall der relativen Distanz zeigen die Ergebnisse der empirischen
+Studie, dass relative Distanz Akzeptanzbewertungen räumlicher
+Sprache beeinflusst. Dieses Ergebnis bestätigt die generelle Vorhersage
+des rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modells. Allerdings unterscheidet sich die empirisch
+gefundene Art und Weise des Effekts der relativen Distanz von dem
+konkreten Mechanismus des rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modells. Analysen der Daten
+legen nahe, dass niedrige relative Distanz (i) den Effekt der ‚proximal
+orientation‘ schwächt und dass niedrige relative Distanz (ii) – bei
+hohenWerten der ‚proximal orientation‘ – einen umgekehrten Effekt
+der ‚center-of-mass orientation‘ schwächt. Da weder das AVS-Modell
+noch das rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell diesen Mechanismus erklären kann, sollte
+zukünftige Forschung diesen Effekt genauer untersuchen.&lt;br /&gt;&lt;br /&gt;
+Für den Testfall der asymmetrischen RO legen die Daten nahe, dass
+Menschen statt des Schwerpunkts des ROs (‚center-of-mass‘) eher den
+Mittelpunkt des ROs (‚center-of-object‘) als Basis für ihre linguistischen
+Akzeptanzbewertungen nehmen. Dieses Ergebnis stellt die Bedeutung
+der ‚center-of-mass orientation‘ in Frage und lässt es wahrscheinlicher
+erscheinen, dass Menschen sich auf die ‚center-of-object orientation‘
+stützen. Da allerdings in den meisten vorherigen Studien Schwer- und
+Mittelpunkt zusammenfielen, geben die hier vorgestellten Daten interessante
+neue Einblicke in die Art und Weise, wie Menschen asymmetrische
+Objekte zur Verifizierung von räumlichen Ausdrücken verarbeiten.&lt;br /&gt;&lt;br /&gt;
+Die gesammelten Augenbewegungsdaten bestätigen die horizontale
+Komponente des im AVS-Modell definierten Aufmerksamkeitsfokus’
+(dieser Punkt spielt auch im rAVS&lt;sub&gt;w-comb&lt;/sub&gt;-Modell eine wichtige Rolle).
+Obwohl die Daten nicht der vertikalenKomponente dieses Fokus’ widersprechen,
+lässt sich durch das Studiendesign nicht zweifelsfrei klären,
+ob die Präposition oder die Platzierung der LO die vertikalen Fixationen
+beeinflusst hat. Darüber hinaus haben die Augenbewegungsdaten
+gezeigt, dass die Studienteilnehmer die beiden unterschiedlichen Typen
+der asymmetrischen RO unterschiedlich inspiziert haben.Während
+die Augenbewegungen durch die asymmetrische Massenverteilung
+der offeneren asymmetrischen RO (L-förmig) beeinflusst wurden, haben
+die Studienteilnehmer die geschlosseneren asymmetrischen RO (C-förmig) so fixiert, als wenn diese RO rechteckig wären. Trotz dieser
+unterschiedlichen Fixationsmuster kann die ‚center-of-object orientation‘
+die empirischen Akzeptanzbewertungen besser erklären als die
+‚center-of-mass orientation‘.&lt;br /&gt;&lt;br /&gt;
+Um die Hypothese, dass Menschen sich zur Verifizierung von räumlichen
+Präpositionen eher auf den Mittel- statt auf den Schwerpunkt
+des ROs beziehen, näher zu untersuchen, habe ich die beiden Modelle
+AVS und rAVS&lt;sub&gt;w-comb&lt;/sub&gt; leicht modifiziert. Daraus sind die neuen Modelle
+‘AVS bounding box’ (AVS-BB) und ‘rAVS center-of-object’ (rAVS-CoO)
+entstanden. Anstatt den Schwerpunkt des ROs in ihren Berechnungen
+zu berücksichtigen (wie AVS und rAVS&lt;sub&gt;w-comb&lt;/sub&gt;), nutzen die neuen
+Modelle AVS-BB und rAVS-CoO den Mittelpunkt des ROs. Die übrigen
+Bestandteile der Modelle sind unverändert geblieben. Um alle vier
+Modelle gründlich zu analysieren, habe ich eine Reihe weiterer Modellsimulationen
+durchgeführt (Kapitel 5). Mithilfe der Daten und Stimuli
+der Studie aus Kapitel 4 habe ich versucht, die Modelle, die eine Aufmerksamkeitsverschiebung
+vom RO zum LO implementieren (AVS,
+AVS-BB), von den Modellen, die eine umgekehrte Aufmerksamkeitsverschiebung
+(vom LO zum RO, rAVS&lt;sub&gt;w-comb&lt;/sub&gt;, rAVS-CoO) implementieren,
+zu unterscheiden. Dazu habe ich alle Modelle an die gesammelten empirischen
+Daten angepasst (GOF, SHO). Darüber hinaus habe ich zwei
+weitere Modellanalysen durchgeführt: Die ‚Model Flexibility Analysis‘
+(MFA, Modelflexibilitätsanalyse, Veksler, Myers, &amp; Gluck, 2015) und
+die ‚landscaping‘-Methode (Navarro, Pitt, &amp; Myung, 2004). Beide Methoden
+liefern Messgrößen, die die Flexibilität der Modelle beschreiben.&lt;br /&gt;&lt;br /&gt;
+Wenn man herausfinden möchte, welches Modell einen modellierten
+Prozess besser beschreibt, sollte man sich nicht nur auf eine möglichst
+gute Anpassung der Modelle an die empirischen Daten verlassen (z. B.
+per GOF; Roberts &amp; Pashler, 2000). Vielmehr ist es auch wichtig zu
+untersuchen, wie flexibel die Modelle sind. Ein sehr flexibles Modell
+kann neben den empirischen Daten auch viele weitere Datenmuster generieren,
+die möglicherweise empirisch nicht plausibel sind. Ein wenig
+flexibles Modell generiert nur eine geringe Menge an Datenmustern (im
+Idealfall die empirischen). Diese Überlegungen führen dazu, dass eine
+gute Modellanpassung an empirische Daten zwar ein notwendiges, aber
+kein hinreichendes Maß von Modellgüte ist. Zusätzlich zur Messung
+der Modellflexibilität, misst die ‚landscaping‘ Methode noch, inwieweit
+sich zwei Modelle nachahmen (in welchem Fall eine Unterscheidung
+der Modelle erschwert ist).&lt;br /&gt;&lt;br /&gt;
+Über alle Modellsimulationen hinweg lässt sich feststellen, dass die
+Modelle, die den Mittelpunkt in ihren Berechnungen nutzen (AVS-BB
+und rAVS-CoO), deutlich besser abschneiden als die Ursprungsmodelle,
+die auf den Schwerpunkt setzen (AVS, rAVS&lt;sub&gt;w-comb&lt;/sub&gt;). Im Vergleich
+mit den Schwerpunktsmodellen passen sich die Mittelpunktsmodelle
+besser an die empirischen Daten an (GOF, SHO), sind weniger flexibel
+(MFA, landscaping) und generieren Datenmuster, die näher an den empirischen Mustern liegen (PSP). Dies unterstützt die Hypothese,
+dass für die Verifizierung von räumlichen Präpositionen die Mittelpunktsorientierung
+(‚center-of-object orientation‘) wichtiger ist als die
+Schwerpunktsorientierung (‚center-of-mass orientation‘). Die Hauptforschungsfrage
+– welche Richtung der Aufmerksamkeitsverschiebung
+(vom RO zum LO oder vom LO zum RO) den Prozess der Verifizierung
+von räumlichen Präpositionen besser erklärt – lässt sich jedoch durch
+die Modellsimulationen nicht abschließend beantworten. Unabhängig
+von der implementierten Aufmerksamkeitsverschiebung lassen sich die
+vorliegenden Modelle anhand der existierenden Daten nicht verlässlich
+voneinander unterscheiden (im Sinne einer besseren Modellierung
+des kognitiven Prozesses). Beide Richtungen der Aufmerksamkeitsverschiebung
+sind gleich wahrscheinlich. Um die Modelle präziser mit
+empirischen Daten vergleichen zu können, stelle ich zum Schluss eine
+Modellerweiterung vor, die es erlaubt, dass die Modelle statt einem
+einzelnen Akzeptanz-Mittelwert eine komplette Verteilung von Akzeptanzbewertungen
+generieren können. Zukünftige Modellevaluationen
+können somit alle verfügbaren Informationen aus den empirischen
+Daten nutzen.&lt;br /&gt;&lt;br /&gt;
+Die Dissertation schließt mit einer zusammenfassenden Diskussion
+der erreichten Ergebnisse. Basierend auf dem einflussreichen Drei-
+Ebenen-Konzept von Marr (1982) ordne ich die Befunde in weitere relevante
+Forschung ein. Außerdem skizziere ich einige vielversprechende
+Modellerweiterungen, die sich zur Entwicklung eines umfassenderen
+Modells von räumlicher Sprache als nützlich erweisen könnten. Solch
+ein Modell würde es ermöglichen, die Art undWeise, wie Menschen
+räumliche Sprache in der externen Welt verankern, noch präziser zu
+untersuchen.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">410</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29356864</identifier>
+                    <identifier type="doi">10.4119/unibi/2935686</identifier>
+                    <identifier type="sys">HT020131983</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2935686</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2935686">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2935686/2935687/thomas_kluth_dissertation_may_2019.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2935686" DMDID="DMD2935686">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2935686"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

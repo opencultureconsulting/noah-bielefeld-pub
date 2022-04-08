@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2700166">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An easy-to-use primer design tool to address paralogous loci and T-DNA insertion sites in the genome of Arabidopsis thaliana</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Gunnar</namePart>
+                        <namePart type="family">Huep</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nils</namePart>
+                        <namePart type="family">Kleinbölting</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd</namePart>
+                        <namePart type="family">Weisshaar</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7635-3473</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND: More than 90% of the Arabidopsis thaliana genes are members of multigene families. DNA sequence similarities present in such related genes can cause trouble, e.g. when molecularly analysing mutant alleles of these genes. Also, flanking-sequence-tag (FST) based predictions of T-DNA insertion positions are often located within paralogous regions of the genome. In such cases, the prediction of the correct insertion site must include careful sequence analyses on the one hand and a paralog specific primer design for experimental confirmation of the prediction on the other hand. 
+RESULTS: GABI-Kat is a large A. thaliana insertion line resource, which uses in-house confirmation to provide highly reliable access to T-DNA insertion alleles. To offer trustworthy mutant alleles of paralogous loci, we considered multiple insertion site predictions for single FSTs and implemented this 1-to-N relation in our database. The resulting paralogous predictions were addressed experimentally and the correct insertion locus was identified in most cases, including cases in which there were multiple predictions with identical prediction scores. A newly developed primer design tool that takes paralogous regions into account was developed to streamline the confirmation process for paralogs. The tool is suitable for all parts of the genome and is freely available at the GABI-Kat website. Although the tool was initially designed for the analysis of T-DNA insertion mutants, it can be used for any experiment that requires locus-specific primers for the A. thaliana genome. It is easy to use and also able to design amplimers with two genome-specific primers as required for genotyping segregating families of insertion mutants when looking for homozygous offspring. 
+CONCLUSIONS: The paralog-aware confirmation process significantly improved the reliability of the insertion site assignment when paralogous regions of the genome were affected. An automatic online primer design tool that incorporates experience from the in-house confirmation of T-DNA insertion lines has been made available. It provides easy access to primers for the analysis of T-DNA insertion alleles, but it is also beneficial for other applications as well.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Plant Methods</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>10</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1746-4811</identifier>
+                    <identifier type="MEDLINE">25324895</identifier>
+                    <identifier type="ISI">000342089300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27001669</identifier>
+                    <identifier type="doi">10.1186/1746-4811-10-28</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2700166</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2700166">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2700166/2701529/weisshaar.1746-4811-10-28.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2700166" DMDID="DMD2700166">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2700166"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

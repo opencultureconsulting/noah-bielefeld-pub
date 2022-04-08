@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2666049">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Model-based acquisition and analysis of multimodal interactions for improving human-robot interaction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Renner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9640-8291</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">For solving complex tasks cooperatively in close interaction with robots, they need to understand natural human communication. To achieve this, robots could benefit from a deeper understanding of the processes that humans use for successful communication. Such skills can be studied by investigating human face-to-face interactions in complex tasks. In our work the focus lies on shared-space interactions in a path planning task and thus 3D gaze directions and hand movements are of particular interest. However, the analysis of gaze and gestures is a time-consuming task: Usually, manual annotation of the eye tracker&apos;s scene camera video is necessary in a frame-by-frame manner. To tackle this issue, based on the EyeSee3D method, an automatic approach for annotating interactions is presented: A combination of geometric modeling and 3D marker tracking serves to align real world stimuli with virtual proxies. This is done based on the scene camera images of the mobile eye tracker alone. In addition to the EyeSee3D approach, face detection is used to automatically detect fixations on the interlocutor. For the acquisition of the gestures, an optical marker tracking system is integrated and fused in the multimodal representation of the communicative situation.</abstract>
+                    <subject>
+                        <topic>Eyetracking</topic>
+                        <topic>geometric modelling</topic>
+                        <topic>motion tracking</topic>
+                        <topic>Gaze-based Interaction</topic>
+                        <topic>3D gaze analysis</topic>
+                        <topic>Augmented Reality</topic>
+                        <topic>eye tracking</topic>
+                        <topic>marker tracking</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-1-4503-2751-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26660493</identifier>
+                    <identifier type="doi">10.1145/2578153.2582176</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2666049</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2666049">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2666049/2666062/ModelBasedAcquisition.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2666049">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2666049/2666073/Analysing_Human_Face-to-Face_Interactions_in_Shared_Space.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2666049" DMDID="DMD2666049">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2666049"/>
+            <mets:div TYPE="part" ID="PART1_2666049" LABEL="Analysing_Human_Face-to-Face_Interactions_in_Shared_Space.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2666049"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

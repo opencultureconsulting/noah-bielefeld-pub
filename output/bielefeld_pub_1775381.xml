@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1775381">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bounds on algebraic code capacities for noisy channels. II</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Rudolf</namePart>
+                        <namePart type="family">Ahlswede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">J.</namePart>
+                        <namePart type="family">Gemma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1971</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">It was proved by Ahlswede (1971) that codes whose codewords form a group or even a linear space do not achieve Shannon&apos;s capacity for discrete memoryless channels even if the decoding procedure is arbitrary. Sharper results were obtained in Part I of this paper. For practical purposes, one is interested not only in codes which allow a short encoding procedure but also an efficient decoding procedure. Linear codes—the codewords form a linear space and the decoding is done by coset leader decoding — have a fairly efficient decoding procedure. But in order to achieve high rates the following slight generalization turns out to be very useful: We allow the encoder to use a coset of a linear space as a set of codewords. We call these codes shifted linear codes or coset codes. They were implicitly used by Dobrushin (1963). This new code concept has all the advantages of the previous one with respect to encoding and decoding efficiency and enables us to achieve positive rate on discrete memoryless channels whenever Shannon&apos;s channel capacity is positive and the length of the alphabet is less or equal to 5 (Theorem 3.1.1). (The result holds very likely also for all alphabets with a length a = ps, p prime, s positive integer). A disadvantage of the concepts of linear codes and of shifted linear codes is that they can be defined only for alphabets whose length is a prime power. In order to overcome this difficulty, we introduce generalized shifted linear codes. With these codes we can achieve a positive rate on arbitrary discrete memoryless channels if Shannon&apos;s capacity is positive (Theorem 3.2.1)</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Information and Control</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>19</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>146</start>
+                                <end>158</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">ARRAY(0x8f64170)</identifier>
+                    <identifier type="ISI">A1971K329100005</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17753817</identifier>
+                    <identifier type="doi">10.1016/S0019-9958(71)90783-2</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1775381</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1775381">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1775381/2311894/Ahlswede_11.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1775381" DMDID="DMD1775381">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1775381"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

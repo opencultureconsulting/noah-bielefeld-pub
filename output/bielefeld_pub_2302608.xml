@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302608">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Probabilistic arithmetic automata : applications of a stochastic computational framework in biological sequence analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Inke</namePart>
+                        <namePart type="family">Herms</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2009</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-10-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The immense amount of biological sequence data available these days requires efficient and sensitive analysis in order to provide e.g. the identification of unknown proteins, or information about the similarity between DNA sequences. Furthermore, new challenges to computational sequence analysis are posed by short sequence reads resulting from modern high throughput sequencing technologies such as 454 or Solexa/Illumina.
+Viewing biological sequences, such as DNA and proteins, as strings allows their investigation under a generative random string model. That is to say, one can define a probabilistic null model that generates random strings as representatives of a class of sequences. From these, one can deduce general statistical properties.
+In this thesis, we give a thorough derivation of a probabilistic model, called probabilistic arithmetic automaton (PAA). This models sequences of operations associated to operands depending on chance and provides the computational framework to calculate the exact distribution of the value resulting from those operations. For instance, the PAA framework can be used to compute the expected molecular mass of a peptide resulting from the cleavage reaction of a protease.
+Moreover, we show that the framework is sufficiently general to cover completely different applications arising in the computational analysis of biological sequences. To this end, we consider three distinct levels of biosequences, namely 1) amino acid sequences, 2) long DNA sequences and genomes, and 3) short nucleotide sequence reads.
+In the first application, protein identification by means of mass spectrometry and database search, we compute characteristical statistics of so-called peptide mass fingerprints to obtain a reasonable, database-independent significance value for the identification of an unknown protein. Going one step further than recent approaches, we additionally incorporate post-translational modifications and incomplete enzymatic digestion that alter the measured molecular masses and, hence, may influence the search results.
+The second application arises from the context of DNA similarity search. We use the PAA framework to investigate the quality of filtration criteria employed to select candidate sequences from a comprehensive nucleotide sequence database. The PAA we propose comprises recent models and provides additional statistics. This allows us to investigate different definitions of optimality not discussed formerly.
+Searching for similar DNA sequences, which provides the basis for comparative genomics in general, was enabled by the growing amount of nucleotide sequences stored in sequence databases. This development was accelerated by high throughput sequencing strategies such as 454 sequencing, that allow for faster sequencing at reduced price. However, these technologies yield relatively short reads of sequenced nucleotides, which poses new challenges to genome assembly tools. By means of the PAA approach, we compute the length distribution of sequence reads resulting from 454 sequencing. Moreover, we discuss how to adjust the machine settings to obtain on average the longest reads possible. The designed PAA is used for evaluation.
+Besides the PAA framework and its applications, we present a biologically motivated random string model adjusted to protein sequences, referred to as SSE model. It captures properties of local segments forming protein secondary structures. In order to evaluate the model&apos;s capability, we compare four random string models by means of penalized model selection criteria. We show that among these models, the SSE model yields the most plausible description of considered protein sequences, outperforming the widely used i.i.d. and first-order Markov model.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15840</identifier>
+                    <identifier type="sys">HT016299403</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302608</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302608">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302608/2302611/diss_Herms.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302608" DMDID="DMD2302608">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302608"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

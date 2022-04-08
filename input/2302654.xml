@@ -1,0 +1,102 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302654</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>A hybrid algorithm for the simulation of biochemical reactions and diffusion</title></titleInfo>
+
+  
+  
+<titleInfo type="alternative">
+  
+  <title>Ein hybrider Algorithmus zur Simulation biochemischer Reaktionen und Diffusion</title>
+</titleInfo>
+
+
+
+
+<name type="personal">
+  <namePart type="given">Mark</namePart>
+  <namePart type="family">Möller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ellen</namePart>
+  
+  
+  <namePart type="family">Baake</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Over the last decades, the amount of data about molecular processes within cells has tremendously increased leading in particular to an increased interest in theoretical investigations of such systems. One basic theoretical approach in this context is to model processes in biological cells as chemical reaction (diffusion-) systems and to study their properties by computer simulations.
+One major problem in handling such systems is that they often simultaneously contain substrates with a wide range of possible particle numbers. For example, ribosomes typically exist in small numbers; tRNA-molecules or proteins are represented in intermediate quantities; and some ions, such as potassium or sodium, are typically present in large quantities. However, no conventional algorithm works well for such a wide range of particle numbers: Small particle numbers require stochastic algorithms, whereas intermediate and large particle numbers can only be treated by computationally more efficient, though perhaps less exact modeling.
+To address this problem, I developed the COntrollable Approximative STochastic Algorithm (COAST). COAST is a self-adjusting algorithm that can be applied to simulate reaction and diffusion systems. It is based on three different levels of modeling: an exact stochastic approach for low particle numbers, an approximative stochastic approach by Gaussian distributions for intermediate numbers, and a description by deterministic kinetics for high particle numbers.
+A special characteristic of COAST is that it automatically determines the optimal level of modeling for the reaction channel at each time step. This is done by using criteria, which appropriately depend on one single error control parameter [alpha]. One can show that all approximations of COAST lead to errors even smaller than [alpha]. Thus, by choosing a suitable value for [alpha], the user can easily find an optimal trade off between accuracy and computational efficiency for an individual simulation system.
+It is demonstrated in test simulations that COAST is able to reproduce results of exact stochastic algorithms with small errors. In most cases, the error is much smaller than [alpha]. On the other hand, COAST shows a different asymptotic dependence of the runtime on the number of particles N: For n-order reactions, the asymptotic runtime is proportional to N^n for exact algorithms, but proportional to N^(n-1) for COAST. So clearly, COAST provides significant improvements, in particular if N is large and n is small.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation.pdf">https://pub.uni-bielefeld.de/download/2302654/2302657/Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2006</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Computersimulation</topic><topic>Chemische Reaktion</topic><topic>Belousov-Zabotinskij-Reaktion</topic><topic>Biochemische Reaktion</topic><topic>Diffusionsmodell</topic><topic>Diffusion</topic><topic>Algorithmus</topic><topic>Stochastic simulation algorithm</topic><topic>First reaction method</topic><topic>Hybrid algorithm</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-10283</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2006-12-21</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Möller, Mark. &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2006.</mla>
+<default>Möller M (2006) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Möller, M.: A hybrid algorithm for the simulation of biochemical reactions and diffusion. Bielefeld University, Bielefeld (Germany) (2006).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Möller, Mark. 2006. &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Möller, M. (2006).  &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Möller, M., 2006. &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Möller M (2006) &lt;br /&gt;&lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<angewandte-chemie>M.  Möller, &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2006&lt;/strong&gt;.</angewandte-chemie>
+<wels>Möller, M. (2006): A hybrid algorithm for the simulation of biochemical reactions and diffusion. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Möller, M. (2006).  &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> M. Möller, &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2006.</ieee>
+<ama>Möller M. &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2006.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Möller, M. (2006). &lt;em&gt;A hybrid algorithm for the simulation of biochemical reactions and diffusion&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<frontiers>Möller, M. (2006). A hybrid algorithm for the simulation of biochemical reactions and diffusion. Bielefeld (Germany): Bielefeld University.</frontiers>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302654</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-01-23T11:29:09Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:52Z</recordChangeDate>
+</recordInfo>
+</mods>

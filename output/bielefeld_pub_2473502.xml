@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2473502">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Function approximation with uncertainty propagation in a VLSI spiking neural network</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">D.</namePart>
+                        <namePart type="family">Corneil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">D.</namePart>
+                        <namePart type="family">Sonnleithner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">E.</namePart>
+                        <namePart type="family">Neftci</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">M.</namePart>
+                        <namePart type="family">Cook</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">G.</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">R.</namePart>
+                        <namePart type="family">Douglas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The brain combines and integrates multiple cues to take coherent, context-dependent action using distributed, event-based computational primitives. Computational models that use these principles in software simulations of recurrently coupled spiking neural networks have been demonstrated in the past, but their implementation in hybrid analog/ digital Very Large Scale Integration (VLSI) spiking neural networks remains challenging. Here, we demonstrate a distributed spiking neural network architecture comprising multiple neuromorphic VLSI chips able to reproduce these types of cue combination and integration operations. This is achieved by encoding cues as population activities of input nodes in a network of recurrently coupled VLSI Integrate-and-Fire (I&amp;F) neurons. The value of the cue is place-encoded, while its uncertainty is represented by the width of the population activity profile. Relationships among different cues are specified through bidirectional connectivity matrices, shared between the individual input node populations and an intermediate node population. The resulting network dynamics bidirectionally relate not only the values of three variables according to a specified relation, but also their uncertainties. When cues on two populations are specified, the standard deviation of the activity in the unspecified population varies approximately linearly with the widths of the two input cues, and has less than 6% error in position compared to the value specified by the inputs. The results suggest a mechanism for recurrently relating cues such that missing information can both be recovered and assigned a level of certainty.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24735025</identifier>
+                    <identifier type="doi">10.1109/ijcnn.2012.6252780</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2473502</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2473502">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2473502/2553149/Function_approximation_with_uncertainty_propagation_in_a_VLSI_spiking_neural_network.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2473502" DMDID="DMD2473502">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2473502"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

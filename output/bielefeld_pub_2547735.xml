@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2547735">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Application-driven exploration of a programmable platform for Wireless LAN</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hans-Peter</namePart>
+                        <namePart type="family">Loeb</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-02-02</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Medium Access Control (MAC) plays a central role in communication devices for shared-medium protocols commonly found in home networks such as Wireless LAN (WLAN). With ongoing protocol evolution, this MAC layer has grown and still grows in complexity and its requirements (e.g., real-time). It now poses a unique challenge to a system&apos;s design. But adaptability as required for such evolving and heterogeneous protocols cannot be provided by today&apos;s conventional, dedicated devices. New and disciplined approaches to the development of flexible platforms are thus required that allow for trading off architectural features in the light of tough market competition.
+
+Consequently, we propose a novel universal MAC concept that promotes scalability, flexibility, and ease-of-use. It is complemented by an application-driven methodology and framework for productively modeling, exploring, and implementing efficient systems. This framework is extended to address the complexity and the real-time requirements of MAC protocols in a productive way. A fully-functional and executable system model of IEEE 802.11n Wireless LAN is presented as an example. The model drives architectural design space exploration, resulting in indicative system cost estimates and a platform architecture template. A software-based FPGA prototype is implemented that demonstrates architectural concepts and re-uses the system model as device firmware. The resulting protocol-agnostic system is a competitive platform for MAC systems that proves the capabilities of our comprehensive development flow.</abstract>
+                    <subject>
+                        <topic>prototype</topic>
+                        <topic>FPGA</topic>
+                        <topic>Click</topic>
+                        <topic>design space exploration</topic>
+                        <topic>embedded software</topic>
+                        <topic>programmable platforms</topic>
+                        <topic>IEEE 802.11n</topic>
+                        <topic>MAC layer</topic>
+                        <topic>SystemC</topic>
+                        <topic>Wireless LAN</topic>
+                        <topic>UMAC</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-25477355</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2547735</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2547735">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2547735/2547736/Loeb_Dissertation_2012.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2547735" DMDID="DMD2547735">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2547735"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

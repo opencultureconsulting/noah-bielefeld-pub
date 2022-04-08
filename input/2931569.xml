@@ -1,0 +1,138 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2931569</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Jeffrey</namePart>
+  <namePart type="family">Queißer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">52684838</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-9725-6971</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Jochen J.</namePart>
+  
+  
+  <namePart type="family">Steil</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Barbara</namePart>
+  
+  
+  <namePart type="family">Hammer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Modern robotic applications pose complex requirements with respect to the adaptation of
+actions regarding the variability in a given task. Reinforcement learning can optimize for
+changing conditions, but relearning from scratch is hardly feasible due to the high number of
+required rollouts. This work proposes a parameterized skill that generalizes to new actions
+for changing task parameters. The actions are encoded by a meta-learner that provides
+parameters for task-specific dynamic motion primitives. Experimental evaluation shows that
+the utilization of parameterized skills for initialization of the optimization process leads to a
+more effective incremental task learning. A proposed hybrid optimization method combines
+a fast coarse optimization on a manifold of policy parameters with a fine-grained parameter
+search in the unrestricted space of actions. It is shown that the developed algorithm reduces
+the number of required rollouts for adaptation to new task conditions. Further, this work
+presents a transfer learning approach for adaptation of learned skills to new situations.
+Application in illustrative toy scenarios, for a 10-DOF planar arm, a humanoid robot point
+reaching task and parameterized drumming on a pneumatic robot validate the approach.
+But parameterized skills that are applied on complex robotic systems pose further
+challenges: the dynamics of the robot and the interaction with the environment introduce
+model inaccuracies. In particular, high-level skill acquisition on highly compliant robotic
+systems such as pneumatically driven or soft actuators is hardly feasible. Since learning of
+the complete dynamics model is not feasible due to the high complexity, this thesis examines
+two alternative approaches: First, an improvement of the low-level control based on an
+equilibrium model of the robot. Utilization of an equilibrium model reduces the learning
+complexity and this thesis evaluates its applicability for control of pneumatic and industrial
+light-weight robots. Second, an extension of parameterized skills to generalize for forward
+signals of action primitives that result in an enhanced control quality of complex robotic
+systems. This thesis argues for a shift in the complexity of learning the full dynamics of the
+robot to a lower dimensional task-related learning problem. Due to the generalization in
+relation to the task variability, online learning for complex robots as well as complex scenarios
+becomes feasible. An experimental evaluation investigates the generalization capabilities of
+the proposed online learning system for robot motion generation. Evaluation is performed
+through simulation of a compliant 2-DOF arm and scalability to a complex robotic system
+is demonstrated for a pneumatically driven humanoid robot with 8-DOF.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="ParameterizedSkillThesisEPub.pdf">https://pub.uni-bielefeld.de/download/2931569/2931570/ParameterizedSkillThesisEPub.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29315694</identifier><identifier type="doi">10.4119/unibi/2931569</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2018-08-28</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Queißer, J. (2018): Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation. Bielefeld: Universität Bielefeld.</wels>
+<bio1>Queißer J (2018) &lt;br /&gt;&lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Queißer, J., 2018. &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Queißer, J. (2018).  &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931569&lt;/div&gt;</apa_indent>
+<angewandte-chemie>J.  Queißer, &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<ama>Queißer J. &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2018.</ama>
+<frontiers>Queißer, J. (2018). Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Queißer, J. (2018). &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931569.&lt;/div&gt;</dgps>
+<apa>Queißer, J. (2018).  &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2931569</apa>
+<ieee> J. Queißer, &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2018.</ieee>
+<lncs> Queißer, J.: Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation. Universität Bielefeld, Bielefeld (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Queißer, Jeffrey. 2018. &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Queißer, Jeffrey. &lt;em&gt;Multi-modal Skill Memories for Online Learning of Interactive Robot Movement Generation&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2018.</mla>
+<default>Queißer J (2018) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2931569</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-10-16T01:40:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-20T08:31:00Z</recordChangeDate>
+</recordInfo>
+</mods>

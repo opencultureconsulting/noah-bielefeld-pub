@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2689192">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Internal visuomotor models for cognitive simulation processes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Kaiser</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ralf</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfram</namePart>
+                        <namePart type="family">Schenck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2014-05-19</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Recent theories in cognitive science step back from the strict separation of perception, cognition, and the generation of behavior. Instead, cognition is viewed as a distributed process that relies on sensory, motor and affective states. In this notion, internal simulations -i.e. the mental reenactment of actions and their corresponding perceptual consequences - replace the application of logical rules on a set of abstract representations. These internal simulations are directly related to the physical body of an agent with its designated senses and motor repertoire. Correspondingly, the environment and the objects that reside therein are not viewed as a collection of symbols with abstract properties, but described in terms of their action possibilities, and thus as reciprocally coupled to the agent.
+
+In this thesis we will investigate a hypothetical computational model that enables an agent to infer information about specific objects based on internal sensorimotor simulations. This model will eventually enable the agent to reveal the behavioral meaning of objects. We claim that such a model would be more powerful than classical approaches that rely on the classification of objects based on visual features alone. However, the internal sensorimotor simulation needs to be driven by a number of modules that model certain aspects of the agents senses which is, especially for the visual sense, demanding in many aspects. The main part of this thesis will deal with the learning and modeling of sensorimotor patterns which represents an essential prerequisite for internal simulation.
+
+We present an efficient adaptive model for the prediction of optical flow patterns that occur during eye movements: This model enables the agent to transform its current view according to a covert motor command to virtually fixate a given point within its visual field. The model is further simplified based on a geometric analysis of the problem. This geometric model also serves as a solution to the problem of eye control. The resulting controller generates a kinematic motor command that moves the eye to a specific location within the visual field. We will investigate a neurally inspired extension of the eye control scheme that
+results in a higher accuracy of the controller. We will also address the problem of generating distal stimuli, i.e. views of the agent&apos;s gripper that are not present in its current view. The model we describe associates arm postures to pictorial views of the gripper. Finally, the problem of stereoptic depth perception is addressed. Here, we employ visual prediction in combination with an eye controller to generate virtually fixated views of objects in the left and right camera images. These virtually fixated views can be easily matched in order to establish correspondences. Furthermore, the motor information of the virtual fixation movement can be used to infer depth information.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-26891921</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2689192</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2689192">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2689192/2689196/diss_akaiser.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2689192" DMDID="DMD2689192">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2689192"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2623798">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the Entropy of a Two Step Random Fibonacci Substitution</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johan</namePart>
+                        <namePart type="family">Nilsson</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We consider a random generalization of the classical Fibonacci substitution. The substitution we consider is defined as the rule mapping, a → baa and b → ab, with probability , and  → ba, with probability 1 – p for 0 &lt; p &lt; 1, and where the random rule is applied each time it acts on a . We show that the topological entropy of this object is given by the growth rate of the set of inflated random Fibonacci words, and we exactly calculate its value.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Entropy</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>15</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>9</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>3312</start>
+                                <end>3324</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1099-4300</identifier>
+                    <identifier type="eIssn">1099-4300</identifier>
+                    <identifier type="arXiv">1303.2526</identifier>
+                    <identifier type="ISI">000328463000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26237982</identifier>
+                    <identifier type="doi">10.3390/e15093312</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2623798</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2623798">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2623798/2623801/entropy-15-03312.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2623798" DMDID="DMD2623798">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2623798"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,115 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2288475">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>The </nonSort>
+                        <title>Mini-Robot Khepera as a Foraging Animate: Synthesis and Analysis of Behaviour</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Löffler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jürgen</namePart>
+                        <namePart type="family">Klahold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Joaquin</namePart>
+                        <namePart type="family">Sitte</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulf</namePart>
+                        <namePart type="family">Witkowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The work presented in this paper deals with the development of a methodology
+for resource-efficient behaviour synthesis on autonomous systems. In this context, a definition
+of a maximal problem with respect to the resources of a given system is introduced. It
+is elucidated by means of an exemplary implementation of the solution to such a problem
+using the mini-robot Khepera as the experimental platform. The described task consists of
+exploring an unknown and dynamically changing environment, collecting and transporting
+objects, which are associated with light-sources, and navigating to a home-base. The critical
+point is represented by the accumulated positioning errors in odometrical path-integration
+due to slippage. Therefore, adaptive sensor calibration using a specific variant of Kohonen’s
+algorithm is applied in two cases to extract symbolic, e.g. geometric, information from the
+sub-symbolic sensor data, which is used to enhance position control by landmark mapping
+and orientation. In order to successfully handle the arising complex interactions, a heterogeneous
+control-architecture based on a parallel implementation of basic behaviours coupled
+by a rule-based central unit is proposed.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Proceedings of the 5th International Heinz Nixdorf Symposium: Autonomous Minirobots for Research and Edutainment (AMiRE01)</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>97</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>93</start>
+                                <end>130</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22884758</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2288475</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2288475">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2288475/2407271/The_Mini-Robot_Khepera_as_a_Foraging_Animate-_Synthesis_and_Analysis_of_Behaviour.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2288475" DMDID="DMD2288475">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2288475"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

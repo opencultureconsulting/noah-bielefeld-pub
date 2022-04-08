@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1785378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On Automatic Prominence Detection for German</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Fabio</namePart>
+                        <namePart type="family">Tamburini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Wagner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6662-3612</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Perceptual prominence is an important indicator of a word&apos;s and syllable&apos;s lexical, syntactic, 
+semantic and pragmatic status in a discourse. Its automatic annotation would be a valuable 
+enrichment of large databases used in unit selection speech synthesis and speech recognition. 
+While much research has been carried out on the interaction between prominence and 
+acoustic factors, little progress has been made in its automatic annotation. Previous 
+approaches to German relied on linguistic features in prominence detection, but a purely 
+acoustic method would be advantageous. We applied an algorithm to German data that had 
+been previously used for English and Italian. Both the algorithm and the data annotation 
+encode prominence as a continuous rather than a categorical parameter. First results are 
+encouraging, but again show that prominence perception relies on linguistic expectancies as 
+well as acoustic patterns. Also, our results further strengthen the view that force accents are a 
+more reliable cue to prominence than pitch accents in German.</abstract>
+                    <subject>
+                        <topic>prominence</topic>
+                        <topic>German</topic>
+                        <topic>prosody</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-44632</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1785378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1785378">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1785378/2577884/tamburiniwagner_2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1785378" DMDID="DMD1785378">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1785378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

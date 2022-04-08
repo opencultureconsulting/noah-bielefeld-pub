@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2775617">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>SMRT sequencing only de novo assembly of the sugar beet (Beta vulgaris) chloroplast genome</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kai Bernd</namePart>
+                        <namePart type="family">Stadermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8036-1492</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd</namePart>
+                        <namePart type="family">Weisshaar</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7635-3473</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniela</namePart>
+                        <namePart type="family">Holtgräwe</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-1062-4576</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Third generation sequencing methods, like SMRT (Single Molecule, Real-Time) sequencing developed by Pacific Biosciences, offer much longer read length in comparison to Next Generation Sequencing (NGS) methods. Hence, they are well suited for de novo- or re-sequencing projects. Sequences generated for these purposes will not only contain reads originating from the nuclear genome, but also a significant amount of reads originating from the organelles of the target organism. These reads are usually discarded but they can also be used for an assembly of organellar replicons. The long read length supports resolution of repetitive regions and repeats within the organelles genome which might be problematic when just using short read data. Additionally, SMRT sequencing is less influenced by GC rich areas and by long stretches of the same base.
+Results
+
+We describe a workflow for a de novo assembly of the sugar beet (Beta vulgaris ssp. vulgaris) chloroplast genome sequence only based on data originating from a SMRT sequencing dataset targeted on its nuclear genome. We show that the data obtained from such an experiment are sufficient to create a high quality assembly with a higher reliability than assemblies derived from e.g. Illumina reads only. The chloroplast genome is especially challenging for de novo assembling as it contains two large inverted repeat (IR) regions. We also describe some limitations that still apply even though long reads are used for the assembly.
+Conclusions
+
+SMRT sequencing reads extracted from a dataset created for nuclear genome (re)sequencing can be used to obtain a high quality de novo assembly of the chloroplast of the sequenced organism. Even with a relatively small overall coverage for the nuclear genome it is possible to collect more than enough reads to generate a high quality assembly that outperforms short read based assemblies. However, even with long reads it is not always possible to clarify the order of elements of a chloroplast genome sequence reliantly which we could demonstrate with Fosmid End Sequences (FES) generated with Sanger technology. Nevertheless, this limitation also applies to short read sequencing data but is reached in this case at a much earlier stage during finishing.</abstract>
+                    <subject>
+                        <topic>Chloroplast</topic>
+                        <topic>Sprai</topic>
+                        <topic>Sugar beet</topic>
+                        <topic>SMRT sequencing</topic>
+                        <topic>PacBio</topic>
+                        <topic>Assembly</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>16</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">26377912</identifier>
+                    <identifier type="ISI">000361278400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27756179</identifier>
+                    <identifier type="doi">10.1186/s12859-015-0726-6</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2775617</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2775617">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2775617/2780759/s12859-015-0726-6.holtgrawe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2775617" DMDID="DMD2775617">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2775617"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

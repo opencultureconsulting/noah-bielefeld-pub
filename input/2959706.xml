@@ -1,0 +1,128 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2959706</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Verteilte Systemarchitektur für mobile Roboter</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Uwe </namePart>
+  <namePart type="family">Jahn</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Bei mobilen Robotern gibt es zahlreiche Ansätze für Systemarchitekturen, sowohl als
+monolithisches, als auch als verteiltes System innerhalb eines Roboters. Ziel der
+vorliegenden Dissertation ist die Entwicklung einer allgemeingültigen Systemarchitektur
+für einen typischen mobilen Roboter. Zur Definition eines typischen mobilen Roboters wird
+eine Taxonomie aus Klassen, Anwendungsgebieten, Fähigkeiten und technischen
+Realisierungen von mobilen Robotern aufgrund einer umfangreichen Literaturrecherche
+erarbeitet.&lt;br /&gt;&lt;br /&gt;
+
+Die Systemarchitektur wird in Form eines konzeptionellen Modells beschrieben. Als
+grundlegende Struktur wird ein verteiltes System aus der Drei-Schichten Architektur des
+OCM verwendet. Die drei hierarchisch getrennten Schichten bestehen aus einer
+Controller-Ebene, mindestens einem reflektorischen Operator und einem kognitiven
+Operator. Die Controller sind direkt mit den Sensoren und Aktuatoren des Roboters
+verbunden, weshalb die Einhaltung von harter Echtzeit erforderlich ist. Der kognitive
+Operator hingegen wird zur Optimierung des Systems verwendet und muss nicht
+echtzeitfähig realisiert werden, sodass das konzeptionelle Modell die Ausführung des
+kognitiven Operators in der Cloud vorsieht. Neben der Struktur werden im konzeptionellen
+Modell Schnittstellen und Funktionen wie z. B. Watchdogs zur Erhöhung der Sicherheit
+(Safety) erläutert. Außerdem werden mit dem Motion, Health und Perception Controller
+typische Systemkomponenten für mobile Roboter definiert.&lt;br /&gt;&lt;br /&gt;
+
+Das konzeptionelle Modell wird zudem experimentell umgesetzt. Hierzu wird die
+Entwicklung des mobilen Roboters DAEbot gezeigt. Der Prototyp setzt die OCM-basierte
+Systemarchitektur als verteiltes System aus diversen SBCs um. Durch die Nutzung von
+vergleichsweise energieeffizienten SBCs in Kombination mit dem cloudbasierten kognitiven
+Operator, ist der DAEbot energieeffizient und kann trotzdem auf ausreichend
+Rechenkapazität zurückgreifen. Die Umsetzung enthält u. a. die Entwicklung einer Toolbox
+zur modellbasierten Entwicklung, die Erweiterung des CAN-Busses und die Einbindung der
+Cloud. Mittels eines im Rahmen dieser Arbeit entwickelten Analyse-Tools namens pulseAT
+wird die Systemauslastung aller Rechner des verteilten Systems überwacht, an zentraler
+Stelle gesammelt und analysiert. Hierbei wird u. a. die Antwortzeit der einzelnen Rechner,
+sowie die Einhaltung der Echtzeit überprüft. Dies erhöht die Zuverlässigkeit des mobilen
+Roboters.&lt;br /&gt;&lt;br /&gt;
+
+Die Evaluation des konzeptionellen Modells und die experimentelle Realisierung in Form
+des DAEbots zeigen, dass sowohl die Realisierung eines verteilten Systems, als auch die
+OCM Struktur und die Einbindung der Cloud für mobile Roboter sinnvoll sind. Zudem
+ist ein experimentelles Framework für verteilte Robotiksysteme für zukünftige Projekte
+entstanden.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Dissertation_Uwe_Jahn.pdf">https://pub.uni-bielefeld.de/download/2959706/2959707/Dissertation_Uwe_Jahn.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29597069</identifier><identifier type="doi">10.4119/unibi/2959706</identifier>
+<part><extent unit="pages">329</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2021-11-23</dateOther>
+<extension>
+<bibliographicCitation>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, U. (2021). &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2959706.&lt;/div&gt;</dgps>
+<frontiers>Jahn, U. (2021). Verteilte Systemarchitektur für mobile Roboter. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Jahn U. &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2021.</ama>
+<ieee> U.  Jahn, &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2021.</ieee>
+<apa>Jahn, U. (2021).  &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2959706" target="_blank"&gt;https://doi.org/10.4119/unibi/2959706&lt;/a&gt;</apa>
+<wels>Jahn, U. (2021): Verteilte Systemarchitektur für mobile Roboter. Bielefeld: Universität Bielefeld.</wels>
+<angewandte-chemie>U.   Jahn, &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Jahn, U., 2021. &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Jahn U (2021) &lt;br /&gt;&lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, U. (2021).  &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2959706" target="_blank"&gt;https://doi.org/10.4119/unibi/2959706&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Jahn, Uwe. 2021. &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Jahn, U.: Verteilte Systemarchitektur für mobile Roboter. Universität Bielefeld, Bielefeld (2021).</lncs>
+<default>Jahn U (2021) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Jahn, Uwe. &lt;em&gt;Verteilte Systemarchitektur für mobile Roboter&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2021.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2959706</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-12-02T14:51:08Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-12-13T14:52:18Z</recordChangeDate>
+</recordInfo>
+</mods>

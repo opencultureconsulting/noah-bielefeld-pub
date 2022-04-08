@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2939008">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Modelling travel time uncertainty in urban networks based on floating taxi data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Dietmar</namePart>
+                        <namePart type="family">Bauer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2920-7032</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mirsad</namePart>
+                        <namePart type="family">Tulic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Wolfgang</namePart>
+                        <namePart type="family">Scherrer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The prediction of the uncertainty of route travel time predictions for all possible routes in an urban road network is of importance for example for logistics. Such predictions need to take the essential features of the data set as well as the underlying traffic dynamics into account.In this paper a large floating taxi data set is used in order to derive predictions of route travel time uncertainty based on link travel time uncertainty predictions. Prediction errors, that is actual travel times minus predicted travel times, are differentiated from model errors, that is measured travel times minus predicted travel times. These two errors are related, but not identical, as model errors contain measurement noise while the prediction errors do not. Detailed models for the variance of the link travel time prediction errors as well as the correlation between the model errors for different links are derived. The models are validated in depth using two different validation data sets.Estimates for the variance of prediction errors are obtained. The standardized model error distributions show a remarkable stability, such that modelling the variance appears to be sufficient for quantifying the uncertainty of the model errors.Furthermore we show that the model errors for adjacent links are highly correlated but correlations fade with increasing distance. Additionally usage of the road network plays a role with high correlation for links along common routes and low correlations for links along seldom used routes. We assume identical features for the prediction errors which is partly validated based on additional data.The paper provides a way to estimate the complete distribution of route travel time prediction errors for any given route in the street network.</abstract>
+                    <subject>
+                        <topic>Taxi floating car</topic>
+                        <topic>Travel time uncertainty</topic>
+                        <topic>Travel time prediction</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>European Transport Research Review</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1867-0717</identifier>
+                    <identifier type="eIssn">1866-8887</identifier>
+                    <identifier type="ISI">000496294400001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29390085</identifier>
+                    <identifier type="doi">10.1186/s12544-019-0381-5</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2939008</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2939008">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2939008/2939163/10.1186_s12544-019-0381-5.bauer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2939008" DMDID="DMD2939008">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2939008"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

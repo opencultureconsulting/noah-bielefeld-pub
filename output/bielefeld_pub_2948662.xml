@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948662">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>An Extensible Graph Query Language for Model-Based Information Retrieval in Intelligent Environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Norman</namePart>
+                        <namePart type="family">Köster</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8867-3282</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Nico</namePart>
+                        <namePart type="family">Hochgeschwender</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-04-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Research on human behavior and the (non-)verbal interactions executed in these situations makes increasing use of intelligent systems, such as robot companions or smart environments. To allow for valuable and robust communication in these socially involved scenarios, systems executing human–robot interaction are strongly tied to and dependent on the data and knowledge provided by the various sensors and software components of the system. This data ranges from low-level raw sensor data to higher-level domain-specific knowledge derived by components applying, for example, machine learning techniques. Additionally, these systems and environments are characteristically extensively heterogeneous and highly complex, yielding large amounts of data following different schemata at diverse granularities. State-of-the-art systems therefore often structure and store available knowledge using graph-based structures, which represent the domain-specific entities and their relations. This raises the question on how to provide access to the full range of data and domain-specific knowledge of the intelligent systems in a manageable and (ideally) supportive manner.
+In this thesis I investigate the applicability of a Model-driven Software Engineering approach to assist behavior developers of intelligent systems and environments by supporting the information retrieval process. I analyze how extensive modeling of the domain can support the retrieval and query creation process already at query design time. Therefore, I examine questions on domain-specific language design, semantics, and composition to identify what the necessary conceptualizations are for providing an extensible graph query language, which exploits the available model-based knowledge. I further describe my efforts implementing a vertical prototype which realizes a functional slice of the proposed system. Within a detailed evaluation, which tests the implementation on users in a real world application context, I analyze the viability and advantages of my approach compared to a baseline condition making use of state-of-the-art tools. I measure cognitive load of users, task solving duration, and additionally multiple usability metrics. The results show that in terms of usability, the presented vertical prototype does not reach the professional tooling of the baseline condition and is perceived as less usable by users when designing graph database queries (GDQs). However, once the users overcame the initial learning curve, they require less effort and are more effective when designing domain-specific GDQs using the implemented conceptualizations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29486621</identifier>
+                    <identifier type="doi">10.4119/unibi/2948662</identifier>
+                    <identifier type="sys">HT020668765</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948662</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2948662">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948662/2948675/Thesis_NormanKoester_2020.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948662" DMDID="DMD2948662">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948662"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

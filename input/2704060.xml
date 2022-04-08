@@ -1,0 +1,840 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2704060</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Sonification for EEG Data Analysis"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">Peter</namePart>
+  <namePart type="family">Meinicke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Holger</namePart>
+  <namePart type="family">Bekel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Helge</namePart>
+  <namePart type="family">Ritter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">91130</identifier></name>
+<name type="personal">
+  <namePart type="given">Horst M.</namePart>
+  <namePart type="family">Müller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11733</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7790-3556</description></name>
+<name type="personal">
+  <namePart type="given">Sabine</namePart>
+  <namePart type="family">Weiss</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">89444</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4043-0115</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">7388525</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This paper presents techniques to render acoustic representations for EEG data. In our case, data are obtained from psycholinguistic experiments where subjects are exposed to three different conditions based on different auditory stimuli. The goal of this research is to uncover elements of neural processing correlated with high-level cognitive activity. Three sonifications are presented within this paper: spectral mapping sonification which offers a quite direct inspection of the recorded data, distance matrix sonification which allows to detect nonlinear long range correlations at high time resolution, and differential sonification which summarizes the comparison of EEG measurements under different conditions for each subject. This paper describes the techniques and presents sonification examples for experimental data.
+
+#### Sound Demonstrations for the presented EEG data sonification techniques
+* Table 1: &lt;br&gt;
+Audification of EEG data (2 electrodes, 3 subjects and all 3 conditions). Besides the dominating noise, pitched spikes can be heard
+
+
+&lt;table border width="70%" align="center"&gt;
+ &lt;tbody&gt;
+ &lt;tr valign="top"&gt;
+ &lt;td&gt;File/Track:&lt;/td&gt;
+ &lt;td&gt;S1:: EEGr: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704061"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704062"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704063"&gt;
+ Fp1/T5&lt;/a&gt;,  speech: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704064"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704065"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704066"&gt;
+ Fp1/T5&lt;/a&gt; , pseudo: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704067"&gt;
+ Fp1/T5&lt;/a&gt;&lt;br&gt;
+ S2:: EEGr: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704068"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704069"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704070"&gt;
+ Fp1/T5&lt;/a&gt;,  speech: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704071"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704072"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704073"&gt;
+ Fp1/T5&lt;/a&gt; , pseudo: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704074"&gt;
+ Fp1/T5&lt;/a&gt;&lt;br&gt;
+ S3:: EEGr: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704075"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704076"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704077"&gt;
+ Fp1/T5&lt;/a&gt;,  speech: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704078"&gt;
+ Fp1&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704079"&gt;
+ T5&lt;/a&gt;, &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704080"&gt;
+ Fp1/T5&lt;/a&gt; , pseudo: &lt;a href=
+ "https://pub.uni-bielefeld.de/download/2704060/2704081"&gt;
+ Fp1/T5&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+ &lt;td&gt;Description:&lt;/td&gt;
+
+ &lt;td&gt;Audification of EEG Data for two electrodes (Fp1 and
+ T5) for subjects S1, S2 and S3&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+ &lt;td&gt;Duration:&lt;/td&gt;
+
+ &lt;td&gt;1 s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+* Table 2: &lt;br&gt;
+Sound examples for Spectral Mapping Sonification of EEG data, for pseudo speech and speech condition in a sequence with a short gap in between of 2.5 s in real-time.
+&lt;table border width="70%"  align="center"&gt;
+  &lt;tbody&gt;
+    &lt;tr valign="top"&gt;
+      &lt;td&gt;File/Track:&lt;/td&gt;
+      &lt;td&gt;
+        delta=0.4, [0-30Hz], left: T3,T5, right: T4,T6 &lt;br&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704082"&gt;S1&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704083"&gt;S2&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704085"&gt;S3&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704084"&gt;S4&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704087"&gt;S5&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704086"&gt;S6&lt;/a&gt; &lt;br&gt;
+          delta=0, [0-30Hz], left: T3,T5, right: T4,T6 &lt;br&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704089"&gt;S1&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704088"&gt;S2&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704090"&gt;S3&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704091"&gt;S4&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704092"&gt;S5&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704093"&gt;S6&lt;/a&gt;&lt;br&gt;
+          delta=0, [0-30Hz], left: F7,F3,T3,C3,T5,P3, right: F4,F8,C4,T4,T6,P4&lt;br&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704095"&gt;S1&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704094"&gt;S2&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704096"&gt;S3&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704097"&gt;S4&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704098"&gt;S5&lt;/a&gt;
+          &amp;nbsp;&lt;a href=
+          "https://pub.uni-bielefeld.de/download/2704060/2704099"&gt;S6&lt;/a&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Description:&lt;/td&gt;
+      &lt;td&gt;Spectral Mapping Sonification of EEG data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Duration:&lt;/td&gt;
+      &lt;td&gt;about 4 s&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+* Table 3: &lt;br&gt;
+Sound examples for Distance Matrix Sonification of spectral vectors. High-pitched loud tones indicate long-range frequency selective couplings
+&lt;table border width="70%"  align="center"&gt;
+&lt;tbody&gt;
+&lt;tr valign="top"&gt;
+  &lt;td&gt;File/Track:&lt;/td&gt;
+  &lt;td&gt;frequency range 8-20 Hz, subjects:
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704100"&gt;S1&lt;/a&gt;
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704101"&gt;S2&lt;/a&gt;
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704102"&gt;S3&lt;/a&gt;
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704103"&gt;S4&lt;/a&gt;
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704104"&gt;S5&lt;/a&gt;
+  &amp;nbsp;&lt;a href=
+  "https://pub.uni-bielefeld.de/download/2704060/2704105"&gt;S6&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Description:&lt;/td&gt;
+  &lt;td&gt;Distance Matrix Sonification for concatenated
+  datasets for the pseudospeech and speech condition. A
+  noise burst separates the two parts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Duration:&lt;/td&gt;
+  &lt;td&gt;5 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+* Sound Example: [Ex-DiffSon-1](https://pub.uni-bielefeld.de/download/2704060/2704108), Differential Sonification for Example shown as spectrogram &lt;br&gt;
+
+* Table 4: &lt;br&gt; 
+Sound examples for Differential Sonifications
+&lt;table border width="70%" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr valign="top"&gt;
+  &lt;td&gt;File/Track:&lt;/td&gt;
+  &lt;td&gt;
+    pseudospeech-speech (1s): &lt;br&gt;
+      &amp;nbsp; &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704109"&gt;
+      S1&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704110"&gt;
+      S2&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704111"&gt;
+      S3&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704112"&gt;
+      S4&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704113"&gt;
+      S5&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704114"&gt;
+      S6&lt;/a&gt; &lt;br&gt;
+    same with higher threshold (1s): &lt;br&gt;
+      &amp;nbsp; &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704115"&gt;
+      S1&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704116"&gt;
+      S2&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704117"&gt;
+      S3&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704118"&gt;
+      S4&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704119"&gt;
+      S5&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704120"&gt;
+      S6&lt;/a&gt; &lt;br&gt;
+      speech - EEGr (1s): &lt;br&gt;
+      &amp;nbsp; &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704122"&gt;
+      S1&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704123"&gt;
+      S2&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704124"&gt;
+      S3&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704126"&gt;
+      S4&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704125"&gt;
+      S5&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704127"&gt;
+      S6&lt;/a&gt; &lt;br&gt;
+      pseudospeech-speech (4s): &lt;br&gt;
+      &amp;nbsp; &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704129"&gt;
+      S1&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704128"&gt;
+      S2&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704131"&gt;
+      S3&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704132"&gt;
+      S4&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704133"&gt;
+      S4&lt;/a&gt;, &lt;a href=
+      "https://pub.uni-bielefeld.de/download/2704060/2704134"&gt;
+      S6&lt;/a&gt; &lt;br&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Description:&lt;/td&gt;
+  &lt;td&gt;Differential Sonification of EEG data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Duration:&lt;/td&gt;
+  &lt;td&gt;1 s and 4 s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704079/EEG_aud_28_speech_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704078/EEG_aud_28_speech_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704077/EEG_aud_28_eyes_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704076/EEG_aud_28_eyes_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_eyes_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704075/EEG_aud_28_eyes_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_pseudo_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704074/EEG_aud_27_pseudo_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704073/EEG_aud_27_speech_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704072/EEG_aud_27_speech_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_speech_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704080/EEG_aud_28_speech_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_26.wav">https://pub.uni-bielefeld.de/download/2704060/2704089/EEG_SPM2_26.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_27.wav">https://pub.uni-bielefeld.de/download/2704060/2704088/EEG_SPM2_27.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_30.wav">https://pub.uni-bielefeld.de/download/2704060/2704087/EEG_SPM1_30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_31.wav">https://pub.uni-bielefeld.de/download/2704060/2704086/EEG_SPM1_31.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_28.wav">https://pub.uni-bielefeld.de/download/2704060/2704085/EEG_SPM1_28.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_29.wav">https://pub.uni-bielefeld.de/download/2704060/2704084/EEG_SPM1_29.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_27.wav">https://pub.uni-bielefeld.de/download/2704060/2704083/EEG_SPM1_27.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM1_26.wav">https://pub.uni-bielefeld.de/download/2704060/2704082/EEG_SPM1_26.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_28_pseudo_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704081/EEG_aud_28_pseudo_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_speech_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704071/EEG_aud_27_speech_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704070/EEG_aud_27_eyes_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_29.wav">https://pub.uni-bielefeld.de/download/2704060/2704103/EEG_DMS1_29.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_compson_stft.wav">https://pub.uni-bielefeld.de/download/2704060/2704108/EEG_compson_stft.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>text/html</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_27.wav">https://pub.uni-bielefeld.de/download/2704060/2704101/EEG_DMS1_27.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_31.wav">https://pub.uni-bielefeld.de/download/2704060/2704105/EEG_DMS1_31.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_30.wav">https://pub.uni-bielefeld.de/download/2704060/2704104/EEG_DMS1_30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_28.wav">https://pub.uni-bielefeld.de/download/2704060/2704102/EEG_DMS1_28.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704061/EEG_aud_26_eyes_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704069/EEG_aud_27_eyes_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_27_eyes_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704068/EEG_aud_27_eyes_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_pseudo_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704067/EEG_aud_26_pseudo_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704066/EEG_aud_26_speech_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704065/EEG_aud_26_speech_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_speech_fp1.wav">https://pub.uni-bielefeld.de/download/2704060/2704064/EEG_aud_26_speech_fp1.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_fp1-t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704063/EEG_aud_26_eyes_fp1-t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_aud_26_eyes_t5.wav">https://pub.uni-bielefeld.de/download/2704060/2704062/EEG_aud_26_eyes_t5.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_28.wav">https://pub.uni-bielefeld.de/download/2704060/2704090/EEG_SPM2_28.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704118/EEG_29PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704128/EEG_27PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704127/EEG_31SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704126/EEG_29SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704125/EEG_30SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704124/EEG_28SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704123/EEG_27SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26SE_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704122/EEG_26SE_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704120/EEG_31PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704129/EEG_26PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_DMS1_26.wav">https://pub.uni-bielefeld.de/download/2704060/2704100/EEG_DMS1_26.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704119/EEG_30PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704134/EEG_31PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704133/EEG_30PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704132/EEG_29PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS_c.wav">https://pub.uni-bielefeld.de/download/2704060/2704131/EEG_28PS_c.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704117/EEG_28PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_30.wav">https://pub.uni-bielefeld.de/download/2704060/2704098/EEG_SPM3_30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_29.wav">https://pub.uni-bielefeld.de/download/2704060/2704097/EEG_SPM3_29.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_28.wav">https://pub.uni-bielefeld.de/download/2704060/2704096/EEG_SPM3_28.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_26.wav">https://pub.uni-bielefeld.de/download/2704060/2704095/EEG_SPM3_26.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_27.wav">https://pub.uni-bielefeld.de/download/2704060/2704094/EEG_SPM3_27.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_31.wav">https://pub.uni-bielefeld.de/download/2704060/2704093/EEG_SPM2_31.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_30.wav">https://pub.uni-bielefeld.de/download/2704060/2704092/EEG_SPM2_30.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM2_29.wav">https://pub.uni-bielefeld.de/download/2704060/2704091/EEG_SPM2_29.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_SPM3_31.wav">https://pub.uni-bielefeld.de/download/2704060/2704099/EEG_SPM3_31.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704116/EEG_27PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS_b.wav">https://pub.uni-bielefeld.de/download/2704060/2704115/EEG_26PS_b.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_31PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704114/EEG_31PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_30PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704113/EEG_30PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_29PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704112/EEG_29PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_26PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704109/EEG_26PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_27PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704110/EEG_27PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="EEG_28PS.wav">https://pub.uni-bielefeld.de/download/2704060/2704111/EEG_28PS.wav</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/x-wav</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2002</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2704060</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017357</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<mla>Hermann, Thomas, Meinicke, Peter, Bekel, Holger, Ritter, Helge, Müller, Horst M., and Weiss, Sabine. &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University, 2002.</mla>
+<default>Hermann T, Meinicke P, Bekel H, Ritter H, Müller HM, Weiss S (2002) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Hermann, T., Meinicke, P., Bekel, H., Ritter, H., Müller, H.M., Weiss, S.: Supplementary Material for "Sonification for EEG Data Analysis". Bielefeld University (2002).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, Thomas, Meinicke, Peter, Bekel, Holger, Ritter, Helge, Müller, Horst M., and Weiss, Sabine. 2002. &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<apa>Hermann, T., Meinicke, P., Bekel, H., Ritter, H., Müller, H. M., &amp;amp; Weiss, S. (2002).  &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2704060" target="_blank"&gt;https://doi.org/10.4119/unibi/2704060&lt;/a&gt;</apa>
+<ieee> T. Hermann, et al., &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;, Bielefeld University, 2002.</ieee>
+<ama>Hermann T, Meinicke P, Bekel H, Ritter H, Müller HM, Weiss S. &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University; 2002.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Meinicke, P., Bekel, H., Ritter, H., Müller, H.M. &amp;amp; Weiss, S. (2002). &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2704060.&lt;/div&gt;</dgps>
+<frontiers>Hermann, T., Meinicke, P., Bekel, H., Ritter, H., Müller, H. M., and Weiss, S. (2002). Supplementary Material for "Sonification for EEG Data Analysis". Bielefeld University.</frontiers>
+<harvard1>Hermann, T., et al., 2002. &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hermann T, Meinicke P, Bekel H, Ritter H, Müller HM, Weiss S (2002) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hermann, T., Meinicke, P., Bekel, H., Ritter, H., Müller, H. M., &amp;amp; Weiss, S. (2002).  &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2704060" target="_blank"&gt;https://doi.org/10.4119/unibi/2704060&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<angewandte-chemie>T.  Hermann, P.  Meinicke, H.  Bekel, H.  Ritter, H. M.  Müller, and S.  Weiss, &lt;em&gt;Supplementary Material for "Sonification for EEG Data Analysis"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2002&lt;/strong&gt;.</angewandte-chemie>
+<wels>Hermann, T.; Meinicke, P.; Bekel, H.; Ritter, H.; Müller, H. M.; Weiss, S. (2002): Supplementary Material for "Sonification for EEG Data Analysis". Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2704060</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-11-13T11:02:11Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2022-01-25T22:38:35Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2719665">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automated detection in benthic images for megafauna classification and marine resource exploration: supervised and unsupervised methods for classification and regression tasks in benthic images with efficient integration of expert knowledge</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Timm</namePart>
+                        <namePart type="family">Schoening</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-02-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Image acquisition of deep sea floors allows to cast a glance on an extraordinary environment. Exploring the rarely known geology and biology of the deep sea regularly questions the scientific understanding of occurring conditions, processes and changes. Increasing sampling efforts, by both more frequent image acquisition as well as widespread monitoring of large areas, currently refine the scientific models about this environment. Accompanied by the sampling efforts, novel challenges emerge for the image based marine research. These include growing data volume, growing data variety and increased velocity at which data is acquired. Apart from the included technical challenges, the fundamental problem is to add semantics to the acquired data to extract further meaning and gain derived knowledge. Manual analysis of the data in terms of manually annotating images (e.g. annotating occurring species to gain species interaction knowledge) is an intricate task and has become infeasible due to the huge data volumes. The combination of data and interpretation challenges calls for automated approaches based on pattern recognition and especially computer vision methods. These methods have been applied in other fields to add meaning to visual data but have rarely been applied to the peculiar case of marine imaging. First of all, the physical factors of the environment constitute a unique computer vision challenge and require special attention in adapting the methods. Second, the impossibility to create a reliable reference gold standard from multiple field expert annotations challenges the development and evaluation of automated, pattern recognition based approaches.
+
+In this thesis, novel automated methods to add semantics to benthic images are presented that are based on common pattern recognition techniques. Three major benthic computer vision scenarios are addressed: the detection of laser points for scale quantification, the detection and classification of benthic megafauna for habitat composition assessments and the detection and quantity estimation of benthic mineral resources for deep sea mining. All approaches to address these scenarios are fitted to the peculiarities of the marine environment. The primary paradigm, that guided the development of all methods, was to design systems that can be operated by field experts without knowledge about the applied pattern recognition methods. Therefore, the systems have to be generally applicable to arbitrary image based detection scenarios. This in turn makes them applicable in other computer vision fields outside the marine environment as well.
+By tuning system parameters automatically from field expert annotations and applying methods that cope with errors in those annotations, the limitations of inaccurate gold standards can be bypassed. This allows to use the developed systems to further refine the scientific models based on automated image analysis.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27196656</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2719665</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2719665">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2719665/2719668/PhD_Thesis_Timm_Schoening__Small_.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2719665" DMDID="DMD2719665">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2719665"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

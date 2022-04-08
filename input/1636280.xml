@@ -1,0 +1,132 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1636280</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:660.6</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Wiebke</namePart>
+  <namePart type="family">Timm</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Alexandra</namePart>
+  <namePart type="family">Scherbart</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Sebastian</namePart>
+  <namePart type="family">Boecker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Oliver</namePart>
+  <namePart type="family">Kohlbacher</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background: Mass spectrometry is a key technique in proteomics and can be used to analyze complex samples quickly. One key problem with the mass spectrometric analysis of peptides and proteins, however, is the fact that absolute quantification is severely hampered by the unclear relationship between the observed peak intensity and the peptide concentration in the sample. While there are numerous approaches to circumvent this problem experimentally (e. g. labeling techniques), reliable prediction of the peak intensities from peptide sequences could provide a peptide-specific correction factor. Thus, it would be a valuable tool towards label-free absolute quantification. Results: In this work we present machine learning techniques for peak intensity prediction for MALDI mass spectra. Features encoding the peptides' physico-chemical properties as well as string-based features were extracted. A feature subset was obtained from multiple forward feature selections on the extracted features. Based on these features, two advanced machine learning methods (support vector regression and local linear maps) are shown to yield good results for this problem (Pearson correlation of 0.68 in a ten-fold cross validation). Conclusion: The techniques presented here are a useful first step going beyond the binary prediction of proteotypic peptides towards a more quantitative prediction of peak intensities. These predictions in turn will turn out to be beneficial for mass spectrometry-based quantitative proteomics.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="BMC_37.pdf">https://pub.uni-bielefeld.de/download/1636280/2311150/BMC_37.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>BIOMED CENTRAL LTD</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">18937839</identifier>
+  <identifier type="ISI">000262158200001</identifier><identifier type="urn">urn:nbn:de:0070-pub-16362806</identifier><identifier type="doi">10.1186/1471-2105-9-443</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">443</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Timm, W., Scherbart, A., Boecker, S., Kohlbacher, O., Nattkemper, T.W.: Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. BMC Bioinformatics. 9, 443 (2008).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, Wiebke, Scherbart, Alexandra, Boecker, Sebastian, Kohlbacher, Oliver, and Nattkemper, Tim Wilhelm. 2008. “Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9 (1): 443.&lt;/div&gt;</chicago>
+<mla>Timm, Wiebke, Scherbart, Alexandra, Boecker, Sebastian, Kohlbacher, Oliver, and Nattkemper, Tim Wilhelm. “Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9.1 (2008): 443.</mla>
+<default>Timm W, Scherbart A, Boecker S, Kohlbacher O, Nattkemper TW (2008) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9(1): 443.</default>
+<wels>Timm, W.; Scherbart, A.; Boecker, S.; Kohlbacher, O.; Nattkemper, T. W. (2008): Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,9:(1): 443.</wels>
+<harvard1>Timm, W., et al., 2008. Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 9(1), p 443.</harvard1>
+<bio1>Timm W, Scherbart A, Boecker S, Kohlbacher O, Nattkemper TW (2008) &lt;br /&gt;Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics.&lt;br /&gt;BMC Bioinformatics 9(1): 443.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, W., Scherbart, A., Boecker, S., Kohlbacher, O., &amp;amp; Nattkemper, T. W. (2008). Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 443. &lt;a href="https://doi.org/10.1186/1471-2105-9-443" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-443&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<angewandte-chemie>W.  Timm, A.  Scherbart, S.  Boecker, O.  Kohlbacher, and T. W.  Nattkemper, “Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2008&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, 443.</angewandte-chemie>
+<ama>Timm W, Scherbart A, Boecker S, Kohlbacher O, Nattkemper TW. Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2008;9(1):443.</ama>
+<frontiers>Timm, W., Scherbart, A., Boecker, S., Kohlbacher, O., and Nattkemper, T. W. (2008). Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9, 443.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Timm, W., Scherbart, A., Boecker, S., Kohlbacher, O. &amp;amp; Nattkemper, T.W. (2008). Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 443. BIOMED CENTRAL LTD. doi:10.1186/1471-2105-9-443.&lt;/div&gt;</dgps>
+<apa>Timm, W., Scherbart, A., Boecker, S., Kohlbacher, O., &amp;amp; Nattkemper, T. W. (2008). Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 443. &lt;a href="https://doi.org/10.1186/1471-2105-9-443" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-443&lt;/a&gt;</apa>
+<ieee> W. Timm, et al., “Peak intensity prediction in MALDI-TOF mass spectrometry: A machine learning study to support quantitative proteomics”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 9, 2008,  pp. 443.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1636280</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-29T13:08:01Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:45Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304020">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Autarky versus free trade: catching-up and overtaking? : an endogenous growth approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Margareta</namePart>
+                        <namePart type="family">Teodorescu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker (Prof.</namePart>
+                        <namePart type="family">Böhm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2008-12-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">One of the fundamental normative questions within international trade theory is whether free trade is better than autarky and, if so, in what sense and to what extent. Surprisingly, the literature contains just a few formal models constructed under discrete time and investigating the relationships between international trade and endogenous growth which provide a precise answer to this question. The main goal of this dissertation is to address this issue by developing a dynamic general equilibrium model with endogenous growth and overlapping generations that allows for a consistent dynamic analysis of the mechanism linking the growth performance and the trade performance.
+The analysis is conducted under the alternative scenarios of complete economic isolation and international integration. After examining the endogenous growth model in a closed economy setup, the investigation is gradually extended from an autarkic to an open country, the transition being realized in two steps. The first one addresses the impact of opening-up to and engaging in international trade upon a small open economy, whereas the dynamic two-sector model corresponding to the autarkic country is analyzed under an &quot;open economy&quot; framework.
+The special case of constant terms of trade is subsequently abandoned and a two-country model of the world economy -- with two factors, two commodities and trade in both commodities -- is investigated. We provide a detailed numerical analysis of the dynamical system and relate it to the determinants in the patterns of production specialization and commodity trade. By bringing into contrast an autarkic versus a trading world economy, the extension to a two-country model allows us to mainly investigate two transitional dynamics. The first one is whether the switch of the world economy from no trade to free trade may drive an economy to eventually converge, catch-up or overtake the other economy. The second one refers to reversals in the direction of commodity trade and of specialization in production. Using numerical simulations, we analyze the occurrence of these transitional dynamics under different scenarios.</abstract>
+                    <subject>
+                        <topic>Außenwirtschaftstheorie , Endogenes Wirtschaftswachstum , Globalisierung , Terms of trade , Allgemeines Gleichgewichtsmodell ,  , Theory of international trade , Endogenous growth , Catching-up and Overtaking (Convergence) , Terms of trade , General equilibrium model</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-15189</identifier>
+                    <identifier type="sys">HT016097036</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304020</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2304020">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304020/2304024/CD-ROM.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE1_bielefeld_pub_2304020">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304020/2304023/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2304020">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304020/2304025/PhD_Margareta_Teodorescu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304020" DMDID="DMD2304020">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304020"/>
+            <mets:div TYPE="part" ID="PART1_2304020" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2304020"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2304020" LABEL="PhD_Margareta_Teodorescu.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2304020"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

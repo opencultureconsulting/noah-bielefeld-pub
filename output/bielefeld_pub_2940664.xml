@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2940664">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Online natural myocontrol of combined hand and wrist actions using tactile myography and the biomechanics of grasping</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Mathilde</namePart>
+                        <namePart type="family">Connan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Risto</namePart>
+                        <namePart type="family">Kõiva</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7219-775X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Claudio</namePart>
+                        <namePart type="family">Castellini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Objective: Despite numerous recent advances in the field of rehabilitation robotics, simultaneous and proportional control of hand and/or wrist prostheses is still unsolved. In this work we concentrate on myocontrol of combined actions, for instance power grasping while rotating the wrist, by only using training data gathered from single actions. This is highly desirable since gathering data for all possible combined actions would be unfeasibly long and demanding for the amputee.
+
+Approach: We first investigated physiologically feasible limits for muscle activation during combined actions. Using these limits we involved 12 intact participants and one amputee in a Target Achievement Control test, showing that tactile myography, i.e. high-density force myography, solves the problem of combined actions to a remarkable extent using simple linear regression. Since real-time usage of many sensors can be computationally demanding, we compare this approach with another one using a reduced feature set. These reduced features are obtained using a fast, spatial first-order approximation of the sensor values.
+
+Main results: By using the training data of single actions only, i.e. power grasp or wrist movements, subjects achieved an average success rate of 70.0% in the target achievement test using ridge regression. When combining wrist actions, e.g. pronating and flexing the wrist simultaneously, similar results were obtained with an average of 68.1%. If a power grasp is added to the pool of actions, combined actions are much more difficult to achieve (36.1%).
+
+Significance: To the best of our knowledge, for the first time, the effectiveness of tactile myography on single and combined actions is evaluated in a target achievement test. The present study includes 3 DoFs control instead of the two generally used in the literature. Additionally, we define a set of physiologically plausible muscle activation limits valid for most experiments of this kind.</abstract>
+                    <subject>
+                        <topic>tactile myography</topic>
+                        <topic>prosthetics</topic>
+                        <topic>high-density force myography (HD-FMG)</topic>
+                        <topic>biomechanics of grasping</topic>
+                        <topic>Combined actions</topic>
+                        <topic>Grip strength</topic>
+                        <topic>Myocontrol</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neurorobotics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5218</identifier>
+                    <identifier type="eIssn">1662-5218</identifier>
+                    <identifier type="MEDLINE">32174821</identifier>
+                    <identifier type="ISI">000526719900001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29406640</identifier>
+                    <identifier type="doi">10.3389/fnbot.2020.00011</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2940664</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2940664">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2940664/2942865/fnbot-14-00011.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2940664" DMDID="DMD2940664">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2940664"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2902952">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Design space exploration of associative memories using spiking neurons with respect to neuromorphic hardware implementations</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Stöckel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Artificial neural networks are well-established models for key functions of biological brains, such as low-level sensory processing and memory. In particular, networks of artificial spiking neurons emulate the time dynamics, high parallelisation and asynchronicity of their biological counterparts. Large scale hardware simulators for such networks – _neuromorphic_ computers – are developed as part of the Human Brain Project, with the ultimate goal to gain insights regarding the neural foundations of cognitive processes.
+
+In this thesis, we focus on one key cognitive function of biological brains, associative memory. We implement the well-understood Willshaw model for artificial spiking neural networks, thoroughly explore the design space for the implementation, provide fast design space exploration software and evaluate our implementation in software simulation as well as neuromorphic hardware.
+
+Thereby we provide an approach to manually or automatically infer viable parameters for an associative memory on different hardware and software platforms. The performance of the associative memory was found to vary significantly between individual neuromorphic hardware platforms and numerical simulations. The network is thus a suitable benchmark for neuromorphic systems.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29029527</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2902952</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2902952">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2902952/2902953/master_astoecke_design_space_exploration_2015.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2902952" DMDID="DMD2902952">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2902952"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

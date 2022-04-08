@@ -1,0 +1,109 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2933490">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Numerical and Experimental Evaluation of Error Estimation for Two-Way Ranging Methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Cung</namePart>
+                        <namePart type="family">Lian Sang</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-6144-9544</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Adams</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4986-3654</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Timm</namePart>
+                        <namePart type="family">Hörmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marc</namePart>
+                        <namePart type="family">Hesse</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9500-3284</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Porrmann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1005-5753</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The Two-Way Ranging (TWR) method is commonly used for measuring the distance between two wireless transceiver nodes, especially when clock synchronization between the two nodes is not available. For modeling the time-of-flight (TOF) error between two wireless transceiver nodes in TWR, the existing error model, described in the IEEE 802.15.4-2011 standard, is solely based on clock drift. However, it is inadequate for in-depth comparative analysis between different TWR methods. In this paper, we propose a novel TOF Error Estimation Model (TEEM) for TWR methods. Using the proposed model, we evaluate the comparative analysis between different TWR methods. The analytical results were validated with both numerical simulation and experimental results. Moreover, we demonstrate the pitfalls of the symmetric double-sided TWR (SDS-TWR) method, which is the most highlighted TWR method in the literature because of its highly accurate performance on clock-drift error reduction when reply times are symmetric. We argue that alternative double-sided TWR (AltDS-TWR) outperforms SDS-TWR. The argument was verified with both numerical simulation and experimental evaluation results.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Sensors</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>19</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1424-8220</identifier>
+                    <identifier type="eIssn">1424-8220</identifier>
+                    <identifier type="MEDLINE">30717177</identifier>
+                    <identifier type="ISI">000459941200179</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29334903</identifier>
+                    <identifier type="doi">10.3390/s19030616</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2933490</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2933490">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2933490/2933822/sensors-19-00616.sang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2933490" DMDID="DMD2933490">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2933490"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

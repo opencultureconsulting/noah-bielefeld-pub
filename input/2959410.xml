@@ -1,0 +1,145 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2959410</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Birte</namePart>
+  <namePart type="family">Richter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">46832369</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0957-2406</description></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Britta</namePart>
+  
+  
+  <namePart type="family">Wrede</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Smart homes are one of the most emergent research fields and provide
+fundamentally new means of interaction. So-called Smart Personal
+Assistants (SPAs) entered the household and assist us in our daily
+activities. Currently, these agents do not react to the attention of
+the smart home user. However, from Human-Human Interaction (HHI)
+research we know that humans coordinate their speech and adapt their
+behavior continuously, based on their interaction partner’s actions and
+reactions. Therefore, the central question I ask in this dissertation is
+how human attention can be incorporated into dialogue management,
+to improve Human-Agent Interaction (HAI) in smart homes.
+Research shows that speakers’ hesitations are often produced as a
+reaction to the listener’s inattentiveness in HHI. Furthermore, they
+can improve the listeners’ comprehension. Therefore, I investigate
+whether it is possible to use system hesitations, based on the attention
+of the human interaction partner, as a communicative act for dialogue
+coordination in HAI within a smart-home environment. To this end,
+I develop a theoretical model based on observations from HHI, implement it in an autonomous agent and evaluate it in five interaction studies.
+This document consists of three parts. In the first part, I develop a
+model which allows the dialogue management to incorporate the human attention: the Attention-Hesitation Model (AHM). The model uses
+system hesitations as a non-intrusive intervention strategy to coordinate
+the human attention with system speech. This theoretical model is
+based on interdisciplinary literature from HHI and HAI research.
+In the second part, I elaborate on the technical requirements implied
+by the integration of the AHM in an autonomous system. A technical
+realization of an incremental dialogue system in presented. Two main
+concepts for dialogue modeling are identified: (1) the use of interaction
+patterns with system task descriptions for generalizability and (2) the
+concept of the IU model to deal with the incremental nature of human
+dialogue. With the combination of the frameworks Pamini and inprotk
+both concepts are considered in my dialogue system. This allows
+autonomous HAI and the investigation of the effects of my AHM in
+interaction.
+In the third part, I evaluate the effects of my AHM on the interaction
+(partner) in five Evaluation Cycles (ECs), consisting of three pilot- and
+two HAI studies in a smart-home environment. In these cycles, I
+further enhance my model, its implementation, and the experimental
+design. Thereby, I investigate the effect of the AHM on the task performance and the side effects in interaction: the subjective ratings of the agent and the visual attention of interlocutors.
+With my investigations, I show that in short interactions without a
+change of discourse, the participants interacting with an agent that
+uses my AHM are significantly less inattentive than participants in
+the baseline (EC1). Furthermore, I show that the AHM can work fully
+autonomously (EC2, EC4). Regarding the task performance, I demonstrate that participants interacting with an agent that uses my AHM
+perform significantly better in some practical tasks than participants
+in the baseline (EC3-EC5). This effect is, however, accompanied by
+lower subjective ratings of the agent (EC2-EC4). The ratings show
+that repetitions can be perceived as annoying (EC2) and users may
+struggle with the differentiation of unfilled pauses from turn-ends in
+more complex scenarios (EC2, EC3). However, the use of lengthening
+may counteract this problem and enhance some subjective ratings
+(EC4). The final model uses mutual gaze and task related features
+to distinguish inattentiveness based on (1) missing engagement from
+(2) difficulties in understanding. To deal with inattention based on
+missing engagement, a cascade of lengthening, unfilled pauses, and
+hesitation vowels are used. For difficulties in understanding, the model
+uses repetitions with lengthening. This combination improves the task
+performance without negative side effects on the interaction (EC5).</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis_brichter.pdf">https://pub.uni-bielefeld.de/download/2959410/2959411/thesis_brichter.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2021</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29594102</identifier><identifier type="doi">10.4119/unibi/2959410</identifier>
+<part><extent unit="pages">335</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2021-03-20</dateOther>
+<extension>
+<bibliographicCitation>
+<lncs> Richter, B.: The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management. Universität Bielefeld, Bielefeld (2021).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Richter, Birte. 2021. &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Richter, Birte. &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2021.</mla>
+<default>Richter B (2021) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<ama>Richter B. &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2021.</ama>
+<frontiers>Richter, B. (2021). The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management. Bielefeld: Universität Bielefeld.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Richter, B. (2021). &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2959410.&lt;/div&gt;</dgps>
+<apa>Richter, B. (2021).  &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2959410" target="_blank"&gt;https://doi.org/10.4119/unibi/2959410&lt;/a&gt;</apa>
+<ieee> B. Richter, &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2021.</ieee>
+<wels>Richter, B. (2021): The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Richter, B., 2021. &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Richter, B. (2021).  &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;. Bielefeld: Universität Bielefeld. &lt;a href="https://doi.org/10.4119/unibi/2959410" target="_blank"&gt;https://doi.org/10.4119/unibi/2959410&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Richter B (2021) &lt;br /&gt;&lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<angewandte-chemie>B.  Richter, &lt;em&gt;The Attention-Hesitation Model. A Non-Intrusive Intervention Strategy for Incremental Smart Home Dialogue Management&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2021&lt;/strong&gt;.</angewandte-chemie>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2959410</recordIdentifier><recordCreationDate encoding="w3cdtf">2021-11-18T07:55:51Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-12-01T10:18:28Z</recordChangeDate>
+</recordInfo>
+</mods>

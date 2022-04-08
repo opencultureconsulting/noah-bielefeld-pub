@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2473715">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Yosida approximations for multivalued stochastic differential equations on Banach spaces via a Gelfand triple</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael G.</namePart>
+                        <namePart type="family">Röckner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2012-02-23</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Multivalued stochastic differential equations on a Gelfand triple are studied where the drift operator is divided into a single-valued Lipschitz part and a multivalued random, time-dependent, maximal monotone part with full domain V and image sets in the dual space V^*.
+
+The results consist of two main parts. In the first part, the existence and uniqueness of solutions to the multivalued stochastic differential equations with multiplicative Wiener noise are proved, where the multivalued maximal monotone operator admits an additional coercivity and boundedness assumption. The proof is based on the Yosida approximation approach. L^2-convergence of solutions for the approximating equations are established.
+
+In the second part, the framework of the first part is extended by adding Poisson noise and replacing the differential dt of the drift by a more general measure dN(t) induced by a non-decreasing \cadlag process N(t). Using the Yosida approximation approach, analogous existence and uniqueness results to the Wiener case are obtained.
+
+As examples of multivalued maximal monotone operators, the subdifferential of a lowersemicontinuous, convex proper function as well as the multivalued porous media operator are discussed.</abstract>
+                    <subject>
+                        <topic>stochastic porous media equation</topic>
+                        <topic>Gelfand triple</topic>
+                        <topic>discontinuous drift</topic>
+                        <topic>multivalued stochastic partial differential equation</topic>
+                        <topic>Yosida approximation</topic>
+                        <topic>maximal monotone operator</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24737158</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2473715</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2473715">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2473715/2473734/dissertation-mstephan-2012-01.23.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2473715" DMDID="DMD2473715">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2473715"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

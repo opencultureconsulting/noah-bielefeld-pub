@@ -1,0 +1,93 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2933089</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:000</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Sherzod</namePart>
+  <namePart type="family">Hakimov</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45955317</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7421-6213</description></name>
+<name type="personal">
+  <namePart type="given">Soufian</namePart>
+  <namePart type="family">Jebbara</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">61955542</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4483-0933</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>The 13th IEEE International Conference on ​Semantic Computing</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">The task of answering natural language questions over knowledge bases has received wide attention in recent years. Various deep learning architectures have been proposed for this task. However, architectural design choices are typically not systematically compared nor evaluated under the same conditions. In this paper, we contribute to a better understanding of the impact of architectural design choices by evaluating four different architectures under the same conditions. We address the task of answering simple questions, consisting in predicting the subject and predicate of a triple given a question. In order to provide a fair comparison of different architectures, we evaluate them under the same strategy for inferring the subject, and compare different architectures for inferring the predicate. The architecture for inferring the subject is based on a standard LSTM model trained to recognize the span of the subject in the question and on a linking component that links the subject span to an entity in the knowledge base. The architectures for predicate inference are based on i) a standard softmax classifier ranging over all predicates as output, ii) a model that predicts a low-dimensional encoding of the property and subject entity, iii) a model that learns to score a pair of subject and predicate given the question as well as iv) a model based on the well- known FastText model. The comparison of architectures shows that FastText provides better results than other architectures.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="hakimov_jebbara_cimiano_paper_38.pdf">https://pub.uni-bielefeld.de/download/2933089/2933090/hakimov_jebbara_cimiano_paper_38.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2019</dateIssued><place><placeTerm type="text">Newport Beach, California</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29330892</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<ieee> S. Hakimov, S. Jebbara, and P. Cimiano, “Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases”, Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California, 2019.</ieee>
+<apa>Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P. (2019). &lt;em&gt;Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases&lt;/em&gt;. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</apa>
+<frontiers>Hakimov, S., Jebbara, S., and Cimiano, P. (2019).“Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases”. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Jebbara, S. &amp;amp; Cimiano, P. (2019). Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases. Gehalten auf der The 13th IEEE International Conference on ​Semantic Computing.&lt;/div&gt;</dgps>
+<ama>Hakimov S, Jebbara S, Cimiano P. Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</ama>
+<angewandte-chemie>S.  Hakimov, S.  Jebbara, and P.  Cimiano, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P. (2019). &lt;em&gt;Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases&lt;/em&gt;. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.&lt;/div&gt;</apa_indent>
+<bio1>Hakimov S, Jebbara S, Cimiano P (2019) &lt;br /&gt;Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases. &lt;br /&gt;Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</bio1>
+<harvard1>Hakimov, S., Jebbara, S., &amp;amp; Cimiano, P., 2019. Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</harvard1>
+<wels>Hakimov, S.; Jebbara, S.; Cimiano, P. (2019): Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases.</wels>
+<default>Hakimov S, Jebbara S, Cimiano P (2019)  &lt;br /&gt;Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California.</default>
+<mla>Hakimov, Sherzod, Jebbara, Soufian, and Cimiano, Philipp. “Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases”. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California, 2019.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hakimov, Sherzod, Jebbara, Soufian, and Cimiano, Philipp. 2019. “Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases”. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California .&lt;/div&gt;</chicago>
+<lncs> Hakimov, S., Jebbara, S., Cimiano, P.: Evaluating Architectural Choices for Deep Learning Approaches for Question Answering over Knowledge Bases. Presented at the The 13th IEEE International Conference on ​Semantic Computing, Newport Beach, California (2019).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2933089</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-01-16T08:44:32Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-05-13T07:25:39Z</recordChangeDate>
+</recordInfo>
+</mods>

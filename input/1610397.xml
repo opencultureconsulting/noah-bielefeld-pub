@@ -1,0 +1,126 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1610397</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:004</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Efficient implementation of lazy suffix trees</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Giegerich</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">147565</identifier></name>
+<name type="personal">
+  <namePart type="given">Stefan</namePart>
+  <namePart type="family">Kurtz</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Stoye</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">65864</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4656-7155</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067262</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067120</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">We present an efficient implementation of a write-only top-down construction for suffix trees. Our implementation is based on a new, space-efficient representation of suffix trees that requires only 12 bytes per input character in the worst case, and 8.5 bytes per input character on average for a collection of files of different type. We show how to efficiently implement the lazy evaluation of suffix trees such that a subtree is evaluated only when it is traversed for the first time. Our experiments show that for the problem of searching many exact patterns in a fixed input string, the lazy top-down construction is often faster and more space efficient than other methods. Copyright (C) 2003 John Wiley Sons, Ltd.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="GIE_KUR_STO_2003.pdf">https://pub.uni-bielefeld.de/download/1610397/2311132/GIE_KUR_STO_2003.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>JOHN WILEY &amp; SONS LTD</publisher><dateIssued encoding="w3cdtf">2003</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>space-efficient implementation</topic><topic>string matching</topic><topic>suffix tree</topic><topic>lazy</topic><topic>evaluation</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>SOFTWARE-PRACTICE &amp; EXPERIENCE</title></titleInfo>
+  <identifier type="issn">0038-0644</identifier>
+  <identifier type="eIssn">1097-024X</identifier>
+  <identifier type="ISI">000184974300002</identifier><identifier type="urn">urn:nbn:de:0070-pub-16103977</identifier><identifier type="doi">10.1002/spe.535</identifier>
+<part><detail type="volume"><number>33</number></detail><detail type="issue"><number>11</number></detail><extent unit="pages">1035-1049</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<frontiers>Giegerich, R., Kurtz, S., and Stoye, J. (2003). Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt; 33, 1035-1049.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Giegerich, R., Kurtz, S. &amp;amp; Stoye, J. (2003). Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;, &lt;em&gt;33&lt;/em&gt;(11), 1035-1049. JOHN WILEY &amp;amp; SONS LTD. doi:10.1002/spe.535.&lt;/div&gt;</dgps>
+<ama>Giegerich R, Kurtz S, Stoye J. Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;. 2003;33(11):1035-1049.</ama>
+<ieee> R. Giegerich, S. Kurtz, and J. Stoye, “Efficient implementation of lazy suffix trees”, &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;,  vol. 33, 2003,  pp. 1035-1049.</ieee>
+<apa>Giegerich, R., Kurtz, S., &amp;amp; Stoye, J. (2003). Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;, &lt;em&gt;33&lt;/em&gt;(11), 1035-1049. &lt;a href="https://doi.org/10.1002/spe.535" target="_blank"&gt;https://doi.org/10.1002/spe.535&lt;/a&gt;</apa>
+<wels>Giegerich, R.; Kurtz, S.; Stoye, J. (2003): Efficient implementation of lazy suffix trees &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;,33:(11): 1035-1049.</wels>
+<angewandte-chemie>R.  Giegerich, S.  Kurtz, and J.  Stoye, “Efficient implementation of lazy suffix trees”, &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;, &lt;strong&gt;2003&lt;/strong&gt;, &lt;em&gt;33&lt;/em&gt;, 1035-1049.</angewandte-chemie>
+<harvard1>Giegerich, R., Kurtz, S., &amp;amp; Stoye, J., 2003. Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;, 33(11), p 1035-1049.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Giegerich, R., Kurtz, S., &amp;amp; Stoye, J. (2003). Efficient implementation of lazy suffix trees. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt;, &lt;em&gt;33&lt;/em&gt;(11), 1035-1049. &lt;a href="https://doi.org/10.1002/spe.535" target="_blank"&gt;https://doi.org/10.1002/spe.535&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Giegerich R, Kurtz S, Stoye J (2003) &lt;br /&gt;Efficient implementation of lazy suffix trees.&lt;br /&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE 33(11): 1035-1049.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Giegerich, Robert, Kurtz, Stefan, and Stoye, Jens. 2003. “Efficient implementation of lazy suffix trees”. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt; 33 (11): 1035-1049.&lt;/div&gt;</chicago>
+<lncs> Giegerich, R., Kurtz, S., Stoye, J.: Efficient implementation of lazy suffix trees. SOFTWARE-PRACTICE &amp;amp; EXPERIENCE. 33, 1035-1049 (2003).</lncs>
+<default>Giegerich R, Kurtz S, Stoye J (2003) &lt;br /&gt;&lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt; 33(11): 1035-1049.</default>
+<mla>Giegerich, Robert, Kurtz, Stefan, and Stoye, Jens. “Efficient implementation of lazy suffix trees”. &lt;em&gt;SOFTWARE-PRACTICE &amp;amp; EXPERIENCE&lt;/em&gt; 33.11 (2003): 1035-1049.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1610397</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-28T12:58:59Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:59:45Z</recordChangeDate>
+</recordInfo>
+</mods>

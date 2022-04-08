@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2300073">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <nonSort>A </nonSort>
+                        <title>Normalized Tree Index for identification of correlated clinical parameters in microarray data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Annika</namePart>
+                        <namePart type="family">Tauchen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Anke</namePart>
+                        <namePart type="family">Becker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND:
+
+Measurements on gene level are widely used to gain new insights in complex diseases e.g. cancer. A promising approach to understand basic biological mechanisms is to combine gene expression profiles and classical clinical parameters. However, the computation of a correlation coefficient between high-dimensional data and such parameters is not covered by traditional statistical methods.
+METHODS:
+
+We propose a novel index, the Normalized Tree Index (NTI), to compute a correlation coefficient between the clustering result of high-dimensional microarray data and nominal clinical parameters. The NTI detects correlations between hierarchically clustered microarray data and nominal clinical parameters (labels) and gives a measurement of significance in terms of an empiric p-value of the identified correlations. Therefore, the microarray data is clustered by hierarchical agglomerative clustering using standard settings. In a second step, the computed cluster tree is evaluated. For each label, a NTI is computed measuring the correlation between that label and the clustered microarray data.
+RESULTS:
+
+The NTI successfully identifies correlated clinical parameters at different levels of significance when applied on two real-world microarray breast cancer data sets. Some of the identified highly correlated labels confirm the actual state of knowledge whereas others help to identify new risk factors and provide a good basis to formulate new hypothesis.
+CONCLUSIONS:
+
+The NTI is a valuable tool in the domain of biomedical data analysis. It allows the identification of correlations between high-dimensional data and nominal labels, while at the same time a p-value measures the level of significance of the detected correlations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BioData Mining</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1756-0381</identifier>
+                    <identifier type="MEDLINE">21247420</identifier>
+                    <identifier type="ISI">000208761200002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-23000731</identifier>
+                    <identifier type="doi">10.1186/1756-0381-4-2</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2300073</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2300073">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2300073/2466439/1756-0381-4-2.martin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2300073" DMDID="DMD2300073">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2300073"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

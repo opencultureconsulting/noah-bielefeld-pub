@@ -1,0 +1,100 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2304372</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>GREFIT : ein System zur visuellen Erkennung von Handposturen</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Claudia</namePart>
+  <namePart type="family">Nölker</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="ger">Unsere Hände benutzen wir alltäglich und ständig, ohne uns dessen bewusst zu sein, zur Interaktion mit Objekten oder zur Kommunikation - sowohl von Mensch zu Mensch als auch von Mensch zu Maschine. Die Kommunikation mit dem Computer verläuft derzeit jedoch zumeist nur indirekt durch Verwendung von Eingabegeräten wie Maus oder Tastatur. Die Fragestellung, die in der vorliegenden Arbeit untersucht werden sollte, ist, inwieweit auch eine direkte Nutzung der Hand als "Eingabegerät" realisierbar ist.
+Die Schwerpunkte in dieser Arbeit liegen zum Einen auf der visuellen Erkennung der Handpostur ohne Verwendung von Markern oder sonstigen Segmentierungshilfen an den Fingern. Die menschliche Hand ist dabei aufgrund ihrer Komplexität und Beweglichkeit bei der visuellen Erkennung ein besonders schwieriges Objekt. Um diese Variabilität wiederzugeben, sollte zum Anderen nicht die übliche Klassifikation in eine Anzahl von fest vorgegebenen Handposturen, sondern eine kontinuierliche Parametrisierung durchgeführt werden.
+Untersucht wurden in dieser Arbeit die Auswertungsmöglichkeiten mit einem Mono- als auch einem Stereo-Kamerasystem. Basis ist dabei nicht die holistische Erkennung der Gesamthandpostur aus dem Bild, sondern die Detektion der Fingerspitzenpositionen als charakteristische Landmarken zur Beschreibung der Stellung der Hand, aus denen im zweiten Schritt die Handpostur rekonstruiert wird.
+Als Entwicklungs-Szenario für die Exploration wird eine "Handbox" vorgestellt. Die System-Architektur ist eine hierarchische Struktur aus mehreren Schichten, welche eine sukzessive Verbesserung der Lokalisation der Fingerspitzenpositionen im Bild erzielt.
+Nach der Vorverarbeitung folgt zunächst die globale Verarbeitungsstufe, in der ein neuronales LLM-Netz einen Merkmalsvektor des Bildes in eine grobe Positionierung aller fünf Fingerspitzenpositionen überführt. Das Ergebnis der globalen Verarbeitung gibt den Bildausschnitt für die lokale Verarbeitung vor, in welcher eine genauere Lokalisation der Fingerspitzenpositionen erfolgt. Durch Integration von Vorwissen und Kontextwissen kann die erzielte Genauigkeit nochmals verbessert werden.
+Für das Mono-System bilden diese 2-D-Fingerspitzenpositionen die Grundlage für die weitere Berechnung. Im Falle des Stereo-Systems erfolgt zunächst eine Korrespondenzanalyse zur Lokalisation der zugehörigen Fingerspitzenpositionen im Stereo-Bild. Nachfolgend berechnet ein neuronales PSOM-Netz die entsprechende 3-D-Position im Raum.
+Zur Rekonstruktion der Handpostur aus den zwei- bzw. dreidimensionalen Positionsdaten werden die Winkel der Fingergelenke durch Verwendung eines Handmodells berechnet. Dieses Handmodell ist als kinematischer Baum konstruiert, welcher den Proportionen und Bewegungsmöglichkeiten der menschlichen Hand entspricht. Ein neuronales PSOM-Netzwerk führt die inverse Kinematik zur Berechnung der Gelenkwinkel aus den Positionsdaten durch.
+Zum Test der Einhaltung der anatomischen Kopplungen zwischen den erhaltenen Fingergelenkwinkeln werden diese auf ihre Plausibilität geprüft, bevor das Ergebnis mit dem künstlichen Handmodell visualisiert wird. Das System liefert präzise Resultate und ist robust gegenüber leichten Drehungen und Größenvariationen der Hand.
+Die Vorteile der entstandenen Gestik-Schnittstelle zum Computer werden insbesondere bei solchen Anwendungen klar, bei denen mehrere Parameter gleichzeitig kontrolliert werden müssen. Abschließend werden daher in dieser Arbeit die Interaktionsmöglichkeiten bei der Sonifikation der Handpostur vorgestellt und an zwei Beispielen exploriert.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="0001.ps">https://pub.uni-bielefeld.de/download/2304372/2304375/0001.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2000</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+<subject><topic>Mensch-Maschine-Kommunikation , Hand , Gestik , Bilderkennung , Neuronales Netz , Handposturerkennung , Computer Vision , Neuronale Netze ,</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-3414</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2001-01-11</dateOther>
+<extension>
+<bibliographicCitation>
+<mla>Nölker, Claudia. &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2000.</mla>
+<default>Nölker C (2000) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<lncs> Nölker, C.: GREFIT : ein System zur visuellen Erkennung von Handposturen. Bielefeld University, Bielefeld (Germany) (2000).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Nölker, Claudia. 2000. &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<harvard1>Nölker, C., 2000. &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Nölker C (2000) &lt;br /&gt;&lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Nölker, C. (2000).  &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>C.  Nölker, &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2000&lt;/strong&gt;.</angewandte-chemie>
+<wels>Nölker, C. (2000): GREFIT : ein System zur visuellen Erkennung von Handposturen. Bielefeld (Germany): Bielefeld University.</wels>
+<apa>Nölker, C. (2000).  &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> C. Nölker, &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2000.</ieee>
+<ama>Nölker C. &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2000.</ama>
+<frontiers>Nölker, C. (2000). GREFIT : ein System zur visuellen Erkennung von Handposturen. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Nölker, C. (2000). &lt;em&gt;GREFIT : ein System zur visuellen Erkennung von Handposturen&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2304372</recordIdentifier><recordCreationDate encoding="w3cdtf">2003-09-23T14:44:08Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-11T08:37:24Z</recordChangeDate>
+</recordInfo>
+</mods>

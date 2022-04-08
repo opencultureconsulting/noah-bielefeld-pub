@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2302056</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:570</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Zsuzsanna</namePart>
+  <namePart type="family">Lipták</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">164350</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Sebastian</namePart>
+  
+  
+  <namePart type="family">Böcker</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis treats two problem areas in bioinformatics which can both be beneficially formalized as string problems.
+The first (and larger) part deals with weighted string problems as they arise from biotechnological mass spectrometry applications. In a mass spectrometry experiment - put in a simplified manner - the molecular mass of the sample molecules is determined. The aim is to identify the sample, either with or without additional information from a database, relying on the fact that the different building blocks of proteins (namely, amino acids) and of DNA molecules (nucleotides) have different molecular masses. Viewing proteins and DNA molecules as strings, this leads naturally to the definition of weighted strings as strings over a finite alphabet with an additional weight (or mass) function.
+We develop some results in weighted string combinatorics, and then present efficient algorithms for three weighted string problems which are motivated by mass spectrometry.
+First, the mass decomposition problem is the problem of finding all compomers whose mass equals a query mass. Here, a compomer is an integer vector specifying the number of occurrences of each character. A compomer abstracts from the order of characters in a string and identifies instead all strings with the same number of occurrences of each character - since these strings all have the same mass. We also present simulation results and tables detailing the number of compomers for different biomolecules, in the ranges appropriate for mass spectrometry applications.
+Next, we give several efficient algorithms for the submass problem: to test, for a given weighted string s and a query mass M, whether s has a substring with mass M; to find where such a substring occurs; and other variants. We present an algorithm for binary alphabets which runs in time logarithmic in the length of s. Furthermore, we present several algorithms for the problem where multiple masses are sought; these algorithms encode the submasses of s in a polynomial and rely for their efficiency on Fast Fourier Transform for polynomial multiplication.
+The third weighted string problem we discuss is de novo peptide sequencing, i.e., recovering the amino acid sequence of a sample peptide from tandem MS data, a specialized mass spectrometry experiment. We describe an algorithm which is an enhancement of a dynamic programming algorithm presented by Chen et al. in 2000. We describe our implementation and present some simulation results.
+The second part of the thesis deals with EST clustering. ESTs (expressed sequence tags) are short DNA sequences which are partial copies of mRNAs; they are produced in a high-throughput manner and submitted to public databases. In EST clustering, the aim is to produce a partition of a large set of ESTs, where each cluster corresponds to a gene; thus enabling the researcher to identify which genes were being expressed. Clearly, the quality of the clustering is highly dependent on the dissimilarity measure (distance/similarity measure) for strings and on the clustering algorithm employed. We have developed a method for evaluating different string dissimilarity measures and clustering algorithms. Finally, we present simulation results for five dissimilarity measures and one clustering algorithm.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Liptak_PhDthesis.ps">https://pub.uni-bielefeld.de/download/2302056/2302059/Liptak_PhDthesis.ps</url>
+  </location>
+  <physicalDescription><internetMediaType>application/ps</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2005</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Algorithms</topic><topic>Combinatorics</topic><topic>Weighted strings</topic><topic>Mass spectrometry</topic><topic>Computational biology</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-8604</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2005-07-10</dateOther>
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>Z.  Lipták, &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2005&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipták, Z. (2005).  &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<harvard1>Lipták, Z., 2005. &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<bio1>Lipták Z (2005) &lt;br /&gt;&lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<wels>Lipták, Z. (2005): Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering. Bielefeld (Germany): Bielefeld University.</wels>
+<ieee> Z. Lipták, &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2005.</ieee>
+<apa>Lipták, Z. (2005).  &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<frontiers>Lipták, Z. (2005). Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipták, Z. (2005). &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<ama>Lipták Z. &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2005.</ama>
+<default>Lipták Z (2005) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+<mla>Lipták, Zsuzsanna. &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2005.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lipták, Zsuzsanna. 2005. &lt;em&gt;Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Lipták, Z.: Strings in proteomics and transcriptomics : algorithmic and combinatorial questions in mass spectrometry and EST clustering. Bielefeld University, Bielefeld (Germany) (2005).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2302056</recordIdentifier><recordCreationDate encoding="w3cdtf">2006-05-03T09:37:18Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-02-26T15:24:54Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2299841">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Schrift im Wandel – Wandel durch Schrift [CD-ROM]</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Franz-Josef</namePart>
+                        <namePart type="family">Arlinghaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marcus</namePart>
+                        <namePart type="family">Ostermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Plessow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gudrun</namePart>
+                        <namePart type="family">Tscherpel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">900</classification>
+                    <identifier type="isbn">2-503-51167-8</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-22998410</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2299841</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2299841">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2299841/2537069/Arlinghaus_et_al_CD_Schrift_Wandel_Rezensionen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2299841">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2299841/2537071/CD-ROM_Schrift_im_Wandel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2299841" DMDID="DMD2299841">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2299841"/>
+            <mets:div TYPE="part" ID="PART1_2299841" LABEL="CD-ROM_Schrift_im_Wandel.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2299841"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

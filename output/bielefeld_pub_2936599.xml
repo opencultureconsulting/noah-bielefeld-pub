@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936599">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Cloud-based Bioinformatics Framework for Next-Generation Sequencing Data</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Liren</namePart>
+                        <namePart type="family">Huang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexander</namePart>
+                        <namePart type="family">Sczyrba</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2019-06-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The increasing amount of next-generation sequencing data introduces a fundamental challenge on large scale genomic analytics. Storing and processing large amounts of sequencing data requires considerable hardware resources and efficient software that can fully utilize these resources. Nowadays, both industrial enterprises and nonprofit institutes are providing robust and easy-access cloud services for studies in life science. To facilitate genomic data analyses on such powerful computing resources, distributed bioinformatics tools are needed. However, most of existing tools have low scalability on the distributed computing cloud. Thus, in this thesis, I developed a cloud based bioinformatics framework that mainly addresses two computational challenges: (i) the run time intensive challenge in the sequence mapping process and (ii) the memory intensive challenge in the de novo genome assembly process.&lt;br /&gt;&lt;br /&gt; 
+
+For sequence mapping, I have natively implemented an Apache Spark based distributed sequence mapping tool called Sparkhit. It uses the q-gram filter and Pigeonhole principle to accelerate the speeds of fragment recruitment and short read mapping processes. These algorithms are implemented in the Spark extended MapReduce model. Sparkhit runs 92–157 times faster than MetaSpark on metagenomic fragment recruitment and 18–32 times faster than Crossbow on data pre-processing.&lt;br /&gt;&lt;br /&gt; 
+
+For de novo genome assembly, I have invented a new data structure called Reflexible Distributed K-mer (RDK) and natively implemented a distributed genome assembler called Reflexiv. Reflexiv is built on top of the Apache Spark platform, uses Spark Resilient Distributed Dataset (RDD) to distributed large amount of k-mers across the cluster and assembles the genome in a recursive way. As a result, Reflexiv runs 8-17 times faster than Ray assembler and 5-18 times faster than AbySS assembler on the clusters deployed at the de.NBI cloud. &lt;br /&gt;&lt;br /&gt;
+
+In addition, I have incorporated a variety of analytical methods into the framework. I have also developed a tool wrapper to distribute external tools and Docker containers on the Spark cluster. As a large scale genomic use case, my framework processed 100 terabytes of data across four genomic projects on the Amazon cloud in 21 hours. Furthermore, the application on the entire Human Microbiome Project shotgun sequencing data was completed in 2 hours, presenting an approach to easily associate large amounts of public datasets with reference data. &lt;br /&gt;&lt;br /&gt;
+
+Thus, my work contributes to the interdisciplinary research of life science and distributed cloud computing by improving existing methods with a new data structure, new algorithms, and robust distributed implementations.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29365999</identifier>
+                    <identifier type="doi">10.4119/unibi/2936599</identifier>
+                    <identifier type="sys">HT020209883</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936599</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936599">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936599/2936600/Thesis_Liren_Huang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936599" DMDID="DMD2936599">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936599"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

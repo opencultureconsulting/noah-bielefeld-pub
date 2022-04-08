@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2941772">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Pricing Interest Rate Derivatives under Volatility Uncertainty</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julian</namePart>
+                        <namePart type="family">Hölzermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We study the pricing of contracts in fixed income markets in the presence of volatil-
+ity uncertainty. We consider an arbitrage-free bond market under volatility uncer-
+tainty. The uncertainty about the volatility is modeled by a *G*-Brownian motion,
+which drives the forward rate dynamics. The absence of arbitrage is ensured by
+a drift condition. In such a setting we obtain a sublinear pricing measure for ad-
+ditional contracts. Similar to the forward measure approach, we define a forward
+sublinear expectation to simplify the valuation of cashflows. Under the forward sub-
+linear expectation, we obtain a robust version of the expectations hypothesis and
+a valuation method for bond options. With these tools, we derive robust pricing
+rules for the most common interest rate derivatives:fixed coupon bonds, 
+floating rate notes, interest rate swaps, swaptions, caps, and floors. For fixed coupon bonds,
+floating rate notes, and interest rate swaps, we obtain a single price, which is the
+same as in traditional models. For swaptions, caps, and floors, we obtain a range
+of prices, which is bounded by the prices from traditional models with the highest
+and lowest possible volatility. Due to these pricing formulas, the model naturally
+exhibits unspanned stochastic volatility.</abstract>
+                    <abstract lang="eng">MSC2010: 91G20, 91G30</abstract>
+                    <subject>
+                        <topic>Robust Finance</topic>
+                        <topic>Model Uncertainty</topic>
+                        <topic>Fixed Income Markets</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>633</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29417724</identifier>
+                    <identifier type="sys">HT020409164</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2941772</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2941772">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2941772/2941773/IMW_working_paper_633.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2941772" DMDID="DMD2941772">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2941772"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

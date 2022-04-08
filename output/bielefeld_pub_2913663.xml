@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913663">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Active occlusion-handling for appearance-based object recognition models</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marvin</namePart>
+                        <namePart type="family">Struwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-09-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Despite extensive research, visual detection of objects in natural scenes is still not robustly solved. The reason for this is the large variation in appearance in which objects or classes occur. A particularly challenging variation is occlusion, which is caused by the constellation of objects in a scene. Occlusion reduces the number of visible features of an object, but also causes accidental features. Current object representations yield acceptable results during a low to medium level of occlusion, but fail for stronger occlusions.&lt;br /&gt;
+This thesis addresses single image-based object recognition during occlusion and proposes different occlusion-handling strategies. Initially, it depicts a holistic discriminative car detection framework, which several chapters use as reference system. Motivated by a label analysis of hand-annotated video traffic scenes, it then presents a car detector, taking car-car constellations into account. The following chapter illustrates a modification of the reference system to cover with more general occlusion constellations. Inspired by the fact that parts-based detection approaches are more robust against occlusion, the next chapter discusses a parts-based car detector with active occlusion-handling at the detection step. At first, this exploits a strategy using the mask of the occluding object to re-weight the score of possible car hypotheses. This is followed by the presentation of an extended version, which especially targets strongly occluded cars.&lt;br /&gt;
+Due to the fact that hand-annotated video streams do not provide pixel-level
+information about the object instances, this thesis presents a rendered benchmark
+data set to resolve this issue. The pixel-level information permits intensive
+evaluation of occlusion-handling strategies. An eye-tracker study also uses this
+rendered data set to explore how humans cope with the absence of visual object
+features, and which information they use to deal with occlusion.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29136638</identifier>
+                    <identifier type="sys">HT019483625</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913663</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913663">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913663/2913664/MStruwe_PhDThesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913663" DMDID="DMD2913663">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913663"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

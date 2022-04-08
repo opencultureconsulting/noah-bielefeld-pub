@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2948847">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Parameter Optimization for Brain-Computer Interfaces based on Visual Evoked Potentials</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Felix</namePart>
+                        <namePart type="family">Gembler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2020-10-29</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">For people who are physically unable to communicate with their fellow human beings due to severe disabilities, technical communication aids can be a life enrichment. Communication tools can be realized with so-called brain-computer interfaces (BCIs), which provide a connection between the brain and the computer and can be controlled without the activation of the peripheral nervous system. The electrical brain activity is recorded, usually noninvasively, by means of an electroencephalogram (EEG). BCIs analyze the collected EEG data in real-time and convert them into output signals allowing hands-free control of various kinds of applications such as mental typewriters.
+
+One of the control paradigms used to realize BCIs is based on visual evoked potentials (VEPs), which appear in the visual cortex of the brain when visual stimuli are perceived. An example of such stimuli is flickering target objects on a computer screen, each flashing with a specific frequency. By detecting the VEPs, the BCI can determine the target on which the user is focusing. In spelling applications, these targets represent letters; the user can spell a word or sentence just by looking at the corresponding stimulus.
+
+In several studies, a high variation in BCI accuracy across users has been observed; not all users did achieve reliable control over the system. A significant problem in BCI research is that EEG data cannot be interpreted reliably for all users. In spelling applications, the system might output wrong letters too frequently, which makes effective communication difficult. For other applications, such as wheelchair control, faulty classifications should be avoided entirely.
+
+An essential goal in the field of research is, therefore, to improve the accuracy of the classification. One way to achieve this goal is to customize critical parameters to the user.
+In this work, factors that impact the performance of VEP-based BCIs were investigated. These factors include parameters and settings of the user interface and the classification, such as the number of targets and the duration that a stimulus needs to be fixated until the corresponding command is executed. Furthermore, demographic differences such as age and gender and their relation to BCI performance were analyzed. To this end, several studies - each dedicated to one or several of these factors - were conducted. The results of these studies indicated that user age and the number of targets of the graphical user interface have a high impact on classification accuracy.
+
+Based on these findings, a robust BCI application was developed, a spelling application that determines personalized key parameters. This application enables a more accurate BCI control, as the BCI is tailored to the respective user. Moreover, the software allows non-specialists to set up the system. The latter is an essential point in terms of usability in daily life; it enables nursing staff or family members to adjust the necessary system settings with little effort.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29488476</identifier>
+                    <identifier type="doi">10.4119/unibi/2948847</identifier>
+                    <identifier type="sys">HT020861380</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2948847</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2948847">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2948847/2948848/Dissertation-Felix_Gembler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2948847" DMDID="DMD2948847">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2948847"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2462428">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Emergent auditory feature tuning in a real-time neuromorphic VLSI system</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sadique</namePart>
+                        <namePart type="family">Sheik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Coath</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Giacomo</namePart>
+                        <namePart type="family">Indiveri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Susan L.</namePart>
+                        <namePart type="family">Denham</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Wennekers</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-5518-8990</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Many sounds of ecological importance, such as communication calls, are characterised by time-varying spectra. However, most neuromorphic auditory models to date have focused on distinguishing mainly static patterns, under the assumption that dynamic patterns can be learned as sequences of static ones. In contrast, the emergence of dynamic feature sensitivity through exposure to formative stimuli has been recently modeled in a network of spiking neurons based on the thalamocortical architecture. The proposed network models the effect of lateral and recurrent connections between cortical layers, distance-dependent axonal transmission delays, and learning in the form of Spike Timing Dependent Plasticity (STDP), which effects stimulus-driven changes in the pattern of network connectivity. In this paper we demonstrate how these principles can be efficiently implemented in neuromorphic hardware. In doing so we address two principle problems in the design of neuromorphic systems: real-time event-based asynchronous communication in multi-chip systems, and the realization in hybrid analog/digital VLSI technology of neural computational principles that we propose underlie plasticity in neural processing of dynamic stimuli. The result is a hardware neural network that learns in real-time and shows preferential responses, after exposure, to stimuli exhibiting particular spectrotemporal patterns. The availability of hardware on which the model can be implemented, makes this a significant step towards the development of adaptive, neurobiologically plausible, spike-based, artificial sensory systems.</abstract>
+                    <subject>
+                        <topic>unsupervised learning</topic>
+                        <topic>neuromorphic VLSI</topic>
+                        <topic>mismatch</topic>
+                        <topic>spectro-temporal features</topic>
+                        <topic>Address Event Representation (AER)</topic>
+                        <topic>STDP</topic>
+                        <topic>auditory</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-4548</identifier>
+                    <identifier type="eIssn">1662-4548</identifier>
+                    <identifier type="MEDLINE">22347163</identifier>
+                    <identifier type="ISI">000209165300033</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24624283</identifier>
+                    <identifier type="doi">10.3389/fnins.2012.00017</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2462428</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2462428">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2462428/2552999/Emergent_auditory_feature_tuning_in_a_real-time_neuromorphic_VLSI_system.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2462428" DMDID="DMD2462428">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2462428"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

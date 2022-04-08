@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1776371">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Assoziative Zuordnung und Suche von Wissen in einer thematisch strukturierten Wissensbasis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Barbara</namePart>
+                        <namePart type="family">Gängler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marianne</namePart>
+                        <namePart type="family">Greten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Linke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1992</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Von einer thematischen Strukturierung der Wissensbasis sind zwei Funktionen eines sprachverstehenden Systems betroffen: Bei der Wissensakquisition aus Texten können die gegebenen Fakten dem geeigneten Teil der Wissensbasis zugeordnet werden; für die Bearbeitung von Anfragen kann die Suche auf thematisch eingeschränkte Teilbereiche der Wissensbasis fokussiert werden. In beiden Fällen muß vom System der für die zu bearbeitenden Texte (und Anfragen) relevante Wissensbasis-Ausschnitt erkannt werden. In dem vorliegenden Papier werden erste Versuche mit einem subsymbolischen Klassifizierungsmodul beschrieben, das Texte aufgrund wortbezogener Merkmale Teilbereichen einer strukturierten Wissensbasis thematisch zuordnet. Ausgangspunkt war die Annahme, daß das Vokabular faktenübermittelnder Informationstexte kumulativ auf den in einem Text angesprochenen Weltausschnitt hinweist. Verschiedene Typen künstlicher neuronaler Netze wurden in einer Lernphase mit vorbereiteten Paaren von textspezifischen Merkmalskombinationen und assoziierten Wissensbereichen trainiert. In Tests mit neuen Texten wurden von einem derart trainierten Backpropagation-Netzwerk in den meisten Fällen plausible Bereichszuordnungen vorgeschlagen.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-12276</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1776371</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1776371">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1776371/2312170/Wachsmuth_19.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1776371" DMDID="DMD1776371">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1776371"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

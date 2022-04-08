@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2913968">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Binary Associative Memories as a Benchmark for Spiking Neuromorphic Hardware</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Stöckel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Jenzen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1551-3848</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Michael</namePart>
+                        <namePart type="family">Thies</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Large-scale neuromorphic hardware platforms, specialized computer systems for energy efficient simulation of spiking neural networks, are being developed around the world, for example as part of the European Human Brain Project (HBP). Due to conceptual differences, a universal performance analysis of these systems in terms of runtime, accuracy and energy efficiency is non-trivial, yet indispensable for further hard- and software development. In this paper we describe a scalable benchmark based on a spiking neural network implementation of the binary neural associative memory. We treat neuromorphic hardware and software simulators as black-boxes and execute exactly the same network description across all devices. Experiments on the HBP platforms under varying configurations of the associative memory show that the presented method allows to test the quality of the neuron model implementation, and to explain significant deviations from the expected reference output.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Frontiers in Computational Neuroscience</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>11</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1662-5188</identifier>
+                    <identifier type="MEDLINE">28878642</identifier>
+                    <identifier type="ISI">000409014200001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29139689</identifier>
+                    <identifier type="doi">10.3389/fncom.2017.00071</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2913968</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2913968">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2913968/2913969/fncom-11-00071.stoeckel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2913968" DMDID="DMD2913968">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2913968"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

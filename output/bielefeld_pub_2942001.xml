@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2942001">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>SEQing: web-based visualization of iCLIP and RNA-seq data in an interactive python framework.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Lewinski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Yannik</namePart>
+                        <namePart type="family">Bramkamp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tino</namePart>
+                        <namePart type="family">Köster</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3984-9813</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dorothee</namePart>
+                        <namePart type="family">Staiger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND: RNA-binding proteins interact with their target RNAs at specific sites. These binding sites can be determined genome-wide through individual nucleotide resolution crosslinking immunoprecipitation (iCLIP). Subsequently, the binding sites have to be visualized. So far, no visualization tool exists that is easily accessible but also supports restricted access so that data can be shared among collaborators.; RESULTS: Here we present SEQing, a customizable interactive dashboard to visualize crosslink sites on target genes of RNA-binding proteins that have been obtained by iCLIP. Moreover, SEQing supports RNA-seq data that can be displayed in a different window tab. This allows, e.g. crossreferencing the iCLIP data with genes differentially expressed in mutants of the RBP and thus obtain some insights into a potential functional relevance of the binding sites. Additionally, detailed information on the target genes can be incorporated in another tab.; CONCLUSION: SEQing is written in Python3 and runs on Linux. The web-based access makes iCLIP data easily accessible, even with mobile devices. SEQing is customizable in many ways and has also the option to be secured by a password. The source code is available at https://github.com/malewins/SEQing.</abstract>
+                    <subject>
+                        <topic>Genomic tracks</topic>
+                        <topic>Interactive visualization</topic>
+                        <topic>iCLIP</topic>
+                        <topic>RNA-Seq</topic>
+                        <topic>Python</topic>
+                        <topic>Alternative splicing</topic>
+                        <topic>Binding sites</topic>
+                        <topic>Data safety</topic>
+                        <topic>RNA-binding protein</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1471-2105</identifier>
+                    <identifier type="MEDLINE">32183735</identifier>
+                    <identifier type="ISI">000521328100003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29420017</identifier>
+                    <identifier type="doi">10.1186/s12859-020-3434-9</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2942001</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2942001">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2942001/2942168/s12859-020-3434-9.lewinski.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2942001" DMDID="DMD2942001">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2942001"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2930664">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Research Data for submission: Optimal integration of actions and their visual effects: exploring the time window for multisensory causal inference</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Nienke</namePart>
+                        <namePart type="family">Debats</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6941-949X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Herbert</namePart>
+                        <namePart type="family">Heuer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">These are the raw data collected for and analyzed in the submitted manuscript: &quot;Optimal integration of actions and their visual effects: exploring the time window for multisensory causal inference.&quot;</abstract>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2930664</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://opendatacommons.org/licenses/odbl/summary/index.html">ODbL</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2930664</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2930664">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2930664/2930665/Content+DataFiles.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE1_bielefeld_pub_2930664">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2930664/2930666/DataFiles.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2930664" DMDID="DMD2930664">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2930664"/>
+            <mets:div TYPE="part" ID="PART1_2930664" LABEL="DataFiles.zip">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2930664"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

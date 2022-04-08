@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2714583">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Recognition of Gestural Object Reference with Auditory Feedback</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ingo</namePart>
+                        <namePart type="family">Bax</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Bekel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gunther</namePart>
+                        <namePart type="family">Heidemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Okyay</namePart>
+                        <namePart type="family">Kaynak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a cognitively motivated vision architecture for the evaluation of pointing gestures. The system views a scene of several structured objects and a pointing human hand. A neural classifier gives an estimation of the pointing direction, then the object correspondence is established using a sub-symbolic representation of both the scene and the pointing direction. The system achieves high robustness because the result (the indicated location) does not primarily depend on the accuracy of the pointing direction classification. Instead, the scene is analysed for low level saliency features to restrict the set of all possible pointing locations to a subset of highly likely locations. This transformation of the &quot;continuous&quot; to a &quot;discrete&quot; pointing problem simultaneously facilitates an auditory feedback whenever the object reference changes, which leads to a significantly improved human-machine interaction.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Artificial neural networks and neural information processing. Proceedings</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2712</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>425</start>
+                                <end>432</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="isbn">3-540-40408-2</identifier>
+                    <identifier type="ISI">000185378100051</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27145831</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2714583</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2714583">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2714583/2719832/bax_bekel_heidemann_ICANN03.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2714583" DMDID="DMD2714583">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2714583"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

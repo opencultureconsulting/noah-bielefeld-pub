@@ -1,0 +1,158 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2934466</id><setSpec>conference_abstract</setSpec><setSpec>doc-type:other</setSpec><setSpec>ddc:000</setSpec><setSpec>conference_abstractFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference abstract</genre>
+
+<titleInfo><title>Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Christian</namePart>
+  <namePart type="family">Pietsch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7346775</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-8778-1273</description></name>
+<name type="personal">
+  <namePart type="given">Jochen</namePart>
+  <namePart type="family">Schirrwagen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7323749</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0458-1004</description></name>
+<name type="personal">
+  <namePart type="given">Vitali</namePart>
+  <namePart type="family">Peil</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10792316</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-6477-8992</description></name>
+<name type="personal">
+  <namePart type="given">Vidya</namePart>
+  <namePart type="family">Ayer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">79220472</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3661-3277</description></name>
+<name type="personal">
+  <namePart type="given">Philipp</namePart>
+  <namePart type="family">Cimiano</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">15020699</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4771-441X</description></name>
+<name type="personal">
+  <namePart type="given">Fabian</namePart>
+  <namePart type="family">Herrmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Andreas</namePart>
+  <namePart type="family">Rempel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">108064501</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-0609-5621</description></name>
+<name type="personal">
+  <namePart type="given">Johanna</namePart>
+  <namePart type="family">Vompras</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18935713</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-8224-2884</description></name>
+<name type="personal">
+  <namePart type="given">Cord</namePart>
+  <namePart type="family">Wiljes</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">27436085</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-2528-5391</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10085</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>Open Science Conference</namePart>
+</name>
+
+
+
+<name type="corporate">
+  <namePart>Continuous quality control for research data to ensure reproducibility</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">Collecting and refining research data or writing software is a part of many researchers' daily
+routine. As a university library, we have been encouraging researchers to add their research output
+to our institutional repository called PUB which is based on the free and open-source LibreCat
+software. Within an international collaboration, we have been able to design and program this
+institutional repository according to our own specifications fairly flexibly. This allowed us to extend
+its scope to data publications recently. However, it remains a system outside the day-to-day work
+flow of researchers who, as we all know, dislike doing what appears to be administrative burdens.
+
+To remedy this situation, we set up a local GitLab instance and loosely coupled it with our
+institutional repository. We rolled out this instance (called GitLab.UB) university-wide and added it
+to the campus single sign-on system that is also used by our institutional repository. As GitLab is
+built around a versioning software, it becomes easy to mint a DOI that refers to a certain snapshot
+of a GitLab project (even retrospectively). This approach is similar to the service jointly offered by
+GitHub and Zenodo.
+
+In addition to an effortless way to publish snapshots of research data or software, integrating GitLab
+allows our institutional repository to display the results of automatic checks on the data supplied by
+researchers. Inspired by the badges that indicate a successful continuous integration run on sites like
+GitHub, we show badges that indicate good research data quality including wellformedness for
+certain data formats and adherence to FAIR data principles as far as these can be checked
+automatically. These checks are implemented within the GitLab CI framework that comes with
+GitLab. They will be made available for re-use free of charge at the end of this project.
+
+Although news of our local GitLab instance so far has spread largely by word of mouth, there has
+been a steady influx of users from various faculties and research institutes as well as their external
+partners. GitLab has also become an integral part of some undergraduate courses. GitLab's
+additional collaboration tools such as issue trackers and wikis have proven to facilitate joint work
+across groups and institutions, and have additionally increased the quality of results.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="conquaire_poster.pdf">https://pub.uni-bielefeld.de/download/2934466/2934467/conquaire_poster.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2019</dateIssued><place><placeTerm type="text">Berlin</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Conquaire</topic><topic>research data</topic><topic>analytical replicability</topic><topic>automatic data quality feedback</topic><topic>data publications</topic><topic>institutional repository</topic><topic>version control</topic><topic>continuous integration</topic><topic>Git</topic><topic>GitLab</topic><topic>scholarly communication</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29344664</identifier><identifier type="doi">10.5281/ZENODO.2602714</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Pietsch C, Schirrwagen J, Peil V, Ayer V, Cimiano P, Herrmann F, Rempel A, Vompras J, Wiljes C (2019)  &lt;br /&gt;Presented at the Open Science Conference, Berlin.</default>
+<mla>Pietsch, Christian, Schirrwagen, Jochen, Peil, Vitali, Ayer, Vidya, Cimiano, Philipp, Herrmann, Fabian, Rempel, Andreas, Vompras, Johanna, and Wiljes, Cord. “Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications”. Presented at the Open Science Conference, Berlin, 2019.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pietsch, Christian, Schirrwagen, Jochen, Peil, Vitali, Ayer, Vidya, Cimiano, Philipp, Herrmann, Fabian, Rempel, Andreas, Vompras, Johanna, and Wiljes, Cord. 2019. “Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications”. Presented at the Open Science Conference, Berlin .&lt;/div&gt;</chicago>
+<lncs> Pietsch, C., Schirrwagen, J., Peil, V., Ayer, V., Cimiano, P., Herrmann, F., Rempel, A., Vompras, J., Wiljes, C.: Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications. Presented at the Open Science Conference, Berlin (2019).</lncs>
+<ieee> C. Pietsch, et al., “Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications”, Presented at the Open Science Conference, Berlin, 2019.</ieee>
+<apa>Pietsch, C., Schirrwagen, J., Peil, V., Ayer, V., Cimiano, P., Herrmann, F., Rempel, A., et al. (2019). &lt;em&gt;Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications&lt;/em&gt;. Presented at the Open Science Conference, Berlin. doi:10.5281/ZENODO.2602714</apa>
+<frontiers>Pietsch, C., Schirrwagen, J., Peil, V., Ayer, V., Cimiano, P., Herrmann, F., Rempel, A., Vompras, J., and Wiljes, C. (2019).“Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications”. Presented at the Open Science Conference, Berlin.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pietsch, C., Schirrwagen, J., Peil, V., Ayer, V., Cimiano, P., Herrmann, F., Rempel, A., Vompras, J. &amp;amp; Wiljes, C. (2019). Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications. Gehalten auf der Open Science Conference. doi:10.5281/ZENODO.2602714.&lt;/div&gt;</dgps>
+<ama>Pietsch C, Schirrwagen J, Peil V, et al. Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications. Presented at the Open Science Conference, Berlin.</ama>
+<angewandte-chemie>C.  Pietsch, J.  Schirrwagen, V.  Peil, V.  Ayer, P.  Cimiano, F.  Herrmann, A.  Rempel, J.  Vompras, and C.  Wiljes, &lt;strong&gt;2019&lt;/strong&gt;.</angewandte-chemie>
+<bio1>Pietsch C, Schirrwagen J, Peil V, Ayer V, Cimiano P, Herrmann F, Rempel A, Vompras J, Wiljes C (2019) &lt;br /&gt;Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications. &lt;br /&gt;Presented at the Open Science Conference, Berlin.</bio1>
+<harvard1>Pietsch, C., et al., 2019. Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications. Presented at the Open Science Conference, Berlin.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Pietsch, C., Schirrwagen, J., Peil, V., Ayer, V., Cimiano, P., Herrmann, F., Rempel, A., et al. (2019). &lt;em&gt;Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications&lt;/em&gt;. Presented at the Open Science Conference, Berlin. doi:10.5281/ZENODO.2602714&lt;/div&gt;</apa_indent>
+<wels>Pietsch, C.; Schirrwagen, J.; Peil, V.; Ayer, V.; Cimiano, P.; Herrmann, F.; Rempel, A.; Vompras, J.; Wiljes, C. (2019): Conquaire: Coupling a local GitLab instance with an institutional repository for instant research data publications.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2934466</recordIdentifier><recordCreationDate encoding="w3cdtf">2019-03-22T13:04:55Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T13:03:49Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1998569">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Automatic Segmentation of Unstained Living Cells in Bright-Field Microscope Images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marko</namePart>
+                        <namePart type="family">Tscherepanow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Frank</namePart>
+                        <namePart type="family">Zöllner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Hillebrand</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Franz</namePart>
+                        <namePart type="family">Kummert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Petra</namePart>
+                        <namePart type="family">Perner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ovidio</namePart>
+                        <namePart type="family">Salvetti</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The automatic subcellular localisation of proteins in living cells is a critical step in determining their function. The evaluation of fluorescence images constitutes a common method of localising these proteins. For this, additional knowledge about the position of the considered cells within an image is required. In an automated system, it is advantageous to recognise these cells in bright-field microscope images taken in parallel with the regarded fluorescence micrographs. Unfortunately, currently available cell recognition methods are only of limited use within the context of protein localisation, since they frequently require microscopy techniques that enable images of higher contrast (e.g. phase contrast microscopy or additional dyes) or can only be employed with too low magnifications. Therefore, this article introduces a novel approach to the robust automatic recognition of unstained living cells in bright-field microscope images. Here, the focus is on the automatic segmentation of cells.</abstract>
+                    <subject>
+                        <topic>bright-field microscopy</topic>
+                        <topic>cell segmentation</topic>
+                        <topic>protein localisation</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19985692</identifier>
+                    <identifier type="doi">10.1007/978-3-540-70715-8_13</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1998569</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1998569">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1998569/2502919/tscherepanow.marko2008automatic-MDA.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1998569" DMDID="DMD1998569">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1998569"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

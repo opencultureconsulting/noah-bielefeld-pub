@@ -1,0 +1,136 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1585611</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:660.6</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Ning</namePart>
+  <namePart type="family">Wei</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Erwin</namePart>
+  <namePart type="family">Flaschel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11014</identifier></name>
+<name type="personal">
+  <namePart type="given">Karl</namePart>
+  <namePart type="family">Friehs</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11015</identifier></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10042</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33086526</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">4838684</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background: Cell viability is one of the basic properties indicating the physiological state of the cell, thus, it has long been one of the major considerations in biotechnological applications. Conventional methods for extracting information about cell viability usually need reagents to be applied on the targeted cells. These reagent-based techniques are reliable and versatile, however, some of them might be invasive and even toxic to the target cells. In support of automated noninvasive assessment of cell viability, a machine vision system has been developed. Results: This system is based on supervised learning technique. It learns from images of certain kinds of cell populations and trains some classifiers. These trained classifiers are then employed to evaluate the images of given cell populations obtained via dark field microscopy. Wavelet decomposition is performed on the cell images. Energy and entropy are computed for each wavelet subimage as features. A feature selection algorithm is implemented to achieve better performance. Correlation between the results from the machine vision system and commonly accepted gold standards becomes stronger if wavelet features are utilized. The best performance is achieved with a selected subset of wavelet features. Conclusion: The machine vision system based on dark field microscopy in conjugation with supervised machine learning and wavelet feature selection automates the cell viability assessment, and yields comparable results to commonly accepted methods. Wavelet features are found to be suitable to describe the discriminative properties of the live and dead cells in viability classification. According to the analysis, live cells exhibit morphologically more details and are intracellularly more organized than dead ones, which display more homogeneous and diffuse gray values throughout the cells. Feature selection increases the system's performance. The reason lies in the fact that feature selection plays a role of excluding redundant or misleading information that may be contained in the raw data, and leads to better results.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="BMC_35.pdf">https://pub.uni-bielefeld.de/download/1585611/2311090/BMC_35.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>BIOMED CENTRAL LTD</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">18939996</identifier>
+  <identifier type="ISI">000260890900001</identifier><identifier type="urn">urn:nbn:de:0070-pub-15856113</identifier><identifier type="doi">10.1186/1471-2105-9-449</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">449</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wei, N., Flaschel, E., Friehs, K., &amp;amp; Nattkemper, T. W. (2008). A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 449. &lt;a href="https://doi.org/10.1186/1471-2105-9-449" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-449&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<bio1>Wei N, Flaschel E, Friehs K, Nattkemper TW (2008) &lt;br /&gt;A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification.&lt;br /&gt;BMC Bioinformatics 9(1): 449.</bio1>
+<harvard1>Wei, N., et al., 2008. A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 9(1), p 449.</harvard1>
+<angewandte-chemie>N.  Wei, E.  Flaschel, K.  Friehs, and T. W.  Nattkemper, “A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2008&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, 449.</angewandte-chemie>
+<wels>Wei, N.; Flaschel, E.; Friehs, K.; Nattkemper, T. W. (2008): A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,9:(1): 449.</wels>
+<apa>Wei, N., Flaschel, E., Friehs, K., &amp;amp; Nattkemper, T. W. (2008). A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 449. &lt;a href="https://doi.org/10.1186/1471-2105-9-449" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-449&lt;/a&gt;</apa>
+<ieee> N. Wei, et al., “A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 9, 2008,  pp. 449.</ieee>
+<ama>Wei N, Flaschel E, Friehs K, Nattkemper TW. A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2008;9(1):449.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wei, N., Flaschel, E., Friehs, K. &amp;amp; Nattkemper, T.W. (2008). A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 449. BIOMED CENTRAL LTD. doi:10.1186/1471-2105-9-449.&lt;/div&gt;</dgps>
+<frontiers>Wei, N., Flaschel, E., Friehs, K., and Nattkemper, T. W. (2008). A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9, 449.</frontiers>
+<mla>Wei, Ning, Flaschel, Erwin, Friehs, Karl, and Nattkemper, Tim Wilhelm. “A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9.1 (2008): 449.</mla>
+<default>Wei N, Flaschel E, Friehs K, Nattkemper TW (2008) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9(1): 449.</default>
+<lncs> Wei, N., Flaschel, E., Friehs, K., Nattkemper, T.W.: A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification. BMC Bioinformatics. 9, 449 (2008).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Wei, Ning, Flaschel, Erwin, Friehs, Karl, and Nattkemper, Tim Wilhelm. 2008. “A machine vision system for automated non-invasive assessment of cell viability via dark field microscopy, wavelet feature selection and classification”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9 (1): 449.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1585611</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-04-26T09:43:11Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:37Z</recordChangeDate>
+</recordInfo>
+</mods>

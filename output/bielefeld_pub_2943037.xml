@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943037">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reference-based QUantification Of gene Dispensability (QUOD)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Katharina</namePart>
+                        <namePart type="family">Sielemann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4022-8531</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Bernd</namePart>
+                        <namePart type="family">Weisshaar</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7635-3473</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Boas</namePart>
+                        <namePart type="family">Pucker</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3321-7471</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+Dispensability of genes in a phylogenetic lineage, e.g. a species, genus, or higher-level clade, is gaining relevance as most genome sequencing projects move to a pangenome level. Most analyses classify genes as core genes, which are present in all investigated individual genomes, and dispensable genes, which only occur in a single or a few investigated genomes. The binary classification as ‘core’ or ‘dispensable’ is often based on arbitrary cutoffs of presence/absence in the analysed genomes. Even when extended to ‘conditionally dispensable’, this concept still requires the assignment of genes to distinct groups.
+
+Results
+Here, we present a new method which overcomes this distinct classification by quantifying gene dispensability and present a dedicated tool for reference-based QUantification Of gene Dispensability (QUOD). As a proof of concept, sequence data of 966 Arabidopsis thaliana accessions (Ath-966) were processed to calculate a gene-specific dispensability score for each gene based on normalised coverage in read mappings. We validated this score by comparison of highly conserved Benchmarking Universal Single Copy Orthologs (BUSCOs) to all other genes. The average scores of BUSCOs were significantly lower than the scores of non-BUSCOs. Analysis of variation demonstrated lower variation values between replicates of a single accession than between iteratively, randomly selected accessions from the whole dataset Ath-966. Functional investigations revealed defense and antimicrobial response genes among the genes with high-dispensability scores.
+
+Conclusions
+Instead of classifying a gene as core or dispensable, QUOD assigns a dispensability score to each gene. Hence, QUOD facilitates the identification of candidate dispensable genes, associated with high dispensability scores, which often underlie lineage-specific adaptation to varying environmental conditions.</abstract>
+                    <subject>
+                        <topic>evolution</topic>
+                        <topic>core genome</topic>
+                        <topic>dispensable genome</topic>
+                        <topic>conditionally dispensable genome</topic>
+                        <topic>comparative genomics</topic>
+                        <topic>short read mapping</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Plant Methods</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>17</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">1746-4811</identifier>
+                    <identifier type="MEDLINE">33563309</identifier>
+                    <identifier type="ISI">000617718000001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29430373</identifier>
+                    <identifier type="doi">10.1186/s13007-021-00718-5</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943037</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943037">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943037/2951777/s13007-021-00718-5.weisshaar.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943037" DMDID="DMD2943037">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943037"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,105 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2906747</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Lydia</namePart>
+  <namePart type="family">Fischer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">45079367</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Barbara</namePart>
+  
+  
+  <namePart type="family">Hammer</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Heiko</namePart>
+  
+  
+  <namePart type="family">Wersing</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The rising amount of digital data, which is available in almost every domain, causes the need for intelligent, automated data processing. Classification models constitute particularly popular techniques from the machine learning domain with applications ranging from fraud detection up to advanced image classification tasks. Within this thesis, we will focus on so-called prototype-based classifiers as one prominent family of classifiers, since they offer a simple classification scheme, interpretability of the model in terms of prototypes, and good generalisation performance. We will face a few crucial questions which arise whenever such classifiers are used in real-life scenarios which require  robustness and reliability of classification and the ability to deal with  complex and possibly streaming data sets. Particularly, we will address the following problems:
+- Deterministic prototype-based classifiers deliver a class label, but no confidence of the classification. The latter is particularly relevant whenever the costs of an error are higher than the costs to reject an example, e.g. in a safety critical system. We investigate ways to enhance prototype-based classifiers by a certainty measure which can efficiently be computed based on the given classifier only and which can be used to reject an unclear classification.
+- For an efficient rejection, the choice of a suitable threshold is crucial. We investigate in which situations the performance of local rejection can surpass the choice of only a global one, and we propose efficient schemes how to optimally compute local thresholds on a given training set.
+- For complex data and lifelong learning, the required classifier complexity can be unknown a priori. We propose an efficient, incremental scheme which adjusts the model complexity of a prototype-based classifier based on the certainty of the classification. Thereby, we put particular emphasis on the question how to adjust prototype locations and metric parameters, and how to insert and/or delete prototypes in an efficient way.
+- As an alternative to the previous solution, we investigate a hybrid architecture which combines an offline classifier with an online classifier based on their certainty values, thus directly addressing the stability/plasticity dilemma. While this is straightforward for classical prototype-based schemes, it poses some challenges  as soon as metric learning is integrated into the scheme due to the different inherent data representations.
+- Finally, we investigate the performance of the proposed hybrid prototype-based classifier within a realistic visual road-terrain-detection scenario.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Lydia_Fischer_thesis.pdf">https://pub.uni-bielefeld.de/download/2906747/2906934/Lydia_Fischer_thesis.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/x-download</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-29067479</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2016-09-23</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Fischer, L. (2016): Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Fischer, L., 2016. &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Fischer L (2016) &lt;br /&gt;&lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fischer, L. (2016).  &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>L.  Fischer, &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<ama>Fischer L. &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2016.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fischer, L. (2016). &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Fischer, L. (2016). Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Fischer, L. (2016).  &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> L. Fischer, &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2016.</ieee>
+<lncs> Fischer, L.: Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces. Universität Bielefeld, Bielefeld (2016).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Fischer, Lydia. 2016. &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Fischer, Lydia. &lt;em&gt;Rejection and online learning with prototype-based  classifiers in adaptive metrical spaces&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2016.</mla>
+<default>Fischer L (2016) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2906747</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-11-14T08:24:28Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:59:10Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2407551">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Entwurfsraumexploration ressourceneffizienter VLIW-Prozessoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Jungeblut</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7425-8766</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2011-10-25</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Die zunehmende Miniaturisierung digitaler Schaltkreise durch moderne Fertigungsverfahren und die damit verbundene steigende Integrationsdichte von mikroelektronischen Schaltkreisen erlaubt die Realisierung von immer komplexeren und leistungsfähigeren Prozessoren. Die Steigerung der Performanz durch eine reine Erhöhung der Taktfrequenz wirkt sich jedoch nachteilig auf die Leistungsaufnahme des Systems aus. Neue Architekturen stellen die geforderte Leistungsfähigkeit durch eine höhere
+Parallelität zur Verfügung. Diese ermöglicht eine höhere Energieeffizienz, da die Taktfrequenz eines Parallelprozessors vergleichsweise niedrig gehalten werden kann. Es gilt, eine hohe Ressourceneffizienz, d.h. einen guten Kompromiss zwischen Performanz und Bedarf an Ressourcen, wie Fläche oder Leistungsaufnahme, zu erreichen. Die eng gekoppelten Funktionseinheiten skalierbarer Very-Long-Instruction-Word (VLIW)-Prozessoren eignen sich insbesondere für Anwendungsszenarien, in denen eine hohe Ressourceneffizienz gefordert ist.
+Diese Arbeit dokumentiert die Entwurfsraumexploration einer skalierbaren und ressourceneffizienten VLIW-Architektur – dem CoreVA-Prozessor. Als Grundlage der Entwicklung dient ein, in Kooperation mit der Fachgruppe &quot;Programmiersprachen und Übersetzer&quot; der Universität Paderborn entwickelter, dualer Entwurfsablauf, der auf einer zentralen Prozessorspezifikation basiert. Der hohe Automatismus dieses Entwurfsablaufs ermöglicht kürzere Iterationszyklen während der Entwicklung und somit die Abdeckung größerer Entwurfsräume, als es bisher möglich war. Ziel der Entwicklung war die Implementierung und Realisierung einer anwendungsspezifischen Architektur, die möglichst gut an das jeweilige Anwendungsszenario angepasst ist. Die Nutzbarkeit des in dieser Arbeit entwickelten Entwurfsablaufes wird anhand der Entwurfsraumexploration des CoreVA-Prozessors gezeigt. Neben der Exploration der funktionalen Parallelität des Prozessorkerns wird auch eine Analyse der Forwarding-Architektur und des Speicher-Subsystems vorgestellt. Zur weiteren Steigerung der Ressourceneffizienz können Hardware-Beschleuniger an das CoreVA-System gekoppelt werden. Verschiedene Anbindungsvarianten erlauben sowohl die eng gekoppelte Integration direkt an den Prozessorkern als auch die flexible Anbindung von externen Hardware-Erweiterungen auf einem dedizierten rekonfigurierbaren Baustein.
+Die Vorstellung der prototypischen Implementierungen sowohl als FPGA-Prototyp als auch als ASIC-Realisierung bildet den Abschluss dieser Dissertation. In einer 65 nm Low-Power-Standardzellentechnologie von STMicroelectronics belegt der vierfach parallele CoreVA-Prozessor eine Chipfläche von 2,7 mm². Bei einer Taktfrequenz von 400 MHz liefert die Architektur einen Durchsatz von bis zu 3,2 Milliarden Operationen pro Sekunde. Die Leistungsaufnahme liegt bei durchschnittlich 169 mW. Damit wird die Ressourceneffizienz der entwickelten skalierbaren VLIW-Architektur deutlich.</abstract>
+                    <subject>
+                        <topic>Instruktionssatzerweiterung</topic>
+                        <topic>ASIC</topic>
+                        <topic>CoreVA</topic>
+                        <topic>Entwurfsraumexploration</topic>
+                        <topic>Ressourceneffizienz</topic>
+                        <topic>VLIW</topic>
+                        <topic>RISC</topic>
+                        <topic>Very-Long-Instruction-Word</topic>
+                        <topic>Prozessor</topic>
+                        <topic>dynamisch rekonfigurierbar</topic>
+                        <topic>Pipeline-Bypass</topic>
+                        <topic>Hardwarebeschleuniger</topic>
+                        <topic>RAPTOR</topic>
+                        <topic>FPGA</topic>
+                        <topic>Forwarding</topic>
+                    </subject>
+                    <classification authority="ddc">600</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-24075518</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2407551</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2407551">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2407551/2407565/dissertation_jungeblut.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2407551" DMDID="DMD2407551">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2407551"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

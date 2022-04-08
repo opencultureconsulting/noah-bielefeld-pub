@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2498074">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Connecting question answering and conversational agents: Contextualizing German questions for interactive question answering systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Ulli</namePart>
+                        <namePart type="family">Waltinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Alexa</namePart>
+                        <namePart type="family">Breuing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4786-5189</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Research results in the field of Question Answering (QA) have shown that the classification of natural language questions significantly contributes to the accuracy of the generated answers. In this paper we present an approach which extends the prevalent question classification techniques by additionally considering further contextual information provided by the questions. Thereby we focus on improving the conversational abilities of existing interactive interfaces by enhancing their underlying QA systems in terms of response time and correctness. As a result, we are able to introduce a method based on a tripartite contextualization. First, we present a comprehensive question classification experiment based on machine learning using two different datasets and various feature sets for the German language. Second, we propose a method for detecting the focus chunk of a given question, that is, for identifying which part of the question is fundamentally relevant to the answer and which part refers to a specification of it. Third, we investigate how to identify and label the topic of a given question by means of a human-judgment experiment. We show that the resulting contextualization method contributes to an improvement of existing question answering systems and enhances their application within interactive scenarios.</abstract>
+                    <subject>
+                        <topic>interactive question answering</topic>
+                        <topic>question classification</topic>
+                        <topic>topic spotting</topic>
+                        <topic>machine learning</topic>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>KI - Künstliche Intelligenz</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>26</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>381</start>
+                                <end>390</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0933-1875</identifier>
+                    <identifier type="eIssn">1610-1987</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24980743</identifier>
+                    <identifier type="doi">10.1007/s13218-012-0208-1</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2498074</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2498074">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2498074/2634593/KI-QA-WaltingerBreuingWachsmuth-2012-V2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2498074" DMDID="DMD2498074">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2498074"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

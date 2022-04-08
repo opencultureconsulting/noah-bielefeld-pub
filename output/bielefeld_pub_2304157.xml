@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2304157">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Behavior acquisition in artificial agents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Thurau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Bauckhage</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-12-13</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Computational skill acquisition in robots and simulated agents has been a topic of increasing popularity throughout the last years. Despite impressive progress, autonomous behavior at a level of animals and humans are not yet replicated by machines. Especially when a complex environment demands versatile, goal-oriented behavior, current artificial systems show shortcomings. Consider for instance modern 3D computer games. Despite their key role for more emersive game experience, surprisingly little effort was made towards new techniques for life-like behavior creation in artificial characters.
+Modern interactive computer games provide the ability to objectively record complex human behavior, offering a variety of interesting challenges to the pattern recognition community. Such recordings often represent a multiplexing of long-term strategy, mid-term tactics and short-term reactions, in addition to the more low-level details of the player&apos;s movements. In this work we approach the goal of behavior acquisition in artifical game agents using methods from machine learning and pattern recognition. Recordings of human players implicitly encode the behaviors we are looking for and consequently serve as a training sample base. We assume the behavior of game characters to be a function that maps the current game state onto a reaction. Since a global approach for imitating human behavior is not feasible, various methods are applied to extract and mimic behaviors operating on different timescales (long-term, mid-term, and short-term). For example Bayesian approaches map the world-state onto a discrete set of movement prototypes to imitate situative action sequences, or a Mixture of Experts architecture is used for learning (mid-term) behavioral functions. Although the focus is on the acquisition of single behaviors, first approaches on integrating behaviors are elaborated as well. For experimental validation we use the popular computer game Quake II. The experimental results show that human behavior in simulated environments can indeed be learned from scratch using supervised learning. In final experiments we compare learned behaviors to a human player, and to the behavior of a conventional artificial game agent. A Turing-Test like survey indicates that the learned behaviors are in most cases perceived as humanlike.</abstract>
+                    <subject>
+                        <topic>Game AI</topic>
+                        <topic>Machine learning</topic>
+                        <topic>Behavior acquisition</topic>
+                        <topic>Computerspiel</topic>
+                        <topic>Mustererkennung</topic>
+                        <topic>Imitation learning</topic>
+                        <topic>Behavior modeling</topic>
+                        <topic>Autonomer Agent</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Data Mining</topic>
+                        <topic>Turing-Test</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-10250</identifier>
+                    <identifier type="sys">HT015000866</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2304157</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2304157">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2304157/2304160/diss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2304157" DMDID="DMD2304157">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2304157"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

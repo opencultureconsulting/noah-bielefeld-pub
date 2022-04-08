@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2959843">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Probabilistic temperature forecasting with a heteroscedastic autoregressive ensemble postprocessing model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Annette Christine</namePart>
+                        <namePart type="family">Möller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9386-1691</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jürgen</namePart>
+                        <namePart type="family">Groß</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">To account for uncertainty in numerical weather prediction (NWP) models it has become common practice to employ ensembles of NWP forecasts. However, forecast ensembles often exhibit forecast biases and dispersion errors, thus require statistical postprocessing to improve reliability of the ensemble forecasts.&amp;lt;br&amp;gt;This work proposes an extension of a recently developed postprocessing model for temperature utilizing autoregressive information present in the forecast error of the raw ensemble members. The original approach is modified to let the variance parameter additionally depend on the ensemble spread, yielding a two-fold heteroscedastic model. Furthermore, a high-resolution forecast is included into the postprocessing model, yielding improved predictive performance. Finally, it is outlined how the autoregressive model can be utilized to postprocess ensemble forecasts with higher forecast horizons, without the necessity of making fundamental changes to the original model. To illustrate the performance of the heteroscedastic extension of the autoregressive model, and its use for higher forecast horizons we present a case study for a data set containing 12 years of temperature forecasts and observations over Germany. The case study indicates that the autoregressive model yields particularly strong improvements for forecast horizons beyond 24 hours ahead.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">310</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Quarterly Journal of the Royal Meteorological Society</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>146</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>726</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>211</start>
+                                <end>224</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0035-9009</identifier>
+                    <identifier type="eIssn">1477-870X</identifier>
+                    <identifier type="ISI">000498216800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29598432</identifier>
+                    <identifier type="doi">10.1002/qj.3667</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2959843</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2959843">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2959843/2959855/qj.3667.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2959843" DMDID="DMD2959843">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2959843"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

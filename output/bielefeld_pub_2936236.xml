@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936236">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Meere im Kontext der globalen Erwärmung. Experimente für eine schulische Thematisierung der Erwärmung und Versauerung der Meere sowie des Meeresspiegelanstiegs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Till</namePart>
+                        <namePart type="family">Schmäing</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3823-0982</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Norbert</namePart>
+                        <namePart type="family">Grotjohann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BU praktisch - Das Online-Journal für den Biologieunterricht</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2 (Forschung im Fokus)</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>4</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2627-4469</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29362365</identifier>
+                    <identifier type="doi">10.4119/BUPRAKTISCH-1448</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936236</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936236">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936236/2948589/1448-Artikeltext-5261-2-10-20190502.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" ID="FILE1_bielefeld_pub_2936236">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936236/2948591/1448-Arbeitsmaterial-5262-1-10-20190502.docx" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936236" DMDID="DMD2936236">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936236"/>
+            <mets:div TYPE="part" ID="PART1_2936236" LABEL="1448-Arbeitsmaterial-5262-1-10-20190502.docx">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2936236"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305167">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Situated computer vision</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Situiertes Computersehen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2010</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2009-01-30</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Many computer vision techniques seem to be fragile when they are taken out only slightly of the application scenario they are designed for. This is an inherent problem that has already been noticed a long time ago. Solutions can be based on different principles. First, we can add explicit contextual knowledge to the system that is used to control the application of image operators. Secondly, we can add contextual features that influence or bias the classification decision of some interpretation process. Thirdly, we can actively shape the capturing process in order to make the interpretation process more invariant to context. Fourthly, we can provide appropriate feedback about the current system performance so that a potential user can change the current situation for a more proper system performance. All these strategies are different variations of situated computer vision approaches. They become especially important if computer vision results need to be communicated to a human user. In this case, not all computer vision results matter, only some selective aspects of a scene are of interest. For a complete interpretation, these need to be related to the user&apos;s expectations. Thus, the visual interpretation process becomes embedded in a kind of user-system dialog that can be shaped by verbal statements as well as various other non-verbal contextual cues. One example is joint attention that leads to coupled capturing processes of communication partners. Another example is prompting the user with computer vision results. This establishes feedback loops that give an idea of a successful or unsuccessful information exchange.
+The modeling of computer vision as a situated process is the general topic of this book. First, I will relate it to general trends in the computer vision community and to what has been found for the human perceptual system. Then, different computer vision techniques will be explored for static scenes as well as dynamic scenes that explicitly or implicitly consider context. Further aspects covered are the exploitation of contextual information for learning, how to deal with it in system control, and what consequences it has for system integration.</abstract>
+                    <subject>
+                        <topic>Image understanding</topic>
+                        <topic>Computer vision</topic>
+                        <topic>Kognitives Computersehen</topic>
+                        <topic>Human-robot interaction</topic>
+                        <topic>Context-based vision</topic>
+                        <topic>Kognitive Systeme</topic>
+                        <topic>Cognitive systems</topic>
+                        <topic>Künstliche Intelligenz</topic>
+                        <topic>Bildverstehen</topic>
+                        <topic>Mensch-Maschine-Kommunikation</topic>
+                        <topic>Maschinelles Sehen</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-16634</identifier>
+                    <identifier type="sys">HT016375256</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305167</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2305167">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305167/2305170/habil_24032010.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305167" DMDID="DMD2305167">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305167"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

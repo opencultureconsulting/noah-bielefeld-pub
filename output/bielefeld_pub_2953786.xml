@@ -1,0 +1,108 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2953786">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reproducibility of whole-body movement analyses of insects</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Yannik</namePart>
+                        <namePart type="family">Günzel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fabian</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Vidya</namePart>
+                        <namePart type="family">Ayer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-3661-3277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Dürr</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-9239-4964</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In this chapter we describe the attempt to reproduce a selected figure of the paper “Comparative whole-body kinematics of closely related insect species with different body morphology” [1]. In this paper, the authors investigated the walking behaviour of three different species of stick insects. This was done by recording whole-body kinematics of the animals, using a commercial markerbased motion capture system and custom written MATLAB scripts. The main objective of the study was to relate inter-species differences in kinematics to differences in overall morphology, including features such as leg-to-body-length ratio that were not an obvious result of phylogenetic or ecological divergence. The present chapter describes an effort to reproduce one of the figures that was published in the original study that evaluates climbing behaviour by means of (i) snapshots of body posture, (ii) 3D trajectories of front legs and body, and (iii) the gait pattern of a representative trial. We show that the figure could be reproduced successfully, albeit requiring detailed interaction with the authors as well as use of commercial software. Accordingly, we classify this use case as corresponding to our category limited analytical reproducibility. The data and scripts are available in the following Git repository: https: //gitlab.ub.uni-bielefeld.de/conquaire/biological-cybernetics.</abstract>
+                    <subject>
+                        <topic>Insect Locomotion</topic>
+                        <topic>Whole-body kinematics</topic>
+                        <topic>MATLAB</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="isbn">978-3-943363-06-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29537860</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2953786</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2953786">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2953786/2953808/conquaire-book+_chapter-3.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2953786" DMDID="DMD2953786">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2953786"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

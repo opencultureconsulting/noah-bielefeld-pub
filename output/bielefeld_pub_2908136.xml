@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2908136">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Route navigation inspired by foraging insects: following and finding a route again.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Olivier</namePart>
+                        <namePart type="family">Bertrand</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-0889-4550</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Egelhaaf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens Peter</namePart>
+                        <namePart type="family">Lindemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-12-08</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Navigation is one of the most complex behaviours observed in the animal kingdom. A navigating animal needs to learn and recognise the characteristics at certain locations, to decide in which direction to move to reach its destination and to avoid collisions with objects during its journey. Many insects – bees, ants, and wasps – are fascinating navigators, and their behaviour has been scrutinised in great detail over the past century. With their brain weighing only a few milligrammes, these insects have been an amazing source of inspiration for engineers to develop computationally parsimonious and energy-efficient algorithms, and puzzled scientists about how such a tiny animal can navigate efficiently in a complex world.&lt;br /&gt;&lt;br /&gt;
+
+The thesis has been inspired by the stunning navigational skills of foraging insects. One of their skills is the ability to follow a habitual route between two locations. As it will be shown in the thesis, route navigation can arise from simple mechanisms; knowing its overall goal direction and employing a collision avoidance algorithm is sufficient to follow a route. However, the journey along a route of an agent, i.e. a biological or technical system, is not always smooth. The journey may be disrupted suddenly by external factors – such as wind or an impending danger – or by internal sources that lead to navigational errors. The agent will, thus, be at an unknown location away from its habitual route and have to find its route again to complete its journey. I will reveal in the thesis a variety of search strategies that an agent may use to find its route again in a cluttered environment, such as a city or a forest. Since a unique optimal search strategy does not exist, it will be shown that the agent can decide which strategy to follow, assuming it can estimate the distance it plans to travel and the distance it has been displaced from its route.&lt;br /&gt;&lt;br /&gt;
+
+The thesis addresses fundamental questions of navigation by focussing on following and finding a habitual route again. To frame these dilemmas, (1) an overview of navigation will also be given to highlight common fundamental problems faced by any navigating agent, (2) the various degrees of complexity of different strategies to solve navigational tasks and (3) essential aspects of research on insect navigation. Although my modelling approach is inspired by the behaviour of foraging insects, it aims to provide general solutions for any moving agent on how to commute between two locations efficiently.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29081364</identifier>
+                    <identifier type="sys">HT019321526</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2908136</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2908136">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2908136/2908152/Dissertation_Bertrand_2016.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2908136" DMDID="DMD2908136">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2908136"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2305779">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Imaginale Prototypen als analogische Formrepräsentation dreidimensionaler Objekte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Hoffhenke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ipke</namePart>
+                        <namePart type="family">Wachsmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2000-11-16</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Bildhafte Repräsentationen werden in der Künstlichen Intelligenz zwar schon seit langer Zeit in verschiedenen Kontexten, insgesamt jedoch eher am Rande untersucht. Dies ist schon deshalb erstaunlich, da der offensichtliche Vorteil strukturähnlicher, sogenannter analogischer Repräsentationen seit über zehn Jahren in breiter Diskussion ist; es mangelte aber bislang an umfassenderen Vorstößen, sie in maschinellen Systemen zur Objekterkennung und -klassifikation nützlich werden zu lassen. In der vorliegenden Dissertation wird ein operationaler - in der Implementierung erprobter - Ansatz entwickelt, der analogische Formrepräsentationen dreidimensionaler mechanischer Objekte mit sogenannten imaginalen Prototypen realisiert.
+Ein Kernstück der Arbeit ist der Beschreibungsformalismus CASP (Classification Architecture based on Shape Prototypes), der verschiedenartige Objektinformationen, u.a. ihre Form und intrinsische Orientierungen betreffend, bündelt. Er bildet die Grundlage für eine integrative Systemarchitektur mit (1) perzeptuellem Input für die Aufgabe der Objektklassifikation, (2) Inferenzen, die Formmerkmale von imaginalen Prototypen auf geometrische Objekte vererben, und (3) Mechanismen für eine Fokussteuerung bei der Klassifikation. Kulminationspunkt ist ein Skelettmodell-Klassifikator auf der Basis von Linienmodellen, der Ausgangspunkt für eine formbasierte Klassifikation auf drei unterschiedlichen Abstraktionsebenen ist.
+Die Arbeit ist im Kontext eines integrierten Mensch-Maschine-Konstruktionsszenarios angesiedelt, wobei der technische Agent die Rolle des Konstrukteurs und der menschliche Kommunikationspartner die Rolle des Instrukteurs einnimmt. Vorausgesetzt wird dabei die Verwendung einer natürlichen Interaktion mittels Sprache und Gestik.</abstract>
+                    <subject>
+                        <topic>Mensch-Maschine-Kommunikation , Instruktion , Dreidimensionales CAD , Dreidimensionale Rekonstruktion , Objekterkennung , Objekterkennung , Form-Prototypen , Geometrische Repräsentation , Natürliche Mensch-Maschine-Interaktion ,</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-1746</identifier>
+                    <identifier type="sys">HT014239861</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2305779</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/ps" ID="FILE0_bielefeld_pub_2305779">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305779/2305784/0028b.ps" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2305779">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305779/2305783/0028.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/x-gzip" ID="FILE2_bielefeld_pub_2305779">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305779/2305782/container.tgz" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="text/css" ID="FILE3_bielefeld_pub_2305779">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2305779/2305785/biblio2.css" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2305779" DMDID="DMD2305779">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2305779"/>
+            <mets:div TYPE="part" ID="PART1_2305779" LABEL="0028.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2305779"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2305779" LABEL="container.tgz">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2305779"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2305779" LABEL="biblio2.css">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2305779"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

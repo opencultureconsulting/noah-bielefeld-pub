@@ -1,0 +1,467 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2920110</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Supplementary Material for "Auditory Interfaces" - Beyond the GUI</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Camille</namePart>
+  <namePart type="family">Peres</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Virginia</namePart>
+  <namePart type="family">Best</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Derek</namePart>
+  <namePart type="family">Brock</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Christopher</namePart>
+  <namePart type="family">Frauenberger</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Thomas</namePart>
+  <namePart type="family">Hermann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11596</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-7975-4363</description></name>
+<name type="personal">
+  <namePart type="given">John G.</namePart>
+  <namePart type="family">Neuhoff</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Louise Valgerður</namePart>
+  <namePart type="family">Nickersen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Shinn-Cunningham</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tony</namePart>
+  <namePart type="family">Stockman</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110126</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">### Section 5.2: Technology of the Interface, authored by Thomas Hermann
+
+
+The chapter aims at practioners in HCI who are not familiar with sound synthesis nor auditory display. The examples for the synthesis techniques are thus as simple as possible to allow the reader to follow and to understand the basic principles. Sonifications, sound and code examples by Thomas Hermann.
+The following sound and sonification examples are computed with SuperCollider3.
+
+* For first steps in SuperCollider, please get first started with the language. The main resource for SuperCollider3 is http://www.audiosynth.com/.
+* For the code examples, it is assumed that you first booted the sc sound server via s.boot.
+* Sound examples are additionally provided in mp3 format (just follow the links).
+
+
+### **5.2.3. Sound Technology and Synthesis**
+
+#### Additive Synthesis
+
+##### **Sound example S1:**
+```
+{SinOsc.ar(440, mul: 0.4) + SinOsc.ar(880, mul: 0.2)}.play
+```
+Result: S1 (mp3, 64k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920111"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+##### **Sound example S2:**
+```
+{Klang.ar(`[[440,880,1320], [0.4,0.2,0.1]])}.play
+```
+Result: S2 (mp3, 40k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920112"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+* S2 is additive synthesis as in S1, now synthesized by using the Klang.ar UGen (unit generator). It can be seen how easy it is to add more harmonics.
+* Try to change the frequencies and amplitudes arrays, use for instance to 
+  ```
+  {Klang.ar(`[400*[1,2,3,5,6], 0.1*[6,4,3,5,1]]).play}
+  ``` 
+  to generate an additive synthesis with more harmonics. Explore the differences in timbre.
+
+##### **Sound example S3:**
+Most sounds need a structured temporal evolution - e.g. a certain attack time, a longer release time, etc. The amplitude envelope models such temporal effects, as shown here
+
+```
+SynthDef("S3", { Out.ar([0,1], Klang.ar(`[[440,880,1320], [0.4,0.2,0.4]]) * EnvGen.kr(Env.perc(0.01, 1), doneAction:2); ) }).load(s); x = Synth("S3").play
+```
+
+Result: S3 (mp3, 28k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920113"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The example shows the EnvGen envelope generator, now working in control rate (kr), creating a percussive envelope Env.perc. The sound reminds me of the "buckle up" sounds in aircrafts. You may play arround with the parameters to make the sound nicer.
+* The code shows also how to define synths (SynthDef) to be used later in a more comfortable way. This allows to spawn multiple instances of a single sound, as shown next.
+
+```
+SynthDef("S3b", { |freq=440, dur=0.5| Out.ar([0,1], 0.3*Klang.ar(`[freq*[1,2,3], [0.4,0.2,0.4]]) * EnvGen.kr(Env.perc(0.01, dur), doneAction:2); ) }).load(s); { 40.do { Synth("S3b", [\freq, rrand(100, 4000), \dur, rrand(0.05, 2)]).play; 0.5.rand.wait }; }.fork
+```
+Result: S3b (mp3, 290k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920114"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The above sound example shows how to spawn events with certain acoustic parameters (here: freq, and dur).
+* The Routine creates 40 events using the synthesizer S3b with random frequencies between 100 and 4000 Hz and random durations between 50 msec and 2 secs. A random waiting time between 0 and 0.5 s passes between the events.
+
+
+##### **Sound example S4:**
+More natural sounds are obtained if each partial tone follows its own amplitude envelope. This can be obtained by using several EnvGen.kr units.
+```
+SynthDef("S4", { |freq=440, dur=1| var env1 = EnvGen.kr(Env.perc(0.01, dur)), env2 = EnvGen.kr(Env.perc(0.01, dur*0.3)), env3 = EnvGen.kr(Env.perc(0.01, dur*0.1)); Out.ar([0,1], Mix.ar( SinOsc.ar([400,1200,3300], mul: [0.5,0.25,0.1]) * [env1, env2, env3]) ); FreeSelf.kr(Impulse.ar(dur.reciprocal, 0.001)); }).load(s); x = Synth("S4", [\freq, 300, \dur, 2]).play
+```
+Result: S4 (mp3, 40k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920115"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* In the example you can hear that higher partials decay faster than the fundamental. This is a typical behaviour for natural impact sounds.
+
+#### Subtractive Synthesis
+##### **Sound example S5:** filtered White Noise, with moving resonance from 100 Hz to 5000 Hz within 10secs.
+```
+{BPF.ar(WhiteNoise.ar(1), XLine.kr(100,5000,10), rq: 0.2)}.play
+```
+Result: S5 (mp3, 304k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920116"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The spectral centroid rises, a wind-like resonant noise is audible.
+
+##### **Sound example S6:**
+Filter sweep applied to a sawtooth signal source
+```
+{BPF.ar(LFSaw.ar(150), SinOsc.kr(0.3, mul: 800, add: 1000), rq: 0.2)}.play
+```
+Result: S6 (mp3, 236k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920117"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+##### **Sound example S7:** Two resonance filters on an impulse series to create vowel formants
+```
+{ // transition from 'a' to 'i' var sig = Saw.ar(SinOsc.ar(freq: 4, mul: 1, add: 100)); BPF.ar(sig, XLine.kr(650, 290, 2), 0.1) + BPF.ar(0.3*sig, XLine.kr(1080, 1870, 2), 0.1) }.play
+```
+Result: S7 (mp3, 88k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920118"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The sound shows a transition of the vowel 'a' like in jar to the vowel 'i' like in bee within 2secs. The second formant has less gain (0.3) than the first formant.
+* The input is a modulated Sawtooth signal: the sinusoidal modulation is audible as the vibrato, here at a rate of 4 Hz.
+
+##### **Sound example S8:** A very simple brass-like sound (filter opens with increasing amplitude)```
+``` 
+SynthDef("Brass", { | freq=200, dur=1| Out.ar([0,1], LPF.ar(Saw.ar(freq), XLine.kr(650, 2000, 0.15)) *EnvGen.kr(Env.new([0,1,0.7, 0], [0.08,dur, 0.1]) , 1, doneAction: 2) )}).load(s); {[0,4,7,9,7,12].do{|f| Synth.new("Brass", [\freq, (60+f).midicps, \dur, 0.20]); 0.25.wait}}.fork
+```
+Result: S8 (mp3, 44k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920119"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The example shows a lowpass filter (LPF) opening by moving the cutoff from 650 to 2000 Hz within 0.15s.
+* The amplitude envelope is given by level values (first array in Env.new) and times to pass between them (second array).
+* Finally, the Routine (last lines) plays a series of tones using the synth. The numbers in the array indicate halftones of a chromatic scale, and midicps converts the numbers back to real frequencies in cycles per second (cps).
+* The example shows how compact SuperCollider is as language to describe even complex behaviour in time
+
+##### **Sound examples S9-S12:** The following 4 sound examples are lowpass, hipass, band-pass and notch filter, applied to a pulsing noise signal.
+```
+{ LPF.ar(Decay.ar(Impulse.ar(4), 0.2, WhiteNoise.ar, 0), XLine.kr(5000,200,5)) }.play; { HPF.ar(Decay.ar(Impulse.ar(4), 0.2, WhiteNoise.ar, 0), XLine.kr(100,10000,5)) }.play; { BPF.ar(Decay.ar(Impulse.ar(4), 0.2, WhiteNoise.ar, 0), XLine.kr(400,2000,5), 0.1) }.play; { BRF.ar(Decay.ar(Impulse.ar(4), 0.2, WhiteNoise.ar, 0), XLine.kr(400,2000,5), 2) }.play;
+```
+Results: 
+S9 (mp3, 212k)   
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920120"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+S10 (mp3, 144k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920121"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+S11 (mp3, 168k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920122"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+S12 (mp3, 176k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920123"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* Each line gives a different filter (LPF=lowpass filter, HPF=highpass filter, BPF=bandpass filter, and BRF=band reject filter or notch filter)
+* The bandpass filter creates clearly pronounced pitches. The notch filter supresses certain frequencies, which is not well audible with noise as input
+
+#### Wavetable Synthesis
+##### Sound example S13:
+The sound demonstrates playback of prerecorded sound in SuperCollider. This enables manipulation of playback speed, demonstrated here by using a sine modulation of playback rate.
+```
+b = Buffer.read(s, "sounds/a11wlk01.wav"); { PlayBuf.ar(1, b.bufnum, SinOsc.kr(0.2, mul: 0.4, add: 1) * BufRateScale.kr(b.bufnum), loop: 1) }.play
+```
+Result: S13 (mp3, 272k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920124"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* The so-called Mickey-Mouse effect can be heard: with increasing playback speed, pitch of the tones increases. Most often the rate is not modified during playback, but different pre-recorded samples are played as auditory signal on certain conditions. 
+
+### 5.2.4. Auditory Display Techniques in a Nutshell
+#### Audification
+##### Sound example S14:
+Audification of EEG measurements, 1 electrode, 256Hz recording rate, data from a beginning epileptic seizure. At compression of about a factor of 30, the 3 Hz epileptic bursts are transformed to 90 Hz and become thus audible as pitched structure. 
+
+S14 (mp3, 72k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920125"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+##### Sound example S15:
+Audification of EEG data as in S14, now at lower compression. The epileptic rhythm can now be perceived as audible events. 
+
+S15 (mp3, 12k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920126"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+Parameter Mapping Sonification
+
+Sound example S16:
+
+
+Discrete Parameter Mapping Sonification of the Iris Dataset, using the following mapping
+
+* petal length to onset of events
+* sepal length to pitch of events
+* petal width to brilliance
+* sepal width to event duration
+
+``` 
+( SynthDef("syn", { | freq=440, amp=0.2, pan=0, num=1, att=0.02, rel=0.2| Out.ar(0, Pan2.ar( Blip.ar(freq, num) * EnvGen.kr(Env.perc(att, rel, -4), 1, doneAction: 2), pan, amp)) }).load(s); ~parmapDiscrete = { |dataset, duration=5| Score({ |dataset, duration| var score=[], event, stat; var onset, freq, pan, num, rel; stat = dataset.flop.collect{|col| [col.minItem, col.maxItem]}; dataset.do{ | row | i=3; onset= row[i].linlin(stat[i][0], stat[i][1], 0, duration); i=1; freq = row[i].linlin(stat[i][0], stat[i][1], 400, 1000); i=4; num = row[i].linlin(stat[i][0], stat[i][1], 1, 10); i=2; rel = row[i].linlin(stat[i][0], stat[i][1], 0.1, 1); i=5; pan = row[i].linlin(stat[i][0], stat[i][1], -1, 1); event = [onset, [\s_new, \syn, -1, 0, 0, \freq, freq, \pan, pan, \amp, 0.05, \num, num, \att, 0.001, \rel, rel]]; score = score ++ [event]; }; score; }.value(dataset, duration)).sort.play; } ~ds = CSVFileReader.readInterpret(Document.current.path.dirname++"/iris.csv"); ~parmapDiscrete.value(~ds);
+```
+Result: S16 (mp3, 136k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920127"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+* iris.csv is the Iris data table with columns: index, sepal_length, sepal_width, petal_length, petal_width. Any other csv data set will work as well.
+
+
+
+##### Sound example S17:
+Parameter Mapping Sonification of EEG data as above, a beginning epileptic seizure. Channel values are mapped to frequencies of simultaneously playing oscillators.
+
+Result: S17 (mp3, 412k)
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920128"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+
+See paper for comments on the sonification.
+
+#### Model-based Sonification
+'Hitting' different clusters in a high-dimensional dataset by clicking on them in a data plot. The Growing Neural Gas Network Sonification model (link) is used. It creates a topology conserving representation of the data. Energy flow dynamics enables the listener to perceive network interconnectivity as brilliance evolution.
+
+* Sound example S18 (mp3, 20k): hitting on a 2D distribution
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920129"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+* Sound example S19 (mp3, 20k): hitting on a 4D distribution
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920130"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+* Sound example S20 (mp3, 20k): hitting on a 8D distribution
+&lt;center&gt;&lt;audio controls preload="auto" src="https://pub.uni-bielefeld.de/download/2920110/2920131"&gt;&lt;/audio&gt;&lt;/center&gt;
+
+* More complex data (in terms of the local intrinsic data distribution) obviously sound brighter. This is even the case if such properties can not be seen from data plots and thus the sonification model provides information that is complementary to visually accessible information.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S1.mp3">https://pub.uni-bielefeld.de/download/2920110/2920111/S1.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S2.mp3">https://pub.uni-bielefeld.de/download/2920110/2920112/S2.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3.mp3">https://pub.uni-bielefeld.de/download/2920110/2920113/S3.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S3b.mp3">https://pub.uni-bielefeld.de/download/2920110/2920114/S3b.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S4.mp3">https://pub.uni-bielefeld.de/download/2920110/2920115/S4.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S5.mp3">https://pub.uni-bielefeld.de/download/2920110/2920116/S5.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S6.mp3">https://pub.uni-bielefeld.de/download/2920110/2920117/S6.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S7.mp3">https://pub.uni-bielefeld.de/download/2920110/2920118/S7.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S8.mp3">https://pub.uni-bielefeld.de/download/2920110/2920119/S8.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S9.mp3">https://pub.uni-bielefeld.de/download/2920110/2920120/S9.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S10.mp3">https://pub.uni-bielefeld.de/download/2920110/2920121/S10.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S11.mp3">https://pub.uni-bielefeld.de/download/2920110/2920122/S11.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S12.mp3">https://pub.uni-bielefeld.de/download/2920110/2920123/S12.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S13.mp3">https://pub.uni-bielefeld.de/download/2920110/2920124/S13.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S14.mp3">https://pub.uni-bielefeld.de/download/2920110/2920125/S14.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S15.mp3">https://pub.uni-bielefeld.de/download/2920110/2920126/S15.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S16.mp3">https://pub.uni-bielefeld.de/download/2920110/2920127/S16.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S17.mp3">https://pub.uni-bielefeld.de/download/2920110/2920128/S17.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S18.mp3">https://pub.uni-bielefeld.de/download/2920110/2920129/S18.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S19.mp3">https://pub.uni-bielefeld.de/download/2920110/2920130/S19.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="S20.mp3">https://pub.uni-bielefeld.de/download/2920110/2920131/S20.mp3</url>
+  </location>
+  <physicalDescription><internetMediaType>audio/mpeg</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2920110</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2017241</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<frontiers>Peres, C., Best, V., Brock, D., Frauenberger, C., Hermann, T., Neuhoff, J. G., Nickersen, L. V., Shinn-Cunningham, B., and Stockman, T. (2008). Supplementary Material for "Auditory Interfaces" - Beyond the GUI. Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Peres, C., Best, V., Brock, D., Frauenberger, C., Hermann, T., Neuhoff, J.G., Nickersen, L.V., Shinn-Cunningham, B. &amp;amp; Stockman, T. (2008). &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920110.&lt;/div&gt;</dgps>
+<ama>Peres C, Best V, Brock D, et al. &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University; 2008.</ama>
+<ieee> C. Peres, et al., &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;, Bielefeld University, 2008.</ieee>
+<apa>Peres, C., Best, V., Brock, D., Frauenberger, C., Hermann, T., Neuhoff, J. G., Nickersen, L. V., et al. (2008).  &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920110</apa>
+<wels>Peres, C.; Best, V.; Brock, D.; Frauenberger, C.; Hermann, T.; Neuhoff, J. G.; Nickersen, L. V.; Shinn-Cunningham, B.; Stockman, T. (2008): Supplementary Material for "Auditory Interfaces" - Beyond the GUI. Bielefeld University.</wels>
+<angewandte-chemie>C.  Peres, V.  Best, D.  Brock, C.  Frauenberger, T.  Hermann, J. G.  Neuhoff, L. V.  Nickersen, B.  Shinn-Cunningham, and T.  Stockman, &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2008&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Peres, C., et al., 2008. &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;, Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Peres, C., Best, V., Brock, D., Frauenberger, C., Hermann, T., Neuhoff, J. G., Nickersen, L. V., et al. (2008).  &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2920110&lt;/div&gt;</apa_indent>
+<bio1>Peres C, Best V, Brock D, Frauenberger C, Hermann T, Neuhoff JG, Nickersen LV, Shinn-Cunningham B, Stockman T (2008) &lt;br /&gt;&lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Peres, Camille, Best, Virginia, Brock, Derek, Frauenberger, Christopher, Hermann, Thomas, Neuhoff, John G., Nickersen, Louise Valgerður, Shinn-Cunningham, Barbara, and Stockman, Tony. 2008. &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Peres, C., Best, V., Brock, D., Frauenberger, C., Hermann, T., Neuhoff, J.G., Nickersen, L.V., Shinn-Cunningham, B., Stockman, T.: Supplementary Material for "Auditory Interfaces" - Beyond the GUI. Bielefeld University (2008).</lncs>
+<default>Peres C, Best V, Brock D, Frauenberger C, Hermann T, Neuhoff JG, Nickersen LV, Shinn-Cunningham B, Stockman T (2008) &lt;br /&gt;Bielefeld University.</default>
+<mla>Peres, Camille, Best, Virginia, Brock, Derek, Frauenberger, Christopher, Hermann, Thomas, Neuhoff, John G., Nickersen, Louise Valgerður, Shinn-Cunningham, Barbara, and Stockman, Tony. &lt;em&gt;Supplementary Material for "Auditory Interfaces" - Beyond the GUI&lt;/em&gt;. Bielefeld University, 2008.</mla>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2920110</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-05-28T14:04:34Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-19T13:29:45Z</recordChangeDate>
+</recordInfo>
+</mods>

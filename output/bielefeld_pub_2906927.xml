@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2906927">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Analyse verschiedener Architekturvarianten des CoreVA-VLIW-Prozessors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Boris</namePart>
+                        <namePart type="family">Hübener</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Ulrich</namePart>
+                        <namePart type="family">Rückert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Schulz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2016-11-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Die Leistungsfähigkeit eingebetteter Prozessoren gewinnt in der mobilen Signalverarbeitung aufgrund der stetig steigenden Anforderungen aktueller Multimediaanwendungen immer mehr an Bedeutung. Da mobile Systeme in den meisten Fällen batteriebetrieben sind, steht zur Ausführung dieser Anwendungen jedoch nur ein stark begrenztes Energiebudget zu Verfügung. Aus diesem Grund muss die Energieeffizienz, die sowohl von der Rechenleistung als auch von der Leistungsaufnahme eines Systems abhängt, so hoch wie möglich sein. &lt;br /&gt;&lt;br /&gt;
+
+Um diesen Anforderungen gerecht zu werden, verfolgt die Arbeitsgruppe Kognitronik und Sensorik einen CPU-gestützten Ansatz auf Basis des 32-Bit VLIW-Prozessors CoreVA. Der CoreVA-Prozessor kann zur Entwurfszeit durch eine variable Anzahl parallel angeordneter Verarbeitungs- und Funktionseinheiten erweitert werden. Da sich durch das Hinzufügen der Verarbeitungseinheiten jedoch nicht nur die Rechenleistung des Prozessors sondern auch seine Ressourcenanforderungen erhöhen, müssen umfangreiche Entwurfsraumexplorationen durchgeführt werden, um diese Wechselwirkungen bewerten zu können. Dies ist angesichts der vielschichtigen Konfigurierbarkeit des CoreVA-Prozessors jedoch äußerst zeitaufwändig.&lt;br /&gt;&lt;br /&gt;
+
+Vor diesem Hintergrund wurden in dieser Arbeit verschiedene Verfahren einer modellbasierten Entwurfsraumexploration entwickelt. Die Charakterisierung der Zielanwendungen erfolgt hierbei entweder auf Basis einzelner Simulationsdurchgänge des CoreVA-Instruktionssatzsimulators oder durch statische Programmcodeanalysen. Die Ermittlung der Ressourcenanforderungen geschieht mit Hilfe eines Hardwaremodells, das aus wenigen Probesynthesen gewonnen werden kann. Die Energie, die die jeweiligen Prozessorkonfigurationen zur Ausführung der Zielanwendungen benötigen, wird schließlich durch eine Kombination dieser Modelle bestimmt. Hierbei ergibt sich ein durchschnittlicher Approximationsfehler von etwa -5%. &lt;br /&gt;&lt;br /&gt;
+
+Aufgrund dieses geringen Fehlers können die modellbasierten Verfahren die Entwurfsraumexploration des CoreVA-Prozessors maßgeblich beschleunigen. Für einen Prozessor mit bis zu vier Verarbeitungseinheiten lässt sich die Anzahl der genauer zu untersuchenden Prozessorkonfigurationen von 352 auf weniger als zehn Konfigurationen reduzieren. Bei einem Großteil der vorgestellten Anwendungen kann die modellbasierte Entwurfsraumexploration die energieeffizientesten Konfigurationen sogar direkt detektieren.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-29069275</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2906927</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2906927">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2906927/2906928/Dissertation_Boris_Huebener.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2906927" DMDID="DMD2906927">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2906927"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

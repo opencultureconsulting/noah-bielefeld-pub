@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2942780">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Studies in Analytical Reproducibility: the Conquaire Project</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4771-441X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Pietsch</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8778-1273</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Cord</namePart>
+                        <namePart type="family">Wiljes</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2528-5391</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This book is a direct result of the Conquaire (Continuous Quality Control for Research Data to Ensure Reproducibility) project, which was funded by the DFG between 2016 and 2019. The goal of the project was to understand in how far principles from continuous quality control and test-driven development can be applied to the management of research data to increase its quality and potential for re-use. In order to arrive at such an understanding, we have been closely working together with researchers from different disciplines at Bielefeld University ranging from biology, over chemistry, economics, linguistics, psychology through to computer science / robotics. 
+Within these use cases we have aimed at reproducing one central part of a previously published research article. In doing this, we have limited ourselves to reproducing the computational analysis leading to the particular result, as reproducing the actual experiments would have been outside of the scope of the Conquaire project. The book that lies in front of you documents these eight case studies and describes what we have done to reproduce the specific results. The work conducted in the case studies has provided us with a detailed understanding of the analytical workflows used by all the case study partners and has allowed us to get a deep understanding of barriers and challenges in reproducing published results. The book concludes with recommendations and lessons learned from the practical attempt to reproduce a number of published results.</abstract>
+                    <subject>
+                        <topic>open science</topic>
+                        <topic>analytical reproducibility</topic>
+                        <topic>research data management</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-3-943363-06-7</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29427808</identifier>
+                    <identifier type="doi">10.4119/unibi/2942780</identifier>
+                    <identifier type="sys">HT020991154</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2942780</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2942780">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2942780/2951756/conquaire-book.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2942780" DMDID="DMD2942780">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2942780"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

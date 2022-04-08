@@ -1,0 +1,95 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1773578</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:570</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>A novel approach to remote homology detection: jumping alignments</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Rainer</namePart>
+  <namePart type="family">Spang</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Marc</namePart>
+  <namePart type="family">Rehmsmeier</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11601931</identifier></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Stoye</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">65864</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4656-7155</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">66100</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">We describe a new algorithm for protein classification and the detection of remote homologs. The rationale is to exploit both vertical and horizontal information of a multiple alignment in a well-balanced manner. This is in contrast to established methods such as profiles and profile hidden Markov models which focus on vertical information as they model the columns of the alignment independently and to family pairwise search which focuses on horizontal information as it treats given sequences separately. In our setting, we want to select from a given database of "candidate sequences" those proteins that belong to a given superfamily. In order to do so, each candidate sequence is separately tested against a multiple alignment of the known members of the superfamily by means of a new jumping alignment algorithm. This algorithm is an extension of the Smith-Waterman algorithm and computes a local alignment of a single sequence and a multiple alignment. In contrast to traditional methods, however, this alignment is not based on a summary of the individual columns of the multiple alignment. Rather, the candidate sequence is at each position aligned to one sequence of the multiple alignment, called the "reference sequence". In addition, the reference sequence may change within the alignment, while each such jump is penalized. To evaluate the discriminative quality of the jumping alignment algorithm, we compare it to profiles, profile hidden Markov models, and family pairwise search on a subset of the SCOP database of protein domains. The discriminative quality is assessed by median false positive counts (med-FP-counts). For moderate med-FP-counts, the number of successful searches with our method is considerably higher than with the competing methods.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="SPA_REH_STO_2002.pdf">https://pub.uni-bielefeld.de/download/1773578/2311291/SPA_REH_STO_2002.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Mary Ann Liebert Inc</publisher><dateIssued encoding="w3cdtf">2002</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Homology detection</topic><topic>Jumping alignments</topic><topic>Protein classification</topic><topic>Sequence analysis</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Journal of Computational Biology</title></titleInfo>
+  <identifier type="issn">1066-5277</identifier>
+  <identifier type="eIssn">1557-8666</identifier>
+  <identifier type="MEDLINE">12487762</identifier>
+  <identifier type="ISI">000179401200005</identifier><identifier type="urn">urn:nbn:de:0070-pub-17735788</identifier><identifier type="doi">10.1089/106652702761034172</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>5</number></detail><extent unit="pages">747-760</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Spang R, Rehmsmeier M, Stoye J (2002) &lt;br /&gt;&lt;em&gt;Journal of Computational Biology&lt;/em&gt; 9(5): 747-760.</default>
+<mla>Spang, Rainer, Rehmsmeier, Marc, and Stoye, Jens. “A novel approach to remote homology detection: jumping alignments”. &lt;em&gt;Journal of Computational Biology&lt;/em&gt; 9.5 (2002): 747-760.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Spang, Rainer, Rehmsmeier, Marc, and Stoye, Jens. 2002. “A novel approach to remote homology detection: jumping alignments”. &lt;em&gt;Journal of Computational Biology&lt;/em&gt; 9 (5): 747-760.&lt;/div&gt;</chicago>
+<lncs> Spang, R., Rehmsmeier, M., Stoye, J.: A novel approach to remote homology detection: jumping alignments. Journal of Computational Biology. 9, 747-760 (2002).</lncs>
+<ieee> R. Spang, M. Rehmsmeier, and J. Stoye, “A novel approach to remote homology detection: jumping alignments”, &lt;em&gt;Journal of Computational Biology&lt;/em&gt;,  vol. 9, 2002,  pp. 747-760.</ieee>
+<apa>Spang, R., Rehmsmeier, M., &amp;amp; Stoye, J. (2002). A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(5), 747-760. &lt;a href="https://doi.org/10.1089/106652702761034172" target="_blank"&gt;https://doi.org/10.1089/106652702761034172&lt;/a&gt;</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Spang, R., Rehmsmeier, M. &amp;amp; Stoye, J. (2002). A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(5), 747-760. Mary Ann Liebert Inc. doi:10.1089/106652702761034172.&lt;/div&gt;</dgps>
+<frontiers>Spang, R., Rehmsmeier, M., and Stoye, J. (2002). A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt; 9, 747-760.</frontiers>
+<ama>Spang R, Rehmsmeier M, Stoye J. A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt;. 2002;9(5):747-760.</ama>
+<angewandte-chemie>R.  Spang, M.  Rehmsmeier, and J.  Stoye, “A novel approach to remote homology detection: jumping alignments”, &lt;em&gt;Journal of Computational Biology&lt;/em&gt;, &lt;strong&gt;2002&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, 747-760.</angewandte-chemie>
+<bio1>Spang R, Rehmsmeier M, Stoye J (2002) &lt;br /&gt;A novel approach to remote homology detection: jumping alignments.&lt;br /&gt;Journal of Computational Biology 9(5): 747-760.</bio1>
+<harvard1>Spang, R., Rehmsmeier, M., &amp;amp; Stoye, J., 2002. A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt;, 9(5), p 747-760.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Spang, R., Rehmsmeier, M., &amp;amp; Stoye, J. (2002). A novel approach to remote homology detection: jumping alignments. &lt;em&gt;Journal of Computational Biology&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(5), 747-760. &lt;a href="https://doi.org/10.1089/106652702761034172" target="_blank"&gt;https://doi.org/10.1089/106652702761034172&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<wels>Spang, R.; Rehmsmeier, M.; Stoye, J. (2002): A novel approach to remote homology detection: jumping alignments &lt;em&gt;Journal of Computational Biology&lt;/em&gt;,9:(5): 747-760.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1773578</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-01-18T09:11:19Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:59:33Z</recordChangeDate>
+</recordInfo>
+</mods>

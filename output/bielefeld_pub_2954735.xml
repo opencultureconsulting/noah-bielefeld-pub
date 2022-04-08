@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2954735">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Treatment effects on count outcomes with non‐normal covariates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christoph</namePart>
+                        <namePart type="family">Kiefer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9166-400X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Axel</namePart>
+                        <namePart type="family">Mayer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The effects of a treatment or an intervention on a count outcome are often of interest in applied research. When controlling for additional covariates, a negative binomial regression model is usually applied to estimate conditional expectations of the count outcome. The difference in conditional expectations under treatment and under control is then defined as the (conditional) treatment effect. While traditionally aggregates of these conditional treatment effects (e.g., average treatment effects) are computed by averaging over the empirical distribution, a recently proposed moment-based approach allows for computing aggregate effects as a function of distribution parameters. The moment-based approach makes it possible to control for (latent) multivariate normally distributed covariates and provides more reliable inferences under certain conditions. In this paper we propose three different ways to account for non-normally distributed continuous covariates in this approach: an alternative, known non-normal distribution; a plausible factorization of the joint distribution; and an approximation using finite Gaussian mixtures. A saturated model is used for categorical covariates, making a distributional assumption obsolete. We further extend the moment-based approach to allow for multiple treatment conditions and the computation of conditional effects for categorical covariates. An illustrative example highlighting the key features of our extension is provided.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>British Journal of Mathematical and Statistical Psychology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>74</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0007-1102</identifier>
+                    <identifier type="eIssn">2044-8317</identifier>
+                    <identifier type="MEDLINE">33949681</identifier>
+                    <identifier type="ISI">000647108300001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29547352</identifier>
+                    <identifier type="doi">10.1111/bmsp.12237</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2954735</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2954735">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2954735/2956319/bmsp.12237.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2954735" DMDID="DMD2954735">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2954735"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2932136">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Framework-level resource awareness in  robotics and intelligent systems. Improving dependability by exploiting knowledge about system resources</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Johannes</namePart>
+                        <namePart type="family">Wienke</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-4517-5368</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Wrede</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Davide</namePart>
+                        <namePart type="family">Brugali</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-09-13</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Modern robots have evolved to complex hardware and software systems. As such, their construction and maintenance have become more challenging and the potential for failures has increased. These failures and the resulting reduction of dependability have a considerable effect on the acceptance and usefulness of robotics systems in their intended applications. Even though different software engineering techniques have been developed to control dependability-critical aspects of such complex systems, the state of the art for experimental robotics and intelligent systems is that – if at all – functional properties are systematically controlled though techniques such as unit testing and simulation runs. Yet, system dependability can also be impaired if nonfunctional properties behave unexpectedly. This thesis focuses on the utilization of system resources such as CPU, memory, or network bandwidth as an important nonfunctional aspect, which has not received much systematic treatment in robotics and intelligent systems so far. Unexpected utilizations of system resources can have effects ranging from merely wasting energy and reducing a robot’s operational time to a degradation in its function due to processing delays. Even safety-critical situations can arise, for instance, if a motion planner or obstacle avoidance component cannot react before a collision. Therefore, the systematic analysis of a system’s resource utilization, a guidance of developers regarding these aspects, and testing and fault detection for unexpected resource utilization patterns are an effective contribution of this thesis towards more reliable robots.
+
+In this work I describe a concept for integrating resource awareness into component-based robotics and intelligent systems. This concept specifically addresses the often loosely controlled development process predominant in experimental research. As such, the presented methods have to be applicable without a high overhead or large changes to the evolved development methods and system structures. Within this concept, which I termed framework-level resource awareness, I have explored methods in two directions: On the one hand, a set of tools helps developers to understand and systematically control the resource utilization while developing and testing systems. On the other hand, I have applied machine learning techniques to enable autonomous reactions at runtime based on predictions about the resource utilization of system components. With the two views, this work explores novel directions for implementing resource awareness in research systems and the conducted evaluations underline the suitability of the framework-level resource awareness concept.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29321366</identifier>
+                    <identifier type="doi">10.4119/unibi/2932136</identifier>
+                    <identifier type="sys">HT019991640</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2932136</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2932136">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2932136/2932137/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2932136" DMDID="DMD2932136">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2932136"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

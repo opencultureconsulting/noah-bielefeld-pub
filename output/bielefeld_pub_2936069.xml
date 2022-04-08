@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936069">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On the impact of Citizen Science-derived data quality on deep learning based classification in marine images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Daniel</namePart>
+                        <namePart type="family">Langenkämper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-1857-5040</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Erik</namePart>
+                        <namePart type="family">Simon-Lledó</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Brett</namePart>
+                        <namePart type="family">Hosking</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Daniel O. B.</namePart>
+                        <namePart type="family">Jones</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The evaluation of large amounts of digital image data is of growing importance for biology, including for the exploration and monitoring of marine habitats. However, only a tiny percentage of the image data collected is evaluated by marine biologists who manually interpret and annotate the image contents, which can be slow and laborious. In order to overcome the bottleneck in image annotation, two strategies are increasingly proposed: “citizen science” and “machine learning”. In this study, we investigated how the combination of citizen science, to detect objects, and machine learning, to classify megafauna, could be used to automate annotation of underwater images. For this purpose, multiple large data sets of citizen science annotations with different degrees of common errors and inaccuracies observed in citizen science data were simulated by modifying “gold standard” annotations done by an experienced marine biologist. The parameters of the simulation were determined on the basis of two citizen science experiments. It allowed us to analyze the relationship between the outcome of a citizen science study and the quality of the classifications of a deep learning megafauna classifier. The results show great potential for combining citizen science with machine learning, provided that the participants are informed precisely about the annotation protocol. Inaccuracies in the position of the annotation had the most substantial influence on the classification accuracy, whereas the size of the marking and false positive detections had a smaller influence.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>PLOS ONE</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>6</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1932-6203</identifier>
+                    <identifier type="eIssn">1932-6203</identifier>
+                    <identifier type="MEDLINE">31188894</identifier>
+                    <identifier type="ISI">000471234500051</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29360699</identifier>
+                    <identifier type="doi">10.1371/journal.pone.0218086</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936069</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936069">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936069/2936546/journal.pone.0218086.langenkaemper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936069" DMDID="DMD2936069">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936069"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

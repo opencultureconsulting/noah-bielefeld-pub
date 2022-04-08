@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2603361">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Committee-based Selection of Weakly Labeled Instances for Learning Relation Extraction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Tamara</namePart>
+                        <namePart type="family">Bobic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Roman</namePart>
+                        <namePart type="family">Klinger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Manual annotation is a tedious and time consuming process, usually
+needed for generating training corpora to be used in a machine learning scenario.
+The distant supervision paradigm aims at automatically generating such corpora
+from structured data. The active learning paradigm aims at reducing the effort
+needed for manual annotation. We explore active and distant learning approaches
+jointly to limit the amount of automatically generated data needed for the use case
+of relation extraction by increasing the quality of the annotations.
+The main idea of using distantly labeled corpora is that they can simplify and
+speed-up the generation of models, e. g. for extracting relationships between entities
+of interest, while the selection of instances is typically performed randomly.
+We propose the use of query-by-committee to select instances instead. This approach
+is similar to the active learning paradigm, with a difference that unlabeled
+instances are weakly annotated, rather than by human experts. Different strategies
+using low or high confidence are compared to random selection. Experiments on
+publicly available data sets for detection of protein-protein interactions show a
+statistically significant improvement in F1 measure when adding instances with a
+high agreement of the committee.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26033618</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2603361</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2603361">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2603361/2624521/bobic-klinger-cicling2013.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2603361" DMDID="DMD2603361">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2603361"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

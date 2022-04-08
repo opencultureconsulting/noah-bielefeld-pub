@@ -1,0 +1,107 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1631667">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>2DBase: 2D-PAGE database of Escherichia coli</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Chandran</namePart>
+                        <namePart type="family">Vijayendran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Burgemeister</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karl</namePart>
+                        <namePart type="family">Friehs</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Karsten</namePart>
+                        <namePart type="family">Niehaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Erwin</namePart>
+                        <namePart type="family">Flaschel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present a web-based integrated proteome database, termed 2DBase of Escherichia coli which was designed to store, compare, analyse, and retrieve various information obtained by 2D polyacrylamide gel electrophoresis and mass spectrometry. The main objectives of this database are (1) to provide the features for query and data-mining applications to access the stored proteomics data (2) to efficiently compare the specific protein spots present in the comparable proteome maps and (3) to analyse the data with the integrated classification for cellular functions of gene products of E. coli. This database currently contains 12 gels consisting of 1185 protein spots information in which 723 proteins were identified and annotated. Individual protein spots in the existing gels can be displayed, queried, analyzed, and compared in a tabular format based on various functional categories enabling quick and subsequent analyses. Our database satisfies the requirement to be a federated 2-DE database by accomplishing various tasks through a web interface providing access to a relational database system. The 2DBase of E. coli database can be accessed at http://2dbase.techfak.uni-bielefeld.de/.</abstract>
+                    <subject>
+                        <topic>2D gels</topic>
+                        <topic>2D-PAGE</topic>
+                        <topic>proteomics</topic>
+                        <topic>E. coli</topic>
+                        <topic>database</topic>
+                        <topic>MG1655</topic>
+                    </subject>
+                    <classification authority="ddc">572</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BIOCHEMICAL AND BIOPHYSICAL RESEARCH COMMUNICATIONS</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>363</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>822</start>
+                                <end>827</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0006-291X</identifier>
+                    <identifier type="MEDLINE">17904107</identifier>
+                    <identifier type="ISI">000250359400062</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-16316677</identifier>
+                    <identifier type="doi">10.1016/j.bbrc.2007.09.050</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1631667</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1631667">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1631667/2473283/vijayendran.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1631667" DMDID="DMD1631667">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1631667"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

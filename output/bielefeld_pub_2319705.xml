@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2319705">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Abschlußbericht zum Projekt Fuzzy-Suchmethodik für einen kooperativen Rechercheassistenten einschließlich Folgeprojekt. [Mit] Zwischenbericht: Fuzzy-Suchmethodik für einen kooperativen Rechercheassistenten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">N.</namePart>
+                        <namePart type="family">N.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Gegenstand des Projekts waren Konzeption, Implementierung und Einsatz einer treffsicheren thematischen Suche im Angebot von elektronischer wie auch gedruckter Literatur wissenschaftlicher Bibliotheken. Das System realisiert einen ergonomischen WWW-basierten Rechercheassistenten, der auch ungeübte Benutzer in besonders effektiver Weise unterstützt. Innovativ ist die Eröffnung präziser Suchmöglichkeiten durch eine neuartige Fuzzy-Suchmethodik, die wesentlich angemessenere Ausdrucksmöglichkeiten für Interessenbereiche der Nutzer und erheblich höhere Treffsicherheiten bei der Nachweisbestimmung zulässt, als durch boolesche Operatoren, aber auch mit bisherigen Ansätzen zum Fuzzy-Retrieval möglich. Weiterhin beinhaltet das System die strukturierte (d.h. inhaltlich gegliederte) graphische Ergebnispräsentation über WWW.
+Die Ergebnisse des Hauptprojektes wurden umfassend evaluiert: Über einen in einer Eich-Datenbank durchgeführten Retrieval-Vergleichstest und eine Benutzerbefragung. Sie ergaben eine deutliche Verbesserung der Effizienz und Qualität der Suche im Vergleich zu herkömmlichen Suchtechniken.
+Gegenstand des Folgeprojekts waren die Vereinfachung der Bedienung durch eine automatisierte, suchfrageabhängige Einstellung der Suchparameter, die Implementierung zusätzlicher Funktionalitäten betreffend die Erweiterung der Suche (&quot;query expansion&quot;) und die Suche nach ähnlichen Dokumenten, sowie die Optimierung der Algorithmen und der Abarbeitungsprozeduren.
+Das Projekt war dem Förderprogramm der DFG &quot;Modernisierung und Rationalisierung in wissenschaftlichen Bibliotheken&quot; zugeordnet und hatte eine Laufzeit vom 1.4.2000 - 31.3.2002 (Hauptprojekt) bzw. 1.4.2002 - 31.3.2003 (Folgeprojekt).</abstract>
+                    <subject>
+                        <topic>Rechercheassistent</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-48210</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2319705</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2319705">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2319705/2319966/zwischenbericht.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2319705">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2319705/2319965/abschlussbericht.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2319705" DMDID="DMD2319705">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2319705"/>
+            <mets:div TYPE="part" ID="PART1_2319705" LABEL="abschlussbericht.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2319705"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

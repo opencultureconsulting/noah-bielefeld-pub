@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2508614">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Regularization by Intrinsic Plasticity and its Synergies with Recurrence for Random Projection Methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Emmerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Neural networks based on high-dimensional random feature generation have become popular under the notions extreme learning machine (ELM) and reservoir computing (RC). We provide an in-depth analysis of such networks with respect to feature selection, model complexity, and regularization. Starting from an ELM, we show how recurrent connections increase the effective complexity leading to reservoir networks. On the contrary, intrinsic plasticity (IP), a biologically inspired, unsupervised learning rule, acts as a task-specific feature regularizer, which tunes the effective model complexity. Combing both mechanisms in the framework of static reservoir computing, we achieve an excellent balance of feature complexity and regularization, which provides an impressive robustness to other model selection parameters like network size, initialization ranges, or the regularization parameter of the output learning. We demonstrate the advantages on several synthetic data as well as on benchmark tasks from the UCI repository providing practical insights how to use high-dimensional random networks for data processing</abstract>
+                    <subject>
+                        <topic>Extreme Learning Machine</topic>
+                        <topic>Reservoir Computing</topic>
+                        <topic>Model Selection</topic>
+                        <topic>Feature Selection</topic>
+                        <topic>Model Complexity</topic>
+                        <topic>Intrinsic Plasticity</topic>
+                        <topic>Regularization</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of Intelligent Learning Systems and Applications</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>4</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>230</start>
+                                <end>246</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2150-8402</identifier>
+                    <identifier type="eIssn">2150-8410</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25086144</identifier>
+                    <identifier type="doi">10.4236/jilsa.2012.43024</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2508614</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2508614">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2508614/2528264/JILSA20120300009_99784607-1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2508614" DMDID="DMD2508614">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2508614"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

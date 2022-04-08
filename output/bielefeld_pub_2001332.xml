@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2001332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Transforming the Medieval World. Uses of Pragmatic Literacy in the Middle Ages. A CD-ROM and Book</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Franz-Josef</namePart>
+                        <namePart type="family">Arlinghaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marcus</namePart>
+                        <namePart type="family">Ostermann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Oliver</namePart>
+                        <namePart type="family">Plessow</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gudrun</namePart>
+                        <namePart type="family">Tscherpel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">Die CD-ROM &apos;Schrift im Wandel – Wandel durch Schrift&apos; will die Arbeiten des Münsteraner Sonderforschungsbereichs 231 &apos;Träger, Felder und Formen pragmatischer Schriftlichkeit im Mittelalter&apos; an ausgewählten Beispielen multimedial zugänglich machen. Das hierfür entwickelte Konzept nutzt die Möglichkeiten des Mediums für eine innovative Präsentation der Ergebnisse geisteswissenschaftlicher Forschung. Die Verknüpfung von Lesetext, Bild, Sprechtext sowie animierten Bildsequenzen macht es möglich, in ganz anderer Weise als bisher üblich komplexe Forschungsergebnisse in konzentrierter und pointierter Form darzustellen.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">900</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-20013321</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2001332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2001332">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2001332/2537270/Arlinghaus_et_al_Wirtten_Texts.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2001332">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2001332/2537180/Arlinghaus_et_al_Transforming_the_Medieval_World_Reviews.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2001332" DMDID="DMD2001332">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2001332"/>
+            <mets:div TYPE="part" ID="PART1_2001332" LABEL="Arlinghaus_et_al_Transforming_the_Medieval_World_Reviews.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2001332"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

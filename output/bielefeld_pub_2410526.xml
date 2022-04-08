@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2410526">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Lost in folding space? Comparing four variants of the thermodynamic model for RNA secondary structure prediction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Janssen</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0955-0589</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Schudoma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Steger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">BACKGROUND:Many bioinformatics tools for RNA secondary structure analysis are based on a thermodynamic model of RNA folding. They predict a single, &quot;optimal&quot; structure by free energy minimization, they enumerate near-optimal structures, they compute base pair probabilities and dot plots, representative structures of different abstract shapes, or Boltzmann probabilities of structures and shapes. Although all programs refer to the same physical model, they implement it with considerable variation for different tasks, and little is known about the effects of heuristic assumptions and model simplifications used by the programs on the outcome of the analysis.RESULTS:We extract four different models of the thermodynamic folding space which underlie the programs RNAfold, RNAshapes, and RNAsubopt. Their differences lie within the details of the energy model and the granularity of the folding space. We implement probabilistic shape analysis for all models, and introduce the shape probability shift as a robust measure of model similarity. Using four data sets derived from experimentally solved structures, we provide a quantitative evaluation of the model differences.CONCLUSIONS:We find that search space granularity affects the computed shape probabilities less than the over- or underapproximation of free energy by a simplified energy model. Still, the approximations perform similar enough to implementations of the full model to justify their continued use in settings where computational constraints call for simpler algorithms. On the side, we observe that the rarely used level 2 shapes, which predict the complete arrangement of helices, multiloops, internal loops and bulges, include the &quot;true&quot; shape in a rather small number of predicted high probability shapes. This calls for an investigation of new strategies to extract high probability members from the (very large) level 2 shape space of an RNA sequence. We provide implementations of all four models, written in a declarative style that makes them easy to be modified. Based on our study, future work on thermodynamic RNA folding may make a choice of model based on our empirical data. It can take our implementations as a starting point for further program development.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">660.6</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">22051375</identifier>
+                    <identifier type="ISI">000301379800001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-24105268</identifier>
+                    <identifier type="doi">10.1186/1471-2105-12-429</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2410526</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2410526">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2410526/2485463/janssen.1471-2105-12-429.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2410526" DMDID="DMD2410526">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2410526"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

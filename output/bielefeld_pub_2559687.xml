@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2559687">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Frequency Compensation of High-Speed, Low-Voltage CMOS Multistage Amplifiers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Syed Ahmed</namePart>
+                        <namePart type="family">Aamir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Prakash</namePart>
+                        <namePart type="family">Harikumar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jacob J.</namePart>
+                        <namePart type="family">Wikner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper presents the frequency compensation of high-speed, low-voltage multistage amplifiers. Two frequency compensation techniques, the Nested Miller Compensation with Nulling Resistors (NMCNR) and Reversed Nested Indirect Compensation (RNIC), are discussed and employed on two multistage amplifier architectures. A four-stage pseudo-differential amplifier with CMFF and CMFB is designed in a 1.2 V, 65-nm CMOS process. With NMCNR, it achieves a phase margin (PM) of 59° with a DC gain of 75 dB and unity-gain frequency (fug) of 712 MHz. With RNIC, the same four-stage amplifier achieves a phase margin of 84°, DC gain of 76 dB and fug of 2 GHz. Further, a three-stage single-ended amplifier is designed in a 1.1-V, 40-nm CMOS process. The three-stage OTA with RNIC achieves PM of 81°, DC gain of 80 dB and fug of 770 MHz. The same OTA achieves PM of 59° with NMCNR, while maintaining a DC gain of 75 dB and fug of 262 MHz. Pole-splitting, to achieve increased stability, is illustrated for both compensation schemes. Simulations illustrate that the RNIC scheme achieves much higher PM and fug for lower values of compensation capacitance compared to NMCNR, despite the growing number of low voltage amplifier stages.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="isbn">978-1-4673-5760-9</identifier>
+                    <identifier type="isbn">978-1-4673-5762-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25596875</identifier>
+                    <identifier type="doi">10.1109/iscas.2013.6571860</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2559687</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2559687">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2559687/2616169/aamir_etal13_iscas.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2559687" DMDID="DMD2559687">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2559687"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

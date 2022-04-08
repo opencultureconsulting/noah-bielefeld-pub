@@ -1,0 +1,106 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773572">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Contig selection in physical mapping</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Steffen</namePart>
+                        <namePart type="family">Heber</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marcus</namePart>
+                        <namePart type="family">Frohme</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörg</namePart>
+                        <namePart type="family">Hoheisel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Martin</namePart>
+                        <namePart type="family">Vingron</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In physical mapping, one orders a set of genetic landmarks or a library of cloned fragments of DNA according to their position in the genome. Our approach to physical mapping divides the problem into smaller and easier subproblems by partitioning the probe set into independent parts (probe contigs). For this purpose we introduce a new distance function between probes, the averaged rank distance (ARD) derived from bootstrap resampling of the raw data. The ARD measures the pairwise distances of probes within a contig and smoothes the distances of probes across different contigs. It shows distinct jumps at contig borders. This makes it appropriate for contig selection by clustering. We have designed a physical mapping algorithm that makes use of these observations and seems to be particularly well suited to the delineation of reliable contigs. We evaluated our method on data sets from two physical mapping projects. On data from the recently sequenced bacterium Xylella fastidiosa, the probe contig set produced by the new method was evaluated using the probe order derived from the sequence information. Our approach yielded a basically correct contig set. On this data we also compared our method to an approach which uses the number of supporting clones to determine contigs. Our map is much more accurate. In comparison to a physical map of Pasteurella haemolytica that was computed using simulated annealing, the newly computed map is considerably cleaner. The results of our method have already proven helpful for the design of experiments aimed at further improving the quality of a map.</abstract>
+                    <subject>
+                        <topic>Contig selection</topic>
+                        <topic>Bootstrap</topic>
+                        <topic>Clone-probe hybridization mapping</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Journal of Computational Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>7</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3-4</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>395</start>
+                                <end>408</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1066-5277</identifier>
+                    <identifier type="eIssn">1557-8666</identifier>
+                    <identifier type="MEDLINE">11108470</identifier>
+                    <identifier type="ISI">000165512600006</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17735729</identifier>
+                    <identifier type="doi">10.1089/106652700750050853</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773572</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773572">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773572/2311290/HEB_STO_FRO_HOH_VIN_2000.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773572" DMDID="DMD1773572">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773572"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1919921">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Richtungsweisend? Evaluierung &quot;Radverkehrsnetz Nordrhein-Westfalen&quot; Abschlussbericht und Tabellenband</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heike</namePart>
+                        <namePart type="family">Kießlich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim</namePart>
+                        <namePart type="family">Städele</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Niels Christian</namePart>
+                        <namePart type="family">Taubert</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-2357-2648</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-19199215</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1919921</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1919921">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1919921/2325841/Evaluation_RVN_NRW.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1919921">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1919921/2325842/Tabellenband_Evaluation_RVN_NRW.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1919921" DMDID="DMD1919921">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1919921"/>
+            <mets:div TYPE="part" ID="PART1_1919921" LABEL="Tabellenband_Evaluation_RVN_NRW.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1919921"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

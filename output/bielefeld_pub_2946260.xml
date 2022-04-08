@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2946260">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Nanopore sequencing of native adeno-associated virus (AAV) single-stranded DNA using a transposase-based rapid protocol</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Marco</namePart>
+                        <namePart type="family">Radukic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">David</namePart>
+                        <namePart type="family">Brandt</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-8859-8646</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Markus</namePart>
+                        <namePart type="family">Haak</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-0819-1182</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Kristian</namePart>
+                        <namePart type="family">Müller</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7914-0625</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jörn</namePart>
+                        <namePart type="family">Kalinowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Next-generation sequencing of single-stranded DNA (ssDNA) enables transgene characterization of gene therapy vectors such as adeno-associated virus (AAV), but current library generation uses complicated and potentially biased second-strand synthesis. We report that libraries for nanopore sequencing of ssDNA can be conveniently created without second-strand synthesis using a transposase-based protocol. We show for bacteriophage M13 ssDNA that the MuA transposase has unexpected residual activity on ssDNA, explained in part by transposase action on transient double-stranded hairpins. In case of AAV, library creation is additionally aided by genome hybridization. We demonstrate the power of direct sequencing combined with nanopore long reads by characterizing AAV vector transgenes. Sequencing yielded reads up to full genome length, including GC-rich inverted terminal repeats. Unlike short-read techniques, single reads covered genome-genome and genome-contaminant fusions and other recombination events, whilst additionally providing information on epigenetic methylation. Single-nucleotide variants across the transgene cassette were revealed and secondary genome packaging signals were readily identified. Moreover, comparison of sequence abundance with quantitative polymerase chain reaction results demonstrated the technique&apos;s future potential for quantification of DNA impurities in AAV vector stocks. The findings promote direct nanopore sequencing as a fast and versatile platform for ssDNA characterization, such as AAV ssDNA in research and clinical settings.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>NAR Genomics and Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>2</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>4</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="eIssn">2631-9268</identifier>
+                    <identifier type="MEDLINE">33575623</identifier>
+                    <identifier type="ISI">000713118700003</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29462606</identifier>
+                    <identifier type="doi">10.1093/nargab/lqaa074</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2946260</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2946260">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2946260/2946262/lqaa074.mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2946260" DMDID="DMD2946260">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2946260"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,91 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2942199</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:000</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Towards Anthropomorphic Robotic Paper Manipulation</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Christof</namePart>
+  <namePart type="family">Elbrechter</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">181161</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10038</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">The dream of robotics researchers to one day be able to build intelligent multi-purpose household robots that can aid humans in their everyday lives, with the inherent necessity that they are able to interact in general environments, demands that such robots have dramatically improved abilities for real-time perception, dynamic navigation, and closed-loop manipulation. While feed-forward robotic manipulation of rigid objects, ubiquitous in manufacturing plants, is well understood, a particularly interesting challenge for household robots is the ability to manipulate deformable objects such as laundry, packaging, food-items or paper. Given the fact that most objects in our homes are explicitly tuned to be grasped, used and manipulated by human hands, transitioning from traditional robot grippers to anthropomorphic robot hands seems like a necessity. Once we had narrowed our focus to anthropomorphic robot hands, a suitable domain of exploration within the possible set of deformable objects was sought. We chose paper manipulation, which poses many unsolved challenges along the conceptional axes of perception, modeling and robot control. On reflection, it was an excellent choice as it forced us to consider the peculiar nature of this every- day material at a very deep level, taking into consideration properties such as material memory and elasticity. We followed a bottom-up approach, employing an extensible set of primitive and atomic interaction skills (basic action primitives) that could be hierarchically combined to realize ever increasingly sophisticated higher level actions. Along this path, we conceptualized, implemented and thoroughly evaluated three iterations of complex robotic systems for the shifting, picking up and folding of a sheet of paper. Which each iteration it was necessary to significantly increase the abilities of our system. While our developed systems employed an existing bi-manual anthro- pomorphic robot setup and low level robot control interface, all visual-perception and modeling related tools were implemented from the ground up using our own C++ computer-vision library, ICL. Pushing a piece of paper across a table to a friend is an ability we acquire from a very early age. While seemingly trivial, even this task, which was the first we tackled, throws up interesting hurdles in terms of end-state comfort considerations and the need for closed loop controllers to robustly execute the movement. In our next scenario the paper could no longer be treated as a rigid object, in fact its deformable nature was exploited to facilitate a complex picking-up procedure. Fiducial markers were added to the paper to aid visual tracking and two distinct models were employed and evaluated: a mathematical one and a physics-based one. For our final, fully implemented, system, the robot succeeded in folding a sheet of paper in half using a complex sequence of alternating and in parallel hand movements. Achieving this remarkably difficult feat required us to make further significant improvements to our visual detection setup and a mechanism to model folds in the physics engine had to be implemented. Removing the prerequisite that the paper is covered with fiducial markers was an important hurdle that we overcame using a combination of 3D point cloud and 2D SURF feature registration. Finally, our bottom-up approach to robotic pa- per manipulation was conceptually extended by the generation of a set of hierarchically organized basic action primitives. The generalization of our approach was verified by applying it to other kinds of deformable, but non-paper, objects.
+We believe that a thorough understanding of strategies for dexterous robotic manipulation of paper- like objects and their replication in an anthropomorphic bi-manual robot setup provides a significant step towards a synthesis of the manual intelligence that we see at work when handling non-rigid objects with our own, human hands.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="thesis-celbrechter-pub-version.pdf">https://pub.uni-bielefeld.de/download/2942199/2942200/thesis-celbrechter-pub-version.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://creativecommons.org/licenses/by/4.0/</accessCondition>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2020</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29421997</identifier><identifier type="doi">10.4119/unibi/2942199</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2019-12-16</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Elbrechter, C. (2020): Towards Anthropomorphic Robotic Paper Manipulation. Bielefeld: Universität Bielefeld.</wels>
+<harvard1>Elbrechter, C., 2020. &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<bio1>Elbrechter C (2020) &lt;br /&gt;&lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Elbrechter, C. (2020).  &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2942199&lt;/div&gt;</apa_indent>
+<angewandte-chemie>C.  Elbrechter, &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2020&lt;/strong&gt;.</angewandte-chemie>
+<ama>Elbrechter C. &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2020.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Elbrechter, C. (2020). &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2942199.&lt;/div&gt;</dgps>
+<frontiers>Elbrechter, C. (2020). Towards Anthropomorphic Robotic Paper Manipulation. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Elbrechter, C. (2020).  &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld. doi:10.4119/unibi/2942199</apa>
+<ieee> C. Elbrechter, &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2020.</ieee>
+<lncs> Elbrechter, C.: Towards Anthropomorphic Robotic Paper Manipulation. Universität Bielefeld, Bielefeld (2020).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Elbrechter, Christof. 2020. &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Elbrechter, Christof. &lt;em&gt;Towards Anthropomorphic Robotic Paper Manipulation&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2020.</mla>
+<default>Elbrechter C (2020) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2942199</recordIdentifier><recordCreationDate encoding="w3cdtf">2020-03-31T09:10:12Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2020-03-31T13:15:26Z</recordChangeDate>
+</recordInfo>
+</mods>

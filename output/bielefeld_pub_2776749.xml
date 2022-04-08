@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2776749">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Ranking of disease gene associations from large corpora of scientific publications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">ter Horst</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3244-6595</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Philipp</namePart>
+                        <namePart type="family">Cimiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Hartung</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The extraction of disease-gene associations from biomedical publications is a widely inves-
+tigated field of research. In previous work, a frequent method was to implement natural
+language processing tools that use semantic information to find such associations. How-
+ever, most of these approaches are restricted to single documents. Retrieval systems that
+predict novel associations across various documents often lack the ability to deal with the
+huge amount of resulting candidates. In this work, we present a system that aggregates
+information from a large corpora of scientific abstracts. This information is used to build a
+comprehensive gene-interaction network, which is then used to predict novel disease-gene
+associations. We tackle the problem of candidate reduction by integrating two separate
+machine learning methods. We train a support vector machine to classify genes as disease
+related or not and a support vector regression model to rank gene-candidates according to
+their importance to a specific disease. Thereto, we make use of approved methods and ex-
+tend them by a novel investigation of the gene-interaction network. In a model-evaluation
+on two gold standards as well as in a case-study in cooperation with biomedical experts,
+it is shown that the proposed methods are able to extract disease-gene-associations from
+single documents and discover disease-related candidates across multiple documents.</abstract>
+                    <subject>
+                        <topic>machine learning</topic>
+                        <topic>text mining</topic>
+                        <topic>biomedical literature</topic>
+                        <topic>graph-based features</topic>
+                        <topic>disease-gene associations</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27767490</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2776749</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2776749">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2776749/2777265/Master_Thesis_-_Hendrik_ter_Horst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2776749" DMDID="DMD2776749">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2776749"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

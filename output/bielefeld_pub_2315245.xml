@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2315245">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Dynamic optimization and Skiba sets in economic examples</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolf-Jürgen</namePart>
+                        <namePart type="family">Beyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Pampel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Willi</namePart>
+                        <namePart type="family">Semmler</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We discuss two optimization problems from economics. The first is a model of optimal investment and the second is a model of resource management. In both cases the time horizon is infinite and the optimal control variables are continuous. Typically, in these optimal control problems multiple steady states and periodic orbits occur. This leads to multiple solutions of the state-costate system each of which relates to a locally optimal strategy but has its own limiting behavior (stationary or periodic). Initial states that allow different optimal solutions with the same value of the objective function are called Skiba points. The set of Skiba points is of interest, because it provides thresholds for a global change of optimal strategies. We provide a systematic numerical method for calculating locally optimal solutions and Skiba points via boundary value problems. In parametric or higher dimensional systems Skiba curves (or manifolds) appear and we show how to follow them by a continuation process. We apply our method to the models above where Skiba sets consist of points or curves and where optimal solutions have different stationary or periodic asymptotic behavior.</abstract>
+                    <subject>
+                        <topic>Approximation method</topic>
+                        <topic>Optimal control problems</topic>
+                        <topic>Multiple steady states</topic>
+                        <topic>Candidates for optimal solutions</topic>
+                        <topic>Skiba sets</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-854</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2315245</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2315245">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2315245/2315339/469.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2315245" DMDID="DMD2315245">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2315245"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,106 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2683286</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:620</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Bio-inspired control concepts for elastic rotatory joint drives</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Salvatore</namePart>
+  <namePart type="family">Annunziata</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">7209274</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Axel</namePart>
+  
+  
+  <namePart type="family">Schneider</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Recent research in robotics focuses the attention on the control of compliant actuators to improve safety and to make the interaction with humans more natural. Lightweight
+construction, real elasticity directly integrated into the joint and control of joint compliance seem to play the most important role for improving safety in human-machine
+interaction. Humans are intrinsically elastic and the Central Nervous System (CNS) takes advantage of the nonlinear muscle properties to modulate joint stiffness through co-contraction of antagonistic muscles.
+If alterable compliance in robotic systems is desirable, its introduction can be achieved in two fundamentally different ways. The first way is a technical approach based on the idea of impedance control as formulated by Hogan (1985). The second approach is bioinspired and introduces physiological control mechanisms, muscle models and virtual
+antagonistic actuation into the control system of a robotics joint drive. Recently, biological models for the control of muscles in vertebrates have been developed
+(Franklin et al., 2008; Yang et al., 2011). Still, the question remains, how a control algorithm, acting on two or even more muscles, can be implemented in a technical joint.
+With the objective to implement bio-inspired control strategies on a robotic joint drive, in this thesis, musculoskeletal models, biological parameters and bio-inspired control laws are analyzed and tested. A simplified model of the human elbow joint is used to analyze muscle-like actuation and stiffness properties at the joint. Based on recent results related to how the CNS controls antagonistic muscles, a biological control pattern
+based on reciprocal activation and co-activation is tested for the control of torque and stiffness at the joint. However, a closer analysis of the musculoskeletal parameters reveals that, despite antagonistic co-activation, domains in the joint range of motion might occur for which stiffness variation is limited (low stiffness variability) or even impossible (stiffness nodes).
+The first part of this thesis presents novel strategies for simultaneous control of torque and stiffness in a hinge joint actuated by two antagonistic muscle pairs. One strategy handles stiffness nodes by shifting them away from the current joint position and thus regaining stiffness controllability. To prevent domains of low stiffness variation, an optimal biomechanical setup is sought and finally defined which allows for a maximal stiffness
+variation across a wide angular joint range. Based on this optimal setup, four additional control approaches are designed and tested in simulation which deliver stiffnesses
+and torques comparable to those obtained in the optimal case. The control approaches combine biologically justified aspects, like reciprocal activation and co-activation, with
+novel ideas like inverse dynamics model and activation overflow.
+The second part of the thesis focuses on the design, test and validation of a bio-inspired position and stiffness control strategy for a lightweight, intrinsically elastic, robotics joint drive. Reciprocal activation and co-activation are used here as a starting point to
+concurrently control stiffness and position (instead of torque). A stability analysis, performed on the human elbow joint model, confirms that the co-activation level (and, as
+a consequence, the stiffness level) affects the reaction of the joint to external perturbations in terms of oscillations and settling time. To account for the stability aspects and implement further mechanisms found in the CNS of vertebrates, models of the muscle spindles, Golgi tendon organs, alpha-motor neurons and Renshaw cells, are added to the control algorithm. Nevertheless, while in many biological systems, antagonistic muscles generate the movement of the joint, in simple robotic systems, the movement is generated by only one actuator. Therefore, in order to transmit the desired bio-inspired movement to the technical elbow, the sum of all muscle-torques acting on the joint (i.e. the net-torque at the joint), has to be transmitted to the lightweight, inherently elastic, joint drive and controlled. A speed-torque control cascade is designed, implemented and tested on the robotics joint drive. The impedance range of the human elbow joint is evaluated in simulation and compared to the range obtained when the technical joint drive is acting instead of its biological counterpart. The bio-inspired controlled joint drive is able to reach the desired position and modulate joint compliance according to the disturbance like humans do, both in static cases and during movements, while keeping stability.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Thesis_Annunziata_PUB.pdf">https://pub.uni-bielefeld.de/download/2683286/2683302/Thesis_Annunziata_PUB.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2014</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>stiffness control</topic><topic>impedance control</topic><topic>antagonistic joint</topic><topic>bioinspired control</topic><topic>virtual muscle</topic><topic>robotics joint</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-26832861</identifier>
+<part><extent unit="pages">130</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2014-03-28</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Annunziata, S. (2014): Bio-inspired control concepts for elastic rotatory joint drives. Bielefeld: Universität Bielefeld.</wels>
+<bio1>Annunziata S (2014) &lt;br /&gt;&lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Annunziata, S., 2014. &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Annunziata, S. (2014).  &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>S.  Annunziata, &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2014&lt;/strong&gt;.</angewandte-chemie>
+<ama>Annunziata S. &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2014.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Annunziata, S. (2014). &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Annunziata, S. (2014). Bio-inspired control concepts for elastic rotatory joint drives. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Annunziata, S. (2014).  &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> S. Annunziata, &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2014.</ieee>
+<lncs> Annunziata, S.: Bio-inspired control concepts for elastic rotatory joint drives. Universität Bielefeld, Bielefeld (2014).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Annunziata, Salvatore. 2014. &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Annunziata, Salvatore. &lt;em&gt;Bio-inspired control concepts for elastic rotatory joint drives&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2014.</mla>
+<default>Annunziata S (2014) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2683286</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-06-28T12:12:09Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2019-12-18T14:53:10Z</recordChangeDate>
+</recordInfo>
+</mods>

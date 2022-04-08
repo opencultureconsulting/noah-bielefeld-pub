@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2936845">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Beobachtung für (angehende)  Lehrer*innen. Ein Lernvideo zu Grundlagen der Methode</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Julia</namePart>
+                        <namePart type="family">Schweitzer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-8849-8058</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Im Zentrum des Beitrags steht ein Lernvideo, das einen Zugang zum systematischen Beobachten im Rahmen der Lehrer\*innenbildung eröffnet. Nach der Darstellung der Inhalte des Videos, werden die verschiedenen Anwendungskontexte des Lernvideos konkretisiert. So kann es sowohl in der Lehrer\*innenausbildung als auch von Lehrkräften im Rahmen von kollegialen Hospitationen zur Vorbereitung von systematischen Beobachtungen genutzt werden. Zudem wird im Beitrag die Abgrenzung einer Alltagsbeobachtung zu einer wissenschaftlichen Beobachtung erläutert, es werden verschiedene paradigmatische Zugänge zur Methode Beobachtung skizziert sowie zwei Argumentationslinien für den Einsatz von Beobachtungen in der Lehrer\*innenbildung aufgezeigt. Schließlich werden die bisherigen Erfahrungen mit dem Einsatz des Lernvideos in der Lehre zusammengefasst.</abstract>
+                    <subject>
+                        <topic>Beobachtung</topic>
+                        <topic>Forschungsmethode</topic>
+                        <topic>Forschendes Lernen</topic>
+                        <topic>Praxisphasen</topic>
+                        <topic>Lernvideo</topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Die Materialwerkstatt. Zeitschrift für Konzepte und Arbeitsmaterialien für Lehrer*innenbildung und Unterricht (DiMawe)</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>1</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>39</start>
+                                <end>45</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">2629-5598</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29368457</identifier>
+                    <identifier type="doi">10.4119/DIMAWE-1540</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2936845</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2936845">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936845/2953138/1540-Artikeltext-5388-3-10-20190717.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="video/mp4" ID="FILE1_bielefeld_pub_2936845">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2936845/2953241/Lernvideo.mp4" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2936845" DMDID="DMD2936845">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2936845"/>
+            <mets:div TYPE="part" ID="PART1_2936845" LABEL="Lernvideo.mp4">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2936845"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

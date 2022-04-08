@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2652246">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>EyeSee3D: a low-cost approach for analysing mobile 3D eye tracking data using augmented reality technology</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thies</namePart>
+                        <namePart type="family">Pfeiffer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-6619-749X</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Patrick</namePart>
+                        <namePart type="family">Renner</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9640-8291</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">For validly analyzing human visual attention, it is often necessary to proceed from computer-based desktop set-ups to more natural real-world settings. However, the resulting loss of control has to be counterbalanced by increasing 
+participant and/or item count. Together with the effort required to manually annotate the gaze-cursor videos recorded with mobile eye trackers, this renders many studies unfeasible.
+
+We tackle this issue by minimizing the need for manual annotation of mobile gaze data. Our approach combines geo\-metric modelling with inexpensive 3D marker tracking to align virtual proxies with the real-world objects. This allows us to classify fixations on objects of interest automatically while supporting a completely free moving participant.
+
+The paper presents the EyeSee3D method as well as a comparison of an expensive outside-in (external cameras) and a low-cost inside-out (scene camera) tracking of the eyetracker&apos;s position. The EyeSee3D approach is evaluated comparing the results from automatic and manual classification of fixation targets, which raises old problems of annotation validity in a modern context.</abstract>
+                    <subject>
+                        <topic>Gaze-based InteractionEyetrackingAugmented Reality</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="isbn">978-1-4503-2751-0</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-26522467</identifier>
+                    <identifier type="doi">10.1145/2578153.2578183</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2652246</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2652246">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2652246/2653372/etra_full_paper_194_final.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_2652246">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2652246/2666077/EyeSee3D_Poster.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2652246" DMDID="DMD2652246">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2652246"/>
+            <mets:div TYPE="part" ID="PART1_2652246" LABEL="EyeSee3D_Poster.pdf">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2652246"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

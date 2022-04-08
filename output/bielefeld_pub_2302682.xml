@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2302682">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Visual exploration of multivariate data in breast cancer by dimensional reduction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Claudio</namePart>
+                        <namePart type="family">Varini</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2006</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2006-06-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The scope of this PhD thesis is the application and improvement of computational techniques based on dimensional data reduction for the visual exploration of DCE-MRI and DNA microarray data in breast cancer. Algorithms for dimensional data reduction aim to compute low-dimensional projections of high-dimensional data while best preserving the data topology. In this work several algorithms for dimensional data reduction are used to project the experimental multi-dimensional data sets (DCE-MRI and microarray) into a two-dimensional space for the visual exploration of the similarities between single items. Indeed, similar items in the high-dimensional space are expected to be mapped to neighboring points in the projected space. Therefore, from the visualization of the embedding one can infer information concerning the similarity between items in the high-dimensional data.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9139</identifier>
+                    <identifier type="sys">HT014855852</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2302682</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2302682">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2302682/2302685/PHD_VARINI.PDF" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2302682" DMDID="DMD2302682">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2302682"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

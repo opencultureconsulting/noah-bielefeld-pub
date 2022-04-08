@@ -1,0 +1,115 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2471573</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Adaptive traffic sign recognition</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Frank</namePart>
+  <namePart type="family">Lindner</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Frank</namePart>
+  
+  
+  <namePart type="family">Kummert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">18304588</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In this thesis an automated video based speed limit recognition system is introduced together with the framework for adaptation of the system to the special characteristics of the signs in different countries. The system is to be used as a vehicle mounted driver assistance system. 
+
+Autonomous infrastructure detection has to be international in our globalised world. Many publications concerning the detection and recognition of traffic signs have been published. The literature does not address the challenge of extending the systems to be capable of coping with the - sometimes subtle, sometimes distinct - differences met when considering a system to be designed to recognize infrastructure in a variety of countries instead of just one. In this thesis the traffic sign recognition is given as an example application for the internationalization of an autonomous recognition system. The term internationalization is used to express the necessity to adapt the system and especially the classifiers involved to the special characteristics of the traffic signs encountered in different countries. This process of adaptation is supported by the framework developed and implemented in this thesis with the goal of reducing human intervention in this process to a minimum. 
+
+The necessity of internationalization is especially true for traffic signs since their representation in different countries is not similar even if the countries belong to the 52 states that signed the Vienna Convention on road traffic from 1968.  In addition to the internationalization, the necessary and yet in the literature still disregarded extensions to a successful traffic sign recognition will be designed and evaluated. This includes a supplementary sign recognition, a three dimensional position estimation and a scene interpretation. For system training and test a huge number of samples has to be gathered to let the conclusions be significant. To support this task bootstrapping labelling and classifier construction tools have been developed and evaluated.
+
+The following is the main contribution of this work to the topic of traffic sign recognition:
+
+   A framework for adapting classifiers on international traffic signs with a minimum 
+	of required human interaction.
+  The detection and recognition of supplementary signs using a priori knowledge 
+	and the classifier internationalization framework.
+    A three dimensional scene analysis to enhance the robustness of the system.
+  A flexible modular framework that allows traffic sign recognition to be run on 
+	general purpose hardware and embedded control units in real time without 
+	source code changes.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="DissertationFrankLindner20120206.pdf">https://pub.uni-bielefeld.de/download/2471573/2471574/DissertationFrankLindner20120206.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2012</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Autonomous systems</topic><topic>driver assistance systems</topic><topic>polynomial classifier</topic><topic>histogram of oriented gradients</topic><topic>hough detector</topic><topic>traffic sign</topic><topic>supplementary signs</topic><topic>classification</topic><topic>chamfer matching</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-24715738</identifier>
+<part><extent unit="pages">200</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2012-02-06</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Lindner F. &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2012.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lindner, F. (2012). &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Lindner, F. (2012). Adaptive traffic sign recognition. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Lindner, F. (2012).  &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> F. Lindner, &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2012.</ieee>
+<wels>Lindner, F. (2012): Adaptive traffic sign recognition. Bielefeld: Universität Bielefeld.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lindner, F. (2012).  &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Lindner F (2012) &lt;br /&gt;&lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Lindner, F., 2012. &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<angewandte-chemie>F.  Lindner, &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2012&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Lindner, F.: Adaptive traffic sign recognition. Universität Bielefeld, Bielefeld (2012).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Lindner, Frank. 2012. &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Lindner, Frank. &lt;em&gt;Adaptive traffic sign recognition&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2012.</mla>
+<default>Lindner F (2012) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2471573</recordIdentifier><recordCreationDate encoding="w3cdtf">2012-02-17T19:45:55Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:57Z</recordChangeDate>
+</recordInfo>
+</mods>

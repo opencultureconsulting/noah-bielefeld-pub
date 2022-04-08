@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919356">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>On Distance and Sorting of the Double Cut-and-Join and the Inversion-*indel* Model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Eyla</namePart>
+                        <namePart type="family">Willing</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2017-04-24</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="ger">In der vergleichenden Genomik werden zwei oder mehrere Genome hinsichtlich ihres Verwandtschaftsgrades verglichen. Das Ziel dieser Arbeit ist die Erforschung von mathematischen Modellen, die zum einen die evolutionäre *Distanz*, zum anderen die evolutionären Vorgänge zwischen zwei Genomen bestimmen können.&lt;br /&gt;
+Neben Methoden, welche auf einer niedrigen Ebene, z. B. den Basen(paarungen), ansetzen, sind auch abstraktere Modelle, die auf einzelnen Genen oder noch größeren Abschnitten Genome vergleichen, etabliert. Handelt es sich auf niedrigerer Ebene um einzelne Basen, die eingefügt, gelöscht oder ersetzt werden, sind es auf höherer Ebene beispielsweise ganze Gene. Auf höherer Ebene können Ergebnisse sogenannter Umordnungsprozesse (*genome rearrangements*) beobachtet werden, welche in einem *Sortierszenario* beschrieben werden. Im Vergleich eines Genoms mit einem anderen können dies unter anderem Inversionen, Translokationen, aber auch Einfügungen oder Löschungen von großen Bereichen sein. Ein bekanntes Modell ist das *Inversionsmodell*, welches den Verwandtschaftsgrad zweier Genome ausschließlich durch Inversionen bestimmt. Ein weiteres ist das *double cut-and-join (DCJ)* Modell, welches neben Inversionen auch Translokationen, Chromosomenfusionen, bzw. -fissionen, sowie Integration und Extraktion von kleinen zirkulären Trägern erlaubt. Die Distanz ist hierbei die Anzahl Zwischenschritte eines Sortierszenarios von geringster Länge.&lt;br /&gt;
+Diese Dissertation ist in zwei Teile gegliedert. Der erste Teil beschäftigt sich mit dem zufälligen Ziehen eines Sortierszenarios innerhalb des DCJ-Modells. Neben einigen naiven Ansätzen interessieren wir uns im Wesentlichen dafür, jedes Szenario mit gleicher Wahrscheinlichkeit, also uniform verteilt, zu ziehen. Hierfür wird nicht nur der gesamte Sortierraum betrachtet, sondern auch Maßnahmen zur effizienten Berechnung aufgezeigt. Der vorgestellte Algorithmus ist in einer Software-suite implementiert und wird hinsichtlich seiner Erzeugung von zufälligen Szenarien evaluiert.
+Der zweite Teil der Arbeit beschäftigt sich mit dem Inversions-*indel* Modell. Dieses wenig erforschte Modell erlaubt Inversionen, sowie Einfügungen und Löschungen (kurz *indels*). Dessen Distanz soll in Abhängigkeit von der DCJ- bzw. der DCJ-*indel*-Distanz wiedergegeben werden. Wir erweitern altbekannte Datenstrukturen des Inversionsmodells um Einfügungen und Löschungen repräsentieren zu können. Hierfür benutzen wir unter anderem Ansätze aus zwei anderen Modellen: Die Erweiterung des DCJ-Modells um indels, sowie die Ermittlung der Abhängigkeit von DCJ- und Inversionsmodell.&lt;br /&gt;
+Um die minimale Anzahl an Inversionen, Einfügungen und Löschungen zu ermitteln muss beachtet werden, dass durch Inversionen zwei oder mehr getrennte Bereiche, die zur Löschung vorgesehen sind, verschmolzen werden. Diese können sodann in einem einzigen Schritt gelöscht werden. Ähnlich verhält es sich mit Einfügungen. Zunächst betrachten wir Instanzen in denen die DCJ-indel-Distanz und die Inversions-indel-Distanz identisch sind. Im Weiteren gehen wir dazu über, schwierige Instanzen, d.h. jene die mehr Schritte benötigen als die DCJ(-indel)-Distanz, zu berechnen. Zu diesen Zweck müssen die unterschiedlichen Eigenschaften der Instanzen und deren Auswirkungen ausgemacht werden. Durch geschickte Reduzierung des Lösungsraums gelangen wir zu einer Menge von Basisfällen, welche wir durch erschöpfende Aufzählung lösen können. Insgesamt bieten die unternommenen Schritte nicht nur die Lösung der Inversions-indel Distanz in Abhängigkeit zur DCJ-indel Distanz, sondern auch eine Möglichkeit des Sortierens. &lt;br /&gt;&lt;br /&gt; Die Suche nach einer exakten Lösung für das Distanz- und das  Sortierproblem im Inversions-indel Modell blieb lange unbeantwortet. Der Hauptbeitrag dieser Arbeit liegt darin diese zwei Fragen zu klären.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29193563</identifier>
+                    <identifier type="sys">HT019700653</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919356</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919356">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919356/2919357/Dissertation_Willing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919356" DMDID="DMD2919356">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919356"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,125 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2930611</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>ddc:004</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Felix</namePart>
+  <namePart type="family">Hülsmann</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">41032095</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-8263-3765</description></name>
+<name type="personal">
+  <namePart type="given">Jan Philip</namePart>
+  <namePart type="family">Göpfert</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">27345942</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1982-9399</description></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+<name type="personal">
+  <namePart type="given">Stefan</namePart>
+  <namePart type="family">Kopp</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">14743</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-4047-9277</description></name>
+<name type="personal">
+  <namePart type="given">Mario</namePart>
+  <namePart type="family">Botsch</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">8250658</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0001-9954-120X</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">3746190</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">24110177</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+<name type="corporate">
+  <namePart>Intelligent Coaching Space (ICSPACE, LSP-03)</namePart>
+  <role><roleTerm type="text">project</roleTerm></role>
+</name>
+
+
+
+<abstract lang="eng">This data publication contains the training data for the following work:
+For successful fitness coaching in virtual reality, movements of a trainee must be analyzed in order to provide feedback. To date, most coaching systems only provide coarse information on movement quality. We propose a novel pipeline to detect a trainee's errors during exercise that is designed to automatically generate feedback for the trainee. Our pipeline consists of an online temporal warp of a trainee's motion, followed by Random-Forest-based feature selection. The selected features are used for the classification performed by Support Vector Machines. Our feedback to the trainee can consist of predefined verbal information as well as automatically generated visual augmentations. For the latter, we exploit information on feature importance to generate real-time feedback in terms of augmented color highlights on the trainee's avatar.
+We show our pipeline's superiority over two popular approaches from human activity recognition applied to our problem, k-Nearest Neighbor, combined with Dynamic Time Warping (KNN-DTW), as well as a recent combination of Convolutional Neural Networks with a Long Short-term Memory Network. We compare classification quality, time needed for classification, as well as the classifiers' ability to automatically generate augmented feedback. In an exemplary application, we demonstrate that our pipeline is suitable to deliver verbal as well as automatically generated augmented feedback inside a CAVE-based sports training environment in virtual reality.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="export_training_data.zip">https://pub.uni-bielefeld.de/download/2930611/2930663/export_training_data.zip</url>
+  </location>
+  <physicalDescription><internetMediaType>application/zip</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem><accessCondition type="use and reproduction">https://opendatacommons.org/licenses/by/summary/index.html</accessCondition>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+
+<subject><topic>sports coaching in virtual reality</topic><topic>motor learning environments</topic><topic>motor performance quality</topic><topic>human motion analysis</topic><topic>auto-generated augmented feedback</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2930611</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Hülsmann F, Göpfert JP, Hammer B, Kopp S, Botsch M (2018) &lt;br /&gt;Bielefeld University.</default>
+<mla>Hülsmann, Felix, Göpfert, Jan Philip, Hammer, Barbara, Kopp, Stefan, and Botsch, Mario. &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University, 2018.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hülsmann, Felix, Göpfert, Jan Philip, Hammer, Barbara, Kopp, Stefan, and Botsch, Mario. 2018. &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+<lncs> Hülsmann, F., Göpfert, J.P., Hammer, B., Kopp, S., Botsch, M.: Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data). Bielefeld University (2018).</lncs>
+<ieee> F. Hülsmann, et al., &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;, Bielefeld University, 2018.</ieee>
+<apa>Hülsmann, F., Göpfert, J. P., Hammer, B., Kopp, S., &amp;amp; Botsch, M. (2018).  &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930611</apa>
+<frontiers>Hülsmann, F., Göpfert, J. P., Hammer, B., Kopp, S., and Botsch, M. (2018). Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data). Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hülsmann, F., Göpfert, J.P., Hammer, B., Kopp, S. &amp;amp; Botsch, M. (2018). &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930611.&lt;/div&gt;</dgps>
+<ama>Hülsmann F, Göpfert JP, Hammer B, Kopp S, Botsch M. &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University; 2018.</ama>
+<angewandte-chemie>F.  Hülsmann, J. P.  Göpfert, B.  Hammer, S.  Kopp, and M.  Botsch, &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Hülsmann, F., et al., 2018. &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Hülsmann F, Göpfert JP, Hammer B, Kopp S, Botsch M (2018) &lt;br /&gt;&lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Hülsmann, F., Göpfert, J. P., Hammer, B., Kopp, S., &amp;amp; Botsch, M. (2018).  &lt;em&gt;Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data)&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2930611&lt;/div&gt;</apa_indent>
+<wels>Hülsmann, F.; Göpfert, J. P.; Hammer, B.; Kopp, S.; Botsch, M. (2018): Classification of motor errors to provide real-time feedback for sports coaching in virtual reality - A case study in squats and Tai Chi pushes (Data). Bielefeld University.</wels>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2930611</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-08-24T12:15:59Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-11-10T12:58:13Z</recordChangeDate>
+</recordInfo>
+</mods>

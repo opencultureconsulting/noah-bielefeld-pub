@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2306045">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Bioinformatik-Strategien zur Analyse regulatorischer RNA-Motive und ihre experimentelle Validierung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Töller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-10-14</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="ger">Regulatorische Motive in untranslatierten Regionen spielen eine entscheidende Rolle bei der posttranskriptionellen Genregulation von mRNAs. In der vorliegenden Arbeit wurden bioinformatische Strategien zur Vorhersage und Validierung potentiell regulatorischer RNA-Motive entwickelt. Die Berechnung globaler und lokaler Strukturalignments mit dem Programm RNAforester wurde zur Entwicklung einer sehr flexiblen Strategie zur Vorhersage regulatorischer RNA-Motive eingesetzt.
+Die vorhergesagten Motive wurden mittels Datenbanksuchen validiert. Dazu wurden ausgehend von den Vorhersagen Muster definiert, die allgemein genug sein sollten, um ausreichend viele Vorkommen des Musters zu finden, die aber auch spezifisch genug sein sollten, um nur wenige falsch positive Treffer zu liefern. Um solche Muster zu definieren, wurden Signifikanzberechnungen eingesetzt und die Datenbanksuchen wurden mit den Programmen RNAMotif und HyPa durchgeführt, wobei diese Programme auch vergleichend analysiert wurden.
+Durch die Anwendung der entwickelten Strategien konnte ein potentiell regulatorischer Stemloop in der Rab1A 3&apos;UTR von Mensch und Zitterrochen vorhergesagt werden. Die Datenbanksuche hat ergeben, dass dieser Stemloop in den Rab1A 3&apos;UTRs verschiedener Vertebraten und der Sirtuin 2[alpha] 3&apos;UTR von Mensch und Maus vorkommt.
+Experimentelle Analysen im Rahmen der vorliegenden Arbeit konnten Hinweise auf eine biologische Funktion des vorhergesagten Stemloops in der Rab1A 3&apos;UTR liefern. Die Ergebnisse von Gelverzögerungs- und Proteinisolierungsexperimenten legten die Interaktion eines Proteinkomplexes mit dem RNA-Stemloop nahe. MALDI-TOF Analysen mehrerer Proteinbanden ergaben, dass unter anderem ein potentielles RNA-Bindeprotein und der &quot;Rab GDP-dissociation-inhibitor&quot; in dem Proteinkomplex enthalten sein könnten.</abstract>
+                    <subject>
+                        <topic>Messenger-RNS</topic>
+                        <topic>Posttranskriptionelle Regulation</topic>
+                        <topic>Molekulare Bioinformatik</topic>
+                        <topic>Bioinformatik</topic>
+                        <topic>RNA</topic>
+                        <topic>Motivsuche</topic>
+                        <topic>Strukturalignment</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3767</identifier>
+                    <identifier type="sys">HT014305948</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2306045</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2306045">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2306045/2306048/Dissertation_Toeller2003.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2306045" DMDID="DMD2306045">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2306045"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1773595">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Effective ambiguity checking in biosequence analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Janina</namePart>
+                        <namePart type="family">Reeder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Peter</namePart>
+                        <namePart type="family">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Robert</namePart>
+                        <namePart type="family">Giegerich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background: Ambiguity is a problem in biosequence analysis that arises in various analysis tasks solved via dynamic programming, and in particular, in the modeling of families of RNA secondary structures with stochastic context free grammars. Several types of analysis are invalidated by the presence of ambiguity. As this problem inherits undecidability (as we show here) from the namely problem for context free languages, there is no complete algorithmic solution to the problem of ambiguity checking. Results: We explain frequently observed sources of ambiguity, and show how to avoid them. We suggest four testing procedures that may help to detect ambiguity when present, including a just-in-time test that permits to work safely with a potentially ambiguous grammar. We introduce, for the special case of stochastic context free grammars and RNA structure modeling, an automated partial procedure for proving non-ambiguity. It is used to demonstrate non-ambiguity for several relevant grammars. Conclusion: Our mechanical proof procedure and our testing methods provide a powerful arsenal of methods to ensure non-ambiguity.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>BMC Bioinformatics</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>6</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1471-2105</identifier>
+                    <identifier type="MEDLINE">15967024</identifier>
+                    <identifier type="ISI">000232108700001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17735951</identifier>
+                    <identifier type="doi">10.1186/1471-2105-6-153</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1773595</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1773595">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1773595/2311295/1471_2105_6_153.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1773595" DMDID="DMD1773595">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1773595"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

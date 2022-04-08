@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2934979">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Evolvability-guided Optimization of Linear Deformation Setups for Evolutionary Design Optimization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Andreas</namePart>
+                        <namePart type="family">Richter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-12-04</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">&lt;h4&gt;Andreas Richter gratefully acknowledges the financial support from Honda Research Institute Europe (HRI-EU).&lt;/h4&gt;</abstract>
+                    <abstract lang="eng">This thesis targets efficient solutions for optimal representation setups for evolutionary design optimization problems. The representation maps the abstract parameters of an optimizer to a meaningful variation of the design model, e.g., the shape of a car. Thereby, it determines the convergence speed to and the quality of the final result. Thus, engineers are eager to employ well-tuned representations to achieve high-quality design solutions. But, setting up optimal representations is a cumbersome process because the setup procedure requires detailed knowledge about the objective functions, e.g., a fluid dynamics simulation, and the parameters of the employed representation itself. Thus, we target efficient routines to set up representations automatically to support engineers from their tedious, partly manual work. &lt;br /&gt;&lt;br /&gt;
+
+Inspired by the concept of evolvability, we present novel quality criteria for the evaluation of linear deformations commonly applied as representations. We define and analyze the criteria variability, regularity, and improvement potential which measure the expected quality and convergence speed of an evolutionary design optimization process based on the linear deformation setup. Moreover, we target the efficient optimization of deformation setups with respect to these three criteria. In dynamic design optimization scenarios a suitable compromise between exploration and exploitation is crucial for efficient solutions. We discuss the construction of optimal compromises for these dynamic scenarios with our criteria because they characterize exploration and exploitation.
+As a result an engineer can initialize and adjust the deformation setup for improved convergence speed of a design process and for enhanced quality of the design solutions with our methods.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29349792</identifier>
+                    <identifier type="sys">HT020203817</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2934979</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2934979">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2934979/2934980/thesis_e.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2934979" DMDID="DMD2934979">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2934979"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

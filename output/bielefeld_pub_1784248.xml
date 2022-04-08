@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1784248">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Numerical analysis of homoclinic orbits emanating from a Takens-Bogdanov point</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Wolf-Jürgen</namePart>
+                        <namePart type="family">Beyn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1994</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">It is known that branches of homoclinic orbits emanate from a singular point of a dynamical system with a double zero eigenvalue (Takens-Bogdanov point). We develop a robust numerical method for starting the computation of homoclinic branches near such a point. It is shown that this starting procedure relates to branch switching. In particular, for a certain transformed problem the homoclinic predictor is guaranteed to converge to the true orbit under a Newton iteration.</abstract>
+                    <subject>
+                        <topic>homoclinic orbits</topic>
+                        <topic>Takens-Bogdanov points</topic>
+                        <topic>singular stationary points</topic>
+                        <topic>dynamical systems</topic>
+                        <topic>center manifold reduction</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>IMA Journal of Numerical Analysis</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>14</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>381</start>
+                                <end>410</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0272-4979</identifier>
+                    <identifier type="eIssn">1464-3642</identifier>
+                    <identifier type="ISI">A1994NV94300004</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-17842489</identifier>
+                    <identifier type="doi">10.1093/imanum/14.3.381</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1784248</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1784248">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1784248/2314356/beyn_01.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1784248" DMDID="DMD1784248">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1784248"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

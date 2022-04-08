@@ -1,0 +1,298 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2918928</id><setSpec>research_data</setSpec><setSpec>doc-type:ResearchData</setSpec><setSpec>research_dataFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>database</genre>
+
+<titleInfo><title>Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Müller</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">76159895</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-0909-3608</description></name>
+<name type="personal">
+  <namePart type="given">Markus</namePart>
+  <namePart type="family">Nebel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">71594916</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">48167073</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">76156357</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Data sets and results of the comparative analyses of [GeFaST](https://github.com/romueller/gefast) performed in "[GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2349-1)" (. The scripts for the analyses are available [here](https://github.com/romueller/gefast-paper-analysis).&lt;br /&gt;&lt;br /&gt;
+
+**dereplicated.tar.bz2**: Data sets used in the analyses of performance (_ELDERMET_ [1]) and clustering quality (_even_ &amp; _uneven_ [2], _ELDERMET_). The original data sets (see below) have been dereplicated and sequences containing ambiguous bases (IUPAC code _n_ resp. _N_) have been deleted.&lt;br /&gt;
+
+ * _even_: [http://sbr2.sb-roscoff.fr/download/externe/de/fmahe/even.fasta.bz2](http://sbr2.sb-roscoff.fr/download/externe/de/fmahe/even.fasta.bz2)
+ * _uneven_: [http://sbr2.sb-roscoff.fr/download/externe/de/fmahe/uneven.fasta.bz2](http://sbr2.sb-roscoff.fr/download/externe/de/fmahe/uneven.fasta.bz2)
+ * _ELDERMET_: [http://www.ebi.ac.uk/ena/data/view/SRP003158](http://www.ebi.ac.uk/ena/data/view/SRP003158)
+ 
+The analysis of the clustering quality also requires the [reference data set](https://raw.githubusercontent.com/torognes/vsearch-eval/master/cluster/data/rrna_reference.fasta).&lt;br /&gt;&lt;br /&gt;
+
+**eldermet\_subsamples\_X.tar.bz2**: Each archive contains three random subsamples of _ELDERMET_ of size X, with X being the percentage of sequences from _eldermet\_derep.fasta_ (in _dereplicated.tar.bz2_) in the subsample.&lt;br /&gt;&lt;br /&gt;
+
+**uneven\_subsamples\_80.tar.bz2**: Archive containing five random subsamples of _uneven_, each containing 80 % of the sequences from _uneven\_derep.fasta_ (in _dereplicated.tar.bz2_).&lt;br /&gt;&lt;br /&gt;
+
+**even\_subsamples\_80.tar.bz2**: Archive containing five random subsamples of _even_, each containing 80 % of the sequences from _even\_derep.fasta_ (in _dereplicated.tar.bz2_).&lt;br /&gt;&lt;br /&gt;
+
+**eldermet\_reduced\_subsamples\_80.tar.bz2**: Archive containing the reduced _ELDERMET_ data set and five random subsamples of it, each containing 80 % of the sequences from _eldermet\_derep.reduced.fasta_, plus the corresponding taxonomic assignments. &lt;br /&gt;&lt;br /&gt;
+
+**results.tar.bz2**: Results files containing the measurements of performance resp. clustering quality.&lt;br /&gt;
+
+ * _eldermet-performance-measurements.csv_: runtime and memory consumption for different thresholds
+ * _eldermet-subsampling-measurements.csv_: runtime and memory consumption for different data set sizes
+ * _eldermet-sub-fixed-red-log.csv_: runtime and memory consumption for different thresholds (on subsamples of reduced data set)
+ * _eldermet-sub-fixed-red-metrics.csv_: clustering quality for different thresholds (on subsamples of reduced data set)
+ * _even\_0.95-metrics.csv_: clustering quality for different thresholds, 95 % ground truth
+ * _even\_0.97-metrics.csv_: clustering quality for different thresholds, 97 % ground truth
+ * _even\_0.99-metrics.csv_: clustering quality for different thresholds, 99 % ground truth
+ * _uneven\_0.95-metrics.csv_: clustering quality for different thresholds, 95 % ground truth
+ * _uneven\_0.97-metrics.csv_: clustering quality for different thresholds, 97 % ground truth
+ * _uneven\_0.99-metrics.csv_: clustering quality for different thresholds, 99 % ground truth
+ * _uneven-sub-fixed-metrics.csv_: clustering quality for different thresholds (on subsamples)
+ * _even-sub-fixed-metrics.csv_: clustering quality for different thresholds (on subsamples) &lt;br /&gt;&lt;br /&gt;
+
+
+References:
+
+[1] Claesson M.J., Cusack S., O'Sullivan O., Greene-Diniz R., de Weerd H., Flannery E., Marchesi J.R., Falush D., Dinan T., Fitzgerald G., Stanton C., van Sinderen D., O'Connor M., Harnedy N., O'Connor K., Henry C., O'Mahony D., Fitzgerald A.P., Shanahan F., Twomey C., Hill C., Ross R.P., O'Toole P.W.: Composition, variability, and temporal stability of the intestinal microbiota of the elderly.
+Proceedings of the National Academy of Sciences 108 (Supplement 1), 4586-4591 (2011). doi: [10.1073/pnas.1000097107](https://doi.org/10.1073/pnas.1000097107)
+
+[2] Mahé F., Rognes T., Quince C., de Vargas C., Dunthorn M.: Swarm: robust and fast clustering method for amplicon-based studies. PeerJ 2, 593 (2014). doi: [10.7717/peerj.593](https://doi.org/10.7717/peerj.593)</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="dereplicated.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918937/dereplicated.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_5.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918930/eldermet_subsamples_5.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_10.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918931/eldermet_subsamples_10.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_15.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918932/eldermet_subsamples_15.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_20.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918933/eldermet_subsamples_20.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_25.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918934/eldermet_subsamples_25.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_30.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918935/eldermet_subsamples_30.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_35.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918936/eldermet_subsamples_35.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_40.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918938/eldermet_subsamples_40.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_45.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918939/eldermet_subsamples_45.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_50.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918940/eldermet_subsamples_50.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_55.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918941/eldermet_subsamples_55.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_60.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918942/eldermet_subsamples_60.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_65.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918943/eldermet_subsamples_65.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_70.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918944/eldermet_subsamples_70.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_75.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918945/eldermet_subsamples_75.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_80.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918946/eldermet_subsamples_80.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_85.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918947/eldermet_subsamples_85.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_90.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918948/eldermet_subsamples_90.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_95.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918949/eldermet_subsamples_95.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_subsamples_100.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918951/eldermet_subsamples_100.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="uneven_subsamples_80.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918952/uneven_subsamples_80.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="even_subsamples_80.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918953/even_subsamples_80.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="eldermet_reduced_subsamples_80.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918954/eldermet_reduced_subsamples_80.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="results.tar.bz2">https://pub.uni-bielefeld.de/download/2918928/2918955/results.tar.bz2</url>
+  </location>
+  <physicalDescription><internetMediaType>application/octet-stream</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2018</dateIssued>
+</originInfo>
+
+
+
+<relatedItem type="host"><identifier type="doi">10.4119/unibi/2918928</identifier>
+<part>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2931048</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<harvard1>Müller, R., &amp;amp; Nebel, M., 2018. &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;, Bielefeld University.</harvard1>
+<bio1>Müller R, Nebel M (2018) &lt;br /&gt;&lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;.&lt;br /&gt;Bielefeld University.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, R., &amp;amp; Nebel, M. (2018).  &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2918928" target="_blank"&gt;https://doi.org/10.4119/unibi/2918928&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<angewandte-chemie>R.  Müller, and M.  Nebel, &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;, Bielefeld University, &lt;strong&gt;2018&lt;/strong&gt;.</angewandte-chemie>
+<wels>Müller, R.; Nebel, M. (2018): Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach". Bielefeld University.</wels>
+<apa>Müller, R., &amp;amp; Nebel, M. (2018).  &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University. &lt;a href="https://doi.org/10.4119/unibi/2918928" target="_blank"&gt;https://doi.org/10.4119/unibi/2918928&lt;/a&gt;</apa>
+<ieee> R. Müller and M. Nebel, &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;, Bielefeld University, 2018.</ieee>
+<ama>Müller R, Nebel M. &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University; 2018.</ama>
+<frontiers>Müller, R., and Nebel, M. (2018). Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach". Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, R. &amp;amp; Nebel, M. (2018). &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University. doi:10.4119/unibi/2918928.&lt;/div&gt;</dgps>
+<mla>Müller, Robert, and Nebel, Markus. &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University, 2018.</mla>
+<default>Müller R, Nebel M (2018) &lt;br /&gt;Bielefeld University.</default>
+<lncs> Müller, R., Nebel, M.: Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach". Bielefeld University (2018).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Müller, Robert, and Nebel, Markus. 2018. &lt;em&gt;Evaluation data for "GeFaST: An improved method for OTU assignment by generalising Swarm's fastidious clustering approach"&lt;/em&gt;. Bielefeld University.&lt;/div&gt;</chicago>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2918928</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-03-30T22:55:57Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2021-03-22T10:22:56Z</recordChangeDate>
+</recordInfo>
+</mods>

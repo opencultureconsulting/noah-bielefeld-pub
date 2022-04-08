@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2303395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Statistical analysis of amino acid side chain flexibility for 1:n protein-protein docking</title>
+                    </titleInfo>
+                    <titleInfo type="alternative">
+                        <title>Statistische Untersuchungen der Aminosäureseitenkettenflexibilität von Proteinen für das 1:n Protein-Protein-Docking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Kerstin</namePart>
+                        <namePart type="family">Koch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gerhard</namePart>
+                        <namePart type="family">Sagerer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2003</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2003-07-17</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In protein-protein docking, the question whether and in which orientation two proteins may bind is addressed. Because proteins undergo conformational changes upon complex formation, flexibility has to be integrated in docking algorithms for a good prediction of the complex from unbound structures. The flexibility measurement calculated in this thesis is used for a dynamisation of steric clash penalties in the scoring function of docking algorithms. If flexible side chains show steric clashes, the probability for a conformational change is high so that the penalty can be reduced, whereas it remains high for inflexible residues. Two methods for gaining flexibility information are shown. The probabilities for different side chain conformations are calculated into rotamer libraries. Clashing side chains can be moved away and placed in the most favourable conformation without clashes. In the second approach knowledge about side chain flexibility is gained by comparing the structures of sequence identical bound and unbound proteins. Probabilities of rotamer changes are calculated as measure for flexibility. The calculations are done for the different amino acids in different types of environments like Secondary Structures, solvent accessible surface area and active site because these environments influence the amino acid side chain flexibility.</abstract>
+                    <subject>
+                        <topic>Flexibility</topic>
+                        <topic>Rotamer library</topic>
+                        <topic>Konformation</topic>
+                        <topic>Seitenkette</topic>
+                        <topic>Aminosäuren</topic>
+                        <topic>Docking protein</topic>
+                        <topic>Protein-protein docking</topic>
+                        <topic>Rotamerbibliothek</topic>
+                        <topic>Amino acid side chains</topic>
+                        <topic>Flexibilität</topic>
+                        <topic>Protein-Protein-Docking</topic>
+                        <topic>Aminosäureseitenketten</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-3448</identifier>
+                    <identifier type="sys">HT014309575</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2303395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2303395">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2303395/2303398/DissV21.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2303395" DMDID="DMD2303395">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2303395"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

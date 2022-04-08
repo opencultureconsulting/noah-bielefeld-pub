@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2943344">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Stable Balanced Expansion in Homogeneous Dynamic Models</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Volker</namePart>
+                        <namePart type="family">Böhm</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper establishes conditions for the asymptotic stability of balanced growth
+paths in dynamic economic models as typical cases of homogeneous dynamical systems.
+Results for common two-dimensional deterministic and stochastic models are
+presented and further applications are discussed.
+According to Solow &amp; Samuelson (1953) balanced growth paths for deterministic
+economies are induced by so-called Perron-Frobenius solutions defined by an eigenvalue
+λ &gt; 0 (the growth factor) and by an eigenvector $\bar{x}$ , a fixed point of the system
+in intensive form. Contraction Lemma A.1 states for continuous deterministic systems
+that convergence to a balanced path occurs whenever the product λ · M($\bar{x}$)
+of the eigenvalue λ multiplied with the contractivity 0 &lt; M($\bar{x}$) &lt; 1 of the stable
+eigenvector $\bar{x}$  of the intensive form is less than one. For λ·M($\bar{x}$) &gt; 1 all unbalanced
+orbits in the neighborhood of the balanced path diverge in spite of convergence
+in intensive form. This confirms that convergence to a stable eigenvector of the
+intensive form is only a necessary condition for convergence in state space.
+In the stochastic case, the condition for asymptotic stability of balanced growth
+paths (Theorem B.2) uses results from a stochastic analogue of the Perron-Frobenius
+Theorem on eigenvalues and eigenvectors. Convergence (divergence) occurs if the
+expectation of the product λ(ω) · M(ω) is less than (greater than) one, i.e. if the
+product is mean contractive. This is equivalent to the condition that the sum of
+the expectations of the logarithmic values of the stochastic growth rate and of the
+contractivity factor of the intensive form are less than (greater than) zero.</abstract>
+                    <subject>
+                        <topic>balanced growth</topic>
+                        <topic>stability</topic>
+                        <topic>stochastic balanced growth</topic>
+                        <topic>random fixed points</topic>
+                        <topic>Perron-Frobenius solution</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>617</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>39</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29433443</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2943344</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2943344">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2943344/2943376/IMW_working_paper_617a.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2943344" DMDID="DMD2943344">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2943344"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

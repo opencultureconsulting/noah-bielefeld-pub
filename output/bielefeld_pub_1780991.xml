@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1780991">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Organisation, Benutzer und Software - Zur Konstituierung von Softwaresystemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thorsten</namePart>
+                        <namePart type="family">Spitta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hans-Jörg</namePart>
+                        <namePart type="family">Kreowski</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1992</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract lang="eng">This paper deals with the first and most important decision in the development process of software: the constitution of the system itself. This step is heavily neglected in the software engineering literature. A system is constructed by using methods of data engineering (data models, construction of terms). These methods allow to find the objects, which are the buildings stones of object orientated software, in a very early phase. Those objects can later be specified and implemented without break in the development structure. Such a break is inherent in all (very popular) flow oriented methods like SA, SADT and others. These methods are not useful to gain object oriented software structures. Therefore they have to be eliminated from teaching, tools and practice.</abstract>
+                    <subject>
+                        <topic>Software Engineering</topic>
+                        <topic>Datenmanagement</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="isbn">3-540-55389-4</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-23211</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1780991</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1780991">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1780991/2313129/Spitta_019.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1780991" DMDID="DMD1780991">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1780991"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

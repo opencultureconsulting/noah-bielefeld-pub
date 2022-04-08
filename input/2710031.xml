@@ -1,0 +1,107 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2710031</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:006</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Metric learning for sequences in relational LVQ</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Bassam</namePart>
+  <namePart type="family">Mokbel</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18880650</identifier></name>
+<name type="personal">
+  <namePart type="given">Benjamin</namePart>
+  <namePart type="family">Paaßen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">49941564</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-3899-2450</description></name>
+<name type="personal">
+  <namePart type="given">Frank-Michael</namePart>
+  <namePart type="family">Schleif</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">19373284</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7539-1283</description></name>
+<name type="personal">
+  <namePart type="given">Barbara</namePart>
+  <namePart type="family">Hammer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">18302458</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10037</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Metric learning constitutes a well-investigated field for vectorial data with successful applications, e.g. in computer vision, information retrieval, or bioinformatics. One particularly promising approach is offered by low-rank metric adaptation integrated into modern variants of learning vector quantization (LVQ). This technique is scalable with respect to both data dimensionality and the number of data points, and it can be accompanied by strong guarantees of learning theory. Recent extensions of LVQ to general (dis-)similarity data have paved the way towards LVQ classifiers for non-vectorial, possibly discrete, structured objects such as sequences, which are addressed by classical alignment in bioinformatics applications. In this context, the choice of metric parameters plays a crucial role for the result, just as it does in the vectorial setting. In this contribution, we propose a metric learning scheme which allows for an autonomous learning of parameters (such as the underlying scoring matrix in sequence alignments) according to a given discriminative task in relational LVQ. Besides facilitating the often crucial and problematic choice of the scoring parameters in applications, this extension offers an increased interpretability of the results by pointing out structural invariances for the given task.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="MokbelEtAl2015-Neurocomputing-MetricLearningSequencesLVQ.pdf">https://pub.uni-bielefeld.de/download/2710031/2718238/MokbelEtAl2015-Neurocomputing-MetricLearningSequencesLVQ.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Elsevier Science Publishers B. V.</publisher><dateIssued encoding="w3cdtf">2015</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Sequential data</topic><topic>Relational LVQ</topic><topic>Metric learning</topic><topic>Dissimilarity data</topic>
+</subject>
+
+
+<relatedItem type="host"><titleInfo><title>Neurocomputing</title></titleInfo>
+  <identifier type="issn">0925-2312</identifier>
+  <identifier type="ISI">000359170300035</identifier><identifier type="urn">urn:nbn:de:0070-pub-27100312</identifier><identifier type="doi">10.1016/j.neucom.2014.11.082</identifier>
+<part><detail type="volume"><number>169</number></detail><detail type="issue"><number>SI</number></detail><extent unit="pages">306-322</extent>
+</part>
+</relatedItem>
+<relatedItem type="Supplementary material">
+  <location>     <url>https://pub.uni-bielefeld.de/record/2900684</url>  </location>
+</relatedItem>
+
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>B.  Mokbel, B.  Paaßen, F. - M.  Schleif, and B.  Hammer, “Metric learning for sequences in relational LVQ”, &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;strong&gt;2015&lt;/strong&gt;, &lt;em&gt;169&lt;/em&gt;, 306-322.</angewandte-chemie>
+<harvard1>Mokbel, B., et al., 2015. Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt;, 169(SI), p 306-322.</harvard1>
+<bio1>Mokbel B, Paaßen B, Schleif F-M, Hammer B (2015) &lt;br /&gt;Metric learning for sequences in relational LVQ.&lt;br /&gt;Neurocomputing 169(SI): 306-322.</bio1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Mokbel, B., Paaßen, B., Schleif, F. - M., &amp;amp; Hammer, B. (2015). Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;169&lt;/em&gt;(SI), 306-322. doi:10.1016/j.neucom.2014.11.082&lt;/div&gt;</apa_indent>
+<wels>Mokbel, B.; Paaßen, B.; Schleif, F. - M.; Hammer, B. (2015): Metric learning for sequences in relational LVQ &lt;em&gt;Neurocomputing&lt;/em&gt;,169:(SI): 306-322.</wels>
+<ieee> B. Mokbel, et al., “Metric learning for sequences in relational LVQ”, &lt;em&gt;Neurocomputing&lt;/em&gt;,  vol. 169, 2015,  pp. 306-322.</ieee>
+<apa>Mokbel, B., Paaßen, B., Schleif, F. - M., &amp;amp; Hammer, B. (2015). Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;169&lt;/em&gt;(SI), 306-322. doi:10.1016/j.neucom.2014.11.082</apa>
+<frontiers>Mokbel, B., Paaßen, B., Schleif, F. - M., and Hammer, B. (2015). Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt; 169, 306-322.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Mokbel, B., Paaßen, B., Schleif, F.-M. &amp;amp; Hammer, B. (2015). Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt;, &lt;em&gt;169&lt;/em&gt;(SI), 306-322. Elsevier Science Publishers B. V. doi:10.1016/j.neucom.2014.11.082.&lt;/div&gt;</dgps>
+<ama>Mokbel B, Paaßen B, Schleif F-M, Hammer B. Metric learning for sequences in relational LVQ. &lt;em&gt;Neurocomputing&lt;/em&gt;. 2015;169(SI):306-322.</ama>
+<default>Mokbel B, Paaßen B, Schleif F-M, Hammer B (2015) &lt;br /&gt;&lt;em&gt;Neurocomputing&lt;/em&gt; 169(SI): 306-322.</default>
+<mla>Mokbel, Bassam, Paaßen, Benjamin, Schleif, Frank-Michael, and Hammer, Barbara. “Metric learning for sequences in relational LVQ”. &lt;em&gt;Neurocomputing&lt;/em&gt; 169.SI (2015): 306-322.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Mokbel, Bassam, Paaßen, Benjamin, Schleif, Frank-Michael, and Hammer, Barbara. 2015. “Metric learning for sequences in relational LVQ”. &lt;em&gt;Neurocomputing&lt;/em&gt; 169 (SI): 306-322.&lt;/div&gt;</chicago>
+<lncs> Mokbel, B., Paaßen, B., Schleif, F.-M., Hammer, B.: Metric learning for sequences in relational LVQ. Neurocomputing. 169, 306-322 (2015).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2710031</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-12-22T09:17:47Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-12-21T11:05:15Z</recordChangeDate>
+</recordInfo>
+</mods>

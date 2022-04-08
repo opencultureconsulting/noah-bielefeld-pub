@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2909057">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Approximating the DCJ distance of balanced genomes in linear time</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Diego</namePart>
+                        <namePart type="family">Rubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Pedro</namePart>
+                        <namePart type="family">Feijão</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Marília</namePart>
+                        <namePart type="family">Dias Vieira Braga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jens</namePart>
+                        <namePart type="family">Stoye</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4656-7155</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Fábio Henrique Viduani</namePart>
+                        <namePart type="family">Martinez</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Background
+
+Rearrangements are large-scale mutations in genomes, responsible for complex changes and structural variations. Most rearrangements that modify the organization of a genome can be represented by the double cut and join (DCJ) operation. Given two balanced genomes, i.e., two genomes that have exactly the same number of occurrences of each gene in each genome, we are interested in the problem of computing the rearrangement distance between them, i.e., finding the minimum number of DCJ operations that transform one genome into the other. This problem is known to be NP-hard.
+Results
+
+We propose a linear time approximation algorithm with approximation factor O(k) for the DCJ distance problem, where k is the maximum number of occurrences of any gene in the input genomes. Our algorithm works for linear and circular unichromosomal balanced genomes and uses as an intermediate step an O(k)-approximation for the minimum common string partition problem, which is closely related to the DCJ distance problem.
+Conclusions
+
+Experiments on simulated data sets show that our approximation algorithm is very competitive both in efficiency and in quality of the solutions.</abstract>
+                    <subject>
+                        <topic>Double cut and join (DCJ)</topic>
+                        <topic>Genome rearrangements</topic>
+                        <topic>Comparative genomics</topic>
+                        <topic>Approximation algorithms</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Algorithms for Molecular Biology</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>12</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>1</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1748-7188</identifier>
+                    <identifier type="MEDLINE">28293275</identifier>
+                    <identifier type="ISI">000396061100001</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29090571</identifier>
+                    <identifier type="doi">10.1186/s13015-017-0095-y</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2909057</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2909057">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2909057/2909348/bmc.art%253A10.1186%252Fs13015-017-0095-y.stoye.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2909057" DMDID="DMD2909057">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2909057"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

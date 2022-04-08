@@ -1,0 +1,104 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2921039</id><setSpec>conference</setSpec><setSpec>doc-type:conferenceObject</setSpec><setSpec>ddc:004</setSpec><setSpec>conferenceFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>conference paper</genre>
+
+<titleInfo><title>Strategies for Tackling the Class Imbalance Problem in Marine Image Classification</title></titleInfo>
+
+
+<note type="publicationStatus">accepted</note>
+
+
+
+<name type="personal">
+  <namePart type="given">Daniel</namePart>
+  <namePart type="family">Langenkämper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">23268922</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-1857-5040</description></name>
+<name type="personal">
+  <namePart type="given">Robin</namePart>
+  <namePart type="family">van Kevelaer</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Tim Wilhelm</namePart>
+  <namePart type="family">Nattkemper</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">11602</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0002-7986-1158</description></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067409</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+<name type="conference">
+  <namePart>International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop</namePart>
+</name>
+
+
+
+
+
+
+<abstract lang="eng">Abstract. Research of deep learning algorithms, especially in the field of convolutional neural networks (CNN), has shown significant progress. The application of CNNs in image analysis and pattern recognition has earned a lot of attention in this regard and few applications to classify a small number of common taxa in marine image collections have been reported yet.
+In this paper, we address the problem of class imbalance in marine image data, i.e. the common observation that 80%-90% of the data belong to a small subset of L′ classes among the total number of L observed classes, with L′ &lt;&lt; L. A small number of methods to compensate for the class imbalance problem in the training step have been proposed for the common computer vision benchmark datasets. But marine image collections (showing for instance megafauna as considered in this study) pose a greater challenge as the observed imbalance is more extreme as habitats can feature a high biodiversity but a low species density.
+In this paper, we investigate the potential of various over-/undersampling methods to compensate for the class imbalance problem in marine imag- ing. In addition, five different balancing rules are proposed and analyzed to examine the extent to which sampling should be used, i.e. how many samples should be created or removed to gain the most out of the sam- pling algorithms. We evaluate these methods with AlexNet trained for classifying benthic image data recorded at the Porcupine Abyssal Plain (PAP) and use a Support Vector Machine as baseline classifier. We can report that the best of our proposed strategies in combination with data augmentation applied to AlexNet results in an increase of thirteen basis points compared to AlexNet without sampling. Furthermore, examples are presented, which show that the combination of oversampling and augmentation leads to a better generalization than pure augmentation.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="CVAUI2018-dlangenk.pdf">https://pub.uni-bielefeld.de/download/2921039/2921192/CVAUI2018-dlangenk.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><dateIssued encoding="w3cdtf">2018</dateIssued><place><placeTerm type="text">Beijing</placeTerm></place>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>class imbalance</topic><topic>CNN</topic><topic>marine imaging</topic><topic>deep learning</topic><topic>taxonomic classification</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:0070-pub-29210395</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<default>Langenkämper D, van Kevelaer R, Nattkemper TW (Accepted)  &lt;br /&gt;Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</default>
+<mla>Langenkämper, Daniel, van Kevelaer, Robin, and Nattkemper, Tim Wilhelm. “Strategies for Tackling the Class Imbalance Problem in Marine Image Classification”. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing, Accepted.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Langenkämper, Daniel, van Kevelaer, Robin, and Nattkemper, Tim Wilhelm. Accepted. “Strategies for Tackling the Class Imbalance Problem in Marine Image Classification”. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing .&lt;/div&gt;</chicago>
+<lncs> Langenkämper, D., van Kevelaer, R., Nattkemper, T.W.: Strategies for Tackling the Class Imbalance Problem in Marine Image Classification. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing (Accepted).</lncs>
+<angewandte-chemie>D.  Langenkämper, R.  van Kevelaer, and T. W.  Nattkemper, &lt;strong&gt;Accepted&lt;/strong&gt;.</angewandte-chemie>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Langenkämper, D., van Kevelaer, R., &amp;amp; Nattkemper, T. W. (Accepted). &lt;em&gt;Strategies for Tackling the Class Imbalance Problem in Marine Image Classification&lt;/em&gt;. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.&lt;/div&gt;</apa_indent>
+<harvard1>Langenkämper, D., van Kevelaer, R., &amp;amp; Nattkemper, T.W., Accepted. Strategies for Tackling the Class Imbalance Problem in Marine Image Classification. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</harvard1>
+<bio1>Langenkämper D, van Kevelaer R, Nattkemper TW (Accepted) &lt;br /&gt;Strategies for Tackling the Class Imbalance Problem in Marine Image Classification. &lt;br /&gt;Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</bio1>
+<wels>Langenkämper, D.; van Kevelaer, R.; Nattkemper, T. W. (Accepted): Strategies for Tackling the Class Imbalance Problem in Marine Image Classification.</wels>
+<ieee> D. Langenkämper, R. van Kevelaer, and T.W. Nattkemper, “Strategies for Tackling the Class Imbalance Problem in Marine Image Classification”, Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing, Accepted.</ieee>
+<apa>Langenkämper, D., van Kevelaer, R., &amp;amp; Nattkemper, T. W. (Accepted). &lt;em&gt;Strategies for Tackling the Class Imbalance Problem in Marine Image Classification&lt;/em&gt;. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</apa>
+<frontiers>Langenkämper, D., van Kevelaer, R., and Nattkemper, T. W. (Accepted).“Strategies for Tackling the Class Imbalance Problem in Marine Image Classification”. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Langenkämper, D., van Kevelaer, R. &amp;amp; Nattkemper, T.W. (Accepted). Strategies for Tackling the Class Imbalance Problem in Marine Image Classification. Gehalten auf der International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop.&lt;/div&gt;</dgps>
+<ama>Langenkämper D, van Kevelaer R, Nattkemper TW. Strategies for Tackling the Class Imbalance Problem in Marine Image Classification. Presented at the International Conference on Pattern Recognition 2018, Computer Vision for Automated Analysis of Underwater Imagery Workshop, Beijing.</ama>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2921039</recordIdentifier><recordCreationDate encoding="w3cdtf">2018-07-06T11:15:00Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:48Z</recordChangeDate>
+</recordInfo>
+</mods>

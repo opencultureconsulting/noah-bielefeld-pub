@@ -1,0 +1,98 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2305711</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Stefan</namePart>
+  <namePart type="family">Klanke</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Helge</namePart>
+  
+  
+  <namePart type="family">Ritter</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10036</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">This thesis presents several new developments in the field of manifold learning and nonlinear dimensionality reduction. The main text can be divided into three parts, the first of which presents a smoothness-based regularizer that is specifically tuned to the Parametrized Self-Organizing Map (PSOM). The regularization approach makes it possible to deal with noisy or missing data in a principled manner, and it facilitates the construction of PSOMs from data that are not organized in a grid topology.
+In the second part, the manifold learning algorithm Unsupervised Kernel Regression (UKR) is introduced as a counterpart to the classical Nadaraya-Watson estimator. In a nutshell, UKR requires very little parameters to be chosen a priori: In its simplest form, a UKR model is fully specified by the dimensionality of latent space and the choice of a density kernel, and it can be regularized automatically by using leave-one-out cross-validation without additional computational cost. The low dimensional coordinates (latent variables) together with a mapping from latent space to data space are retrieved by minimizing some error criterion.
+The third part presents four possible extensions to UKR, specifically
+1) a more general cross-validation scheme, aimed at avoiding unsmooth manifolds,
+2) the inclusion of loss functions beyond the usual squared error, which can enhance the robustness towards outliers, and by which UKR can be tuned to specific noise levels,
+3) a "landmark" variant which helps to reduce the computational cost, and
+4) Unsupervised Local Polynomial Regression, where the Nadaraya-Watson estimator is replaced by local linear or local quadratic regression models, the latter showing less bias in the presence of curvature.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="Klanke_Dissertation.pdf">https://pub.uni-bielefeld.de/download/2305711/2305714/Klanke_Dissertation.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Bielefeld University</publisher><dateIssued encoding="w3cdtf">2007</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Dimensionsreduktion</topic><topic>Manifold learning</topic><topic>Dimensionality reduction</topic><topic>Unsupervised kernel regression</topic><topic>Parametrized self-organizing map</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-12066</identifier>
+<part>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2007-11-13</dateOther>
+<extension>
+<bibliographicCitation>
+<wels>Klanke, S. (2007): Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression. Bielefeld (Germany): Bielefeld University.</wels>
+<harvard1>Klanke, S., 2007. &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;, Bielefeld (Germany): Bielefeld University.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klanke, S. (2007).  &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</apa_indent>
+<bio1>Klanke S (2007) &lt;br /&gt;&lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;.&lt;br /&gt;Bielefeld (Germany): Bielefeld University.</bio1>
+<angewandte-chemie>S.  Klanke, &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;, Bielefeld University, Bielefeld (Germany), &lt;strong&gt;2007&lt;/strong&gt;.</angewandte-chemie>
+<ama>Klanke S. &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University; 2007.</ama>
+<frontiers>Klanke, S. (2007). Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression. Bielefeld (Germany): Bielefeld University.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klanke, S. (2007). &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</dgps>
+<apa>Klanke, S. (2007).  &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.</apa>
+<ieee> S. Klanke, &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;,  Bielefeld (Germany): Bielefeld University, 2007.</ieee>
+<lncs> Klanke, S.: Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression. Bielefeld University, Bielefeld (Germany) (2007).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Klanke, Stefan. 2007. &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University.&lt;/div&gt;</chicago>
+<mla>Klanke, Stefan. &lt;em&gt;Learning manifolds with the Parametrized Self-Organizing Map and Unsupervised Kernel Regression&lt;/em&gt;. Bielefeld (Germany): Bielefeld University, 2007.</mla>
+<default>Klanke S (2007) &lt;br /&gt;Bielefeld (Germany): Bielefeld University.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2305711</recordIdentifier><recordCreationDate encoding="w3cdtf">2007-12-19T14:26:46Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:00:51Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD1776335">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Erzählte Zeit als Ermöglichung von Identität: Paul Ricoeurs Begriff der narrativen Identität und seine Implikationen für die religionspädagogische Rede von Identität und Bildung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Heinz</namePart>
+                        <namePart type="family">Streib</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3633-4785</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Georgi</namePart>
+                        <namePart type="family">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Heimbrock</namePart>
+                        <namePart type="family">Hans-Günter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">1994</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">220</classification>
+                    <identifier type="isbn">90-390-0043-3</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-bipr-12010</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_1776335</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_1776335">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1776335/2312150/Streib_008.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/pdf" ID="FILE1_bielefeld_pub_1776335">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/1776335/2208416/Streib_1994_Erzahlte-Zeit" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_1776335" DMDID="DMD1776335">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_1776335"/>
+            <mets:div TYPE="part" ID="PART1_1776335" LABEL="Streib_1994_Erzahlte-Zeit">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_1776335"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

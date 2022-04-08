@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2714286">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Interactive Image Data Labeling Using Self-Organizing Maps in an Augmented Reality Scenario</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Holger</namePart>
+                        <namePart type="family">Bekel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Gunther</namePart>
+                        <namePart type="family">Heidemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">We present an approach for the convenient labeling
+of image patches gathered from an unrestricted environment. The system is employed for a mobile Augmented Reality (AR) gear: While the user walks around with the head-mounted AR-gear, context-free modules for focus-of-attention permanently sample the most “interesting” image patches. After this acquisition phase, a Self-Organizing Map (SOM) is trained on the complete set of patches, using combinations of MPEG-7 features as a data representation. The SOM allows visualization of the sampled patches and an easy manual sorting into categories. With very little effort, the user can compose a training set for a classifier, thus, unknown objects can be made known to the system. We evaluate the system for COIL-imagery and demonstrate that a user can reach satisfying categorization within few steps, even for image data sampled from walking in an office environment.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">006</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>Neural Networks</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>18</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>2005 Special Iss.</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>566</start>
+                                <end>574</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0893-6080</identifier>
+                    <identifier type="MEDLINE">16112547</identifier>
+                    <identifier type="ISI">000232096500014</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-27142865</identifier>
+                    <identifier type="doi">10.1016/j.neunet.2005.06.040</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2714286</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2714286">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2714286/2719856/BekelHeidemannRitter-Neural_Networks-2005.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2714286" DMDID="DMD2714286">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2714286"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

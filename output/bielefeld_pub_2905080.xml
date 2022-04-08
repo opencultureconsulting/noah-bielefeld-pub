@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2905080">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Transferring urban traveling speed model fits across cities</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Christian</namePart>
+                        <namePart type="family">Heinze</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Maximilian</namePart>
+                        <namePart type="family">Leodolter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Hannes</namePart>
+                        <namePart type="family">Koller</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Dietmar</namePart>
+                        <namePart type="family">Bauer</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-2920-7032</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Purpose
+
+Link traveling time models form the basis for route planning methods used in navigation devices as well as for logistic applications. These models are provided based on extensive real world data sets which are available to a differing degree in different cities as well as for different links within a given city. For smaller cities, where typically fewer data is available or less frequently measured links, it might be beneficial to transfer models from close-by cities or links from the same city with sufficient data basis. In this paper, the potential for transferring link traveling time model fits, that is, the estimated models, between cities and within a city is investigated. Methods that combine information typically contained in street maps with empirically derived features that are easily transferred are developed and tested with substantial real world data sets. This provides the basis for developing route planning methods in cities with insufficient real world data coverage to base accurate route traveling time predictions on.
+Methods
+
+Link traveling time models are derived on the basis of an extensive floating taxi data set in Vienna, Austria. The models incorporate typical map information such as speed limits and functional road classification (frc). Estimation is performed using penalized least squares methods to control for overfitting. The expected accuracy for the model transfer is investigated both in terms of intracity transfer (from modelled links to other links in the same city) and in terms of intercity transfer (from one city to another city). Data sets of different extent are used from the two Austrian cities of Vienna and Linz as well as for the French city of Lyon.
+Results
+
+The models presented in this paper are demonstrated to lead to superior performance compared to the benchmark model of Leodolter et al. (2015). It is shown that transfer between cities in the same country (here using the Vienna model for Linz) may be beneficial in terms of prediction accuracy while the transfer between countries (here from Vienna to Lyon) decreases accuracy but not dramatically.
+Conclusion
+
+These results demonstrate that the transfer of link traveling time models within a city or from one city to another city can provide acceptable prediction accuracy and thus can be used as the basis for navigation algorithms in case no good data basis is accessible for a city.</abstract>
+                    <subject>
+                        <topic>Traveling time estimation Navigation Routing Floating car data</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>European Transport Research Review</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>8</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>3</number>
+                            </detail>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">1867-0717</identifier>
+                    <identifier type="issn">1866-8887</identifier>
+                    <identifier type="ISI">000382883800002</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29050807</identifier>
+                    <identifier type="doi">10.1007/s12544-016-0206-8</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2905080</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2905080">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2905080/2905081/heinze.art%253A10.1007%252Fs12544-016-0206-8.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2905080" DMDID="DMD2905080">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2905080"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

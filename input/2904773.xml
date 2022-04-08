@@ -1,0 +1,103 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2904773</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:006</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Gregor</namePart>
+  <namePart type="family">Sievers</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">24482436</identifier></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Ulrich</namePart>
+  
+  
+  <namePart type="family">Rückert</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">15438710</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">8014655</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Eingebettete mikroelektronische Systeme finden in vielen Bereichen des täglichen Lebens Anwendung. Die Integration von zunehmend mehr Prozessorkernen auf einem einzelnen Mikrochip (On-Chip-Multiprozessor, MPSoC) erlaubt eine Steigerung der Rechenleistung und der Ressourceneffizienz dieser Systeme. In der AG Kognitronik und Sensorik der Universität Bielefeld wird das CoreVA-MPSoC entwickelt, welches ressourceneffiziente VLIW-Prozessorkerne über eine hierarchische Verbindungsstruktur koppelt. Eine enge Kopplung mehrerer Prozessorkerne in einem Cluster ermöglicht hierbei eine breitbandige Kommunikation mit geringer Latenz.&lt;br /&gt;&lt;br /&gt;
+
+Der Hauptbeitrag der vorliegenden Arbeit ist die Entwicklung und Entwurfsraumexploration eines ressourceneffizienten CPU-Clusters für den Einsatz im CoreVA-MPSoC. Eine abstrakte Modellierung der Hardware- und Softwarekomponenten des CPU-Clusters sowie ein hoch automatisierter Entwurfsablauf ermöglichen die schnelle Analyse eines großen Entwurfsraums. Im Rahmen der Entwurfsraumexploration werden verschiedene Topologien, Busstandards und Speicherarchitekturen untersucht. Insbesondere das Zusammenspiel der Hardware-Architektur mit Programmiermodell und Synchronisierung ist evident für eine hohe Ressourceneffizienz und eine gute Ausnutzung der verfügbaren Rechenleistung durch den Anwendungsentwickler. Dazu wird ein an die Hardwarearchitektur angepasstes blockbasiertes Synchronisierungsverfahren vorgestellt. Dieses Verfahren wird von Compilern für die Sprachen StreamIt, C sowie OpenCL verwendet, um Anwendungen auf verschiedenen Konfigurationen des CPU-Clusters abzubilden. Neun repräsentative Streaming-Anwendungen zeigen bei der Abbildung auf einem Cluster mit 16 CPUs eine durchschnittliche Beschleunigung um den Faktor 13,3 gegenüber der Ausführung auf einer CPU. Zudem wird ein eng gekoppelter gemeinsamer L1-Datenspeicher mit mehreren Speicherbänken in den CPU-Cluster integriert, der allen CPUs einen Zugriff mit geringer Latenz erlaubt. Des Weiteren wird die Verwendung verschiedener Instruktionsspeicher und -caches evaluiert sowie der Energiebedarf für Kommunikation und Synchronisierung im CPU-Cluster betrachtet.&lt;br /&gt;&lt;br /&gt;
+
+Es wird in dieser Arbeit gezeigt, dass ein CPU-Cluster mit 16 CPU-Kernen einen guten Kompromiss in Bezug auf den Flächenbedarf der Cluster-Verbindungsstruktur sowie die Leistungsfähigkeit des Clusters darstellt. Ein CPU-Cluster mit 16 2-Slot-VLIW-CPUs und insgesamt 512 kB Speicher besitzt bei einer prototypischen Implementierung in einer 28-nm-FD-SOI-Standardzellenbibliothek einen Flächenbedarf von 2,63 mm². Bei einer Taktfrequenz von 760 MHz liegt die durchschnittliche Leistungsaufnahme bei 440 mW. Eine FPGA-basierte Emulation auf einem Xilinx Virtex-7-FPGA erlaubt die Evaluierung eines CoreVA-MPSoCs mit bis zu 24 CPUs bei einer maximalen Taktfrequenz von bis zu 124 MHz. Als weiteres Anwendungsszenario wird ein CoreVA-MPSoC mit bis zu vier CPUs auf das FPGA des autonomen Miniroboters AMiRo abgebildet.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="2016_07_22_Dissertation_online_Gregor_Sievers.pdf">https://pub.uni-bielefeld.de/download/2904773/2904774/2016_07_22_Dissertation_online_Gregor_Sievers.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2016</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">ger</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-29047738</identifier>
+<part><extent unit="pages">228</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2016-07-20</dateOther>
+<extension>
+<bibliographicCitation>
+<angewandte-chemie>G.  Sievers, &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2016&lt;/strong&gt;.</angewandte-chemie>
+<harvard1>Sievers, G., 2016. &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sievers, G. (2016).  &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<bio1>Sievers G (2016) &lt;br /&gt;&lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<wels>Sievers, G. (2016): Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen. Bielefeld: Universität Bielefeld.</wels>
+<ieee> G. Sievers, &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2016.</ieee>
+<apa>Sievers, G. (2016).  &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sievers, G. (2016). &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Sievers, G. (2016). Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen. Bielefeld: Universität Bielefeld.</frontiers>
+<ama>Sievers G. &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2016.</ama>
+<aps> G.  Sievers, Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen, (Universität Bielefeld, Bielefeld, 2016).</aps>
+<default>Sievers G (2016) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+<mla>Sievers, Gregor. &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2016.</mla>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Sievers, Gregor. 2016. &lt;em&gt;Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<lncs> Sievers, G.: Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen. Universität Bielefeld, Bielefeld (2016).</lncs>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2904773</recordIdentifier><recordCreationDate encoding="w3cdtf">2016-07-22T10:31:05Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-11-05T15:30:30Z</recordChangeDate>
+</recordInfo>
+</mods>

@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2515687">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Analyzing Multi-Tag Bioimages with BIOIMAX colocation mining tools</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Jan</namePart>
+                        <namePart type="family">Kölling</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0003-3957-2412</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Magnus</namePart>
+                        <namePart type="family">Rathke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sylvie</namePart>
+                        <namePart type="family">Abouna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mike</namePart>
+                        <namePart type="family">Khan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Tim Wilhelm</namePart>
+                        <namePart type="family">Nattkemper</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-7986-1158</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The application of multi-tag protocols in fluorescence microscopy allows the visualization of a large number (&gt; 10) of molecules (i. e. proteins) in a sample (like a tissue section). However, the analysis of such high dimensional bioimages is a difficult task for most of the labs, since software solutions for particular data mining steps are difficult to use or just not available. In this paper we present two new free online tools: MICOLT (Multivariate Image COlocation Tool) and MIFIST (Multivariate Image Frequent Item Set Tool). Both tools can
+be used via our recently proposed online bioimage analysis
+platform BioIMAX, so users can upload their bioimage data,
+apply the tools and share the results with other invited users based on BioIMAX’ concept of shared virtual projects. Data mining with these tools includes the computation and visualization colocation factors well established in the microscopy community (like Mander’s score) and association rule mining following the frequent item set principle, thereby supporting large and small scale analysis.</abstract>
+                    <subject>
+                        <topic>Bioimage informatics</topic>
+                        <topic>Web Systems</topic>
+                        <topic>Science 2.0</topic>
+                        <topic>Visual Diagnostics</topic>
+                        <topic>visualization</topic>
+                        <topic>data mining</topic>
+                        <topic>Tissue analysis</topic>
+                        <topic>fluorescence microscopy</topic>
+                        <topic>Proteomics</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25156877</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2515687</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2515687">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2515687/2515697/isbi_NattkemperEtAl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2515687" DMDID="DMD2515687">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2515687"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

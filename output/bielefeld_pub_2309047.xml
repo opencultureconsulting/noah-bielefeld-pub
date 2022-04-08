@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2309047">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Statistics of cleavage fragments in random weighted strings</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hans-Michael</namePart>
+                        <namePart type="family">Kaltenbach</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Henner</namePart>
+                        <namePart type="family">Sudek</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sebastian</namePart>
+                        <namePart type="family">Böcker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Sven</namePart>
+                        <namePart type="family">Rahmann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">report</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Peptide mass fingerprinting is an important technique that allows to identify a protein from its fragment masses obtained by mass spectrometry after enzymatic fragmentation: An experimental mass fingerprint is compared with or aligned to several reference fingerprints obtained from protein databases using in-silico digestion. Recently, much attention has been given to the questions of how to score such an alignment of mass spectra and how to evaluate its significance; results have been developed mostly from a combinatorial perspective. In particular, existing methods generally do not (or only at the price of a combinatorial explosion) capture the fact that the same amino acid can have different masses because of, e.g., isotopic distributions or variable chemical modifications.
+We offer several new contributions to the field: We introduce the notions of a probabilistically weighted alphabet, where each character can have different masses according to a specified probability distribution, and the notion of a random weighted string as a fundamental model for a random protein. We then develop a general computational framework, which we call weighted HMMs for various length and mass statistics of cleavage fragments of random proteins. We obtain general formulas for the length distribution of a fragment, the number of fragments, the joint length-mass distribution, and for fragment mass occurrence probabilities, and special results for so-called standard cleavage schemes (e.g., for Trypsin). We also discuss how to efficiently implement the probability computations. Computational results are provided, as well as a comparison to proteins from the SwissProt database.</abstract>
+                    <subject>
+                        <topic>Weighted string</topic>
+                        <topic>Occurrence</topic>
+                        <topic>Statistics</topic>
+                        <topic>Mass spectrometry</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-9001</identifier>
+                    <identifier type="sys">HT016396382</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2309047</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2309047">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2309047/2315326/KaltenbachEtAl_StatisticsCleavageFragments_TechReport_2005.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2309047" DMDID="DMD2309047">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2309047"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

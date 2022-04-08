@@ -1,0 +1,107 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>2652167</id><setSpec>bi_dissertation</setSpec><setSpec>doc-type:doctoralThesis</setSpec><setSpec>ddc:004</setSpec><setSpec>bi_dissertationFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>thesis</genre>
+
+<titleInfo><title>Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data</title></titleInfo>
+
+
+
+
+
+<name type="personal">
+  <namePart type="given">Christian Hans</namePart>
+  <namePart type="family">Held</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+
+
+
+
+
+<name type="personal">
+  
+  <namePart type="given">Tim Wilhelm</namePart>
+  
+  
+  <namePart type="family">Nattkemper</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+<name type="personal">
+  
+  <namePart type="given">Thomas</namePart>
+  
+  
+  <namePart type="family">Wittenberg</namePart>
+  
+  <role> <roleTerm type="text">supervisor</roleTerm> </role>
+</name>
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">29610175</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">In the past decade, automation in fluorescence microscopy has strongly increased, particularly in regards to image acquisition and sample preparation, which results in a huge volume of data. The amount of time required for manual assessment of an experiment is hence mainly determined by the amount of time required for data analysis. In addition, manual data analysis is often a task with poor reproducibility and lack of objectivity.
+Using automated image analysis software, the time required for data analysis can be reduced while quality and reproducibility of the evaluation are improved. Most image analysis approaches are based on a segmentation of the image. By arranging several image processing methods in a so-called segmentation pipeline, and by adjusting all parameters, a broad range of fluorescence image data can be segmented. The drawback of available software tools is the long time required to calibrate the segmentation pipeline for an experiment, particularly for researchers with little knowledge of image processing. As a result, many experiments that could benefit from automated image analysis are still evaluated manually. 
+In order to reduce the amount of time users have to spend in adapting automated image analysis software to their data, research was carried out on a novel image analysis concept based on hand-labeled data. Using this concept, the user is required to provide hand-labeled cells, based on which an efficient combination of image processing methods and their parameterization is automatically calibrated, without further user input. The development of a segmentation pipeline that allows high-quality segmentation of a broad range of fluorescence micrographs in short time poses a challenge. In this work, a three-stage segmentation pipeline consisting of exchangeable preprocessing, figure-ground separation and cell-splitting methods was developed. 
+These methods are mainly based on the state of the art, whereas some of them represent contributions to this status. Discretization of parameters must be performed carefully, as a broad range of fluorescence image data shall be supported. In order to allow calibration of the segmentation pipeline in a short time, discretization with equidistant as well as nonlinear step sizes was implemented. Apart from parameter discretization, quality of the calibration strongly depends on choice of the parameter optimization technique. In order to reduce calibration runtime, exploratory parameter space analysis was performed for different segmentation methods. This experiment showed that parameter spaces are mostly monotonous, but also show several local performance maxima. The comparison of different parameter optimization techniques indicated that the coordinate descent method results in a good parameterization of the segmentation pipeline in a small amount of time. 
+In order to minimize the amount of time spent by the user in calibration of the system, correlation between the number of hand-labeled reference samples and the resulting segmentation performance was investigated. This experiment demonstrates that as few as ten reference samples often result in a good parameterization of the segmentation pipeline.
+Due to the low number of cells required for automatic calibration of the segmentation pipeline, as well as its short runtime, it can be concluded that the investigated method improves automation and efficiency in fluorescence micrograph analysis.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="130529_PhD_held_final.pdf">https://pub.uni-bielefeld.de/download/2652167/2652171/130529_PhD_held_final.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Universität Bielefeld</publisher><dateIssued encoding="w3cdtf">2013</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+<subject><topic>Watershed</topic><topic>Graph Cut</topic><topic>Fluorescene Microscopy</topic><topic>Image Analysis</topic><topic>Segmentation</topic><topic>Fast Marching</topic>
+</subject>
+
+
+<relatedItem type="host"><identifier type="urn">urn:nbn:de:hbz:361-26521679</identifier>
+<part><extent unit="pages">165</extent>
+</part>
+</relatedItem>
+
+
+<dateOther encoding="w3cdtf" type="defenseDate">2014-01-21</dateOther>
+<extension>
+<bibliographicCitation>
+<ama>Held CH. &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld; 2013.</ama>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Held, C.H. (2013). &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</dgps>
+<frontiers>Held, C. H. (2013). Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data. Bielefeld: Universität Bielefeld.</frontiers>
+<apa>Held, C. H. (2013).  &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld.</apa>
+<ieee> C.H. Held, &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;,  Bielefeld: Universität Bielefeld, 2013.</ieee>
+<wels>Held, C. H. (2013): Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data. Bielefeld: Universität Bielefeld.</wels>
+<bio1>Held CH (2013) &lt;br /&gt;&lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;.&lt;br /&gt;Bielefeld: Universität Bielefeld.</bio1>
+<harvard1>Held, C.H., 2013. &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;, Bielefeld: Universität Bielefeld.</harvard1>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Held, C. H. (2013).  &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</apa_indent>
+<angewandte-chemie>C. H.  Held, &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;, Universität Bielefeld, Bielefeld, &lt;strong&gt;2013&lt;/strong&gt;.</angewandte-chemie>
+<lncs> Held, C.H.: Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data. Universität Bielefeld, Bielefeld (2013).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Held, Christian Hans. 2013. &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld.&lt;/div&gt;</chicago>
+<mla>Held, Christian Hans. &lt;em&gt;Towards increased efficiency and automation in fluorescence micrograph analysis based on hand-labeled data&lt;/em&gt;. Bielefeld: Universität Bielefeld, 2013.</mla>
+<default>Held CH (2013) &lt;br /&gt;Bielefeld: Universität Bielefeld.</default>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>2652167</recordIdentifier><recordCreationDate encoding="w3cdtf">2014-01-29T10:12:23Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T13:01:25Z</recordChangeDate>
+</recordInfo>
+</mods>

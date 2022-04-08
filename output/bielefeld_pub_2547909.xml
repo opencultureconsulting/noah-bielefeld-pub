@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2547909">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Reliable Integration of Continuous Constraints into Extreme Learning Machines</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Klaus</namePart>
+                        <namePart type="family">Neumann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Rolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jochen J.</namePart>
+                        <namePart type="family">Steil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">The application of machine learning methods in the engineering of intelligent technical
+systems often requires the integration of continuous constraints like positivity, mono-
+tonicity, or bounded curvature in the learned function to guarantee a reliable perfor-
+mance. We show that the extreme learning machine is particularly well suited for this
+task. Constraints involving arbitrary derivatives of the learned function are effectively
+implemented through quadratic optimization because the learned function is linear in its
+parameters, and derivatives can be derived analytically. We further provide a construc-
+tive approach to verify that discretely sampled constraints are generalized to continuous
+regions and show how local violations of the constraint can be rectified by iterative re-
+learning. We demonstrate the approach on a practical and challenging control problem
+from robotics, illustrating also how the proposed method enables learning from few data
+samples if additional prior knowledge about the problem is available.</abstract>
+                    <subject>
+                        <topic>CoR-Lab Publication</topic>
+                        <topic>Extreme learning machine</topic>
+                        <topic>neural network</topic>
+                        <topic>prior knowledge</topic>
+                        <topic>continuous constraints</topic>
+                        <topic>regression</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title>International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>21</number>
+                            </detail>
+                            <detail type="issue">
+                                <number>Suppl 2</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>35</start>
+                                <end>50</end>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0218-4885</identifier>
+                    <identifier type="eIssn">1793-6411</identifier>
+                    <identifier type="ISI">000326630600005</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-25479090</identifier>
+                    <identifier type="doi">10.1142/S021848851340014X</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2547909</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2547909">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2547909/2903540/kneumann_IJUFKS_111113.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2547909" DMDID="DMD2547909">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2547909"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

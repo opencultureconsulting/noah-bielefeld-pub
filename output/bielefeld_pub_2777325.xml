@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2777325">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Articulation estimation and real-time tracking of human hand motions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Matthias</namePart>
+                        <namePart type="family">Schröder</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Mario</namePart>
+                        <namePart type="family">Botsch</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Helge</namePart>
+                        <namePart type="family">Ritter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2015</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2015-09-21</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">This thesis deals with the problem of estimating and tracking the full articulation of
+human hands. Algorithmically recovering hand articulations is a challenging problem
+due to the hand’s high number of degrees of freedom and the complexity of its
+motions. Besides the accuracy and efficiency of the hand posture estimation, hand
+tracking methods are faced with issues such as invasiveness, ease of deployment
+and sensor artifacts. In this thesis several different hand tracking approaches are examined,
+including marker-based optical motion capture, data-driven discriminative
+visual tracking and generative tracking based on articulated registration, and various
+contributions to these areas are presented. The problem of optimally placing reduced
+marker sets on a performer’s hand for optical hand motion capture is explored. A
+method is proposed that automatically generates functional reduced marker layouts
+by optimizing for their numerical stability and geometric feasibility. A data-driven
+discriminative tracking approach based on matching the hand’s appearance in the
+sensor data with an image database is investigated. In addition to an efficient nearest
+neighbor search for images, a combination of discriminative initialization and
+generative refinement is employed. The method’s applicability is demonstrated in
+interactive robot teleoperation. Various real human hand motions are captured and
+statistically analyzed to derive low-dimensional representations of hand articulations.
+An adaptive hand posture subspace concept is developed and integrated into a generative
+real-time hand tracking approach that aligns a virtual hand model with sensor
+point clouds based on constrained inverse kinematics. Generative hand tracking is
+formulated as a regularized articulated registration process, in which geometrical
+model fitting is combined with statistical, kinematic and temporal regularization
+priors. A registration concept that combines 2D and 3D alignment and explicitly accounts
+for occlusions and visibility constraints is devised. High-quality, non-invasive,
+real-time hand tracking is achieved based on this regularized articulated registration
+formulation.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:361-27773253</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2777325</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2777325">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2777325/2777331/thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2777325" DMDID="DMD2777325">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2777325"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

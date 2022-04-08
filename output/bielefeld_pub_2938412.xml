@@ -1,0 +1,107 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2938412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Supplementary Material for &quot;pya - a Python Library for Audio Processing and Auditory Display&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Thomas</namePart>
+                        <namePart type="family">Hermann</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0001-7975-4363</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Jiajun</namePart>
+                        <namePart type="family">Yang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">ResearchData</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b"></languageTerm>
+                    </language>
+                    <abstract lang="eng">This research data publication contains supplementary material that accompanies the publication &quot;pya - a Python Library for Audio Processing and Auditory Display&quot;. As the pya code is public and available via http://github.com/interactive-sonification/pya, we here provide only specific audio files and code examples, specifically connected to Section 4 of the paper.</abstract>
+                    <subject>
+                    </subject>
+                    <identifier type="doi">10.4119/unibi/2938412</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2938412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>research_data</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/zip" ID="FILE0_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938424/data.zip" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="application/octet-stream" ID="FILE1_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938425/pya-examples.ipynb" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE2_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938426/pya-examples.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE3_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938427/S1-eeg-absence-rate10.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE4_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938428/S2-eeg-absence-rate25.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE5_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938429/S3-timbraleeg.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="generic file">
+            <mets:file MIMETYPE="audio/x-wav" ID="FILE6_bielefeld_pub_2938412">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2938412/2938430/S4-PMson-iris-dataset.wav" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2938412" DMDID="DMD2938412">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2938412"/>
+            <mets:div TYPE="part" ID="PART1_2938412" LABEL="pya-examples.ipynb">
+                <mets:fptr FILEID="FILE1_bielefeld_pub_2938412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART2_2938412" LABEL="pya-examples.pdf">
+                <mets:fptr FILEID="FILE2_bielefeld_pub_2938412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART3_2938412" LABEL="S1-eeg-absence-rate10.wav">
+                <mets:fptr FILEID="FILE3_bielefeld_pub_2938412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART4_2938412" LABEL="S2-eeg-absence-rate25.wav">
+                <mets:fptr FILEID="FILE4_bielefeld_pub_2938412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART5_2938412" LABEL="S3-timbraleeg.wav">
+                <mets:fptr FILEID="FILE5_bielefeld_pub_2938412"/>
+            </mets:div>
+            <mets:div TYPE="part" ID="PART6_2938412" LABEL="S4-PMson-iris-dataset.wav">
+                <mets:fptr FILEID="FILE6_bielefeld_pub_2938412"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

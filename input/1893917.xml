@@ -1,0 +1,119 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd"><id>1893917</id><setSpec>journal_article</setSpec><setSpec>doc-type:article</setSpec><setSpec>ddc:004</setSpec><setSpec>journal_articleFtxt</setSpec><setSpec>open_access</setSpec>
+
+<genre>article</genre>
+
+<titleInfo><title>Shape based indexing for faster search of RNA family databases</title></titleInfo>
+
+
+<note type="publicationStatus">published</note>
+
+
+<note type="qualityControlled">yes</note>
+
+<name type="personal">
+  <namePart type="given">Stefan</namePart>
+  <namePart type="family">Janssen</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">10656617</identifier><description xsi:type="identifierDefinition" type="orcid">0000-0003-0955-0589</description></name>
+<name type="personal">
+  <namePart type="given">Jens</namePart>
+  <namePart type="family">Reeder</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role></name>
+<name type="personal">
+  <namePart type="given">Robert</namePart>
+  <namePart type="family">Giegerich</namePart>
+  <role><roleTerm type="text">author</roleTerm> </role><identifier type="local">147565</identifier></name>
+
+
+
+
+
+
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">441317</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">10039</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+<name type="corporate">
+  <namePart/>
+  <identifier type="local">33067120</identifier>
+  <role>
+    <roleTerm type="text">department</roleTerm>
+  </role>
+</name>
+
+
+
+
+
+
+
+
+<abstract lang="eng">Background: Most non-coding RNA families exert their function by means of a conserved, common secondary structure. The Rfam data base contains more than five hundred structurally annotated RNA families. Unfortunately, searching for new family members using covariance models (CMs) is very time consuming. Filtering approaches that use the sequence conservation to reduce the number of CM searches, are fast, but it is unknown to which sacrifice.
+
+Results: We present a new filtering approach, which exploits the family specific secondary structure and significantly reduces the number of CM searches. The filter eliminates approximately 85% of the queries and discards only 2.6% true positives when evaluating Rfam against itself. First results also capture previously undetected non-coding RNAs in a recent human RNAz screen.
+
+Conclusion: The RNA shape index filter (RNAsifter) is based on the following rationale: An RNA family is characterised by structure, much more succinctly than by sequence content. Structures of individual family members, which naturally have different length and sequence composition, may exhibit structural variation in detail, but overall, they have a common shape in a more abstract sense. Given a fixed release of the Rfam data base, we can compute these abstract shapes for all families. This is called a shape index. If a query sequence belongs to a certain family, it must be able to fold into the family shape with reasonable free energy. Therefore, rather than matching the query against all families in the data base, we can first (and quickly) compute its feasible shape(s), and use the shape index to access only those families where a good match is possible due to a common shape with the query.</abstract>
+
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="32.pdf">https://pub.uni-bielefeld.de/download/1893917/2315029/32.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<relatedItem type="constituent">
+  <location>
+    <url displayLabel="1471-2105-9-131.pdf">https://pub.uni-bielefeld.de/download/1893917/2238794/1471-2105-9-131.pdf</url>
+  </location>
+  <physicalDescription><internetMediaType>application/pdf</internetMediaType></physicalDescription>
+  <accessCondition type="restrictionOnAccess">no</accessCondition>
+</relatedItem>
+<originInfo><publisher>Biomed Central</publisher><dateIssued encoding="w3cdtf">2008</dateIssued>
+</originInfo>
+<language><languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+</language>
+
+
+
+<relatedItem type="host"><titleInfo><title>BMC Bioinformatics</title></titleInfo>
+  <identifier type="issn">1471-2105</identifier>
+  <identifier type="MEDLINE">18312625</identifier>
+  <identifier type="ISI">000254437600001</identifier><identifier type="urn">urn:nbn:de:0070-pub-18939178</identifier><identifier type="doi">10.1186/1471-2105-9-131</identifier>
+<part><detail type="volume"><number>9</number></detail><detail type="issue"><number>1</number></detail><extent unit="pages">131</extent>
+</part>
+</relatedItem>
+
+
+<extension>
+<bibliographicCitation>
+<lncs> Janssen, S., Reeder, J., Giegerich, R.: Shape based indexing for faster search of RNA family databases. BMC Bioinformatics. 9, 131 (2008).</lncs>
+<chicago>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, Stefan, Reeder, Jens, and Giegerich, Robert. 2008. “Shape based indexing for faster search of RNA family databases”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9 (1): 131.&lt;/div&gt;</chicago>
+<mla>Janssen, Stefan, Reeder, Jens, and Giegerich, Robert. “Shape based indexing for faster search of RNA family databases”. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9.1 (2008): 131.</mla>
+<default>Janssen S, Reeder J, Giegerich R (2008) &lt;br /&gt;&lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9(1): 131.</default>
+<wels>Janssen, S.; Reeder, J.; Giegerich, R. (2008): Shape based indexing for faster search of RNA family databases &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,9:(1): 131.</wels>
+<apa_indent>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, S., Reeder, J., &amp;amp; Giegerich, R. (2008). Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 131. &lt;a href="https://doi.org/10.1186/1471-2105-9-131" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-131&lt;/a&gt;&lt;/div&gt;</apa_indent>
+<harvard1>Janssen, S., Reeder, J., &amp;amp; Giegerich, R., 2008. Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, 9(1), p 131.</harvard1>
+<bio1>Janssen S, Reeder J, Giegerich R (2008) &lt;br /&gt;Shape based indexing for faster search of RNA family databases.&lt;br /&gt;BMC Bioinformatics 9(1): 131.</bio1>
+<angewandte-chemie>S.  Janssen, J.  Reeder, and R.  Giegerich, “Shape based indexing for faster search of RNA family databases”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;strong&gt;2008&lt;/strong&gt;, &lt;em&gt;9&lt;/em&gt;, 131.</angewandte-chemie>
+<ama>Janssen S, Reeder J, Giegerich R. Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;. 2008;9(1):131.</ama>
+<frontiers>Janssen, S., Reeder, J., and Giegerich, R. (2008). Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt; 9, 131.</frontiers>
+<dgps>&lt;div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;"&gt;Janssen, S., Reeder, J. &amp;amp; Giegerich, R. (2008). Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 131. Biomed Central. doi:10.1186/1471-2105-9-131.&lt;/div&gt;</dgps>
+<apa>Janssen, S., Reeder, J., &amp;amp; Giegerich, R. (2008). Shape based indexing for faster search of RNA family databases. &lt;em&gt;BMC Bioinformatics&lt;/em&gt;, &lt;em&gt;9&lt;/em&gt;(1), 131. &lt;a href="https://doi.org/10.1186/1471-2105-9-131" target="_blank"&gt;https://doi.org/10.1186/1471-2105-9-131&lt;/a&gt;</apa>
+<ieee> S. Janssen, J. Reeder, and R. Giegerich, “Shape based indexing for faster search of RNA family databases”, &lt;em&gt;BMC Bioinformatics&lt;/em&gt;,  vol. 9, 2008,  pp. 131.</ieee>
+</bibliographicCitation>
+</extension>
+<recordInfo><recordIdentifier>1893917</recordIdentifier><recordCreationDate encoding="w3cdtf">2010-11-03T07:37:11Z</recordCreationDate><recordChangeDate encoding="w3cdtf">2018-07-24T12:58:04Z</recordChangeDate>
+</recordInfo>
+</mods>

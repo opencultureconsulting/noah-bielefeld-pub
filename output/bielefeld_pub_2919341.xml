@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2919341">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>VLSI implementation of a calcium-based plasticity learning model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Frank Lucio</namePart>
+                        <namePart type="family">Maldonado Huayaney</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Elisabetta</namePart>
+                        <namePart type="family">Chicca</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">dgs</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                        <dateOther encoding="w3cdtf" type="defenseDate">2018-04-18</dateOther>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">A key feature of autonomous systems is the ability to solve computationally intensive tasks while adapting to changes in the environment; therefore, in these systems learning is needed to predict the responses of the environment to the system actions, thus guiding the system to achieve its goals. However, the learning capabilities required for this feature are underdeveloped in artificial systems, especially when compared to those of humans and animals.&lt;br /&gt;&lt;br /&gt;
+
+Highly-computational processors are embedded in chip technology (i.e. CPU and GPU) which every year uses lower dimension transistors yielding high speed, low leakage power, and low cost per transistor. However, the conventional approach to computation, based on the von Neumann architecture with separate units for information storage and processing, is still outperformed in energy efficiency by biological nervous systems in cognitive tasks, such as classification and prediction, where the input data is characterized by ambiguity and uncertainty. In this sense neuromorphic engineering solves specific tasks which are easily performed by biological systems using computational models discovered in biological organisms and where classical processors&apos; architecture would have difficulties.&lt;br /&gt;&lt;br /&gt;
+
+This thesis aims at the implementation of biologically inspired learning algorithm to be embedded in full-custom VLSI spiking neural networks with the goal of constructing compact real-time low-power learning systems with potential application in computational neuroscience basic research investigation, and applications where input data is ambiguous such as in patter recognition.&lt;br /&gt;&lt;br /&gt; 
+
+The starting point of this research is based on recent studies that demonstrated a key role of calcium ions for long term synaptic plasticity. These experimental results have inspired mathematical models and hardware implementations of calcium based learning algorithms. Here I present two prototypes of a novel Very-large-scale Integration (VLSI) implementation of a recently proposed calcium-based learning algorithm, its circuital and computation model simulation results and comparison with the mathematical model. The second improved circuit corrects errors observed in the first chip and it is connected to a low-power neuron in a small array.&lt;br /&gt;&lt;br /&gt;
+
+The elaboration of this learning system embedded in a chip provides insight and significant progress in the complex task to understand how to build brain-like integrated systems. This system can be used also as a tool for validating hypotheses arising from experimental observations of biological systems and computational models.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29193413</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2919341</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2919341">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2919341/2919669/Maldonado_thesis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2919341" DMDID="DMD2919341">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2919341"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

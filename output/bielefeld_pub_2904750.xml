@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2904750">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Controlling public debt without forgetting Inflation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Giorgio</namePart>
+                        <namePart type="family">Ferrari</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">workingPaper</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">Consider the problem of a government that wants to control its debt-to-GDP
+(gross domestic product) ratio, while taking into consideration the evolution of the inflation
+rate of the country. The uncontrolled inflation rate follows an Ornstein-Uhlenbeck dynamics
+and affects the growth rate of the debt ratio. The level of the latter can be reduced by the
+government through fiscal interventions. The government aims at choosing a debt reduction
+policy which minimises the total expected cost of having debt, plus the total expected cost of
+interventions on debt ratio. We model such problem as a two-dimensional singular stochastic
+control problem over an infinite time-horizon. We show that it is optimal for the government
+to adopt a policy that keeps the debt-to-GDP ratio under an inflation-dependent ceiling. This
+curve is the free-boundary of an associated fully two-dimensional optimal stopping problem, and
+it is shown to be the unique solution of a nonlinear integral equation.</abstract>
+                    <subject>
+                        <topic>debt-to-GDP ratio</topic>
+                        <topic>inflation rate</topic>
+                        <topic>debt ceiling</topic>
+                        <topic>singular stochastic control</topic>
+                        <topic>optimal stopping</topic>
+                        <topic>free-boundary</topic>
+                        <topic>nonlinear integral equation</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <relatedItem type="host">
+                        <titleInfo>
+                            <title></title>
+                        </titleInfo>
+                        <part>
+                            <detail type="volume">
+                                <number>564</number>
+                            </detail>
+                            <extent unit="page">
+                                <start>33</start>
+                            </extent>
+                        </part>
+                    </relatedItem>
+                    <identifier type="issn">0931-6558</identifier>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29047501</identifier>
+                    <identifier type="sys">HT019099767</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2904750</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>working_paper</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2904750">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2904750/2904751/IMW_working_paper_564.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2904750" DMDID="DMD2904750">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2904750"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

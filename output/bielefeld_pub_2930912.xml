@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD2930912">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7" xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo>
+                        <title>Efficient communication through attentive speaking</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <namePart type="given">Hendrik</namePart>
+                        <namePart type="family">Buschmeier</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-9613-5713</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <namePart type="given">Stefan</namePart>
+                        <namePart type="family">Kopp</namePart>
+                        <nameIdentifier type="orcid" typeURI="http://orcid.org">0000-0002-4047-9277</nameIdentifier>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract lang="eng">In dialogue, problems in understanding are resolved through mechanisms such as clarification and repair. Listeners provide feedback (verbal/vocal signals, e.g, hm, uh-huh; head gestures; facial expressions) to unfolding utterances, which speakers may immediately take into account by adapting their ongoing language production. Feedback is important for efficient communication, as emerging problems can be solved before they become critical, or production can be discontinued upon understanding. Endowing artificial conversational agents – dialogue systems, virtual agents, robots – with such intelligently interactive means of communication has the potential to make them more natural and efficient.
+
+Previously, we presented cognitive/computational models for interpreting listener feedback through probabilistic mental state attribution, incrementally adapting ongoing utterances to this attributed state, and eliciting feedback when necessary [1]. We showed that participants in an interaction study with such an ‘attentive speaker agent’ provided natural feedback and noticed that it was attentive and adaptive [2].
+
+Here we present results investigating whether understanding in interaction with such an agent is reached more efficiently than with conversational agents that are not attentive to their interlocutors’ needs. Participants engaged in an information presentation task with one of three embodied agents: the attentive speaker agent (AS), a lower-bound baseline agent that did not adapt to participants’ needs (NA), and an upper-bound baseline agent that always explicitly asked participants whether it should repeat information (EA). We measured costs of the interactions in terms of duration, and performance in terms of understanding (operationalised via recall).
+
+As expected, interactions in target condition AS were shorter than in condition EA and longer than in condition NA. Similarly, participants’ performance in target condition AS was lower than in condition EA and higher than in condition NA. Analysing the efficiency (ratio of performance to costs) of the interactions, we found that interactions with the attentive speaker agent were more efficient than interactions in condition EA (factor 1.18), but less efficient than interactions in condition NA (factor 0.55).
+
+The results show that taking user feedback into account in human–agent interaction and adapting to it makes communication more efficient than when explicitly ensuring users’ understanding. Not adapting was even more efficient, but found to be less helpful and cooperative [2]. Being able to speak attentively can thus be regarded an important step towards natural, smooth, and efficient interaction with artificial conversational agents.
+
+[1] Buschmeier, H. (2018). Attentive Speaking. From Listener Feedback to Interactive Adaptation. PhD thesis, Bielefeld University, Bielefeld, Germany.
+
+[2] Buschmeier, H. &amp; Kopp, S. (2018). Communicative listener feedback in human–agent interaction: artificial speakers need to be attentive and adaptive. In Proceedings of the 17th International Conference on Autonomous Agents and Multiagent Systems, Stockholm, Sweden.</abstract>
+                    <subject>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:0070-pub-29309121</identifier>
+                    <accessCondition type="use and reproduction" xlink:href="https://rightsstatements.org/vocab/InC/1.0/">Urheberrechtsschutz</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>bielefeld_pub_2930912</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_bielefeld_pub_2930912">
+                <mets:FLocat xlink:href="https://pub.uni-bielefeld.de/download/2930912/2931443/Buschmeier-Kopp-2018-KogWis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="bielefeld_pub_2930912" DMDID="DMD2930912">
+            <mets:fptr FILEID="FILE0_bielefeld_pub_2930912"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
