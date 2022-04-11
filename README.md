@@ -1,7 +1,7 @@
 # Harvesting und Transformation der Daten des institutionellen Repositoriums PUB der Universität Bielefeld für das Portal noah.nrw
 Dieser Workflow harvestet die Daten des institutionellen Repositoriums [pub](https://pub.uni-bielefeld.de) der Universität Bielefeld im Format MODS und transformiert diese in METS/MODS für das Portal [noah.nrw](https://noah.nrw).
 
-Die Daten in diesem Repository werden [alle 24 Stunden nachts ab 03:21 Uhr](.github/workflows/default.yml#L6) aktualisiert.
+~~Die Daten in diesem Repository werden [alle 24 Stunden nachts ab 03:21 Uhr](.github/workflows/default.yml#L6) aktualisiert.~~ (pausiert)
 
 ## Systemvoraussetzungen
 
